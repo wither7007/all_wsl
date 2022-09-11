@@ -1,0 +1,29 @@
+diff --git a/note/work b/note/work
+index 32b28ea..2a0d2ab 100644
+--- a/note/work
++++ b/note/work
+@@ -188,3 +188,24 @@ fd -d 1 "&" -exec rename "s/&//g" {} \;
+ 
+ 
+ The find command syntax is hairy enough, so why bring another command into it? If you use find's "-exec" option, it will spin up a new process each time it searches through a file in the directory. Using xargs is more efficient.
++
++
++
++
++…or create a new repository on the command line
++echo "# all_wsl" >> README.md
++git init
++git add README.md
++git commit -m "first commit"
++git branch -M main
++git remote add origin git@github.com:wither7007/all_wsl.git
++git push -u origin main
++
++…or push an existing repository from the command line
++git remote add origin git@github.com:wither7007/all_wsl.git
++git branch -M main
++git push -u origin main
++
++
++
++
