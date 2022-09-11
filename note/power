@@ -1,0 +1,362 @@
+
+gci | ? {$_.Name -match 'siv.*usin'} | % {touch.exe $_.Name}
+Get-ChildItem  | ? { $_.Name -match '.*node' }
+$services | ft -auto
+$services | fl
+New-Item -ItemType SymbolicLink -Path "c:\news" -Target "C:\projects\takeout"
+String.fromCharCode(97+Math.floor(Math.random() * 26))
+
+code --list-extensions | % { "code --install-extension $_" }
+code --install-extension Angular.ng-template
+--uninstall-extension <ext>
+C:\Users\jayst\AppData\Roaming\Code\User
+Get-Content extensions.txt | ForEach-Object {code --install-extension $_}
+
+import clipboard
+clipboard.copy("abc")  # now the clipboard content will be string "abc"
+curl "https://api.openweathermap.org/data/2.5/weather?q=minneapolis&appid=c1226a736dac2e52a2c456f0dc2c03ba&units=metric"
+traversy smooth
+https://www.youtube.com/watch?v=y9nlfqT4s9s
+%alias_magic h history "-p -l 30" --line
+https://adamtheautomator.com/powershell-delete-file/
+curl https://raw.githubusercontent.com/wither7007/all/main/.gitignore > .gitignore
+curl "https://api.github.com/users/wither7007/repos?per_page=100" | v -
+curl -s https://api.github.com/users/webdevsimplified/repos | jq '.[]|.html_url'
+
+unstage
+git restore --staged .
+remove all changes
+git checkout .
+
+curl 'https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/raw!A1:D5?alt=json&key=AIzaSyCksSrPzSDpTmgJ-FaTT4_Xg6lHb9YtZJw'
+vim date
+pu=strftime('%c')
+vim indent
+:'<,'>normal! >>
+vim
+:PlugStatus
+
+#For all unstaged files in current working directory use:
+git checkout -- .
+#For a specific file use:
+git checkout -- path/to/file/to/revert
+
+javascript break      throw new Error();
+
+
+typeof k === 'undefined' ?  console.log("not") : console.log("yes")
+emmet 3 row             (.col>.p3.border.bg-light{row $}
+        document.addEventListener('click', function (e) {
+            e = e || window.event;
+            var target = e.target || e.srcElement,
+                text = target.textContent || target.innerText;
+            console.log(text)
+        }, false);
+ps | sed -e '1,3d'  | v -
+https://designshack.net/articles/css/best-ways-to-learn-css-grid/
+var body = await request.get('https://jsonplaceholder.typicode.com/todos/1');
+
+javascript
+const range = [...Array(10).keys()];
+playlist
+yt-dlp -f 'bv*[height=1080]+ba' --download-archive videos.txt  https://www.youtube.com/playlist?list=PLlVlyGVtvuVnUjA4d6gHKCSrLAAm2n1e6 -o '%(channel_id)s/%(playlist_id)s/%(id)s.%(ext)s'
+
+channel
+yt-dlp -f 'bv*[height=720]+ba' --download-archive videos.txt https://www.youtube.com/c/FootheFlowerhorn/videos -o '%(channel)s/%(title)s.%(ext)s'
+
+yt-dlp -f 'bv[height=1080][ext=mp4]+ba[ext=m4a]' --embed-metadata --merge-output-format mp4 https://www.youtube.com/watch?v=1La4QzGeaaQ -o '%(id)s.mp4'
+<!-- CSS only -->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+      document.getElementById('fetch').addEventListener('click',copyToClickBoard) 
+      function copyToClickBoard() {
+          var content = document.getElementById('fetch').innerHTML;
+          alert(content)
+          navigator.clipboard.writeText(content)
+              .then(() => {
+                  console.log("Text copied to clipboard...")
+              })
+              .catch(err => {
+                  console.log('Something went wrong', err);
+              })
+      }
+
+(gci -recurse -path *.html,*.js).fullname
+Get-Item -Path Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Wallpapers
+argument template
+#!/usr/bin/python
+import sys
+print(f"number of args {len(sys.argv)}")
+print(f"Argument list {str(sys.argv)}")
+
+rg copy -g *.py
+jq '.[]'
+!/usr/bin/python
+Get-ChildItem  -File  -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -gt (Get-Date).AddDays(-1)} 
+
+| % {Remove-Item $_.FullName}
+
+it= soup.find_all('img')
+curl -s https://sharadchhetri.com/print-particular-line-number-using-sed-command/ | sed '2,10 !d' | nl
+gci | sort LastWriteTime -ascending | Select Name,LastWriteTime ,Directory
+Get-Service | Where-Object {$_.Status -eq "Running"}
+Get-Process | Sort-Object -Property WS | Select-Object -Last 5
+Get-Process | Sort-Object | Select-Object processname | Get-Unique -AsString | v -
+Get-Service | Sort-Object -Property @{Expression = "Status"; Descending = $true}, @{Expression = "DisplayName"; Descending = $false} | Where-Object {$_.Status -eq "Running"}
+ddr3L 1.35volts not 1.5 volts
+whereis gcm 
+msconfig 
+winver 
+Stop-Process -id 6116 Get-ACL
+
+# First, create an array of strings.
+$array =  @("chrome","firefox","iexplore","opera")
+
+C:\Users\jayst\AppData\Roaming\Code\User
+(Get-ChildItem -File -Name) -match 'Baren.*'
+
+move with gci
+gci *.mp3 | % {mv $_.fullname C:\music\mozConcerto\}
+# Next, loop through each item in your array, and stop the process.
+foreach ($process in $array)
+{
+    Stop-Process -Name $process
+}
+delete directory
+Get-ChildItem -Path C:\Temp -Include *.* -File -Recurse | foreach { $_.Delete()}
+Remove-Item c:\projects\json\* -Recurse -Force
+
+Get-ChildItem | Select-Object Name,CreationTime,@{n='AgeInDays';e={(New-TimeSpan -Start $PSItem.CreationTime).Days}}
+:vnew
+python to win
+%s/\//\\/g
+replace 1 cr with 2
+%s/\n/\r\r/g
+win to python
+.s/\\/\//g
+:r foo.txt    Insert the file foo.txt below the cursor.
+:0r foo.txt   Insert the file foo.txt before the first line.
+:r !ls        Insert a directory listing below the cursor.
+:$r !pwd      Insert the current working directory below the last line.
+
+db="conn=sqlite3.connect('C:/Users/jayst/AppData/Roaming/Ditto/Ditto.db')"
+conn=sqlite3.connect('C:/Users/jayst/AppData/Roaming/Ditto/Ditto.db')
+
+model number
+Get-CimInstance -ClassName Win32_ComputerSystem
+
+dir env: | v -
+$Env:PATH += ":/usr/local/temp"
+Set-Item -Path Env:Path -Value ($Env:Path + ";C:\Temp")
+
+vim blank lines
+:g/^$/d
+:vnew vertical new
+open vertical split (-o for horizontal)
+v -O .\style.css .\mystyle.css
+:version
+:map
+delete all except
+:v/price/d
+delete control (turn of akey) ctrl-q ctrl-[letter]
+:redir @a
+:set all
+:redir END
+
+ddp / ddkP are common commands to move a line one down / up.
+
+Alternatively, you can use the :move command, i.e. :move +1 / :move -2; this doesn't clobber
+v -o (-O horz -p tabs) two files
+Get-Process | Select MainWindowTitle,ProcessName,Id | where{$_.MainWindowTitle -ne ""}
+grep -nr string my_directory
+vim +546 functions
+replace confirm gc
+win # for app
+win b (right bottom)
+
+Get-Process -Name chrome | Format-List -Property * | v -
+vim get diff (go get obtain gp get put)
+zo fold open zc fold close
+gci -Directory | Format-Wide -Column 3
+
+numbers = "{:,}".format(5000000)
+print(numbers)
+
+virtualenv flask
+gci | % fullname
+
+(replace new line) Use \r instead of \n.
+:saveas
+dir env:
+
+$env:path -split ";"
+
+| ft -auto #format table autosize (gets rid of ellipses)
+Viewing function contents
+Get-Command <Function Name> | Select -ExpandProperty ScriptBlock
+	or
+(Get-Command <Function Name>).ScriptBlock
+  or
+$function:cpu
+python -c "print('Hi!')"
+
+pip install sql-formatter
+
+z<CR> or zt puts current line to top of screen (<CR> == Enter)
+z. or zz puts current line to center of screen
+z- or zb puts current line to bottom of screen
+(z<CR>, z., and z- puts the cursor in the first non blank column. zt, zz, and zb leaves the cursor in the current column)
+
+You can disable this by going to: File -> Preferences -> Settings
+find: "git.decorations.enabled" and change it to false
+If you are not working with git find: "git.enabled" and change it to false
+git commit --amend --no-edit
+
+$Env:Path += ";c:\temp"
+dir Env: | vim -
+ -ErrorAction SilentlyContinue
+gc .\Test.java | Set-Clipboard
+
+$a -replace '\w+\W+\w+$' #remove exe from gcm
+$a=(gcm kotlinc | % {$_.source}) -replace '\w+\W+\w+$'
+Get-Process | Where-Object {$_.WorkingSet -gt 100000000}
+You can also use the shortcut WinKey+Shift+S to start taking screenshots from any app directly.
+
+
+# get Firefox process
+$firefox = Get-Process firefox -ErrorAction SilentlyContinue
+if ($firefox) {
+  # try gracefully first
+  $firefox.CloseMainWindow()
+  # kill after five seconds
+  Sleep 5
+  if (!$firefox.HasExited) {
+    $firefox | Stop-Process -Force
+  }
+}
+Remove-Variable firefox 
+Create a new pane, splitting horizontally: Alt+Shift+- (Alt, Shift, and a minus sign)
+Create a new pane, splitting vertically: Alt+Shift++ (Alt, Shift, and a plus sign)
+Move pane focus: Alt+Left, Alt+Right, Alt+Down, Alt+Up
+Resize the focused pane: Alt+Shift+Left, Alt+Shift+Right, Alt+Shift+Down, Alt+Shift+Up
+Close a pane: Ctrl+Shift+W
+Get-Process | Where-Object {$_.WorkingSet -gt 200000000}
+Get-Help Get-ChildItem -ShowWindow
+
+kotlinc hello.kt -include-runtime -d hello.jar
+java -jar hello.jar
+
+noremap <F4> :set hlsearch! hlsearch?
+
+Value defined as Important > Inline >id nesting > id > class nesting > class > tag nesting > tag
+WipeReg
+
+%history -g -f filene
+
+admin windows x a
+function Test-Administrator  
+{  
+    $user = [Security.Principal.WindowsIdentity]::GetCurrent();
+    (New-Object Security.Principal.WindowsPrincipal $user).IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)  
+}
+python pip files: python -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"
+
+System restore point (run as admin)
+powershell.exe -ExecutionPolicy Bypass -NoExit -Command Checkpoint-Computer -Description ‘Restore Point Name’ -RestorePointType ‘MODIFY_SETTINGS’
+
+
+Get-ChildItem Env: | Sort Name
+
+$function:getc
+Get-Process | Select-Object -Property name, id
+Get-Process | Select-Object -Property name, id | grep pyth
+Stop-Process -name python
+Get-Process | Select-Object -Property name, id | grep pyth
+Get-Host | Select-Object Version
+
+
+Get-ChildItem -Recurse -ErrorAction SilentlyContinue | Where-Object {$_.Length -gt 55550KB} | Select @{Name="Length";Expression={$_.Length/1MB}}, fullName  
+Get-ChildItem -Recurse -file -ErrorAction SilentlyContinue | Where-Object {$_.LastWriteTime -gt (Get-Date).AddDays(-1)}
+gci -file -name -Recurse
+gci ch* | % {$fileBaseNames = (Get-ChildItem).BaseName}
+
+C:\Users\jayst\AppData\Local\nvim-data\site\autoload
+
+Replacing this line:
+
+with open('filename', 'w') as f:
+With this:
+with open('filename', 'w', encoding='utf-8') as f:
+The reason why it is working is because the encoding is changed to UTF-8 when using the file, so characters in UTF-8 are able to be converted to text, instead of returning an error when it encounters a UTF-8 character that is not suppord by the current encoding.
+Goyo + VimPencil
+
+Once upon a time, in some out of the way corner of that universe which is dispersed into numberless twinkling solar systems, there was a star upon which clever beasts invented knowing. That was the most arrogant and mendacious minute of "world history," but nevertheless, it was only a minute. After nature had drawn a few breaths, the star cooled and congealed, and the clever beasts had to die. One might invent such a fable, and yet he still would not have adequately illustrated how miserable, how shadowy and transient, how aimless and arbitrary the human intellect looks within nature. There were eternities during which it did not exist. And when it is all over with the human intellect, nothing will have happened
+https://www.youtube.com/watch?v=video
+list installed programs
+Get-CimInstance win32_product |  Format-Table -Wrap -AutoSize > installed
+(Measure-Command {Get-CimInstance Win32_Product}).TotalSeconds
+https://xkln.net/blog/please-stop-using-win32product-to-find-installed-software-alternatives-inside/
+https://adamtheautomator.com/get-winevent/
+https://www.geeksforgeeks.org/textwrap-text-wrapping-filling-python/
+
+jq '.[0] | {FileName, Duration}' .\x.json
+exiftool -j .\a7s.mp3 | jq '.[0] | {FileName, Duration}'
+pane alt-shift arrow up
+pane alt-shift- 
+cat .\exif.txt | jq 'select(objects)|=[.] | map( paths(scalars) ) | map( map(select(numbers)="[]") | join(".")) | unique' | v -
+exiftool -j .\a7s.mp3 | jq '.[0] | {FileName, Duration, Comment-xx}'
+ ".\01 Summertime.mp3" | jq '.[0] | {FileName, Duration, Artist}'
+
+https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line
+lt
+gci -Force
+ri .git -Force -Recurse
+lt
+git init -b main
+lt
+git add .
+git commit -m "initial commit"
+lt
+git remote add origin https://github.com/wither7007/vidSearch.git
+git remote -v
+git push origin main
+git pull
+git push origin main
+git push origin main --force
+his
+
+echo "# wither7007.github.io" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/wither7007/wither7007.github.io.git
+git push -u origin main
+
+
+The "simplest" way is to just use :substitute:
+
+:%s/\s\+$//e
+:%s to run :substitute over the range %, which is the entire buffer.
+\s to match all whitespace characters.
+\+ to match 1 or more of them.
+$ to anchor at the end of the line.
+The e flag to not give an error if there is no match (i.e. the file is already without trailing whitespace).
+However, this is probably not the "best" way as it causes two side-effects:
+
+it moves the cursor to the last match;
+it adds the command to the history and search history;
+it resets the last search term.
+You can fix both items by turning this into a function:
+
+fun! TrimWhitespace()
+    let l:save = winsaveview()
+    keeppatterns %s/\s\+$//e
+    call winrestview(l:save)
+endfun
+And then use it like:
+
+:call TrimWhitespace()
+
+/usr/bin/env: ¿python3¿: No such file or directory

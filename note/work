@@ -1,0 +1,190 @@
+const object = { a: 1, b: 2, c: 3 };
+
+for (property in Window) {
+  console.log(`${property}: ${object[property]}`);
+}
+Object.keys( window );
+
+const el = document.createElement('h1');
+const words = "Hello, World!"
+const text = document.createTextNode(words);
+el.appendChild(text);
+Friedrich Schleiermacher (1768-1834), David Friedrich Strauss (1808-74), and Ludwig Feuerbach (1804-72)
+document.body.appendChild(el);
+NAV net asset value
+commercial paper short term loans to save companies
+money market fund (parent prevents breaking the buck) Reputation!
+Grave – very slow (25–45 bpm)
+Largo – slow and broad (40–60 bpm)
+Lento – slow (45–60 bpm)
+Adagio – slow with great expression[10] (66–76 bpm)
+Andante – at a walking pace (76–108 bpm)
+Moderato – at a moderate speed (108–120 bpm)
+Allegro – fast, quick, and bright (120–156 bpm) (molto allegro is slightly faster than allegro, but always in its range; 124-156 bpm)
+Presto – very, very fast (168–200 bpm)
+
+let add_element = () => {
+    const template = document.createElement('div');
+    template.innerHTML = "Content inside DIV";
+    
+    document.body.appendChild(template);
+}
+
+
+Tell all the truth but tell it slant —
+Success in Circuit lies
+Too bright for our infirm Delight
+The Truth's superb surprise
+As Lightning to the Children eased
+With explanation kind
+The Truth must dazzle gradually
+Or every man be blind —
+
+Definition of spirochete
+: any of an order (Spirochaetales) of slender spirally undulating bacteria including those causing syphilis and Lyme disease
+
+Definition of paresis
+1: slight or partial paralysis
+
+Definition of chancre
+: a primary sore or ulcer at the site of entry of a pathogen (as in tularemia)
+especially : the initial lesion of syphilis
+
+
+
+
+
+youtube
+dev ed
+ania kubow
+udemy
+ArjanCodes
+If you haven't heard about Piped before, in simple terms, it is an alternative frontend that is designed to be efficient by design, where you can watch YouTube without making any connections to Google's servers and have subscriptions without a google account.
+
+After 8 months of development, I am finally excited to share the project at its current state!
+
+The reason why this project was created was to create a truly unique alternative to Invidious, with performance and stability as the primary goal.
+
+For those of you who want to try out Piped, you may do so at https://piped.kavin.rocks/
+
+If you would like to contribute with code, you may do so at https://github.com/TeamPiped/Piped
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 980px) {
+  
+  /* CSS */
+  
+}
+
+https://www.youtube.com/watch?v=8X4u9sca3Io
+git --version
+ssh-keygen -t ed25519 -C "jimsteffes@outlook.com"
+eval "$(ssh-agent -s)"
+touch ~/.ssh/config
+v ~/.ssh/config
+cd .ssh
+lt
+ssh-add ~/.ssh/id_ed25519
+v ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+add key to github.com
+
+
+
+Disillusionment of Ten O'Clock
+ The houses are haunted
+ By white night-gowns.
+ None are green,
+ Or purple with green rings,
+ Or green with yellow rings,
+ Or yellow with blue rings.
+ None of them are strange,
+ With socks of lace
+ And beaded ceintures.
+ People are not going
+ To dream of baboons and periwinkles.
+ Only, here and there, an old sailor,
+ Drunk and asleep in his boots,
+ Catches tigers
+ In red weather.
+
+
+def fizz_buzz(n):
+  """Print Fizz Buzz numbers from 1 to n."""
+  for i in range(1, n + 1):
+    s = ""
+    if i % 3 == 0:
+      s += "Fizz"
+    if i % 5 == 0:
+      s += "Buzz"
+    print(s if s else i)
+
+fizz_buzz(20)
+
+!# renaming youtubes
+find * -type f -name "*" -exec rename "s/Shell.*\-\s//g" {} \;
+fd "Shel.*\-" | sed 's/Shell.*\-\s//g'
+fd -d 1 "'" -exec rename "s/\'//g" {} \;
+fd -d 1 "&" -exec rename "s/&//g" {} \;
+
+
+The find command syntax is hairy enough, so why bring another command into it? If you use find's "-exec" option, it will spin up a new process each time it searches through a file in the directory. Using xargs is more efficient.
