@@ -67,3 +67,25 @@ cd all_wsl/
 gst
 git add .
 gst
+git commit -am "added ghist"
+gst
+git push
+gst
+lt
+v ghist 
+git add .
+gst
+git add ghist
+gst
+ls -l
+lt
+v ghist 
+u
+lt
+v bash_h9-8.txt 
+cp bash_h9-8.txt all_wsl/
+cd all_wsl/
+lt
+gst
+git add .
+his
