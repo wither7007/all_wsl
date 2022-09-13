@@ -148,7 +148,6 @@ sudo apt-get -y autoremove
 : 1660277378:0;alias python='p3'
 : 1660277484:0;fd pyt
 : 1660277510:0;md python
-: 1660277526:0;su
 : 1660278195:0;wi pip
 : 1660278331:0;fd a
 : 1660278406:0;fd -d 1 a
@@ -310,7 +309,6 @@ docker run -d -p 80:80 4dbccaee670e
 : 1660544627:0;docker exec -it 056b595bb20d /bin/sh
 : 1660544662:0;docker exec -it 9d5108fdb7fd /bin/sh
 : 1660544952:0;docker stop 9d5108fdb7fd
-: 1660545014:0;docker rmi $(docker images -q)
 : 1660589047:0;RUN sh -c "$(wget -O- https://github.com/deluan/zsh-in-docker/releases/download/v1.1.2/zsh-in-docker.sh)"
 : 1660589108:0;curl "https://github.com/deluan/zsh-in-docker/releases/download/v1.1.2/zsh-in-docker.sh"
 : 1660589270:0;https://github.com/deluan/zsh-in-docker/releases/download/v1.1.2/zsh-in-docker.shlt
@@ -436,7 +434,6 @@ alias l.='exa -a | egrep "^\."'
 : 1660714892:0;echo alias fdi="fd -d 1 -H -I "
 : 1660714905:0;echo alias fdi="fd -d 1 -H -I " >> .bash_aliases
 : 1660715006:0;alias rmt="trash-put "
-: 1660715261:0;rm -rf .git
 : 1660715339:0;tree link
 : 1660715348:0;tree powerlevel10k
 : 1660715403:0;md test
@@ -445,7 +442,6 @@ alias l.='exa -a | egrep "^\."'
 : 1660715426:0;cd bare
 : 1660715432:0;git init --bare
 : 1660715620:0;se 'git.*remot'
-: 1660715634:0;git init
 : 1660715751:0;echo "# wdot" >> README.md\
 git init\
 git add README.md\
@@ -466,7 +462,6 @@ git push -u origin main
 : 1660716414:0;cd $HOME/dotfiles
 : 1660716500:0;config git-log
 : 1660716619:0;config add .
-: 1660716663:0;git log
 : 1660716744:0;config checkout
 : 1660716772:0;config branch
 : 1660716787:0;config log
@@ -482,7 +477,6 @@ git push -u origin main
 : 1660717086:0;config push --set-upstream none master
 : 1660717099:0;config push --set-upstream master
 : 1660717125:0;config push --set-upstream master master
-: 1660717147:0;cd dotfiles
 : 1660717215:0;rmt dotfiles
 : 1660717557:0;docker run -it --name=myubuntuv1 myimage:version1 bash
 : 1660717574:0;docker run -it --name=myubuntuv4 myimage:version1 bash
@@ -568,7 +562,6 @@ git push -u origin main
 : 1660792907:0;source ../35.sh
 : 1660792922:0;v 35.sh
 : 1660792982:0;cd 35
-: 1660793100:0;git push -u origin main
 : 1660793136:0;git push --set-upstream origin main
 : 1660793244:0;fd -d 1 git
 : 1660793310:0;alias fdi=fd -d 1 -H -I
@@ -585,7 +578,6 @@ git push -u origin main
 : 1660793471:0;lt > lt
 : 1660793498:0;cat lt
 : 1660793539:0;ga .
-: 1660793542:0;git diff
 : 1660793581:0;git commit -m 'file'
 : 1660793693:0;md 36 && cd 26
 : 1660793701:0;md 36 && cd 36
@@ -756,7 +748,6 @@ printf "You have entered incorrect marks: $marks\n "\
 : 1660877409:0;f3
 : 1660877502:0;md junk && cd junk
 : 1660877614:0;chmod -x j.sh
-: 1660877746:0;source j.sh
 : 1660877749:0;f4
 : 1660877763:0;chmod +x j.sh
 : 1660877848:0;sh j.sh
@@ -767,7 +758,6 @@ printf "You have entered incorrect marks: $marks\n "\
 : 1660878102:0;echo \n
 : 1660878184:0;echo -e \n
 : 1660878310:0;./j.sh
-: 1660878322:0;v j.sh
 : 1660878378:0;printf 'f4\nwhat\'s up'
 : 1660878391:0;printf "what's"
 : 1660878399:0;printf "what"
@@ -994,7 +984,6 @@ The file TestFile1 does not exist.
 : 1660947379:0;p3 -m pip install ffmpeg
 : 1660947799:0;pip install ffmpeg-python
 : 1660947966:0;ffmpeg -version
-: 1660948037:0;se 'activate'
 : 1660948337:0;mkc () {\
   mkdir $1\
   cd $1\
@@ -1106,7 +1095,6 @@ The file TestFile1 does not exist.
 : 1660970660:0;fdi 'mp'
 : 1660970680:0;rm LNL183.mp3
 : 1660970694:0;p3 proc.py | less
-: 1660970804:0;se 'fd.*with'
 : 1660970818:0;fd --changed-within=30min
 : 1660970835:0;fd --changed-within 2weeks
 : 1660971592:0;whos
@@ -1149,7 +1137,6 @@ ex () { exiftool -j $1 | v - }
 : 1660974488:0;se 'descri'
 : 1660974555:0;se 'exi.*-T'
 : 1660974763:0;ls py
-: 1660974773:0;alias ls
 : 1660974784:0;ls py*
 : 1660974826:0;rg mp4
 : 1660974887:0;rg mp4 | v -
@@ -1297,10 +1284,7 @@ ex () { exiftool -j $1 | v - }
 cd as-tree\
 make install
 : 1661046449:0;sh d.sh
-: 1661046461:0;source d.sh
 : 1661046470:0;bash d.sh
-: 1661046543:0;chmod +x d.sh
-: 1661046564:0;v d.sh
 : 1661046586:0;./d.sh
 : 1661046714:0;ls | sort -V
 : 1661046772:0;ll -sh
@@ -1324,7 +1308,6 @@ make install
 : 1661052102:0;compgen -A function | column | rg -v "^_"
 : 1661052113:0;ii
 : 1661052137:0;ls -sh
-: 1661052145:0;apps
 : 1661052156:0;dpkg -l
 : 1661052279:0;sudo apt-qq list p7Zip-full
 : 1661052285:0;sudo apt list p7Zip-full
@@ -1386,12 +1369,10 @@ make install
 : 1661062971:0;compgen -A function | rg -v '^+'
 : 1661062983:0;compgen -A function | rg -v '^_' | sort
 : 1661063152:0;zsh_stats
-: 1661063160:0;declare -f
 : 1661063172:0;fc -l 1
 : 1661063284:0;declare -f zsh_stats
 : 1661063315:0;declare -f fc
 : 1661063319:0;alias fc
-: 1661063327:0;man whence
 : 1661063474:0;man fc
 : 1661063479:0;man zshbuiltins
 : 1661063587:0;man ps
@@ -1423,7 +1404,6 @@ make install
 : 1661103559:0;sudo du -h /etc
 : 1661103569:0;sudo du -h ~/.local
 : 1661103594:0;cd .local/share
-: 1661103609:0;cd Trash
 : 1661103642:0;trash-empty
 : 1661103747:0;cd ex
 : 1661103814:0;ll -h
@@ -1432,11 +1412,9 @@ make install
 : 1661104862:0;zsh-syntax-highlighting
 : 1661105100:0;cat /etc/os-release > os-8-21
 : 1661105104:0;v os-8-21
-: 1661105124:0;sudo apt upgrade
 : 1661131502:0;wi alias
 : 1661131520:0;whereis alias
 : 1661131533:0;whence alis
-: 1661131538:0;whence alias
 : 1661132267:0;v .save.js
 : 1661132308:0;node
 : 1661135196:0;chmod +x interesting.sh
@@ -1449,7 +1427,6 @@ make install
 : 1661135372:0;cat /etc/os
 : 1661135381:0;caot /etc/os-release
 : 1661135470:0;cat os-8-21
-: 1661135477:0;cat /etc/os-release
 : 1661135606:0;rm null
 : 1661135618:0;alias rm
 : 1661135661:0;fdi py
@@ -1525,8 +1502,6 @@ done;
 : 1661140826:0;alias g
 : 1661140881:0;sh functions.sh
 : 1661140896:0;bash functions.sh
-: 1661140924:0;v functions.sh
-: 1661140964:0;se 'delclare'
 : 1661140992:0;declare -f git
 : 1661141015:0;ghh
 : 1661141060:0;glog
@@ -1610,7 +1585,6 @@ sudo apt install zsh-autosuggestions
 : 1661146166:0;rg -m 1 python
 : 1661146209:0;rg -max-depth 1 python
 : 1661146222:0;rg -max-depth 1 bash
-: 1661146237:0;rgh
 : 1661146261:0;rg --max-depth 1 bash
 : 1661146306:0;rg --max-depth 1 googl
 : 1661146329:0;rg --max-depth 2 googl
@@ -1647,12 +1621,10 @@ sudo apt install zsh-autosuggestions
 : 1661151040:0;se 'dec
 : 1661151065:0;declare -f se
 : 1661151085:0;man declare
-: 1661152089:0;se 'compgen'
 : 1661152108:0;compgen -A function | rg -v '^_'
 : 1661152125:0;compgen -A function | rg -v '^_' | sort | column
 : 1661152203:0;declare -f url-quote-magic
 : 1661152217:0;declare -f url-quote-magic | less
-: 1661155443:0;uname -a
 : 1661155483:0;docker run -i --rm itchyny/gojq
 : 1661155551:0;docker ls
 : 1661155577:0;docker run -i --rm ghcr.io/itchyny/gojq
@@ -1710,11 +1682,8 @@ sudo apt install zsh-autosuggestions
 : 1661224121:0;printf "today is `date`\n" | grep '/\d/'
 : 1661224181:0;grep bash /etc/passwd
 : 1661224772:0;grep ste /etc/passwd
-: 1661225250:0;compgen -c
 : 1661225270:0;compgen -c | columns
 : 1661225275:0;compgen -c | column
-: 1661225286:0;compgen -c | sort | column
-: 1661225336:0;compgen -a | sort | column
 : 1661225365:0;alias vi
 : 1661225380:0;alias gupa
 : 1661225423:0;for x in ${compgen -a}; do echo $x; done 
@@ -1732,7 +1701,6 @@ sudo apt install zsh-autosuggestions
 : 1661226002:0;printf "$USER user can run $(compgen -c | wc -l) commands on $HOSTNAME.\n"
 : 1661226813:0;ps -aux | grep $d
 : 1661227014:0;su root
-: 1661227082:0;whoami
 : 1661227212:0;systemctl
 : 1661231501:0;ls -1 *.h | sed 's/^/    /' | sed 's/$/ \\/'
 : 1661231506:0;ls -1 *.sh | sed 's/^/    /' | sed 's/$/ \\/'
@@ -1747,7 +1715,6 @@ sudo apt install zsh-autosuggestions
 : 1661231708:0;ls -1 *.sh | sed 's/^/ cat /' 
 : 1661231785:0;for a in $(ls -1 *.sh | sed 's/^/ cat /'); do echo $a; done
 : 1661274240:0;duh > duh.txt
-: 1661274910:0;alias ld
 : 1661274959:0;for x in alias; do echo $x; done
 : 1661274987:0;for x in $(alias); do echo $x; done
 : 1661275024:0;for x in $(alias); do {echo $x; echo '--------'}; done
@@ -1811,7 +1778,6 @@ sudo apt install zsh-autosuggestions
 : 1661310382:0;find . -maxdepth 1 -name "*.py" -exec ls {} \;
 : 1661310392:0;find . -maxdepth 1 -name "*.py" -exec ls -l {} \;
 : 1661310402:0;find . -maxdepth 2 -name "*.py" -exec ls -l {} \;
-: 1661310419:0;se 'awk'
 : 1661310480:0;ps | sed 's/a/xxxxxxxxxx/g'
 : 1661310593:0;ps | awk 'BEGIN{FS="|"} {print $2 " " $1}'
 : 1661310626:0;ps | awk  {print $2 " " $1}'
@@ -1830,7 +1796,6 @@ sudo apt install zsh-autosuggestions
     -v caddy_data:/data \\
     caddy
 : 1661328281:0;docker rmi $(docker ps -a -q) #!remove all images
-: 1661328319:0;se 'docker.*rmi'
 : 1661355981:0;tree -d
 : 1661355992:0;tree -d | v -
 : 1661356061:0;tree -f
@@ -1845,7 +1810,6 @@ sudo apt install zsh-autosuggestions
 : 1661356359:0;fd -td config
 : 1661356372:0;fd -tdH config
 : 1661356386:0;fd -td -H config
-: 1661356395:0;cd .config
 : 1661356401:0;v nvim
 : 1661402358:0;exa -r
 : 1661402376:0;exat
@@ -1895,7 +1859,6 @@ done < "$input"
 : 1661405452:0;alias | rg ls
 : 1661405487:0;man ls
 : 1661405492:0;tldr
-: 1661405498:0;tldr ls
 : 1661406623:0;ls -ltr
 : 1661406638:0;tldr ps
 : 1661406692:0;ls find
@@ -2011,12 +1974,10 @@ done < "$input"
 : 1661473324:0;which python3.10
 : 1661473536:0;pushd scripts
 : 1661473558:0;pushd .npm
-: 1661473569:0;2
 : 1661473579:0;pushd
 : 1661473695:0;job
 : 1661473744:0;ls &>/dev/null tee> ~/xx &
 : 1661473766:0;v ~/xx
-: 1661473849:0;fd -H -I
 : 1661473977:0;fg 2
 : 1661473982:0;fg
 : 1661474557:0;cd /all
@@ -2104,7 +2065,6 @@ print NR,$0}'
 : 1661498712:0;rm -rf app333
 : 1661498828:0;cd c
 : 1661499137:0;alias rmdir
-: 1661499160:0;tldr rmdir
 : 1661499279:0;duh > duh2.txt &
 : 1661499308:0;ahk
 : 1661499654:0;cd youtube
@@ -2175,9 +2135,7 @@ sudo dpkg -i hyperfine_1.14.0_amd64.deb
 : 1661583212:0;zsh 'for i in {1..10000}; do echo test; done'
 : 1661583328:0;md 
 : 1661583333:0;mkdir input
-: 1661583342:0;for a in $(fd -d 1 -td); do rm -rf $a; done
 : 1661583446:0;ll | rg '^l'
-: 1661583487:0;cd .local
 : 1661583497:0;cd lib
 : 1661583512:0;cd python3.10
 : 1661583600:0;p3 -m pip list
@@ -2193,7 +2151,6 @@ sudo dpkg -i hyperfine_1.14.0_amd64.deb
 : 1661585950:0;docker commit amazing_sammet image3
 : 1661585987:0;docker run -ti image3
 : 1661586083:0;docker commit sharp_mendel image4
-: 1661586098:0;docker images
 : 1661586108:0;docker run -ti image4
 : 1661586773:0;docker commit keen_lewin image5
 : 1661586792:0;docker run -ti image5
@@ -2209,13 +2166,9 @@ sudo dpkg -i hyperfine_1.14.0_amd64.deb
 : 1661642654:0;watch pstree
 : 1661642664:0;p3 pro.py
 : 1661663068:0;take maria
-: 1661663091:0;se 'declar'
-: 1661663107:0;declare -f take
 : 1661663122:0;declare -f take | clip
-: 1661663159:0;declare -f takedir
 : 1661663221:0;fd act
 : 1661663245:0;source /bin/-activate
-: 1661663273:0;cd bin
 : 1661663282:0;source activate
 : 1661663406:0;p3 -m pip install mariadb
 : 1661663535:0;p3 -m pip install mysqlient
@@ -2232,7 +2185,6 @@ sudo dpkg -i hyperfine_1.14.0_amd64.deb
 : 1661665286:0;pipenv shell
 : 1661665327:0;pip3 install pipenv
 : 1661665341:0;p3 -m pip install pipenv
-: 1661665406:0;cd db
 : 1661665426:0;source bin/activate
 : 1661665468:0;pip install mysql-connector-python
 : 1661665961:0;se 'python'
@@ -2240,15 +2192,9 @@ sudo dpkg -i hyperfine_1.14.0_amd64.deb
 : 1661666710:0;se 'p.*env'
 : 1661706099:0;su py
 : 1661706298:0;ls -l home
-: 1661706328:0;ll /home
-: 1661706417:0;cat /etc/passwd
 : 1661706536:0;sudo useradd py
 : 1661706548:0;cat /etc/passwd | grep py
-: 1661706640:0;cat /etc/default
-: 1661706657:0;cd /etc/default
-: 1661706673:0;v useradd
 : 1661706952:0;sudo useradd -m py
-: 1661706959:0;ls -l /home
 : 1661707313:0;cat /etc/passwd | sort
 : 1661707333:0;cat /etc/passwd | grep 'x:'
 : 1661707346:0;cat /etc/passwd | grep 'x:[0-5]'
@@ -2272,11 +2218,8 @@ sudo dpkg -i hyperfine_1.14.0_amd64.deb
 : 1661708308:0;sudeo userdel py
 : 1661708312:0;sudo userdel py
 : 1661708319:0;cat /etc/passwd | rg 'x:[1-2]' | sort
-: 1661708424:0;	cat /etc/shadow
 : 1661708433:0;	cat /etc/shadowsudo
 : 1661708451:0;sudo	cat /etc/shadowsudo
-: 1661708469:0;sudo cat /etc/shadow
-: 1661708826:0;sudo cat /etc/shadow | grep 'stef'
 : 1661709402:0;cd lazy
 : 1661709405:0;stat -c %s 
 : 1661709434:0;stat -ch %s Schopenhauer.mp3
@@ -2315,8 +2258,6 @@ echo "$fileName size = ${mfs}"
 : 1661728759:0;source /mnt/c/all/bash/mp4/bin/activate
 : 1661728764:0;deactivate
 : 1661728905:0;v fix_corrupt
-: 1661728991:0;wi sd
-: 1661728999:0;man sd
 : 1661729038:0;sd
 : 1661729046:0;which sd
 : 1661729080:0;curl https://sh.rustup.rs -sSf | sh
@@ -2430,7 +2371,6 @@ done
 : 1661743111:0;for a in $(ls); 
 : 1661743119:0;for a in $(ls); do echo $a; done;
 : 1661743185:0;shopt -s nullglob
-: 1661743320:0;$0
 : 1661743610:0;touch ' ( noth ) '
 : 1661743616:0;for i in *'('*')'*\
     mv "$i" `echo $i | sed 's/\(.*\) (.*).\(.*\)/\1.\2/'`\
@@ -2495,7 +2435,6 @@ done
 : 1661747826:0;fd '\('
 : 1661747846:0;fd '\(.*'
 : 1661747859:0;fd '\(.*no'
-: 1661747868:0;fd '\(.*no' -x rm
 : 1661747873:0;fd '\(.*no' 
 : 1661747901:0;ls *.pdf
 : 1661747913:0;se '7z'
@@ -2506,7 +2445,6 @@ done
 : 1661748809:0;7z a -t7z archive.7z -xr.
 : 1661748862:0;7z a -tzip archive.zip *.txt -x
 : 1661748871:0;manv 7z
-: 1661749297:0;fd -td
 : 1661749304:0;fd -d 1 -td
 : 1661749312:0;fd -H -d 1 -td
 : 1661749327:0;v ex.txt
@@ -2555,7 +2493,6 @@ done
 : 1661830345:0;se 'fd.*rename'
 : 1661830360:0;se 'name'
 : 1661830409:0;take te
-: 1661830444:0;wi gh
 : 1661830463:0;se 'gh'
 : 1661830494:0;gh repo create words --public
 : 1661830604:0;echo "# words" >> README.md\
@@ -2631,13 +2568,11 @@ git push -u origin main
 : 1661837855:0;wi v
 : 1661837870:0;wi nvim
 : 1661837883:0;/usr/bin/nvim
-: 1661837914:0;fd -a
 : 1661837930:0;v ~/pys/ipysql.py
 : 1661838092:0;chmod +x ipy.sh
 : 1661838134:0;/usr/bin/python3.10 ~/pys/ipysql.py
 : 1661840537:0;cd monk
 : 1661840565:0;cp Misterioso.mp3 ~/non
-: 1661840724:0;3
 : 1661840728:0;cd con
 : 1661840746:0;stat Misterioso.mp3
 : 1661840790:0;stat x.pdf
@@ -2705,9 +2640,7 @@ done
 : 1661922436:0;fd -HI 'history'
 : 1661922444:0;fd -HI 'z.*history'
 : 1661922469:0;history
-: 1661922510:0;declare -f omz_history
 : 1661922555:0;alias history
-: 1661922573:0;alias v
 : 1661922665:0;cd .cache
 : 1661922685:0;du -h | sort
 : 1661922728:0;du -h | rg '\d\dM'
@@ -2852,8 +2785,6 @@ alias wi='whereis '
 : 1662140068:0;rm -rf tar
 : 1662140111:0;rm -rf db
 : 1662140238:0;fm .
-: 1662140510:0;echo $HISTFILE
-: 1662140558:0;ag python | v -
 : 1662140585:0;v ve.sh
 : 1662142517:0;stat -f DumpStack.log
 : 1662142527:0;stat -fh DumpStack.log
@@ -2884,7 +2815,6 @@ alias wi='whereis '
 : 1662143844:0;cd AppData/Local
 : 1662143922:0;rm rf Yarn
 : 1662143937:0;rm -rf Yarn
-: 1662144728:0;se 'docker.*rm'
 : 1662144755:0;docker rm $(docker ps -a -q) 
 : 1662144863:0;cd Users/jayst/
 : 1662144879:0;duh > dd.txt &
@@ -2999,7 +2929,6 @@ alias wi='whereis '
 : 1662158886:0;se 'fd.*zip'
 : 1662158907:0;se 'find.*zip'
 : 1662158914:0;se 'find.*'
-: 1662158948:0;fd -d 1 -H -I --change-older-than 2months  | xargs -n1 rm -rf
 : 1662159026:0;fd -d 1 -H -I --change-older-than 2months
 : 1662159051:0;v ntuser.dat.log1
 : 1662159075:0;fd -d 1 -H -I --change-older-than 2months | ls
@@ -3016,9 +2945,7 @@ alias wi='whereis '
     echo\
     echo\
     printf "\n%s%s%s\n\n" "$bold" "$1" "$normal"\
-\
     echo -e "\n### $1\n" >> "$REPORT"\
-}
 : 1662159571:0;heading
 : 1662159632:0;heading "No pattern"
 : 1662176588:0;fd duh
@@ -3056,15 +2983,11 @@ alias wi='whereis '
 : 1662180079:0;dufun ~/scripts/
 : 1662180153:0;du --all --human-readable \\n--one-file-system \\n--max-depth=1 2>/dev/null / | sort -k1 -rh | rg -v "^0" #! cool sort https://www.redhat.com/sysadmin/sort-du-output
 : 1662180185:0;dufun()\
-{\
-\
 du --all --human-readable \\n--one-file-system \\n--max-depth=1 2>/dev/null $1 | sort -k1 -rh | rg -v "^0" #! cool sort https://www.redhat.com/sysadmin/sort-du-output\
-}
 : 1662180237:0;dufun ~
 : 1662180258:0;dufun ~ | v -
 : 1662180317:0;declare -f dufun
 : 1662180384:0;du --all --human-readable \\n--one-file-system \\n--max-depth=0 . 2> /dev/null | sort -k1 -rh | rg -v "^0"
-: 1662180437:0;cd ~
 : 1662180505:0;duh |  sort -k1 -rh | rg '^0'
 : 1662180517:0;duh |  sort -k1 -rh | rg -v '^0'
 : 1662180529:0;duh |  sort -k1 -rh | rg -v '^0' | v -
@@ -3113,22 +3036,18 @@ echo "$VAR" => hello
 : 1662227663:0;lcd () { \
   echo  ${FUNCNAME[0]}\
   alias ldc =ls -d */}\
-}
 : 1662227708:0;lcd () { \
   echo  ${FUNCNAME[0]}\
   alias ldc =ls -d */\
-}
 : 1662227782:0;lcd () { \
   echo  ${FUNCNAME[0]}\
   ls -d */\
-}
 : 1662227785:0;lcd
 : 1662229181:0;test -n "$ZSH_VERSION" && echo $funcstack[1]; test -n "$BASH_VERSION" && echo ${FUNCNAME[0]}"
 : 1662229248:0;file="/etc/passwd"; if [ -e $file ]; then echo "whew"; else echo "uh-oh"; fi
 : 1662229257:0;file="/etc/passwds"; if [ -e $file ]; then echo "whew"; else echo "uh-oh"; fi
 : 1662229383:0;if test false; then \
   echo "Test always returns true for only one argument, unless it is null."; \
-fi
 : 1662229404:0;test false
 : 1662229417:0;test true
 : 1662229429:0;test
@@ -3142,7 +3061,6 @@ fi
 : 1662229713:0;if test -e /home; then echo "/home is a directory"; else echo "no"; fi
 : 1662229732:0;if test -e /homes; then echo "/home is a directory"; else echo "no"; fi
 : 1662229878:0;se 'Path'
-: 1662230023:0;v .bashrc
 : 1662230223:0;fd -H -I 'z.*'
 : 1662230249:0;fd -d 2 -H -I 'z.*'
 : 1662230267:0;v .zshrc
@@ -3151,7 +3069,6 @@ fi
 : 1662232122:0;ls scripts
 : 1662232187:0;fd -d 1 fun
 : 1662232211:0;p3 ipysql.py
-: 1662232229:0;v ipy_linux3
 : 1662248795:0;cd bb
 : 1662248812:0;v README.md
 : 1662248835:0;rm -rf bb
@@ -3160,7 +3077,6 @@ fi
 : 1662249091:0;fd -ejpg | xargs -n1 ls -lhrt
 : 1662249155:0;fd -ejpg | xargs -n1 ls echo
 : 1662249172:0;fd -ejpg  
-: 1662249697:0;cd scripts
 : 1662249778:0;take junk
 : 1662249907:0;for a in [\
     "We",\
@@ -3176,7 +3092,6 @@ fi
     "have",\
     "another",\
     "alternative"\
-]
 : 1662260050:0;myArray=("cat" "dog" "mouse" "frog)
 : 1662260108:0;n=("We is","also is","have is","another is","alternative is")
 : 1662260195:0;echo $n[2]
@@ -3209,7 +3124,6 @@ done
 : 1662261906:0;h3 | tail
 : 1662261965:0;fd 'have' -exec ./work_on_file.sh {} \;
 : 1662262009:0;v work_on_file.sh
-: 1662262037:0;fd 'have' -exec rm {} \;
 : 1662262060:0;fd 'is' -exec ./work_on_file.sh {} \;
 : 1662262410:0;n=(American professional baseball pitcher for the Minnesota Twins of Major League Baseball (MLB). He made his MLB debut in 2017 with the Cincinnati Reds.)
 : 1662262530:0;for str in $n; do touch $str; done
@@ -3286,8 +3200,6 @@ fi                    # Wrong result.\
 : 1662267142:0;cat /etc/passwd | sed '3, 125d' |more
 : 1662267149:0;cat /etc/passwd | sed '3, 225d' |more
 : 1662267154:0;cat /etc/passwd | sed '1, 225d' |more
-: 1662267159:0;cat /etc/passwd | sed '1, 22d' |more
-: 1662267371:0;echo $$
 : 1662267490:0;./she.sh
 : 1662267522:0;$?
 : 1662267532:0;echo $?
@@ -3299,31 +3211,20 @@ fi                    # Wrong result.\
 : 1662267852:0;[ -b she.sh ]  
 : 1662267899:0;if [ -b she.sh ]  \
 echo 'x'\
-\
-;\
-;\
 done
 : 1662267909:0;if [ -b she.sh ]  \
 echo 'x'\
-\
-;\
-;\
-fi
 : 1662268008:0;if 1=1\
 then echo one\
-fi
 : 1662268064:0;if [ -b she.sh ]  \
 echo "she"\
-fi
 : 1662268096:0;if [ -b she.sh ]  \
 then echo she\
-fi
 : 1662268135:0;if [ -c she.sh ]  \nthen echo she\nfi
 : 1662268173:0;if [ -c she.sh ]  then echo she\
   fi
 : 1662268215:0;if [ -c she.sh ]\
 then echo "she"\
-fi
 : 1662268301:0;-c e.sh
 : 1662268334:0;echo [ -b she.sh ]  
 : 1662269691:0;sc b.sh
@@ -3344,8 +3245,6 @@ fi
 : 1662270816:0;read -a m
 : 1662270856:0;bash -c "read -a m\
 this is\
-
-: 1662309459:0;echo $0
 : 1662309464:0;echo $00
 : 1662309474:0;echo ?
 : 1662309493:0;k=`date`
@@ -3393,7 +3292,6 @@ this is\
 : 1662314686:0;ltt>ls 2>/dev/null && echo no
 : 1662314702:0;cat ls
 : 1662315898:0;ls -t
-: 1662315903:0;ls -l
 : 1662315923:0;ls -l | sed 's/d/xxxxxxxxxxxxx/g'
 : 1662315955:0;ls -l | sed 's/Aug/August/g'
 : 1662315984:0;ls | sed 's/Aug/August/g'
@@ -3500,8 +3398,6 @@ this is\
 : 1662354876:0;echo `fd 'loop'`
 : 1662356372:0;fd d 1 | rg -v "\.sh"
 : 1662356380:0;fd -d 1 | rg -v "\.sh"
-: 1662356411:0;fd -d 1 | rg -v "\.sh" | xargs rm {}
-: 1662356471:0;fd -d 1 | rg -v "\.sh" | xargs rm 
 : 1662356484:0;fd -d 1 | rg -v "\.sh" | xargs echo
 : 1662356493:0;fd -d 1 | rg -v "\.sh"  
 : 1662356609:0;sh arr.sh
@@ -3514,10 +3410,8 @@ this is\
 : 1662356739:0;./arr.sh
 : 1662356754:0;v arr.sh
 : 1662356798:0;text="Welcome to GeeksforGeeks"\
-\
 # Set space as the delimiter\
 IFS=' '\
-\
 # Read the split words into an array\
 # based on space delimiter\
 read -ra newarr <<< "$text"
@@ -3550,16 +3444,13 @@ read -ra newarr <<< "$text"
 : 1662390772:0;fd --changed-within=10min   
 : 1662390800:0;fd --changed-within=10min   | rg 'c\.sh'
 : 1662390837:0;fd --changed-within=10min   | rg -v 'c\.sh'
-: 1662390865:0;fd --changed-within=10min   | rg -v 'c\.sh' -exec rm \;
 : 1662390893:0;fd --changed-within=10min   | rg -v 'c\.sh'  
 : 1662391022:0;fd --changed-within=10min   | rg -v 'c\.sh'  -exec echo \;
 : 1662391034:0;fd --changed-within=10min   | rg -v 'c\.sh'  -exec echo {} \;
 : 1662391078:0;fd --changed-within=10min   | rg -v 'sh' | xargs echo {} \;
 : 1662391087:0;fd --changed-within=10min   | rg -v 'sh' | xargs echo  \;
 : 1662391097:0;fd --changed-within=10min   | rg -v 'sh' | xargs echo   
-: 1662391137:0;fd --changed-within=10min   | rg -v 'sh' | xargs rm
 : 1662391167:0;rm copy/*
-: 1662391181:0;cd copy
 : 1662391200:0;fd --changed-within=10min   | rg -v 'sh' | xargs c.sh
 : 1662391225:0;fd --changed-within=10min   | rg -v 'sh' | -exec echo {} \;
 : 1662391233:0;fd --changed-within=10min   | rg -v 'sh'  -exec echo {} \;
@@ -3601,10 +3492,8 @@ read -ra newarr <<< "$text"
 : 1662413362:0;fd -d 1 -tf | rg -v 'ntu.*' | column
 : 1662413511:0;fd -d 1 -td | rg -v 'ntu.*' | column
 : 1662413514:0;alias dirs="fd -d 1 -td | rg -v 'ntu.*' | column"
-: 1662413515:0;dirs
 : 1662413636:0;ld | rg go
 : 1662413671:0;rm -rf go
-: 1662413758:0;alias
 : 1662413876:0;ddh > ddh.txt 2>/dev/null &
 : 1662413944:0;ddh 2>/dev/null> ddh.txt  
 : 1662413968:0;ddh 2>/dev/null > ddh.txt  
@@ -3641,7 +3530,6 @@ read -ra newarr <<< "$text"
 : 1662416235:0;fd | xargs -0 ls
 : 1662416251:0;fd | xargs -0 ls -lhrt
 : 1662416287:0;fd 'foo'
-: 1662416293:0;fd 'foo' -x rm
 : 1662416301:0;find | xargs -0 ls -lhrt
 : 1662416312:0;find | xargs -0 ls  
 : 1662416438:0;find Pictures/tecmint/ -name "*.png" -type f -print0 | xargs -0 tar -cvzf images.tar.gz
@@ -3682,7 +3570,6 @@ read -ra newarr <<< "$text"
 : 1662425472:0;fd -d 1 "*.png"  -print0 | xargs -0 tar -cvzf images.tar.gz
 : 1662425488:0;fd -d 1 "*.png"   | xargs -0 tar -cvzf images.tar.gz
 : 1662425502:0;fd -d 1 "*.png"    
-: 1662425515:0;fd -d 1
 : 1662425526:0;fd *.png -d 1
 : 1662425570:0;fd *.png -d 1 | xargs -0 tar -cvzf images.tar.gz
 : 1662425600:0;fd *.png -d 1 
@@ -3713,7 +3600,6 @@ read -ra newarr <<< "$text"
 : 1662430123:0;fd '.*sh' --changed-within=2weeks -X nvim
 : 1662432816:0;cd .config/nvim
 : 1662432828:0;v init.vim
-: 1662432924:0;1
 : 1662432928:0;fd '.*sh' --changed-within=2days -X nvim
 : 1662434733:0;fd '.*sh' --changed-within=1days -X nvim
 : 1662435543:0;a=`fd '*.sh'`
@@ -3751,13 +3637,11 @@ read -ra newarr <<< "$text"
 : 1662438403:0;fd -H -I 
 : 1662438458:0;v .gitb
 : 1662438473:0;mv .gitb .gitignore
-: 1662438484:0;fd -I
 : 1662438493:0;find
 : 1662438504:0;find | wc -l
 : 1662438551:0;fd | wc -l
 : 1662438567:0;fd -H -I | wc -l
 : 1662438623:0;cat .gitignore
-: 1662438634:0;v .gitignore
 : 1662438660:0;fd -I | wc -l
 : 1662438665:0;fd -H | wc -l
 : 1662438777:0;ls -ld .?*
@@ -3765,20 +3649,17 @@ read -ra newarr <<< "$text"
 : 1662438855:0;ls -ld .?* 
 : 1662438863:0;v .viminfo
 : 1662438888:0;ls -1
-: 1662438892:0;ls -a
 : 1662438944:0;rmt .cargo
 : 1662438956:0;cd .T
 : 1662438963:0;cd .Trash
 : 1662438985:0;man trash
 : 1662439031:0;which trash-list
-: 1662439049:0;which trash-list 
 : 1662439073:0;v /usr/bin/trash-list
 : 1662439113:0;trash-list
 : 1662439163:0;rmt images.tar.gz
 : 1662439337:0;cd .local/share/Trash
 : 1662439346:0;find .
 : 1662439371:0;cd files
-: 1662439397:0;d
 : 1662439532:0;tar -cvf back.tar
 : 1662439687:0;apt list --installed | rg sync
 : 1662439741:0;which rsync
@@ -3789,7 +3670,6 @@ read -ra newarr <<< "$text"
 : 1662439861:0;touch ~/tmp/ata.txt
 : 1662439872:0;fd -H -I --changed-within=2mins
 : 1662439892:0;cd tmp
-: 1662439900:0;ll
 : 1662439972:0;cd backup
 : 1662440024:0;rsync -v ata.txt ~/backup
 : 1662440033:0;v ata.txt
@@ -3831,14 +3711,10 @@ read -ra newarr <<< "$text"
 : 1662481240:0;fd -H -I -d 2 '.*his.*'   -x cp {} ~/mnt/c/all/wsl/ \;
 : 1662481294:0;la
 : 1662481315:0;v .zsh_history
-: 1662481422:0;lt -a
-: 1662481561:0;git remote -v
-: 1662481584:0;cd all
 : 1662481766:0;md /mnt/c/you/wsl
 : 1662481880:0;fd 'Track'
 : 1662481888:0;fd -H -I '.*mp\d'
 : 1662481919:0;rm wsl/01\ Track\ 1.mp3
-: 1662482101:0;fd -H -I '0.*mp\d' -x rm {} \;
 : 1662482107:0;fd -H -I '0.*mp\d'   
 : 1662482129:0;rm wsl/mp4
 : 1662482141:0;rd wsl/mp4
@@ -3854,11 +3730,8 @@ read -ra newarr <<< "$text"
 : 1662483236:0;take wsl
 : 1662483719:0;fd -H -I -d 2 '.*his.*'   -x cp {} /mnt/c/all/wsl/ \;
 : 1662484009:0;uu
-: 1662484013:0;...
 : 1662484028:0;cd /mnt/c/all
-: 1662484039:0;git add .
 : 1662484071:0;git commit -m 'files'
-: 1662484100:0;git push
 : 1662484151:0;fd 'ke.*js'
 : 1662484185:0;fd 'keybo.*js'
 : 1662484274:0;fd 'keybindings.json'
@@ -3882,7 +3755,6 @@ read -ra newarr <<< "$text"
 : 1662518778:0;ls | v -
 : 1662518857:0;rm ffmpeg_4.4.2.orig.tar.xz piano-trainer_1.0.1_amd64.AppImage
 : 1662518863:0;ls  -Shr | v -
-: 1662519255:0;pwd
 : 1662519619:0;fd -d 1 "-_)" -exec rename "s/\-_//g" {} \;
 : 1662519628:0;fd -d 1 "\-_)" -exec rename "s/\-_//g" {} \;
 : 1662519639:0;fd -d 1 "\-_" -exec rename "s/\-_//g" {} \;
@@ -3922,7 +3794,6 @@ read -ra newarr <<< "$text"
 : 1662521644:0;sed -i -e '$a2 Mosel Dornfelder 2010' -e '$a4 Alsace Pinot Grigio 2011' text.txt
 : 1662521650:0;cat text.txt
 : 1662521743:0;k=`ls`
-: 1662521749:0;echo $k
 : 1662521825:0;rm x
 : 1662522737:0;sed -i -e '$a this is text' myhis
 : 1662522781:0;sed -i -e '$a `ls` '
@@ -3947,8 +3818,6 @@ read -ra newarr <<< "$text"
 : 1662524373:0;echo 'red\n\green\nblue'
 : 1662524415:0;echo 'red\n\green\nblue' | fzf
 : 1662524458:0;echo 'red\ngreen\nblue' | fzf
-: 1662524582:0;prinenv
-: 1662524588:0;printenv
 : 1662524649:0;ls | fzf
 : 1662524671:0;curl | fzf
 : 1662524699:0;printenv | fzf
@@ -3972,10 +3841,8 @@ read -ra newarr <<< "$text"
 : 1662526985:0;rg -H clip
 : 1662527013:0;rg -H clip | v -
 : 1662527382:0;cd node
-: 1662527385:0;gst
 : 1662527394:0;fd -H -I -S +10M
 : 1662528339:0;cp thr.tar.gz ~/
-: 1662528347:0;v thr.tar.gz
 : 1662528401:0;rg seq goo.his
 : 1662528422:0;se 'ls.*sed'
 : 1662528456:0;ls | sed -e 's/\n//g'
@@ -4002,12 +3869,9 @@ read -ra newarr <<< "$text"
   if [ -n "$file" ]; then\
     [ "$key" = ctrl-o ] && open "$file" || ${EDITOR:-vim} "$file"\
   fi\
-}
 : 1662529326:0;fo
 : 1662529348:0;fo sh
-: 1662529443:0;v goo.his
 : 1662529504:0;fd -H -I -S +10M -x stat --printf='Name: %n Size: %s\n'
-: 1662529550:0;fd -H -I -S +30M -x stat --printf='Name: %n Size: %s\n'
 : 1662529615:0;fd -H -I -S +30M -x stat --printf='Name: %n Size: %s\n' > fdSize.txt &
 : 1662530327:0;v fdSize.txt
 : 1662530834:0;rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.43.0-x64.exe \
@@ -4034,10 +3898,7 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662532807:0;cd Temp
 : 1662532829:0;unalias rm
 : 1662532832:0;rm *
-: 1662532881:0;duh
 : 1662533019:0;lf
-: 1662533059:0;ddh > ddh.txt 2>&1 &
-: 1662533071:0;v ddh.txt
 : 1662533239:0;cd /mnt/c/you
 : 1662533267:0;cd webdev
 : 1662533310:0;rm -rf webdev
@@ -4054,7 +3915,6 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662533580:0;rm Zero\ to\ \$10\ Million\ with\ React\ Native\ +\ Next.js\ -\ Fernando\ Rojo\ -\ \(Next.js\ Conf\ 2021\).mp4
 : 1662533585:0;ls -l -Shr
 : 1662533624:0;rm -rf react
-: 1662533631:0;ddh
 : 1662533654:0;ls -R
 : 1662533666:0;ls -l -R
 : 1662533686:0;ls -l -Shr -R
@@ -4080,15 +3940,11 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662535596:0;sudo apt install mariadb-server mariadb-client
 : 1662535672:0;sudo service enable --now mariadb
 : 1662535700:0;sudo service mariadb start
-: 1662535780:0;sudo apt update
 : 1662535804:0;sudo apt install mariadb-server
 : 1662535824:0;mariadb --version
-: 1662535850:0;sudo /etc/init.d/mysql start
-: 1662535956:0;mysql
 : 1662535963:0;sudo mysql
 : 1662536415:0;cd /etc/
 : 1662536442:0;v mariadb.cnf
-: 1662536469:0;v my.cnf
 : 1662536505:0;v debian.cnf
 : 1662536518:0;v conf.d
 : 1662536618:0;netstat -anp | tail -n2 2>a
@@ -4103,7 +3959,6 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662538030:0;se 'etc'
 : 1662538094:0;se 'index'
 : 1662538111:0;se 'cd.*et'
-: 1662538121:0;cd /etc
 : 1662538126:0;cd default
 : 1662538179:0;fd -H -I 'index.html'
 : 1662538196:0;cd var/www
@@ -4115,7 +3970,6 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662538499:0;docker -ps -a
 : 1662568490:0;touch jim is here
 : 1662568541:0;fd --changed-within=20min    
-: 1662568558:0;fd --changed-within=20min    -exec rm {} \;
 : 1662568625:0;for f in *sh*; echo $f; done
 : 1662568641:0;for f in *sh*; do echo $f; done
 : 1662568682:0;for f in *xx*; do echo $f; done
@@ -4159,13 +4013,11 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662608842:0;cp count.py one
 : 1662608849:0;one
 : 1662630521:0;lt *.py
-: 1662630528:0;l
 : 1662630703:0;v count.py
 : 1662630718:0;count.py
 : 1662631957:0;ipsql
 : 1662631987:0;ipy.sh
 : 1662632051:0;cp ipy.sh ipy
-: 1662640154:0;mps
 : 1662640159:0;cd python
 : 1662640165:0;rg 'clip'
 : 1662640181:0;rg 'import'
@@ -4176,12 +4028,10 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662640278:0;p3 -m pip list 2>x
 : 1662640285:0;p3 -m pip list 2>x | v -
 : 1662640394:0;p3 -m pip install clipboard  2>x 
-: 1662643161:0;cd pys
 : 1662643341:0;rg bash
 : 1662643449:0;curl https://cht.sh/ls
 : 1662643502:0;ls -lh
 : 1662643525:0;ls -lSh
-: 1662643528:0;ls -lShr
 : 1662643550:0;ls -lthr
 : 1662643564:0;lr
 : 1662643661:0;curl https://cht.sh/ps
@@ -4201,16 +4051,12 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662654480:0;ps -aux | 
 : 1662654529:0;ps -aux | v -
 : 1662654568:0;kill -9 439
-: 1662654639:0;axit
-: 1662654651:0;tmux
 : 1662694652:0;cd you
 : 1662694663:0;se 
-: 1662694670:0;se 'size'
 : 1662694695:0;se 'fd.*s'
 : 1662694756:0;fd -H -I -S +30M -x stat --printf='Name: %n Size: %s\n' > siz.txt &
 : 1662694769:0;v siz.txt
 : 1662699320:0;docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
-: 1662699342:0;ps -aux
 : 1662699368:0;se 'docker stop'
 : 1662699421:0;docker stop 798ce3444f33
 : 1662699658:0;docker stop some-wordpress
@@ -4224,8 +4070,6 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662700640:0;docker run --name my-sql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
 : 1662700996:0;docker run --name my-sql -p 3306:3306 -e MYSQL_ROOT_PASSWORD= -d mysql
 : 1662701008:0;docker run --name my-sql2 -p 3306:3306 -e MYSQL_ROOT_PASSWORD= -d mysql
-: 1662701132:0;docker rm $(docker ps -a -q) #!remove all images
-: 1662701136:0;docker run --name my-sql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=stars1 -d mysql
 : 1662701247:0;se '#!'
 : 1662701285:0;du --all --human-readable \\
 --one-file-system \\
@@ -4234,12 +4078,10 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662701429:0;take mysql
 : 1662701644:0;se 'm.*env'
 : 1662701662:0;p3 -m venv db
-: 1662701678:0;fzf
 : 1662701698:0;db/bin/activate
 : 1662701707:0;sh db/bin/activate
 : 1662701732:0;bash db/bin/activate
 : 1662701747:0;pip list 2>/dev/null 
-: 1662701798:0;source db/bin/activate
 : 1662701828:0;se 'p3.*insta'
 : 1662701884:0;p3 -m pip install mysql-connector
 : 1662701946:0;i3
@@ -4248,19 +4090,12 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662702015:0;p3 -m pip install ipython
 : 1662702520:0;p3 -m pip install mysql-connector-python
 : 1662702553:0;ls pys
-: 1662702625:0;pip list
-: 1662702641:0;ip
 : 1662704686:0;v table
-: 1662705993:0;ipy
-: 1662706277:0;cd mysql
-: 1662706383:0;v first.sql
 : 1662706423:0;docker stop my-sql
 : 1662748311:0;md /mnt/c/you/mix
-: 1662748362:0;htop
 : 1662748708:0;python3
 : 1662748819:0;wi yt-dlp
 : 1662748876:0;se '>2'
-: 1662748938:0;se '2>'
 : 1662748959:0;bash ye.sh 2>err
 : 1662749006:0;v err
 : 1662749036:0;wi python3
@@ -4275,22 +4110,16 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662751631:0;fd 'gu*'
 : 1662751647:0;fd -td 'g*'
 : 1662751658:0;fd -td 'g.*'
-: 1662751669:0;bas
-: 1662751678:0;v yv.sh
-: 1662751697:0;bash yv.sh
-: 1662751719:0;ps
 : 1662752093:0;winh
 : 1662752097:0;cd Downloads
 : 1662757765:0;md /mnt/c/you/shop
 : 1662757778:0;fd 'ess.*'
 : 1662757808:0;se 'fd.*exec'
 : 1662757850:0;fd 'ess.*' -exec mv {} /mnt/c/you/shop
-: 1662757882:0;c
 : 1662757897:0;cd you/shop
 : 1662757951:0;fd 
 : 1662757960:0;fd | sort
 : 1662757987:0;fd | sort -x touch {}
-: 1662758032:0;fdh
 : 1662758047:0;man xargs
 : 1662758161:0;se 'xargs'
 : 1662758201:0;fd | xargs echo
@@ -4311,7 +4140,6 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662760566:0;chmod +x x.sh
 : 1662760594:0;sh x.sh 1 2 3
 : 1662760687:0;./x.sh 1
-: 1662760714:0;ls *.sh
 : 1662760722:0;ls *.sh | xargs head
 : 1662760764:0;wi x.sh
 : 1662760770:0;which x.sh
@@ -4335,10 +4163,7 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662776920:0;fdi 
 : 1662776928:0;fdi -esh
 : 1662777193:0;xx ()\
-{\
-\
 echo "arg one is $1"\
-}
 : 1662777200:0;xx 'jim'
 : 1662777303:0;sh `echo jim`
 : 1662777313:0;echo jim
@@ -4346,7 +4171,6 @@ echo "arg one is $1"\
 : 1662777421:0;eval $a
 : 1662777631:0;bash -c "echo $tmp"
 : 1662777639:0;bash -c "echo $PATH"
-: 1662777791:0;fd
 : 1662777800:0;m=' -d 1'
 : 1662777805:0;fd $m
 : 1662777813:0;echo $m
@@ -4357,10 +4181,8 @@ echo "arg one is $1"\
 : 1662782209:0;echo $a
 : 1662782306:0;xx(){\
 echo $(fd ".*sh")\
-}
 : 1662782347:0;xx(){\
 echo $(fd -d 1 ".*sh")\
-}
 : 1662782445:0;xx(){echo $(fd -d 1 ".*sh")}
 : 1662782448:0;xx
 : 1662782473:0;xx(){echo $(fd -d 1 ".*$1")}
@@ -4380,8 +4202,6 @@ echo $(fd -d 1 ".*sh")\
 : 1662783715:0;fd -H -I   --changed-within=10mins
 : 1662783760:0;fd -H -I ".*vim.*"
 : 1662783777:0;fd -H -I ".*vim.*" --changed-within=3days
-: 1662783895:0;fc
-: 1662783943:0;v
 : 1662783964:0;fd -H -I   --changed-within=1mins
 : 1662784322:0;fd -H -I ".*info.*"     
 : 1662784332:0;fd -H -I "v.*info.*"     
@@ -4397,13 +4217,8 @@ echo $(fd -d 1 ".*sh")\
 : 1662786147:0;fd -H -I ".*shada.*" -x ls -l
 : 1662786237:0;fd -H -I ".*shada.*" | xargs ls -l
 : 1662786318:0;fd -H -I ".*shada.*" | xargs ls -l | v -
-: 1662786439:0;v .local/share/nvim/shada/main.shada
 : 1662786503:0;v a
-: 1662786531:0;ls
 : 1662786549:0;fd 'a;
-: 1662787386:0;v myhis
-: 1662787397:0;fdi --changed-within=30mins
-: 1662787431:0;alias fdi
 : 1662787523:0;alias fda='fd -H -I '
 : 1662787538:0;fda --changed-within=2mins
 : 1662787549:0;fda --changed-within=12mins
@@ -4419,8 +4234,6 @@ echo $(fd -d 1 ".*sh")\
 : 1662788531:0;lt | sort -k 2
 : 1662788540:0;lt | sort -k 3
 : 1662788547:0;lt | sort -k 8
-: 1662788569:0;cd
-: 1662788574:0;cd junk
 : 1662788578:0;take sort
 : 1662788644:0;se 'for\s'\
 : 1661139707:0;se 'for\s'
@@ -4448,111 +4261,28 @@ echo $(fd -d 1 ".*sh")\
 : 1662789507:0;h
 : 1662789538:0;ls -l | sort -k5 -h
 : 1662789548:0;ls -l | sort -k5 -sh
-: 1662789583:0;se 'sort'
-: 1662789592:0;his
 : 1662789699:0;ls -l | sort -R
-: 1662789736:0;h3
 : 1662789764:0;n=$(ls | sort -R)
 : 1662789769:0;echo $n
 : 1662789797:0;for a in $n: do echo $a; done
 : 1662789814:0;for a in $n; do echo $a; done
 : 1662831779:0;sudo docker run hello-world
-: 1662831904:0;ld
 : 1662831914:0;cd .docker
-: 1662831997:0;u
 : 1662832006:0;take wordp
 : 1662832422:0;ss
 : 1662832434:0;netstat
 : 1662832612:0;lst
 : 1662832728:0;se 'docker.*stop'
-: 1662832746:0;docker stop $(docker ps -a -q) #!stop all images
-: 1662832777:0;v docker-compose.yml
-: 1662832934:0;lt
-: 1662832944:0;docker-compose up -d
-: 1662833151:0;docker ps -a
-: 1662837151:0;exit
-: 1662837173:0;ld
-: 1662837178:0;cd wordp
-: 1662837179:0;lt
-: 1662837184:0;h3
-: 1662837202:0;docker-compose up -d
-: 1662861385:0;his
-: 1662861415:0;docker-compose up -d
-: 1662861426:0;docker ps -a
-: 1662861597:0;cd wordp
-: 1662861600:0;lt
-: 1662861605:0;v docker-compose.yml
-: 1662862084:0;lt
-: 1662862087:0;u
 : 1662862092:0;alias fdi
 : 1662862118:0;fd -H "docker"
 : 1662862138:0;fd -H -d 2 "docker"
-: 1662862172:0;his
-: 1662862290:0;docker ps -a
-: 1662862309:0;docker ps -a -q
-: 1662862330:0;docker stop $(docker ps -a -q) #!stop all images
-: 1662862337:0;docker ps -a -q
-: 1662862342:0;docker ps -a 
-: 1662862418:0;docker run --name my-sql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=stars1 -d mysql
 : 1662862549:0;docker rm mysql
 : 1662862575:0;docker rm 9b3726be8277
 : 1662862581:0;docker run --name my-sql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=stars1 -d mysql
-: 1662862762:0;his
-: 1662863188:0;lt
-: 1662863192:0;v docker-compose.yml
-: 1662863482:0;docker ps -a 
-: 1662863502:0;docker stop $(docker ps -a -q) #!stop all images
-: 1662863510:0;docker ps -a 
-: 1662863535:0;docker rm $(docker ps -a -q) #!remove all images
-: 1662863546:0;docker ps -a 
-: 1662863552:0;lt
-: 1662863599:0;docker-compose up -d
-: 1662863612:0;docker ps -a 
-: 1662863687:0;v docker-compose.yml
-: 1662864026:0;docker stop $(docker ps -a -q) #!stop all images
-: 1662864033:0;docker rm $(docker ps -a -q) #!remove all images
-: 1662864041:0;docker-compose up -d
-: 1662870398:0;u
 : 1662870402:0;take wp2
 : 1662870417:0;ls ../wordp/
-: 1662870427:0;d
-: 1662870445:0;v docker-compose.yml
-: 1662870464:0;docker ps -a 
-: 1662870483:0;docker stop $(docker ps -a -q) #!stop all images
-: 1662870487:0;docker ps -a 
-: 1662870499:0;docker rm $(docker ps -a -q) #!remove all images
-: 1662870505:0;lt
-: 1662870520:0;docker-compose up -d
-: 1662870533:0;lt
-: 1662870536:0;v docker-compose.yml
-: 1662870725:0;docker-compose up -d
-: 1662870737:0;v docker-compose.yml
-: 1662870879:0;lt
-: 1662870883:0;cd wp2
-: 1662870884:0;lt
-: 1662870887:0;docker-compose up -d
-: 1662871239:0;docker ps -a 
 : 1662871399:0;docker stop $(docker ps -a -q) #!stop all images
-: 1662871405:0;docker ps -a 
 : 1662871412:0;docker rm $(docker ps -a -q) #!remove all images
-: 1662871417:0;his
-: 1662871424:0;docker-compose up -d
-: 1662871500:0;lt
-: 1662871511:0;cd database
-: 1662871511:0;lt
-: 1662871522:0;cd mysql
-: 1662871523:0;lt
-: 1662871529:0;cd mysql
-: 1662871908:0;docker ps -a 
-: 1662871923:0;ld
-: 1662871936:0;cd wp2
-: 1662871938:0;lt
-: 1662871940:0;fd
-: 1662872012:0;fdh
-: 1662872037:0;fda
-: 1662872045:0;fda -tx
-: 1662872048:0;u
-: 1662872050:0;fda -tx
 : 1662872071:0;fda -tx | v -
 : 1662872185:0;v mysql/db/lib/python3.10/site-packages/mysql/vendor/private/libk5crypto.so.3.1
 : 1662872222:0;cd wp2
@@ -4561,57 +4291,28 @@ echo $(fd -d 1 ".*sh")\
 : 1662872262:0;cp docker-compose.yml ~/wp3
 : 1662872267:0;cd ~wp3
 : 1662872272:0;cd ~/wp3
-: 1662872274:0;lt
 : 1662872281:0;docker-compose up -d
-: 1662872292:0;docker ps -a 
-: 1662872868:0;ps -aux
-: 1662872913:0;lt
-: 1662872935:0;cd database
-: 1662872936:0;lt
-: 1662872948:0;cd mysql
-: 1662872949:0;lt
-: 1662872961:0;fda -tx
-: 1662872968:0;u
 : 1662872970:0;fda -tx
 : 1662872975:0;fda
 : 1662872990:0;fda | v -
-: 1662873083:0;docker ps -a 
-: 1662873113:0;docker exec -it 8113913b3fbd /bin/bash
 : 1662873766:0;se 'apt.*in'
 : 1662874310:0;docker exec -it 8113913b3fbd /bin/bash
-: 1662875329:0;docker ps -a 
-: 1662875363:0;docker ps -a | v -
 : 1662875439:0;docker export -o hist.txt 8113913b3fbd
-: 1662875450:0;lt
 : 1662875454:0;v hist.txt
 : 1662875582:0;rm hist.txt
-: 1662875586:0;lt
-: 1662875596:0;docker export -o hist.tar 8113913b3fbd
-: 1662875609:0;lt
-: 1662875615:0;v hist.tar
 : 1662875690:0;echo $$
-: 1662875698:0;echo $0
-: 1662875858:0;lt
-: 1662875861:0;cd wp3
-: 1662875878:0;lt
 : 1662875883:0;f docker-compose.yml
 : 1662875888:0;v docker-compose.yml
 : 1662876244:0;se 'modifie'
 : 1662876263:0;se 'fd.*with'
-: 1662876700:0;u
-: 1662876702:0;lt
-: 1662876705:0;v hist.tar
-: 1662876782:0;h3
 : 1662876807:0;lt "his*"
 : 1662876815:0;lt "*his*"
 : 1662876823:0;ls "*his*"
 : 1662876857:0;fd -d 1 ".*his.*'\
-"
 : 1662876867:0;fd -d 1 ".*his.*"
 : 1662876954:0;vnstat -i eth1
 : 1662876977:0;alias ls
 : 1662876982:0;\ls
-: 1662876984:0;ls
 : 1662877091:0;echo $UID
 : 1662877127:0;$(uname)
 : 1662877148:0;_myos="$(uname)"
@@ -4619,7 +4320,6 @@ echo $(fd -d 1 ".*sh")\
 : 1662877192:0;bc
 : 1662877231:0;bc -l
 : 1662877298:0;lias mount='mount |column -t'
-: 1662877306:0;fc
 : 1662877310:0;alias mount='mount |column -t'
 : 1662877315:0;mount
 : 1662877380:0;alias ports='netstat -tulanp'
@@ -4633,263 +4333,717 @@ echo $(fd -d 1 ".*sh")\
 : 1662877848:0;whatis icmp
 : 1662877860:0;whatis systemd
 : 1662877868:0;man systemd
-: 1662877945:0;lt
 : 1662877961:0;\rm hist.tar
-: 1662877962:0;lt
-: 1662877967:0;his
-: 1662877986:0;docker ps -a
 : 1662878002:0;docker export -o hist.tar 8113913b3fbd
-: 1662878011:0;lt
 : 1662878015:0;v hist.tar
 : 1662878139:0;se 'sort'
-: 1662878168:0;his
-: 1662878204:0;apps
 : 1662878273:0;wi sd
 : 1662878280:0;man sd
-: 1662882015:0;ls -l /bin/sh
 : 1662882047:0;s
-: 1662882558:0;ls -l
 : 1662882567:0;ls -l /bin/sh
 : 1662882576:0;dash
 : 1662884160:0;uname -a
 : 1662884188:0;cat /etc/os-release
-: 1662884447:0;cd junk
 : 1662884474:0;cat sh.sh
 : 1662884583:0;cat d.sh
 : 1662884590:0;cat > d.sh
-: 1662884625:0;lt
 : 1662884630:0;sc d.sh
-: 1662884646:0;source d.sh
-: 1662884657:0;v d.sh
-: 1662884715:0;source d.sh
 : 1662884729:0;echo $0
 : 1662884740:0;$0
-: 1662884754:0;v d.sh
-: 1662884851:0;source d.sh
-: 1662884863:0;v d.sh
-: 1662884917:0;source d.sh
-: 1662884925:0;v d.sh
-: 1662884943:0;source d.sh
-: 1662884950:0;v d.sh
 : 1662884969:0;source d.sh
-: 1662884995:0;lt
-: 1662885005:0;hyperfine d.sh
 : 1662885025:0;v d.sh
-: 1662885066:0;hyperfine d.sh
 : 1662885090:0;hyperfine --show-output  d.sh
-: 1662885102:0;lt
 : 1662885111:0;chmod +x d.sh
 : 1662885117:0;hyperfine d.sh
 : 1662885471:0;prinenv
 : 1662885478:0;printenv
-: 1662885502:0;d
 : 1662885509:0;which d
-: 1662885540:0;dirs
-: 1662885551:0;ld
 : 1662885554:0;cd copy
-: 1662885556:0;dirs
-: 1662885558:0;d
 : 1662885568:0;0
 : 1662885573:0;d 0
-: 1662885580:0;cd
-: 1662885581:0;d
 : 1662885603:0;d 1
-: 1662885608:0;1
-: 1662885621:0;dirs
 : 1662885634:0;echo dirs
 : 1662885640:0;dirs
-: 1662885645:0;d
-: 1662885653:0;2
-: 1662885656:0;ld
-: 1662885687:0;docker ps -a
-: 1662885701:0;docker ps -a -q
-: 1662885770:0;docker ps -a 
-: 1662885779:0;cd
-: 1662885780:0;lt
 : 1662885811:0;docker ps -a | v -
-: 1662885993:0;lt
-: 1662885996:0;cd wp3
-: 1662886000:0;duh
 : 1662886010:0;cd .html
-: 1662886030:0;lt
 : 1662886033:0;l
-: 1662886034:0;ld
-: 1662886051:0;cd database
-: 1662886053:0;ld
-: 1662886057:0;cd mysql
 : 1662886066:0;sudo cd mysql
-: 1662886078:0;lt
-: 1662886092:0;cd mysql
 : 1662886105:0;sudo find .
-: 1662886120:0;su
-: 1662886131:0;ld
-: 1662886141:0;su
-: 1662886154:0;u
 : 1662886187:0;su
-: 1662886334:0;bas
-: 1662886335:0;lt
 : 1662886341:0;ls -l
 : 1662886364:0;rm python3
-: 1662886370:0;lt
-: 1662886973:0;c
-: 1662886975:0;cd all
-: 1662886977:0;gst
 : 1662887013:0;gst | v -
-: 1662887101:0;fd 'git'
 : 1662887117:0;fd -H -I "git"
-: 1662887141:0;git add .
-: 1662887147:0;gst
 : 1662887168:0;commit -am "initial from bash"
-: 1662887172:0;fc
-: 1662887176:0;git commit -am "initial from bash"
-: 1662887191:0;gst
-: 1662887201:0;git remote -v
-: 1662887220:0;duh
 : 1662887265:0;/rm -rf .git
-: 1662887280:0;his
 : 1662887334:0;\rm -rf .git
-: 1662887338:0;gst
-: 1662887344:0;git init
-: 1662887349:0;gst
-: 1662887355:0;git add .
-: 1662887361:0;gst
 : 1662887368:0;git commit -am "initial from bash"
-: 1662887374:0;duh
 : 1662887386:0;wi gh
-: 1662887426:0;his
-: 1662887482:0;c
-: 1662887485:0;cd all
-: 1662887486:0;lt
 : 1662887493:0;gh repo create all_wsl --public
 : 1662887573:0;git remote add origin git@github.com:wither7007/all_wsl.git
-: 1662887584:0;git remote -v
 : 1662887595:0;git branch -M main
 : 1662887604:0;git push -u origin main
-: 1662887744:0;git diff
 : 1662887774:0;git diff | v -
-: 1662887792:0;lt
 : 1662887795:0;cat dff
 : 1662887805:0;cat diff
-: 1662887810:0;v diff
-: 1662887813:0;lt
 : 1662887816:0;v diff
-: 1662887829:0;lt
 : 1662887840:0;alias v
 : 1662887846:0;nvim diff
-: 1662887919:0;git diff
 : 1662887932:0;dos2unix
 : 1662887980:0;sudo apt install dos2unix
-: 1662888001:0;cd note
-: 1662888002:0;lt
 : 1662888007:0;v notes
-: 1662888017:0;lt
 : 1662888031:0;v work
-: 1662888042:0;u
-: 1662888045:0;git diff
-: 1662888090:0;gst
-: 1662888864:0;lt
 : 1662888870:0;cat note
 : 1662888877:0;cd note
-: 1662888879:0;lt
 : 1662888888:0;cat notes
 : 1662888903:0;cat notes | sort -k1
 : 1662888936:0;cat notes | sort -k2
 : 1662888977:0;cat notes | sort -k2 | less
-: 1662889056:0;u
-: 1662889059:0;gst
 : 1662889230:0;cd dotfiles
-: 1662889709:0;cd
-: 1662889711:0;lt
-: 1662889728:0;duh
 : 1662889761:0;cd .local
-: 1662889763:0;duh
-: 1662889774:0;cd share
-: 1662889776:0;duh
-: 1662889798:0;ddg
-: 1662889821:0;ddh
-: 1662889824:0;u
-: 1662889826:0;lt
-: 1662889837:0;ddh
 : 1662889849:0;cd share
-: 1662889851:0;ddh
 : 1662889861:0;cd vifm
-: 1662889862:0;lt
 : 1662889871:0;cd Trash
-: 1662889872:0;lt
 : 1662889890:0;\rm *
-: 1662889894:0;lt
 : 1662889921:0;\rm 000_music 000_pod 000_cpro
-: 1662889927:0;fc
 : 1662889938:0;\rm -rf 000_music 000_pod 000_cpro
-: 1662889942:0;lt
-: 1662889944:0;u
 : 1662889948:0;ddg
-: 1662889952:0;ddh
-: 1662889955:0;u
-: 1662889957:0;ddh
-: 1662889968:0;u
-: 1662889970:0;ddh
-: 1662889980:0;u
 : 1662889983:0;ddh
 : 1662890019:0;ddh > ddh.txt 2>&1 &
-: 1662890029:0;lt
-: 1662890035:0;v ddh.txt
 : 1662923317:0;docker ps -a 
 : 1662924001:0;docker ps -a | tail -n 2
 : 1662924089:0;docker ps -a | tail -n 2 | awk {print $1}
 : 1662924100:0;docker ps -a | tail -n 2 | awk { print $1 }
-: 1662924110:0;fc
 : 1662924126:0;docker ps -a | tail -n 2 | 'awk { print $1 }'
-: 1662924145:0;fc
 : 1662924154:0;dawk { print $1 }ocker ps -a | tail -n 2 | awk '{ print $1 }'
-: 1662924159:0;fc
-: 1662924184:0;docker ps -a | tail -n 2 | awk '{ print $1 }'
-: 1662924210:0;fc
 : 1662924220:0;docker ps -a | tail -n 2 | awk '{ print $1 }'
-: 1662924255:0;fs
-: 1662924257:0;fc
 : 1662924260:0;fs
-: 1662924261:0;his
-: 1662924289:0;docker rm | tail -n 2 | awk '{ print $1 }'
-: 1662924299:0;fc
 : 1662924318:0;docker rm | tail -n 2 | awk '{ print $1 }'
 : 1662924362:0;docker ps -a -q | tail -n 2
-: 1662924374:0;fc
 : 1662924393:0;docker rm $(docker ps -a -q | tail -n 2)
-: 1662924404:0;docker ps -a
 : 1662924691:0;fda 'hist'
 : 1662924702:0;fdi 'hist'
-: 1662924722:0;fdi --changed-within=30mins
-: 1662924740:0;fda --changed-within=30mins
 : 1662924772:0;v .cache/zsh/history
 : 1662924833:0;cd .cache/zsh
-: 1662924834:0;lt
 : 1662924935:0;ln -s ~/.cache/zsh/history /mnt/c/all
-: 1662924941:0;c
-: 1662924945:0;cd all
-: 1662924947:0;lt
 : 1662924955:0;v history
-: 1662924997:0;d
-: 1662925003:0;2
-: 1662925005:0;lt
-: 1662925012:0;h3
 : 1662925120:0;ln -s ~/.cache/zsh/history /mnt/c/all/whis
-: 1662925123:0;d
-: 1662925127:0;1
-: 1662925129:0;lt
-: 1662925137:0;v whis
 : 1662925153:0;\rm history
-: 1662925154:0;lt
-: 1662925157:0;gst
-: 1662925173:0;git add .
-: 1662925176:0;gst
 : 1662925197:0;git commit -am "added whis link"
-: 1662925203:0;git push
-: 1662925353:0;d
-: 1662925360:0;1
-: 1662925365:0;lt
-: 1662925374:0;h3
 : 1662925516:0;rm /mnt/c/all/whis
 : 1662925585:0;ln ~/.cache/zsh/history /mnt/c/all/whis
-: 1662925627:0;fc
 : 1662925634:0;cp ~/.cache/zsh/history /mnt/c/all/whis
+: 1662925656:0;1
+: 1662925675:0;git add .
+: 1662925891:0;git commit --amend -m "changed whis to hard"
+: 1662925976:0;git push --force
+: 1662932960:0;curl https://api.github.com/users/schacon
+: 1662932967:0;curl https://api.github.com/users/schacon | v -
+: 1662933371:0;curl https://api.github.com/users/wither7007 | v -
+: 1662933469:0;curl https://api.github.com/users/wither7007/repos | v -
+: 1662933524:0;md ~/jq
+: 1662933536:0;mv jq.json ~/jq/
+: 1662933551:0;cd ~
+: 1662933559:0;cd jq
+: 1662933568:0;wi jq
+: 1662933698:0;jq '.' jq.json
+: 1662933760:0;jq '.html_url' jq.json | v -
+: 1662933768:0;jq '.' jq.json | v -
+: 1662934151:0;cat jq.json | jq - '.[]'
+: 1662934163:0;cat jq.json | jq -c '.[]'
+: 1662934256:0;curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.'
+: 1662934343:0;curl 'https://api.github.com/repos/wither7007/jq/commits?per_page=5' | jq '.[0]' | v -
+: 1662934393:0;curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.[0]'
+: 1662934399:0;curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.[0]' | less
+: 1662934484:0;curl 'https://api.github.com/repos/wither7007/all/commits?per_page=5' | jq '.[0]' | v -
+: 1662934523:0;curl 'https://api.github.com/repos/wither7007/all_wsl/commits?per_page=5' | jq '.[0]' | v -
+: 1662934595:0;curl 'https://api.github.com/repos/wither7007/all_wsl/commits?per_page=5' | jq '.[1]' | v -
+: 1662934714:0;curl 'https://api.github.com/repos/wither7007/all_wsl/commits?per_page=5' | jq '.[0] | {message: .commit.message, name: .commit.committer.name}'
+: 1662934725:0;curl 'https://api.github.com/repos/wither7007/all_wsl/commits?per_page=5' | jq '.[0] | {message: .commit.message, name: .commit.committer.name}' | v -
+: 1662934902:0;v
+: 1662934967:0;fda --changed-within=30mins | v -
+: 1662935267:0;v ddh.txt
+: 1662935290:0;v .local/share/nvim/shada/main.shada
+: 1662935380:0;fda --changed-within=30mins
+: 1662947040:0;cd etc
+: 1662947064:0;ld -l
+: 1662947071:0;alias ld
+: 1662947174:0;ld | rg 'gr'
+: 1662947185:0;ld | rg 'pa'
+: 1662947220:0;v group
+: 1662947233:0;fzf
+: 1662947252:0;ag python | v -
+: 1662947290:0;man ag
+: 1662947311:0;ag sheets
+: 1662947370:0;grep "^developers" /etc/group
+: 1662947376:0;grep "^a" /etc/group
+: 1662947393:0;rg "^a" /etc/group
+: 1662947462:0;fd -td | column
+: 1662947474:0;fd -d 1 -td | column
+: 1662947641:0;alias fdd="fd -H -d 1 -td | column"
+: 1662947660:0;alias fdd
+: 1662947671:0;v functions.sh
+: 1662948404:0;useradd -m newuser -p strongpassword
+: 1662948430:0;sudo useradd -m newuser -p strongpassword
+: 1662948463:0;cat /etc/passwd   | sed '1, 22d' |more
+: 1662948486:0;login newuser
+: 1662948498:0;sudo login newuser
+: 1662948720:0;fd "*.sh" -x head -n 3
+: 1662948731:0;fd -esh -x head -n 3
+: 1662948756:0;fd -esh -x head -n 1
+: 1662948795:0;fd -esh | xargs head -n 1
+: 1662948806:0;fd -esh | xargs head -n 3
+: 1662948833:0;fd -esh | xargs head -n 3 | v -
+: 1662948883:0;sc j.sh
+: 1662948895:0;cat j.sh
+: 1662948901:0;usage
+: 1662948927:0;which usage
+: 1662948937:0;v j.sh
+: 1662948994:0;source j.sh
+: 1662948999:0;musage
+: 1662949038:0;se 'which'
+: 1662949048:0;which trash-list 
+: 1662949068:0;se 'delclare'
+: 1662949081:0;se 'whence'
+: 1662949088:0;whence alias
+: 1662951880:0;se 'declar'
+: 1662951901:0;declare -a wi
+: 1662951926:0;declare -f take
+: 1662951973:0;declare -f takedir
+: 1662952000:0;se 'compgen'
+: 1662952045:0;declare -f py
+: 1662952057:0;which py
+: 1662952064:0;when py
+: 1662952071:0;whence py
+: 1662952083:0;whence als
+: 1662952096:0;whence duh
+: 1662952106:0;man whence
+: 1662952186:0;useradd -m new -p 123
+: 1662952201:0;sudo useradd -m new -p 123
+: 1662952225:0;login new
+: 1662952247:0;sudo login new
+: 1662952364:0;su -
+: 1662952477:0;whoami
+: 1662952524:0;batcat /etc/passwd
+: 1662952559:0;cat /etc/passwd
+: 1662952598:0;se 'awk'
+: 1662952623:0;cat /etc/passwd | awk '{ print $1 }'
+: 1662952684:0;cat /etc/passwd | grep 'stef'
+: 1662952691:0;cat /etc/passwd | grep 'new'
+: 1662952712:0;cat /etc/passwd | grep 'new|st'
+: 1662952720:0;cat /etc/passwd | rg 'new|st'
+: 1662952726:0;cat /etc/passwd | rg 'new|stef'
+: 1662952882:0;sudo useradd foxmoulder
+: 1662952909:0;cat /etc/passwd | rg 'fox'
+: 1662952943:0;cat /etc/default
+: 1662952957:0;cd /etc/default
+: 1662952981:0;v useradd
+: 1662953162:0;cat /etc/passwd | tr ":" "\n"
+: 1662953179:0;cat /etc/passwd | tr ":" "\n" | rg 'fox'
+: 1662953196:0;cat /etc/passwd | tr ":" "\n" | rg 'fox|new'
+: 1662953263:0;cat /etc/passwd | tr ":" "\n" | sed '/s/x/vvvvvvvvv/g'
+: 1662953273:0;cat /etc/passwd | tr ":" "\n" | sed -e '/s/x/vvvvvvvvv/g'
+: 1662953281:0;cat /etc/passwd | tr ":" "\n" | sed -e 's/x/vvvvvvvvv/g'
+: 1662953300:0;cat /etc/passwd | tr ":" "\n" | sed -e 's/\//vvvvvvvvv/g'
+: 1662953309:0;cat /etc/passwd | tr ":" "\n" | sed -e 's/\//\/g'
+: 1662953347:0;cat /etc/passwd | tr ":" "\n" 
+: 1662953447:0;k=c$(pwd | sed -e 's/\//\\/g')
+: 1662953466:0;pwd
+: 1662953484:0;k=$(pwd | sed -e 's/\//\\/g')
+: 1662953508:0;pwd | sed -e 's/\//\\/g'
+: 1662953527:0;k=$(pwd)
+: 1662953530:0;echo $k
+: 1662953801:0;cat /etc/passwd | tr ":" "\n" | sed -e 's/\//\\/g'
+: 1662954021:0;cat /etc/passwd | rg 'fox|new'
+: 1662954056:0;cat /etc/passwd | rg 'fox|new' | rg ':1'
+: 1662954067:0;cat /etc/passwd | rg 'fox|new' | rg ':10'
+: 1662954085:0;ll /home
+: 1662954119:0;cat /etc/passwd  | rg ':10'
+: 1662954134:0;cat /etc/passwd  | rg ':100'
+: 1662954167:0;cat /etc/passwd  | rg ':100[1-5]'
+: 1662954239:0;sudo userdel username
+: 1662954257:0;sudo userdel foxmoulder
+: 1662954272:0;sudo userdel new
+: 1662954410:0;sudo useradd -m foxmoulder
+: 1662954501:0;cd home
+: 1662954506:0;cd /home
+: 1662954527:0;rd username
+: 1662954534:0;sudo rd username
+: 1662954557:0;sudo rm -rf username
+: 1662954585:0;3
+: 1662954619:0;ld -l /home
+: 1662954656:0;sudo userdel -r foxmoulder
+: 1662954711:0;sudo userdel -r newuser
+: 1662954724:0;ls -l /home
+: 1662954872:0;useradd -m foxmulder new -p 123
+: 1662954910:0;useradd -m foxmulder 
+: 1662954919:0;sudo useradd -m foxmulder 
+: 1662954944:0;cat /etc/passwd  | rg ':100[0-5]'
+: 1662954975:0;sudo passwd foxmulder
+: 1662955037:0;logout
+: 1662955041:0;login foxmulder
+: 1662955514:0;cat /etc/passwd  | rg 'sys'
+: 1662955567:0;declare -f his
+: 1662955576:0;whence his
+: 1662955584:0;whence hi
+: 1662955593:0;whence history
+: 1662955789:0;cat .bash_history
+: 1662955807:0;se 'cp.*hist'
+: 1662955833:0;se 'cp.*hist' | v -
+: 1662955879:0;ldh
+: 1662955989:0;fdi --changed-within=30mins
+: 1662956006:0;fdi --changed-within=30hours
+: 1662956027:0;fdi --changed-within=30days
+: 1662956207:0;fd --changed-within=20min
+: 1662956219:0;fd --changed-within=120min
+: 1662956234:0;fdi --changed-within=120min
+: 1662956264:0;fd -H -I --changed-within=120mins
+: 1662956302:0;b .bashrc
+: 1662956311:0;v .bashrc
+: 1662956543:0;se 'o.*z'
+: 1662956559:0;declare -f omz_history
+: 1662956567:0;echo $HISTFILE
+: 1662956737:0;se 'changed'
+: 1662956777:0;v $HISTFILE
+: 1662956858:0;se 'changed.*rm'
+: 1662956885:0;se 'x.*rm'
+: 1662956921:0;v thr.tar.gz
+: 1662956938:0;se 'thr\.tar'
+: 1662956970:0;fd -H -I
+: 1662957272:0;fd 'mysql'
+: 1662957347:0;fd -d 1
+: 1662957464:0;fd 'git'
+: 1662957496:0;fd 'gitig'
+: 1662957509:0;fda 'gitig'
+: 1662957610:0;whence fd
+: 1662957633:0;/usr/bin/fd
+: 1662958049:0;rg mysql
+: 1662958066:0;rg mysql | v -
+: 1662958131:0;fdh
+: 1662958186:0;fd -E mysql
+: 1662958207:0;fd -E mysql -E wp2
+: 1662958365:0;fd -E mysql -E wp2 -E tar
+: 1662958391:0;fd -E mysql -E wp2 -E wp3
+: 1662958406:0;fd -E mysql -E wp2 -E wp3 | v -
+: 1662958444:0;fd -E mysql -E wp2 -E wp3 -E tar | v -
+: 1662958639:0;cd wordp
+: 1662958832:0;fd -a
+: 1662958876:0;fd -E mysql -E wp2 -E wp3 -E tar -E word* -E mysql 
+: 1662958917:0;fd -E mysql -E wp2 -E wp3 -E tar -E word* 
+: 1662958925:0;fd -E mysql -E wp2 -E wp3 -E tar -E word* | v -
+: 1662959031:0;git init
+: 1662959813:0;fd -I 'git'
+: 1662959827:0;fd -I -H 'git'
+: 1662959872:0;fd -I -H '\.git'
+: 1662959877:0;fd -I -H '\.git$'
+: 1662959890:0;rm -rf .git
+: 1662959916:0;fd -I -H 'ignore'
+: 1662959934:0;fd -d 1 -I -H 'ignore'
+: 1662959951:0;cp .gitignore .ignore
+: 1662959974:0;rg 'py'
+: 1662959984:0;rg 'py' | v -
+: 1662960004:0;fd my*
+: 1662960014:0;fd 'my.*'
+: 1662960046:0;fd | v \
+: 1662960049:0;fd | v -
+: 1662960133:0;ls -a | rg 'git'
+: 1662960167:0;rm .gitignore
+: 1662960180:0;ls -a | rg 'ig'
+: 1662960194:0;rm .fdignore
+: 1662960239:0;ls -lShr
+: 1662960551:0;cat /etc/passwd  
+: 1662960573:0;v .gitignore
+: 1662960584:0;f .ignore
+: 1662960748:0;cat /etc/shadow
+: 1662960758:0;sudo cat /etc/shadow
+: 1662960780:0;sudo cat /etc/shadow | grep 'stef'
+: 1662961045:0;hotp
+: 1662962037:0;tmux
+: 1662962204:0;fd -H -I -S +30M -x stat --printf='Name: %n Size: %s\n'
+: 1662962256:0;v wp3/database/ib_logfile0
+: 1662962286:0;cd wp3
+: 1662962296:0;cd database
+: 1662962310:0;v ib_logfile0
+: 1662962328:0;sudo v ib_logfile0
+: 1662962344:0;sudo nvim ib_logfile0
+: 1662963148:0;se 'size'
+: 1662963793:0;ldd
+: 1662964186:0;git fetch origin
+: 1662964245:0;git diff --name-only master origin/master
+: 1662964259:0;git diff --name-only main origin/master
+: 1662964263:0;git diff --name-only main origin/main
+: 1662964274:0;git pull
+: 1662965894:0;rgi githis
+: 1662965912:0;c
+: 1662965917:0;cd all
+: 1662965972:0;v ghist
+: 1662965987:0;v bash_h9-8.txt
+: 1662966191:0;git remote -v
+: 1662966233:0;git commit -am "added note test"
+: 1662966551:0;git fetch
+: 1662966557:0;git diff
+: 1662966592:0;git push
+: 1662966911:0;git log
+: 1662967226:0;ls *.sh
+: 1662967374:0;sh gitAll.sh
+: 1662967458:0;cd scripts
+: 1662967569:0;fd -H -I "zsh.*his"
+: 1662967743:0;file="/home/steff007/.cache/zsh/history"
+: 1662967745:0;echo $file
+: 1662967749:0;v $file
+: 1662967851:0;cp ~/$file ~/.zsh_history_bad
+: 1662967872:0;cp $file ~/.zsh_history_bad
+: 1662967900:0;lt -a
+: 1662968230:0;cp .zsh_history_bad his.bak
+: 1662968261:0;ll
+: 1662968271:0;sh zcorrupt.sh
+: 1662968288:0;v zcorrupt.sh
+: 1662968345:0;fd --changed-within=1days
+: 1662968353:0;fda --changed-within=1days
+: 1662968454:0;fd
+: 1662968486:0;duh
+: 1662968505:0;se 'dev'
+: 1662968528:0;duh 2>/dev/null
+: 1662968577:0;fd | v -
+: 1662968594:0;v whis
+: 1662968730:0;gst
+: 1662968785:0;v gitAll.sh
+: 1662969047:0;v goo.his
+: 1662969198:0;v myhis
+: 1662969603:0;v ipy_linux3
+: 1663021024:0;rg 'python'
+: 1663021058:0;rg 'diction'
+: 1663021118:0;rg 'diction' | xargs sed -i 's/dictionary/xxxxxxxxxx/g'
+: 1663021191:0;rg 'diction' --files-with-matches | xargs sed -i 's/dictionary/xxxxxxxxxx/g'
+: 1663021208:0;rg 'diction.*' --files-with-matches | xargs sed -i 's/dictionary/xxxxxxxxxx/g'
+: 1663021267:0;rg 'dict' --files-with-matches
+: 1663021301:0;rg 'dict' --files-with-matches | xargs echo
+: 1663021314:0;rg 'dict' --files-with-matches | xargs cat
+: 1663021326:0;rg 'dict' --files-with-matches | xargs cat | v -
+: 1663021362:0;rg 'diction' --files-with-matches | xargs cat | v -
+: 1663021395:0;rg 'tion' --files-with-matches | xargs cat | v -
+: 1663021459:0;rg 'vendor' --files-with-matches | xargs cat | v -
+: 1663021505:0;rg 'vendor' --files-with-matches | xargs echo | v -
+: 1663021529:0;rg -H -I 'vendor' --files-with-matches | xargs echo | v -
+: 1663021570:0;rg -H -I 'vendor' --files-with-matches 
+: 1663021601:0;cd bin
+: 1663021610:0;v pp
+: 1663021665:0;rg -H -I 'myword' --files-with-matches
+: 1663021716:0;rgh
+: 1663021815:0;cat > gg
+: 1663021827:0;rg -H -I 'myword.*' --files-with-matches
+: 1663021854:0;rg -I 'myword.*' --files-with-matches
+: 1663021868:0;rg -I -a 'myword.*' --files-with-matches
+: 1663021886:0;fd -I
+: 1663021898:0;fd -td
+: 1663021906:0;fd -H -td
+: 1663021915:0;fd -d 1 -H -td
+: 1663021940:0;rg -I -a 'vim.*' --files-with-matches
+: 1663022119:0;rg -I -a 'vim.*'
+: 1663022140:0;rg -I -a 'vim.*' | v -
+: 1663022202:0;rg  'vim.*' | v -
+: 1663022258:0;cd .cargo
+: 1663022261:0;rg  'myword' | v -
+: 1663022293:0;rg  -H 'myword' | v -
+: 1663022413:0;rg  -H -I 'myword' | v -
+: 1663022425:0;rg 'myword'
+: 1663022458:0;grep 'myword'
+: 1663022716:0;ag a gg
+: 1663022737:0;ag 'a' goo.his
+: 1663022752:0;ag 'read' goo.his
+: 1663022859:0;ag 'read' $(ls)
+: 1663022880:0;ag 'myword' $(ls)
+: 1663022908:0;se '2>'
+: 1663022924:0;ag 'myword' $(ls) 2>/dev/null
+: 1663022943:0;ag 'myword' $(fd) 2>/dev/null
+: 1663022958:0;ag 'my?ord' $(fd) 2>/dev/null
+: 1663022999:0;ag 'myword' $(fd -I) 2>/dev/null
+: 1663023058:0;fd -I -H | rg 'cargo'
+: 1663023086:0;fd -I -H | rg '\.cargo'
+: 1663023108:0;fd -I -H | rg '\.cargo' | less
+: 1663023179:0;v .cargo/bin/pp
+: 1663023220:0;ag 'myword' $(fd -I -H) 2>/dev/null
+: 1663023238:0;ag 'myword'
+: 1663023273:0;ag 'myword' $(fd -a -I -H) 2>/dev/null
+: 1663023285:0;ag 'm.*' $(fd -a -I -H) 2>/dev/null
+: 1663023312:0;ag 'm.*' $(fd -d 1 -a -I -H) 2>/dev/null
+: 1663023335:0;ag 'mo.*' $(fd -d 1 -a -I -H) 2>/dev/null
+: 1663023346:0;ag 'pyth.*' $(fd -d 1 -a -I -H) 2>/dev/null
+: 1663023392:0;ag 'myword.*' $(fd -d 1 -a -I -H) 2>/dev/null
+: 1663026888:0;cd .config
+: 1663026894:0;cd rclone
+: 1663026912:0;v pimple
+: 1663026926:0;d
+: 1663026930:0;2
+: 1663027005:0;ag 'frumious'
+: 1663027043:0;ripgrep "frumious"
+: 1663027053:0;rg "frumious"
+: 1663027142:0;rg 'frumious.*' $(fd -d 1 -a -I -H) 2>/dev/null | v -
+: 1663027225:0;rg 'frumious.*' $(fd -d 1 -a -I -H) 2>/dev/null
+: 1663027238:0;ag 'frumious.*' $(fd -d 1 -a -I -H) 2>/dev/null
+: 1663027335:0;fd -d 1 -a -I -H | wc
+: 1663027358:0;fd  -a -I -H | wc
+: 1663033903:0;rg 'column'
+: 1663033939:0;rg 'column' | less
+: 1663033996:0;rg 'column' $(fd)
+: 1663034008:0;rg 'column' $(fd esh)
+: 1663034020:0;rg 'column' $(fd -esh)
+: 1663034042:0;fd -esh
+: 1663034082:0;cat git.sh
+: 1663034093:0;rg 'general' $(fd -esh)
+: 1663034113:0;rg 'fd' $(fd -esh)
+: 1663034155:0;rg 'fd' $(fdd)
+: 1663034182:0;rg 'fd' $(ls)
+: 1663034204:0;rg 'fd.*sh' $(ls)
+: 1663034232:0;rg 'fd \-' $(ls)
+: 1663034270:0;rg 'fd \-' $(ls) 2>/dev/null
+: 1663034372:0;rg 'fd \-' $(ls) 2>/dev/null | less
+: 1663034403:0;v .ignore
+: 1663034411:0;rg 'fd \-' $(fd -d 1) 2>/dev/null | less
+: 1663034420:0;rg 'fd \-' $(fd -d 1) 2>/dev/null 
+: 1663034492:0;ag 
+: 1663034502:0;ag 'column'
+: 1663034567:0;fd -d 1 "python"
+: 1663034594:0;cat first.sql
+: 1663034607:0;v first.sql
+: 1663034662:0;cd db
+: 1663034664:0;u
+: 1663034681:0;ag 'select\s'
+: 1663034696:0;ag 'select\s' | less
+: 1663034755:0;cd pys
+: 1663034769:0;ag
+: 1663034775:0;ag 'select'
+: 1663034791:0;ag 'create'
+: 1663035013:0;docker ps -a -q
+: 1663035041:0;se 'doc
+: 1663035050:0;se 'docker.*rm'
+: 1663035086:0;docker rm $(docker ps -a -q)
+: 1663035097:0;docker images
+: 1663035129:0;docker rmi $(docker ps -a -q)
+: 1663035186:0;se 'docker.*rmi'
+: 1663035220:0;docker rmi $(docker images -q)
+: 1663035241:0;rm -rf wordp
+: 1663035257:0;sudo rm -rf wordp
+: 1663035301:0;sudo rm -rf wp2
+: 1663035304:0;sudo rm -rf wp3
+: 1663035323:0;fd -I -H
+: 1663035339:0;fdd
+: 1663035384:0;fda 'activate'
+: 1663035432:0;pip list
+: 1663039984:0;ls
+: 1663040214:0;wi mysql
+: 1663040224:0;msql
+: 1663040237:0;mysql
+: 1663040451:0;apps
+: 1663040465:0;apps | rg 'sql'
+: 1663040497:0;se 'apt.*sql'
+: 1663040509:0;ps
+: 1663040599:0;sudo apt update
+: 1663040635:0;sudo apt upgrade
+: 1663040745:0;alias rg 'exit'
+: 1663040761:0;exit
+: 1663040783:0;htop
+: 1663040796:0;docker ps -a
+: 1663040911:0;sudo mysql_secure_installation
+: 1663041149:0;rm gg ipy_linux3
+: 1663041154:0;ld
+: 1663043596:0;his
+: 1663043713:0;cd /etc
+: 1663043745:0;v my.cnf
+: 1663043811:0;ps -aux
+: 1663043829:0;sudo /etc/init.d/mysql start
+: 1663043979:0;netstat -tlnp
+: 1663044019:0;ping 127.0.0.1:3306
+: 1663044042:0;ping google.com
+: 1663044060:0;ping localhost
+: 1663044070:0;ping localhost:3306
+: 1663044403:0;mysql --version
+: 1663044414:0;mysql -u root
+: 1663044430:0;sudo mysql -u root
+: 1663045609:0;cd mysql
+: 1663045619:0;se 'activate'
+: 1663045625:0;source db/bin/activate
+: 1663045654:0;ipy
+: 1663045673:0;ip
+: 1663046724:0;fd -I -H 
+: 1663046740:0;fd -I -H --changed-within=1hours
+: 1663046901:0;ls -a
+: 1663046974:0;sudo cat /root/.mysql_history > msql_hist
+: 1663046979:0;sudo cat /root/.mysql_history
+: 1663047567:0;bas
+: 1663047575:0;v yv.sh
+: 1663047609:0;md /mnt/c/you/sql
+: 1663047619:0;bash yv.sh
+: 1663075953:0;cd junk
+: 1663076000:0;function w()\
+{ fd -d 1 $0 }
+: 1663076010:0;w 2
+: 1663076033:0;w 'sh'
+: 1663076074:0;mps
+: 1663076076:0;lt
+: 1663076089:0;ddf
+: 1663076099:0;com
+: 1663076104:0;compgen -a | sort | column
+: 1663076135:0;compgen -a | rg 'd.*' | sort | column
+: 1663076181:0;declare -f ld
+: 1663076193:0;whence ld
+: 1663076229:0;whence fdh
+: 1663076234:0;whence fdi
+: 1663076241:0;whence gdt
+: 1663076374:0;compgen -a w
+: 1663076403:0;compgen -a | rg '^w'
+: 1663076420:0;declare -f w
+: 1663076563:0;declare -f
+: 1663076582:0;declare -f | v -
+: 1663076690:0;typeset -f
+: 1663076750:0;declare -F
+: 1663076814:0;compgen -c
+: 1663076823:0;compgen -c | sort | column
+: 1663076937:0;compgen -a
+: 1663076967:0;h3
+: 1663077018:0;for $l in $(compgen -a); do unalias $l; done
+: 1663077041:0;for l in $(compgen -a); do unalias $l; done
+: 1663077067:0;for l in $(compgen -a); do echo $l; done
+: 1663077086:0;fc
+: 1663077094:0;for l in $(ls); do echo $l; done
+: 1663077109:0;compgen -a | column
+: 1663077114:0;als
+: 1663077140:0;compgen -c | sort | column | v -
+: 1663077153:0;compgen -c | sort | column | nvim -
+: 1663077241:0;compgen -b
+: 1663077260:0;compgen -k
+: 1663077277:0;compgen -k | sort | column
+: 1663077298:0;man typeset
+: 1663077311:0;tldr rmdir
+: 1663077327:0;tldr while
+: 1663077375:0;tldr select
+: 1663077585:0;help 
+: 1663077596:0;help ls
+: 1663077601:0;tldr ls
+: 1663077615:0;tldr compgen
+: 1663077674:0;alias
+: 1663077689:0;-
+: 1663077708:0;...
+: 1663077716:0;....
+: 1663077720:0;cd
+: 1663077745:0;aexit
+: 1663077764:0;axit
+: 1663077779:0;compgen -a
+: 1663077793:0;whence gcd
+: 1663077834:0;compgen -a | sort | column
+: 1663077863:0;whence mp
+: 1663077866:0;whence mps
+: 1663077923:0;whence ran
+: 1663077969:0;declare -F grh
+: 1663077976:0;declare -f grh
+: 1663078035:0;printf "%s\n" $PATH
+: 1663078046:0;printf "%s\n\t" $PATH
+: 1663078053:0;printf "%s\n" $PATH
+: 1663078075:0;echo "${PATH//:/$'\n'}"
+: 1663078090:0;echo "${PATH//:/$'\n'}" #! readable path
+: 1663078141:0;which httpd top ls
+: 1663078163:0;which which top ls
+: 1663078174:0;which which htop ls
+: 1663078180:0;which which htop ls p3
+: 1663078218:0;a=$(fd -d 1 ".*sh")
+: 1663078223:0;echo $a
+: 1663078250:0;a=$(compgen -a)
+: 1663078253:0;echo $a
+: 1663078264:0;which $a
+: 1663078281:0;which ll
+: 1663078297:0;$a
+: 1663078323:0;for tt in $a; echo $tt; done
+: 1663078329:0;for tt in $a; do echo $tt; done
+: 1663078341:0;for tt in $a; do which $tt; done
+: 1663078367:0;for tt in $a; do printf $tt; done
+: 1663078390:0;which ld
+: 1663078401:0;his
+: 1663078470:0;bins="htop ls grep date sed awk"
+: 1663078483:0;req_bins_count=$(wc -w <<<"$bins")
+: 1663078489:0;echo $req_bins_count
+: 1663078522:0;se 'size'
+: 1663078531:0;ls -lSr
+: 1663078539:0;ls -lSrh
+: 1663078720:0;cd junk
+: 1663078731:0;m jj.sh
+: 1663078735:0;v jj.sh
+: 1663078763:0;source jj.sh
+: 1663078783:0;which sed
+: 1663078792:0;v jj.sh
+: 1663078906:0;tmux
+: 1663078911:0;cd junk
+: 1663078913:0;lt
+: 1663078917:0;v jj.sh
+: 1663078926:0;bins="htop ls grep date sed awk"
+: 1663079001:0;aa=$(which $bins)
+: 1663079007:0;echo $aa
+: 1663079029:0;echo $bins
+: 1663079040:0;echo $bins[1]
+: 1663079058:0;@bins="htop ls grep date sed awk"
+: 1663079132:0;his
+: 1663079182:0;bins=(htop ls grep date sed awk)
+: 1663079188:0;bins[1]
+: 1663079240:0;echo {bins[1]}
+: 1663079253:0;echo ${bins[1]}
+: 1663079262:0;echo ${bins[*]}
+: 1663079271:0;echo ${bins[@]}
+: 1663086396:0;echo ${#bins[@]}
+: 1663086428:0;bins=$(ls)
+: 1663086431:0;echo ${#bins[@]}
+: 1663086441:0;ls | wc
+: 1663086497:0;for a in $bins; do echo $a; done
+: 1663086508:0;for a in $bins; do echo file$a; done
+: 1663086530:0;for a in $bins; do echo "$a"; done
+: 1663086550:0;for a in $bins; do echo "file $a"; done
+: 1663086567:0;for a in $bins; do printf "file $a"; done
+: 1663086585:0;for a in $bins; do printf "file"; done
+: 1663086612:0;for a in $bins; do echo "file"; done
+: 1663086642:0;for a in $bins; do echo $a; done
+: 1663087057:0;cd junk
+: 1663087065:0;v pp.sh
+: 1663087095:0;lt
+: 1663087108:0;source pp.sh
+: 1663087115:0;v pp.sh
+: 1663087140:0;sh pp.sh
+: 1663087148:0;v pp.sh
+: 1663087221:0;bash pp.sh
+: 1663087231:0;v pp.sh
+: 1663087299:0;m=${#IndexedArray[@]}
+: 1663087304:0;echo $m
+: 1663087478:0;a=$((ls))
+: 1663087483:0;echo $a
+: 1663087502:0;ls | head
+: 1663087532:0;a=($(ls))
+: 1663087535:0;echo $a
+: 1663087541:0;echo $a[1]
+: 1663087564:0;a=($(fd -d 1))
+: 1663087568:0;echo $a[1]
+: 1663087811:0;for i in "${a[@]}"\
+do echo $i\
+done
+: 1663087843:0;a=($(fd -d 1))
+: 1663087858:0;echo a[@]
+: 1663087886:0;printf "%s\n" "${a[@]}"
+: 1663087898:0;printf "%s\n" "${a[1]}"
+: 1663087920:0;for i in "${a[@]}"\
+do echo $i\
+done
+: 1663087951:0;his
+: 1663088017:0;for i in "${a[@]}; do echo $i; done
+: 1663088020:0;his
+: 1663088035:0;for i in "${a[@]}"; do echo $i; done
+: 1663088072:0;fc
+: 1663088093:0;echo "${a[@]}"
+: 1663088146:0;for i in "${a[1]}"; do echo $i; done
+: 1663088192:0;limits=( 10 20 26 39 48)
+: 1663088209:0;for i in "${limits}"; do echo $i; done
+: 1663088227:0;for i in "$(limits)"; do echo $i; done
+: 1663088347:0;for i in "${limits[@]}"; do echo $i; done
+: 1663088382:0;for i in "${a[@]}"; do echo $i; done
+: 1663088430:0;u
+: 1663088434:0;lt
+: 1663088447:0;fd -esh
+: 1663088478:0;fd -esh --changed-within=1days
+: 1663088489:0;fd -esh --changed-within=2days
+: 1663088502:0;v gitAll.sh
+: 1663088598:0;sh gitAll.sh
