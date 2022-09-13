@@ -1,0 +1,1 @@
+javascript: r = prompt("Enter Speed Rate - 0.25 to 16 "); document.getElementsByClassName("video-stream")[0].playbackRate = parseFloat(r);
