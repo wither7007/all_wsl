@@ -1,0 +1,72 @@
+
+fc fd -H -I --changed-within=1hours
+h3
+apps
+sc install.sh 
+h3
+ld
+h3
+ld
+cd all_wsl/
+gst
+v note/notes 
+h3
+fc git remote show origin
+h3
+ld
+git branch
+se 'show'
+git remote show origin
+fd -d 1
+h3
+git remote
+git remote -v
+git remote show origin
+git remote rename origin kt
+git remote -v
+git remote show origin
+git remote show kt
+git remote -v
+h3
+git remote rename kt origin
+git remote -v
+git remote remove origin
+git remote -v
+git push
+git remote add wsl git@github.com:wither7007/all_wsl.git
+se 'remote'
+git remote -v
+git remote show wsl
+git branch
+git pull origin aster
+git fetch
+fd -H -I --changed-within 1hours
+git diff
+git pull
+git config pull.ff only 
+git pull
+gst
+git pull --force 
+gb
+git remote show
+git remote show wsl
+se 'remote'
+git remote rename wsl origin
+git pull --force 
+fd -H -I --changed-within 1hours
+gst
+fd -H -I --changed-within 2days
+fd -H -I --changed-within 1days
+u
+take wsl2
+md wsl2 && cd wsl2
+git clone 
+git clone git@github.com:wither7007/all_wsl.git
+lt
+cd all_wsl/
+fd -H -I --changed-within 1days
+git log
+fd 'snips'
+lt
+gst
+his
