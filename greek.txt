@@ -18,3 +18,4 @@ let flatArray = [].concat(...l);
 a=document.createElement('p')
 a.innerHTML=flatArray.map((m)=>`${m} <br>`))
 document.body.append(a)
+added Tues
