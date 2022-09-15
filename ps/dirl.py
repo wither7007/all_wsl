@@ -1,1 +1,1 @@
-/mnt/c/projects/python/dirl.py
+C:/projects/python/dirl.py
