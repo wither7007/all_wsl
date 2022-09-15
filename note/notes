@@ -1,30 +1,26 @@
-domains
-legal
-
-Northpoint
-800 west Broadway ave
-thur
-9/1
-1:50
-1:00
-
-
 fairview
-Friday
-9/9
-10:00
+6320 Wedgewood Road North
+10/6 8:40
 
-#!/usr/bin/env bash
 
+domains
+
+legal
 
 612-752-6677
 homline
 612-728-5767
-10 to 12
-8/18/2022
+abbie september 23rd 9 to 11
 
-wsl root (615dks blah 476)
-tecmint psw stars1
+Northpoint
+800 west Broadway ave
+
+
+
+#!/usr/bin/env bash
+
+
+wsl root (615dks @ 476)
 steff007 stars1
 #!/bin/bash
 #!/bin/zsh
@@ -44,9 +40,7 @@ SSA will only use this information to connect to your account.
 call about four seasons (outlook)
 call fairview (shingles shoulder)
 1-855-324-7843
-boots update with e-mail
 dns renewal
-
 
 
 vscode switch slashes
@@ -55,7 +49,6 @@ housing update
   sent a message from wither7007@gmail.com
 four seasons
 bike gears
-lottery clean up
 
 apt-get update
 apt-get upgrade 
@@ -65,8 +58,6 @@ const chunk = (arr, size) =>
     arr.slice(i * size, i * size + size)
   );
 console.log(chunk([1, 2, 3, 4, 5], 2));
-
-bitnami wordpress sql 615dks476
 
 ts="My three favorite things are eating my family and not using commas.".split(" ")
 const arr = Array(40)

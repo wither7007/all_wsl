@@ -5047,3 +5047,558 @@ done
 : 1663088489:0;fd -esh --changed-within=2days
 : 1663088502:0;v gitAll.sh
 : 1663088598:0;sh gitAll.sh
+: 1663088851:0;date -r 1663087843
+: 1663088887:0;date +%s
+: 1663088909:0;date -r 1641735529 "+Today is %A, %B %e, and it's %I:%M:%S %p"
+: 1663089003:0;date -d @1268727836 +"%d-%m-%Y %T %z"
+: 1663089027:0;fc
+: 1663089064:0;date -d @1663087843 +"%d-%m-%Y %T %z"
+: 1663122725:0;c
+: 1663122729:0;cd all
+: 1663122732:0;gst
+: 1663124149:0;git pull
+: 1663124167:0;lt
+: 1663124173:0;v greek.txt
+: 1663124182:0;gst
+: 1663124255:0;git fetc
+: 1663124261:0;git fetch
+: 1663124266:0;gst
+: 1663124310:0;git fetch
+: 1663124324:0;gst
+: 1663124339:0;git diff
+: 1663124358:0;git pull
+: 1663124366:0;lt
+: 1663124370:0;v greek.txt
+: 1663124410:0;tree
+: 1663124427:0;fm .
+: 1663124694:0;lt
+: 1663124699:0;duh
+: 1663124716:0;cd wsl
+: 1663124717:0;lt
+: 1663124724:0;fd
+: 1663124731:0;fd -H -I
+: 1663124739:0;u
+: 1663124740:0;lt
+: 1663124748:0;gst
+: 1663124759:0;git add .
+: 1663124761:0;gst
+: 1663124778:0;git commit -m 'clean up'
+: 1663124786:0;git push
+: 1663125202:0;se 'tar'
+: 1663126375:0;lt
+: 1663126379:0;duh
+: 1663126468:0;sudo tar -zcvpf system-back.tgz .
+: 1663126543:0;cd wsl
+: 1663126544:0;lt
+: 1663126566:0;u
+: 1663126568:0;lt
+: 1663126580:0;v system-back.tgz
+: 1663126678:0;fd -H -I "ignore"
+: 1663126689:0;fd
+: 1663126709:0;fd | column
+: 1663126729:0;gst
+: 1663126740:0;lt
+: 1663126746:0;touch n
+: 1663126748:0;gst
+: 1663126763:0;se 'reset'
+: 1663126772:0;se 'hard'
+: 1663126831:0;gst
+: 1663126985:0;git clean -nfd
+: 1663127006:0;gst
+: 1663127024:0;cd temp
+: 1663127025:0;lt
+: 1663127026:0;u
+: 1663127059:0;git clean -f
+: 1663127065:0;gst
+: 1663127487:0;lt
+: 1663127493:0;v bash_h9-8.txt
+: 1663128025:0;gst
+: 1663128038:0;v note/work
+: 1663128047:0;git diff
+: 1663128179:0;v ~/.gitconfig
+: 1663128197:0;git diff
+: 1663128208:0;git diff | v -
+: 1663128453:0;git show
+: 1663128474:0;git show | v -
+: 1663128616:0;gb
+: 1663128626:0;git branch
+: 1663128702:0;git branch -M new
+: 1663128705:0;gb
+: 1663128712:0;git branch -M new2
+: 1663128715:0;gb
+: 1663128726:0;git branch
+: 1663128906:0;git config --global core.editor "nvim"
+: 1663128912:0;git branch
+: 1663128930:0;v ~/.gitconfig
+: 1663129018:0;git config --global pager.branch false
+: 1663129023:0;git branch
+: 1663129123:0;v ~/.gitconfig
+: 1663129191:0;git branch -a
+: 1663129227:0;git branch -vv
+: 1663129242:0;git log --oneline
+: 1663129253:0;v ~/.gitconfig
+: 1663129290:0;git log --oneline
+: 1663129710:0;git branch
+: 1663129811:0;git branch newer
+: 1663129815:0;git branch
+: 1663129825:0;git switch newer
+: 1663129834:0;git branch
+: 1663129844:0;lt
+: 1663129847:0;gst
+: 1663129858:0;git branch
+: 1663129867:0;git branch new2
+: 1663129877:0;git switch new2
+: 1663129881:0;gb
+: 1663129886:0;lt
+: 1663129890:0;gst
+: 1663129896:0;git diff
+: 1663129924:0;h3
+: 1663129929:0;v ~/.gitconfig
+: 1663129949:0;git diff
+: 1663129982:0;v note/work
+: 1663130010:0;gst
+: 1663130029:0;git add .
+: 1663130032:0;gst
+: 1663130043:0;git diff --staged
+: 1663130053:0;gst
+: 1663130074:0;git commit -m 'one line to note'
+: 1663130079:0;gst
+: 1663130104:0;git fetch
+: 1663130109:0;gst
+: 1663130200:0;git diff --name-only Remotebranch
+: 1663130232:0;git remote -va
+: 1663130238:0;git remote -v
+: 1663130269:0;get remote get-url
+: 1663130273:0;fc
+: 1663130277:0;git remote get-url
+: 1663130293:0;git remote get-url --all
+: 1663130319:0;git remote --all
+: 1663130338:0;gb
+: 1663130348:0;gst
+: 1663130408:0;alias | rg 'graph'
+: 1663130681:0;glog
+: 1663130702:0;gb
+: 1663130873:0;cd /
+: 1663130878:0;fd -td
+: 1663130899:0;fd d 1 -td
+: 1663130905:0;fd -d 1 -td
+: 1663130922:0;cd tmp
+: 1663130924:0;lt
+: 1663131054:0;ll
+: 1663131061:0;touch n
+: 1663131064:0;lt
+: 1663131096:0;cd
+: 1663131098:0;fd
+: 1663131149:0;fd -x tar -rvf /tmp/all-doc-files.tar "{}"
+: 1663131163:0;cd /tmp
+: 1663131164:0;lt
+: 1663131171:0;v all-doc-files.tar
+: 1663131205:0;d
+: 1663131208:0;cd
+: 1663131215:0;fd
+: 1663131221:0;fd | column
+: 1663131298:0;cd /tmp
+: 1663131299:0;lt
+: 1663131302:0;v all-doc-files.tar
+: 1663131342:0;fd --changed-within=1days
+: 1663131358:0;fd -H -I --changed-within=1days
+: 1663131376:0;fd -H -I -E tldr --changed-within=1days
+: 1663131387:0;fd -H -I -E .tldr --changed-within=1days
+: 1663131421:0;fd -H -I -E .tldr --changed-within=3days
+: 1663131439:0;v .ig
+: 1663131448:0;v .ignore
+: 1663131515:0;fd -H -I -E .tldr --changed-within=3days
+: 1663131531:0;fd --changed-within=1days
+: 1663131544:0;fd --changed-within=21days
+: 1663131556:0;rm x.png
+: 1663131561:0;fd --changed-within=21days
+: 1663131584:0;fd -emp3
+: 1663131592:0;fd -emp3 | xargs rm
+: 1663131594:0;fd -emp3
+: 1663131608:0;fd --changed-within=21days
+: 1663131622:0;fd --changed-within=21days | xargs stat
+: 1663131632:0;se 'stat'
+: 1663131672:0;fd -H -I -S +10M -x stat --printf='Name: %n Size: %s\n'
+: 1663131687:0;fd  -S +10M -x stat --printf='Name: %n Size: %s\n'
+: 1663131696:0;fd  -S +1M -x stat --printf='Name: %n Size: %s\n'
+: 1663131724:0;fd  -S +.51M -x stat --printf='Name: %n Size: %s\n'
+: 1663131729:0;fd  -S +.5M -x stat --printf='Name: %n Size: %s\n'
+: 1663131741:0;fd  -S +99K -x stat --printf='Name: %n Size: %s\n'
+: 1663131753:0;fd  -S +9K -x stat --printf='Name: %n Size: %s\n'
+: 1663131796:0;v etc
+: 1663131835:0;v thr.tar.gz
+: 1663131868:0;his
+: 1663131985:0;lt
+: 1663132005:0;fd
+: 1663132016:0;v .ignore
+: 1663132028:0;fd
+: 1663132055:0;se 'fd.*gz'
+: 1663132123:0;se 'fd.*tar'
+: 1663132147:0;fd -x echo
+: 1663132168:0;fd -x echo cat
+: 1663132187:0;se 'fd.*tar'
+: 1663132227:0;fd -x tar -rvf /tmp/all-doc-files.tar 
+: 1663132237:0;cd /tmp
+: 1663132238:0;lt
+: 1663132249:0;v all-doc-files.tar
+: 1663132285:0;cd -
+: 1663132288:0;lt
+: 1663132435:0;fd -x tar -cvf /tmp/all-doc-files.tar 
+: 1663132441:0;cd /tmp
+: 1663132443:0;lt
+: 1663132447:0;v all-doc-files.tar
+: 1663132477:0;cd -
+: 1663132496:0;fd -x tar -rvf /tmp/all-doc-files.tar 
+: 1663132508:0;lt /tmp
+: 1663132522:0;lt
+: 1663132525:0;v all-doc-files.tar
+: 1663132667:0;fda 'hist'
+: 1663132678:0;fda -d 1 'hist'
+: 1663132693:0;v hist.tar
+: 1663132760:0;se 'size'
+: 1663132776:0;ls -lSrh
+: 1663132797:0;ls -alSrh
+: 1663132830:0;fd
+: 1663132879:0;tree | v -
+: 1663132959:0;ld
+: 1663132964:0;stat tmp
+: 1663132978:0;stat .rustup
+: 1663133025:0;du backup
+: 1663133035:0;du .rustup
+: 1663133044:0;du -h .rustup
+: 1663133058:0;alias
+: 1663133075:0;alias | rg sort
+: 1663133084:0;alias | rg 'sort'
+: 1663133128:0;du -h .rustup | sort -k1
+: 1663133143:0;alias | rg 'sort'
+: 1663133156:0;du -h .rustup | sort -k1 -rh
+: 1663133167:0;alias | rg 'sort'
+: 1663133188:0;du  .rustup | sort -k1 -rh
+: 1663133192:0;du  .rustup | sort -k1 -h
+: 1663133208:0;du -h  .rustup | sort -k1 
+: 1663133226:0;alias | rg 'sort'
+: 1663133233:0;ddh
+: 1663134719:0;curl https://api.github.com/users/wither7007/
+: 1663134733:0;curl https://api.github.com/users/wither7007
+: 1663134757:0;curl https://api.github.com/users/wither7007/repos
+: 1663134928:0;curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.[0]'
+: 1663134964:0;curl 'https://api.github.com/repos/wither7007 | jq '.[0]'
+: 1663134967:0;fc
+: 1663134977:0;curl 'https://api.github.com/repos/wither7007' | jq '.[0]'
+: 1663134989:0;curl 'https://api.github.com/repos/wither7007' | jq '.'
+: 1663135005:0;curl 'https://api.github.com/repos/wither7007'
+: 1663135016:0;se 'wither'
+: 1663135063:0;curl 'https://api.github.com/repos/wither7007/all/commits?per_page=5' | jq '.[0]' | v -
+: 1663135122:0;curl 'https://api.github.com/repos/wither7007/all | jq '.[0]' | v -
+: 1663135129:0;curl 'https://api.github.com/repos/wither7007/all' | jq '.[0]' | v -
+: 1663135147:0;curl 'https://api.github.com/repos/wither7007/all/commits | jq '.[0]' | v -
+: 1663135151:0;curl 'https://api.github.com/repos/wither7007/all/commits' | jq '.[0]' | v -
+: 1663135238:0;curl 'https://api.github.com/repos/wither7007/all/commits' | jq '.[0]' 
+: 1663135272:0;fc
+: 1663135318:0;curl 'https://api.github.com/repos/wither7007/all/commits' | jq '.[0] |  {message: .commit.message, name: .commit.committer.name}'
+: 1663135368:0;fc
+: 1663135379:0;curl 'https://api.github.com/repos/wither7007/all-wsl/commits' | jq '.[0] |  {message: .commit.message, name: .commit.committer.name}'
+: 1663135404:0;fc
+: 1663135415:0;curl 'https://api.github.com/repos/wither7007/all_wsl/commits' | jq '.[0] |  {message: .commit.message, name: .commit.committer.name}'
+: 1663135426:0;fc
+: 1663135436:0;curl 'https://api.github.com/repos/wither7007/all_wsl/commits' | jq '.[1] |  {message: .commit.message, name: .commit.committer.name}'
+: 1663135506:0;curl 'https://api.github.com/repos/wither7007/all_wsl/commits' | jq '.[1] |  {message: .commit.message, name: .commit.committer.name}' #! good jq https://gist.github.com/btoone/2288960
+: 1663135516:0;fc
+: 1663135547:0;curl 'https://api.github.com/repos/wither7007/all_wsl/commits' | jq '.[1-4] |  {message: .commit.message, name: .commit.committer.name}' 
+: 1663135587:0;fc
+: 1663135619:0;curl 'https://api.github.com/repos/wither7007/all_wsl/commits' | jq '. |  {message: .commit.message, name: .commit.committer.name}' 
+: 1663135666:0;fc
+: 1663135691:0;curl 'https://api.github.com/repos/wither7007/all_wsl/commits' | jq '.[] |  {message: .commit.message, name: .commit.committer.name}' 
+: 1663135731:0;curl 'https://api.github.com/repos/wither7007/all_wsl/commits' | jq '.[] |  {message: .commit.message, name: .commit.committer.name}' | v - #! all commits
+: 1663135777:0;fc
+: 1663135804:0;curl 'https://api.github.com/repos/wither7007/all_wsl/commits' | jq '.[]' 
+: 1663135816:0;curl 'https://api.github.com/repos/wither7007/all_wsl/commits' | jq '.[]' | v -
+: 1663135855:0;h3
+: 1663135866:0;his
+: 1663135949:0;curl 'https://api.github.com/repos/wither7007/all_wsl/commits' | jq '.[] |  {message: .commit.message, name: .commit.committer.name, name: .commit.committer.date}' | v - #! all commits
+: 1663136016:0;fc
+: 1663136033:0;curl 'https://api.github.com/repos/wither7007/all_wsl/commits' | jq '.[] |  {message: .commit.message, name: .commit.committer.name, date: .commit.committer.date}' | v - #! all commits
+: 1663136054:0;his
+: 1663140249:0;bas
+: 1663140256:0;v yv.sh
+: 1663140274:0;md /mnt/c/you/git
+: 1663140295:0;bash yv.sh
+: 1663180451:0;man diff
+: 1663180462:0;lt
+: 1663180470:0;diff ye.sh yv.sh
+: 1663180499:0;lt
+: 1663180521:0;c
+: 1663180524:0;cd all
+: 1663180525:0;lt
+: 1663180538:0;gst
+: 1663180548:0;git diff
+: 1663180583:0;v note/notes
+: 1663180596:0;git diff
+: 1663180608:0;gst
+: 1663180799:0;git log -p -1 
+: 1663180814:0;git log -p -1 | v -
+: 1663180865:0;fc
+: 1663180874:0;git log -p -0 | v -
+: 1663180964:0;git log --stat
+: 1663180972:0;git log --stat | v -
+: 1663181069:0;gst
+: 1663181124:0;git add .
+: 1663181128:0;gst
+: 1663181152:0;git commit -m 'note wrights'
+: 1663181158:0;gst
+: 1663181169:0;h3
+: 1663181180:0;git log --stat | v -
+: 1663181277:0;se 'git.*show'
+: 1663181284:0;git show
+: 1663181310:0;v ~/.gitconfig
+: 1663181331:0;git show
+: 1663181344:0;gb
+: 1663181360:0;git show
+: 1663181524:0;git log -8 --oneline
+: 1663181529:0;git log -8 --oneline | nl
+: 1663181560:0;git log -8 --oneline v -
+: 1663181565:0;git log -8 --oneline | v -
+: 1663181580:0;git checkout 9fef3c2
+: 1663181606:0;lt
+: 1663181646:0;v synthe.txt
+: 1663181656:0;duh
+: 1663181767:0;git show
+: 1663181780:0;git switch -
+: 1663181809:0;h3
+: 1663181821:0;git log --oneline
+: 1663181840:0;gb
+: 1663181892:0;git branch -m main
+: 1663181894:0;gb
+: 1663181996:0;git branch -d newer
+: 1663182000:0;gb
+: 1663182003:0;gst
+: 1663182012:0;git fetch
+: 1663182022:0;git show
+: 1663182054:0;gst
+: 1663182066:0;git push
+: 1663182073:0;gst
+: 1663182085:0;git show
+: 1663182104:0;h3
+: 1663182121:0;git log -p
+: 1663182132:0;git log -p | v -
+: 1663182331:0;git log 
+: 1663182357:0;duh
+: 1663182371:0;cd bin
+: 1663182373:0;duh
+: 1663182396:0;rm -rf AutoCord
+: 1663182403:0;duh
+: 1663182404:0;lt
+: 1663182422:0;ls -alSrh
+: 1663182452:0;rm MidiSheetMusic-2.6.exe
+: 1663182459:0;ls -alSrh
+: 1663182502:0;gst
+: 1663190056:0;fd --changed-within=1days | xargs stat
+: 1663190076:0;fd --changed-within=2days | xargs stat
+: 1663190101:0;fd --changed-within=2days | xargs stat | less
+: 1663190362:0;awk -F , 'BEGIN { OFS=FS } { split($1,a,"/"); $1 = a[3] a[1] a[2] }; 1' file\
+20220628,04:00,142.01,142.38,141.59,142.15,3151\
+20220628,04:01,142.1,142.1,142.1,142.1,196
+: 1663190467:0;ls
+: 1663190477:0;ls | tr "\n" " list "
+: 1663190489:0;ls | tr "\n" "xxx"
+: 1663190501:0;ls | tr "\s" "xxx"
+: 1663190521:0;ls | sed -e 's/\./......../g'
+: 1663190546:0;ls | sed -e 's/\s/......../g'
+: 1663190562:0;ls | sed -e 's/\n/......../g'
+: 1663190576:0;ls | sed -e 's/\q/......../g'
+: 1663190587:0;ls
+: 1663190613:0;fd -td --changed-within=2days | xargs stat | less
+: 1663190630:0;fd -tf --changed-within=2days | xargs stat | less
+: 1663190658:0;se 'fd.*stat\
+'
+: 1663190663:0;se 'fd.*stat'
+: 1663190733:0;his
+: 1663190812:0;fd  --changed-within=1days -x stat --printf='Name: %n Size: %s\n'
+: 1663190820:0;fc
+: 1663190828:0;fd  --changed-within=2days -x stat --printf='Name: %n Size: %s\n'
+: 1663190944:0;his
+: 1663204807:0;ip
+: 1663216393:0;his
+: 1663216439:0;sudo useradd -m new -p 123
+: 1663216514:0;cat /etc/passwd  
+: 1663216593:0;cd /home
+: 1663216594:0;lt
+: 1663216609:0;rm -rf new foxmulder
+: 1663216616:0;sudo rm -rf new foxmulder
+: 1663216618:0;lt
+: 1663216623:0;cd py
+: 1663216624:0;lt
+: 1663216625:0;u
+: 1663216631:0;rm -rf py
+: 1663216636:0;fc
+: 1663216642:0;sudo rm -rf py
+: 1663216645:0;lt
+: 1663216653:0;d
+: 1663216656:0;2
+: 1663216669:0;h3
+: 1663216675:0;cat /etc/passwd  
+: 1663216724:0;cat /etc/passwd  | rg '1000\d'
+: 1663216737:0;cat /etc/passwd  | rg '100\d'
+: 1663216849:0;sudo userdel -r tecmint
+: 1663216856:0;cat /etc/passwd  | rg '100\d'
+: 1663216874:0;sudo userdel -r foxmulder
+: 1663216879:0;cat /etc/passwd  | rg '100\d'
+: 1663216904:0;sudo userdel -r new
+: 1663216908:0;cat /etc/passwd  | rg '100\d'
+: 1663216913:0;cat /etc/passwd 
+: 1663216929:0;whoami
+: 1663216976:0;man useradd
+: 1663217026:0;adduser sammy
+: 1663217220:0;sudo useradd -m new -p 123
+: 1663217228:0;cat /etc/passwd  | rg '1000\d'
+: 1663217248:0;cat /etc/passwd  | rg '100\d'
+: 1663217267:0;ld -l /home
+: 1663217275:0;ld /home
+: 1663217283:0;fd /home
+: 1663217299:0;fd . /home
+: 1663217309:0;fc
+: 1663217323:0;fd -td  /home
+: 1663217341:0;cd /home
+: 1663217342:0;lt
+: 1663217344:0;ld
+: 1663217350:0;fd /new
+: 1663217379:0;ls /home
+: 1663217392:0;cd /home/steff007/.local/lib/python3.10/site-packages
+: 1663217400:0;cd -
+: 1663217403:0;lt
+: 1663217404:0;fd
+: 1663217415:0;fd | rg 'ste'
+: 1663217422:0;fd | rg 'ste' | less
+: 1663217430:0;fc
+: 1663217440:0;fd | rg 'ne' | less
+: 1663217452:0;fc
+: 1663217456:0;fd | rg 'ne' | less
+: 1663217469:0;fc
+: 1663217470:0;fd | rg 'ne' | less
+: 1663217504:0;fd | rg 'ne' 
+: 1663217525:0;fd | rg 'new' 
+: 1663217531:0;cd new
+: 1663217532:0;ls
+: 1663217534:0;u
+: 1663217559:0;cd
+: 1663217562:0;pwd
+: 1663217575:0;sudo passwd new
+: 1663217612:0;login new
+: 1663217627:0;sudo login new
+: 1663218146:0;lt
+: 1663218616:0;sudo login new
+: 1663219063:0;his
+: 1663219096:0;curl 'https://api.github.com/repos/wither7007/all_wsl/commits' | jq '.[] |  {message: .commit.message, name: .commit.committer.name, date: .commit.committer.date}' | v - #! all commits
+: 1663219129:0;duh
+: 1663219146:0;ls -alSrh
+: 1663219163:0;v his.bak
+: 1663219194:0;v his.tar
+: 1663219200:0;v hist.tar
+: 1663219311:0;v his.tar
+: 1663219323:0;ls -alSrh
+: 1663219329:0;v thr.tar.gz
+: 1663219390:0;fd
+: 1663219396:0;lt
+: 1663219404:0;v thr.tar.gz
+: 1663219624:0;cat /etc/passwd  | rg '100\d'
+: 1663221198:0;c
+: 1663221200:0;cd all
+: 1663221203:0;gst
+: 1663221207:0;git diff
+: 1663221228:0;git add .
+: 1663221230:0;gst
+: 1663221249:0;git commit -m 'one line'
+: 1663221252:0;git push
+: 1663221349:0;his
+: 1663221540:0;v ~/.gitconfig
+: 1663222781:0;git show
+: 1663222861:0;git remote --all
+: 1663222869:0;git remote -v
+: 1663222907:0;git diff main origin/main
+: 1663223276:0;his
+: 1663223474:0;gst
+: 1663223502:0;rm ps/dirl.py
+: 1663223508:0;gst
+: 1663223519:0;git rm ps/dirl.py
+: 1663223525:0;gst
+: 1663223553:0;git commit -m 'one line'
+: 1663223556:0;gst
+: 1663223575:0;git push
+: 1663223600:0;git fetch
+: 1663223611:0;h3
+: 1663223621:0;git diff main origin/main
+: 1663223640:0;git merge
+: 1663223658:0;gst
+: 1663223664:0;git push
+: 1663223679:0;gst
+: 1663223685:0;git pull
+: 1663223689:0;gst
+: 1663223911:0;whereis python
+: 1663223915:0;python -c "import math;print(math.sin(1))"
+: 1663223963:0;a=20
+: 1663223969:0;fc
+: 1663223972:0;a=20
+: 1663223984:0;python -c "import math;print(math.sin($a))"
+: 1663224006:0;$a=0
+: 1663224012:0;a=0
+: 1663224014:0;python -c "import math;print(math.sin($a))"
+: 1663224090:0;his
+: 1663224126:0;pp=$(python -c "import math;print(math.sin($a))")
+: 1663224132:0;echo $pp
+: 1663224207:0;a=20
+: 1663224213:0;pp=$(python -c "import math;print(math.sin($a))")
+: 1663224217:0;echo $pp
+: 1663224254:0;cd
+: 1663225450:0;echo "scale=1000; 4*a(1)" | bc -l
+: 1663225481:0;man bc
+: 1663225527:0;echo "scale=1000; 4*a(1)" 
+: 1663225545:0;echo "scale=1000; 4*a(1)" | bc -l
+: 1663225606:0;4*2
+: 1663229098:0;shellcheck
+: 1663229148:0;fd -esh
+: 1663229159:0;v rnd.sh
+: 1663229404:0;wget -qO- https://github.com/koalaman/shellcheck/releases/download/v0.7.0/shellcheck-v0.7.0.linux.x86_64.tar.xz | tar -xJf -\
+cd shellcheck-v0.7.0/\
+sudo cp shellcheck /usr/local/bin
+: 1663229436:0;lt
+: 1663229452:0;shellcheck
+: 1663229455:0;lt
+: 1663229464:0;shellcheck gitAll.sh
+: 1663229522:0;v gitAll.sh
+: 1663229565:0;shellcheck gitAll.sh
+: 1663229574:0;v gitAll.sh
+: 1663229586:0;shellcheck gitAll.sh
+: 1663229618:0;fd -esh -x shellcheck
+: 1663229648:0;fd -esh -x shellcheck | v -
+: 1663229964:0;v ve.sh
+: 1663230086:0;curl https://sh.rustup.rs -sSf | sh
+: 1663230653:0;cargo install sd
+: 1663230675:0;source "$HOME/.cargo/env"
+: 1663230678:0;cargo install sd
+: 1663255409:0;man sd
+: 1663255417:0;wi sd
+: 1663255438:0;cd .cargo
+: 1663255445:0;fdh
+: 1663255491:0;fd -H -I -tx
+: 1663255509:0;cd bin
+: 1663255510:0;lt
+: 1663255515:0;sd
+: 1663255524:0;sd --help
+: 1663255592:0;echo 'lots((([]))) of special chars' | sd -s '((([])))' ''
+: 1663255615:0;fc
+: 1663255626:0;ld | sd -s '((([])))' ''
+: 1663255664:0;u
+: 1663255672:0;sd --help
+: 1663255799:0;echo 'lorem ipsum 23   ' | sd '\s+$' ''
+: 1663255843:0;echo 'lorem ipsum 23   ' | sd 'lorem' ''
+: 1663255871:0;echo 'lorem ipsum 23   ' | sd 'lorem' 'latin stuff'
+: 1663256302:0;ls
+: 1663256316:0;ls | sd 'sh' 'exe'
+: 1663256403:0;> echo "123.45" | sd '(?P<dollars>\d+)\.(?P<cents>\d+)' '$dollars dollars and $cents cents'\
+123 dollars and 45 cents
+: 1663260554:0;rg git
+: 1663260569:0;fd -esh
+: 1663260575:0;v gitAll.sh
+: 1663260597:0;v ~/.cache/zsh/history
+: 1663260627:0;v gitAll.sh
+: 1663260637:0;cp ~/.cache/zsh/history /mnt/c/all/whis
