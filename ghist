@@ -1,3 +1,4 @@
+I edited thhis
 cat .bash_history |sort | uniq > .bash_history
 his
 which his
