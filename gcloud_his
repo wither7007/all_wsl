@@ -1,5 +1,3 @@
-
-
 ./chis.sh 
 ./jj.sh "jim"
 /usr/lib/cargo/ install sd
@@ -7,6 +5,7 @@ alis wi
 als
 apps| rg 'car'
 bash
+bind -m vi-insert '"\C-x\C-e": edit-and-execute-command'
 cargo install sd
 cat .bash_history .bash_history | nl
 cat .bash_history | cat .bash_history | nl
@@ -16,17 +15,24 @@ cat .bash_history | sort | uniq
 cat .bash_history | sort | uniq | wc
 cat fc.sh 
 cat fun
+cat gcloud_his | sort | uniq
+cat gcloud_his | sort | uniq 
+cat gcloud_his | sort | uniq > gcloud_his 
+cat gcloud_his | sort | uniq > what
+cat gcloud_his | sort | uniq >gcloud_his
 cat ~/.bash_history | sort | uniq | >> all_wsl/gcloud_his
 cat ~/.bash_history | sort | uniq | >> ~/all_wsl/gcloud_his
 cat ~/.bash_history ~/all_wsl/gcloud_his | sort | uniq 
 cat ~/.bash_history ~/all_wsl/gcloud_his | sort | uniq  >> ~/all_wsl/gcloud_his
 cat ~/.bash_history ~/all_wsl/gcloud_his | sort | uniq | nl
+cat ~/.inputrc
 cat ~/fun
 cd
 cd /usr/lib/cargo
 cd all_wsl
 cd all_wsl/
 cd bin
+cd junk/
 cd scripts/
 cd win
 cd wsl
@@ -40,6 +46,8 @@ cha 10
 cha 2
 cha 20
 cha 250
+cha 3
+cha 3000
 cha 360
 cha 360 | rg -v 'theia'
 cha 360\
@@ -58,6 +66,9 @@ chmod +x list.sh
 clear
 cloud edit .bash_history
 cls
+cls 
+compgen -c > googleFun.txt
+compgen -c | column
 cp -r ..
 cp -r wsl2/all_wsl wsl2/
 cp .bash_history /mnt/c/all/whis.txt
@@ -76,6 +87,7 @@ docker run --name some-wordpress -p 8080:80 -d wordpress
 docker stop $(docker ps -a -q)
 dockr images
 dos2unix
+duh
 echo "$TERM"
 echo 'export TERM=xterm-mon' >> ~/.bashrc 
 exit
@@ -83,10 +95,18 @@ exit\
 export TERM=xterm-mono
 f fun 
 fc -l
+fc\
+fd
+fd --changed-with 1days
+fd --changed-within 1days
+fd --changed-within 2days
 fd --changed-within=1days
 fd --changed-within=1hours
+fd -H -I
 fd -H -I --changed-within=1days
 fd -H -I -d 1
+fd -H -I -d 1 'git'
+fd -H -I -d 1 'ignore'
 fd -H -I -d 1 --changed-within=1hours
 fd -H -I -d 1 --changed-within=1hours -x cat
 fd -H -I -d 1 -tf
@@ -96,6 +116,7 @@ fd -H -I -d 1 -tf  --changed-within=1hours -x echo
 fd -H -I -d 1 -tf  --changed-within=1hours -x list.sh
 fd -H -I -d 1 -tf | xargs ls -ltr
 fd -H -I -d 1 -tf | xargs ls -ltrh
+fd -d 1 'ap'
 fd -d 1 --modified-within=1hour
 fd -d 1 --modified-within=1hours
 fd -d 1 -esh  -x   ./jj.sh 
@@ -117,6 +138,8 @@ fd -esh -exec echo  \;
 fd -esh -exec echo '{}'
 fd -esh -exec echo '{}'\;
 fd -esh -exec echo {} \;
+fd -esh -x rg 'git'
+fd -esh -x rg -H 'git'
 fd -esh | xargs
 fd -esh | xargs ./jj.sh 
 fd -td
@@ -129,8 +152,11 @@ fdfind -H i_ --changed-within 1hours
 fdh
 find .
 find . -type f | xargs -I{} echo {} {}
+for n in {1..5}; do echo $n; done
 gb
+gca 10
 gch 10
+gch 60
 gcloud edit .bash_history
 git -m "testing changes"
 git -p
@@ -145,10 +171,13 @@ git commit -am "added uniqhis"
 git commit -m "added frumious"
 git commit -m "gcloud_his"
 git commit -m "more lines bs"
+git commit -m "saturday his"
 git commit -m "testing changes"
 git commit -m 'bash_hist'
+git commit -m 'sort unique'
 git diff
 git diff --cached
+git diff --name-only 
 git diff --staged
 git diff main origin/main
 git diff main origin/main | v -
@@ -158,8 +187,10 @@ git log --oneline
 git log -p
 git log -p -1
 git log -p -2
+git log -p -2 | v -
 git log -p -3 | v -
 git log -p 1
+git log -p 2 | v -
 git merge
 git pull
 git push
@@ -173,6 +204,9 @@ gst
 h3
 his
 hism
+history
+i3
+ip
 l
 la
 la -r
@@ -198,9 +232,18 @@ mv -v all_wsl/ ~/
 mv -v nn ~/
 mv all_wsl/ 
 mv all_wsl/ ~/wsl3/
+pwd
+rg --max-depth 1 'git' | less
+rg --max-depth 1 'ls'
+rg --max-depth 1 'ls' | less
+rg -helo
+rg -help
 rg frumious
+rgh
+rgh | v -
 rm -rf all_wsl/
 rm -rf wsl2 wsl3
+rm ap.txt.old 
 rm gcloud_his 
 rm jim
 rm jj.sh 
@@ -209,61 +252,99 @@ rm vv
 sc chis.sh 
 sc fun
 sc fun 
+sc install.sh 
+sc jt
 sc ~/fun
 sc ~/fun 
 sc ~/install.sh 
+se 'his'
 se 'modif'
 se 'ori.*main'
 se 'tar'
+set -o vi
 sh install.sh 
+sort -u .bash_history > .bash_history
 stat .gitconfig 
+stupid
+tail .bashrc
 take win
 tmux
+tmux kill-server
 tmux ls
 tocuh nn
 touch all_w/gcloud_his
 touch all_wsl/gcloud_his
 touch nn
 touch vv
+type -a als
 type -a cha
 type -a fday
+type -a hi
+type -a his
 type -a hism
+type -a history
 type -a ld
+type -a rg
+type -a vi
+type -a vim
 u
+unalias rg
+unalias vi
+users
+users | sed  '/s\s\+/\n/g'
+users | sed  -e 's/\s\+/\n/g'
+users | sed  -i 's/\s\+/\n/g'
+users | sed  -i 's\/s\+/\n/g'
+users | sed -i '/s\s\+/\n/g'
+v
 v .bash_history
 v .bashrc 
 v .gitconfig 
+v .ignore
 v .viminfo 
+v chis
 v chis.sh
 v chis.sh 
 v daily_log.txt 
 v fu
 v fun
+v fun 
 v fund
 v gcloud_his 
 v ghist
+v ghist 
 v greek.txt 
 v hisback 
 v jim
 v jj.sh
+v jt
 v list.sh
 v note/notes 
 v pss
+v what
 v whis
 v whis 
 v win/whis
 v wsl
 v ~/.gitconfig 
+v ~/.inputrc
+v ~/fun 
+vi
+vi his
 whereis cargo
 whereis dos2unix
 whereis dos2unixss
 whereis fd
-
+whos
+whos | sed -i '/s\s\+/\n/g'
+zzzz
+
 
 alis wi
 als
 apps| rg 'car'
 bash
+bind -m vi-insert '"\C-x\C-e": edit-and-execute-command'
 cargo install sd
 cat ~/.bash_history ~/all_wsl/gcloud_his | sort | uniq 
 cat ~/.bash_history ~/all_wsl/gcloud_his | sort | uniq  >> ~/all_wsl/gcloud_his
@@ -284,10 +365,13 @@ cat gcloud_his | sort | uniq
 cat gcloud_his | sort | uniq > gcloud_his 
 cat gcloud_his | sort | uniq >gcloud_his
 cat gcloud_his | sort | uniq > what
+cat ~/.inputrc
 cd
+cd all
 cd all_wsl
 cd all_wsl/
 cd bin
+cd junk/
 cd scripts/
 cd /usr/lib/cargo
 cd win
@@ -303,6 +387,7 @@ cha 2
 cha 20
 cha 250
 cha 3
+cha 3000
 cha 360
 cha 360\
 cha 360 | rg -v 'theia'
@@ -322,6 +407,9 @@ chmod +x list.sh
 clear
 cloud edit .bash_history
 cls
+cls 
+compgen -c | column
+compgen -c > googleFun.txt
 cp .bash_history all_wsl/
 cp .bash_history all_wsl/bash_history
 cp .bash_history /mnt/c/all/whis.txt
@@ -346,11 +434,17 @@ echo 'export TERM=xterm-mon' >> ~/.bashrc
 exit
 exit\
 export TERM=xterm-mono
+fc\
 fc -l
+fd
 fda
 fday
+fd --changed-with 1days
+fd --changed-within 1days
 fd --changed-within=1days
 fd --changed-within=1hours
+fd --changed-within 2days
+fd -d 1 'ap'
 fd -d 1 -esh | -exec   ./jj.sh {}
 fd -d 1 -esh | xargs   cat {}
 fd -d 1 -esh | xargs  echo {}; cat {}
@@ -374,6 +468,8 @@ fd -esh -exec ./jj.sh {}
 fd -esh -exec ./jj.sh {} \;
 fd -esh | xargs
 fd -esh | xargs ./jj.sh 
+fd -esh -x rg 'git'
+fd -esh -x rg -H 'git'
 fdfind -H i_ --changed-within 1hours 
 fdfind -H -I --changed-within 1hours 
 fdfind -H -I --changed-within 1hours | rg -v '\.git'
@@ -384,6 +480,8 @@ fd -H -I --changed-within=1days
 fd -H -I -d 1
 fd -H -I -d 1 --changed-within=1hours
 fd -H -I -d 1 --changed-within=1hours -x cat
+fd -H -I -d 1 'git'
+fd -H -I -d 1 'ignore'
 fd -H -I -d 1 -tf
 fd -H -I -d 1 -tf  --changed-within=1hours -x cat
 fd -H -I -d 1 -tf  --changed-within=1hours -x echo
@@ -397,7 +495,9 @@ find .
 find . -type f | xargs -I{} echo {} {}
 for n in {1..5}; do echo $n; done
 gb
+gca 10
 gch 10
+gch 20
 gch 60
 gcloud edit .bash_history
 git add
@@ -409,15 +509,20 @@ git commit -am "added days to note"
 git commit -am "added settings"
 git commit -am "added uniqhis"
 git commit -m "added frumious"
+git commit -m 'another'
 git commit -m 'bash_hist'
 git commit -m "gcloud_his"
 git commit -m "more lines bs"
+git commit -m "saturday his"
 git commit -m 'sort unique'
 git commit -m "testing changes"
 git diff
 git diff --cached
 git diff main origin/main
 git diff main origin/main | v -
+git diff --name-only 
+git diff --name-only main origin/main 
+git diff --name-only master origin/master 
 git diff --staged
 git diff | v -
 git fetch
@@ -426,6 +531,8 @@ git log -p
 git log -p -1
 git log -p 1
 git log -p -2
+git log -p -2 | v -
+git log -p 2 | v -
 git log -p -3 | v -
 git merge
 git -m "testing changes"
@@ -442,6 +549,10 @@ gst
 h3
 his
 hism
+history
+history -a
+i3
+ip
 ./jj.sh "jim"
 l
 la
@@ -460,6 +571,7 @@ lt -a | rg -v "^d" | rg 'fun'
 lt *.sh
 manv 
 manv sd
+man zcat
 md win || cd win
 md wsl3
 mv all_wsl/ 
@@ -468,7 +580,17 @@ mv -rv wsl2/all_wsl wsl2/
 mv -r wsl2/all_wsl wsl2/
 mv -v all_wsl/ ~/
 mv -v nn ~/
+PROMPT_COMMAND='history -a'
+pwd
 rg frumious
+rgh
+rg -helo
+rg -help
+rgh | v -
+rg --max-depth 1 'git' | less
+rg --max-depth 1 'ls'
+rg --max-depth 1 'ls' | less
+rm ap.txt.old 
 rm gcloud_his 
 rm jim
 rm jj.sh 
@@ -476,38 +598,69 @@ rm nn
 rm -rf all_wsl/
 rm -rf wsl2 wsl3
 rm vv
+sc chis.sh
 sc chis.sh 
 sc ~/fun
 sc ~/fun 
 sc fun
 sc fun 
 sc ~/install.sh 
+sc install.sh 
+sc jt
+se 'his'
 se 'modif'
 se 'ori.*main'
 se 'tar'
+set -o vi
 sh install.sh 
+sort -u .bash_history > .bash_history
 stat .gitconfig 
+stupid
+tail .bashrc
 take win
 tmux
+tmux kill-server
 tmux ls
 tocuh nn
 touch all_w/gcloud_his
 touch all_wsl/gcloud_his
 touch nn
 touch vv
+type -a als
 type -a cha
 type -a fday
+type -a __git_main
+type -a __git_main | v -
+type -a hi
+type -a his
 type -a hism
+type -a history
 type -a ld
+type -a rg
+type -a vi
+type -a vim
 u
+unalias rg
+unalias vi
+users
+users | sed  -e 's/\s\+/\n/g'
+users | sed  -i 's/\s\+/\n/g'
+users | sed  -i 's\/s\+/\n/g'
+users | sed -i '/s\s\+/\n/g'
+users | sed  '/s\s\+/\n/g'
 /usr/lib/cargo/ install sd
+v
 v .bash_history
+v ~/.bash_history
 v .bashrc 
+v chis
 v chis.sh
 v chis.sh 
 v daily_log.txt 
 v fu
+v ~/fun 
 v fun
+v fun 
 v fund
 v gcloud_his 
 v ghist
@@ -516,11 +669,17 @@ v .gitconfig
 v ~/.gitconfig 
 v greek.txt 
 v hisback 
+vi
+v .ignore
+vi his
+v ~/.inputrc
 v jim
 v jj.sh
+v jt
 v list.sh
 v note/notes 
 v pss
+v tx
 v .viminfo 
 v what
 v whis
@@ -531,3 +690,1276 @@ whereis cargo
 whereis dos2unix
 whereis dos2unixss
 whereis fd
+whos
+whos | sed -i '/s\s\+/\n/g'
+zzzz
+
+
+
+"
+\
+alias | rg 'git'
+alis wi
+als
+apps| rg 'car'
+bash
+bind -m vi-insert '"\C-x\C-e": edit-and-execute-command'
+bit diff kottkeLink.txt 
+cargo install sd
+cat ~/.bash_history ~/all_wsl/gcloud_his | sort | uniq 
+cat ~/.bash_history ~/all_wsl/gcloud_his | sort | uniq  >> ~/all_wsl/gcloud_his
+cat ~/.bash_history ~/all_wsl/gcloud_his | sort | uniq | nl
+cat .bash_history .bash_history | nl
+cat .bash_history | cat .bash_history | nl
+cat .bash_history | cat .bash_history | sort | uniq
+cat .bash_history | cat .bash_history | sort | uniq | nl
+cat .bash_history | sort | uniq
+cat ~/.bash_history | sort | uniq | >> ~/all_wsl/gcloud_his
+cat ~/.bash_history | sort | uniq | >> all_wsl/gcloud_his
+cat .bash_history | sort | uniq | wc
+cat fc.sh 
+cat ~/fun
+cat fun
+cat gcloud_his | sort | uniq
+cat gcloud_his | sort | uniq 
+cat gcloud_his | sort | uniq > gcloud_his 
+cat gcloud_his | sort | uniq >gcloud_his
+cat gcloud_his | sort | uniq > what
+cat ~/.inputrc
+cd
+cd all
+cd all_wsl
+cd all_wsl/
+cd bin
+cd junk/
+cd scripts/
+cd /usr/lib/cargo
+cd win
+cd wsl
+cd wsl2
+cd wsl2/
+cd wsl3/
+cha
+cha 0
+cha 1
+cha 10
+cha 120
+cha 2
+cha 20
+cha 250
+cha 3
+cha 300
+cha 3000
+cha 360
+cha 360\
+cha 360 | rg -v 'theia'
+cha 5
+cha 50
+cha 60
+cha 60000
+cha(){ echo $1; }
+cha(){ fdfind -H -I --changed-with $1mins; }
+cha(){ fdfind -H -I --changed-within $1mins; }
+./chis.sh 
+chmd +x chis.sh 
+chmod +x chis.sh 
+chmod +x jj.sh 
+chmod + x list.sh 
+chmod +x list.sh 
+cl
+clear
+cloud edit .bash_history
+cls
+cls 
+compgen -c | column
+compgen -c > googleFun.txt
+cp .bash_history all_wsl/
+cp .bash_history all_wsl/bash_history
+cp .bash_history /mnt/c/all/whis.txt
+cp -r ..
+cp -r wsl2/all_wsl wsl2/
+curl -s "https://raw.githubusercontent.com/wither7007/all_wsl/main/whis" >whis
+curl -s "https://raw.githubusercontent.com/wither7007/all_wsl/main/whis" whis
+date >> daily_log.txt 2>&1
+dater >> daily_log.txt 2>&1
+docker images
+docker ps -a
+docker rm $(docker ps -a -q)
+docker rmi $(docker images -q)
+docker rmi $(docker ps -a -q)
+docker run --name some-wordpress -p 8080:80 -d wordpress
+docker stop $(docker ps -a -q)
+dockr images
+dos2unix
+duh
+duh -hs $(la)
+du -hs $(la)
+du -hs * | sort -h
+echo "$TERM"
+echo 'export TERM=xterm-mon' >> ~/.bashrc 
+exit
+exit\
+export TERM=xterm-mono
+fc\
+fc -l
+fd
+fd 
+fda
+fday
+fd --changed-with 1days
+fd --changed-within 1days
+fd --changed-within=1days
+fd --changed-within=1hours
+fd --changed-within 2days
+fd --changed-within 2hours -x stat
+fd | column 
+fd -d 1 'ap'
+fd -d 1 -esh | -exec   ./jj.sh {}
+fd -d 1 -esh | xargs   cat {}
+fd -d 1 -esh | xargs  echo {}; cat {}
+fd -d 1 -esh | xargs -I{} echo {}
+fd -d 1 -esh | xargs -I{} echo {}; cat {}
+fd -d 1 -esh | xargs   ./jj.sh {}
+fd -d 1 -esh  -x   ./jj.sh 
+fd -d 1 -esh  -x   ./jj.sh {}
+fd -d 1 --modified-within=1hour
+fd -d 1 --modified-within=1hours
+fd -d 1 -td
+fd -d 1 -tf
+fd -d 1 | xargs -I{} echo {}
+fd -d 1 | xargs -I{} echo {} {}
+fd -esh
+fd -esh -exec echo 
+fd -esh -exec echo  \;
+fd -esh -exec echo '{}'
+fd -esh -exec echo '{}'\;
+fd -esh -exec echo {} \;
+fd -esh -exec ./jj.sh {}
+fd -esh -exec ./jj.sh {} \;
+fd -esh | xargs
+fd -esh | xargs ./jj.sh 
+fd -esh -x rg 'git'
+fd -esh -x rg -H 'git'
+fdfind -H i_ --changed-within 1hours 
+fdfind -H -I --changed-within 1hours 
+fdfind -H -I --changed-within 1hours | rg -v '\.git'
+fdfind -H -I --changed-within 1hours | rg -v 'git'
+fdh
+fd -H
+fd -H -I
+fd -H -I --changed-within=1days
+fd -H -I --changed-within 1hours
+fd -H -I -d 1
+fd -H -I -d 1 --changed-within=1hours
+fd -H -I -d 1 --changed-within=1hours -x cat
+fd -H -I -d 1 'git'
+fd -H -I -d 1 'ignore'
+fd -H -I -d 1 -td -x du -hs | rg '\d.*M\s' | sort -n
+fd -H -I -d 1 -tf
+fd -H -I -d 1 -tf  --changed-within=1hours -x cat
+fd -H -I -d 1 -tf  --changed-within=1hours -x echo
+fd -H -I -d 1 -tf  --changed-within=1hours -x ./list.sh
+fd -H -I -d 1 -tf  --changed-within=1hours -x list.sh
+fd -H -I -d 1 -tf | xargs ls -ltr
+fd -H -I -d 1 -tf | xargs ls -ltrh
+fd -H -I -td -x du -hs | rg '\d.*M\s' | sort 
+fd -H -I -td -x du -hs | rg '\d.*M\s' | sort -n
+fd -I
+fd | less
+fd -td
+fd -td -x du -hs | rg '\d.*K\s' | sort 
+fd -td -x du -hs | rg '\d.*M\s' | sort 
+fd -tf
+fd -x du -hs
+fd -x du -hs | rg '0K' | sort 
+fd -x du -hs | rg 'aM' | sort 
+fd -x du -hs | rg '\dK' | sort 
+fd -x du -hs | rg '\d.*k\s' | sort 
+fd -x du -hs | rg '\d.*K\s' | sort 
+fd -x du -hs | rg '/dM' | sort 
+fd -x du -hs | rg '\d.*M' | sort 
+fd -x du -hs | rg '\dM' | sort 
+fd -x du -hs | rg 'dM' | sort 
+fd -x du -hs | rg 'DM' | sort 
+fd -x du -hs | rg '\d.*M\s' | sort 
+fd -x du -hs | rg '\d' | sort 
+fd -x du -hs | rg 'M' | sort 
+fd -x du -hs | sort 
+fd -x stat
+f fun 
+find .
+find . -type f | xargs -I{} echo {} {}
+for n in {1..5}; do echo $n; done
+gb
+gca 10
+gca 300
+gch 10
+gch 20
+gch 300
+gch 60
+gcloud edit .bash_history
+git add
+git add .
+git add greek.txt 
+git add - p hisback 
+git add -p hisback 
+git clean -f -d
+git commit
+git commit -am "added days to note"
+git commit -am "added settings"
+git commit -am "added uniqhis"
+git commit -m "added aliases
+git commit -m "added frumious"
+git commit -m 'another'
+git commit -m 'bash_hist'
+git commit -m "gcloud_his"
+git commit -m "more lines bs"
+git commit -m "saturday his"
+git commit -m 'sort unique'
+git commit -m "testing changes"
+git config
+git diff
+git diff --cached
+git diff hisback
+git diff kottkeLink.txt
+git diff kottkeLink.txt\
+git diff main origin/main
+git diff main origin/main 
+git diff main origin/main | v -
+git diff --name-only 
+git diff --name-only main origin/main 
+git diff --name-only master origin/master 
+git diff --staged
+git diff | v -
+git fetch
+git log
+git log | less
+git log --oneline 
+git log -p
+git log -p -1
+git log -p 1
+git log -p -2
+git log -p -2 | v -
+git log -p 2 | v -
+git log -p -3 | v -
+git merge
+git mergetool
+git -m "testing changes"
+git -p
+git pull
+git push
+git remote -v
+git reset --hard
+git reset -hard
+git show
+git show | -
+git show | v -
+git status
+gp
+gst
+gst\
+h3
+his
+hism
+history
+history -a
+i3
+ip
+./jj.sh "jim"
+l
+la
+la | grep 'it'
+la -r
+la | rg 'the'
+ld
+ll
+ls
+ls -lahrt
+ls | rg '\d'
+ls | rg '\d.*t'
+ls | rg '\dt'
+ls *.sh
+lt
+lt -a
+lt -a | rg -v "^d"
+lt -a | rg -v "^d" | rg 'fun'
+lt | rg '\d'
+lt *.sh
+manv 
+manv sd
+man zcat
+md win || cd win
+md wsl3
+mv all_wsl/ 
+mv all_wsl/ ~/wsl3/
+mv -rv wsl2/all_wsl wsl2/
+mv -r wsl2/all_wsl wsl2/
+mv -v all_wsl/ ~/
+mv -v nn ~/
+PROMPT_COMMAND='history -a'
+pwd
+rg frumious
+rgh
+rg -helo
+rg -help
+rgh | v -
+rg --max-depth 1 'git' | less
+rg --max-depth 1 'ls'
+rg --max-depth 1 'ls' | less
+rm ap.txt.old 
+rm gcloud_his 
+rm jim
+rm jj.sh 
+rm nn
+rm -rf all_wsl/
+rm -rf wsl2 wsl3
+rm vv
+sc chis.sh
+sc chis.sh 
+sc ~/fun
+sc ~/fun 
+sc fun
+sc fun 
+sc ~/install.sh 
+sc install.sh 
+sc jt
+se 'his'
+se 'modif'
+se 'ori.*main'
+se 'tar'
+set -o vi
+sh install.sh 
+sort -u .bash_history > .bash_history
+stat .gitconfig 
+stupid
+tail .bashrc
+take win
+tmux
+tmux kill-server
+tmux ls
+tocuh nn
+touch all_w/gcloud_his
+touch all_wsl/gcloud_his
+touch nn
+touch vv
+type -a als
+type -a cha
+type -a fday
+type -a __git_main
+type -a __git_main | v -
+type -a hi
+type -a his
+type -a hism
+type -a history
+type -a ld
+type -a rg
+type -a vi
+type -a vim
+u
+unalias rg
+unalias vi
+users
+users | sed  -e 's/\s\+/\n/g'
+users | sed  -i 's/\s\+/\n/g'
+users | sed  -i 's\/s\+/\n/g'
+users | sed -i '/s\s\+/\n/g'
+users | sed  '/s\s\+/\n/g'
+/usr/lib/cargo/ install sd
+v
+v .bash_history
+v ~/.bash_history
+v .bashrc 
+v chis
+v chis.sh
+v chis.sh 
+v daily_log.txt 
+v fu
+v ~/fun 
+v fun
+v fun 
+v fund
+v gcloud_his 
+v ghist
+v ghist 
+v .gitconfig 
+v ~/.gitconfig 
+v greek.txt 
+v hisback
+v hisback 
+vi
+v .ignore
+vi his
+v ~/.inputrc
+v jim
+v jj.sh
+v jt
+v keybindings 
+v kottkeLink.txt 
+v list.sh
+v note/notes 
+v pss
+v tx
+v .viminfo 
+v what
+v whis
+v whis 
+v win/whis
+v wsl
+whereis cargo
+whereis dos2unix
+whereis dos2unixss
+whereis fd
+whos
+whos | sed -i '/s\s\+/\n/g'
+zzzz
+
+
+
+"
+\
+alias | rg 'git'
+alis wi
+als
+apps| rg 'car'
+bash
+bind -m vi-insert '"\C-x\C-e": edit-and-execute-command'
+bit diff kottkeLink.txt 
+cargo install sd
+cat ~/.bash_history ~/all_wsl/gcloud_his | sort | uniq 
+cat ~/.bash_history ~/all_wsl/gcloud_his | sort | uniq  >> ~/all_wsl/gcloud_his
+cat ~/.bash_history ~/all_wsl/gcloud_his | sort | uniq | nl
+cat .bash_history .bash_history | nl
+cat .bash_history | cat .bash_history | nl
+cat .bash_history | cat .bash_history | sort | uniq
+cat .bash_history | cat .bash_history | sort | uniq | nl
+cat .bash_history | sort | uniq
+cat ~/.bash_history | sort | uniq | >> ~/all_wsl/gcloud_his
+cat ~/.bash_history | sort | uniq | >> all_wsl/gcloud_his
+cat .bash_history | sort | uniq | wc
+cat fc.sh 
+cat ~/fun
+cat fun
+cat gcloud_his | sort | uniq
+cat gcloud_his | sort | uniq 
+cat gcloud_his | sort | uniq > gcloud_his 
+cat gcloud_his | sort | uniq >gcloud_his
+cat gcloud_his | sort | uniq > what
+cat ~/.inputrc
+cd
+cd all
+cd all_wsl
+cd all_wsl/
+cd bin
+cd junk/
+cd scripts/
+cd /usr/lib/cargo
+cd win
+cd wsl
+cd wsl2
+cd wsl2/
+cd wsl3/
+cha
+cha 0
+cha 1
+cha 10
+cha 120
+cha 2
+cha 20
+cha 250
+cha 3
+cha 300
+cha 3000
+cha 360
+cha 360\
+cha 360 | rg -v 'theia'
+cha 5
+cha 50
+cha 60
+cha 60000
+cha(){ echo $1; }
+cha(){ fdfind -H -I --changed-with $1mins; }
+cha(){ fdfind -H -I --changed-within $1mins; }
+./chis.sh 
+chmd +x chis.sh 
+chmod +x chis.sh 
+chmod +x jj.sh 
+chmod + x list.sh 
+chmod +x list.sh 
+cl
+clear
+cloud edit .bash_history
+cls
+cls 
+compgen -c | column
+compgen -c > googleFun.txt
+cp .bash_history all_wsl/
+cp .bash_history all_wsl/bash_history
+cp .bash_history /mnt/c/all/whis.txt
+cp -r ..
+cp -r wsl2/all_wsl wsl2/
+curl -s "https://raw.githubusercontent.com/wither7007/all_wsl/main/whis" >whis
+curl -s "https://raw.githubusercontent.com/wither7007/all_wsl/main/whis" whis
+date >> daily_log.txt 2>&1
+dater >> daily_log.txt 2>&1
+docker images
+docker ps -a
+docker rm $(docker ps -a -q)
+docker rmi $(docker images -q)
+docker rmi $(docker ps -a -q)
+docker run --name some-wordpress -p 8080:80 -d wordpress
+docker stop $(docker ps -a -q)
+dockr images
+dos2unix
+duh
+duh -hs $(la)
+du -hs $(la)
+du -hs * | sort -h
+echo "$TERM"
+echo 'export TERM=xterm-mon' >> ~/.bashrc 
+exit
+exit\
+export TERM=xterm-mono
+fc\
+fc -l
+fd
+fd 
+fda
+fday
+fd --changed-with 1days
+fd --changed-within 1days
+fd --changed-within=1days
+fd --changed-within=1hours
+fd --changed-within 2days
+fd --changed-within 2hours -x stat
+fd | column 
+fd -d 1 'ap'
+fd -d 1 -esh | -exec   ./jj.sh {}
+fd -d 1 -esh | xargs   cat {}
+fd -d 1 -esh | xargs  echo {}; cat {}
+fd -d 1 -esh | xargs -I{} echo {}
+fd -d 1 -esh | xargs -I{} echo {}; cat {}
+fd -d 1 -esh | xargs   ./jj.sh {}
+fd -d 1 -esh  -x   ./jj.sh 
+fd -d 1 -esh  -x   ./jj.sh {}
+fd -d 1 --modified-within=1hour
+fd -d 1 --modified-within=1hours
+fd -d 1 -td
+fd -d 1 -tf
+fd -d 1 | xargs -I{} echo {}
+fd -d 1 | xargs -I{} echo {} {}
+fd -esh
+fd -esh -exec echo 
+fd -esh -exec echo  \;
+fd -esh -exec echo '{}'
+fd -esh -exec echo '{}'\;
+fd -esh -exec echo {} \;
+fd -esh -exec ./jj.sh {}
+fd -esh -exec ./jj.sh {} \;
+fd -esh | xargs
+fd -esh | xargs ./jj.sh 
+fd -esh -x rg 'git'
+fd -esh -x rg -H 'git'
+fdfind -H i_ --changed-within 1hours 
+fdfind -H -I --changed-within 1hours 
+fdfind -H -I --changed-within 1hours | rg -v '\.git'
+fdfind -H -I --changed-within 1hours | rg -v 'git'
+fdh
+fd -H
+fd -H -I
+fd -H -I --changed-within=1days
+fd -H -I --changed-within 1hours
+fd -H -I -d 1
+fd -H -I -d 1 --changed-within=1hours
+fd -H -I -d 1 --changed-within=1hours -x cat
+fd -H -I -d 1 'git'
+fd -H -I -d 1 'ignore'
+fd -H -I -d 1 -td -x du -hs | rg '\d.*M\s' | sort -n
+fd -H -I -d 1 -tf
+fd -H -I -d 1 -tf  --changed-within=1hours -x cat
+fd -H -I -d 1 -tf  --changed-within=1hours -x echo
+fd -H -I -d 1 -tf  --changed-within=1hours -x ./list.sh
+fd -H -I -d 1 -tf  --changed-within=1hours -x list.sh
+fd -H -I -d 1 -tf | xargs ls -ltr
+fd -H -I -d 1 -tf | xargs ls -ltrh
+fd -H -I -td -x du -hs | rg '\d.*M\s' | sort 
+fd -H -I -td -x du -hs | rg '\d.*M\s' | sort -n
+fd -I
+fd | less
+fd -td
+fd -td -x du -hs | rg '\d.*K\s' | sort 
+fd -td -x du -hs | rg '\d.*M\s' | sort 
+fd -tf
+fd -x du -hs
+fd -x du -hs | rg '0K' | sort 
+fd -x du -hs | rg 'aM' | sort 
+fd -x du -hs | rg '\dK' | sort 
+fd -x du -hs | rg '\d.*k\s' | sort 
+fd -x du -hs | rg '\d.*K\s' | sort 
+fd -x du -hs | rg '/dM' | sort 
+fd -x du -hs | rg '\d.*M' | sort 
+fd -x du -hs | rg '\dM' | sort 
+fd -x du -hs | rg 'dM' | sort 
+fd -x du -hs | rg 'DM' | sort 
+fd -x du -hs | rg '\d.*M\s' | sort 
+fd -x du -hs | rg '\d' | sort 
+fd -x du -hs | rg 'M' | sort 
+fd -x du -hs | sort 
+fd -x stat
+f fun 
+find .
+find . -type f | xargs -I{} echo {} {}
+for n in {1..5}; do echo $n; done
+gb
+gca 10
+gca 300
+gch 10
+gch 20
+gch 300
+gch 60
+gcloud edit .bash_history
+git add
+git add .
+git add greek.txt 
+git add - p hisback 
+git add -p hisback 
+git clean -f -d
+git commit
+git commit -am "added days to note"
+git commit -am "added settings"
+git commit -am "added uniqhis"
+git commit -m "added aliases
+git commit -m "added frumious"
+git commit -m 'another'
+git commit -m 'bash_hist'
+git commit -m "gcloud_his"
+git commit -m "more lines bs"
+git commit -m "saturday his"
+git commit -m 'sort unique'
+git commit -m "testing changes"
+git config
+git diff
+git diff --cached
+git diff ':(exclude)gcloud_his'
+git diff ':(exclude)gcloud_hist'
+git diff hisback
+git diff kottkeLink.txt
+git diff kottkeLink.txt\
+git diff main origin/main
+git diff main origin/main 
+git diff main origin/main | v -
+git diff --name-only 
+git diff --name-only main origin/main 
+git diff --name-only master origin/master 
+git diff --staged
+git diff | v -
+git fetch
+git log
+git log | less
+git log --oneline 
+git log -p
+git log -p -1
+git log -p 1
+git log -p -2
+git log -p -2 | v -
+git log -p 2 | v -
+git log -p -3 | v -
+git merge
+git mergetool
+git -m "testing changes"
+git -p
+git pull
+git push
+git remote -v
+git reset --hard
+git reset -hard
+git show
+git show | -
+git show | v -
+git status
+gp
+gst
+gst\
+h3
+his
+hism
+history
+history -a
+i3
+ip
+./jj.sh "jim"
+l
+la
+la | grep 'it'
+la -r
+la | rg 'the'
+ld
+ll
+ls
+ls -lahrt
+ls | rg '\d'
+ls | rg '\d.*t'
+ls | rg '\dt'
+ls *.sh
+lt
+lt -a
+lt -a | rg -v "^d"
+lt -a | rg -v "^d" | rg 'fun'
+lt | rg '\d'
+lt *.sh
+manv 
+manv sd
+man zcat
+md win || cd win
+md wsl3
+mv all_wsl/ 
+mv all_wsl/ ~/wsl3/
+mv -rv wsl2/all_wsl wsl2/
+mv -r wsl2/all_wsl wsl2/
+mv -v all_wsl/ ~/
+mv -v nn ~/
+PROMPT_COMMAND='history -a'
+pwd
+rg frumious
+rgh
+rg -helo
+rg -help
+rgh | v -
+rg --max-depth 1 'git' | less
+rg --max-depth 1 'ls'
+rg --max-depth 1 'ls' | less
+rm ap.txt.old 
+rm gcloud_his 
+rm jim
+rm jj.sh 
+rm nn
+rm -rf all_wsl/
+rm -rf wsl2 wsl3
+rm vv
+sc chis.sh
+sc chis.sh 
+sc ~/fun
+sc ~/fun 
+sc fun
+sc fun 
+sc ~/install.sh 
+sc install.sh 
+sc jt
+se 'his'
+se 'modif'
+se 'ori.*main'
+se 'tar'
+set -o vi
+sh install.sh 
+sort -u .bash_history > .bash_history
+stat .gitconfig 
+stupid
+tail .bashrc
+take win
+tmux
+tmux kill-server
+tmux ls
+tocuh nn
+touch all_w/gcloud_his
+touch all_wsl/gcloud_his
+touch nn
+touch vv
+type -a als
+type -a cha
+type -a fday
+type -a __git_main
+type -a __git_main | v -
+type -a hi
+type -a his
+type -a hism
+type -a history
+type -a ld
+type -a rg
+type -a vi
+type -a vim
+u
+unalias rg
+unalias vi
+users
+users | sed  -e 's/\s\+/\n/g'
+users | sed  -i 's/\s\+/\n/g'
+users | sed  -i 's\/s\+/\n/g'
+users | sed -i '/s\s\+/\n/g'
+users | sed  '/s\s\+/\n/g'
+/usr/lib/cargo/ install sd
+v
+v .bash_history
+v ~/.bash_history
+v .bashrc 
+v chis
+v chis.sh
+v chis.sh 
+v daily_log.txt 
+v fu
+v ~/fun 
+v fun
+v fun 
+v fund
+v gcloud_his 
+v ghist
+v ghist 
+v .gitconfig 
+v ~/.gitconfig 
+v greek.txt 
+v hisback
+v hisback 
+vi
+v .ignore
+vi his
+v ~/.inputrc
+v jim
+v jj.sh
+v jt
+v keybindings 
+v kottkeLink.txt 
+v list.sh
+v note/notes 
+v pss
+v tx
+v .viminfo 
+v what
+v whis
+v whis 
+v win/whis
+v wsl
+whereis cargo
+whereis dos2unix
+whereis dos2unixss
+whereis fd
+whos
+whos | sed -i '/s\s\+/\n/g'
+zzzz
+
+
+
+"
+\
+alias | rg 'git'
+alis wi
+als
+apps| rg 'car'
+bash
+bind -m vi-insert '"\C-x\C-e": edit-and-execute-command'
+bit diff kottkeLink.txt 
+cargo install sd
+cat ~/.bash_history ~/all_wsl/gcloud_his | sort | uniq 
+cat ~/.bash_history ~/all_wsl/gcloud_his | sort | uniq  >> ~/all_wsl/gcloud_his
+cat ~/.bash_history ~/all_wsl/gcloud_his | sort | uniq | nl
+cat .bash_history .bash_history | nl
+cat .bash_history | cat .bash_history | nl
+cat .bash_history | cat .bash_history | sort | uniq
+cat .bash_history | cat .bash_history | sort | uniq | nl
+cat .bash_history | sort | uniq
+cat ~/.bash_history | sort | uniq | >> ~/all_wsl/gcloud_his
+cat ~/.bash_history | sort | uniq | >> all_wsl/gcloud_his
+cat .bash_history | sort | uniq | wc
+cat fc.sh 
+cat ~/fun
+cat fun
+cat gcloud_his | sort | uniq
+cat gcloud_his | sort | uniq 
+cat gcloud_his | sort | uniq > gcloud_his 
+cat gcloud_his | sort | uniq >gcloud_his
+cat gcloud_his | sort | uniq > what
+cat ~/.inputrc
+cd
+cd all
+cd all_wsl
+cd all_wsl/
+cd bin
+cd junk/
+cd scripts/
+cd /usr/lib/cargo
+cd win
+cd wsl
+cd wsl2
+cd wsl2/
+cd wsl3/
+cha
+cha 0
+cha 1
+cha 10
+cha 120
+cha 2
+cha 20
+cha 250
+cha 3
+cha 300
+cha 3000
+cha 360
+cha 360\
+cha 360 | rg -v 'theia'
+cha 5
+cha 50
+cha 60
+cha 60000
+cha(){ echo $1; }
+cha(){ fdfind -H -I --changed-with $1mins; }
+cha(){ fdfind -H -I --changed-within $1mins; }
+./chis.sh 
+chis.sh
+chmd +x chis.sh 
+chmod +x chis.sh 
+chmod +x jj.sh 
+chmod + x list.sh 
+chmod +x list.sh 
+cl
+clear
+cloud edit .bash_history
+cls
+cls 
+compgen -c | column
+compgen -c > googleFun.txt
+cp .bash_history all_wsl/
+cp .bash_history all_wsl/bash_history
+cp .bash_history /mnt/c/all/whis.txt
+cp -r ..
+cp -r wsl2/all_wsl wsl2/
+cs
+curl -s "https://raw.githubusercontent.com/wither7007/all_wsl/main/whis" >whis
+curl -s "https://raw.githubusercontent.com/wither7007/all_wsl/main/whis" whis
+date >> daily_log.txt 2>&1
+dater >> daily_log.txt 2>&1
+docker images
+docker ps -a
+docker rm $(docker ps -a -q)
+docker rmi $(docker images -q)
+docker rmi $(docker ps -a -q)
+docker run --name some-wordpress -p 8080:80 -d wordpress
+docker stop $(docker ps -a -q)
+dockr images
+dos2unix
+duh
+duh -hs $(la)
+du -hs $(la)
+du -hs * | sort -h
+echo "$TERM"
+echo 'export TERM=xterm-mon' >> ~/.bashrc 
+exit
+exit\
+export TERM=xterm-mono
+fc\
+fc -l
+fd
+fd 
+fda
+fday
+fd --changed-with 1days
+fd --changed-within 1days
+fd --changed-within=1days
+fd --changed-within=1hours
+fd --changed-within 2days
+fd --changed-within 2hours -x stat
+fd | column 
+fd -d 1 'ap'
+fd -d 1 -esh | -exec   ./jj.sh {}
+fd -d 1 -esh | xargs   cat {}
+fd -d 1 -esh | xargs  echo {}; cat {}
+fd -d 1 -esh | xargs -I{} echo {}
+fd -d 1 -esh | xargs -I{} echo {}; cat {}
+fd -d 1 -esh | xargs   ./jj.sh {}
+fd -d 1 -esh  -x   ./jj.sh 
+fd -d 1 -esh  -x   ./jj.sh {}
+fd -d 1 --modified-within=1hour
+fd -d 1 --modified-within=1hours
+fd -d 1 -td
+fd -d 1 -tf
+fd -d 1 | xargs -I{} echo {}
+fd -d 1 | xargs -I{} echo {} {}
+fd -esh
+fd -esh -exec echo 
+fd -esh -exec echo  \;
+fd -esh -exec echo '{}'
+fd -esh -exec echo '{}'\;
+fd -esh -exec echo {} \;
+fd -esh -exec ./jj.sh {}
+fd -esh -exec ./jj.sh {} \;
+fd -esh | xargs
+fd -esh | xargs ./jj.sh 
+fd -esh -x rg 'git'
+fd -esh -x rg -H 'git'
+fdfind -H i_ --changed-within 1hours 
+fdfind -H -I --changed-within 1hours 
+fdfind -H -I --changed-within 1hours | rg -v '\.git'
+fdfind -H -I --changed-within 1hours | rg -v 'git'
+fd fun
+fdh
+fd -H
+fd -H -I
+fd -H -I --changed-within=1days
+fd -H -I --changed-within 1hours
+fd -H -I -d 1
+fd -H -I -d 1 --changed-within=1hours
+fd -H -I -d 1 --changed-within=1hours -x cat
+fd -H -I -d 1 'git'
+fd -H -I -d 1 'ignore'
+fd -H -I -d 1 -td -x du -hs | rg '\d.*M\s' | sort -n
+fd -H -I -d 1 -tf
+fd -H -I -d 1 -tf  --changed-within=1hours -x cat
+fd -H -I -d 1 -tf  --changed-within=1hours -x echo
+fd -H -I -d 1 -tf  --changed-within=1hours -x ./list.sh
+fd -H -I -d 1 -tf  --changed-within=1hours -x list.sh
+fd -H -I -d 1 -tf | xargs ls -ltr
+fd -H -I -d 1 -tf | xargs ls -ltrh
+fd -H -I -td -x du -hs | rg '\d.*M\s' | sort 
+fd -H -I -td -x du -hs | rg '\d.*M\s' | sort -n
+fd -I
+fd | less
+fd -td
+fd -td -x du -hs | rg '\d.*K\s' | sort 
+fd -td -x du -hs | rg '\d.*M\s' | sort 
+fd -tf
+fd -x du -hs
+fd -x du -hs | rg '0K' | sort 
+fd -x du -hs | rg 'aM' | sort 
+fd -x du -hs | rg '\dK' | sort 
+fd -x du -hs | rg '\d.*k\s' | sort 
+fd -x du -hs | rg '\d.*K\s' | sort 
+fd -x du -hs | rg '/dM' | sort 
+fd -x du -hs | rg '\d.*M' | sort 
+fd -x du -hs | rg '\dM' | sort 
+fd -x du -hs | rg 'dM' | sort 
+fd -x du -hs | rg 'DM' | sort 
+fd -x du -hs | rg '\d.*M\s' | sort 
+fd -x du -hs | rg '\d' | sort 
+fd -x du -hs | rg 'M' | sort 
+fd -x du -hs | sort 
+fd -x stat
+f fun 
+find .
+find . -type f | xargs -I{} echo {} {}
+for n in {1..5}; do echo $n; done
+gb
+gca 10
+gca 300
+gch 10
+gch 20
+gch 300
+gch 60
+gcloud edit .bash_history
+git add
+git add .
+git add greek.txt 
+git add -p
+git add - p hisback 
+git add -p hisback 
+git clean -f -d
+git commit
+git commit -am "added days to note"
+git commit -am "added settings"
+git commit -am "added uniqhis"
+git commit -m "added aliases
+git commit -m "added frumious"
+git commit -m 'another'
+git commit -m 'bash_hist'
+git commit -m "gcloud_his"
+git commit -m "more lines bs"
+git commit -m "saturday his"
+git commit -m 'sort unique'
+git commit -m "testing changes"
+git config
+git diff
+git diff --cached
+git diff ':(exclude)gcloud_his'
+git diff ':(exclude)gcloud_hist'
+git diff hisback
+git diff kottkeLink.txt
+git diff kottkeLink.txt\
+git diff | less
+git diff main origin/main
+git diff main origin/main 
+git diff main origin/main | v -
+git diff --name-only 
+git diff --name-only main origin/main 
+git diff --name-only master origin/master 
+git diff --staged
+git diff --staged 
+git diff | v -
+git fetch
+git log
+git log 2
+git log | less
+git log -n 3
+git log --oneline 
+git log -p
+git log -p -1
+git log -p 1
+git log -p -2
+git log -p -2 | v -
+git log -p 2 | v -
+git log -p -3 | v -
+git merge
+git mergetool
+git -m "testing changes"
+git -p
+git pull
+git push
+git remote -v
+git reset --hard
+git reset -hard
+git show
+git show | -
+git show | v -
+git status
+gp
+gst
+gst\
+h3
+his
+hism
+history
+history -a
+i3
+ip
+./jj.sh "jim"
+l
+la
+la | grep 'it'
+la -r
+la | rg 'the'
+ld
+ll
+ls
+ls -lahrt
+ls | rg '\d'
+ls | rg '\d.*t'
+ls | rg '\dt'
+ls *.sh
+lt
+lt -a
+lt -a | rg -v "^d"
+lt -a | rg -v "^d" | rg 'fun'
+lt | rg chi
+lt | rg '\d'
+lt *.sh
+manv 
+manv sd
+man zcat
+md win || cd win
+md wsl3
+mv all_wsl/ 
+mv all_wsl/ ~/wsl3/
+mv -rv wsl2/all_wsl wsl2/
+mv -r wsl2/all_wsl wsl2/
+mv -v all_wsl/ ~/
+mv -v nn ~/
+PROMPT_COMMAND='history -a'
+pwd
+rg frumious
+rgh
+rg -helo
+rg -help
+rgh | v -
+rg --max-depth 1 'git' | less
+rg --max-depth 1 'ls'
+rg --max-depth 1 'ls' | less
+rm ap.txt.old 
+rm gcloud_his 
+rm jim
+rm jj.sh 
+rm nn
+rm -rf all_wsl/
+rm -rf wsl2 wsl3
+rm vv
+sc chis.sh
+sc chis.sh 
+sc ~/fun
+sc ~/fun 
+sc fun
+sc fun 
+sc ~/install.sh 
+sc install.sh 
+sc jt
+se 'his'
+se 'modif'
+se 'ori.*main'
+se 'tar'
+set -o vi
+sh install.sh 
+sort -u .bash_history > .bash_history
+stat .gitconfig 
+stupid
+tail .bashrc
+take win
+tmux
+tmux kill-server
+tmux ls
+tocuh nn
+touch all_w/gcloud_his
+touch all_wsl/gcloud_his
+touch nn
+touch vv
+type -a als
+type -a cha
+type -a fday
+type -a __git_main
+type -a __git_main | v -
+type -a hi
+type -a his
+type -a hism
+type -a history
+type -a ld
+type -a rg
+type -a vi
+type -a vim
+u
+unalias rg
+unalias vi
+users
+users | sed  -e 's/\s\+/\n/g'
+users | sed  -i 's/\s\+/\n/g'
+users | sed  -i 's\/s\+/\n/g'
+users | sed -i '/s\s\+/\n/g'
+users | sed  '/s\s\+/\n/g'
+/usr/lib/cargo/ install sd
+v
+v .bash_history
+v ~/.bash_history
+v .bashrc 
+v chis
+v chis.sh
+v chis.sh 
+v daily_log.txt 
+v fu
+v ~/fun 
+v fun
+v fun 
+v fund
+v gcloud_his 
+v ghist
+v ghist 
+v .gitconfig 
+v ~/.gitconfig 
+v greek.txt 
+v hisback
+v hisback 
+vi
+v .ignore
+vi his
+v ~/.inputrc
+v jim
+v jj.sh
+v jt
+v keybindings 
+v kottkeLink.txt 
+v list.sh
+v note/notes 
+v pss
+v tx
+v .viminfo 
+v what
+v whis
+v whis 
+v win/whis
+v wsl
+whereis cargo
+whereis dos2unix
+whereis dos2unixss
+whereis fd
+whos
+whos | sed -i '/s\s\+/\n/g'
+zzzz

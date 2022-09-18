@@ -1,0 +1,23 @@
+#!/bin/bash
+#simple functions
+shist ()
+{
+  history | grep $1 | uniq
+}
+shis() 
+   {
+   history | cut -c 1-7 --complement | sort | uniq | grep $1 
+   }
+manv ()
+{
+   man $1 | vim -
+}
+hism()
+{
+   echo  "fd -H -I --changed-within 5min"
+fd -H -I --changed-within 5mins
+}
+
+cha() {
+   fdfind -H -I --changed-within $1mins | rg -v '\.git' | rg -v '\theia'
+}
