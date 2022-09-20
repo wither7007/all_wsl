@@ -1,3 +1,4 @@
+alias fd=fdfind
 cd ~/all_wsl/
 echo "$(ls)"
 echo "done"
