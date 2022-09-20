@@ -1,0 +1,1 @@
+cd ~/all_wsl/
