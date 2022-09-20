@@ -10,6 +10,10 @@ domains
 
 legal
 
+!good discusion
+fd -ejson | xargs -I '{}' mv '{}' ~/all_wsl/vscode/
+https://unix.stackexchange.com/questions/90886/how-can-i-find-files-and-then-use-xargs-to-move-them
+
 612-752-6677
 homline
 612-728-5767
