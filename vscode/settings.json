@@ -20,13 +20,22 @@
         },
         {
             "before": [
+                "leader",
+                "l"
+            ],
+            "commands": [
+                "workbench.action.navigateLeft"
+            ]
+        },
+        {
+            "before": [
                 "<leader>",
                 "e"
             ],
             "commands": [
                 "workbench.action.toggleSidebarVisibility"
             ]
-        },
+        }
     ],
     "html.format.contentUnformatted": "grid-template-areas, pre,code,textarea,style",
     "emmet.syntaxProfiles": {

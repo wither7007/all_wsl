@@ -2560,8 +2560,7 @@ fda
 fd . all_wsl/
 fd all_wsl/
 fd . all_wsl/ 'fun'
-fd . all_wsl/ | rg 'fun'
-fd . all_wsl/ | rg 'his'
+fd . all_wsl/ | rg 'fun'fd . all_wsl/ | rg 'his'
 fday
 fd --changed-with 1days
 fd --changed-within 1days
@@ -2571,8 +2570,7 @@ fd --changed-within 2days
 fd --changed-within 2hours -x stat
 fd | column 
 fd 'con'
-fd -d 1 'ap'
-fd -d 1 'arch'
+fd -d 1 'ap'fd -d 1 'arc
 fd -d 1 'arch' -x rm {}
 fd -d 1 --changed-within 1days
 fd -d 1 --changed-within 2days
