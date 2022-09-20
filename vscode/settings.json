@@ -1,0 +1,5 @@
+{
+    "csharp.suppressDotnetRestoreNotification": true,
+    "redhat.telemetry.enabled": false,
+    "python.defaultInterpreterPath": "/bin/python"
+}
