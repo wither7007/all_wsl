@@ -1,6 +1,7 @@
 fairview
 6320 Wedgewood Road North
 resschedule Thurs 10/6 8:40
+No times found. Appointments are being added as they become available. If you consistently can't find appointments, you may be out of network. Please call our schedulers at 1-855-324-7843.
 
 northpoint
 Thurs 10-6 8:20
@@ -13,6 +14,10 @@ legal
 !good discusion
 fd -ejson | xargs -I '{}' mv '{}' ~/all_wsl/vscode/
 https://unix.stackexchange.com/questions/90886/how-can-i-find-files-and-then-use-xargs-to-move-them
+
+fd "[^a-zA-Z0-9]" -exec rename "s/[^a-zA-Z0-9]/_/g" #!good replace garbage names
+
+fd 'read' -exec rename "y/a-z/A-Z/" #!cool uppercase rename
 
 612-752-6677
 homline
