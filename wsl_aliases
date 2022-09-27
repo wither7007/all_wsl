@@ -75,7 +75,7 @@ alias pc='pwd |tr '\''\n'\'' '\'' '\'' | clip.exe'
 alias pow='powershell.exe'
 alias py="python"
 alias ran='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
-alias rgh='rg -help'
+alias rgh='rg -help | v -'
 #alias se='history | rg '
 alias ssp="python3 -m http.server"
 alias u='cd ..'
@@ -90,3 +90,6 @@ alias sc="source "
 alias curl="curl -L -s "
 alias glst="git log --stat | v -"
 alias gitsall="git status -vv | v -"
+alias fdc="fd -H -I -d 1  -td | column"
+alias l="ls -CF"
+alias fda="fd -H -I"

@@ -19,6 +19,17 @@ fd "[^a-zA-Z0-9]" -exec rename "s/[^a-zA-Z0-9]/_/g" #!good replace garbage names
 
 fd 'read' -exec rename "y/a-z/A-Z/" #!cool uppercase rename
 
+bash -c 'apt-get -y install fd-find curl vim >/dev/null 2>&1 & disown'
+ apt-get install bsdmainutils
+docker run --name mysql-db -v $(pwd)/datadir:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:8.0.28-debian
+docker
+mysql --host="localhost" --user="root" --password="rootpress" 
+
+mysql --host="mysql_server" --user="user_name" --database="database_name" --password="user_password" < "path/to/sql/file.sql"
+
+jimsteffes
+615dks@476
+
 612-752-6677
 homline
 612-728-5767
@@ -882,3 +893,16 @@ i(kqtQoB9nBuKugrmK
 
 
 Oh, Orville helped. An obsessive tinkerer and gifted mechanic, he was invaluable in building the Wright flyer, and yes, he piloted the first flight on Dec. 17, 1903. (The brothers supposedly flipped a coin for the honor, and Wilbur lost. Wilbur got to fly later in the day and went farther.) Yet Wilbur was the brains of the operation.
+
+docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=stars1  9eebb3304ce5 #!good my sql?
+docker exec -ti  optimistic_noether sh -c "bash"
+
+
+
+
+
+
+
+
+
+

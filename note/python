@@ -33,3 +33,93 @@ c_time = os.path.getctime(path)
 # convert creation timestamp into DateTime object
 dt_c = datetime.datetime.fromtimestamp(c_time)
 print('Created on:', dt_c)
+
+
+
+Function                   Vi         Emacs
+-------------------------------------------
+Back to indentation        ^          M-m
+Bottom of history          G          M-<
+Clear selection            Esc        C-g
+Copy selection             Enter      M-w
+Cursor down                j          Down
+Cursor left                h          Left
+Cursor right               l          Right
+Cursor to bottom line      L     
+Cursor to middle line      M          M-r
+Cursor to top line         H          M-R
+Cursor up                  k          Up
+Delete entire line         d          C-u
+Delete/Copy to end of line D          C-k
+End of line                $          C-e
+Go to line                 :          g
+Half page down             C-d        M-Down
+Half page up               C-u        M-Up
+Jump forward               f          f
+Jump backward              F          F
+Jump again                 ;          ;
+Jump again in reverse      ,          ,
+Next page                  C-f        PgDown
+Next space                 W
+Next space, end of word    E
+Next word                  w
+Next word end              e          M-f
+Paste buffer               p          C-y
+Previous page              C-b        PgUp
+Previous word              b          M-b
+Previous space             B
+Quit mode                  q          Esc
+Rectangle toggle           v          R
+Scroll down                C-Down/C-e C-Down
+Scroll up                  C-Up/C-y   C-Up
+Search again               n          n
+Search again in reverse    N          N
+Search backward            ?          C-r
+Search forward             /          C-s
+SFunction                   Vi         Emacs
+-------------------------------------------
+Back to indentation        ^          M-m
+Bottom of history          G          M-<
+Clear selection            Esc        C-g
+Copy selection             Enter      M-w
+Cursor down                j          Down
+Cursor left                h          Left
+Cursor right               l          Right
+Cursor to bottom line      L     
+Cursor to middle line      M          M-r
+Cursor to top line         H          M-R
+Cursor up                  k          Up
+Delete entire line         d          C-u
+Delete/Copy to end of line D          C-k
+End of line                $          C-e
+Go to line                 :          g
+Half page down             C-d        M-Down
+Half page up               C-u        M-Up
+Jump forward               f          f
+Jump backward              F          F
+Jump again                 ;          ;
+Jump again in reverse      ,          ,
+Next page                  C-f        PgDown
+Next space                 W
+Next space, end of word    E
+Next word                  w
+Next word end              e          M-f
+Paste buffer               p          C-y
+Previous page              C-b        PgUp
+Previous word              b          M-b
+Previous space             B
+Quit mode                  q          Esc
+Rectangle toggle           v          R
+Scroll down                C-Down/C-e C-Down
+Scroll up                  C-Up/C-y   C-Up
+Search again               n          n
+Search again in reverse    N          N
+Search backward            ?          C-r
+Search forward             /          C-s
+Start of line              0          C-a
+Start selection            Space      C-Space
+Top of history             g          M->
+Transpose chars            C-ttart of line              0          C-a
+Start selection            Space      C-Space
+Top of history             g          M->
+Transpose chars            C-t
