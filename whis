@@ -7026,3 +7026,10 @@ sudo docker volume inspect  AppZ_vol
 : 1664301863:0;gitAll.sh
 : 1664301979:0;cp -R dockerf /mnt/c/all
 : 1664301983:0;gitAll.sh
+: 1664301999:0;c
+: 1664302005:0;cd all
+: 1664302006:0;lt
+: 1664302033:0;cd
+: 1664302048:0;v gitAll.sh
+: 1664302090:0;cp functions.sh /mnt/c/all/wfunctions.sh
+: 1664302094:0;gitAll.sh
