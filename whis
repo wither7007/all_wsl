@@ -7024,3 +7024,5 @@ sudo docker volume inspect  AppZ_vol
 : 1664292645:0;docker ps -a | head
 : 1664301852:0;ls *.sh
 : 1664301863:0;gitAll.sh
+: 1664301979:0;cp -R dockerf /mnt/c/all
+: 1664301983:0;gitAll.sh
