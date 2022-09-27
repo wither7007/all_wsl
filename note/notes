@@ -15,6 +15,9 @@ legal
 fd -ejson | xargs -I '{}' mv '{}' ~/all_wsl/vscode/
 https://unix.stackexchange.com/questions/90886/how-can-i-find-files-and-then-use-xargs-to-move-them
 
+h3
+fc -e v 619
+
 fd "[^a-zA-Z0-9]" -exec rename "s/[^a-zA-Z0-9]/_/g" #!good replace garbage names
 
 fd 'read' -exec rename "y/a-z/A-Z/" #!cool uppercase rename

@@ -9,7 +9,6 @@ $$
 7z
 MyString=123456qwerty
 PROMPT_COMMAND='history -a'
-\
 a=$(fd -esh)
 a=$(printf '%s\n" $(fd -esh)) 
 a=$(printf '%s\n' $(fd -esh)) 
