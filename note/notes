@@ -22,6 +22,9 @@ fd "[^a-zA-Z0-9]" -exec rename "s/[^a-zA-Z0-9]/_/g" #!good replace garbage names
 
 fd 'read' -exec rename "y/a-z/A-Z/" #!cool uppercase rename
 
+long fd/rg search
+fd -d 1 -tf -esh -x rg -H 'git'
+
 bash -c 'apt-get -y install fd-find curl vim >/dev/null 2>&1 & disown'
  apt-get install bsdmainutils
 docker run --name mysql-db -v $(pwd)/datadir:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:8.0.28-debian
