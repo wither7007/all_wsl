@@ -1,18 +1,27 @@
+Mental Health
+2:00 pm Wednesday 12th Jessie
+7840 Vinewood lane north Maple Grove
+
 fairview
 6320 Wedgewood Road North
-resschedule Thurs 10/6 8:40
-No times found. Appointments are being added as they become available. If you consistently can't find appointments, you may be out of network. Please call our schedulers at 1-855-324-7843.
+resschedule thurs 10/6 8:40
+no times found. appointments are being added as they become available. if you consistently can't find appointments, you may be out of network. please call our schedulers at 1-855-324-7843.
 11-15 tuesday 1:10
 
-10-5 10 flu
-
-northpoint
-Thurs 10-6 8:20
+Wednesday
+November 9th 
+8:20
 800 west Broadway ave
+
 
 domains
 
 legal
+
+501(c)(3)
+
+code is the enemy
+code is read not written
 
 !good discusion
 fd -ejson | xargs -I '{}' mv '{}' ~/all_wsl/vscode/
@@ -35,6 +44,10 @@ vim paste block
 press ctrl and v(or q) // start select
 press shift and i // then type in any text
 press esc esc // press esc twice
+
+
+replace wsl q macro
+G:%s///////ggg:%s//mnt/c///mnt//c/g
 
 bash -c 'apt-get -y install fd-find curl vim >/dev/null 2>&1 & disown'
  apt-get install bsdmainutils
@@ -80,7 +93,7 @@ dns renewal
 
 
 vscode switch slashes
-s/\\/\//g
+s///////g
 housing update
   sent a message from wither7007@gmail.com
 four seasons
@@ -118,9 +131,9 @@ it's not part of our experience
   hormonal birth control pill.
 consciousness endures
 unix slash replace!!
-:%s/\\/\//g
+:%s///////g
 vscode settings
-cd C:\Users\jayst\AppData\Roaming\Code\User
+cd /mnt/c/Users/jayst/AppData/Roaming/Code/User
 brain weighs in at 1300 to 1400 grams or around 3 pounds.
  15 centimeters long.
 zorba's full catastrophe
@@ -180,7 +193,7 @@ Fourier analysis says that complex patterns can be created by adding up a large 
 importmap
 
 vim replace backslash forward slash
-:%s/\\/\//g
+:%s///////g
 
 AST(Abstract Syntax Trees)
 
@@ -254,7 +267,7 @@ Current PIN
 2609
 
 linux space to under
-for f in *\ *; do mv "$f" "${f// /_}"; done
+for f in */ *; do mv "$f" "${f// /_}"; done
 
 Jim Steffes
 jimsteffes@outlook.com
@@ -385,10 +398,10 @@ Get-ChildItem -File | Sort-Object -Property LastAccessTime -Descending | Select-
 
 First a punch is just a punch, Then a punch is not only a punch, And finally a punch is just a punch" (heard from Bruce Lee)
 
-cd C:\Users\jayst\AppData\Local\Google\Chrome\User Data\Default
-ffmpeg -i aps.mp3 -metadata title="The Title You Want" -metadata artist="" -metadata album="Name of the Album" -c:a copy out2.mp3
+cd /mnt/c/Users/jayst/AppData/Local/Google/Chrome/User Data/Default
+ffmpeg -i aps.mp3 -metadata title="The Title You Want" -metadata artist="" -metadata album="Name of the Album" -/mnt/ca copy out2.mp3
 
- 1..100 | ForEach-Object { Add-Content -Path .\LineNumbers.txt -Value "This is line $_." }
+ 1..100 | ForEach-Object { Add-Content -Path ./LineNumbers.txt -Value "This is line $_." }
 Double Data Rate 3 Synchronous Dynamic Random-Access Memory (DDR3 SDRAM)
 vim hex :%!xxd 
 stacks and triggers
@@ -396,7 +409,7 @@ stacks and triggers
       Out of the Tar Pit
 
 Type %d and hit Enter to delete all the lines.
-:g/^\s*$/d
+:g/^/s*$/d
 vim show ascii - ga
 smart quotes
 %s/[”“]/"/g
@@ -487,7 +500,7 @@ function convertToBinary(x) {
 keybindings.json
 posh git
 bash profile vs rc
-import-module C:\Users\jayst\OneDrive\Documents\WindowsPowerShell\Modules\posh-git\1.0.0\posh-git.psd1
+import-module /mnt/c/Users/jayst/OneDrive/Documents/WindowsPowerShell/Modules/posh-git/1.0.0/posh-git.psd1
 
 Ctrl+o is used to issue normal commands without leaving INSERT mode,
 80 the repetition,
@@ -604,7 +617,7 @@ synaesthetic
 23.3 million code linux
 Samizdat 
 case of pseudofed
-cd C:\Users\jayst\AppData\Roaming\Ditto
+cd /mnt/c/Users/jayst/AppData/Roaming/Ditto
 code warrior
 ASMR
 frisson
@@ -617,10 +630,10 @@ i18n and L10n
 :g!/foo/d - Delete all lines not containing the string ¿foo¿.
 :g/^#/d - Remove all comments from a Bash script. The pattern ^# means each line beginning with #.
 :g/^$/d - Remove all blank lines. The pattern ^$ matches all empty lines.
-:g/^\s*$/d - Remove all blank lines. Unlike the previous command, this also removes the blank lines that have zero or more whitespace characters (\s*).
+:g/^/s*$/d - Remove all blank lines. Unlike the previous command, this also removes the blank lines that have zero or more whitespace characters (/s*).
 lemma
 vim replace word with comma
-%s/\>\s/,/g
+%s//>/s/,/g
 likes to play in the dirt
 microfauna
 mcoding
@@ -674,8 +687,8 @@ arrogance of the intellect (catholic church) moral superiority
  Bernoulli principle
 A wing is shaped and tilted so the air moving over it moves faster than the air moving under it. As air speeds up, its pressure goes down. So the faster-moving air above exerts less pressure on the wing than the slower-moving air below. The result is an upward push on the wing—lift!
 
-$Env:Path += ";c:\temp"
-$Env:Path += ";C:\Users\jayst\AppData\Local\Programs\Microsoft VS Code\_"
+$Env:Path += ";/mnt/c/temp"
+$Env:Path += ";/mnt/c/Users/jayst/AppData/Local/Programs/Microsoft VS Code/_"
 $Env:port="3000"
 
 Ever tried, ever failed, no matter. Try again, fail again, fail better.
@@ -687,7 +700,7 @@ a reasonable simulacrum of reality
 — Martin Mayer
 2: an insubstantial form or semblance of something : TRACE
 sub mental shit posters
-virgule solidus / back slash \
+virgule solidus / back slash /
 commercial at @
 Circumflex accent ^
 grave `
@@ -809,7 +822,7 @@ const k = new Date().toLocaleDateString('en-us', { weekday: "long", day: "numeri
 
 let ra=Array.from({length: 10}, () => Math.floor(Math.random() * 100));
 almighty God! I thank thee for my soul; & may I never die spiritually into a mere mind through disease of loneliness ee cummings
- gci \all\ps | ? {$_.name -match '.*z'}
+ gci /all/ps | ? {$_.name -match '.*z'}
 
 vim delete rectange c-q select
 
@@ -866,7 +879,7 @@ transitive verb
 wget "https://github.com/equalsraf/win32yank/releases/download/v0.0.4/win32yank-x64.zip"
 
 vim exif replace
-%s/\\n/\r/g
+%s///n//r/g
 
 wither7007@gmail.com
 login.gov
@@ -893,7 +906,7 @@ comedy "is the saving grace of life"
 The command killall5 -9 will forcefully terminate
 
 python -c "import math;print(math.sin(1))"
-bash !  find * -type f -name "*" -exec rename "s/\s/_/g" {} \;
+bash !  find * -type f -name "*" -exec rename "s//s/_/g" {} /;
 
 duh |  sort -k1 -rh | rg -v '^0' | v -
 

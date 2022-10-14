@@ -1,4 +1,7 @@
 
+:redir @a
+:set all
+:redir END
 ne = [line for line in content if line.strip() != ""]
 
 def sum(x, y):
