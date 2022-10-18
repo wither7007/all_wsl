@@ -56,8 +56,10 @@ press esc esc // press esc twice
 
 
 replace wsl q macro
-G:%s///////ggg:%s//mnt/c///mnt//c/g
+G:%s///////g
+gg:%s//mnt/c///mnt//c/g
 
+radix
 bash -c 'apt-get -y install fd-find curl vim >/dev/null 2>&1 & disown'
  apt-get install bsdmainutils
 docker run --name mysql-db -v $(pwd)/datadir:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:8.0.28-debian
