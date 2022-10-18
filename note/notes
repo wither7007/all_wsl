@@ -13,6 +13,15 @@ November 9th
 8:20
 800 west Broadway ave
 
+Use the pidof command to find the process ID of a running program or app
+pidoff appname
+To kill process in Linux with PID:
+kill -9 pid
+Want to kill process in Linux with application name? Try:
+killall -9 appname
+
+Definition of melisma
+1: a group of notes or tones sung on one syllable in plainsong
 
 domains
 

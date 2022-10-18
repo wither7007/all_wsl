@@ -3573,7 +3573,6 @@ read -ra newarr <<< "$text"
 : 1662523109:0;ls | sed -e 's/[A-A]/-/g'  
 : 1662523132:0;ls | sed -e 's/3/-/g'  
 : 1662523247:0;rg p .
-: 1662523268:0;cat functions.sh
 : 1662523278:0;rg nonumber .
 : 1662523430:0;manv-ls
 : 1662523550:0;lsd
@@ -3673,7 +3672,6 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662533701:0;ls -l -Shr -R | v -
 : 1662534107:0;cd stand
 : 1662534118:0;ex Autumn\ Leaves.mp3
-: 1662534164:0;cd sheet
 : 1662534175:0;ex wildPerfect.mp4
 : 1662534232:0;fd 'nn'
 : 1662534242:0;fd -td 'nn'
@@ -3933,7 +3931,6 @@ echo $(fd -d 1 ".*sh")\
 : 1662784389:0;ls -t .viminfo
 : 1662784401:0;ls -l .viminfo
 : 1662784759:0;ls | nvim +$ -
-: 1662784825:0;alias his='hi |  cut -c 1-7 --complement | nvim +$ -'
 : 1662786120:0;fd -H -I ".*shada.*"
 : 1662786139:0;fd -H -I ".*shada.*" -x ll
 : 1662786147:0;fd -H -I ".*shada.*" -x ls -l
@@ -4840,12 +4837,9 @@ sudo cp shellcheck /usr/local/bin
 : 1663301423:0;hyperfine -w 3 'sed -E "s/\"/\'/g" *.json >/dev/null' 'sd "\"" "\'" *.json >/dev/null' --export-markdown out.md\
 : 1663301514:0;hyperfine 'find .'
 : 1663301574:0;hyperfine 'fd'
-: 1663301595:0;hyperfine 'fd -H -I'
 : 1663301616:0;hyperfine 'fd -H -I "duh"'
 : 1663301655:0;find . -name 'duh'
 : 1663301705:0;hyperfine 'fd -H -I echo'
-: 1663301744:0;hyperfine 'find . -name 'echo''
-: 1663301761:0;find . -name 'echo'
 : 1663301800:0;find . -name 'python'
 : 1663301822:0;fd -H -I 'python'
 : 1663303389:0;time rg -uuu '\w{42}' | wc -l
@@ -5102,7 +5096,6 @@ printf "$k\n" | sd '/' '\' | sd '\\mnt\\c\\' 'c:\'
 : 1663402283:0;declare -a omz_history
 : 1663402288:0;declare -f omz_history
 : 1663402325:0;printf '%s' "$HISTFILE"
-: 1663402535:0;./gitAll.sh
 : 1663402817:0;b ~/.bashrc
 : 1663402866:0;se 'ln.*py'
 : 1663402876:0;se '.*py'
@@ -5111,7 +5104,6 @@ printf "$k\n" | sd '/' '\' | sd '\\mnt\\c\\' 'c:\'
 : 1663403012:0;fd py
 : 1663403090:0;alias cat="batcat"
 : 1663403096:0;cat yv.sh
-: 1663403125:0;source /mnt/c/all/bash/mp4/bin/activate
 : 1663403233:0;wi yt-dlp
 : 1663403261:0;v /usr/local/bin/yt-dlp
 : 1663403420:0;se 'ln'
@@ -5778,7 +5770,6 @@ echo  "cd $line" \
 : 1663732461:0;nvim thr.tar.gz
 : 1663732682:0;unalias fd
 : 1663732685:0;fd -egz
-: 1663732735:0;f1
 : 1663732759:0;f1 | xargs stat
 : 1663734303:0;fd -H -I -S +10M -x stat --printf='Name: %n Size: %s\n'
 : 1663734395:0;fd  -S +9K -x stat --printf='Name: %n Size: %s\n'
@@ -5810,7 +5801,6 @@ echo  "cd $line" \
 : 1663735620:0;v misc.zsh
 : 1663735668:0;v gcloud_als
 : 1663735982:0;type -a rg
-: 1663736029:0;alias his
 : 1663736121:0;manv ls
 : 1663736376:0;wi ripgrep
 : 1663736451:0;se () {    history | rg $1 }
@@ -5986,7 +5976,6 @@ echo  "cd $line" \
 : 1663819412:0;p3 --version
 : 1663819418:0;wi p3
 : 1663819429:0;type -a p3
-: 1663819440:0;wi python3.10
 : 1663820475:0;take ipython
 : 1663820554:0;p3 -m venv ipy3
 : 1663820743:0;p3 -m pip install --upgrade pip
@@ -6434,11 +6423,8 @@ touch nothing
 : 1664078741:0;fd 'jj' -exec rm -rf
 : 1664078769:0;lt | rg -v '^d'
 : 1664078774:0;lt | rg '^d'
-: 1664079032:0;fd 'corr'
-: 1664079037:0;cd scripts
 : 1664079046:0;sh zcorrupt.sh
 : 1664079074:0;zsh zcorrupt.sh
-: 1664079091:0;v zcorrupt.sh
 : 1664079161:0;fd -H -I 
 : 1664079235:0;touch file_{01..100}
 : 1664079250:0;fd | column
@@ -6591,7 +6577,6 @@ done
 : 1664252279:0;cmd='fd -H -I'
 : 1664252310:0;args="f.*"
 : 1664252320:0;$cmd $args
-: 1664252379:0;fd -H -I
 : 1664252399:0;type fd
 : 1664252418:0;which fd
 : 1664252428:0;whatis fd
@@ -6603,7 +6588,6 @@ done
 : 1664252558:0;sh $cmd
 : 1664252565:0;bash $cmd
 : 1664252582:0;bash -c "find ."
-: 1664252599:0;find .
 : 1664252629:0;cmd="fd -H -I"
 : 1664252631:0;eval $cmd
 : 1664252650:0;eval $cmd $args
@@ -6742,7 +6726,6 @@ sudo docker volume inspect  AppZ_vol
 : 1664263587:0;git commit -am "added daily update"
 : 1664263606:0;git add . ; git commit -am "ok"
 : 1664290521:0;cd nginx
-: 1664290528:0;v .
 : 1664291091:0;git diff --name-only | v -
 : 1664291673:0;git rm --cached .zcompdump-DESKTOP-8JMUDRE-5.8
 : 1664291684:0;git rm --cached ~/.zcompdump-DESKTOP-8JMUDRE-5.8
@@ -6759,7 +6742,6 @@ sudo docker volume inspect  AppZ_vol
 : 1664292635:0;docker-compose up --detach
 : 1664301979:0;cp -R dockerf /mnt/c/all
 : 1664302090:0;cp functions.sh /mnt/c/all/wfunctions.sh
-: 1664337585:0;fda
 : 1664337613:0;fda -td | column
 : 1664337624:0;fda -td -d 1 | column
 : 1664338510:0;git diff main origin/main | more
@@ -6820,7 +6802,6 @@ sudo docker volume inspect  AppZ_vol
 : 1664342034:0;rgh
 : 1664342307:0;fd -d 1 -tf -esh -x rg -H 'git'
 : 1664342342:0;cat gitAll.sh
-: 1664342356:0;ls *.sh
 : 1664342362:0;lt *.sh
 : 1664342374:0;gitAll.sh
 : 1664342453:0;v ~/functions.sh
@@ -6867,10 +6848,8 @@ sudo docker volume inspect  AppZ_vol
 : 1664418054:0;kill -9 6583
 : 1664418136:0;ssp >/dev/null 2>&1 &
 : 1664418144:0;ps -aux | v -
-: 1664418185:0;htop
 : 1664418189:0;kill -9 6684
 : 1664422142:0;cd /mnt
-: 1664422181:0;axit
 : 1664425184:0;fd -d 3 -eyml | xargs -I{} ~/jj.sh {}
 : 1664425330:0;echo PS1
 : 1664425344:0;echo $PS1
@@ -7014,7 +6993,6 @@ echo "=============="
 : 1664513876:0;re.sh
 : 1664513937:0;rg cha
 : 1664513950:0;rg cha | less
-: 1664513958:0;v functions.sh
 : 1664514024:0;fd
 : 1664514044:0;fd -td
 : 1664514092:0;fd -H -I -td
@@ -7108,7 +7086,6 @@ wget "https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL
 : 1664573843:0;type gh
 : 1664573893:0;unalias gh
 : 1664573897:0;gh repo view facebook/react
-: 1664574010:0;cd all
 : 1664574013:0;git config -e
 : 1664596219:0;v my.json
 : 1664596237:0;jq . my.json
@@ -7156,7 +7133,6 @@ wget "https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL
 : 1664598501:0;fd -E *.mp3 -x  ./j | less
 : 1664598508:0;cat trash
 : 1664598522:0;fd -E -tf *.mp3 -x  ./j | less
-: 1664598534:0;his
 : 1664598685:0;printf '\e[1;34m%-6s\e[m' "This is text"
 : 1664598696:0;printf '\e[1;34m%-6s\e[m%s\n' "This is text"
 : 1664598715:0;printf '\e[1;34n%-6s\e[m%s\n' "This is text"
@@ -7290,7 +7266,6 @@ wget "https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL
 : 1664671464:0;type als
 : 1664671473:0;alias c
 : 1664671512:0;wing
-: 1664671516:0;winh
 : 1664672633:0;yv 
 : 1664672638:0;bash yv
 : 1664672693:0;v yv
@@ -7308,12 +7283,9 @@ wget "https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL
 : 1665173321:0;cdc
 : 1665173378:0;ln -s $(pwd) ~/winp
 : 1665232072:0;cd /mnt/c/Users/jayst/Downloads
-: 1665232181:0;v
 : 1665233049:0;pwd
 : 1665289771:0;bash ye.sh
-: 1665289937:0;v ye.sh
 : 1665289958:0;ls ../../you/lazy
-: 1665291629:0;u
 : 1665291631:0;tree
 : 1665291657:0;tree | v -
 : 1665291718:0;cd mp4
@@ -7333,7 +7305,6 @@ wget "https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL
 : 1665364837:0;v test.py
 : 1665364945:0;z.sort()
 : 1665432038:0;d
-: 1665432045:0;cd -
 : 1665432053:0;d3
 : 1665432057:0;fdc
 : 1665461934:0;bash yv.sh
@@ -7342,7 +7313,6 @@ wget "https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL
 : 1665502212:0;alias cm="cd /mnt/c"
 : 1665502226:0;cd you
 : 1665502231:0;md pycon
-: 1665502233:0;bas
 : 1665502249:0;df -h
 : 1665502574:0;fda 
 : 1665502586:0;fda 'ipython'
@@ -7353,18 +7323,13 @@ wget "https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL
 : 1665502671:0;cd startup
 : 1665502684:0;v README 
 : 1665503364:0;v start.py
-: 1665516205:0;cd
 : 1665516217:0;ip
-: 1665531542:0;l
-: 1665531552:0;cd pys
 : 1665531747:0;v -c "G" ipy_linux3
 : 1665531892:0;v ipy_linux3 +"G"
 : 1665531952:0;vim -c "normal G" ipy
 : 1665531972:0;v -c "normal G" ipy
 : 1665531988:0;v -c "normal G" ipy_linux3
-: 1665532019:0;h3
 : 1665532141:0;v ipy
-: 1665586224:0;mps
 : 1665586226:0;cd bs
 : 1665586240:0;v bsp.py
 : 1665586275:0;ld
@@ -7373,88 +7338,30 @@ wget "https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL
 : 1665586319:0;alias sc
 : 1665586325:0;source beautiful/bin/activate
 : 1665586333:0;p3 bsp.py
-: 1665586380:0;cm
 : 1665586382:0;cd lnl
 : 1665586409:0;wget 'https://pdst.fm/e/cdn.twit.tv/audio/ww/ww0797/ww0797.mp3'
 : 1665586460:0;exiftool -j ww0797.mp3 | v -
 : 1665620530:0;wsl
 : 1665620542:0;c
-: 1665635395:0;lt
-: 1665643800:0;ls
-: 1665644007:0;i3
-: 1665644105:0;ipy
-: 1665688282:0;cd winp
-: 1665688285:0;exit
-: 1665688303:0;cd winp
-: 1665688309:0;i3
-: 1665689609:0;ipy
-: 1665699646:0;cd winp
-: 1665699647:0;i3
-: 1665700985:0;ipy
-: 1665712935:0;winh
-: 1665712975:0;cm
 : 1665713103:0;alias winh="cd /mnt/c/Users/jayst"
-: 1665713105:0;winh
 : 1665713209:0;'c:\noth'.replace('\\','\/')
 : 1665713232:0;'jim'.replace('j','xxx')
 : 1665713553:0;ipy
-: 1665714081:0;l
-: 1665714085:0;cd pys
-: 1665714087:0;lt
-: 1665714096:0;v .
-: 1665714143:0;v wincon
-: 1665714197:0;lt
 : 1665714205:0;chmod 777 wincon
-: 1665714207:0;lt
-: 1665714212:0;wincon
 : 1665714223:0;wi python3.10
-: 1665714255:0;v wincon
-: 1665714262:0;wincon
-: 1665714275:0;v wincon
 : 1665714284:0;wincon
-: 1665715607:0;cd winp
-: 1665715609:0;lt
-: 1665715615:0;i3
-: 1665715674:0;l
 : 1665715681:0;cd pys
-: 1665715682:0;lt
 : 1665715693:0;v
 : 1665715697:0;v .
-: 1665716493:0;lt
-: 1665716497:0;v wincon
-: 1665716546:0;wincon 'jim'
-: 1665716966:0;v wincon
-: 1665717263:0;wincon 'jim'
-: 1665717278:0;v wincon
 : 1665717286:0;wincon 'jim'
-: 1665717309:0;wincon 'c:\tom'
-: 1665717313:0;v wincon
-: 1665717344:0;wincon 'c:\tom'
-: 1665717413:0;v wincon
-: 1665717437:0;wincon 'c:\tom'
-: 1665717450:0;v wincon
-: 1665717684:0;wincon 'c:\tom'
 : 1665717698:0;v wincon
-: 1665717984:0;cd winp
-: 1665717986:0;his
-: 1665717992:0;l
-: 1665717997:0;cd winp
-: 1665718039:0;i3
-: 1665718087:0;winh
-: 1665718092:0;cd
 : 1665718106:0;fd 'corr'
 : 1665718110:0;cd scripts
-: 1665718118:0;lt
 : 1665718130:0;./zcorrupt.sh
 : 1665718143:0;v zcorrupt.sh
-: 1665718155:0;u
-: 1665718163:0;l
 : 1665718175:0;lt
-: 1665718200:0;winh
-: 1665718213:0;cd
 : 1665718234:0;f1
 : 1665718248:0;wincon 'c:\tom'
-: 1665718266:0;wincon $(pwd)
 : 1665718274:0;winh
 : 1665718276:0;wincon $(pwd)
 : 1665718322:0;pwd | clip
@@ -7484,12 +7391,541 @@ wget "https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL
 : 1665728743:0;grep 'find' .
 : 1665728756:0;. grep 'find'
 : 1665728843:0;grep 'find' *
-: 1665728860:0;l
 : 1665728870:0;grep 'find' * | less
-: 1665728885:0;his
 : 1665728909:0;hyperfine 'grep 'find' * '
 : 1665728927:0;hyperfine "grep 'find' * "
 : 1665728949:0;se hyper
-: 1665728992:0;his
 : 1665764817:0;ls *.sh
 : 1665764826:0;./gitAll.sh
+: 1665795040:0;mps
+: 1665795043:0;cd sheet
+: 1665795047:0;l
+: 1665795094:0;fd -ejs
+: 1665795108:0;fd -ejs | rg '^sh'
+: 1665795140:0;fd -ejs | rg '^sh' -x ls
+: 1665795151:0;fd -ejs | rg '^sh' | xargs ls
+: 1665795161:0;fd -ejs | rg '^sh' | xargs ls -lhrt
+: 1665795252:0;axit
+: 1665795702:0;USERVAR="https://www.youtube.com/watch\?v\=5uIW9fcmkuE"
+: 1665795793:0;v ye.sh
+: 1665795816:0;echo $USERVAR
+: 1665795905:0;source /mnt/c/all/bash/mp4/bin/activate
+: 1665795927:0;bas
+: 1665795931:0;USERVAR="https://www.youtube.com/watch\?v\=5uIW9fcmkuE"\
+yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3'  >output.log 2>&1 &
+: 1665795942:0;htop
+: 1665796048:0;yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3'  >output.log 2>&1 &
+: 1665796057:0;yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3'
+: 1665796093:0;h3
+: 1665796150:0;cd
+: 1665796154:0;cat functions.sh
+: 1665796167:0;v functions.sh
+: 1665796239:0;alias his
+: 1665796296:0;alias his='hi |  cut -c 1-7 --complement | nvim +$ -'
+: 1665796298:0;his
+: 1665796359:0;ls
+: 1665796372:0;reg
+: 1665796377:0;u
+: 1665796383:0;alias reg
+: 1665796388:0;exit
+: 1665796764:0;echo $USERVAR
+: 1665796778:0;USERVAR="https://www.youtube.com/watch\?v\=5uIW9fcmkuE"
+: 1665797825:0;his
+: 1665797840:0;fd 'corr'
+: 1665797854:0;scripts/zcorrupt.sh
+: 1665797860:0;his
+: 1665797870:0;alias his
+: 1665797905:0;alias his='hi |  cut -c 1-7 --complement | nvim +$ -'
+: 1665797907:0;his
+: 1665879399:0;cd winp
+: 1665879406:0;winh
+: 1665879409:0;lt
+: 1665879453:0;alias | rg '.*sh.*'
+: 1665879465:0;alias | rg '.*d.*'
+: 1665879469:0;alias | rg '.*fd.*'
+: 1665879494:0;f1
+: 1665879548:0;alias f1
+: 1665879571:0;fdh
+: 1665879625:0;alias f1
+: 1665879635:0;fd --changed-within 2hours -x ls -lhrt
+: 1665879698:0;fda | wc
+: 1665879990:0;fd --changed-within 2hours -x ls -lhrt
+: 1665880007:0;fd --changed-within 2hours -x ls -lhrt > two
+: 1665880147:0;fda
+: 1665880162:0;fda | wc
+: 1665880170:0;man wc
+: 1665880209:0;man wc -l
+: 1665880220:0;fda | wc -l
+: 1665880241:0;v two
+: 1665880334:0;v AppData/Local/Google/Chrome/User Data/Default/Cache/Cache_Data/data_2
+: 1665880346:0;cd AppData/Local/Google/Chrome/User Data/Default/Cache/Cache_Data/data_2
+: 1665880361:0;cd "AppData/Local/Google/Chrome/User Data/Default/Cache/Cache_Data/data_2"
+: 1665880368:0;cd "AppData/Local/Google/Chrome/User Data/Default/Cache/Cache_Data/"
+: 1665880371:0;lt
+: 1665880388:0;v data_3
+: 1665880396:0;u
+: 1665880398:0;cd
+: 1665880585:0;ls | tee mm
+: 1665880587:0;lt
+: 1665880590:0;cat mm
+: 1665880616:0;bas
+: 1665880618:0;lt
+: 1665880624:0;fda
+: 1665880645:0;fda | rg -v '^mp'
+: 1665880662:0;fda | rg -v '^mp|stable'
+: 1665880669:0;fda | rg -v '^mp|stable' | column
+: 1665880690:0;l
+: 1665880699:0;lt
+: 1665880730:0;l
+: 1665880738:0;v .
+: 1665880772:0;cat a
+: 1665880775:0;v .
+: 1665881052:0;cd
+: 1665881056:0;cd .config/nvim
+: 1665881058:0;lt
+: 1665881063:0;v init.vim
+: 1665881263:0;v
+: 1665881758:0;v .
+: 1665881793:0;v
+: 1665888787:0;v .
+: 1665889013:0;fdh
+: 1665889031:0;fda -E 'stab*'
+: 1665889051:0;lt
+: 1665889067:0;fd -tf -d 1
+: 1665889085:0;v all_commands
+: 1665889091:0;rm all_commands
+: 1665889108:0;man trash
+: 1665889123:0;alias | rg 'tra'
+: 1665889136:0;lt
+: 1665889152:0;mps
+: 1665889167:0;fd -tf 'sheet'
+: 1665889205:0;cd sheet
+: 1665889215:0;cd sheets
+: 1665889216:0;lt
+: 1665889225:0;v .
+: 1665889277:0;u
+: 1665889281:0;fd -tf 'sheet'
+: 1665889336:0;v node/esbuild/src/sheet.js
+: 1665889405:0;cd node
+: 1665889406:0;lt
+: 1665889414:0;rg 'google'
+: 1665889444:0;rg 'google' | v -
+: 1665889509:0;fd -ejs -x rg 'google'
+: 1665889529:0;fd -ejs -x rg 'google' | v -
+: 1665889565:0;cd winp
+: 1665889574:0;i3
+: 1665891709:0;ipy
+: 1665891894:0;cd p3
+: 1665891911:0;cd winp
+: 1665891915:0;i3
+: 1665938323:0;fd find -ejs | xargs echo
+: 1665938331:0;fd find -epy | xargs echo
+: 1665938340:0;fd  -epy | xargs echo
+: 1665938373:0;fd -epy -x ls
+: 1665938393:0;fd -epy -x 'ls -lhrt'
+: 1665938414:0;v a.sh
+: 1665938436:0;lt
+: 1665938442:0;chmod 777 a.sh
+: 1665938456:0;fd -epy -x ~/.sh
+: 1665938461:0;v a.sh
+: 1665938545:0;fd -epy -x ~/.sh
+: 1665938548:0;fd -epy -x ~/a.sh
+: 1665938559:0;v a.sh
+: 1665938571:0;l
+: 1665938577:0;a jj.sh
+: 1665938590:0;./a.sh jj.sh
+: 1665938613:0;fd -esh | rg 'bash'
+: 1665938626:0;fd -esh
+: 1665938644:0;fd -esh -x rg 'bash'
+: 1665938668:0;v a.sh
+: 1665938723:0;echo /user/bin/env
+: 1665938727:0;echo /user/bin/env bash
+: 1665938762:0;his
+: 1665938776:0;fd -epy -x ~/a.sh
+: 1665938809:0;v a.sh
+: 1665938822:0;fd -epy -x ~/a.sh
+: 1665938835:0;v a.sh
+: 1665938855:0;fd -epy -x ~/a.sh
+: 1665938868:0;fd -epy -x ~/a.sh | less
+: 1665938883:0;v a.sh
+: 1665938912:0;fd -esh
+: 1665938925:0;fd -esh -x rg 'printf'
+: 1665938963:0;c
+: 1665938968:0;v a.sh
+: 1665939017:0;fd -epy -x ~/a.sh | less
+: 1665939037:0;v a.sh
+: 1665939052:0;fd -epy -x ~/a.sh | less
+: 1665939095:0;fd -epy -x ~/a.sh | more
+: 1665939108:0;v non/file_name.py
+: 1665939117:0;fd -epy -x ~/a.sh | more
+: 1665939151:0;rm non/file_name.py
+: 1665939171:0;fd -epy -x ~/a.sh | more
+: 1665939194:0;fd -esh -x ~/a.sh | more
+: 1665949557:0;print "hello" "world"
+: 1665950184:0;x,y=2,3
+: 1665950229:0;i3
+: 1665958715:0;cd winp
+: 1665958718:0;i3
+: 1665960789:0;ipy
+: 1665961480:0;i3
+: 1665964811:0;fd 'start'
+: 1665964821:0;fda 'start'
+: 1665964836:0;fda -epy 'start'
+: 1665964866:0;fda -epy 'start' | v -
+: 1665964879:0;v .ipython/profile_default/startup/start.py
+: 1665964902:0;ipy
+: 1665964941:0;ie
+: 1665964943:0;i3
+: 1665964975:0;v .ipython/profile_default/startup/start.py
+: 1665964993:0;cd winp
+: 1665964994:0;i3
+: 1665965032:0;cd winp
+: 1665965037:0;v .ipython/profile_default/startup/start.py
+: 1665965044:0;u
+: 1665965046:0;v .ipython/profile_default/startup/start.py
+: 1665965060:0;i3
+: 1665965085:0;cd winp
+: 1665965087:0;i3
+: 1665965123:0;v ~/.ipython/profile_default/startup/start.py
+: 1665965137:0;i3
+: 1665965161:0;ipy
+: 1665965179:0;v ~/.ipython/profile_default/startup/start.py
+: 1665965191:0;i3
+: 1665965264:0;v ~/.ipython/profile_default/startup/start.py
+: 1665965323:0;i3
+: 1665965382:0;alias vip="~/.ipython/profile_default/startup/start.py"
+: 1665965384:0;vip
+: 1665965397:0;alias vip="v ~/.ipython/profile_default/startup/start.py"
+: 1665965399:0;vip
+: 1665965406:0;his
+: 1665965446:0;cd
+: 1665965449:0;his
+: 1665965520:0;vip
+: 1665965568:0;i3
+: 1665965580:0;cd winp
+: 1665965581:0;i3
+: 1665965643:0;vip
+: 1665965658:0;source ~/.bash_aliases
+: 1665965660:0;vip
+: 1665965686:0;i3
+: 1665966947:0;ipy
+: 1665967021:0;v
+: 1665967744:0;i3
+: 1665967820:0;ipy
+: 1665967866:0;vip
+: 1665967904:0;i3
+: 1665967921:0;vip
+: 1665967942:0;cd winp
+: 1665967946:0;i3
+: 1665968049:0;u
+: 1665968051:0;his
+: 1665968062:0;fda -epy 'start' | v -
+: 1665968090:0;cd .ipython/profile_default/startup/
+: 1665968092:0;ls
+: 1665968097:0;v README
+: 1665968115:0;lt
+: 1665968126:0;v README
+: 1665968160:0;v 00-first.py
+: 1665968173:0;i3
+: 1665968196:0;cd
+: 1665968202:0;cd winp
+: 1665968205:0;i3
+: 1665968269:0;his
+: 1665968394:0;i3 profile create
+: 1665968406:0;h3
+: 1665968411:0;his
+: 1665968418:0;cd .ipython/profile_default/startup/
+: 1665968425:0;cd .ipython/profile_default/
+: 1665968438:0;his
+: 1665968448:0;cd ~/.ipython/profile_default/startup/
+: 1665968451:0;ls
+: 1665968454:0;u
+: 1665968455:0;ls
+: 1665968472:0;ipy
+: 1665968484:0;v ipython_config.py
+: 1665968560:0;i3
+: 1665968571:0;cd
+: 1665968576:0;cd winp
+: 1665968577:0;i3
+: 1665968603:0;d
+: 1665968607:0;2
+: 1665968608:0;lt
+: 1665968620:0;ipy
+: 1665968627:0;i3
+: 1665968642:0;ipy
+: 1665968648:0;lt
+: 1665968654:0;v ipython_config.py
+: 1665968873:0;lt
+: 1665968876:0;cd startup
+: 1665968877:0;lt
+: 1665968882:0;v 00-first.py
+: 1665968907:0;cd
+: 1665968912:0;cd winp
+: 1665968916:0;ip
+: 1665968919:0;i3
+: 1665970687:0;export PYTHONSTARTUP=~/.pythonrc
+: 1665970701:0;v ~/.pythonrc
+: 1665970714:0;i3
+: 1665970733:0;python3
+: 1665970751:0;vip
+: 1665970763:0;i3
+: 1665970778:0;v ~/.pythonrc
+: 1665970788:0;i3
+: 1665970817:0;vip
+: 1665970826:0;i3
+: 1665970917:0;vip
+: 1665971146:0;v ~/.pythonrc
+: 1665971161:0;i3
+: 1665971285:0;v ~/.pythonrc
+: 1665971296:0;i3
+: 1665971415:0;vip
+: 1665971481:0;i3
+: 1665971593:0;vip
+: 1665971615:0;cd
+: 1665971616:0;lt
+: 1665971619:0;lt -a
+: 1665971629:0;vip
+: 1665971650:0;l
+: 1666023020:0;w
+: 1666023039:0;cd winp
+: 1666023042:0;i3
+: 1666023082:0;v ~/.pythonrc
+: 1666023270:0;i3
+: 1666023299:0;vip
+: 1666023598:0;i3
+: 1666023623:0;u
+: 1666023638:0;fda -d 1 'ffffff'
+: 1666023651:0;fd 'fffff'
+: 1666023658:0;fd 'bash'
+: 1666023666:0;fda 'bash'
+: 1666023671:0;c
+: 1666023673:0;l
+: 1666023686:0;fda 'bash'
+: 1666023693:0;fda 'fffff'
+: 1666023715:0;fda -x rg 'fffff'
+: 1666023727:0;fda -x rg 'fffffffffff'
+: 1666023742:0;i3
+: 1666023762:0;fda -x rg 'asda.*fffffffffff'
+: 1666023800:0;cd .ipython/profile_default/
+: 1666023801:0;lt
+: 1666023813:0;v ipython_config.py
+: 1666023832:0;fd -epy
+: 1666023840:0;cd startup
+: 1666023841:0;l
+: 1666023846:0;v 00-first.py
+: 1666023981:0;i3
+: 1666024035:0;lt
+: 1666024040:0;v start.py
+: 1666024050:0;lt
+: 1666024055:0;v 00-first.py
+: 1666024067:0;i3
+: 1666024102:0;lt
+: 1666024106:0;v .
+: 1666024175:0;i3
+: 1666024217:0;v 00-first.py
+: 1666024221:0;lt
+: 1666024223:0;h3
+: 1666024237:0;v start.py
+: 1666024269:0;i3
+: 1666026294:0;c
+: 1666026296:0;cm
+: 1666026302:0;cd twit
+: 1666026304:0;ls
+: 1666026306:0;l
+: 1666026308:0;lt
+: 1666026378:0;wget "https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/twit/twit0895/twit0895.mp3" ##twit 8/15
+: 1666026728:0;his
+: 1666026743:0;scripts/zcorrupt.sh
+: 1666026746:0;his
+: 1666026772:0;c
+: 1666026775:0;dm
+: 1666026776:0;cm
+: 1666026781:0;cd twit
+: 1666026787:0;wget "https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/twit/twit0896/twit0896.mp3" ##twit 8/15
+: 1666034178:0;cd winp
+: 1666034179:0;lt
+: 1666034184:0;alias p3
+: 1666034192:0;p3 -i test.py
+: 1666034356:0;i3
+: 1666034378:0;alias vip
+: 1666034383:0;cd .ipython/profile_default/
+: 1666034388:0;lt
+: 1666034396:0;cd startup
+: 1666034397:0;lt
+: 1666034398:0;l
+: 1666034400:0;c
+: 1666034401:0;l
+: 1666034406:0;v 00-first.py
+: 1666034417:0;l
+: 1666034420:0;v start.py
+: 1666034434:0;ipy
+: 1666034522:0;i3
+: 1666034571:0;v start.py
+: 1666035036:0;i3
+: 1666035070:0;v start.py
+: 1666035671:0;ipy
+: 1666035693:0;i3
+: 1666035968:0;lt
+: 1666035995:0;p3 -m pudb start.py
+: 1666036024:0;se 'py.*pip'
+: 1666036039:0;p3 -m pip --version
+: 1666036053:0;p3 -m pip install pudb
+: 1666036069:0;p3 -m pudb start.py
+: 1666036251:0;ps -aux | v -
+: 1666036328:0;kill -9 969
+: 1666036336:0;c
+: 1666036342:0;p3 -m pudb start.py
+: 1666036438:0;vmstat
+: 1666036459:0;w
+: 1666036478:0;whoami
+: 1666036483:0;w steff007
+: 1666036494:0;uptime
+: 1666036515:0;ps -A
+: 1666036550:0;ps ax
+: 1666036557:0;ps -a
+: 1666036561:0;ps -A
+: 1666036565:0;ps
+: 1666036578:0;ps -A
+: 1666036625:0;ps -auxf | sort -nr -k 4 | head -10
+: 1666036644:0;free
+: 1666036661:0;iostat
+: 1666045754:0;H3
+: 1666045764:0;he
+: 1666045765:0;h3
+: 1666045779:0;fd -epy
+: 1666045811:0;fd -epy -x nvim
+: 1666045821:0;ps
+: 1666045823:0;ps -a
+: 1666045833:0;ps -aux
+: 1666045897:0;se 'fd.*vim'
+: 1666045929:0;fd -epy -X nvim
+: 1666046077:0;fd -epy
+: 1666046086:0;v replace.py
+: 1666046102:0;p3 replace.py
+: 1666046106:0;lt
+: 1666046111:0;v SampleFile.txt
+: 1666046147:0;p3 replace.py
+: 1666046152:0;v SampleFile.txt
+: 1666046180:0;se 'pudb'
+: 1666046194:0;p3 -m pudb start.py
+: 1666046219:0;p3 -m pudb replace.py
+: 1666052894:0;bas
+: 1666052895:0;lt
+: 1666052904:0;v ye.sh
+: 1666052933:0;ls
+: 1666053005:0;bas
+: 1666053007:0;v ye.sh
+: 1666053050:0;ls >ls /dev/null 2>&1 &
+: 1666053186:0;bash ye.sh
+: 1666053201:0;ps -aux
+: 1666053223:0;v ye.sh
+: 1666053241:0;md /mnt/c/you/amy
+: 1666053251:0;bash ye.sh
+: 1666053487:0;cd ../../you
+: 1666053491:0;cd amy
+: 1666053492:0;ls
+: 1666053499:0;lt
+: 1666053506:0;d
+: 1666053509:0;2
+: 1666053516:0;bash ye.sh
+: 1666053653:0;ps -aux | rg 'pyth'
+: 1666053676:0;bash ye.sh
+: 1666053681:0;ps -aux | rg 'pyth'
+: 1666053698:0;d
+: 1666053705:0;1
+: 1666053708:0;lt
+: 1666053715:0;ps -aux | rg 'pyth'
+: 1666053725:0;se 'rename' | tail
+: 1666053762:0;fd '\s' -exec rename "s/ /_/g"
+: 1666053764:0;lt
+: 1666053788:0;fd ',' -exec rename "s/ //g"
+: 1666053790:0;lt
+: 1666053799:0;fd ',' -exec rename "s/,//g"
+: 1666053801:0;lt
+: 1666053835:0;fd '(' -exec rename "s/(//g"
+: 1666053847:0;fd '(' -exec rename "s/\(//g"
+: 1666053857:0;fd '\(' -exec rename "s/\(//g"
+: 1666053859:0;lt
+: 1666053873:0;fd '\)' -exec rename "s/\)//g"
+: 1666053876:0;lt
+: 1666053981:0;fd
+: 1666053989:0;fd -x touch
+: 1666053990:0;lt
+: 1666054017:0;d
+: 1666054021:0;alias d
+: 1666054030:0;type d
+: 1666054064:0;alias vv='| v -
+: 1666054066:0;alias vv='| v -'
+: 1666054073:0;ls vv
+: 1666054101:0;type d
+: 1666054109:0;type d | v -
+: 1666054126:0;v /home/steff007/.oh-my-zsh/lib/directories.zsh
+: 1666054163:0;dirs
+: 1666054253:0;dirs -v | head -n 10
+: 1666054257:0;dirs -v
+: 1666054288:0;cd ../../all
+: 1666054302:0;cp /home/steff007/.oh-my-zsh/lib/directories.zsh
+: 1666054306:0;cp /home/steff007/.oh-my-zsh/lib/directories.zsh .
+: 1666054308:0;lt
+: 1666054323:0;v directories.zsh
+: 1666054328:0;gst
+: 1666054336:0;ls -esh
+: 1666054341:0;fd -esh
+: 1666054358:0;fda 'git'
+: 1666054373:0;l
+: 1666054395:0;la *.sh
+: 1666054410:0;fdh
+: 1666054421:0;fd tx
+: 1666054446:0;fd -tx
+: 1666054468:0;fd -tx | column | less
+: 1666054491:0;fd -tx -x rg 'git'
+: 1666054513:0;fd -d 1 -tx -x rg 'git'
+: 1666054523:0;fd -d 1 -tx -x rg 'git' | more
+: 1666054547:0;ls
+: 1666054614:0;fd '.*git.*'
+: 1666054655:0;ls | xargs echo
+: 1666054666:0;ls | xargs rg 'git'
+: 1666054701:0;ls | xargs rg 'git' | v -
+: 1666054961:0;u
+: 1666054971:0;cd kb
+: 1666054976:0;cd you
+: 1666054979:0;cd kb
+: 1666054980:0;lt
+: 1666055018:0;v
+: 1666055103:0;ls d*
+: 1666055108:0;lt
+: 1666055111:0;v
+: 1666055253:0;d
+: 1666055257:0;dirs -v
+: 1666055265:0;man dirs
+: 1666055275:0;type dirs
+: 1666055281:0;d
+: 1666055283:0;cd
+: 1666055285:0;lt
+: 1666055312:0;bas
+: 1666055314:0;lt
+: 1666055383:0;v -o yv.sh ye.sh
+: 1666055449:0;gst
+: 1666055462:0;u
+: 1666055464:0;gst
+: 1666055472:0;bas
+: 1666055474:0;gst
+: 1666055482:0;u
+: 1666055485:0;gst
+: 1666055491:0;git add  .
+: 1666055493:0;gst
+: 1666055502:0;c
+: 1666055505:0;cd
+: 1666055508:0;ls -esh
+: 1666055513:0;fd -esh
+: 1666055523:0;v gitAll.sh
+: 1666055547:0;d
+: 1666055549:0;2
+: 1666055552:0;u
+: 1666055554:0;gst
+: 1666055560:0;git fetch
+: 1666055565:0;gst
+: 1666055576:0;cd
+: 1666055578:0;lt
+: 1666055584:0;ls *.sh
+: 1666055593:0;gitAll.sh
