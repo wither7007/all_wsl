@@ -1,0 +1,11 @@
+this is zzy
+ystem
+yohis is zzy
+#!/bin/bash
+echo $1
+cat $1
+echo -----------------------------------------
+2022-10-21
+Fri 21 Oct 2022 08:40:33 PM UTC
+
+Fri 21 Oct 2022 08:44:18 PM UTC
