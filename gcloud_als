@@ -90,4 +90,4 @@ alias gitsall="git status -vv | v -"
 alias fdc="fd -H -I -d 1  -td | column"
 alias l="ls -CF"
 alias fda="fd -H -I"
-
+alias psa="ps -aux | v -"
