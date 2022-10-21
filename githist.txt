@@ -1,0 +1,952 @@
+commit e76b669deeb2b08c6cfd2b0f149fb48d3e31694e
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Fri Oct 21 11:28:55 2022 -0500
+
+    auto commit
+
+ ipy        | 2681 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ miss.txt   |    1 +
+ note/notes |   24 +-
+ whis       |  821 +++++++++----------
+ 4 files changed, 3097 insertions(+), 430 deletions(-)
+
+commit 15b0857dffe6a198a0b878a77ff710ac63acb2b8
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Wed Oct 19 22:11:20 2022 -0500
+
+    clean try
+
+ .gitignore |  3 ++-
+ note/notes | 12 ++++++++++++
+ python3    |  1 -
+ 3 files changed, 14 insertions(+), 2 deletions(-)
+
+commit dcde2bea3803e226d170a114251d3548c3d474b4
+Merge: 69beb84 71cd99c
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Mon Oct 17 20:14:02 2022 -0500
+
+    Merge branch 'main' of github.com:wither7007/all_wsl into main
+
+commit 69beb8418e00b462b9dd197d427fd65ef161d3dd
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Mon Oct 17 20:13:14 2022 -0500
+
+    auto commit
+
+ directories.zsh |  38 ++++
+ note/notes      |   9 +
+ whis            | 628 +++++++++++++++++++++++++++++++++++++++++++++++---------
+ wsl_aliases     |   2 +-
+ 4 files changed, 580 insertions(+), 97 deletions(-)
+
+commit 71cd99c45295a5ae894fc8b27e9593f63b388582
+Author: Jim Steffes <wither7007@gmail.com>
+Date:   Fri Oct 14 16:57:07 2022 -0500
+
+    GoldenValue
+
+ nfl/js.js     | 925 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ nfl/scrape.js |  33 +++
+ nfl/week6     |  23 ++
+ note/notes    |   4 +-
+ 4 files changed, 984 insertions(+), 1 deletion(-)
+
+commit 6982dd05cac544449fdfe97e0814bb3479c42517
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Fri Oct 14 11:27:08 2022 -0500
+
+    auto commit
+
+ hour        |   15 +
+ note/notes  |   63 +--
+ note/python |    3 +
+ today       | 1329 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ whis        |  836 +++++++++++++++++++++++++++++--------
+ wsl_aliases |    9 +-
+ 6 files changed, 2060 insertions(+), 195 deletions(-)
+
+commit c1d86d32d41412b2a504d5f1094b58b04de324df
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Fri Sep 30 00:41:44 2022 -0500
+
+    smith notes
+
+ note/notes | 11 +++++++++++
+ note/work  |  2 ++
+ 2 files changed, 13 insertions(+)
+
+commit 92fff073c569ca3b162637345a7206f7ea2c7505
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Thu Sep 29 21:36:44 2022 +0000
+
+    rockford gcloud
+
+ gcloud_als |    3 +-
+ gcloud_his | 1235 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 1237 insertions(+), 1 deletion(-)
+
+commit d2081052fc2ff674d34fe904070018e49191f88d
+Author: Jim Steffes <wither7007@gmail.com>
+Date:   Thu Sep 29 16:26:21 2022 -0500
+
+    Rockford from git web
+
+ what | 521 ++++++++++++++++++++++++++++++++++---------------------------------
+ 1 file changed, 261 insertions(+), 260 deletions(-)
+
+commit 50df92174b9a427cbdfe2405d542f14261bff91d
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Wed Sep 28 00:19:35 2022 -0500
+
+    auto commit
+
+ note/notes |   3 +
+ whis       | 292 ++++++++++++++++++++++++++-----------------------------------
+ 2 files changed, 127 insertions(+), 168 deletions(-)
+
+commit 9ccc2c07206703efb0f70801563f4938560b4c53
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Tue Sep 27 23:10:53 2022 +0000
+
+    tuesday 27 update
+
+ gcloud_als |   25 +-
+ gcloud_fun |   20 ++
+ gcloud_his | 1078 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 1114 insertions(+), 9 deletions(-)
+
+commit aa1f70a90baa80412bf274271114dec996fd8c31
+Author: Jim Steffes <wither7007@gmail.com>
+Date:   Tue Sep 27 17:20:59 2022 -0500
+
+    note change
+
+ gcloud_his | 1 -
+ note/notes | 3 +++
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+
+commit 9aeb3aa6861f6d47c33e94561dcd1c021d6d02a6
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Tue Sep 27 13:08:14 2022 -0500
+
+    auto commit
+
+ wfunctions.sh | 36 ++++++++++++++++++++++++++++++++++++
+ whis          |  7 +++++++
+ 2 files changed, 43 insertions(+)
+
+commit 757909f2e05cecf3f15018e6453d8f4569be4fd7
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Tue Sep 27 13:06:24 2022 -0500
+
+    auto commit
+
+ dockerf/d2/docker-compose.yml      |  9 +++++++++
+ dockerf/d2/vol2/docker-compose.yml |  9 +++++++++
+ dockerf/docker-compose.yml         | 31 +++++++++++++++++++++++++++++++
+ dockerf/nginx/docker-compose.yml   | 17 +++++++++++++++++
+ dockerf/readme.txt                 |  7 +++++++
+ dockerf/take2/docker-compose.yml   | 16 ++++++++++++++++
+ whis                               |  2 ++
+ 7 files changed, 91 insertions(+)
+
+commit 02b7a8ee53728b2f6148c6d34161c8ea73748902
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Tue Sep 27 13:04:24 2022 -0500
+
+    auto commit
+
+ note/notes  |   24 ++
+ note/python |   90 +++++
+ whis        | 1067 ++++++++++++++++++++++++++++++++++++++++++++++-------------
+ wsl_aliases |    5 +-
+ 4 files changed, 959 insertions(+), 227 deletions(-)
+
+commit 0a6b35edd3053edeb0f57b2257ff343ff45da8c6
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Thu Sep 22 02:08:50 2022 -0500
+
+    added wsl aliases
+
+ note/notes  |     5 +
+ whis        | 11406 +++++++++++++++++++++++++++++++---------------------------
+ wsl_aliases |    92 +
+ 3 files changed, 6270 insertions(+), 5233 deletions(-)
+
+commit bbf68d607c811e7f04a891938e9ee82cf368b66d
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Tue Sep 20 23:29:42 2022 +0000
+
+    removed zzz
+
+ gcloud_his | 2 --
+ 1 file changed, 2 deletions(-)
+
+commit d0ffe16d83ec1539e40902565bfda9e51df4832a
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Tue Sep 20 23:23:51 2022 +0000
+
+    uniqued
+
+ gcloud_his | 3570 +++---------------------------------------------------------
+ 1 file changed, 176 insertions(+), 3394 deletions(-)
+
+commit df5f46f68fe77582a75b72e2e2bcfbe4608942f8
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Tue Sep 20 23:18:38 2022 +0000
+
+    new docker
+
+ gcloud_his   | 942 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ vscode/vs.sh |   5 +-
+ 2 files changed, 945 insertions(+), 2 deletions(-)
+
+commit decb7f55d5de6918d5969036650b9e89f451a6fc
+Author: Jim Steffes <wither7007@gmail.com>
+Date:   Tue Sep 20 17:33:30 2022 -0500
+
+    all commands
+
+ vscode/vs.sh | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit d142dbbd0813ea44250596fc0bcde171b0ec4a6c
+Author: Jim Steffes <wither7007@gmail.com>
+Date:   Tue Sep 20 17:30:14 2022 -0500
+
+    compgen
+
+ vscode/vs.sh | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+commit b1806ebc531225d596695809cd4add062b5c2439
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Tue Sep 20 22:22:37 2022 +0000
+
+    used alias on fd
+
+ vscode/vs.sh | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 97d8151d6f2da508f4e9344f430cb534f57dd137
+Author: Jim Steffes <wither7007@gmail.com>
+Date:   Tue Sep 20 17:17:20 2022 -0500
+
+    sh extensions
+
+ vscode/vs.sh | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 2eb48d2de68674bd6157a19b440f121f2047b8fd
+Author: Jim Steffes <wither7007@gmail.com>
+Date:   Tue Sep 20 16:43:25 2022 -0500
+
+    echo done
+
+ vscode/vs.sh | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit d845aa4e92c0d38e43b5df24ace39e8a54e78aca
+Author: Jim Steffes <wither7007@gmail.com>
+Date:   Tue Sep 20 16:23:38 2022 -0500
+
+    added one
+
+ vscode/vs.sh | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit a6e6e7c9b42af91f24e0b62419850ac4e5a39f4a
+Author: Jim Steffes <wither7007@gmail.com>
+Date:   Tue Sep 20 16:20:33 2022 -0500
+
+    add vs.sh
+
+ vscode/vs.sh | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit f5a89acd2df862bdd25d2c35f88d4731696f08c8
+Author: Jim Steffes <wither7007@gmail.com>
+Date:   Tue Sep 20 15:44:20 2022 -0500
+
+    edited jsons
+
+ gcloud_his              | 12 +++++-------
+ vscode/keybindings.json | 47 ++++++++++++++++++++++++++++++++++++++++++++---
+ vscode/keys.json        |  0
+ vscode/settings.json    | 11 ++++++++++-
+ 4 files changed, 59 insertions(+), 11 deletions(-)
+
+commit 1f6d8324c6ad2f30fa749c92b5ba158e68352bd1
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Tue Sep 20 20:42:58 2022 +0000
+
+    added note about xargs
+
+ note/notes | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit ce735dd29bfc2cf0d9ca2cebb80094dc34090a1c
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Tue Sep 20 19:57:42 2022 +0000
+
+    fixed settings
+
+ vscode/settings.json | 166 +++++++++++++++++++++++++++++++++++++++++++++++++--
+ 1 file changed, 161 insertions(+), 5 deletions(-)
+
+commit 46ca0bc92f56ec1b59d79d23bd09030fc322254a
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Tue Sep 20 19:44:16 2022 +0000
+
+    settings to vscode dir
+
+ gcloud_his                  | 853 ++++++++++++++++++++++++++++++++++++++++++++
+ settings.json               | 161 ---------
+ vscode/global-state.json    |   1 +
+ vscode/keybindings.json     |  12 +
+ vscode/lastHostname.json    |   1 +
+ vscode/recentworkspace.json |   1 +
+ vscode/settings.json        |   5 +
+ 7 files changed, 873 insertions(+), 161 deletions(-)
+
+commit ba511fa0d2830ed4ee6fdeb1bd1036b3064c1b9d
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Tue Sep 20 19:16:59 2022 +0000
+
+    Tuesday workout 1
+
+ gcloud_his | 1601 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 1601 insertions(+)
+
+commit fd2d5669c161752063099fe0042f5edad5a223c1
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Sun Sep 18 22:08:12 2022 -0500
+
+    pointless
+
+ what | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit aa977fcf8cf621d8714294c6268879eabb83f69a
+Merge: 5586007 1924825
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Sun Sep 18 22:02:40 2022 -0500
+
+    Merge remote-tracking branch 'refs/remotes/origin/main' into main
+
+commit 19248255cebf54bb200bd0b5a3991ee138b8aaa4
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Mon Sep 19 02:59:56 2022 +0000
+
+    combined old ghis
+
+ gcloud_his | 2051 +++++++++++++-----------------------------------------------
+ 1 file changed, 426 insertions(+), 1625 deletions(-)
+
+commit 5586007fd2cf01108aa02bf94dfa8ae1fd6843a0
+Merge: 10d03f1 b6bb5e8
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Sun Sep 18 17:58:18 2022 -0500
+
+    Merge remote-tracking branch 'refs/remotes/origin/main' into main
+    test commit
+
+commit 10d03f14cf4143b58d1c943d62369b8907a463f4
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Sun Sep 18 17:52:24 2022 -0500
+
+    local commits
+
+ note/notes | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit b6bb5e888a956b3b6549e3c625e69e9b63de1082
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Sun Sep 18 18:58:12 2022 +0000
+
+    added cloud functions
+
+ gcloud_fun |  23 ++++
+ gcloud_his | 430 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 453 insertions(+)
+
+commit c520acc8cab14d71499ccaf65007bd6fac57bbe1
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Sat Sep 17 21:50:39 2022 +0000
+
+    more stuf from video
+    https://freecodecamp.org/news
+
+ gcloud_his     | 840 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ hisback        |   1 +
+ kottkeLink.txt |   1 +
+ 3 files changed, 842 insertions(+)
+
+commit 38d64abda218cba9e97fcb050202593a7bd626d0
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Sat Sep 17 21:26:39 2022 +0000
+
+    test from https://www.youtube.com/watch?v=Uszj_k0DGsg&t=39s
+
+ hisback | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 0733bc5fa15efbd8641aec6964c72ed4f18cffa3
+Author: Jim Steffes <wither7007@gmail.com>
+Date:   Sat Sep 17 15:18:45 2022 -0500
+
+    keybinding
+
+ keybindings | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+
+commit 99ab890f2770009658849ca0357da852a9510f83
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Sat Sep 17 20:06:11 2022 +0000
+
+    added aliases
+
+ gcloud_als |  85 +++++++++++++++
+ gcloud_his | 357 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 2 files changed, 441 insertions(+), 1 deletion(-)
+
+commit 51b1c7bdc0f555414abef646beb8659b7c2cb6fe
+Author: Jim Steffes <wither7007@gmail.com>
+Date:   Sat Sep 17 14:44:17 2022 -0500
+
+    from vscode
+
+ gcloud_his    | 1030 +---------
+ googleFun.txt | 6237 +++++++++++++++++++++++++++++----------------------------
+ keybindings   |    0
+ 3 files changed, 3197 insertions(+), 4070 deletions(-)
+
+commit e7d45ad39b416e67674a8d7f6383c120a3394a8e
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Sat Sep 17 19:23:15 2022 +0000
+
+    another
+
+ gcloud_his    |  344 ++++++
+ googleFun.txt | 3578 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 3922 insertions(+)
+
+commit 823dab1ebcf57ec43128d3cc0e21fce9e935cfaf
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Sat Sep 17 19:15:12 2022 +0000
+
+    saturday his
+
+ gcloud_his |   337 ++
+ whis       | 10464 +++++++++++++++++++++++++++++------------------------------
+ 2 files changed, 5569 insertions(+), 5232 deletions(-)
+
+commit 0a274eff02636c9f9ce69b1c3563eba84d04689c
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Sat Sep 17 03:15:36 2022 -0500
+
+    auto commit
+
+ whis | 10504 ++++++++++++++++++++++++++++++++---------------------------------
+ 1 file changed, 5231 insertions(+), 5273 deletions(-)
+
+commit 6764c4262a7cb74a640391f9aa4a6f38a762156c
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Sat Sep 17 03:07:21 2022 -0500
+
+    whis work
+
+ whis | 10408 ++++++++++++++++++++++++++++++++---------------------------------
+ 1 file changed, 5204 insertions(+), 5204 deletions(-)
+
+commit d85fc67af12097f947c2e37b3ca41b4f51e187d5
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Sat Sep 17 03:00:32 2022 -0500
+
+    auto commit
+
+ note/notes |     8 +-
+ python3    |     1 +
+ whis       | 10505 +++++++++++++++++++++++++++++------------------------------
+ 3 files changed, 5213 insertions(+), 5301 deletions(-)
+
+commit 49219f0b4bea234691dda19d29b461f86d4923ce
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Thu Sep 15 21:44:33 2022 +0000
+
+    working
+
+ gcloud_his | 273 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ what       | 260 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 533 insertions(+)
+
+commit 84baa906011b31ad5181d5514af31d682b974dab
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Thu Sep 15 21:13:59 2022 +0000
+
+    sort unique
+
+ gcloud_his | 111 +++++++++++++++++++++++++++++++++++--------------------------
+ 1 file changed, 63 insertions(+), 48 deletions(-)
+
+commit 9bcc9b2cca2bfbd52e73491f8c2a2493d9c3ef88
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Thu Sep 15 20:55:42 2022 +0000
+
+    gcloud_his
+
+ bash_history | 552 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ gcloud_his   | 246 +++++++++++++++++++++++++-
+ 2 files changed, 797 insertions(+), 1 deletion(-)
+
+commit 8734d17d0703ed880bfadfbf0e0d16fdefdf0e75
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Thu Sep 15 20:15:41 2022 +0000
+
+    added uniqhis
+
+ gcloud_his | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit cbf3197ace181fa400d31ea6760053a4203cf2ab
+Author: Jim Steffes <wither7007@gmail.com>
+Date:   Thu Sep 15 15:08:33 2022 -0500
+
+    fixed whis
+
+ note/notes |     5 -
+ whis       | 10592 +++++++++++++++++++++++++++++------------------------------
+ 2 files changed, 5296 insertions(+), 5301 deletions(-)
+
+commit 332f935d0484934871681099bbb5581978755472
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Thu Sep 15 19:18:20 2022 +0000
+
+    added settings
+
+ settings.json | 161 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 161 insertions(+)
+
+commit 555a2b1649ac77dfc7c919e092c064e3a68e8c80
+Merge: fc42f22 9be6ed1
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Thu Sep 15 19:11:34 2022 +0000
+
+    Merge branch 'main' of github.com:wither7007/all_wsl
+
+commit fc42f22975e544a99f216220bac4a0135d775037
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Thu Sep 15 19:09:55 2022 +0000
+
+    added days to note
+
+ note/notes | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 9be6ed10417cf25d93f856b811c27b6c864d8202
+Author: Jim Steffes <wither7007@gmail.com>
+Date:   Thu Sep 15 14:05:01 2022 -0500
+
+    Simple top line change
+
+ ghist | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 4788766f447ca00f33272efa281cdc67bd78e985
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Thu Sep 15 19:00:43 2022 +0000
+
+    bash_hist
+
+ .bash_history | 563 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 563 insertions(+)
+
+commit 5953cb3855e854bc567cf250125baa4d8f217a9a
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Thu Sep 15 11:51:25 2022 -0500
+
+    wshis update
+
+ note/notes |  33 ++--
+ whis       | 555 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 567 insertions(+), 21 deletions(-)
+
+commit 83e597eeee4318cf07c0f761cdfee561f343d4ba
+Merge: 5690df8 793ac17
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Thu Sep 15 01:34:01 2022 -0500
+
+    Merge remote-tracking branch 'refs/remotes/origin/main' into main
+
+commit 5690df8327e21af9f33479c7cefe2bc735d11aa2
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Thu Sep 15 01:32:33 2022 -0500
+
+    one line
+
+ ps/dirl.py | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 793ac1778cf32d8287c6f3449fd8d78ca0e5dc37
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Thu Sep 15 06:30:25 2022 +0000
+
+    more lines bs
+
+ note/notes | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit debf4f8b364e3236bedf65a211b61c9ebd5f5914
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Thu Sep 15 01:25:39 2022 -0500
+
+    another note test
+
+ note/notes | 1 +
+ ps/dirl.py | 2 +-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+commit 7778aeaa59ed7381ff85f3c16607c518ed6cbd2a
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Thu Sep 15 00:54:09 2022 -0500
+
+    one line
+
+ note/notes | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 2e290229fe602015b6cd5960e9a4259a04e3bef2
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Wed Sep 14 13:45:53 2022 -0500
+
+    note wrights
+
+ note/notes | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 07d5390979c87d2d6ea247d683ac32b27d148c7b
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Tue Sep 13 23:34:35 2022 -0500
+
+    one line to note
+
+ note/work | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+
+commit 892ef4558020f371765dab24d3995f4c21e38431
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Tue Sep 13 22:06:18 2022 -0500
+
+    clean up
+
+ 3.txt                 |    1 -
+ a                     |    0
+ absolute.txt          |    6 -
+ clip.txt              |    2 -
+ diff                  |   29 -
+ duh                   |   10 -
+ exifMultiline.txt     |   10 -
+ ffList.txt            |    4 -
+ ffm.txt               |    7 -
+ finance.txt           |    4 -
+ finger.txt            |    4 -
+ gback/README.markdown |    5 -
+ gback/accord.html     |   52 -
+ gback/index.html      |   26 -
+ gback/index.js        |   66 -
+ gback/index2.html     |   74 -
+ gback/index3.html     |   70 -
+ gback/index8.html     |  294 ----
+ gback/indexT.html     |   32 -
+ gback/indexT.js       |   57 -
+ gback/indexTest.html  |  108 --
+ gback/license.txt     |    8 -
+ gback/node.cjs        |   13 -
+ gback/node.js         |   14 -
+ gback/package.json    |   16 -
+ gback/pr.js           |  461 ------
+ gback/style.css       |   26 -
+ gfiles.txt            |   85 --
+ greek.txt             |   22 -
+ hack.txt              |   93 --
+ hisL                  |    1 -
+ index.js              |   77 -
+ kk                    | 1320 ------------------
+ link.txt              |    1 -
+ localStorage.txt      |  630 ---------
+ my.sh                 |    0
+ num.txt               |    3 -
+ pss                   | 3721 -------------------------------------------------
+ pys                   |  165 ---
+ regex.txt             |   30 -
+ sal.txt               |  769 ----------
+ sheet.txt             |    6 -
+ sheets.txt            |   14 -
+ source/a              |    9 -
+ storage.txt           |   11 -
+ string.txt            |    0
+ synthe.txt            |  230 ---
+ test.js               |    2 -
+ test.ps1              |    4 -
+ vlc-help.txt          |  413 ------
+ vlc.txt               |  132 --
+ vlcy.txt              |   10 -
+ whis.txt              |  500 -------
+ whist.txt             | 2621 ----------------------------------
+ x.md                  |   23 -
+ x.py                  |   18 -
+ yester.txt            |   14 -
+ 57 files changed, 12323 deletions(-)
+
+commit e8f4eb0175cecf3362c9f6d6a51d0c8c89936b71
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Wed Sep 14 02:57:09 2022 +0000
+
+    added frumious
+
+ greek.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 95c71c9121b259df9cc33a83b055bbc3558befd9
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Wed Sep 14 02:47:52 2022 +0000
+
+    testing changes
+
+ greek.txt | 1 +
+ pss       | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 9fef3c2a75d22599c1572e2c38aae4f9d0de6c0f
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Tue Sep 13 20:08:35 2022 +0000
+
+    added gfiles.txt
+
+ gfiles.txt | 85 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 85 insertions(+)
+
+commit 8aa6d047799b04fb4e16953c87e756421d1b47ac
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Tue Sep 13 19:57:38 2022 +0000
+
+    added hist from cloud
+
+ bhist.txt | 72 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 72 insertions(+)
+
+commit 39beefebb1e878b48c3b918b66ab21b758353f9f
+Author: Jim Steffes <wither7007@gmail.com>
+Date:   Tue Sep 13 13:40:07 2022 -0500
+
+    added snips
+
+ snips.js | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 079a71a22253799cf102a2a7178321ce9fad5fa9
+Author: Jim Steffes <wither7007@gmail.com>
+Date:   Tue Sep 13 13:19:04 2022 -0500
+
+    first edit
+
+ finger.txt | 1 +
+ my.sh      | 0
+ 2 files changed, 1 insertion(+)
+
+commit cf5b2122ecfb69a750ef76632e2de107fb06821c
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Tue Sep 13 12:03:18 2022 -0500
+
+    auto commit
+
+ whis | 1074 ++++++++++++++++++++++++++++++++++++++----------------------------
+ 1 file changed, 614 insertions(+), 460 deletions(-)
+
+commit cc102b1e0158bff7ddba2c4eb8ff24a35bbea2ff
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Mon Sep 12 02:03:54 2022 -0500
+
+    added note test
+
+ note/notes | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 81a42a8d1814713583f26fcc5650992695aa4daf
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Mon Sep 12 06:22:49 2022 +0000
+
+    added more history
+
+ bash_h9-8.txt | 515 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ghist         |  22 +++
+ 2 files changed, 537 insertions(+)
+
+commit 1fc1ad0abdf3d526979b7a0b267f1a8a7f618841
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Mon Sep 12 06:17:07 2022 +0000
+
+    added ghist
+
+ ghist | 69 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 69 insertions(+)
+
+commit 55a31d2f16eff33c621cba22507a73103c10c8d1
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Mon Sep 12 06:13:46 2022 +0000
+
+    cloud cleanup
+
+ Myjudgement.pdf |    Bin 563645 -> 0 bytes
+ nhis            |   8728 ---
+ tree            | 222482 -----------------------------------------------------
+ usc.html        |   2842 -
+ 4 files changed, 234052 deletions(-)
+
+commit f66d40529b80ff21ecfb631541b39bbdb0efd78f
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Sun Sep 11 14:39:58 2022 -0500
+
+    changed whis to hard
+
+ diff      |   29 +
+ note/work |   21 +
+ whis      | 4895 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 4945 insertions(+)
+
+commit 4b7117ae92c0535e033709d21f2f572498b25579
+Author: Jim Steffes <jimsteffes@outlook.com>
+Date:   Sun Sep 11 04:09:29 2022 -0500
+
+    initial from bash
+
+ .gitignore             |    138 +
+ 3.txt                  |      1 +
+ Myjudgement.pdf        |    Bin 0 -> 563645 bytes
+ a                      |      0
+ absolute.txt           |      6 +
+ clip.txt               |      2 +
+ duh                    |     10 +
+ exifMultiline.txt      |     10 +
+ ffList.txt             |      4 +
+ ffm.txt                |      7 +
+ finance.txt            |      4 +
+ finger.txt             |      3 +
+ gback/README.markdown  |      5 +
+ gback/accord.html      |     52 +
+ gback/index.html       |     26 +
+ gback/index.js         |     66 +
+ gback/index2.html      |     74 +
+ gback/index3.html      |     70 +
+ gback/index8.html      |    294 +
+ gback/indexT.html      |     32 +
+ gback/indexT.js        |     57 +
+ gback/indexTest.html   |    108 +
+ gback/license.txt      |      8 +
+ gback/node.cjs         |     13 +
+ gback/node.js          |     14 +
+ gback/package.json     |     16 +
+ gback/pr.js            |    461 +
+ gback/style.css        |     26 +
+ googleapi.txt          |      8 +
+ greek.txt              |     20 +
+ hack.txt               |     93 +
+ hisL                   |      1 +
+ hisback                |     29 +
+ index.js               |     77 +
+ kk                     |   1320 +
+ kottkeLink.txt         |     33 +
+ link.txt               |      1 +
+ localStorage.txt       |    630 +
+ nhis                   |   8728 ++
+ note/aut               |      1 +
+ note/button            |     64 +
+ note/color             |     14 +
+ note/ffm               |      5 +
+ note/first.ahk         |     84 +
+ note/funny             |     22 +
+ note/git               |     38 +
+ note/gitvid            |     33 +
+ note/js                |     19 +
+ note/link              |     12 +
+ note/notes             |    887 +
+ note/num               |     33 +
+ note/power             |    362 +
+ note/pyth              |      2 +
+ note/python            |     35 +
+ note/reg.html          |    414 +
+ note/regex             |     29 +
+ note/regex.txt         |     30 +
+ note/sql               |     10 +
+ note/style             |      5 +
+ note/uni.ps1           |     11 +
+ note/vsEx              |     23 +
+ note/words             |     17 +
+ note/work              |    190 +
+ note/youtube.txt       |     19 +
+ note/yt-dlp.txt        |    705 +
+ num.txt                |      3 +
+ ps/.vscode/launch.json |     17 +
+ ps/.vscode/tasks.json  |     13 +
+ ps/acc.py              |     56 +
+ ps/akey.ps1            |      9 +
+ ps/bu.ps1              |      2 +
+ ps/bud.ps1             |      1 +
+ ps/ctime.py            |     38 +
+ ps/cut.py              |     26 +
+ ps/dir.py              |     47 +
+ ps/dirl.py             |      1 +
+ ps/getC.ps1            |     16 +
+ ps/getProcess.py       |     12 +
+ ps/githt.ps1           |     25 +
+ ps/hmtlmaker.py        |     38 +
+ ps/hn.py               |     15 +
+ ps/imageSize.py        |     19 +
+ ps/ipy.ps1             |      3 +
+ ps/item.py             |     23 +
+ ps/l.ps1               |      2 +
+ ps/mov.py              |     20 +
+ ps/mtime.py            |     29 +
+ ps/mus.ps1             |      5 +
+ ps/newt3.ps1           |      1 +
+ ps/nodp.py             |      4 +
+ ps/pd.py               |     11 +
+ ps/pss.ps1             |     14 +
+ ps/py.ps1              |     14 +
+ ps/range.py            |      7 +
+ ps/removBlank.py       |     12 +
+ ps/size.py             |     34 +
+ ps/sqllite.py          |     28 +
+ ps/sub.py              |     28 +
+ ps/winMover.py         |     84 +
+ ps/z.py                |      9 +
+ pss                    |   3720 +
+ pys                    |    165 +
+ regex.txt              |     30 +
+ sal.txt                |    769 +
+ sheet.txt              |      6 +
+ sheets.txt             |     14 +
+ source/a               |      9 +
+ storage.txt            |     11 +
+ string.txt             |      0
+ synthe.txt             |    230 +
+ test.js                |      2 +
+ test.ps1               |      4 +
+ tree                   | 222482 ++++++++++++++++++++++++++++++++++++++++++++++
+ usc.html               |   2842 +
+ vlc-help.txt           |    413 +
+ vlc.txt                |    132 +
+ vlcy.txt               |     10 +
+ whis.txt               |    500 +
+ whist.txt              |   2621 +
+ wsl/.bash_history      |    500 +
+ wsl/.python_history    |    271 +
+ wsl/.zsh_history       |   1011 +
+ wsl/myhis              |   3642 +
+ wsl/this_is.txt        |      0
+ wsl/x                  |      0
+ x.md                   |     23 +
+ x.py                   |     18 +
+ yester.txt             |     14 +
+ 128 files changed, 255616 insertions(+)

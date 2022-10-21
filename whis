@@ -7912,3 +7912,15 @@ yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3
 : 1666369680:0;ls *.sh
 : 1666369688:0;v gitAll.sh
 : 1666369734:0;./gitAll.sh
+: 1666369767:0;cm
+: 1666369770:0;cd all
+: 1666369773:0;gst
+: 1666369833:0;git status -vv  
+: 1666369846:0;ls ~/functions.sh
+: 1666369849:0;fc
+: 1666369854:0;v ~/functions.sh
+: 1666369870:0;glst
+: 1666369962:0;gst
+: 1666369966:0;git add .
+: 1666369976:0;h3
+: 1666369989:0;~/gitAll.sh
