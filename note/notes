@@ -22,6 +22,11 @@ vim
 https://vi.stackexchange.com/questions/8378/dump-the-output-of-internal-vim-command-into-buffer
 :enew|pu=execute('map') 
 
+type -a take
+declare -f take
+
+tmux
+resize-pane U, D
 
 Use the pidof command to find the process ID of a running program or app
 pidoff appname
