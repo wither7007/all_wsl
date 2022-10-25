@@ -397,7 +397,6 @@ alias l.='exa -a | egrep "^\."'
 : 1660714583:0;fd . '/boot'
 : 1660714602:0;fd --full-path '/boot'
 : 1660714627:0;fd --full-path '/dev'
-: 1660714639:0;fd --full-path '/etc'
 : 1660714741:0;fd -H -I 'git'
 : 1660714759:0;fd -d 1 -H -I 'git'
 : 1660714803:0;alias fdi="fd -d 1 -H -I "
@@ -555,7 +554,6 @@ git push -u origin main
 : 1660793701:0;md 36 && cd 36
 : 1660793706:0;cd 36
 : 1660793708:0;echo "# test12345" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:wither7007/test12345.git\ngit push -u origin main
-: 1660793827:0;alias | rg 'ls'
 : 1660793920:0;rmt 36
 : 1660793953:0;rmt 35
 : 1660793962:0;rmt test1234
@@ -646,7 +644,6 @@ git push -u origin main
 p3 -m venv stable\
 cd stable\
 source bin/activate
-: 1660842612:0;alias mkc
 : 1660842641:0;md j && cd j
 : 1660842670:0;\
 md stable\
@@ -774,7 +771,6 @@ done"
 : 1660883022:0;echo "Changing All to LOWERCASE" | tr  [:lower:]
 : 1660883040:0;echo "${var^^}"
 : 1660883046:0;$var
-: 1660883056:0;echo $var
 : 1660883075:0;echo "$var" | awk '{print tolower($0)}'
 : 1660883121:0;$PATH
 : 1660883154:0;echo $PATH | sed 's/c/xxx/g'
@@ -1238,8 +1234,6 @@ make install
 : 1661053119:0;date > clip
 : 1661053154:0;alias cdc
 : 1661053191:0;echo test | clip
-: 1661053204:0;echo date
-: 1661053211:0;echo $(date)
 : 1661053217:0;echo $(date) | clip
 : 1661053287:0;v $(echo $HISTFILE)
 : 1661053378:0;alias ehis="v $(echo $HISTFILE)"
@@ -1508,7 +1502,6 @@ sudo apt install zsh-autosuggestions
 : 1661150513:0;bindkey -X
 : 1661150520:0;man bindkey
 : 1661150596:0;help
-: 1661150818:0;ls -lhrt
 : 1661150885:0;lfcd size
 : 1661150898:0;lfcd
 : 1661150911:0;lfcd -s inode
@@ -1604,7 +1597,6 @@ sudo apt install zsh-autosuggestions
 : 1661231613:0;ls -1 *.sh | sed 's/^/ echo    /' | sed 's/$/ \n/'
 : 1661231643:0;ls -1 *.sh | sed 's/^/ cat    /' | sed 's/$/ \n/' > n.sh
 : 1661231652:0;source n.sh
-: 1661231668:0;v n.sh
 : 1661231702:0;ls -1 *.sh | sed 's/^/ cat/' 
 : 1661231708:0;ls -1 *.sh | sed 's/^/ cat /' 
 : 1661231785:0;for a in $(ls -1 *.sh | sed 's/^/ cat /'); do echo $a; done
@@ -2126,13 +2118,11 @@ echo "$fileName size = ${mfs}"
 : 1661728738:0;fd -a activat
 : 1661728905:0;v fix_corrupt
 : 1661729585:0;se 'sd'
-: 1661729598:0;zsh
 : 1661734609:0;fd -h ac
 : 1661734616:0;fd -H ac
 : 1661734623:0;fd -H -d 1
 : 1661734641:0;hyperfine --shell zsh 'for i in {1..10000}; do echo test; done'
 : 1661734686:0;$SHELL
-: 1661734700:0;echo $SHELL
 : 1661734735:0;env | grep -v 'LS'
 : 1661734793:0;cat /etc/passwd | grep 'nol'
 : 1661734802:0;cat /etc/passwd | grep -v 'nol'
@@ -2158,7 +2148,6 @@ echo "$fileName size = ${mfs}"
 : 1661735392:0;find ./ -type f -regex '.*x.*'
 : 1661735438:0;a=find ./ -type f -regex '.*x.*'
 : 1661735476:0;a=(find ./ -type f -regex '.*x.*')
-: 1661735482:0;a
 : 1661735512:0;a=$(find ./ -type f -regex '.*x.*')
 : 1661735637:0;a=$(find ./ -type f -regex '.*awk.*')
 : 1661735641:0;echo $a | less
@@ -2540,20 +2529,12 @@ done < ffm.py
 : 1662003672:0;wi hyperfine
 : 1662004208:0;sh time.sh
 : 1662004252:0;man seq
-: 1662004376:0;seq 10
 : 1662004424:0;seq -s "jim" 10
 : 1662004429:0;seq -s "jim " 10
 : 1662004434:0;seq -s " jim " 10
 : 1662004520:0;seq -s " jim " 1000
 : 1662004617:0;fc -e 3
 : 1662004700:0;fc -e vi 1 5
-: 1662004728:0;$HISTFILE\
-for a in {1..5}\
-do \
-done\
-cat 1\
-ls | head -n 1\
-alias wi='whereis '
 : 1662004772:0;alias hf='hyperfine'
 : 1662004775:0;hf 'for x i in `seq 3`; do echo $x; done'
 : 1662004809:0;for x i in `seq 3`; do echo $x; done
@@ -2926,7 +2907,6 @@ done
 : 1662262674:0;`ls`
 : 1662262697:0;$`ls`
 : 1662262710:0;$"ls"
-: 1662262720:0;$(ls)
 : 1662262748:0;a =$(ls)
 : 1662262759:0;se '$'
 : 1662262856:0;printf "%s\n\n" "${n[@]}"
@@ -3024,7 +3004,6 @@ then echo "she"\
 : 1662270435:0;echo $mjim
 : 1662270445:0;echo "$m jim"
 : 1662270454:0;echo "rm $m jim"
-: 1662270589:0;type ls
 : 1662270600:0;type history
 : 1662270612:0;type omz_history
 : 1662270816:0;read -a m
@@ -3086,7 +3065,6 @@ this is\
 : 1662316406:0;sed 's/[a-z]/xxxxx/' etc
 : 1662316412:0;sed 's/[a-z]/xxxxx/g' etc
 : 1662316459:0;sed 's/[a-z]/xxxxx/g' `ls /ect`
-: 1662316469:0;ls /etc
 : 1662316497:0;sed 's/[a-z]/xxxxx/g' $(ls /etc)
 : 1662316513:0;sed 's/[a-z]/xxxxx/g' $(ls /etc 2>/dev/null)
 : 1662316527:0;sed 's/[a-z]/xxxxx/g' $(ls)
@@ -3287,7 +3265,6 @@ read -ra newarr <<< "$text"
 : 1662415434:0;v foo\ -o\ index.html
 : 1662415447:0;find * -type f -name "*" -exec head -v -n 2 {} \;
 : 1662415668:0;chmod +x ex.sh
-: 1662415731:0;v ex.sh
 : 1662415744:0;find * -type f -name "*" -exec ex.sh {} \;
 : 1662415793:0;find * -type f -name "*" -exec ex.sh {} \; | v -
 : 1662415908:0;fd -d 1 -exec ex.sh {} \; 
@@ -3408,7 +3385,6 @@ read -ra newarr <<< "$text"
 : 1662438777:0;ls -ld .?*
 : 1662438799:0;ls -ld .?* | less
 : 1662438855:0;ls -ld .?* 
-: 1662438863:0;v .viminfo
 : 1662438944:0;rmt .cargo
 : 1662438956:0;cd .T
 : 1662439031:0;which trash-list
@@ -3627,7 +3603,6 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662532424:0;cd Local
 : 1662532807:0;cd Temp
 : 1662532829:0;unalias rm
-: 1662533019:0;lf
 : 1662533239:0;cd /mnt/c/you
 : 1662533267:0;cd webdev
 : 1662533310:0;rm -rf webdev
@@ -3675,7 +3650,6 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662536518:0;v conf.d
 : 1662536618:0;netstat -anp | tail -n2 2>a
 : 1662536646:0;sudo netstat -anp | tail -n2 2>a
-: 1662536804:0;left
 : 1662536820:0;docker run --name some-wordpress --network some-network -d wordpress
 : 1662537041:0;se 'docker' | v -
 : 1662537198:0;docker rm 
@@ -3808,7 +3782,6 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662748876:0;se '>2'
 : 1662748959:0;bash ye.sh 2>err
 : 1662749036:0;wi python3
-: 1662749124:0;printenv | v -
 : 1662749451:0;se 'p3.*env'
 : 1662751571:0;cd you/mix
 : 1662751606:0;md gut
@@ -3824,7 +3797,6 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662757960:0;fd | sort
 : 1662757987:0;fd | sort -x touch {}
 : 1662758047:0;man xargs
-: 1662758161:0;se 'xargs'
 : 1662758201:0;fd | xargs echo
 : 1662758218:0;fd | xargs echo _
 : 1662758253:0;fd | sort | xargs echo
@@ -3846,10 +3818,8 @@ rm  Local/Microsoft/PowerToys/Updates/powertoyssetup-0.61.1-x64.exe
 : 1662760764:0;wi x.sh
 : 1662760770:0;which x.sh
 : 1662760864:0;bash x.sh
-: 1662760872:0;v x
 : 1662760966:0;bash thre.sh
 : 1662761356:0;bash x.sh 
-: 1662761406:0;v ~/.config/nvim/init.vim
 : 1662761509:0;bash x.sh 1
 : 1662761516:0;bash x.sh 1 2 3 "jim"
 : 1662761520:0;bash x.sh 1 2 3 "jims"
@@ -3881,7 +3851,6 @@ echo $(fd ".*sh")\
 : 1662782347:0;xx(){\
 echo $(fd -d 1 ".*sh")\
 : 1662782445:0;xx(){echo $(fd -d 1 ".*sh")}
-: 1662782448:0;xx
 : 1662782473:0;xx(){echo $(fd -d 1 ".*$1")}
 : 1662782541:0;xx(){printf $(fd -d 1 ".*$1")}
 : 1662782544:0;xx 'py'
@@ -4022,7 +3991,6 @@ echo $(fd -d 1 ".*sh")\
 : 1662882047:0;s
 : 1662882567:0;ls -l /bin/sh
 : 1662882576:0;dash
-: 1662884188:0;cat /etc/os-release
 : 1662884474:0;cat sh.sh
 : 1662884583:0;cat d.sh
 : 1662884590:0;cat > d.sh
@@ -4065,7 +4033,6 @@ echo $(fd -d 1 ".*sh")\
 : 1662888936:0;cat notes | sort -k2
 : 1662888977:0;cat notes | sort -k2 | less
 : 1662889230:0;cd dotfiles
-: 1662889761:0;cd .local
 : 1662889861:0;cd vifm
 : 1662889871:0;cd Trash
 : 1662889921:0;\rm 000_music 000_pod 000_cpro
@@ -4139,7 +4106,6 @@ echo $(fd -d 1 ".*sh")\
 : 1662948498:0;sudo login newuser
 : 1662948720:0;fd "*.sh" -x head -n 3
 : 1662948731:0;fd -esh -x head -n 3
-: 1662948756:0;fd -esh -x head -n 1
 : 1662948795:0;fd -esh | xargs head -n 1
 : 1662948806:0;fd -esh | xargs head -n 3
 : 1662948833:0;fd -esh | xargs head -n 3 | v -
@@ -4156,7 +4122,6 @@ echo $(fd -d 1 ".*sh")\
 : 1662949088:0;whence alias
 : 1662951880:0;se 'declar'
 : 1662951901:0;declare -a wi
-: 1662951926:0;declare -f take
 : 1662951973:0;declare -f takedir
 : 1662952000:0;se 'compgen'
 : 1662952045:0;declare -f py
@@ -4168,7 +4133,6 @@ echo $(fd -d 1 ".*sh")\
 : 1662952106:0;man whence
 : 1662952186:0;useradd -m new -p 123
 : 1662952364:0;su -
-: 1662952559:0;cat /etc/passwd
 : 1662952598:0;se 'awk'
 : 1662952623:0;cat /etc/passwd | awk '{ print $1 }'
 : 1662952684:0;cat /etc/passwd | grep 'stef'
@@ -4241,7 +4205,6 @@ echo $(fd -d 1 ".*sh")\
 : 1662956885:0;se 'x.*rm'
 : 1662956938:0;se 'thr\.tar'
 : 1662957272:0;fd 'mysql'
-: 1662957464:0;fd 'git'
 : 1662957496:0;fd 'gitig'
 : 1662957509:0;fda 'gitig'
 : 1662957610:0;whence fd
@@ -4262,7 +4225,6 @@ echo $(fd -d 1 ".*sh")\
 : 1662959827:0;fd -I -H 'git'
 : 1662959872:0;fd -I -H '\.git'
 : 1662959877:0;fd -I -H '\.git$'
-: 1662959890:0;rm -rf .git
 : 1662959916:0;fd -I -H 'ignore'
 : 1662959934:0;fd -d 1 -I -H 'ignore'
 : 1662959951:0;cp .gitignore .ignore
@@ -4411,7 +4373,6 @@ echo $(fd -d 1 ".*sh")\
 : 1663040214:0;wi mysql
 : 1663040224:0;msql
 : 1663040237:0;mysql
-: 1663040451:0;apps
 : 1663040465:0;apps | rg 'sql'
 : 1663040497:0;se 'apt.*sql'
 : 1663040599:0;sudo apt update
@@ -4556,7 +4517,6 @@ done
 : 1663088489:0;fd -esh --changed-within=2days
 : 1663088598:0;sh gitAll.sh
 : 1663088851:0;date -r 1663087843
-: 1663088887:0;date +%s
 : 1663088909:0;date -r 1641735529 "+Today is %A, %B %e, and it's %I:%M:%S %p"
 : 1663089003:0;date -d @1268727836 +"%d-%m-%Y %T %z"
 : 1663089064:0;date -d @1663087843 +"%d-%m-%Y %T %z"
@@ -4616,7 +4576,6 @@ done
 : 1663132168:0;fd -x echo cat
 : 1663132187:0;se 'fd.*tar'
 : 1663132435:0;fd -x tar -cvf /tmp/all-doc-files.tar 
-: 1663132441:0;cd /tmp
 : 1663132496:0;fd -x tar -rvf /tmp/all-doc-files.tar 
 : 1663132508:0;lt /tmp
 : 1663132525:0;v all-doc-files.tar
@@ -4627,7 +4586,6 @@ done
 : 1663133025:0;du backup
 : 1663133035:0;du .rustup
 : 1663133044:0;du -h .rustup
-: 1663133058:0;alias
 : 1663133075:0;alias | rg sort
 : 1663133128:0;du -h .rustup | sort -k1
 : 1663133156:0;du -h .rustup | sort -k1 -rh
@@ -4842,8 +4800,6 @@ sudo cp shellcheck /usr/local/bin
 : 1663359974:0;declare -a fd
 : 1663360010:0;type -a python
 : 1663360013:0;type -a python3
-: 1663360021:0;type -a python3.10
-: 1663360870:0;echo $0
 : 1663360896:0;if [ 2 -eq 2 ]; then echo yes; else echo no;fi;
 : 1663360978:0;if [ $0 -eq 'zsh]; the echo zsh; fi;
 : 1663360996:0;if [ $0 -eq 'zsh']; the echo zsh; fi;
@@ -4886,7 +4842,6 @@ sudo cp shellcheck /usr/local/bin
 : 1663385397:0;printf '%s\n\n' $PATH | sd ':' '\n'
 : 1663385441:0;printf '%s\n' $PATH | sd ':' '\n'
 : 1663385554:0;printf '%s' $k
-: 1663385570:0;printf '%s\n' $k
 : 1663385615:0;printf '%s\n' $k | sd '\/' ''
 : 1663385621:0;printf '%s\n' $k | sd '/' ''
 : 1663385626:0;printf '%s\n' $k | sd '/' '\\'
@@ -5024,7 +4979,6 @@ printf "$k\n" | sd '/' '\' | sd '\\mnt\\c\\' 'c:\'
 : 1663398691:0;fd  -tf -epy -x rg -H -n 'mpe' | less
 : 1663398743:0;fd  -tf -epy -x rg -H -n 'mp3' | less
 : 1663398782:0;fd  -tf -epy -x rg -H -n 'mp3' | less #cool rg find
-: 1663398805:0;cd /etc
 : 1663398837:0;fd  -tf -epy -x rg -H -n 'mp.*' | less #cool rg find
 : 1663398893:0;v mesa-overlay-control.py
 : 1663398947:0;cd /
@@ -5226,7 +5180,6 @@ echo  "cd $line" \
 : 1663541221:0;git log -2
 : 1663541389:0;v system-back.tgz
 : 1663541414:0;rm system-back.tgz
-: 1663541447:0;cd bin
 : 1663541540:0;git commit -m "local commits'
 : 1663541543:0;git commit -m "local commits"
 : 1663541635:0;git branch -vv
@@ -5253,7 +5206,6 @@ echo  "cd $line" \
 : 1663545685:0;v fun
 : 1663545826:0;mkcd() { mkdir -p -- "$1" && cd -P -- "$1"; }
 : 1663545835:0;mkcd delete
-: 1663545852:0;alias take
 : 1663545986:0;alias sc='source '
 : 1663546003:0;take wp2
 : 1663546023:0;gch 20
@@ -5368,7 +5320,6 @@ echo  "cd $line" \
 : 1663565390:0;for i in "${testvar[@]}";kk=1; do echo $i; do echo $k; done
 : 1663565416:0;k=20
 : 1663565419:0;j=30
-: 1663565422:0;echo $k
 : 1663565432:0;echo $k $j
 : 1663565467:0;echo "$k $j"
 : 1663565531:0;for i in "${testvar[@]}";kk=1; do echo "$i $kk"; done
@@ -5574,7 +5525,6 @@ echo  "cd $line" \
 : 1663650869:0;./nn ~/hist.tar
 : 1663650875:0;./nn ~/hist.tars
 : 1663651207:0;chmod 000 a
-: 1663651371:0;chmod 777 a
 : 1663651390:0;v nn
 : 1663651405:0;./nn a
 : 1663651447:0;fd . ~
@@ -5593,7 +5543,6 @@ echo  "cd $line" \
 : 1663652152:0;uname -a | rg 'WSLxxx'
 : 1663652780:0;hi
 : 1663652834:0;type -a hi
-: 1663652851:0;type -a his
 : 1663652896:0;ehis
 : 1663652921:0;type -a ehis
 : 1663653052:0;alias hist='hi |  cut -c 1-7 --complement > ~/hist
@@ -5601,7 +5550,6 @@ echo  "cd $line" \
 : 1663653101:0;hist
 : 1663653114:0;v ~/hist
 : 1663653281:0;uname -a | rg 'WSL'
-: 1663653289:0;echo $?
 : 1663653376:0;cat nn
 : 1663653486:0;sh pp
 : 1663653539:0;uname
@@ -5651,7 +5599,6 @@ echo  "cd $line" \
 : 1663656395:0;fd 'output'
 : 1663656408:0;fd 'output' | xargs cat
 : 1663656505:0;lLong Description                : Try our Bash Boot Camp Course to really uplevel your bash skills//linuxhint.info/3Hje2Hv..Or join our Linux Hint Community with access to all our courses and a community forum where you can interact with our instructors: https://www.linuxhint.io/bundles/linux-hint-community..In this FREE Bash Scripting Course, you will learn from printing a simple â€ƒ¼Hello Worldâ€ƒ½ to using conditional statements such as if statements, case statements to using loops such as while, for and until loops to using awk, sed and debugging bash scripts. All in all, we will learn and cover the following topics:..1-Hello Bash Scripting.2-Redirect to file.3-Comments.4-Conditional Statements.5-Loops.6-Script input.7-Script output.8-how to send output from one script to another scrpt.9-String Processing.10-Numbers and Arithmetic.11-Declare Command.12-Arrays.13-Functions.14-Files and Directories.15-Send Email Via Script.16-Curl in Scripts.17-Professional Menus.18-Wait for filesystem events with inotify.19-Introduction to grep.20-Introduction to awk.21-Introduction to sed.22- Debugging bash scripts..Link to written article on this course:.https://linuxhint.com/3hr_bash_tutorial/t
-: 1663656525:0;ll
 : 1663656936:0;fdsh
 : 1663657027:0;find -perm 000
 : 1663657141:0;find -perm /u=r
@@ -5938,7 +5885,6 @@ echo  "cd $line" \
 : 1663819242:0;v kk
 : 1663819377:0;cat ipysql.py
 : 1663819412:0;p3 --version
-: 1663819418:0;wi p3
 : 1663819429:0;type -a p3
 : 1663820475:0;take ipython
 : 1663820554:0;p3 -m venv ipy3
@@ -6007,7 +5953,6 @@ echo  "cd $line" \
 : 1663826261:0;rg '!'
 : 1663826280:0;rg '!$'
 : 1663826344:0;v ipy3/bin/activate
-: 1663826487:0;hash
 : 1663826531:0;hash | less
 : 1663826575:0;c99
 : 1663826590:0;wi zip
@@ -6031,13 +5976,9 @@ echo  "cd $line" \
 : 1663827810:0;fd -d 1 -H -I "\.git"
 : 1663827861:0;cd .oh-my-zsh
 : 1663827893:0;\rm -rf .git
-: 1663827905:0;git init
-: 1663827967:0;gst | v -
 : 1663828002:0;git commit -am "first"
-: 1663828025:0;git show
 : 1663828076:0;git stat
 : 1663828088:0;git stats
-: 1663828283:0;hit 3
 : 1663828367:0;git log stats
 : 1663828372:0;git log stat
 : 1663828724:0;git checkout e8f4eb0175c
@@ -6063,10 +6004,8 @@ echo  "cd $line" \
 : 1663873102:0;se 'docker'
 : 1663873313:1;docker exec -ti my-sql sh -c "echo a && echo b"
 : 1663873336:0;docker exec -ti my-sql sh -c "uname a"
-: 1663873353:0;uname -a
 : 1663873375:0;name -a
 : 1663873397:0;h 4
-: 1663873421:0;hit 4
 : 1663873446:0;docker exec -ti my-sql sh -c "uname -a"
 : 1663878658:0;docker images ps
 : 1663878693:0;docker images ps -aOracle Linux Server
@@ -6159,7 +6098,6 @@ echo  "cd $line" \
 : 1663952075:0;wi i3
 : 1663952121:0;fd -l
 : 1663952154:0;i3 2>xx
-: 1663952158:0;v xx
 : 1663952200:0;v /home/steff007/.local/bin/ipython3
 : 1663953337:0;pip list 2> pyerr
 : 1663953344:0;v pyerr
@@ -6216,7 +6154,6 @@ fc -ln
 : 1663969226:0;ln -s /mnt/c/projects/dock dock
 : 1663983139:0;se 'doc.*exec'
 : 1663983252:0;docker exec -ti dock_client_1 sh -c "bash"
-: 1663983614:0;se 'chmod'
 : 1663984017:0;curl -v http://localhost:8000/
 : 1663985429:0;docker stop dock_client_1
 : 1663985441:0;docker rm dock_client_1
@@ -6294,7 +6231,6 @@ volumes:\
 : 1663997492:0;batcat *
 : 1663997509:0;v file.txt
 : 1663997524:0;vdiff file.txt 2.txt
-: 1663997603:0;vim
 : 1663997610:0;nvim
 : 1663997650:0;sc diff
 : 1663997666:0;sc vdiff
@@ -6304,8 +6240,6 @@ volumes:\
 : 1663997928:0;lt da*
 : 1663997938:0;lt data*
 : 1663997959:0;;d
-: 1663997971:0;v .gitignore
-: 1663998020:0;git show | v -
 : 1663998052:0;rm jjj
 : 1663998057:0;fcd
 : 1663998978:0;ls -A
@@ -6469,10 +6403,8 @@ touch nothing
 : 1664250277:0;manv readarray
 : 1664250367:0;fc -2
 : 1664250368:0;fc -3
-: 1664250376:0;fc -l
 : 1664250397:0;ech $BASH_VERSION
 : 1664250416:0;fc -5
-: 1664250422:0;fc -1
 : 1664250533:0;s=$(cat file)
 : 1664250570:0;for p in s; do echo $p; done
 : 1664250580:0;for p in $s; do echo $p; done
@@ -6512,7 +6444,6 @@ touch nothing
 : 1664251677:0;printf '%s\n' ${$arr[@]}
 : 1664251690:0;printf '%s\n' ${#arr[@]}
 : 1664251748:0;for p in $(ls ~); do echo $p; done
-: 1664251772:0;hit 2
 : 1664251786:0;unset arr
 : 1664251791:0;for p in $arr; do echo $p; done
 : 1664251844:0;arr=$(ls ~)
@@ -6527,7 +6458,6 @@ done
 : 1664252069:0;sh b.sh
 : 1664252075:0;bash b.sh
 : 1664252121:0;v b.sh
-: 1664252141:0;./b.sh
 : 1664252279:0;cmd='fd -H -I'
 : 1664252310:0;args="f.*"
 : 1664252320:0;$cmd $args
@@ -6646,7 +6576,6 @@ done
 : 1664261556:0;docker ps -a | v -
 : 1664261606:0;docker exec -ti mysql -c "bash"
 : 1664261637:0;hit 5
-: 1664261672:0;hit 8
 : 1664261678:0;hit 12
 : 1664261691:0;docker exec -ti mysql-db sh -c "bash"
 : 1664261914:0;docker stop $(docker ps -a -q) #!stop all images
@@ -6667,7 +6596,6 @@ sudo docker volume inspect  AppZ_vol
 : 1664263116:0;cd docker-desktop-data
 : 1664263185:0;fda | v -
 : 1664263237:0;fda -d 2
-: 1664263296:0;fd --changed-within 2hours
 : 1664263376:0;cd docker-desktop-bind-mounts
 : 1664263380:0;cd Ubuntu
 : 1664263390:0;cd c57fc7b8213d46448256c46cbe3d2c251d851ee6e7f141c1f76b473b9298c6a2
@@ -6703,7 +6631,6 @@ sudo docker volume inspect  AppZ_vol
 : 1664338790:0;git diff gcloud_his main origin/main
 : 1664338821:0;git diff --name-only main origin/main
 : 1664338966:0;git diff @{upstream}
-: 1664339003:0;git merge
 : 1664339026:0;alias | rg 'git'
 : 1664339249:0;fda -d 1 'con'
 : 1664339258:0;v .gitconfig
@@ -6745,7 +6672,6 @@ sudo docker volume inspect  AppZ_vol
 : 1664341196:0;type -f gits
 : 1664341286:0;git status -vv | v -
 : 1664341405:0;gitsall
-: 1664341417:0;git log
 : 1664341542:0;se 'printf' | tail
 : 1664341841:0;c:
 : 1664341891:0;sc ~/functions.sh
@@ -6754,7 +6680,6 @@ sudo docker volume inspect  AppZ_vol
 : 1664342034:0;rgh
 : 1664342307:0;fd -d 1 -tf -esh -x rg -H 'git'
 : 1664342342:0;cat gitAll.sh
-: 1664342362:0;lt *.sh
 : 1664343612:0;sc jj.sh
 : 1664343791:0;git branch -r
 : 1664343881:0;git branch 
@@ -6762,14 +6687,11 @@ sudo docker volume inspect  AppZ_vol
 : 1664343946:0;git diff diff origin/main
 : 1664344019:0;declare -F
 : 1664344064:0;declare -F ECPOCHREADTIME
-: 1664345038:0;fd -d 1 -esh | xargs -I{} echo {}; cat {}
-: 1664345139:0;fd -d 1 -esh | xargs -I{} cat {}
 : 1664345156:0;chmod 777 jj.sh
 : 1664345532:0;red=$'\033[1;31m'; echo "${red}text"
 : 1664345546:0;echo $red
 : 1664345592:0;printf "${red}test"
 : 1664345606:0;printf '%s\n' "${red}test"
-: 1664345759:0;jj.sh 'jim'
 : 1664345827:0;jj.sh
 : 1664346007:0;sc nn.sh
 : 1664346025:0;sc nn.sh 'jim;
@@ -6781,10 +6703,8 @@ sudo docker volume inspect  AppZ_vol
 : 1664347402:0;ipython3
 : 1664404025:0;trash-empty
 : 1664404133:0;docker ps -a | head
-: 1664404173:0;fd -d 1 -esh | xargs -I{} jj.sh {}
 : 1664408985:0;bind -P
 : 1664410241:0;man bind
-: 1664417238:0;fd -d 1 -esh | xargs -I{} jj.sh {} | v -
 : 1664417284:0;printenv > index.html
 : 1664417305:0;ssp
 : 1664417333:0;ssp &
@@ -6800,7 +6720,6 @@ sudo docker volume inspect  AppZ_vol
 : 1664422142:0;cd /mnt
 : 1664425184:0;fd -d 3 -eyml | xargs -I{} ~/jj.sh {}
 : 1664425330:0;echo PS1
-: 1664425344:0;echo $PS1
 : 1664425577:0;v color_codes
 : 1664425602:0;sc color_codes
 : 1664425613:0;export PS1="${cyan}\u@\h ${grey}\w ${cyan}\$ $reset"
@@ -6827,14 +6746,11 @@ promptinit
 : 1664427197:0;fd -d 3 -eyml | xargs -I{} ~/jj.sh {}  | less
 : 1664427307:0;fd -d 3 -esh | xargs -I{} ~/jj.sh {} | v -
 : 1664427413:0;~/jj.sh
-: 1664427420:0;v jj.sh
 : 1664427427:0;fd -d 1 -esh | xargs -I{} ~/jj.sh {}
 : 1664427437:0;fd -d 1 -esh | xargs -I{} ~/jj.sh {} | v -
 : 1664427497:0;fd -d 3 -eyml | xargs -I{} ~/jj.sh {} | v -
-: 1664429139:0;gits
 : 1664429316:0;unalias glst
 : 1664429319:0;sc functions.sh
-: 1664429340:0;type -f glst
 : 1664429456:0;v note/notes
 : 1664429604:0;git -v
 : 1664429676:0;git branch -m wsl
@@ -6855,7 +6771,6 @@ promptinit
 : 1664430282:0;trash hist
 : 1664430340:0;v git.sh
 : 1664430379:0;mv git.sh scripts/general_git_init.sh
-: 1664430488:0;git diff
 : 1664430505:0;git diff --name-only 
 : 1664430530:0;git diff | v -
 : 1664430615:0;git commit -am "cleaned shells to /script"
@@ -6954,18 +6869,13 @@ echo "=============="
 : 1664514319:0;type -f cha
 : 1664514522:0;./re.sh "C:\Users\jayst\OneDrive\Documents\MuseScore3\Scores"
 : 1664514537:0;./re.sh "c:\Users\jayst\OneDrive\Documents\MuseScore3\Scores"
-: 1664516301:0;glst
-: 1664516351:0;date
 : 1664516369:0;v what
 : 1664516403:0;v gcloud_his
-: 1664516516:0;git push
 : 1664569068:0;gh repo list SAP-samples --limit 10 --public
-: 1664569096:0;bash
 : 1664569791:0;type p3
 : 1664569908:0;rm -rf beautiful
 : 1664569926:0;p3 -m venv beautiful
 : 1664570103:0;pip install beautifulsoup4
-: 1664570176:0;pip list
 : 1664570194:0;pip install requests
 : 1664570246:0;v yyy
 : 1664570350:0;v links
@@ -6984,7 +6894,6 @@ wget "https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL
 : 1664570923:0;exiftool -j LNL195.mp3 | v -\
 : 1663731834:0;cat jqs
 : 1664570961:0;exiftool -j LNL195.mp3 | v -
-: 1664571071:0;deactivate
 : 1664571087:0;v classes
 : 1664571196:0;echo 'vlc $(fd 95)'
 : 1664571207:0;fd 95
@@ -7037,24 +6946,19 @@ wget "https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL
 : 1664596418:0;cp /mnt/c/twit/ww0795.mp3 .
 : 1664596445:0;exiftool -j ww0795.mp3
 : 1664596477:0;exiftool -j ww0795.mp3 | v -
-: 1664597067:0;la
 : 1664597111:0;v pip/pip.conf
 : 1664597139:0;cha 820
 : 1664597177:0;fda 'vim'
 : 1664597223:0;cha 20
 : 1664597275:0;v .local/share/nvim/shada/main.shada
 : 1664597482:0;echo (1..10)
-: 1664597492:0;echo {1..100}
 : 1664597499:0;echo {1..100} | v -
-: 1664597659:0;ls | v -
-: 1664597734:0;cd junk
 : 1664597750:0;fd *.sh
 : 1664597762:0;fd '.*sh'
 : 1664597768:0;fd '.*sh' | v -
 : 1664597798:0;touch b.sh jj.sh nn.sh re.sh trash
 : 1664597817:0;cat b.sh jj.sh nn.sh re.sh trash
 : 1664597929:0;fd 
-: 1664597940:0;fd -x cat
 : 1664598020:0;fd -E *.mp3
 : 1664598026:0;fd -E *.mp3 -x caqt
 : 1664598030:0;fd -E *.mp3 -x cat
@@ -7126,7 +7030,6 @@ wget "https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL
 : 1664646361:0;ls | tr '\n'  'x'
 : 1664646368:0;ls | tr '\n'  '\v'
 : 1664646423:0;cat b.sh | tr '\n' '\v'
-: 1664646448:0;cat b.sh
 : 1664646601:0;var=$(ls)
 : 1664646606:0;e $var
 : 1664646611:0;p $var
@@ -7174,20 +7077,17 @@ wget "https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL
 : 1664647634:0;p 'xx %50s yy' "$(ls)"
 : 1664647662:0;p 'xx %50s yy' "$(ls | tr '\n' ',')"
 : 1664647681:0;p 'xx %50s\n' "$(ls | tr '\n' ',')"
-: 1664647710:0;git status -vv  
 : 1664647752:0;git commit -am "smith notes"
 : 1664647763:0;git status
 : 1664647808:0;git rm junk/ww0795.mp3
 : 1664647833:0;git rm -f junk/ww0795.mp3
 : 1664647846:0;ls junk
-: 1664647911:0;git log --oneline
 : 1664647972:0;se 'amend'
 : 1664648016:0;git commit --amend -m "smith clean sat 1:13"
 : 1664648026:0;git log -n2
 : 1664648047:0;git log -vv
 : 1664648056:0;alias glst
 : 1664648119:0;git log --stat
-: 1664648131:0;git log --stat | v -
 : 1664648313:0;fd 'z'
 : 1664648328:0;la | rg 'z'
 : 1664648344:0;la | rg 'z' | xargs lt
@@ -7220,7 +7120,6 @@ wget "https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL
 : 1665173378:0;ln -s $(pwd) ~/winp
 : 1665232072:0;cd /mnt/c/Users/jayst/Downloads
 : 1665289958:0;ls ../../you/lazy
-: 1665291631:0;tree
 : 1665291657:0;tree | v -
 : 1665291718:0;cd mp4
 : 1665291724:0;duh
@@ -7255,7 +7154,6 @@ wget "https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL
 : 1665532141:0;v ipy
 : 1665586226:0;cd bs
 : 1665586240:0;v bsp.py
-: 1665586275:0;ld
 : 1665586291:0;fd activate
 : 1665586309:0;beautiful/bin/activate
 : 1665586319:0;alias sc
@@ -7269,12 +7167,9 @@ wget "https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL
 : 1665713209:0;'c:\noth'.replace('\\','\/')
 : 1665713232:0;'jim'.replace('j','xxx')
 : 1665714205:0;chmod 777 wincon
-: 1665714223:0;wi python3.10
 : 1665714284:0;wincon
-: 1665715681:0;cd pys
 : 1665717286:0;wincon 'jim'
 : 1665717698:0;v wincon
-: 1665718110:0;cd scripts
 : 1665718130:0;./zcorrupt.sh
 : 1665718143:0;v zcorrupt.sh
 : 1665718248:0;wincon 'c:\tom'
@@ -7305,20 +7200,16 @@ wget "https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL
 : 1665728909:0;hyperfine 'grep 'find' * '
 : 1665728927:0;hyperfine "grep 'find' * "
 : 1665728949:0;se hyper
-: 1665764826:0;./gitAll.sh
 : 1665795094:0;fd -ejs
 : 1665795108:0;fd -ejs | rg '^sh'
 : 1665795140:0;fd -ejs | rg '^sh' -x ls
 : 1665795151:0;fd -ejs | rg '^sh' | xargs ls
 : 1665795161:0;fd -ejs | rg '^sh' | xargs ls -lhrt
-: 1665795252:0;axit
 : 1665795905:0;source /mnt/c/all/bash/mp4/bin/activate
 : 1665795931:0;USERVAR="https://www.youtube.com/watch\?v\=5uIW9fcmkuE"\
 yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3'  >output.log 2>&1 &
 : 1665796048:0;yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3'  >output.log 2>&1 &
 : 1665796057:0;yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3'
-: 1665796154:0;cat functions.sh
-: 1665796167:0;v functions.sh
 : 1665796372:0;reg
 : 1665796383:0;alias reg
 : 1665796764:0;echo $USERVAR
@@ -7326,11 +7217,9 @@ yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3
 : 1665797840:0;fd 'corr'
 : 1665797870:0;alias his
 : 1665797905:0;alias his='hi |  cut -c 1-7 --complement | nvim +$ -'
-: 1665879406:0;winh
 : 1665879453:0;alias | rg '.*sh.*'
 : 1665879465:0;alias | rg '.*d.*'
 : 1665879469:0;alias | rg '.*fd.*'
-: 1665879494:0;f1
 : 1665879625:0;alias f1
 : 1665879990:0;fd --changed-within 2hours -x ls -lhrt
 : 1665880007:0;fd --changed-within 2hours -x ls -lhrt > two
@@ -7345,7 +7234,6 @@ yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3
 : 1665880388:0;v data_3
 : 1665880585:0;ls | tee mm
 : 1665880590:0;cat mm
-: 1665880624:0;fda
 : 1665880645:0;fda | rg -v '^mp'
 : 1665880662:0;fda | rg -v '^mp|stable'
 : 1665880669:0;fda | rg -v '^mp|stable' | column
@@ -7405,7 +7293,6 @@ yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3
 : 1665968916:0;ip
 : 1665970687:0;export PYTHONSTARTUP=~/.pythonrc
 : 1665970733:0;python3
-: 1665971619:0;lt -a
 : 1666023082:0;v ~/.pythonrc
 : 1666023638:0;fda -d 1 'ffffff'
 : 1666023651:0;fd 'fffff'
@@ -7418,9 +7305,7 @@ yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3
 : 1666023813:0;v ipython_config.py
 : 1666024106:0;v .
 : 1666026378:0;wget "https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/twit/twit0895/twit0895.mp3" ##twit 8/15
-: 1666026743:0;scripts/zcorrupt.sh
 : 1666026775:0;dm
-: 1666026781:0;cd twit
 : 1666026787:0;wget "https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/twit/twit0896/twit0896.mp3" ##twit 8/15
 : 1666034184:0;alias p3
 : 1666034192:0;p3 -i test.py
@@ -7444,9 +7329,7 @@ yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3
 : 1666045754:0;H3
 : 1666045764:0;he
 : 1666045811:0;fd -epy -x nvim
-: 1666045821:0;ps
 : 1666045823:0;ps -a
-: 1666045897:0;se 'fd.*vim'
 : 1666045929:0;fd -epy -X nvim
 : 1666046077:0;fd -epy
 : 1666046086:0;v replace.py
@@ -7456,11 +7339,8 @@ yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3
 : 1666046194:0;p3 -m pudb start.py
 : 1666046219:0;p3 -m pudb replace.py
 : 1666053050:0;ls >ls /dev/null 2>&1 &
-: 1666053201:0;ps -aux
 : 1666053241:0;md /mnt/c/you/amy
-: 1666053487:0;cd ../../you
 : 1666053491:0;cd amy
-: 1666053705:0;1
 : 1666053715:0;ps -aux | rg 'pyth'
 : 1666053725:0;se 'rename' | tail
 : 1666053762:0;fd '\s' -exec rename "s/ /_/g"
@@ -7470,7 +7350,6 @@ yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3
 : 1666053847:0;fd '(' -exec rename "s/\(//g"
 : 1666053857:0;fd '\(' -exec rename "s/\(//g"
 : 1666053873:0;fd '\)' -exec rename "s/\)//g"
-: 1666053981:0;fd
 : 1666053989:0;fd -x touch
 : 1666054021:0;alias d
 : 1666054064:0;alias vv='| v -
@@ -7499,23 +7378,13 @@ yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3
 : 1666054666:0;ls | xargs rg 'git'
 : 1666054701:0;ls | xargs rg 'git' | v -
 : 1666055103:0;ls d*
-: 1666055111:0;v
 : 1666055257:0;dirs -v
 : 1666055265:0;man dirs
-: 1666055275:0;type dirs
 : 1666055508:0;ls -esh
-: 1666055513:0;fd -esh
-: 1666055523:0;v gitAll.sh
-: 1666055549:0;2
-: 1666055560:0;git fetch
-: 1666055584:0;ls *.sh
 : 1666055593:0;gitAll.sh
 : 1666055665:0;git pull
-: 1666055688:0;compgen -c | rg 'git'
-: 1666055764:0;v ~/functions.sh
 : 1666055805:0;cd /mnt/c/all
 : 1666055878:0;tmux -ls
-: 1666055882:0;tmux ls
 : 1666056333:0;ls ../../you/amy
 : 1666056772:0;cd /mnt/c/you/aretha
 : 1666056799:0;fd 'let.*it'
@@ -7527,17 +7396,14 @@ yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3
 : 1666057127:0;fd "__" -exec rename "s/--/_/g" #!good replace garbage names
 : 1666057186:0;fd "__\
 : 1666057192:0;fd "__"
-: 1666057228:0;fd "__" -exec rename "s/__/_/g" #!good replace garbage names
 : 1666058297:0;alias | rg 'vi'
 : 1666058328:0;vip
-: 1666059552:0;cd you
 : 1666113936:0;fda | wc
 : 1666113974:0;alias | rg 'fd'
 : 1666113994:0;cd sheets
 : 1666114045:0;f3
 : 1666114062:0;fda | columns
 : 1666114065:0;fda | column
-: 1666114084:0;ls
 : 1666114119:0;fda -ejs -x rg "google"
 : 1666114152:0;fda -d 1 -ejs -x rg "google"
 : 1666114172:0;fd -d 1 -ejs -x rg "google"
@@ -7575,7 +7441,6 @@ yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3
 : 1666145816:0;fd -ets -x echo {}; rg 'google.*sheet.*QI' | v -
 : 1666145873:0;fd -ets -x echo {}
 : 1666145899:0;fd -ets -x echo {}; rg 'google.*sheet.*QI' {} | v -
-: 1666145911:0;fc
 : 1666145924:0;fd -ets -x  rg 'google.*sheet.*QI' {} | v -
 : 1666145962:0;fd -a -ets -x  rg 'google.*sheet.*QI' {} | v -
 : 1666146028:0;chmod 777 j.sh
@@ -7584,10 +7449,7 @@ yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3
 : 1666146156:0;v j.sh
 : 1666146181:0;fd -ets -x ./j.sh
 : 1666146260:0;v flip/vflip/my-module.ts
-: 1666150998:0;cd winp
 : 1666151560:0;cd you/amy
-: 1666151565:0;his
-: 1666151579:0;fd "[^a-zA-Z0-9]" -exec rename "s/[^a-zA-Z0-9]/_/g" #!good replace garbage names
 : 1666151630:0;fd "--*"
 : 1666151641:0;fd "-+"
 : 1666151652:0;fd "_+"
@@ -7595,70 +7457,36 @@ yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3
 : 1666153824:0;md /mnt/c/you/flack
 : 1666154040:0;md /mnt/c/you/letit
 : 1666154045:0;v ye
-: 1666154058:0;v ye.sh
-: 1666154108:0;d
 : 1666154112:0;3
 : 1666154561:0;htop
-: 1666155484:0;ps -aux | rg 'pyth' | v -
-: 1666157737:0;cd .ipython/profile_default/
-: 1666157742:0;cd startup
-: 1666157748:0;v start.py
-: 1666159159:0;bash ye.sh
-: 1666160592:0;i3
-: 1666160801:0;cd
-: 1666160802:0;ipy
-: 1666211348:0;cm
-: 1666211352:0;cd all
 : 1666211358:0;v pcs.txt
 : 1666212548:0;cls
 : 1666222835:0;d:
 : 1666228704:0;md /mnt/c/you/gut
-: 1666228771:0;bash yv.sh
 : 1666228804:0;v -o yv.sh ye.sh
-: 1666235547:0;u
 : 1666235551:0;ls *.txt
-: 1666235684:0;git add .
-: 1666235686:0;gst
 : 1666239206:0;v miss.txt
-: 1666280924:0;bas
-: 1666280931:0;v yv.sh
 : 1666281109:0;rm work.sh 'work.sh!'
 : 1666281124:0;trash 'work.sh!'
-: 1666281130:0;trash-list
 : 1666281154:0;trash '$'
 : 1666281185:0;cat y1.sh
 : 1666281199:0;cp yv.sh y1.sh
 : 1666281208:0;v y1.sh
-: 1666289103:0;l
 : 1666289186:0;bash y1.sh > err
-: 1666289193:0;cat err
-: 1666289204:0;c
 : 1666289300:0;v err
 : 1666289318:0;v o y1.sh err
 : 1666289335:0;se 'v.*o'
 : 1666289471:0;bash y1.sh &> err
 : 1666289475:0;v -o y1.sh err
-: 1666289526:0;h3
-: 1666289543:0;bash y1.sh
-: 1666289547:0;lt
-: 1666289554:0;v b.json
 : 1666289678:0;pwd
-: 1666289982:0;exit
 : 1666290055:0;printenv | v -
 : 1666290073:0;cd .ipython/profile_default/
 : 1666290088:0;cd ~/.ipython/profile_default/
-: 1666290090:0;lt
 : 1666290098:0;cd startup
-: 1666290100:0;lt
-: 1666290106:0;v start.py
-: 1666292443:0;ipy
 : 1666292520:0;v start.py
 : 1666300280:0;pip list
 : 1666300298:0;pip list | v -
-: 1666301206:0;ipy
 : 1666304920:0;cd /tmp
-: 1666304921:0;lt
-: 1666304981:0;fd --changed-within 2hours
 : 1666304997:0;fd --changed-within 2hours -x head
 : 1666305012:0;fd --changed-within 2hours -x echo
 : 1666305018:0;fd --changed-within 2hours -x echo; head
@@ -7670,42 +7498,29 @@ yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3
 : 1666308468:0;fd -a --changed-within 4hours | v -
 : 1666308495:0;fd -a --changed-within 8hours | v -
 : 1666308543:0;se 'fd.*xa\s'
-: 1666308553:0;se 'fd.*xas'
 : 1666308559:0;se 'args'
-: 1666308593:0;fd -d 1 -esh | xargs -I{} echo {}; cat {}
 : 1666308605:0;v n.sh
-: 1666308620:0;fd -d 1 -esh | xargs -I{} echo {}; cat {}
 : 1666308640:0;se 'fd.*xas'
 : 1666308660:0;se 'xargs\
-'
-: 1666308666:0;se 'xargs'
 : 1666308713:0;fd -d 1 -esh | xargs -I{} cat {}
 : 1666308723:0;se 'xargs'
 : 1666308751:0;ls ~/j*
 : 1666308760:0;se 'xargs' | v -
 : 1666308793:0;fd -d 1 -esh | xargs -I{} jj.sh {} | v -
-: 1666308823:0;cat jj.sh
 : 1666308835:0;fd -d 1 -esh | xargs -I{} jj.sh {}
-: 1666308853:0;v jj.sh
 : 1666308884:0;rd -esh | rg printf
 : 1666308896:0;fd -esh | rg printf
-: 1666308907:0;fd -esh
 : 1666308918:0;fd -esh | rg printf {}
 : 1666308935:0;fd -esh | rg 'printf' 
 : 1666308939:0;fd -esh | rg 'pr' 
 : 1666308954:0;fd -esh -x rg 'pr' 
 : 1666308966:0;fd -esh -x echo; rg 'pr' 
 : 1666308975:0;fd -esh -x echo; rg 'printf' 
-: 1666309027:0;fc
-: 1666309039:0;fd -d 1 -esh -x echo; rg 'printf' 
-: 1666309050:0;c
-: 1666309052:0;fd -d 1 -esh -x echo; rg 'printf' 
 : 1666309066:0;fd -d 1 -esh
 : 1666309088:0;fd -d 1 -esh -x echo; rg 'printf' 
 : 1666309095:0;fd -d 1 -esh -x echo; rg 'printf'  | less
 : 1666309118:0;fd -d 1 -esh -x echo
 : 1666309140:0;fd -d 1 -esh -x echo; rg 'printf'
-: 1666309220:0;fd
 : 1666309227:0;fd 'git'
 : 1666309257:0;fd 'git' /ets
 : 1666309261:0;fd 'git' /etc
@@ -7713,30 +7528,18 @@ yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3
 : 1666309299:0;fd -esh ~/junk
 : 1666309335:0;fd -esh '~/junk'
 : 1666309342:0;fd  '~/junk'
-: 1666309352:0;ls j*
-: 1666309363:0;ld
-: 1666309381:0;fd  junk
 : 1666309388:0;fd /junk
 : 1666309397:0;ls junk/
-: 1666309402:0;fd junk/
 : 1666309434:0;fd --full-path '/etc'
-: 1666309445:0;cd junk
-: 1666309446:0;lt
 : 1666309449:0;fd
-: 1666309454:0;fda
-: 1666309462:0;c
-: 1666309464:0;lt
-: 1666309483:0;fd ~/junk
 : 1666309511:0;fd . '~/junk'
 : 1666309517:0;fd . '~/junk/'
 : 1666309538:0;fd ~/junk
 : 1666309555:0;fd --full-path '/home/steff007/junk'
 : 1666309565:0;fd --full-path '~/junk'
-: 1666309588:0;u
 : 1666309594:0;fd junk
 : 1666309607:0;fd junk/
 : 1666309631:0;fd . 'junk/'
-: 1666309647:0;fd . '/etc'
 : 1666309657:0;fd . -d 1 '/etc'
 : 1666309669:0;fd . -d 1 
 : 1666309684:0;fd . -esh -d 1 
@@ -7745,22 +7548,15 @@ yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3
 : 1666309726:0;fd . -esh -d 1 -x hean -n 2
 : 1666309736:0;fd . -esh -d 1 -x head -n 2
 : 1666309747:0;fd . -esh -d 1 -x echo; head -n 2
-: 1666309766:0;cat jj.sh
-: 1666309773:0;ls *.sh
 : 1666309794:0;fd . -esh -d 1 -x rg 'printf'
 : 1666309810:0;fd . -esh -d 1 -x echo; rg 'printf'
 : 1666309836:0;fd . -esh -d 1 -x echo; rg 'printf' | less
-: 1666309864:0;v jj.sh
 : 1666309937:0;se 'jj'
-: 1666309998:0;fd -d 1 -esh -x jj.sh
 : 1666310010:0;lt *.sh
 : 1666310028:0;v a.sh jj.sh
-: 1666310083:0;lt
-: 1666310086:0;h3
 : 1666310097:0;fd -d 1 -esh -x jj.sh
 : 1666310125:0;v jj.sh
 : 1666310156:0;cat gitAll.sh | tail
-: 1666310219:0;his
 : 1666310256:0;fd -d 1 -esh | xargs -I{} echo {}; cat {}
 : 1666310297:0;fd -d 1 -esh | xargs jj.shm{}
 : 1666310304:0;fd -d 1 -esh | xargs jj.sh {}
@@ -7768,117 +7564,48 @@ yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3
 : 1666310332:0;fd -d 1 -esh | xargs printf '%s\n'
 : 1666310361:0;fd -d 1 -esh | xargs jj.sh
 : 1666310369:0;cat jj.sh
-: 1666310387:0;ls
 : 1666310398:0;jj.sh 'jim'
 : 1666310413:0;jj.sh 'jj.sh'
 : 1666310461:0;v -o jj.sh jp.sh
-: 1666310521:0;lt
 : 1666310552:0;chmod 777 jp.sh
-: 1666310554:0;lt
 : 1666310562:0;./jp.sh
 : 1666310579:0;./jp.sh "ls"
-: 1666310595:0;fc
 : 1666310614:0;fd -esh -x ./jp.sh "ls"
-: 1666310625:0;fd -esh -x ./jp.sh
-: 1666310639:0;v jp.sh
-: 1666310656:0;fd -esh -x ./jp.sh
-: 1666310678:0;v jp.sh
-: 1666310735:0;fd -esh -x ./jp.sh
 : 1666310752:0;v jp.sh
 : 1666310776:0;fd -esh -x ./jp.sh
 : 1666310804:0;fd -esh -x ./jp.sh | v -
-: 1666310969:0;lt
-: 1666310979:0;chmod 777 xx.sh
-: 1666310983:0;lt
-: 1666310992:0;./xx.sh
 : 1666311019:0;v -o jp.sh xx.sh
-: 1666311049:0;./xx.sh
-: 1666311061:0;v xx.sh
-: 1666311151:0;./xx.sh
-: 1666311167:0;v xx.sh
-: 1666312116:0;./xx.sh
-: 1666312132:0;v xx.sh
-: 1666312187:0;./xx.sh
-: 1666314411:0;cd winp
-: 1666314412:0;lt
-: 1666314416:0;i3
-: 1666314495:0;ipy
 : 1666321950:0;cd winp
-: 1666321959:0;c
-: 1666321967:0;l
-: 1666321980:0;i3
-: 1666322009:0;ipy
-: 1666323738:0;bas
-: 1666323740:0;lt
 : 1666323770:0;bash y1.sh
-: 1666323773:0;lt
-: 1666323777:0;v b.json
-: 1666323842:0;ipy
-: 1666325753:0;i3
-: 1666325995:0;ipy
-: 1666327603:0;winh
-: 1666327605:0;lt
-: 1666327620:0;v x.py
-: 1666327630:0;lt
 : 1666327634:0;p3 x.py
-: 1666327669:0;lt
-: 1666327677:0;x.py
 : 1666327694:0;chmod 777 x.py
-: 1666327696:0;lt
 : 1666327699:0;x.py
-: 1666327710:0;./x.py
 : 1666327720:0;wi p3
 : 1666327734:0;wi python3.10
-: 1666327746:0;v x.py
 : 1666327771:0;./x.py
-: 1666327783:0;lt
 : 1666327795:0;cp x.py ~/winp
 : 1666327921:0;v x.py
-: 1666327983:0;./y.py
-: 1666328028:0;lt
 : 1666328058:0;cp y.py ~/pys
-: 1666328060:0;cd
 : 1666328062:0;cd pys
-: 1666328063:0;lt
 : 1666328071:0;./y.py
-: 1666328081:0;lt
 : 1666328083:0;v y.py
-: 1666328118:0;u
 : 1666328139:0;./pys/y.py
-: 1666328934:0;fc
-: 1666328946:0;hyperfine ./pys/y.py
 : 1666329013:0;hyperfine fd -h -i --changed-within=30mins
-: 1666329030:0;fc
 : 1666329035:0;fd -h -i --changed-within=30mins
 : 1666329046:0;fd -H -I --changed-within=30mins
 : 1666329058:0;hyperfine fd -H -I --changed-within=30mins
-: 1666329068:0;hyperfine 'fd -H -I --changed-within=30mins'
 : 1666329080:0;hyperfine ./pys/y.py
-: 1666329116:0;hyperfine 'fd -H -I --changed-within=30mins'
-: 1666329197:0;winh
 : 1666329203:0;hyperfine 'fd -H -I --changed-within=30mins'
-: 1666333745:0;bas
-: 1666333883:0;v ye.sh
-: 1666334023:0;bash ye.sh
-: 1666334079:0;v ye.sh
 : 1666334104:0;newdir="/mnt/c/you/woody"\
 [ -d newdir ] || mkdir newdir
 : 1666334129:0;ld /mnt/c/you
-: 1666334143:0;ls /mnt/c/you 
 : 1666334177:0;echo $newdir
-: 1666334183:0;his
 : 1666334239:0;echo [ -d newdir ]
 : 1666334256:0;echo "[ -d newdir ]"
 : 1666334265:0;[ -d newdir ]
 : 1666334316:0;mkdir -p newdir
-: 1666334323:0;ls /mnt/c/you 
-: 1666334349:0;lt
 : 1666334357:0;mkdir -p $newdir
 : 1666334366:0;ls /mnt/c/you 
-: 1666334403:0;bas
-: 1666334406:0;v ye.sh
-: 1666334428:0;his
-: 1666334462:0;bash ye.sh
 : 1666334482:0;ls /mnt/c/you/woody
 : 1666334534:0;lt /mnt/c
 : 1666334541:0;lt /mnt/c/you
@@ -7888,39 +7615,773 @@ yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3
 : 1666334592:0;fd td . /mnt/c/you 
 : 1666334602:0;fd -td . /mnt/c/you 
 : 1666334616:0;fd -td -d 1 . /mnt/c/you 
-: 1666334640:0;fd -td -d 1 . /mnt/c/you | column
-: 1666334824:0;v ye.sh
-: 1666334843:0;bash ye.sh
 : 1666334863:0;fd -td -d 1 . /mnt/c/you | column
 : 1666334974:0;cd ../../you
 : 1666334979:0;fd pancho
-: 1666335601:0;bas
-: 1666335605:0;v ye.sh
-: 1666335627:0;bash ye.sh
-: 1666336180:0;v ye.sh
-: 1666336198:0;bash ye.sh
-: 1666336405:0;v ye.sh
-: 1666336432:0;bash ye.sh
-: 1666369625:0;u
-: 1666369629:0;gst
 : 1666369636:0;ipy
-: 1666369653:0;lt
-: 1666369656:0;gst
-: 1666369663:0;git add .
-: 1666369668:0;lt
-: 1666369672:0;cd
 : 1666369680:0;ls *.sh
 : 1666369688:0;v gitAll.sh
 : 1666369734:0;./gitAll.sh
-: 1666369767:0;cm
-: 1666369770:0;cd all
-: 1666369773:0;gst
 : 1666369833:0;git status -vv  
 : 1666369846:0;ls ~/functions.sh
-: 1666369849:0;fc
-: 1666369854:0;v ~/functions.sh
-: 1666369870:0;glst
-: 1666369962:0;gst
-: 1666369966:0;git add .
-: 1666369976:0;h3
 : 1666369989:0;~/gitAll.sh
+: 1666398158:0;git fetch
+: 1666398180:0;git show 
+: 1666398435:0;alias mkc
+: 1666398440:0;alias take
+: 1666398475:0;compgen -c | rg 'git'
+: 1666398636:0;type take
+: 1666398644:0;type mkc
+: 1666398706:0;type -a mkc
+: 1666398711:0;type -a take
+: 1666398728:0;declare -f take
+: 1666398821:0;cp ~/.cache/zsh/history n
+: 1666398827:0;v n
+: 1666398932:0;git commit -a "test"
+: 1666398946:0;git commit -a 
+: 1666399012:0;git log
+: 1666399031:0;rm -rf .git
+: 1666399102:0;ls jg*
+: 1666399132:0;ls | rg 'j'
+: 1666399204:0;la
+: 1666399654:0;take jgit
+: 1666399755:0;git commit -am "some cleaning"
+: 1666399840:0;seq 10
+: 1666400341:0;touch v
+: 1666400369:0;gst | v -
+: 1666400664:0;touch junk
+: 1666400692:0;v junk
+: 1666400726:0;touch kkk
+: 1666400854:0;rm kkk
+: 1666400934:0;fda gitig
+: 1666400963:0;fda -d 1 gitig
+: 1666401068:0;cp .gitignore gitignore
+: 1666401184:0;git rm --cached ~/.gitignore
+: 1666401213:0;git rm --cached ~/.config/nvim
+: 1666401290:0;git commit -am "git rm --cached"
+: 1666401348:0;v .gitignore
+: 1666401383:0;git init
+: 1666404448:0;fd -x caqt
+: 1666404453:0;fd -x cat
+: 1666404463:0;fd -x cat; read
+: 1666404483:0;fd -x ls -lhrt; cat; read
+: 1666404555:0;chmod 777 v.py
+: 1666404559:0;chmod 777 v.sh
+: 1666404575:0;fd -x v.sh
+: 1666404604:0;v v
+: 1666404708:0;fd -x ./v.sh
+: 1666404757:0;v v.sh
+: 1666414964:0;f1
+: 1666414981:0;fda
+: 1666415016:0;wc n
+: 1666415034:0;tail n
+: 1666415041:0;tail n > n
+: 1666415054:0;cat n
+: 1666415089:0;type his
+: 1666415355:0;cp 'n!' n
+: 1666415367:0;rm 'n!'
+: 1666415509:0;git rm --cached n
+: 1666415520:0;git rm --cached *
+: 1666415542:0;git rm --cached $(ls)
+: 1666415612:0;for i in $k; do echo $i; done
+: 1666415698:0;for i in $k; do git rm --cached $i; done
+: 1666415728:0;git rm --cached v
+: 1666415755:0;git commit -m "one"
+: 1666415789:0;git add n
+: 1666415818:0;git commit -m "two"
+: 1666415856:0;git show | head
+: 1666416309:0;type ll
+: 1666416392:0;type -a python3.10
+: 1666416411:0;type -a his
+: 1666416443:0;alias
+: 1666416477:0;axit
+: 1666416562:0;left
+: 1666416590:0;me
+: 1666416699:0;lf
+: 1666416778:0;ldr
+: 1666416812:0;ht
+: 1666416892:0;h5
+: 1666416910:0;cat functions.sh
+: 1666416920:0;type -a glst
+: 1666417018:0;git merge
+: 1666417077:0;type -f glst
+: 1666417152:0;git diff
+: 1666417210:0;git push
+: 1666417379:0;type pidof
+: 1666417391:0;type -a pidof
+: 1666417405:0;ps -aux
+: 1666417419:0;ps
+: 1666417435:0;pidof zsh
+: 1666417446:0;pidof ps
+: 1666417467:0;cd
+: 1666417487:0;alias | rg 'ls'
+: 1666417538:0;type -a exa
+: 1666417565:0;type -f fda
+: 1666417614:0;git ls-files
+: 1666417677:0;fd --changed-within 2hours
+: 1666417681:0;fda --changed-within 2hours
+: 1666417710:0;git commit -am "bed sat am"
+: 1666417716:0;glst
+: 1666417743:0;git diff head^..
+: 1666417756:0;git diff HEAD^..
+: 1666417784:0;git diff HEAD^.. | v -
+: 1666417903:0;hn
+: 1666418001:0;appsc
+: 1666418045:0;apps
+: 1666418075:0;type -f apps
+: 1666418117:0;lt -a
+: 1666418289:0;mem
+: 1666418311:0;ls f*
+: 1666418316:0;v functions.sh
+: 1666418416:0;rgg 'declare' | v -
+: 1666418469:0;rgg 'declare'
+: 1666418477:0;rgg 'declare' | less
+: 1666418500:0;type -f rgg
+: 1666418520:0;ls j*
+: 1666418530:0;git add .
+: 1666418547:0;git commit -m "v new"
+: 1666418558:0;git show
+: 1666421371:0;cat ~/functions.sh >> v
+: 1666421430:0;git commit -m "v addition"
+: 1666421439:0;git commit -am "v addition"
+: 1666421443:0;git show | v -
+: 1666421491:0;git log --stat | v -
+: 1666421512:0;git show 2cd16e2ee2
+: 1666421539:0;git show --oneline
+: 1666421551:0;git show --oneline | less
+: 1666422028:0;git show 8a80c57 \
+git show 2cd16e2 \
+git show e2630dc \
+git show 3c0ced4
+: 1666422047:0;git show 8a80c57 \
+git show 2cd16e2 \
+git show e2630dc \
+git show 3c0ced4 | v -
+: 1666422085:0;ls >>a
+: 1666422196:0;git show 3c0ced4
+: 1666422489:0;git show c0ced4..8a80c57
+: 1666422508:0;git show c0ced4..HEAD
+: 1666422549:0;git show 3c0ced4..HEAD
+: 1666422555:0;git show 3c0ced4..HEAD | V -
+: 1666422560:0;git show 3c0ced4..HEAD | v -
+: 1666422597:0;git show --oneline | v -
+: 1666422609:0;git log --oneline | v -
+: 1666422673:0;git show 3c0ced4..8a80c57
+: 1666422745:0;git show --oneline 3c0ced4..8a80c57 
+: 1666422753:0;git show --oneline 3c0ced4..8a80c57 | v -
+: 1666422830:0;git show --raw git show 3c0ced4..8a80c57
+: 1666422844:0;git show --raw
+: 1666422877:0;git show --raw 3c0ced4..8a80c57 
+: 1666422888:0;git show --raw 3c0ced4..8a80c57 | v -
+: 1666422931:0;git show c85ae87
+: 1666422946:0;git show c85ae87 | v -
+: 1666422982:0;ldc
+: 1666422991:0;lcd
+: 1666423133:0;cd jgit
+: 1666423136:0;git show --abbrev-commit --pretty='oneline'
+: 1666423142:0;git show --abbrev-commit --pretty='oneline' | v -
+: 1666423248:0;git log --oneline
+: 1666423266:0;git show 3c0ced4 --abbrev-commit --pretty='oneline' | v -
+: 1666423353:0;git show e26 --abbrev-commit --pretty='oneline' | v -
+: 1666423369:0;git show e2630dc --abbrev-commit --pretty='oneline' | v -
+: 1666423492:0;git show -s --format=%s
+: 1666423541:0;cd all
+: 1666423545:0;git log --format=%s
+: 1666423552:0;git log --format=%s | v -
+: 1666424845:0;cd willie
+: 1666494438:0;cd scripts
+: 1666494447:0;u
+: 1666494463:0;v .viminfo
+: 1666494477:0;v ex.sh
+: 1666494500:0;fd .*sh
+: 1666494694:0;k
+: 1666494700:0;k=$(ls)
+: 1666494908:0;scripts/zcorrupt.sh
+: 1666494938:0;k=$(ls)\
+echo $k
+: 1666494966:0;fe -esh -x head -n 1
+: 1666494971:0;fd -esh -x head -n 1
+: 1666494996:0;printf $k
+: 1666495018:0;printf '/n/ $k
+: 1666495022:0;printf '/n' $k
+: 1666495036:0;printf '%s/n' $k
+: 1666495048:0;printf '%s\n' $k
+: 1666495058:0;printf '%s\n' '$k'
+: 1666495066:0;printf '%s\n' "$k"
+: 1666495074:0;printf '%s this is \n' "$k"
+: 1666495291:0;chmod 777 xx.sh
+: 1666495381:0;v xx
+: 1666498180:0;sudo apt install sysstat
+: 1666498226:0;CPU=`mpstat | grep -A 5 "%idle" | tail -n 1 | awk -F " " '{print 100 -  $ 12}'a | cut -c1-2`
+: 1666498238:0;echo $CPU
+: 1666498261:0;J=`ls`
+: 1666498273:0;j=`ls`
+: 1666498282:0;echo $j
+: 1666498326:0;mpstat
+: 1666498606:0;xx.sh
+: 1666498617:0;type xx.sh
+: 1666498647:0;v xx.sh
+: 1666498654:0;./xx.sh
+: 1666498752:0;type [
+: 1666498756:0;type ]
+: 1666498760:0;type ls
+: 1666498770:0;type dirs
+: 1666498781:0;type cls
+: 1666498785:0;type clear
+: 1666498792:0;type find
+: 1666498797:0;type -a find
+: 1666498901:0;echo `test 3 -eq 3`
+: 1666498920:0;test 3 -eq 3 && echo 'a'
+: 1666498926:0;test 3 -eq 4 && echo 'a'
+: 1666498985:0;test 3 -eq 3
+: 1666499066:0;[ -f donuts ]
+: 1666499076:0;echo %?
+: 1666499151:0;echo $0
+: 1666499181:0;[ -f a ]
+: 1666499262:0;[ -f ab ]
+: 1666499286:0;[ -f a ]; echo $?
+: 1666499290:0;[ -f ab ]; echo $?
+: 1666499316:0;[ -f a ]\\
+echo $?
+: 1666499349:0;[ -f a ];\\
+echo $?
+: 1666499370:0;[ ! -f ab ]; echo $?
+: 1666499383:0;[ ! -f a ]; echo $?
+: 1666499513:0;[  -f a ] && echo 'a is a file'
+: 1666499524:0;[ ! -f a ] && echo 'a is a file'
+: 1666499556:0;ls ~
+: 1666499564:0;l ~
+: 1666499596:0;[ -d ~/jq ] 
+: 1666499622:0;[ -d ~/jqq ] 
+: 1666499650:0;echo "$?"
+: 1666499665:0;echo "$? - eq 0"
+: 1666499717:0;[ -d ~/jqq ] && echo 'brackets false'
+: 1666499729:0;[ ! -d ~/jqq ] && echo 'brackets false'
+: 1666499771:0;[  -d ~/jq ] && echo 'js is dir'
+: 1666499785:0;[  -d ~/jsq ] && echo 'js is dir'
+: 1666499808:0;ld -ld
+: 1666499814:0;ls ld
+: 1666499821:0;ls -ld
+: 1666499881:0;[ -d xx ] && mkdir xx
+: 1666499905:0;fc -1
+: 1666499939:0;[ ! -d xx ] && md xx
+: 1666499963:0;[  -d xx ] && md yy
+: 1666499966:0;ld
+: 1666502909:0;date +%s
+: 1666503052:0;printf -v var '%(%s)T' -1
+: 1666503069:0;printf -v var 'onle'
+: 1666503134:0;awk 'BEGIN {srand(); print srand()}'
+: 1666503394:0;# Double quotes: disable all other characters except $, ', \\
+echo "$SHELL"\
+\
+# Single quotes: disable all special characters\
+echo '$SHELL'\
+\
+# backslash disables the special meaning of the next character\
+ls name\ with\ space
+: 1666503437:0;touch k\ \t
+: 1666503479:0;echo $SHELL
+: 1666503488:0;echo '$SHELL'
+: 1666503499:0;echo "$SHELL"
+: 1666503530:0;echo $(id -un):$(id -gn)@$(hostname -s)
+: 1666503546:0;echo $(id)
+: 1666503631:0;echo file.$(date +%Y-%m-%d-%H-%M-%S)
+: 1666504110:0;{1..9}
+: 1666504183:0;l11 &> /dev/null
+: 1666504190:0;l11
+: 1666504199:0;l11 &> err
+: 1666504205:0;cat err
+: 1666504253:0;ping -c 1 8.8.8.8 > /dev/null && echo online || echo down
+: 1666504264:0;ping -c 1 8.8.8.8 > out && echo online || echo down
+: 1666504268:0;cat out
+: 1666504327:0;mail
+: 1666504375:0;var=$(<out)
+: 1666504402:0;ls > xx
+: 1666504408:0;ls > vv
+: 1666504414:0;var=$(<vv)
+: 1666504419:0;echo $var
+: 1666504516:0;echo {1..100}
+: 1666504534:0;k={1..100}
+: 1666504559:0;k=$(echo {1..100})
+: 1666504576:0;k=$(printf {1..100})
+: 1666504600:0;k=$(printf '%s' {1..100})
+: 1666504613:0;k=$(printf '%s ' {1..100})
+: 1666504615:0;echo $k
+: 1666547339:0;[[ -e a ]]
+: 1666547347:0;h3
+: 1666547387:0;[[ -e aa ]]
+: 1666547410:0;[[ -e aa ]] && echo 'no'
+: 1666547417:0;[[ -e a ]] && echo 'no'
+: 1666547429:0;[[ -e aa ]] || echo 'no'
+: 1666547505:0;[[ -w a ]] || echo 'no'
+: 1666547771:0;chmod 777 a
+: 1666547799:0;chmod 754 a
+: 1666548356:0;ld /etc
+: 1666548367:0;ls /etc
+: 1666548384:0;fd . '/etc'
+: 1666548394:0;fd -td . '/etc'
+: 1666548401:0;fd -td -d 1 . '/etc'
+: 1666548410:0;fd -td -d 1 . '/etc' | column
+: 1666548525:0;cat /etc/passwd
+: 1666548531:0;fd -td -d 1 . '/etc' | sort | column
+: 1666548553:0;fd -tf -d 1 . '/etc' | column
+: 1666548592:0;cd /etc/group
+: 1666548600:0;cat /etc/group
+: 1666548608:0;cat /etc/group | column
+: 1666548755:0;[[ -O a ]]
+: 1666548765:0;[[ -O aa ]]
+: 1666548775:0;lt a
+: 1666548821:0;v /etc/profile
+: 1666548920:0;cd /etc
+: 1666548933:0;cd profile.d
+: 1666548949:0;v bash_completion.sh
+: 1666549006:0;echo $PS1
+: 1666564298:0;alias e
+: 1666564301:0;type e
+: 1666564322:0;alias e="echo %?"
+: 1666564371:0;echo $?
+: 1666564378:0;alias e="echo $?"
+: 1666564387:0;lt 
+: 1666564398:0;[[ -f vv ]]
+: 1666564404:0;[[ -f vvv ]]
+: 1666564429:0;[[ -f a ]]
+: 1666564572:0;alias e='echo $?'
+: 1666564586:0;[[ -e a ]] || echo 'no'
+: 1666564595:0;[[ ! -e a ]] || echo 'no'
+: 1666564664:0;[[ -e vvv ]]
+: 1666564688:0;[[ -e vv ]]; e
+: 1666564696:0;[[ -e vvv ]]; e
+: 1666564764:0;[[ 1 -eq 1 ]]; e
+: 1666564768:0;[[ 1 -eq 2 ]]; e
+: 1666564786:0;[[ 3 -lt 2 ]]; e
+: 1666564809:0;[[ 1 -lt 2 ]]; e
+: 1666564821:0;[[ 1 -lt 2 ]]; || e
+: 1666564827:0;[[ 1 -lt 2 ]] || e
+: 1666564859:0;[[ 1 -lt 2 ]] && e
+: 1666565151:0;command -v foo >/dev/null 2>&1 || { echo >&2 "I require foo but it's not installed.  Aborting."; exit 1; }
+: 1666565261:0;command -v foo
+: 1666565267:0;command -v fd
+: 1666565292:0;command -v fd > /dev/null
+: 1666565418:0;\
+\
+\
+a
+: 1666565446:0;\
+ls -hrt
+: 1666565469:0;\
+ls -lhrt
+: 1666565487:0;command -v qq > /dev/null
+: 1666565567:0;command -v ls
+: 1666565579:0;ll
+: 1666565720:0;tree
+: 1666565756:0;fda -esh
+: 1666565931:0;echo $RUNZSH
+: 1666566010:0;v .oh-my-zsh/tools/install.sh
+: 1666566038:0;command_exists() {\
+  command -v "$@" >/dev/null 2>&1\
+}
+: 1666566042:0;command_exists sudo
+: 1666566060:0;command_exists sudos
+: 1666566260:0;hash ls
+: 1666566265:0;hash lst
+: 1666566293:0;hash lst 2>/dev/null
+: 1666566301:0;hash ls 2>/dev/null
+: 1666566304:0;e
+: 1666566478:0;groff -Thtml > o.html
+: 1666566486:0;groff
+: 1666566497:0;groff -Thtml
+: 1666566564:0;ls ~/.ssh/*.pub
+: 1666566643:0;hash
+: 1666566804:0;builtin hash "$@"
+: 1666566814:0;builtin hash "$@" | v -
+: 1666566881:0;. xx.sh
+: 1666566915:0;. b.sh
+: 1666566931:0;cat b.sh
+: 1666566944:0;./b.sh
+: 1666567453:0;https://www.youtube.com/watch\?v\=C9VEBiNEGHo\&list\=PLaTamEysjzMcbZJ5Sw0ozkwfUFvz2WE8Z\&index\=3lt
+: 1666570741:0;ex Highlands_mp3
+: 1666571056:0;sc json.sh
+: 1666571688:0;rg 'c' ye.sh
+: 1666572317:0;cd you/blonde_dy
+: 1666572617:0;se '__'
+: 1666572654:0;fd "__" -exec rename "s/__/_/g" #!good replace garbage names
+: 1666574157:0;ps -aux | rg 'pyth' | v -
+: 1666574229:0;ls AC*
+: 1666574239:0;rm AC*
+: 1666574256:0;rm Elton_John___Rocket_Man__Official_Music_Video__mp3
+: 1666574287:0;rm Tracy_Chapman___Fast_car_mp3 Sin__ad_O_Connor___Nothing_Compares_2_U__Official_Music_Video___HD__mp3 Sting___Shape_of_My_Heart__
+: 1666574324:0;rm Earth__Wind___Fire___September__Official_HD_Video__mp3
+: 1666574370:0;rm Sting___Shape_of_My_Heart__Official_Music_Video__mp3
+: 1666574376:0;rm Sting___Shape_of_My_Heart__Leon__mp3
+: 1666574612:0;winh
+: 1666575463:0;2
+: 1666575474:0;fd 'late'
+: 1666580875:0;bash ye.sh
+: 1666582867:0;bash yv.sh
+: 1666583505:0;al
+: 1666583533:0;hit 3
+: 1666583787:0;fc -l
+: 1666583832:0;fc -lr
+: 1666583850:0;fc -lrn
+: 1666583920:0;fc -e v 1 5
+: 1666583942:0;$HISTFILE\
+for a in {1..5}\
+do \
+done\
+cat 1\
+ls | head -n 1\
+alias wi='whereis '
+: 1666584380:0;fd -esh
+: 1666584397:0;se 'fd.*vim'
+: 1666584425:0;fd -esh -x nvim
+: 1666584449:0;fd -esh - nvim
+: 1666584907:0;vim -e +"redir>>/dev/stdout | map | redir END" -scq
+: 1666584925:0;v -e +"redir>>/dev/stdout | map | redir END" -scq
+: 1666584949:0;v -e +"redir>>/dev/stdout | map | redir END" -scq | v-
+: 1666584953:0;v -e +"redir>>/dev/stdout | map | redir END" -scq | v -
+: 1666585024:0;v -e +"redir>>x | map | redir END" -scq
+: 1666585028:0;v x
+: 1666585058:0;v -c +"redir>>x | map | redir END" -scq
+: 1666585279:0;fd -esh -X nvim
+: 1666586542:0;mc
+: 1666586546:0;cd you
+: 1666586549:0;cd blonde_dy
+: 1666586582:0;fd "[^a-zA-Z0-9]" -exec rename "s/[^a-zA-Z0-9]/_/g" #!good replace garbage names
+: 1666586695:0;fd "__" -exec rename "s/_*/_/g" #!good replace garbage names
+: 1666586737:0;fd "_" -exec rename "s/_//g" #!good replace garbage names
+: 1666586795:0;fd ".*" -exec rename "s/mp3/\.mp3/g" #!good replace garbage names
+: 1666587031:0;rm AerosmithIDontWanttoMissaThingOfficialHDVideo.mp3\
+rm DavidBowieSpaceOddityOfficialVideo.mp3\
+rm ElvisPresleyCantHelpFallingInLoveOfficialAudio.mp3\
+rm LedZeppelinStairwayToHeavenOfficialAudio.mp3\
+rm TheKinksYouReallyGotMeOfficialAudio.mp3
+: 1666587047:0;fd "\.\."
+: 1666587089:0;fd "\.\." -exec rename "s/\.\./\./g" #!good replace garbage names
+: 1666587316:0;fd "BobDylan" -exec rename "s/BobDyLan/Dylan_/g" #!good replace garbage names
+: 1666587339:0;fd "BobDylan"
+: 1666587355:0;fd "BobDylan" -exec rename "s/BobDylan/Dylan_/g" #!good replace garbage names
+: 1666587637:0;bas
+: 1666587646:0;v ye.sh
+: 1666587667:0;v yv.sh
+: 1666587751:0;fd -a json.sh
+: 1666587772:0;fd -a json.sh | v -
+: 1666587801:0;v json.sh
+: 1666587834:0;d
+: 1666587840:0;1
+: 1666587997:0;printf '%\n' "enter tube url:"
+: 1666588005:0;printf '%s\n' "enter tube url:"
+: 1666588018:0;v /mnt/c/all/bash/json.sh
+: 1666588046:0;deactivate
+: 1666588068:0;ex NeilYoungHarvestMoonOfficialMusicVideo.mp3
+: 1666588088:0;source /mnt/c/all/bash/json.sh
+: 1666588109:0;v b.json
+: 1666627854:0;cm
+: 1666627858:0;cd twit
+: 1666627869:0;rm *
+: 1666627910:0;wget "https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/twit/twit0897/twit0897.mp3" ##twit Mon 10/24/2022
+: 1666628458:0;wget https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL198.mp3
+: 1666628947:0;wget https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL199.mp3
+: 1666629230:0;i3
+: 1666629540:0;\rm LNL199.mp3.1
+: 1666629562:0;ex twit0897.mp3
+: 1666653448:0;fd up
+: 1666653458:0;bat up
+: 1666653462:0;bat up.sh
+: 1666653469:0;cat up
+: 1666653493:0;v up.sh
+: 1666653520:0;lt up
+: 1666655493:0;lt up*
+: 1666655640:0;chmod 754 up.sh
+: 1666655654:0;./up.sh
+: 1666655694:0;cat up.sh
+: 1666655784:0;cat /etc/os-release
+: 1666655824:0;$(date)
+: 1666655845:0;$(ls)
+: 1666655868:0;se '=\$')
+: 1666655904:0;ls > $(echo date)
+: 1666655915:0;se '=\$'
+: 1666655940:0;d=$(echo date)
+: 1666656062:0;d=$(date +%Y-%m-%d)
+: 1666656068:0;echo $d
+: 1666656099:0;ls > $(date =%Y)
+: 1666656112:0;ls > $(date +%Y)
+: 1666656148:0;ls > $(date =%Y-%s)
+: 1666656167:0;ls > $(date +%Y-%s)
+: 1666656216:0;v $(date +%Y-%s)
+: 1666656331:0;echo $(date +%Y-%m-%d-%H-%M-%S)
+: 1666656347:0;echo date
+: 1666656357:0;echo $(date)
+: 1666656375:0;echo $(date +%F)
+: 1666656408:0;fd '^2'
+: 1666656414:0;fd '^2' -X rm
+: 1666657666:0;printf '%s\n' "$(date +%Y)"
+: 1666657681:0;printf 'today is %s\n' "$(date +%Y)"
+: 1666657711:0;printf 'today is %s\n tomorrow is %s' "$(date +%Y)", "a"
+: 1666657755:0;printf 'today is %s\n tomorrow is %s\n' "$(date +%Y)", "$(date -d yesterday"
+: 1666657760:0;printf 'today is %s\n tomorrow is %s\n' "$(date +%Y)", "$(date -d yesterday)"
+: 1666657791:0;printf 'today is %s\nyesterday was %s\n' "$(date +%Y)", "$(date -d yesterday)"
+: 1666657800:0;time
+: 1666657807:0;date
+: 1666657852:0;printf 'today is %s\nyesterday was %s\n' "$(date +%Y)", "$(date +M -d yesterday)"
+: 1666657866:0;printf 'today is %s\nyesterday was %s\n' "$(date +%Y)", "$(date +%M -d yesterday)"
+: 1666657909:0;printf 'today is %s\nyesterday was %s\n' "$(date +%Y)", "$(date +%D -d yesterday)"
+: 1666657946:0;printf 'today is %s\nyesterday was %s\n' "$(date +%D)", "$(date +%D -d yesterday)"
+: 1666657997:0;pMrintf 'today is %s\nyesterday was %s\n' "$(date +%M %D)", "$(date +%D -d yesterday)"
+: 1666658007:0;printf 'today is %s\nyesterday was %s\n' "$(date +%M %D)", "$(date +%D -d yesterday)"
+: 1666658027:0;printf 'today is %s\nyesterday was %s\n' "$(date +%M +%D)", "$(date +%D -d yesterday)"
+: 1666658092:0;printf 'today is %s\nyesterday was %s\n' "$(date '+%M +%D')", "$(date +%D -d yesterday)"
+: 1666658141:0;printf 'today is %s\nyesterday was %s\n' "$(date '+%Y-%m-%d')", "$(date +%D -d yesterday)"
+: 1666658175:0;printf 'today is %s\nyesterday was %s\n' "$(date 'year +%Y-%m-%d')", "$(date +%D -d yesterday)"
+: 1666658203:0;printf 'today is %s\nyesterday was %s\n' "$(date '+%Y year -%m-%d')", "$(date +%D -d yesterday)"
+: 1666658240:0;hit 2
+: 1666658274:0;printf 'today is %s\nyesterday was %s\n' "$(date '+%Y year -%M-%d')", "$(date +%D -d yesterday)"
+: 1666658327:0;printf $(date)
+: 1666658341:0;printf '%s\n' $(date)
+: 1666658354:0;printf '%s' $(date)
+: 1666658363:0;printf '%s ' $(date)
+: 1666658380:0;printf '%s ' $(date -%a)
+: 1666658391:0;manv date
+: 1666658423:0;hit 4
+: 1666658431:0;hit 8
+: 1666658482:0;printf '%s ' $(date '%a')
+: 1666658495:0;printf '%s ' $(date '+%a')
+: 1666658504:0;printf '%s\n ' $(date '+%a')
+: 1666658522:0;fc
+: 1666658531:0;d=printf '%s\n' $(date '+%a')
+: 1666658568:0;printf '%s\n' $(date '+%a')
+: 1666658650:0;ls | v -
+: 1666659029:0;fd --changed-within 2mins
+: 1666660843:0;trash xxxxxxxxxxxxx
+: 1666660849:0;trash-list
+: 1666661022:0;uname -a
+: 1666661052:0;uname -r
+: 1666661204:0;touch file.$(date +%Y-%m-%d-%H-%M-%S)
+: 1666661337:0;v ~/.config/nvim/init.vim
+: 1666661374:0;fd --changed-within 2mins -x rm
+: 1666661380:0;fd --changed-within 3mins -x rm
+: 1666661385:0;v
+: 1666661414:0;his
+: 1666661487:0;alias vinit='vim ~/.config/nvim/init.vim'
+: 1666661543:0;alias vinit='nvim ~/.config/nvim/init.vim'
+: 1666669034:0;cd junk
+: 1666669079:0;se 'chmod'
+: 1666669118:0;chmod 754 eis.sh
+: 1666669159:0;type main
+: 1666669203:0;./eis.sh
+: 1666669227:0;type -f main
+: 1666669237:0;se 'type'
+: 1666669263:0;v ~/functions.sh
+: 1666669292:0;gits
+: 1666669318:0;gst
+: 1666669346:0;vinit
+: 1666669362:0;v eis.sh
+: 1666669642:0;sc sh.sh abc
+: 1666669665:0;alias xx
+: 1666669668:0;xx
+: 1666669749:0;unalias xx
+: 1666669768:0;chmod 754 sh.sh
+: 1666669816:0;./sh.sh lssssssss
+: 1666669826:0;./sh.sh ls
+: 1666669838:0;./sh.sh vim
+: 1666669842:0;./sh.sh nvim
+: 1666669866:0;wi vim
+: 1666669896:0;lt /usr/bin/vim.tiny
+: 1666669903:0;lt /usr/bin/vim
+: 1666669954:0;type -a vim
+: 1666669991:0;alias vim="nvim"
+: 1666669993:0;vim
+: 1666670404:0;sh.sh
+: 1666670430:0;./sh.sh
+: 1666670439:0;v sh.sh
+: 1666670599:0;cd .local
+: 1666670600:0;lt
+: 1666670602:0;ls
+: 1666670606:0;cd bin
+: 1666670608:0;l
+: 1666670640:0;v runterm
+: 1666670671:0;bash
+: 1666670749:0;v /home/steff007/.zshrc
+: 1666670768:0;zsh
+: 1666670791:0;c
+: 1666670799:0;tmux ls
+: 1666670815:0;exit
+: 1666670822:0;lt
+: 1666670842:0;fd --changed-within 3mins -x rm
+: 1666670843:0;lt
+: 1666670847:0;cd
+: 1666670849:0;lt
+: 1666670858:0;ls file*
+: 1666670873:0;/rm file*
+: 1666670882:0;se 'rm'
+: 1666670902:0;\rm file*
+: 1666670903:0;lt
+: 1666670914:0;f n.sh
+: 1666670920:0;v n.sh
+: 1666670933:0;lt
+: 1666670957:0;vinit
+: 1666671013:0;alias vinit='nvim ~/.config/nvim/init.vim'
+: 1666671016:0;vinit
+: 1666671092:0;lt
+: 1666671109:0;vinit
+: 1666671139:0;lt
+: 1666671150:0;vinit
+: 1666671155:0;lt
+: 1666671168:0;v n.sh
+: 1666671170:0;lt
+: 1666671192:0;vinit
+: 1666671221:0;touch file.$(date '+%Y-%m-%d-%H-%M-%S')
+: 1666671223:0;lt
+: 1666671297:0;fd --changed-within 5min
+: 1666671304:0;fd --changed-within 5min -x rm
+: 1666671306:0;lt
+: 1666671411:0;cd junk
+: 1666671413:0;lt
+: 1666671421:0;ls file*
+: 1666671427:0;lt file*
+: 1666671441:0;/rm file*
+: 1666671448:0;\rm file*
+: 1666671450:0;lt
+: 1666671476:0;\rm 'k t'
+: 1666671477:0;lt
+: 1666671488:0;c
+: 1666671800:0;vinit
+: 1666671864:0;lt
+: 1666671872:0;v o.html
+: 1666671892:0;vinit
+: 1666671912:0;vi
+: 1666671917:0;v
+: 1666671937:0;vinit
+: 1666671955:0;v
+: 1666671977:0;vinit
+: 1666672022:0;v
+: 1666672031:0;vinit
+: 1666672054:0;echo "eeeeeeeeeeeeeeeeee"
+: 1666672062:0;vinit
+: 1666672189:0;lt
+: 1666672191:0;alias lt='ls --human-readable --size -1 -S --classify'
+: 1666672192:0;lt
+: 1666672211:0;u
+: 1666672212:0;lt
+: 1666672227:0;lt | ls
+: 1666672239:0;lt | column
+: 1666672260:0;his
+: 1666672297:0;lt
+: 1666672313:0;sc .bash_aliases
+: 1666672318:0;lt
+: 1666672320:0;lts
+: 1666672337:0;lts | column
+: 1666672381:0;alias lts='ls --human-readable --size -1 -S --classify | column'
+: 1666672383:0;lts
+: 1666672388:0;c
+: 1666672389:0;lts
+: 1666672397:0;lt
+: 1666672399:0;lts
+: 1666672404:0;cd bin
+: 1666672408:0;cd /bin
+: 1666672409:0;lts
+: 1666672429:0;lts | more
+: 1666672480:0;lts | head
+: 1666672497:0;u
+: 1666672558:0;fd -H -I
+: 1666672593:0;fd -H -I -x stat
+: 1666672644:0;manv stat
+: 1666672653:0;c
+: 1666672658:0;lts
+: 1666672679:0;lt init
+: 1666672686:0;v init
+: 1666672702:0;cat init
+: 1666672706:0;c
+: 1666672712:0;\rm init
+: 1666672720:0;gst
+: 1666672731:0;lt
+: 1666672738:0;la
+: 1666672748:0;ls -a .gi*
+: 1666672755:0;ls -a
+: 1666672760:0;pwd
+: 1666672763:0;cd
+: 1666672772:0;gst
+: 1666673454:0;git -am "update"
+: 1666673460:0;git commit -am "update"
+: 1666673463:0;gst
+: 1666673478:0;se 'git.*am'
+: 1666673496:0;git log --format=%s | v -
+: 1666673533:0;gst
+: 1666673536:0;git add .
+: 1666673538:0;gst
+: 1666673554:0;git commit --amend -am "update"
+: 1666673561:0;git log --format=%s | v -
+: 1666673573:0;git log | v -
+: 1666673603:0;alias | rg 'git'
+: 1666673783:0;fd comp
+: 1666674018:0;fda compinit
+: 1666674029:0;alias fda
+: 1666674053:0;c
+: 1666674057:0;lt
+: 1666674366:0;less n.sh
+: 1666674377:0;cat n.sh
+: 1666674383:0;more n.sh
+: 1666674431:0;lts
+: 1666674441:0;less his.bak
+: 1666674449:0;more his.bak
+: 1666674529:0;less -s his.bak
+: 1666674538:0;more -s n.sh
+: 1666674546:0;more n.sh
+: 1666674555:0;less n.sh
+: 1666674561:0;less -s n.sh
+: 1666676439:0;vinit
+: 1666676551:0;ls
+: 1666676552:0;l
+: 1666676556:0;v up.sh
+: 1666676559:0;lt
+: 1666676602:0;cd .config/nvim
+: 1666676603:0;lt
+: 1666676611:0;la
+: 1666676621:0;gst
+: 1666676625:0;d
+: 1666676628:0;1
+: 1666676660:0;lt
+: 1666676671:0;vinit
+: 1666676693:0;lt
+: 1666676697:0;vinit
+: 1666676701:0;lt
+: 1666676731:0;vinit
+: 1666676764:0;v n.sh
+: 1666676771:0;vinit
+: 1666677220:0;cd .config/nvim
+: 1666677221:0;lt
+: 1666677249:0;v p
+: 1666677256:0;v pp
+: 1666677265:0;v some
+: 1666677320:0;lt
+: 1666677323:0;v some
+: 1666677421:0;vinit
+: 1666677495:0;v some
+: 1666677540:0;vinit
+: 1666677583:0;v some
+: 1666677656:0;alias jojo
+: 1666677659:0;lt
+: 1666677663:0;cat some
+: 1666677673:0;v some
+: 1666677700:0;init
+: 1666677714:0;vinit
+: 1666677875:0;v some
+: 1666677888:0;lt
+: 1666677898:0;v some
+: 1666677977:0;vinit
+: 1666678039:0;cd
+: 1666678042:0;v some
+: 1666678084:0;v functions.sh
+: 1666678119:0;v zz
+: 1666678297:0;hello
+: 1666678308:0;lt
+: 1666678312:0;cat zz
+: 1666678322:0;sc zz
+: 1666678325:0;hello
+: 1666678366:0;fd --changed-within 5min 
+: 1666678415:0;/rm xxxxxxxxx*
+: 1666678422:0;\rm xxxxxxxxx*
+: 1666678424:0;lt
+: 1666678435:0;\rm 'source some'
+: 1666679440:0;v
+: 1666679548:0;alias ls
+: 1666679555:0;v

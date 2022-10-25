@@ -13,6 +13,7 @@ November 9th
 Mental Health
 2:00 pm Wednesday 12th Jessie
 7840 Vinewood lane north Maple Grove
+voluntary death
 
 fucking every fucking other fucking word is motherfucking fuck
 
@@ -958,11 +959,12 @@ docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=stars1  9eebb3304ce5 #!good my
 docker exec -ti  optimistic_noether sh -c "bash"
 
 
+Life is like a box of chocolates.
+It doesn't last long for fat people.
 
 
 
 
 
-
-
-
+autocmd VimLeave * :!touch /home/odiszapc/vimleave
+https://vi.stackexchange.com/questions/5454/vimleave-event-not-triggered
