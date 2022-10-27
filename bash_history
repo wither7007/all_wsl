@@ -550,3 +550,1267 @@ u
 cha 20
 lt
 v .bash_history
+history | rg 'git' | column
+git diff @{upstream}
+gst
+git fetch
+gst
+git diff @{upstream}
+cls
+git diff --name-only 
+git diff @{upstream} --name-only
+git diff what
+gst
+l
+lt wh
+lt wh*
+git branch -a
+git diff main origin/main
+git diff main origin/main | v -
+git diff main origin/main --name-only
+git merge
+gslt
+als
+glst
+c
+u
+his
+se '^fd'
+type se
+ls *.sh
+fd -d 1 -esh -tf -x jj.sh 
+fd -d 1 -esh -tf -x ~/jj.sh 
+sc chis.sh 
+c
+cd all_wsl/
+gst
+glst
+git commit -am
+git commit -am "rockford gcloud"
+git push
+gst
+c
+fd -tf -d 1 -esh | xargs rg 'bash' | v -
+date
+cd etc
+cd /etc
+ls
+man etc
+lc
+c
+l
+ld
+c
+l
+ls l*
+l | rg 'loc'
+c
+l | rg 'loc'
+cat localtime 
+ls -l /etc/localtime 
+date -d '2014-06-26 23:00 UTC'
+date
+ps -he
+ps -He
+ps -aux
+ps -aux | rg '^r'
+c
+ps -aux | rg '^r'
+cd
+glst
+cd all_wsl/
+glst
+c
+cd
+fda 'git'
+fda 'git.*con'
+c
+fda 'git.*con'
+v .gitconfig 
+fdc
+lt
+v wsl.tar.gz 
+cd all_wsl/
+lt
+v gcloud_his 
+stat gcloud_his 
+date
+glst
+u
+tmux ls
+als
+exit
+his
+exit
+c
+tmux ls
+tmux kill-session -a
+tmux ls
+l
+date
+lt
+c
+lt | tail
+cha 666
+fd
+cd all_wsl/
+fd
+fd | less
+u
+c
+l
+l -a
+lt E*
+cat Efiles 
+v Efiles 
+lt *.gz
+c
+lt *.gz
+v wsl.tar.gz 
+rm wsl.tar.gz 
+lt
+fd | column
+c
+fd | column
+v .ignore 
+fd | column
+c
+fd | column
+cha 6666
+type cha
+cls
+fda 'ba.*hist'
+v .gitignore 
+fda 'ba.*hist' -x ls -l
+fd 'ba.*hist' -x ls -l
+v .ignore 
+fd 'ba.*hist' -x ls -l
+fd
+fd > Efiles
+lt
+cd all_wsl/
+lt
+c
+l
+rg 'tar' gcloud_his 
+grep 'tar' gcloud_his 
+manv tar
+c
+cat ~/Efiles 
+c
+lt
+ls gclou*
+rg 'tar' $(ls gcloud*)
+rg 'tar' $(ls gcloud*) | v -
+c
+rg '^a' $(ls gcloud*) | v -
+rg 'tar' $(ls gclo*) | v -
+rg 'tar' $(ls gclo*) | tail
+rg '^tar' $(ls gclo*) | tail
+cat ~/Efiles 
+u
+lt
+fd
+fd -a
+fd -a > Efiles
+c
+cat Efiles 
+cd all
+cd all_wsl/
+rg '^tar' gcloud_his 
+tar -czvf ~/9-29.tar.gz -T ~/Efiles 
+u
+lt
+v 9-29.tar.gz 
+lt
+l
+c
+l
+c;l
+c;l -a
+c;lt
+rm duh GPL-3 ohist in a 
+c; lt
+rm inst ki
+c;lt
+v .
+c;lt -a
+cat good.txt 
+v good.txt 
+sc good.txt 
+cls
+exit
+exit
+cd all_wsl/
+gst
+git fetch
+gst
+cd all_wsl/
+git diff @{upstream}
+git diff @{upstream} | v -
+git merge
+v note/notes 
+git diff @{upstream} | v -
+u
+gst
+git commit -am "mods"
+gst
+lt
+gst
+exit
+his
+tmux kill-server
+exit
+tmux ls
+tmux kill-server
+exit
+l
+ld
+cd all_wsl/
+gst
+als
+cd all_wsl/
+his
+u
+als
+md gitj
+md -p gitj
+lt
+rm gitj
+rmdir gitj
+lt
+md -p gitj
+rm -rf gitj
+ls
+lt
+c
+links
+l
+l *.sh
+v install.sh 
+sc install.sh 
+ps -aux
+fd
+ps -aux | v -
+wi fd
+wi nn
+rg
+rg -h
+rg -H
+als
+alias rg
+als
+v .bashrc 
+h3
+ps -aux
+htop
+his
+lt -a
+v .bashrc 
+exit
+exit
+psa
+rg
+rg --help
+type rg
+rg --version 
+fd --version
+fd --changed-within 1days
+f1
+fda
+fd
+fdc
+c
+fdc
+l
+lt
+alias mkc
+als
+ls f*
+v fc.sh 
+v
+c
+lt
+fday
+type fday
+c
+cd all_wsl/
+git pull
+git status -vv
+git log --stat
+git log --stat | v -
+lt
+fday
+fday | rg -v 'git'
+type fda
+fda --changed-within 8hours
+fda -a --changed-within 8hours 
+fdh
+fda -a -E 'git' --changed-within 8hours 
+fda -a -E '.git' --changed-within 8hours 
+fda -a -E '.*git.*' --changed-within 8hours 
+fd
+fd -E 'wsl'
+fd -E 'w.*'
+fd -E '.*'
+fd -E '*'
+fd -H -I -E '*'
+fd -H -I -E 'w*'
+fd -H -I -E 'v*'
+fd -H -I -E 'git*'
+fdh
+fd -H -I  '[^git*]'
+fd -H -I  '[^ps*]'
+for f in *.*; do         echo "$f";     done
+ls
+for f in *.*; do         head -n 2 "$f";     done\
+for f in *.*; do         head -n 2 "$f";     done
+for f in *.*; do     echo '==========';         head -n 2 "$f";     done
+for f in *.*; do     printf '%\n' '==========';         head -n 2 "$f";     done
+    printf "%\n" '==========';
+    printf "%s\n" '==========';
+c
+for f in *.*; do     printf "%s\n" '==========';         head -n 2 "$f";     done
+for f in *.*; do     printf "%s\n" '========== $f';         head -n 2 "$f";     done
+c
+for f in *.*; do     printf "%s\n" '========== $f';         head -n 2 "$f";     done
+for f in *.*; do     printf "%s\n" "========== $f";         head -n 2 "$f";     done
+c
+for f in *.*; do     printf "%s\n" "========== $f";         head -n 2 "$f";     done
+l
+head bhist.txt | nl
+c
+for f in *.*; do     printf "%s\n" "========== $f";         head -n 2 "$f" | nl;     done
+v q.sh
+sc q.sh 
+v q.sh 
+sc q.sh 
+c
+sc q.sh 
+u
+sc all_wsl/q.sh 
+sc all_wsl/q.sh | v -
+ls *.sh
+v all_wsl/q.sh 
+for a in *.*\
+for a in *.*; do echo $1done
+als
+c
+his
+for f in *.*; do     printf "%s\n" "========== $f";
+    done
+for f in *.*; do     printf "%s\n" "========== $f";         head -n 2 "$f" | nl;     done
+for f in *.*; do     printf "%s\n" "========== $f";         head -n 2 "$f" | nl;     done | v -
+ls *.gz
+type trash
+c
+lt *.gz
+lt *.sh
+./chis.sh 
+v chis.sh 
+cd all_wsl/
+gst
+git add .
+gst
+git commit -am "Golden 3:30"
+gst
+git push
+c
+l
+fd q
+gst
+git fetch
+gst
+v zzzz
+gst
+git add .
+git commit -am "time 3:38"
+gst
+git push
+c
+v
+gst
+git fetch
+gst
+git show
+git log | v -
+lt
+git show
+git pull
+v zzzz 
+gst
+git commit -am "4:11"
+git log | v -
+git stat -vv
+se 'git.*stat'
+lt
+rg 'git' gcloud_his 
+git status -vv
+rg 'git.*log' gcloud_his 
+git log --stat | v -
+git diff
+gst
+git diff HEAD^..
+c
+git diff HEAD^..
+git diff HEAD^^..
+git diff HEAD^..
+c
+git diff HEAD^..
+v zzzz 
+gst
+git diff
+gst
+git commit -am "two changes"
+GST
+gst
+git push
+lt
+gst
+c
+git fetch
+gst
+git diff
+git show
+git diff --name-only main origin/main 
+git diff  main origin/main 
+git merge
+lt
+v zzzz 
+h3
+git diff HEAD^..
+git log 
+l
+git diff HEAD^.. ipy
+git diff HEAD^.. zzzz
+git diff HEAD^.. -name-status
+git diff HEAD~5 HEAD –name-status
+git diff HEAD~5 HEAD 
+c
+git diff HEAD~5 HEAD 
+git diff HEAD~15 HEAD 
+git diff HEAD~15 HEAD --git-status
+git diff --name-only HEAD~15 HEAD
+c
+git diff --name-only HEAD~15 HEAD
+lt
+u
+ls *.sh
+./chis.sh 
+cd -
+dirs
+gst
+git diff
+lt
+wc gcloud_his 
+gst
+git commit -am "final library gcloud_his"
+git push
+cd all_wsl/
+lt
+left
+u
+lt
+ls f*
+find . -maxdepth 1
+manv find
+c
+manv find
+exit
+l
+find -name data
+h3
+find -maxdepth -name data
+find -maxdepth 1 -name data
+cd all_wsl/
+gst
+u
+cd all
+c
+cd all_wsl/
+lt
+cloud edit
+gcloud edit
+lt
+cd all_wsl/
+lt
+gcloud edit gcloud_his
+u
+cloudshell edit ~/.bashrc
+cat ~/.bash_history
+cd all_wsl/
+lt
+cd /mnt
+l
+ls
+la
+u
+ls
+his
+lt
+csh chis.sh 
+gse chis
+gse
+gse blank.sh
+lt
+chmod 754 blank.sh 
+lt
+./blank.sh 
+rm blank.sh 
+lt
+chmod 754 install.sh 
+lt
+./install.sh 
+rgh
+man rg
+fd -tf -d 1 | xargs rg "bash"
+gst
+fdc
+alias
+alias | column 
+als
+alias | column
+his
+type -a his
+type -a hi
+history
+history | column
+lt | awk '{print $5 " " $9}'
+lt | awk '{print $5 " " $9}' | column
+cd all_wsl/
+u
+fd -d 1 -esh
+fd -d 1 -esh | xargs rg 'git'
+cat chis.sh
+gst
+git add .
+gst
+v .bash_aliases 
+gst
+git diff
+git diff
+git diff | v -
+c
+gst
+git commit -am "golden root update"
+gst
+gst -vv
+git log --stat | v -
+fd -esh
+cd all_wsl/
+gst
+git fetch
+gst
+c
+git diff --name-only main origin/main 
+git diff main origin/main 
+git diff main origin/main  | v -
+git mergec
+git merge
+git diff main origin/main  | v -
+git pull
+git log 
+git log --oneline 
+c
+u
+gt
+gst
+ld
+c
+fdc
+tree
+rgh
+vim all_wsl/note/notes 
+cd all_wsl/note/
+lt
+u
+gst
+git diff
+c
+h3
+exit
+./chis.sh 
+vim ~/all_wsl/note/notes 
+alias vmn='vim ~/all_wsl/note/notes'
+vmn
+fda
+fda keymaps
+fda keymaps -X v
+fda keymaps -X vim
+c
+fda bindings
+fda keymaps
+fda keymaps -x vim
+fda keymaps -X vim
+h3
+c
+ls
+exit
+tmux ls
+ls -l | awk '{ for (i = 3; i <= 8; ++i) printf $i" "; print ""}' 
+echo $PATH
+printenv
+printenv | v 
+printenv | v -
+c
+cat /etc/os-release 
+uname -r
+printf '%s\n' "$(uname -r)"
+printf '%s\n' "linux kernel $(uname -r)"
+uname -a
+cat /etc/os-release 
+~/chis.sh 
+cd all_wsl/
+lt
+v bash_history 
+u
+date
+cat chis.sh 
+lt
+fdc
+v chis.sh 
+history | rg 'git' | column
+git diff @{upstream}
+gst
+git fetch
+gst
+git diff @{upstream}
+cls
+git diff --name-only 
+git diff @{upstream} --name-only
+git diff what
+gst
+l
+lt wh
+lt wh*
+git branch -a
+git diff main origin/main
+git diff main origin/main | v -
+git diff main origin/main --name-only
+git merge
+gslt
+als
+glst
+c
+u
+his
+se '^fd'
+type se
+ls *.sh
+fd -d 1 -esh -tf -x jj.sh 
+fd -d 1 -esh -tf -x ~/jj.sh 
+sc chis.sh 
+c
+cd all_wsl/
+gst
+glst
+git commit -am
+git commit -am "rockford gcloud"
+git push
+gst
+c
+fd -tf -d 1 -esh | xargs rg 'bash' | v -
+date
+cd etc
+cd /etc
+ls
+man etc
+lc
+c
+l
+ld
+c
+l
+ls l*
+l | rg 'loc'
+c
+l | rg 'loc'
+cat localtime 
+ls -l /etc/localtime 
+date -d '2014-06-26 23:00 UTC'
+date
+ps -he
+ps -He
+ps -aux
+ps -aux | rg '^r'
+c
+ps -aux | rg '^r'
+cd
+glst
+cd all_wsl/
+glst
+c
+cd
+fda 'git'
+fda 'git.*con'
+c
+fda 'git.*con'
+v .gitconfig 
+fdc
+lt
+v wsl.tar.gz 
+cd all_wsl/
+lt
+v gcloud_his 
+stat gcloud_his 
+date
+glst
+u
+tmux ls
+als
+exit
+his
+exit
+c
+tmux ls
+tmux kill-session -a
+tmux ls
+l
+date
+lt
+c
+lt | tail
+cha 666
+fd
+cd all_wsl/
+fd
+fd | less
+u
+c
+l
+l -a
+lt E*
+cat Efiles 
+v Efiles 
+lt *.gz
+c
+lt *.gz
+v wsl.tar.gz 
+rm wsl.tar.gz 
+lt
+fd | column
+c
+fd | column
+v .ignore 
+fd | column
+c
+fd | column
+cha 6666
+type cha
+cls
+fda 'ba.*hist'
+v .gitignore 
+fda 'ba.*hist' -x ls -l
+fd 'ba.*hist' -x ls -l
+v .ignore 
+fd 'ba.*hist' -x ls -l
+fd
+fd > Efiles
+lt
+cd all_wsl/
+lt
+c
+l
+rg 'tar' gcloud_his 
+grep 'tar' gcloud_his 
+manv tar
+c
+cat ~/Efiles 
+c
+lt
+ls gclou*
+rg 'tar' $(ls gcloud*)
+rg 'tar' $(ls gcloud*) | v -
+c
+rg '^a' $(ls gcloud*) | v -
+rg 'tar' $(ls gclo*) | v -
+rg 'tar' $(ls gclo*) | tail
+rg '^tar' $(ls gclo*) | tail
+cat ~/Efiles 
+u
+lt
+fd
+fd -a
+fd -a > Efiles
+c
+cat Efiles 
+cd all
+cd all_wsl/
+rg '^tar' gcloud_his 
+tar -czvf ~/9-29.tar.gz -T ~/Efiles 
+u
+lt
+v 9-29.tar.gz 
+lt
+l
+c
+l
+c;l
+c;l -a
+c;lt
+rm duh GPL-3 ohist in a 
+c; lt
+rm inst ki
+c;lt
+v .
+c;lt -a
+cat good.txt 
+v good.txt 
+sc good.txt 
+cls
+exit
+exit
+cd all_wsl/
+gst
+git fetch
+gst
+cd all_wsl/
+git diff @{upstream}
+git diff @{upstream} | v -
+git merge
+v note/notes 
+git diff @{upstream} | v -
+u
+gst
+git commit -am "mods"
+gst
+lt
+gst
+exit
+his
+tmux kill-server
+exit
+tmux ls
+tmux kill-server
+exit
+l
+ld
+cd all_wsl/
+gst
+als
+cd all_wsl/
+his
+u
+als
+md gitj
+md -p gitj
+lt
+rm gitj
+rmdir gitj
+lt
+md -p gitj
+rm -rf gitj
+ls
+lt
+c
+links
+l
+l *.sh
+v install.sh 
+sc install.sh 
+ps -aux
+fd
+ps -aux | v -
+wi fd
+wi nn
+rg
+rg -h
+rg -H
+als
+alias rg
+als
+v .bashrc 
+h3
+ps -aux
+htop
+his
+lt -a
+v .bashrc 
+exit
+exit
+psa
+rg
+rg --help
+type rg
+rg --version 
+fd --version
+fd --changed-within 1days
+f1
+fda
+fd
+fdc
+c
+fdc
+l
+lt
+alias mkc
+als
+ls f*
+v fc.sh 
+v
+c
+lt
+fday
+type fday
+c
+cd all_wsl/
+git pull
+git status -vv
+git log --stat
+git log --stat | v -
+lt
+fday
+fday | rg -v 'git'
+type fda
+fda --changed-within 8hours
+fda -a --changed-within 8hours 
+fdh
+fda -a -E 'git' --changed-within 8hours 
+fda -a -E '.git' --changed-within 8hours 
+fda -a -E '.*git.*' --changed-within 8hours 
+fd
+fd -E 'wsl'
+fd -E 'w.*'
+fd -E '.*'
+fd -E '*'
+fd -H -I -E '*'
+fd -H -I -E 'w*'
+fd -H -I -E 'v*'
+fd -H -I -E 'git*'
+fdh
+fd -H -I  '[^git*]'
+fd -H -I  '[^ps*]'
+for f in *.*; do         echo "$f";     done
+ls
+for f in *.*; do         head -n 2 "$f";     done\
+for f in *.*; do         head -n 2 "$f";     done
+for f in *.*; do     echo '==========';         head -n 2 "$f";     done
+for f in *.*; do     printf '%\n' '==========';         head -n 2 "$f";     done
+    printf "%\n" '==========';
+    printf "%s\n" '==========';
+c
+for f in *.*; do     printf "%s\n" '==========';         head -n 2 "$f";     done
+for f in *.*; do     printf "%s\n" '========== $f';         head -n 2 "$f";     done
+c
+for f in *.*; do     printf "%s\n" '========== $f';         head -n 2 "$f";     done
+for f in *.*; do     printf "%s\n" "========== $f";         head -n 2 "$f";     done
+c
+for f in *.*; do     printf "%s\n" "========== $f";         head -n 2 "$f";     done
+l
+head bhist.txt | nl
+c
+for f in *.*; do     printf "%s\n" "========== $f";         head -n 2 "$f" | nl;     done
+v q.sh
+sc q.sh 
+v q.sh 
+sc q.sh 
+c
+sc q.sh 
+u
+sc all_wsl/q.sh 
+sc all_wsl/q.sh | v -
+ls *.sh
+v all_wsl/q.sh 
+for a in *.*\
+for a in *.*; do echo $1done
+als
+c
+his
+for f in *.*; do     printf "%s\n" "========== $f";
+    done
+for f in *.*; do     printf "%s\n" "========== $f";         head -n 2 "$f" | nl;     done
+for f in *.*; do     printf "%s\n" "========== $f";         head -n 2 "$f" | nl;     done | v -
+ls *.gz
+type trash
+c
+lt *.gz
+lt *.sh
+./chis.sh 
+v chis.sh 
+cd all_wsl/
+gst
+git add .
+gst
+git commit -am "Golden 3:30"
+gst
+git push
+c
+l
+fd q
+gst
+git fetch
+gst
+v zzzz
+gst
+git add .
+git commit -am "time 3:38"
+gst
+git push
+c
+v
+gst
+git fetch
+gst
+git show
+git log | v -
+lt
+git show
+git pull
+v zzzz 
+gst
+git commit -am "4:11"
+git log | v -
+git stat -vv
+se 'git.*stat'
+lt
+rg 'git' gcloud_his 
+git status -vv
+rg 'git.*log' gcloud_his 
+git log --stat | v -
+git diff
+gst
+git diff HEAD^..
+c
+git diff HEAD^..
+git diff HEAD^^..
+git diff HEAD^..
+c
+git diff HEAD^..
+v zzzz 
+gst
+git diff
+gst
+git commit -am "two changes"
+GST
+gst
+git push
+lt
+gst
+c
+git fetch
+gst
+git diff
+git show
+git diff --name-only main origin/main 
+git diff  main origin/main 
+git merge
+lt
+v zzzz 
+h3
+git diff HEAD^..
+git log 
+l
+git diff HEAD^.. ipy
+git diff HEAD^.. zzzz
+git diff HEAD^.. -name-status
+git diff HEAD~5 HEAD –name-status
+git diff HEAD~5 HEAD 
+c
+git diff HEAD~5 HEAD 
+git diff HEAD~15 HEAD 
+git diff HEAD~15 HEAD --git-status
+git diff --name-only HEAD~15 HEAD
+c
+git diff --name-only HEAD~15 HEAD
+lt
+u
+ls *.sh
+./chis.sh 
+cd -
+dirs
+gst
+git diff
+lt
+wc gcloud_his 
+gst
+git commit -am "final library gcloud_his"
+git push
+cd all_wsl/
+lt
+left
+u
+lt
+ls f*
+find . -maxdepth 1
+manv find
+c
+manv find
+exit
+l
+find -name data
+h3
+find -maxdepth -name data
+find -maxdepth 1 -name data
+cd all_wsl/
+gst
+u
+cd all
+c
+cd all_wsl/
+lt
+cloud edit
+gcloud edit
+lt
+cd all_wsl/
+lt
+gcloud edit gcloud_his
+u
+cloudshell edit ~/.bashrc
+cat ~/.bash_history
+cd all_wsl/
+lt
+cd /mnt
+l
+ls
+la
+u
+ls
+his
+lt
+csh chis.sh 
+gse chis
+gse
+gse blank.sh
+lt
+chmod 754 blank.sh 
+lt
+./blank.sh 
+rm blank.sh 
+lt
+chmod 754 install.sh 
+lt
+./install.sh 
+rgh
+man rg
+fd -tf -d 1 | xargs rg "bash"
+gst
+fdc
+alias
+alias | column 
+als
+alias | column
+his
+type -a his
+type -a hi
+history
+history | column
+lt | awk '{print $5 " " $9}'
+lt | awk '{print $5 " " $9}' | column
+cd all_wsl/
+u
+fd -d 1 -esh
+fd -d 1 -esh | xargs rg 'git'
+cat chis.sh
+gst
+git add .
+gst
+v .bash_aliases 
+gst
+git diff
+git diff
+git diff | v -
+c
+gst
+git commit -am "golden root update"
+gst
+gst -vv
+git log --stat | v -
+fd -esh
+cd all_wsl/
+gst
+git fetch
+gst
+c
+git diff --name-only main origin/main 
+git diff main origin/main 
+git diff main origin/main  | v -
+git mergec
+git merge
+git diff main origin/main  | v -
+git pull
+git log 
+git log --oneline 
+c
+u
+gt
+gst
+ld
+c
+fdc
+tree
+rgh
+vim all_wsl/note/notes 
+cd all_wsl/note/
+lt
+u
+gst
+git diff
+c
+h3
+exit
+./chis.sh 
+vim ~/all_wsl/note/notes 
+alias vmn='vim ~/all_wsl/note/notes'
+vmn
+fda
+fda keymaps
+fda keymaps -X v
+fda keymaps -X vim
+c
+fda bindings
+fda keymaps
+fda keymaps -x vim
+fda keymaps -X vim
+h3
+c
+ls
+exit
+tmux ls
+ls -l | awk '{ for (i = 3; i <= 8; ++i) printf $i" "; print ""}' 
+echo $PATH
+printenv
+printenv | v 
+printenv | v -
+c
+cat /etc/os-release 
+uname -r
+printf '%s\n' "$(uname -r)"
+printf '%s\n' "linux kernel $(uname -r)"
+uname -a
+cat /etc/os-release 
+~/chis.sh 
+cd all_wsl/
+lt
+v bash_history 
+u
+date
+cat chis.sh 
+lt
+fdc
+v chis.sh 
+./chis.sh 
+cd all_wsl/
+lt
+v bash_history 
+cat /etc/os-release 
+his
+exit
+bash
+mem
+c
+u
+find / -type d -perm 777 -print 
+find / -type d -perm 777 -print | less
+find ~ -type d -perm 777 -print | less
+find ~ -type d -perm 777 -print 
+lt
+find ~ -type d -perm 754 -print 
+alias | rg vim
+vmn
+cd all_wsl/
+gst
+cat bash_history 
+lt
+awk '!a[$0]++' bash_history | v -
+cd .
+cd ..
