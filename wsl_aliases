@@ -49,7 +49,7 @@ alias i3='ipython3'
 alias l="ls -CF"
 alias la='ls -A'
 alias ld='ls -la | grep "^d"'
-alias ldr='ls -td -- */ | head -n 10'
+alias ldr='ls -td -- */ | head -n 20 | column'
 alias left='ls -t -1'
 alias lf='exa  -a --group-directories-first'
 alias ll='ls -alF'
@@ -87,4 +87,7 @@ alias e='echo $?'
 alias vinit='nvim ~/.config/nvim/init.vim'
 alias lts='ls --human-readable --size -1 -S --classify | column' 
 echo "aaliassssaliassssaliassssliassss"
-
+alias ovim="nvim -u /home/steff007/.config/init.vim"
+alias v="nvim -u /home/steff007/.config/nvim/init.vim"
+alias vf="v ~/functions.sh"
+alias hp="hyperfine "
