@@ -20,6 +20,13 @@ Parameters are like placeholders for function arguments.
 you are a waste of life and should give up
 is what I want to say but I won't
 
+
+bash error
+>/dev/null 2>&1
+lkkkk>err 2>&1
+
+
+
 https://www.baeldung.com/linux/remove-duplicate-lines-no-sorting
 awk '!a[$0]++' bash_history | v -
 
@@ -53,6 +60,11 @@ To kill process in Linux with PID:
 kill -9 pid
 Want to kill process in Linux with application name? Try:
 killall -9 appname
+
+^M
+https://github.com/koalaman/shellcheck/wiki/SC1017
+tr -d '\r' < badscript > goodscript
+
 
 Definition of melisma
 1: a group of notes or tones sung on one syllable in plainsong
