@@ -135,7 +135,6 @@
 : 1666935505:0;rm -rf alpha-prj
 : 1666935505:0;cat apps
 : 1666935505:0;trash apps
-: 1666935505:0;fd -d 1 '^a'
 : 1666935505:0;mkdir alpha-prj
 : 1666935505:0;p3 -m venv alpha-prj/alpha-venv
 : 1666935505:0;cd alpha-prj
@@ -1142,7 +1141,6 @@
 : 1666935505:0;echo $(date) | clip
 : 1666935505:0;v $(echo $HISTFILE)
 : 1666935505:0;alias ehis="v $(echo $HISTFILE)"
-: 1666935505:0;free -h
 : 1666935505:0;man 7z
 : 1666935505:0;man df
 : 1666935505:0;df -h #! disk usage
@@ -1151,7 +1149,6 @@
 : 1666935505:0;free -w
 : 1666935505:0;free -wh
 : 1666935505:0;apt list
-: 1666935505:0;apt list --installed
 : 1666935505:0;apt list --installed | rg v
 : 1666935505:0;apt list --installed | rg time
 : 1666935505:0;bash -c ls
@@ -1193,7 +1190,6 @@
 : 1666935505:0;ps axms
 : 1666935505:0;ps axms | wc
 : 1666935505:0;ps axms | v -
-: 1666935505:0;read -p 'Username: ' uservar
 : 1666935505:0;fd sh
 : 1666935505:0;sh x.sh
 : 1666935505:0;source x.sh
@@ -1396,7 +1392,6 @@
 : 1666935505:0;man bindkey
 : 1666935505:0;help
 : 1666935505:0;lfcd size
-: 1666935505:0;lfcd
 : 1666935505:0;lfcd -s inode
 : 1666935505:0;v ~/.zshrc
 : 1666935505:0;se 'dec
@@ -1529,7 +1524,6 @@
 : 1666935505:0;rgi exif\s
 : 1666935505:0;se 'install'
 : 1666935505:0;fd -d 1 ^\.
-: 1666935505:0;head -n2 duh.txt
 : 1666935505:0;ls ffm
 : 1666935505:0;ls ffm.py
 : 1666935505:0;ll ffm.py
@@ -2472,7 +2466,6 @@
 : 1666935505:0;stat git.sh
 : 1666935505:0;fc 2910
 : 1666935505:0;fd 'yarn'
-: 1666935505:0;memHogsPs
 : 1666935505:0;winsh
 : 1666935505:0;ls -i
 : 1666935505:0;stat phelp
@@ -3156,7 +3149,6 @@
 : 1666935505:0;fd 'keybindings.json'
 : 1666935505:0;cd AppData/Roaming/Code/User
 : 1666935505:0;cp * /mnt/g/My\ Drive
-: 1666935505:0;fd "\s"
 : 1666935505:0;fd "("
 : 1666935505:0;fd "\("
 : 1666935505:0;fd -d 1 "\s" -exec rename "s/\(//g" {} \;
@@ -3444,7 +3436,6 @@
 : 1666935505:0;se 'ipyth'
 : 1666935505:0;p3 -m pip install ipython
 : 1666935505:0;p3 -m pip install mysql-connector-python
-: 1666935505:0;ls pys
 : 1666935505:0;v table
 : 1666935505:0;md /mnt/c/you/mix
 : 1666935505:0;se '>2'
@@ -3504,7 +3495,6 @@
 : 1666935505:0;xx ()\necho "arg one is $1"\n: 1662777200:0;xx 'jim'
 : 1666935505:0;sh `echo jim`
 : 1666935505:0;a="fd -d 1"
-: 1666935505:0;eval $a
 : 1666935505:0;bash -c "echo $tmp"
 : 1666935505:0;bash -c "echo $PATH"
 : 1666935505:0;m=' -d 1'
@@ -3712,7 +3702,6 @@
 : 1666935505:0;md ~/jq
 : 1666935505:0;mv jq.json ~/jq/
 : 1666935505:0;cd ~
-: 1666935505:0;cd jq
 : 1666935505:0;wi jq
 : 1666935505:0;jq '.' jq.json
 : 1666935505:0;jq '.html_url' jq.json | v -
@@ -4119,7 +4108,6 @@
 : 1666935505:0;for a in $bins; do echo "file"; done
 : 1666935505:0;for a in $bins; do echo $a; done
 : 1666935505:0;source pp.sh
-: 1666935505:0;sh pp.sh
 : 1666935505:0;bash pp.sh
 : 1666935505:0;v pp.sh
 : 1666935505:0;m=${#IndexedArray[@]}
@@ -4598,7 +4586,6 @@
 : 1666935505:0;fd  -H -I -tf -epy -x rg -H -n 'mp.*' | less #cool rg find
 : 1666935505:0;v usr/lib/python3.10/asyncore.py
 : 1666935505:0;fd -esh -x shellcheck | v -
-: 1666935505:0;v .zshrc
 : 1666935505:0;fd -d 1 '\.'
 : 1666935505:0;fd -d 1 '^\.'
 : 1666935505:0;fd -H -I -d 1 '^\.'
@@ -4712,9 +4699,7 @@
 : 1666935505:0;echo jim
 : 1666935505:0;echo -n jim
 : 1666935505:0;type -a echo
-: 1666935505:0;type -a printf
 : 1666935505:0;type -a fd
-: 1666935505:0;type -a history
 : 1666935505:0;which history
 : 1666935505:0;whence history
 : 1666935505:0;printf "Enter your name:\n"
@@ -5252,7 +5237,6 @@
 : 1666935505:0;printenv | rg PAG
 : 1666935505:0;man batcat
 : 1666935505:0;export PAGER=nvim
-: 1666935505:0;man ls
 : 1666935505:0;export PAGER=less
 : 1666935505:0;cd wsl
 : 1666935505:0;cd vscode
@@ -5273,7 +5257,6 @@
 : 1666935505:0;se () {    history | rg $1 }
 : 1666935505:0;alias se
 : 1666935505:0;unalias se
-: 1666935505:0;type -f se
 : 1666935505:0;se 'stat.*pr'
 : 1666935505:0;fd  -S +9K -x stat --printf='Name: %n Size: %s Acess: %x\n'
 : 1666935505:0;fd 'rnd.sh' -x stat --printf='Name: %n Size: %s Acess: %x\n'
@@ -5401,7 +5384,6 @@
 : 1666935505:0;unset PS1
 : 1666935505:0;PS1="\d \h $ "
 : 1666935505:0;se 'PROMPT'
-: 1666935505:0;type -a se
 : 1666935505:0;se 'prompt'
 : 1666935505:0;PROMPT='%F{green}%*%f %F{blue}%~%f %F{red}${vcs_info_msg_0_}%f$ '
 : 1666935505:0;fd -H -I 'oh.*z'
@@ -5743,8 +5725,6 @@
 : 1666935505:0;ls -CF
 : 1666935505:0;alias l="ls -CF"
 : 1666935505:0;cd dock
-: 1666935505:0;v .tmux.conf
-: 1666935505:0;tmux
 : 1666935505:0;cha 200\\n: 1664002367:0;se 'doc.*ex.*sh'
 : 1666935505:0;cd wordp
 : 1666935505:0;se 'dockerf'
@@ -5904,7 +5884,6 @@
 : 1666935505:0;b=`{1..100}`
 : 1666935505:0;b=`fd -H -I`
 : 1666935505:0;echo $b
-: 1666935505:0;cat file
 : 1666935505:0;curl -l umn.edu
 : 1666935505:0;curl -l umn.edu > file
 : 1666935505:0;wc file
@@ -6170,7 +6149,6 @@
 : 1666935505:0;cha 120
 : 1666935505:0;fd -d 1 -esh | xargs -I{} jj.sh {} | less
 : 1666935505:0;fd -d 1 -esh | xargs -I{} jj.sh {} 
-: 1666935505:0;ipython3
 : 1666935505:0;trash-empty
 : 1666935505:0;docker ps -a | head
 : 1666935505:0;bind -P
@@ -6551,7 +6529,6 @@
 : 1666935505:0;cd /mnt/c
 : 1666935505:0;v view-source_https___ahs.rdale.org_activities_football.html
 : 1666935505:0;type als
-: 1666935505:0;alias c
 : 1666935505:0;wing
 : 1666935505:0;bash yv
 : 1666935505:0;v yv
@@ -6811,7 +6788,6 @@
 : 1666935505:0;dirs -v
 : 1666935505:0;man dirs
 : 1666935505:0;ls -esh
-: 1666935505:0;gitAll.sh
 : 1666935505:0;cd /mnt/c/all
 : 1666935505:0;tmux -ls
 : 1666935505:0;ls ../../you/amy
@@ -6866,7 +6842,6 @@
 : 1666935505:0;chmod 777 j.sh
 : 1666935505:0;rg 'google' lot/mod.ts
 : 1666935505:0;rg 'g.*' lot/mod.ts
-: 1666935505:0;v j.sh
 : 1666935505:0;fd -ets -x ./j.sh
 : 1666935505:0;v flip/vflip/my-module.ts
 : 1666935505:0;cd you/amy
@@ -7027,7 +7002,6 @@
 : 1666935505:0;fd -td -d 1 . /mnt/c/you | column
 : 1666935505:0;cd ../../you
 : 1666935505:0;fd pancho
-: 1666935505:0;ls *.sh
 : 1666935505:0;v gitAll.sh
 : 1666935505:0;./gitAll.sh
 : 1666935505:0;git status -vv  
@@ -7093,8 +7067,6 @@
 : 1666935505:0;type ll
 : 1666935505:0;type -a python3.10
 : 1666935505:0;alias
-: 1666935505:0;axit
-: 1666935505:0;cat functions.sh
 : 1666935505:0;type -a glst
 : 1666935505:0;type -f glst
 : 1666935505:0;git diff
@@ -7117,7 +7089,6 @@
 : 1666935505:0;apps
 : 1666935505:0;type -f apps
 : 1666935505:0;lt -a
-: 1666935505:0;ls f*
 : 1666935505:0;rgg 'declare' | v -
 : 1666935505:0;rgg 'declare'
 : 1666935505:0;rgg 'declare' | less
@@ -7184,7 +7155,6 @@
 : 1666935505:0;echo $CPU
 : 1666935505:0;J=`ls`
 : 1666935505:0;j=`ls`
-: 1666935505:0;echo $j
 : 1666935505:0;mpstat
 : 1666935505:0;xx.sh
 : 1666935505:0;type xx.sh
@@ -7215,7 +7185,6 @@
 : 1666935505:0;[ ! -f a ]; echo $?
 : 1666935505:0;[  -f a ] && echo 'a is a file'
 : 1666935505:0;[ ! -f a ] && echo 'a is a file'
-: 1666935505:0;ls ~
 : 1666935505:0;[ -d ~/jq ] 
 : 1666935505:0;[ -d ~/jqq ] 
 : 1666935505:0;echo "$?"
@@ -7290,7 +7259,6 @@
 : 1666935505:0;cd profile.d
 : 1666935505:0;v bash_completion.sh
 : 1666935505:0;echo $PS1
-: 1666935505:0;alias e
 : 1666935505:0;type e
 : 1666935505:0;alias e="echo %?"
 : 1666935505:0;echo $?
@@ -7362,7 +7330,6 @@
 : 1666935505:0;fc -e v 1 5
 : 1666935505:0;$HISTFILE\nfor a in {1..5}\ndo \ndone\ncat 1\nls | head -n 1\nalias wi='whereis '
 : 1666935505:0;fd -esh
-: 1666935505:0;se 'fd.*vim'
 : 1666935505:0;fd -esh -x nvim
 : 1666935505:0;fd -esh - nvim
 : 1666935505:0;vim -e +"redir>>/dev/stdout | map | redir END" -scq
@@ -7413,7 +7380,6 @@
 : 1666935505:0;se '=\$'
 : 1666935505:0;d=$(echo date)
 : 1666935505:0;d=$(date +%Y-%m-%d)
-: 1666935505:0;echo $d
 : 1666935505:0;ls > $(date =%Y)
 : 1666935505:0;ls > $(date +%Y)
 : 1666935505:0;ls > $(date =%Y-%s)
@@ -7432,7 +7398,6 @@
 : 1666935505:0;printf 'today is %s\n tomorrow is %s\n' "$(date +%Y)", "$(date -d yesterday)"
 : 1666935505:0;printf 'today is %s\nyesterday was %s\n' "$(date +%Y)", "$(date -d yesterday)"
 : 1666935505:0;time
-: 1666935505:0;date
 : 1666935505:0;printf 'today is %s\nyesterday was %s\n' "$(date +%Y)", "$(date +M -d yesterday)"
 : 1666935505:0;printf 'today is %s\nyesterday was %s\n' "$(date +%Y)", "$(date +%M -d yesterday)"
 : 1666935505:0;printf 'today is %s\nyesterday was %s\n' "$(date +%Y)", "$(date +%D -d yesterday)"
@@ -7451,7 +7416,6 @@
 : 1666935505:0;printf '%s' $(date)
 : 1666935505:0;printf '%s ' $(date)
 : 1666935505:0;printf '%s ' $(date -%a)
-: 1666935505:0;manv date
 : 1666935505:0;printf '%s ' $(date '%a')
 : 1666935505:0;printf '%s ' $(date '+%a')
 : 1666935505:0;printf '%s\n ' $(date '+%a')
@@ -7493,9 +7457,7 @@
 : 1666935505:0;v sh.sh
 : 1666935505:0;cd .local
 : 1666935505:0;v runterm
-: 1666935505:0;bash
 : 1666935505:0;v /home/steff007/.zshrc
-: 1666935505:0;tmux ls
 : 1666935505:0;fd --changed-within 3mins -x rm
 : 1666935505:0;se 'rm'
 : 1666935505:0;f n.sh
@@ -7520,7 +7482,6 @@
 : 1666935505:0;lts | head
 : 1666935505:0;fd -H -I
 : 1666935505:0;fd -H -I -x stat
-: 1666935505:0;manv stat
 : 1666935505:0;lt init
 : 1666935505:0;v init
 : 1666935505:0;cat init
@@ -7550,7 +7511,6 @@
 : 1666935505:0;cat some
 : 1666935505:0;init
 : 1666935505:0;v some
-: 1666935505:0;v functions.sh
 : 1666935505:0;v zz
 : 1666935505:0;cat zz
 : 1666935505:0;sc zz
@@ -7604,7 +7564,6 @@
 : 1666935505:0;for a in {1..5000000000}; do echo $a;done
 : 1666935505:0;for a in {1..5000000}; do echo $a;done
 : 1666935505:0;for a in {1..5000000}; do echo $a;done &
-: 1666935505:0;htop
 : 1666935505:0;pstree
 : 1666935505:0;pstree -aux 
 : 1666935505:0;pstree -p
@@ -7619,7 +7578,6 @@
 : 1666935505:0;v vimhist.txt
 : 1666935505:0;v /usr/share/nvim/runtime/syntax/vim/generated.vim
 : 1666935505:0;rg aalia
-: 1666935505:0;rg bash
 : 1666935505:0;head .bashrc
 : 1666935505:0;rg 'cyan'
 : 1666935505:0;head -n 20 .bashrc
@@ -7641,7 +7599,6 @@
 : 1666935505:0;fda -d 2 'ignore'
 : 1666935505:0;v -o .gitignore .ignore
 : 1666935505:0;rg --max-depth 2 --no-ignore-dot --no-ignore 'cyan' .
-: 1666935505:0;v .bashrc
 : 1666935505:0;grep 'frumious'
 : 1666935505:0;cd winp
 : 1666935505:0;\rm file.sh.shY-sh.shm-sh.shd-sh.shH-sh.shM-sh.shS
@@ -7771,7 +7728,6 @@
 : 1666935505:0;take -a history
 : 1666935505:0;\rm -a
 : 1666935505:0;\rm '-a'
-: 1666935505:0;fd 'a'
 : 1666935505:0;fd '-a'
 : 1666935505:0;fd '\-a'
 : 1666935505:0;fd '\-a' | xargs rm
@@ -7780,7 +7736,6 @@
 : 1666935505:0;echo $BASH_ALIASES
 : 1666935505:0;echo "$BASH_ALIASES"
 : 1666935505:0;[[ -v $PATH ]]
-: 1666935505:0;echo $PATH
 : 1666935505:0;[[ -v $PATHSS ]]
 : 1666935505:0;[[ -v $a ]]
 : 1666935505:0;se '['
@@ -7789,7 +7744,6 @@
 : 1666935505:0;touch a
 : 1666935505:0;[[ -e a ]] || echo 'no'
 : 1666935505:0;v scripts/zcorrupt.sh
-: 1666935505:0;cd junk
 : 1666935505:0;wget 'https://raw.githubusercontent.com/numToStr/dotfiles/master/neovim/.config/nvim/init.lua'
 : 1666935505:0;chmod 754 init.lua
 : 1666935505:0;wget 'https://raw.githubusercontent.com/numToStr/dotfiles/master/neovim/.config/nvim/lua/numToStr/settings.lua'
@@ -7803,14 +7757,11 @@
 : 1666935505:0;cd nvim
 : 1666935505:0;mv init.vim init.bak
 : 1666935505:0;v settings.lua
-: 1666935505:0;v yv.sh
 : 1666935505:0;mv init.bak init.vim
 : 1666935505:0;echo llllllllll
 : 1666935505:0;wget 'https://raw.githubusercontent.com/numToStr/dotfiles/master/neovim/.config/nvim/lua/numToStr/autocmd.lua'
 : 1666935505:0;fda -elua | xargs chmod 777
 : 1666935505:0;v -o ye.sh yv.sh
-: 1666935505:0;bash yv.sh
-: 1666935505:0;vinit
 : 1666935505:0;mv init.vim ..
 : 1666935505:0;type -a v
 : 1666935505:0;type -a nvim
@@ -7831,13 +7782,11 @@
 : 1666935505:0;left
 : 1666935505:0;left | head
 : 1666935505:0;alias nvim
-: 1666935505:0;printenv | v -
 : 1666935505:0;cd .config/nvim
 : 1666935505:0;git add .
 : 1666935505:0;git commit -am "added lua files"
 : 1666935505:0;glst () {\n  printf '%s\n' "git log --stat | vim -"\n  read\n  #git log --stat | nvim -\n: 1666768445:0;glst
 : 1666935505:0;nvim --headless -c 'call mkdir(stdpath("config"), "p") | exe "edit" stdpath("config") . "/init.lua" | write | quit'
-: 1666935505:0;alias v
 : 1666935505:0;alias v | clip
 : 1666935505:0;alias | rg clip
 : 1666935505:0;alias v | cl
@@ -7874,7 +7823,6 @@
 : 1666935505:0;cp init.vim nvim
 : 1666935505:0;unalias v
 : 1666935505:0;alias v="nvim"
-: 1666935505:0;winh
 : 1666935505:0;cd Downloads
 : 1666935505:0;fd 'morn'
 : 1666935505:0;cd you
@@ -7883,7 +7831,6 @@
 : 1666935505:0;fd 'dutch'
 : 1666935505:0;fd 'orlean'
 : 1666935505:0;fd 'orl'
-: 1666935505:0;ps -aux | rg 'py'
 : 1666935505:0;cd kb
 : 1666935505:0;fd '_mp3'
 : 1666935505:0;fd 'wor.*_mp3'
@@ -7894,7 +7841,6 @@
 : 1666935505:0;fd ' '
 : 1666935505:0;fd ''' -exec rename "s/_mp3/\.mp3/g" #!good replace  names
 : 1666935505:0;fd '\''
-: 1666935505:0;fd "[^a-zA-Z0-9]" -exec rename "s/[^a-zA-Z0-9]/_/g" #!good replace garbage names
 : 1666935505:0;fd "'"
 : 1666935505:0;fd "__" -exec rename "s/_*/_/g" #!good replace garbage names
 : 1666935505:0;fd "_\w'
@@ -7917,7 +7863,6 @@
 : 1666935505:0;fd '[a-zA-Z]mp3$' | nl
 : 1666935505:0;fd '[a-zA-Z]mp3$' | xargs rename "s/mp3/\.mp3/g"
 : 1666935505:0;fd '[a-z]mp3$' | nl
-: 1666935505:0;cd all
 : 1666935505:0;git pull
 : 1666935505:0;git fetch
 : 1666935505:0;se 'git.*ori'
@@ -7932,21 +7877,13 @@
 : 1666935505:0;se 'git.*vv'
 : 1666935505:0;se 'git.*log'
 : 1666935505:0;git log --stat | v -
-: 1666926442:0;h3
-: 1666926481:0;his
 : 1666926492:0;v .cache/zsh/history
-: 1666926831:0;bas
-: 1666926849:0;v ye.sh
-: 1666926892:0;bash ye.sh
-: 1666929087:0;c
-: 1666929109:0;cd
 : 1666929164:0;printf "put ='foo'\n%%print\n" | nvim -es
 : 1666929198:0;\rm -rf lll
 : 1666929232:0;v h.sh
 : 1666929638:0;sh test.sh
 : 1666929683:0;sc test.sh
 : 1666929867:0;sc test.sh a
-: 1666929897:0;echo $a
 : 1666929924:0;sc test.sh 
 : 1666929941:0;a ="something"
 : 1666929948:0;a="something"
@@ -7957,19 +7894,14 @@
 : 1666930193:0;sc test.sh 'find .' 'fda'
 : 1666930208:0;manv hyperfine
 : 1666930372:0;alias hp="hyperfine "
-: 1666930380:0;hp ls
 : 1666930404:0;type -a hp
 : 1666930425:0;hyperfine ls
-: 1666930442:0;hp 'ls -lhrt'
 : 1666930460:0;hp 'ls -lhrt' 2>/dev/null
 : 1666930549:0;chmod 754 test.sh
 : 1666930671:0;./test.sh 'ls -lhrt'
-: 1666930689:0;v test.sh
-: 1666930708:0;./test.sh 'ls'
 : 1666930722:0;./test.sh 'ls' 2>/dev/null
 : 1666930749:0;./test.sh 'ls -l' 2>/dev/null
 : 1666930760:0;./test.sh 'ls -l' 2>err
-: 1666930767:0;cat err
 : 1666930959:0;bash --debugger
 : 1666931200:0;arguments () {\
         echo The function location is $0\
@@ -7987,70 +7919,34 @@ arguments hello world
 : 1666931324:0;type -a arguments
 : 1666931333:0;type -a argumentss
 : 1666931346:0;type -f arguments
-: 1666934389:0;cd hyper
 : 1666934404:0;v mail.py
 : 1666934771:0;alias fda
 : 1666934898:0;v n
-: 1666934908:0;v
 : 1666934937:0;v nn
-: 1666934944:0;lt
 : 1666934957:0;\rm nn
 : 1666935131:0;OPTS="-avr --delete --progress --exclude=${EXCLUDE} --delete-excluded"
 : 1666935267:0;echo ${OPTS[@]}
 : 1666935314:0;OPTS=" - lhrt"
-: 1666935323:0;ls
 : 1666935355:0;ls ${OPTS[@]}
 : 1666935369:0;ls "${OPTS[@]}"
 : 1666935388:0;ls - lhrt
 : 1666935396:0;ls -lhrt
 : 1666935418:0;op="-lhrt"
 : 1666935427:0;ls "${op[@]}"
-: 1666935471:0;pwd
 : 1666935478:0;pwd | cl
 : 1666935494:0;cd /home/steff007/hyper
-: 1666935505:0;exit
 : 1666935519:0;v .
-: 1666936088:0;v
-: 1666936413:0;vinit
-: 1666936482:0;v
-: 1666936503:0;vinit
-: 1666936542:0;v
 : 1666936550:0;alias v
 : 1666936618:0;alias v="nvim -u /home/steff007/.config/nvim/init.vim"
-: 1666936619:0;v
-: 1666936657:0;lt
-: 1666936661:0;v test.sh
-: 1666936738:0;vinit
-: 1666936776:0;v
-: 1666936836:0;vinit
 : 1666936920:0;v
-: 1666936924:0;lt
-: 1666936928:0;v test.sh
 : 1666936982:0;vinitv ini
-: 1666936993:0;vinit
-: 1666937187:0;his
-: 1666937315:0;lt
 : 1666937408:0;./test.sh 'ls -l'
-: 1666937417:0;./test.sh 'ls'
-: 1666937442:0;v test.sh
-: 1666937515:0;./test.sh 'ls'
-: 1666937540:0;v test.sh
-: 1666937583:0;./test.sh 'ls'
-: 1666937598:0;v test.sh
-: 1666937626:0;./test.sh 'ls'
 : 1666937633:0;./test.sh 'ls lt'
-: 1666937648:0;./test.sh '-ls lt'
-: 1666937662:0;v test.sh
-: 1666937715:0;./test.sh '-ls lt'
-: 1666937749:0;v test.sh
-: 1666937763:0;./test.sh '-ls lt'
-: 1666937778:0;v test.sh
 : 1666937800:0;./test.sh '-ls lt'
 : 1666937808:0;./test.sh '-ls'
 : 1666937813:0;./test.sh 'ls'
 : 1666937854:0;./test.sh 'ls dir'
 : 1666937878:0;./test.sh 'ls pwd'
-: 1666937886:0;pwd
 : 1666937896:0;type -a pwd
 : 1666937905:0;./test.sh 'pwd'
 : 1666937931:0;hp
@@ -8060,29 +7956,20 @@ arguments hello world
 : 1666937990:0;hp '\ls -l' \pwd
 : 1666938035:0;hp '\pwd' \pwd
 : 1666938090:0;hp "curl www.google.com"
-: 1666940279:0;v j
-: 1666940352:0;lt
 : 1666940358:0;./j
 : 1666940365:0;v j
-: 1666940472:0;./j.sh a
-: 1666940477:0;lt
 : 1666940489:0;\rm j
 : 1666940505:0;chmod 754 j.sh
-: 1666940511:0;./j.sh a
-: 1666940525:0;v j.sh
 : 1666940828:0;date +"%B"
 : 1666940843:0;date +"%B%A"
 : 1666940846:0;date +"%B %A"
-: 1666940917:0;number=$(ls -l $d | wc -l)
 : 1666940936:0;d='~'
-: 1666940938:0;number=$(ls -l $d | wc -l)
 : 1666940949:0;d='~/'
 : 1666940950:0;number=$(ls -l $d | wc -l)
 : 1666940978:0;echo "Enter a directory."\
 read directory\
 number=$(ls -l $directory | wc -l)\
 echo "There are $number files in $directory"
-: 1666941021:0;his
 : 1666941052:0;d='.'; number=$(ls -l $d | wc -l)
 : 1666941060:0;echo $number
 : 1666941107:0;ls $number
@@ -8096,96 +7983,47 @@ echo "$A"
 : 1666941319:0;ls $a
 : 1666941343:0;a="ls -lhrt"
 : 1666941354:0;hyperfine $a
-: 1666941390:0;lt
 : 1666941393:0;v test.sh
-: 1666941406:0;lt
-: 1666941409:0;v j.sh
-: 1666941463:0;./j.sh a
-: 1666941473:0;v j.sh
 : 1666941487:0;./j.sh a
-: 1666941490:0;./j.sh a b
-: 1666941508:0;v j.sh
-: 1666941528:0;./j.sh a b
-: 1666941533:0;v j.sh
-: 1666941670:0;./j.sh a b
-: 1666941680:0;v j.sh
-: 1666941749:0;./j.sh a b
-: 1666941759:0;v j.sh
-: 1666941784:0;./j.sh a b
-: 1666941881:0;v j.sh
-: 1666941899:0;./j.sh a b
-: 1666941919:0;v j.sh
 : 1666941932:0;./j.sh a b
-: 1666941956:0;./j.sh ls -lhrt
-: 1666941974:0;v j.sh
 : 1666942044:0;./j.sh ls
-: 1666942060:0;./j.sh ls -lhrt
 : 1666942082:0;v j.sh
 : 1666942111:0;./j.sh 'ls -lhrt'
 : 1666942120:0;./j.sh ls -lhrt
 : 1666942150:0;hp 'ls -lhrt'
 : 1666942251:0;cdm(){ cd "$*"; }
 : 1666942259:0;cdm ~
-: 1666942278:0;d
 : 1666942280:0;1
 : 1666942303:0;hiscdm ~
-: 1666942308:0;his
 : 1666942322:0;cdm(){ ls "$*"; }
-: 1666942328:0;cdm /etc
 : 1666942349:0;lt -lhrt /etc
-: 1666942353:0;his
 : 1666942373:0;cdm(){ ls -lhrt "$*"; }
 : 1666942378:0;cdm /etc
-: 1666942403:0;his
 : 1666942436:0;cm(){ hyperfine "$*"; }
-: 1666942448:0;his
 : 1666942458:0;cdm(){ hyperfine "$*"; }
 : 1666942471:0;cdm ls
-: 1666942483:0;cdm 'ls -lhrt'
-: 1666942510:0;his
 : 1666942554:0;cdm(){ hyperfine "$*" 2>/dev/null; }
 : 1666942558:0;cdm 'ls -lhrt'
 : 1666942573:0;cdm 'ls -lhrt' 'ls'
-: 1666942643:0;cdm "curl www.google.com"
-: 1666942666:0;lt
 : 1666943370:0;cdm "curl www.google.com"
-: 1666943459:0;lt
 : 1666943466:0;hix
-: 1666943469:0;his
-: 1666943612:0;ls *.sh
 : 1666943622:0;head a.sh
-: 1666943730:0;his
 : 1666943873:0;fd -esh | xargs head -n 2
-: 1666943915:0;lt
-: 1666943923:0;./l.sh
 : 1666943935:0;chmod 754 l.sh
 : 1666943938:0;./l.sh
 : 1666943942:0;./l.sh 1 2
-: 1666943951:0;./l.sh 1 2 "-lll"
-: 1666943996:0;lt
-: 1666943999:0;v l.sh
 : 1666944023:0;./l.sh 1 2 "-lll"
 : 1666944066:0;./l.sh 1 ls -lhrt
-: 1666944074:0;./l.sh ls -lhrt
-: 1666944098:0;v l.sh
-: 1666944120:0;./l.sh ls -lhrt
-: 1666944129:0;v l.sh
-: 1666944137:0;./l.sh ls -lhrt
-: 1666944163:0;v l.sh
 : 1666944213:0;./l.sh ls -lhrt
 : 1666944253:0;echo $d
 : 1666944255:0;echo $dd
-: 1666944267:0;c
 : 1666944274:0;v l.sh
 : 1666946255:0;eval 'ls -lhrt'
 : 1666946288:0;eval "hyperfine 'ls -lhrt'"
 : 1666946322:0;a="hyperfine 'ls -lhrt'"
-: 1666946327:0;eval $a
 : 1666946394:0;eval "hyperfine 'ls -lhrt 2>/dev/null'"
 : 1666946407:0;se 'null'
 : 1666946456:0;a="hyperfine 'ls -lhrt 2>/dev/null'"
-: 1666946461:0;eval $a
-: 1666946484:0;his
 : 1666946532:0;a="hyperfine 'ls -lhrt' 2>/dev/null"
 : 1666946535:0;eval $a
 : 1666947135:0;cm
@@ -8198,25 +8036,408 @@ echo "$A"
 : 1666947231:0;se 'fd.*vim'
 : 1666947252:0;fd kot -X nvim
 : 1666966584:0;fd -H -I -d 2 '.*rc'
-: 1666966610:0;v .zshrc
 : 1666966647:0;fd -H -I -d 2 '.*rc' | xargs rg 'bash'
-: 1666966664:0;fd -H -I -d 2 '.*rc' | xargs rg 'path'
-: 1666966672:0;c
 : 1666966675:0;fd -H -I -d 2 '.*rc' | xargs rg 'path'
-: 1666966700:0;fd -H -I -d 2 '.*rc' | xargs rg 'PATH'
 : 1666966759:0;export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:
 : 1666966763:0;LS
-: 1666966765:0;ls
-: 1666966766:0;fd
-: 1666966775:0;echo $PATH
-: 1666966787:0;i3
 : 1666966801:0;fd -H -I -d 2 '.*rc' | xargs rg 'PATH'
 : 1666966834:0;ipython3
-: 1666966854:0;sc .bashrc
-: 1666966868:0;echo $PATH
-: 1666966873:0;i3
-: 1666966912:0;his
 : 1666966979:0;fd -H -I -d 2 -esh  | xargs rg 'git'
 : 1666966998:0;fd -H -I -d 2 -esh  | xargs rg 'git' | less
 : 1666967009:0;fd -H -I -d 2 -esh  | xargs rg 'git' | v -
 : 1666967030:0;gitAll.sh
+: 1666972829:0;fda -epdf
+: 1666972910:0;alias | rg ms
+: 1666972957:0;fd | -rg 'ms.*z'
+: 1666972963:0;fd | rg 'ms.*z'
+: 1667003819:0;fda -d 2 | xargs rg 'flutter'
+: 1667003845:0;fda -tf -d 2 | xargs rg 'flutter'
+: 1667003886:0;rdh
+: 1667003891:0;fdh
+: 1667004030:0;fd --help
+: 1667004044:0;fd --help > fdh
+: 1667004048:0;v fdh
+: 1667004311:0;fd 'a'
+: 1667004319:0;fd '^a'
+: 1667004329:0;fd -d 1 '^a'
+: 1667004352:0;fd -d 1 '^a' -x echo {}
+: 1667004358:0;fd -d 1 '^a' -x echo {/}
+: 1667004370:0;fd -d 1 '^a' -x echo {/.}
+: 1667004399:0;fd -d 1 '^a' -a -x echo {/.}
+: 1667004406:0;fd -d 1 '^a' -a -x echo {}
+: 1667004425:0;fd -d 1 '^a' -a -x echo {}; cat {}
+: 1667004441:0;fd -d 1 '^a' -a -x  cat {}
+: 1667004540:0;fd -d 1 'rc' -a -x  cat {}
+: 1667004555:0;fd -d 1 -tf 'rc' -a -x  cat {}
+: 1667004587:0;fda -d 1 -tf 'rc' -a -x  cat {}
+: 1667004627:0;fda -d 1 -tf 'rc' -a -x  rg 'frumious' {}
+: 1667004654:0;fda -d 1 -tf 'rc' -a | args  rg 'frumious' {}
+: 1667004662:0;fda -d 1 -tf 'rc' -a | xargs  rg 'frumious' {}
+: 1667004686:0;fda -d 1 -tf 'rc' -a | xargs  rg 'flutter' {}
+: 1667004723:0;fda -d 1 -tf 'rc' -a 
+: 1667004737:0;fda -d 1 -tf 'rc' -a | xargs  rg 'flutter' 
+: 1667004746:0;fda -d 2 -tf 'rc' -a | xargs  rg 'flutter' 
+: 1667004753:0;fda -d 2 -tf 'rc' -a | xargs  rg 'path' 
+: 1667004796:0;rgh
+: 1667004967:0;fda -d 2 -tf 'rc' -a --ignore-case | xargs  rg 'path' 
+: 1667005123:0;l
+: 1667005231:0;export PATH="$(pwd):$PATH"
+: 1667005354:0;echo export PATH="$(pwd):$PATH"
+: 1667005394:0;echo `kk`
+: 1667005416:0;printf export PATH="$(pwd):$PATH"
+: 1667005437:0;printf 'export PATH="$(pwd):$PATH"'
+: 1667005481:0;printf '%s\n' 'export PATH="$(pwd):$PATH"'
+: 1667005556:0;sh pp.sh
+: 1667005571:0;chmod 754 pp.sh
+: 1667005592:0;pp.sh
+: 1667005606:0;b 1
+: 1667005618:0;cd jq
+: 1667005626:0;mv pp.sh pp
+: 1667005630:0;pp
+: 1667005740:0;fda -d 2 -tf 'rc' -a --ignore-case | xargs  rg --ignore-case 'path' 
+: 1667009167:0;v +8 .bashrc
+: 1667009246:0;e $PATH | v -
+: 1667009521:0;LT
+: 1667009529:0;sc path
+: 1667009651:0;printenv | v -
+: 1667009753:0;fda -d 2 -tf 'rc' -a  | xargs  rg --ignore-case 'pys'
+: 1667011368:0;fda -d 2 -tf 'rc' -a  
+: 1667011446:0;sc .bashrc
+: 1667011508:0;fd -d 1 -tf 'rc'
+: 1667011516:0;fda -d 1 -tf 'rc'
+: 1667011587:0;v .bashrc
+: 1667011800:0;ls pys
+: 1667011806:0;ipy
+: 1667011904:0;alias axit='tmux kill-server'
+: 1667011915:0;tmux
+: 1667012040:0;printf '%s\n' $(date '+%F')
+: 1667012050:0;printf '%s\n' $(date '+%F%S')
+: 1667012056:0;printf '%s\n' $(date '+%F %S')
+: 1667012067:0;printf '%s\n' $(date '+%F - %S')
+: 1667012076:0;printf '%s%s\n' $(date '+%F - %S')
+: 1667012083:0;printf '%s%s%s\n' $(date '+%F - %S')
+: 1667012115:0;manv date
+: 1667012219:0;date -d
+: 1667012268:0;date '+%s'
+: 1667012304:0;printf '%s\n' $(date '+%s')
+: 1667012317:0;printf 'epoch is %s\n' $(date '+%s')
+: 1667012522:0;fda -d 2 -tf 'rc' -a  | xargs  rg --ignore-case 'sour.*alia'
+: 1667012545:0;v .zshrc
+: 1667019126:0;v de.sh
+: 1667019316:0;chmod 754 comm.sh
+: 1667019326:0;./comm.sh
+: 1667019404:0;./comm.sh "Jim" tom
+: 1667019502:0;v comm.sh $(ls ~)
+: 1667019880:0;ls ~ | wc
+: 1667019894:0;ls ~
+: 1667020112:0;manv read
+: 1667020172:0;tldr read
+: 1667020219:0;while read line; do echo "$line"; done
+: 1667020287:0;while read line; do ls -lhrt "$line"; done
+: 1667020350:0;v pc.sh
+: 1667020734:0;bash -v
+: 1667020741:0;bash -v | less
+: 1667020878:0;bash -v de.sh
+: 1667020906:0;cat none
+: 1667020916:0;bash -v de.sh > none
+: 1667020975:0;v *.sh
+: 1667021014:0;./comm.sh $(ls ~)
+: 1667021025:0;./comm.sh $(ls ~) | less
+: 1667021051:0;./comm.sh $(ls ~) | v -
+: 1667021074:0;./comm.sh $(ls ~) 
+: 1667021086:0;v comm.sh
+: 1667021224:0;chmod 754 ff.sh
+: 1667021235:0;bash -v ff.sh
+: 1667021321:0;v ff.sh
+: 1667021328:0;bash  ff.sh
+: 1667021366:0;bash -x  ff.sh
+: 1667021525:0;v gg.sh
+: 1667021561:0;bash gg.sh
+: 1667069755:0;apt -qq list --installed nvim
+: 1667069772:0;apt list --installed
+: 1667069785:0;apt list --installed nvim
+: 1667069790:0;apt list --installed neovim
+: 1667069810:0;apt list --installed | rg 'f'
+: 1667069818:0;apt list --installed | rg '^f'
+: 1667070851:0;chmod 777 debug.log
+: 1667070868:0;chmod 770 debug.log
+: 1667070881:0;chmod 750 debug.log
+: 1667070943:0;chmod 754 debug.log
+: 1667083715:0;v bookmarks_10_29_22.html
+: 1667088942:0;wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+: 1667088948:0;v install.sh
+: 1667089225:0;lkkkk>err 2>&1
+: 1667089229:0;cat err
+: 1667089239:0;lkkkk>err
+: 1667089466:0;chmod 755 co
+: 1667089601:0;let "var1 = 5"; echo $var1
+: 1667089797:0;bash co
+: 1667089821:0;head -n2 duh.txt
+: 1667089830:0;head -n2 co
+: 1667089837:0;head -n2 *.sh
+: 1667089870:0;head co
+: 1667089879:0;head ff
+: 1667089885:0;head ff.sh
+: 1667089895:0;ls *.sh
+: 1667089905:0;head re.sh
+: 1667093639:0;cat co
+: 1667094411:0;cat file
+: 1667094419:0;\rm file
+: 1667094426:0;echo $PATH
+: 1667094544:0;InfoWarslt
+: 1667094547:0;ot
+: 1667094603:0;read -p 'Username: ' uservar
+: 1667094657:0;v co
+: 1667094691:0;./co
+: 1667094717:0;fd
+: 1667094735:0;fd | xargs rg "read.*p"
+: 1667094771:0;v rg.sh
+: 1667094819:0;mv rg.sh tx.sh
+: 1667094845:0;chmod 755 tx.sh
+: 1667094910:0;fd | xargs tx.sh
+: 1667095064:0;fd -x tx.sh > kk
+: 1667095068:0;sc kk
+: 1667096051:0;stat -f kk
+: 1667096145:0;stat --format="%F" /dev/null
+: 1667096151:0;stat --format="%F" kk
+: 1667096178:0;stat --printf='Name: %n\nPermissions: %a\n' /etc
+: 1667096238:0;#%y     time of last data modification, human-readable
+: 1667096264:0;stat --printf='Name: %y\nPermissions: %a\n' /etc
+: 1667096304:0;stat --printf='mod: %y\n' /etc
+: 1667096368:0;touch kk
+: 1667096370:0;stat --printf='mod: %y\n' kk
+: 1667096422:0;manv stat
+: 1667096467:0;stat --printf='name %n mod: %y\n' kk
+: 1667096481:0;stat --printf='name: %n mod: %y\n' kk
+: 1667096549:0;stat --printf='name: %n access: %x    mod: %y\n' kk
+: 1667096571:0;stat --printf='name: %n \t access: %x    mod: %y\n' kk
+: 1667096614:0;cat kk
+: 1667096619:0;stat --printf='name: %n \t access: %x\tmod: %y\n' kk
+: 1667096805:0;v tx.sh
+: 1667096890:0;fd -x tx.sh
+: 1667096928:0;fd -x tx.sh | sort | v -
+: 1667096944:0;fd -x tx.sh | sort
+: 1667096976:0;fd -d 1 -x tx.sh | sort
+: 1667097013:0;fd -d 1 -x tx.sh | sort | v -
+: 1667097066:0;fd /etc -d 1 -x tx.sh | sort | v -
+: 1667097077:0;fd . '/etc' 
+: 1667097086:0;fd . '/etc' -tf
+: 1667097092:0;fd . '/etc' -tf -d 1
+: 1667097470:0;v /etc/rpc
+: 1667097491:0;fd . '/etc' -tf -d 1 -x ~/junk/tx.sh | sort | v -
+: 1667097607:0;v  /etc/screenrc
+: 1667097695:0;v  /etc/wgetrc
+: 1667097722:0;v  /etc/debconf.conf
+: 1667097755:0;v /var/cache/debconf/config.dat
+: 1667100359:0;stat --help
+: 1667100374:0;stat --help | v -
+: 1667100422:0;date --help | v -
+: 1667100506:0;TZ='America/Chicago' date
+: 1667100524:0;date
+: 1667100541:0;TZ='America/new_york' date
+: 1667100562:0;TZ='America/New_York' date
+: 1667100578:0;TZ='London' date
+: 1667100703:0;j
+: 1667100712:0;set j
+: 1667100718:0;j=`ls -lhrt`
+: 1667100721:0;echo $j
+: 1667100747:0;alias | rg mk
+: 1667100763:0;ls f*
+: 1667100768:0;cat functions.sh
+: 1667100783:0;type -a vdiff
+: 1667100793:0;type -f vdiff
+: 1667100813:0;compgen -c 
+: 1667100835:0;compgen -c | column | v -
+: 1667100869:0;compgen -f | column | v -
+: 1667100924:0;type -f vimhist.txt
+: 1667100936:0;type -a vimhist.txt
+: 1667100941:0;compgen -f |  v -
+: 1667100976:0;fd --help | v -
+: 1667100991:0;rg --help | v -
+: 1667101109:0;gawk
+: 1667101133:0;gawk -F: '{ print $1 }' /etc/passwd
+: 1667101154:0;gawk --help | v -
+: 1667101197:0;man ls
+: 1667153591:0;e $PATH
+: 1667153792:0;fd -a printf
+: 1667153800:0;type -a printf
+: 1667153946:0;type -a sh
+: 1667153961:0;type -f sh
+: 1667153969:0;type -f -a sh
+: 1667153986:0;sh --version
+: 1667153991:0;sh -version
+: 1667153999:0;sh
+: 1667163985:0;i3
+: 1667164319:0;alias | rg note
+: 1667166684:0;rm My_Way__2008_Remastered__mp3
+: 1667166705:0;\rm Somethin__Stupid__2008_Remastered__mp3
+: 1667167020:0;cat vsext.txt| column
+: 1667167033:0;v vsext.txt
+: 1667167668:0;lt -l
+: 1667171253:0;fd 'wslconfig'
+: 1667171690:0;fda 'wsl.*'
+: 1667171952:0;memHogsPs
+: 1667171955:0;mem
+: 1667172005:0;fda -d 1 -a 'wslcon'
+: 1667172026:0;fda -d 1 -a 'wslcon' -x vim
+: 1667172036:0;fda -d 1 -a 'wslcon' -x v
+: 1667172051:0;fda -d 1 -a 'wslcon' -X nvim
+: 1667172057:0;fda -d 1 -a 'wslcon' -x nvim
+: 1667172069:0;fda -d 1 -a 'wslcon' | xargs nvim
+: 1667172135:0;free -g -h -t
+: 1667172178:0;d
+: 1667172187:0;free -g -h -t 
+: 1667172601:0;free -g -h -t > before
+: 1667172634:0;free -g -h -t > after
+: 1667172645:0;v before after
+: 1667172701:0;winh
+: 1667172714:0;v .wslconfig
+: 1667172765:0;h3
+: 1667172778:0;v -o before after
+: 1667173215:0;exi
+: 1667173370:0;free -h
+: 1667173436:0;mps
+: 1667173547:0;se 'help'
+: 1667173555:0;cat --help | v -
+: 1667173658:0;vinit
+: 1667173693:0;v line.txt
+: 1667173785:0;tr -d '\r' < line.txt > gline.txt
+: 1667173789:0;cat -v line.txt
+: 1667173796:0;cat -v gline.txt
+: 1667175044:0;cd ditto
+: 1667175060:0;v x.txt
+: 1667176123:0;se 'tran'
+: 1667176131:0;se 'td'
+: 1667181373:0;se 'replace'
+: 1667181388:0;fd "[^a-zA-Z0-9]" -exec rename "s/[^a-zA-Z0-9]/_/g" #!good replace garbage names
+: 1667181476:0;fd "_+" -exec rename "s/_+/_/g" #!good replace mult underscore names
+: 1667181593:0;fd "Frank" -exec rename "s/Frank_Sinatra_//g" #!good replace mult underscore names
+: 1667181785:0;mv ___I_Don_t_Stand_a__Ghost_of_a_Chance_With_You_mp3 Dont_stand.mp3
+: 1667181827:0;fd "_mp3" -exec rename "s/_mp3/\.mp3/g" #!good replace mult underscore names
+: 1667182162:0;bas
+: 1667182420:0;bash ye.sh
+: 1667183645:0;v ye.sh
+: 1667183892:0;htop
+: 1667184033:0;ps -aux | rg 'py'
+: 1667184152:0;v yv.sh
+: 1667184173:0;bash yv.sh
+: 1667184219:0;cd you/gut
+: 1667184231:0;fd 'cover'
+: 1667184238:0;fd 'cover' -X lt
+: 1667184247:0;fd 'cover' -X ls -lhrt
+: 1667188277:0;pwd
+: 1667188300:0;c=$(pwd)
+: 1667188302:0;e $c
+: 1667188309:0;alias c
+: 1667188314:0;alias 3
+: 1667188326:0;alias e
+: 1667188376:0;printf '%s\n' "$1"
+: 1667188416:0;ppp() { printf '%s\n' "$1" }
+: 1667188421:0;ppp c
+: 1667188425:0;ppp $c
+: 1667188452:0;type -a c
+: 1667188507:0;p() { printf '%s\n' "$1" }
+: 1667188513:0;p $path
+: 1667188518:0;p $PATH
+: 1667188545:0;ls --help | v -
+: 1667188630:0;mc
+: 1667188636:0;cd you/frank
+: 1667188644:0;fd _mp3
+: 1667188665:0;rm Nice_Work_If_You_Can_Get_It_mp3 Nice_work.mp3
+: 1667188683:0;mv Nice_Work_If_You_Can_Get_It_mp3 Nice_work.mp3
+: 1667188712:0;fd "\s"
+: 1667189324:0;tmux split-window -p 75
+: 1667189424:0;split-window -h -c "#{pane_current_path}"
+: 1667189436:0;tmux split-window -h -c "#{pane_current_path}"
+: 1667189553:0;tmux neww
+: 1667189649:0;fda -d 1 'tmux'
+: 1667189654:0;v .tmux.conf
+: 1667189767:0;tmux new-window -c "$PWD"
+: 1667189785:0;p $PWD
+: 1667189795:0;type -a p
+: 1667189814:0;type -a se
+: 1667189827:0;type -f se
+: 1667189917:0;v functions.sh
+: 1667189945:0;he() { $1 --help | nvim - }
+: 1667189959:0;he printf
+: 1667189970:0;he ls
+: 1667189977:0;he fd
+: 1667189984:0;h3 date
+: 1667190019:0;his
+: 1667190063:0;alias t7='tmux split-window -p 75'
+: 1667190080:0;lfcd
+: 1667190152:0;axit
+: 1667190157:0;tmux ls
+: 1667190243:0;he date
+: 1667190312:0;set 'date'
+: 1667190320:0;se 'date.*\$'
+: 1667190390:0;zsh
+: 1667190449:0;v .bashrc .zshrc
+: 1667191202:0;type -a history
+: 1667191286:0;fd 
+: 1667191312:0;fd -esh | xargs rg 'hyperfine'
+: 1667191320:0;fd -esh | xargs rg 'bash'
+: 1667191369:0;se 'rg.*ig'
+: 1667191381:0;rg bash
+: 1667191397:0;u
+: 1667191423:0;cd hyper
+: 1667191425:0;lt
+: 1667191429:0;rg hyperfine
+: 1667191646:0;he rg
+: 1667191745:0;rg hyperfine --files
+: 1667191755:0;rg --files
+: 1667191773:0;fd --files
+: 1667191794:0;rg 'bash' -l
+: 1667191815:0;ls
+: 1667191835:0;rg --file jp.sh '.*'
+: 1667191847:0;fc
+: 1667191871:0;rg '.*' --file jp.sh 
+: 1667191883:0;rg 'j'
+: 1667191901:0;rg 'frum'
+: 1667192119:0;rg 'frum' --sort accessed
+: 1667192129:0;rg 'frum' --sort accessed | v p
+: 1667192163:0;v qqq
+: 1667192186:0;rg 'frum' --sort accessed | v -
+: 1667193489:0;rg 'frum' --stats
+: 1667193504:0;fd --stats
+: 1667193563:0;c
+: 1667194048:0;neww -c "#{pane_current_path}" man tmux
+: 1667194054:0;bash
+: 1667194210:0;cd junk
+: 1667194212:0;tmux new-window -c "#{pane_current_path}" nvim
+: 1667194233:0;tmux new-window -c "#{pane_current_path}" zsh
+: 1667194247:0;tmux new-window -c "#{pane_current_path}" bash
+: 1667194322:0;..
+: 1667194325:0;...
+: 1667194328:0;cd
+: 1667194403:0;type -a tmux
+: 1667194414:0;type -a neww
+: 1667194434:0;t7
+: 1667194444:0;exit
+: 1667249560:0;c
+: 1667249572:0;set 'shell'
+: 1667249579:0;se 'shell'
+: 1667249592:0;fd -esh
+: 1667249603:0;shellcheck ~/functions.sh
+: 1667249621:0;fd 'bash'
+: 1667249627:0;lt
+: 1667249676:0;v .
+: 1667260579:0;v
+: 1667260809:0;v 
+: 1667260906:0;lt
+: 1667265512:0;free -h
+: 1667280825:0;winh
+: 1667280829:0;cd Downloads
+: 1667280834:0;fd 'sch'
+: 1667280843:0;v essays_of_schopenhauer_2107_librivox.zip
+: 1667280934:0;wi unzip
+: 1667280989:0;md /mnt/c/scho
+: 1667280992:0;lt
+: 1667281025:0;unzip essays_of_schopenhauer_2107_librivox.zip -d /mnt/c/scho
+: 1667281072:0;mc
+: 1667281078:0;cd scho
+: 1667281079:0;lt
+: 1667324502:0;cd
+: 1667324514:0;fd -d 2 'git'
+: 1667324530:0;l
+: 1667324543:0;gitAll.sh
