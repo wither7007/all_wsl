@@ -1,5 +1,3 @@
-decentral land
-14 billion
 partners@pcsforpeople.com
 
 fairview
@@ -60,6 +58,9 @@ To kill process in Linux with PID:
 kill -9 pid
 Want to kill process in Linux with application name? Try:
 killall -9 appname
+
+good link explanation
+https://stackoverflow.com/questions/72729555/is-there-a-way-to-still-use-symbolic-link-for-gitignore-and-why-its-not-suppo
 
 ^M
 https://github.com/koalaman/shellcheck/wiki/SC1017
