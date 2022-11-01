@@ -2461,3 +2461,749 @@ u
 ls ch*
 lt ch*
 rm chis
+git commit -am "Golden 3:30"
+gst
+git push
+c
+l
+fd q
+gst
+git fetch
+gst
+v zzzz
+gst
+git add .
+git commit -am "time 3:38"
+gst
+git push
+c
+v
+gst
+git fetch
+gst
+git show
+git log | v -
+lt
+git show
+git pull
+v zzzz 
+gst
+git commit -am "4:11"
+git log | v -
+git stat -vv
+se 'git.*stat'
+lt
+rg 'git' gcloud_his 
+git status -vv
+rg 'git.*log' gcloud_his 
+git log --stat | v -
+git diff
+gst
+git diff HEAD^..
+c
+git diff HEAD^..
+git diff HEAD^^..
+git diff HEAD^..
+c
+git diff HEAD^..
+v zzzz 
+gst
+git diff
+gst
+git commit -am "two changes"
+GST
+gst
+git push
+lt
+gst
+c
+git fetch
+gst
+git diff
+git show
+git diff --name-only main origin/main 
+git diff  main origin/main 
+git merge
+lt
+v zzzz 
+h3
+git diff HEAD^..
+git log 
+l
+git diff HEAD^.. ipy
+git diff HEAD^.. zzzz
+git diff HEAD^.. -name-status
+git diff HEAD~5 HEAD –name-status
+git diff HEAD~5 HEAD 
+c
+git diff HEAD~5 HEAD 
+git diff HEAD~15 HEAD 
+git diff HEAD~15 HEAD --git-status
+git diff --name-only HEAD~15 HEAD
+c
+git diff --name-only HEAD~15 HEAD
+lt
+u
+ls *.sh
+./chis.sh 
+cd -
+dirs
+gst
+git diff
+lt
+wc gcloud_his 
+gst
+git commit -am "final library gcloud_his"
+git push
+cd all_wsl/
+lt
+left
+u
+lt
+ls f*
+find . -maxdepth 1
+manv find
+c
+manv find
+exit
+l
+find -name data
+h3
+find -maxdepth -name data
+find -maxdepth 1 -name data
+cd all_wsl/
+gst
+u
+cd all
+c
+cd all_wsl/
+lt
+cloud edit
+gcloud edit
+lt
+cd all_wsl/
+lt
+gcloud edit gcloud_his
+u
+cloudshell edit ~/.bashrc
+cat ~/.bash_history
+cd all_wsl/
+lt
+cd /mnt
+l
+ls
+la
+u
+ls
+his
+lt
+csh chis.sh 
+gse chis
+gse
+gse blank.sh
+lt
+chmod 754 blank.sh 
+lt
+./blank.sh 
+rm blank.sh 
+lt
+chmod 754 install.sh 
+lt
+./install.sh 
+rgh
+man rg
+fd -tf -d 1 | xargs rg "bash"
+gst
+fdc
+alias
+alias | column 
+als
+alias | column
+his
+type -a his
+type -a hi
+history
+history | column
+lt | awk '{print $5 " " $9}'
+lt | awk '{print $5 " " $9}' | column
+cd all_wsl/
+u
+fd -d 1 -esh
+fd -d 1 -esh | xargs rg 'git'
+cat chis.sh
+gst
+git add .
+gst
+v .bash_aliases 
+gst
+git diff
+git diff
+git diff | v -
+c
+gst
+git commit -am "golden root update"
+gst
+gst -vv
+git log --stat | v -
+fd -esh
+cd all_wsl/
+gst
+git fetch
+gst
+c
+git diff --name-only main origin/main 
+git diff main origin/main 
+git diff main origin/main  | v -
+git mergec
+git merge
+git diff main origin/main  | v -
+git pull
+git log 
+git log --oneline 
+c
+u
+gt
+gst
+ld
+c
+fdc
+tree
+rgh
+vim all_wsl/note/notes 
+cd all_wsl/note/
+lt
+u
+gst
+git diff
+c
+h3
+exit
+./chis.sh 
+vim ~/all_wsl/note/notes 
+alias vmn='vim ~/all_wsl/note/notes'
+vmn
+fda
+fda keymaps
+fda keymaps -X v
+fda keymaps -X vim
+c
+fda bindings
+fda keymaps
+fda keymaps -x vim
+fda keymaps -X vim
+h3
+c
+ls
+exit
+tmux ls
+ls -l | awk '{ for (i = 3; i <= 8; ++i) printf $i" "; print ""}' 
+echo $PATH
+printenv
+printenv | v 
+printenv | v -
+c
+cat /etc/os-release 
+uname -r
+printf '%s\n' "$(uname -r)"
+printf '%s\n' "linux kernel $(uname -r)"
+uname -a
+cat /etc/os-release 
+~/chis.sh 
+cd all_wsl/
+lt
+v bash_history 
+u
+date
+cat chis.sh 
+lt
+fdc
+v chis.sh 
+./chis.sh 
+cd all_wsl/
+lt
+v bash_history 
+cat /etc/os-release 
+his
+exit
+bash
+mem
+c
+u
+find / -type d -perm 777 -print 
+find / -type d -perm 777 -print | less
+find ~ -type d -perm 777 -print | less
+find ~ -type d -perm 777 -print 
+lt
+find ~ -type d -perm 754 -print 
+alias | rg vim
+vmn
+cd all_wsl/
+gst
+cat bash_history 
+lt
+awk '!a[$0]++' bash_history | v -
+cd .
+cd ..
+./chis.sh 
+awk '!a[$0]++' bash_history > history_awk
+lt
+v history_awk 
+vmn
+lt
+v .
+u
+v .
+v ~/func
+lt f*
+cat fun
+date
+c
+i3
+cd all_wsl/
+gst
+git add .
+gst
+git commit -m "good awk unique"
+gst
+git push
+h3 | rg git
+git show
+c
+bash
+sed -E 's/[AP]M/xx/gm;t;d' <<< " Thursday, October 27, 2022:
+Ravens      5-3 @ Buccaneers  3-5    27-22   
+  Sunday, October 30, 2022:
+Broncos     2-5 @ Jaguars     2-5  @  8:30 AM
+Panthers    2-5 @ Falcons     3-4  @ 12:00 PM
+Bears       3-4 @ Cowboys     5-2  @ 12:00 PM
+Dolphins    4-3 @ Lions       1-5  @ 12:00 PM
+Cardinals   3-4 @ Vikings     5-1  @ 12:00 PM
+Raiders     2-4 @ Saints      2-5  @ 12:00 PM
+Patriots    3-4 @ Jets        5-2  @ 12:00 PM
+Steelers    2-5 @ Eagles      6-0  @ 12:00 PM
+Titans      4-2 @ Texans    1-4-1  @  3:05 PM
+Commanders  3-4 @ Colts     3-3-1  @  3:25 PM
+49ers       3-4 @ Rams        3-3  @  3:25 PM
+Giants      6-1 @ Seahawks    4-3  @  3:25 PM
+Packers     3-4 @ Bills       5-1  @  7:20 PM
+  Monday, October 31, 2022:
+Bengals     4-3 @ Browns      2-5  @  7:15 PM
+
+  Byes: 
+Chargers 4-3
+Chiefs 5-2"
+v reg.txt
+lt
+cd all_wsl/
+lt
+ln -s vim_comm.txt vvvv
+lt
+v vvvv
+cd all_wsl/
+lt
+gst
+git pull
+gst
+git log --stat | v -
+git log | v -
+u
+c
+ls f*
+cat fc.sh 
+rm fc.sh
+ls f*
+cat fun
+ls
+ls *.sh
+v install.sh 
+./install.sh 
+lt
+ln -s vim_comm.txt all_wsl/vim_comm.txt
+cd all_wsl/
+gst
+vit add .
+git commit -am "added vim history"
+git add .
+git commit -am "added vim history"
+gst
+git push
+lt
+v vim_comm.txt 
+cat vim_comm.txt 
+u
+lt
+history
+als
+hi
+history 5
+als
+hi 6
+l
+alias lt
+ls -hrt
+l
+v vim_comm.txt 
+a='vim_comm.txt'
+v $a
+stat $a
+cat $a
+u
+find -L ./ -mindepth 15
+sudo apt get tree
+ls *.sh
+cat install.sh 
+sudo apt install tree 
+tree
+tree | v -
+tree --noreport -fp
+tree --noreport -fp | v -
+alias mkc
+alias take
+ls t*
+ls f*
+v fun
+sc fun
+mkcd rec
+mkdir -p hey/this/is/a/whole/tree
+tree
+l
+ls -r
+fd
+l
+rm -rf hey
+ls
+tree
+fd
+mkdir -p a/directory/inside{1..4}
+fd
+tree
+manv
+date +"%m"
+date +"%"
+date +"%F"
+date +"%F%N"
+date +"%F-%N"
+date +"%F_%N"
+touch $(date +"%F_%N")
+lt
+mr() { touch $(date +"%F_%N") }
+? 2+2
+? 19*2+5
+mr() { touch $(date +"%F_%N"); }
+lt
+mr
+lt
+mr() { touch $(date +"%F_%M"); }
+mr
+lt
+mr
+lt
+mr() { touch $(date +"%F_%M_S"); }
+mr
+lt
+mr() { touch $(date +"%F_%M_%S"); }
+mr
+lt
+mr
+lt
+rm *
+l
+mr
+l
+date
+mr() { touch $(date +"%F_%H_%M_%S"); }
+mr
+lt
+his
+touch {1..4}
+lt
+rm
+rm *
+l
+tree
+rm -rf a
+lt
+c
+manv date
+c
+c
+cd all_wsl/
+lt
+u
+lt
+sc install.sh 
+cd all_wsl/
+lt
+fda 'note'
+cd note/
+cat -v notes 
+gst
+tr -d '\r' <notes >notesM
+lt
+cat -v notes 
+cat -v notes | v -
+lt
+cat -v notesM | v -
+gst
+git add .
+gst
+...
+d
+v .bash_aliases 
+alias lln="ls -lhtr  --time-style long-iso | tac | cat -n | tac | sed -s 's/^\s*\([0-9]*\)\s*\(.*\)/[\1]  \2 [\1]/'g && pwd"
+function lf() {     if [ "x${1}" == "x" ];     then         n=1 ;     else         n="${1}";     fi  ;     ls -rt1 | tail -n ${n} | head -n 1; }
+lln
+ls fun
+v fun
+alias dl
+fd 'bashrc'
+fda 'bashrc'
+dl .bashrc
+exit
+exit
+cd all_wsl/
+lt
+git show
+gst
+git add .
+gst
+git pull
+fda
+als
+u
+ls in*
+c
+./install.sh 
+cd all_wsl/
+fda
+git log --stat | v -
+gst
+git commit -am "notesM"
+gst
+git push
+c
+u
+lt
+cd all_wsl/
+lt
+u
+lt
+ld
+cd junk/
+lt
+ls -i
+ls
+c
+ls
+stat one
+v one
+lt
+stat greekfile.txt 
+df -h
+df -hi
+df
+df -tH
+df -Th
+lsblk -f
+uname -a
+c
+lt
+cat jt
+ln jt xxxx
+lt
+als
+c
+lt
+trash
+sudo apt-get install trash-cli -y
+man trash
+ls --help
+tldr ls
+trash --help | v -
+lt
+rm vim_comm.txt 
+lt
+c
+u
+lt
+ln vim_comm.txt all_wsl/vim_comm.txt
+cd all_wsl/
+lt
+gst
+git add .
+gst
+git commit -am "hard linke"
+git push
+gst
+c
+lt
+l
+fd --changed-within 2days
+als
+vmn
+u
+vmn
+c
+fdi 'bash'
+fda 'bash'
+ln .bashrc all_wsl/bashrc
+cd all_wsl/
+lt
+fd 'bash'
+c
+exit
+h3
+u
+cd all_wsl/
+lt
+c
+l
+gst
+git add .
+gst
+git commit -am "added basrc"
+git log --stat | v -
+vmn
+c
+gst
+git status
+c
+git diff
+lt
+stat bashrc 
+c
+stat bashrc 
+ls -lhrt bashrc 
+gst
+git add .
+git commit -am "notes"
+gst
+git push
+c
+git diff --name-only HEAD~15 HEAD
+u
+lt
+v chis.sh 
+cd all_wsl/
+fd -esh
+fd -esh -X rg 'bash'
+fd -X rg 'bash'
+fd -X rg 'awk'
+ls gc*
+v gcloud_his 
+awk '!a[$0]++' gcloud_his | v -
+lt
+mv 'gcloud_his!' gcloud_his
+lt
+gst
+fd 'ali'
+lt wsl_aliases 
+lt
+git diff
+gst
+c
+his
+gst
+u
+ls ch*
+lt ch*
+rm chis
+./chis.sh 
+cd all_wsl/
+gst
+v gcloud_his 
+lt
+v bash_history 
+gst
+his
+v chis.sh 
+git commit -am "awk a[$0]"
+gst
+git push
+lt
+v bash_history 
+awk '!a[$0]++' bash_history > bash_unique
+lt
+gst
+git add .
+gst
+git commit -am "bash_unique"
+gst
+git push
+lt
+u
+lt
+c
+his
+v chis.sh 
+c
+ls fun
+cat fun
+ln fun all_wsl/fun
+v
+vmn
+lt
+./chis.sh 
+v chis.sh 
+cd all_wsl/
+lt
+u
+v chis.sh 
+./chis.sh 
+cd all_wsl/
+lt
+u
+v chis.sh 
+lt
+./chis.sh 
+u
+./install.sh -v
+cd all_wsl/
+lt
+v gcloud_his 
+u
+lt
+v chis.sh 
+./chis.sh 
+cd all_wsl/
+lt
+gst
+v chis.sh 
+git reset 
+gst
+git reflog
+git reflog #!interesting
+git reset --hard
+gst
+lt
+git add .
+gst
+u
+./chis.sh 
+cd all_wsl/
+lt
+git reset --hard
+gt
+lt
+gst
+awk '!a[$0]++' ~/all_wsl/gcloud_his
+./chis.sh 
+cd all_wsl/
+lt
+git reset --hard
+u
+u
+cat ~/.bash_history ~/all_wsl/gcloud_his   >> ~/all_wsl/gcloud_his
+cd all_wsl/
+lt gclo
+lt gclo*
+cat ~/.bash_history ~/all_wsl/gcloud_his   >> ~/all_wsl/gcloud_his
+cat ~/.bash_history ~/all_wsl/gcloud_his   >> ~/all_wsl/gcloud_his_u
+lt
+v chis.sh 
+./chis.sh 
+lt all_wsl/
+cd all_wsl/
+git reset --hard
+u
+v chis.sh 
