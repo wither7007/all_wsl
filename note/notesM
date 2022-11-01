@@ -1,0 +1,990 @@
+zuckerberg 77 billion
+decentral land
+14 billion
+partners@pcsforpeople.com
+
+fairview
+6320 Wedgewood Road North
+11-15 tuesday 1:10
+fetch decode execute store
+      cpu     alu
+Wednesday
+November 9th 
+8:20
+800 west Broadway ave
+
+It’s Okay to Be Smart
+
+Parameters are like placeholders for function arguments.
+
+you are a waste of life and should give up
+is what I want to say but I won't
+
+https://www.baeldung.com/linux/remove-duplicate-lines-no-sorting
+awk '!a[$0]++' bash_history | v -
+
+b=[...document.querySelectorAll('a')].map((a)=>a.href).filter((x)=>x.match('d.*moc.*bz2'))
+
+voluntary death
+
+fucking every fucking other fucking word is motherfucking fuck
+
+find . -maxdepth 1 -type f | xargs grep -n 'frumious'
+
+https://www.wandinround.com/other.html
+
+vim
+https://vi.stackexchange.com/questions/8378/dump-the-output-of-internal-vim-command-into-buffer
+:enew|pu=execute('map') 
+vert sb6
+v +/fru .bashrc
+v +4 .bashrc
+source ~/.config/init.vim
+
+type -a take
+declare -f take
+
+tmux
+resize-pane U, D
+
+Use the pidof command to find the process ID of a running program or app
+pidoff appname
+To kill process in Linux with PID:
+kill -9 pid
+Want to kill process in Linux with application name? Try:
+killall -9 appname
+
+Definition of melisma
+1: a group of notes or tones sung on one syllable in plainsong
+
+domains
+
+legal
+
+501(c)(3)
+
+code is the enemy
+code is read not written
+
+!good discusion
+fd -ejson | xargs -I '{}' mv '{}' ~/all_wsl/vscode/
+https://unix.stackexchange.com/questions/90886/how-can-i-find-files-and-then-use-xargs-to-move-them
+
+spurious correlation
+https://www.investopedia.com/terms/s/spurious_correlation.asp#:~:text=our%20editorial%20policies-,What%20Is%20Spurious%20Correlation%3F,related%20to%20some%20unseen%20confounder.
+
+h3
+fc -e v 619
+
+fd "[^a-zA-Z0-9]" -exec rename "s/[^a-zA-Z0-9]/_/g" #!good replace garbage names
+
+fd 'read' -exec rename "y/a-z/A-Z/" #!cool uppercase rename
+
+long fd/rg search
+fd -d 1 -tf -esh -x rg -H 'git'
+
+vim paste block
+press ctrl and v(or q) // start select
+press shift and i // then type in any text
+press esc esc // press esc twice
+
+
+replace wsl q macro
+G:%s///////g
+gg:%s//mnt/c///mnt//c/g
+
+radix
+bash -c 'apt-get -y install fd-find curl vim >/dev/null 2>&1 & disown'
+ apt-get install bsdmainutils
+docker run --name mysql-db -v $(pwd)/datadir:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:8.0.28-debian
+docker
+mysql --host="localhost" --user="root" --password="rootpress" 
+
+mysql --host="mysql_server" --user="user_name" --database="database_name" --password="user_password" < "path/to/sql/file.sql"
+
+jimsteffes
+615dks@476
+
+
+#!/usr/bin/env bash
+C2H6O
+
+wsl root (615dks @ 476)
+steff007 stars1
+#!/bin/bash
+#!/bin/zsh
+
+hostgator
+CreateAProWebsite
+ss card
+615dks@47678
+
+You’ve created an account with Login.gov
+We’ll share this information with SSA:
+sent a letter with activation code
+Email address
+wither7007@gmail.com
+SSA will only use this information to connect to your account.
+
+call fairview (shingles shoulder)
+1-855-324-7843
+dns renewal
+
+
+vscode switch slashes
+s///////g
+housing update
+  sent a message from wither7007@gmail.com
+four seasons
+bike gears
+
+apt-get update
+apt-get upgrade 
+
+const chunk = (arr, size) =>
+  Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>
+    arr.slice(i * size, i * size + size)
+  );
+console.log(chunk([1, 2, 3, 4, 5], 2));
+
+ts="My three favorite things are eating my family and not using commas.".split(" ")
+const arr = Array(40)
+  .fill()
+  .map(() => Math.round(Math.random() * 40));
+
+ES2015 (formally ES6)
+Francesca Stavrakopoulou
+Debit balances are normal for asset and expense accounts, and credit balances are normal for liability, equity and revenue accounts.
+ asset, liability, equity, income and expense
+A Hash or also called hash function is any algorithm that maps data of arbitrary length to data of a fixed length
+Application Specific Integrated Circuits (ASICs)
+<h1 style="font-size:10vw;">Responsive Text</h1>
+you are waste of life and you should give up
+ As George Box wrote, “All models are wrong, but some are useful.”
+and then they go there with it, and I’m like oh no they did not…
+Brazilian researcher Dr. Suzana Herculano-Houzel
+joscha bach
+it's not part of our experience
+86 billion neurons 100billion?
+100 trillion synapses
+  hormonal birth control pill.
+consciousness endures
+unix slash replace!!
+:%s///////g
+vscode settings
+cd /mnt/c/Users/jayst/AppData/Roaming/Code/User
+brain weighs in at 1300 to 1400 grams or around 3 pounds.
+ 15 centimeters long.
+zorba's full catastrophe
+Factory Reset Protection (FRP)
+ Satoshi Nakamoo
+there is no view from nowhere
+ result of selection bias (specifically survivorship bias)
+ age and the fundamental physical constants necessary to accommodate conscious life, since if either had been different, we would not have been around to make observations.
+
+dropping kites
+tell your way out of it
+misery merry go round
+
+debit accounts
+dividends
+expenses
+and assets
+
+credit accounts
+liabilities
+equity
+revenue
+
+Account	Debit (Dr)	..	Credit (Cr)
+Permanent Accounts
+Assets	Increase		Decrease
+Liabilities	Decrease		Increase
+Equity	Decrease		Increase
+
+Temporary Accounts
+Expenses	Increase		Decrease
+Revenue	Decrease		Increase
+
+git professional
+https://www.youtube.com/watch?v=Uszj_k0DGsg
+ Recovery Time Objective (RTO) 
+ Overview. CVE, short for Common Vulnerabilities and Exposures, is a list of publicly disclosed computer security flaws. 
+ with open(fname, "w", encoding="utf-8") as f:
+    f.write(html)
+ marques
+ https://youtu.be/QktKHXpEDgM
+ revenant
+: one that returns after death or a long absence
+ cyan, magenta, and yellow
+ cyan-magneta-yellow becomes corrupted to blue-red-yellow.
+most simple and most ordinary and therefore most terrible
+ Le Guin'
+One of the leading risk factors for tooth decay is an oral bacteria called Streptococcus mutans
+idempotent (multiply by 1)
+turbo console log
+height
+min-height: 50vh
+fix url hennepin streets
+learn funfun reduce
+phone streets
+Fourier analysis says that complex patterns can be created by adding up a large number of patterns as simple as sinusoidal waves
+importmap
+
+vim replace backslash forward slash
+:%s///////g
+
+AST(Abstract Syntax Trees)
+
+comedogenic
+: tending to clog pores especially by the formation of blackheads
+
+folder="."
+for count, filename in enumerate(os.listdir(folder)):
+  print(filename)
+ artificial general intelligence (AGI)
+  artificial general intelligence (AGI)1. The Imitation Game
+   bombe
+   Bletchley Park
+p value
+confidence level
+615Dks@476
+
+Does the set of all those sets that do not contain themselves contain itself?
+Such a set appears to be a member of itself if and only if it is not a member of itself.
+
+fairview
+1-855-FAIRVIEW
+6320 Wedgwood Road N.
+Maple Grove, MN 55311
+1313 Penn Avenue North
+Minneapolis, MN 55411/22 2:00
+
+
+Generative Pre-trained Transformer 3 (GPT-3) is an autoregressive language model
+A.J. Jacobs
+https://www.youtube.com/watch?v=tC91t9OvVHA
+
+5000 years ago babylonians clay
+gravity
+9.8 meters per second squared
+
+ripgrep rg -i  
+sheets api
+https://console.cloud.google.com/apis/credentials?project=youtube-325217
+AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs
+
+var b=["jim", "tom", "bill"]
+c=b.map((x)=>(`<h1> ${x}</h1>`)).join("")
+
+
+du -h --max-depth=1
+curl "https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/json?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs"
+
+recursion defining thins in terms of themselves
+
+houston scheirnbeck
+6104 0290 5041 1822
+0102
+
+nosology
+respitory pandemics
+
+a d ex  l e r
+assets dividends expenses - Liabilities Equit and Revenue
+EBT
+615Dks@476
+
+separation of subjects and objects, alienation
+marxes theory of alienation
+
+That is not only not right; it is not even wrong
+
+godaddy
+Customer Number: 462674342
+Current PIN
+2609
+
+linux space to under
+for f in */ *; do mv "$f" "${f// /_}"; done
+
+Jim Steffes
+jimsteffes@outlook.com
+(612) 461-2365
+3409 E. Medicine Lake Plymouth MN 55441-2307
+
+
+<link rel="icon" href="data:,">
+accuweather api
+MwjWoWMnYguGGQYcGcC2GAyyUb9MqOoI
+44.98090947378407, -93.2698618048721
+
+kelvin -273.15
+fahrenheit 32, 212
+c -32 x (5/9)
+(0K − 273.15) × 9/5 + 32 = -459.7°F
+
+openweather api
+let key = 'c1226a736dac2e52a2c456f0dc2c03ba';
+//todo
+
+ the man who slashed himself to remove the “wires” in his body
+Google Voice number
+‪(612) 567-9410‬
+
+PNG is the best choice for graphs, the pics with text, screenshots, and for designs that require the use of transparency, such as logo designs and similar. However, the biggest downside is that they are greater in size and they will slow down your website.
+
+JPG, on the other hand, is smaller and faster to load, but the compression comes in hand with some loss in quality which is usually not a problem for photographs, but it can be bad for text or images containing fine lines.
+
+Hennepin Health
+04745519
+612 596 1036
+*North 612 543 2500  800 West Broadway
+Gov phone
+612 461 2365
+543 2500
+
+google analytics account 21972086248722
+https://drive.google.com/file/d/1MzGsxKUeSHJTawF2-Wf6w5EVQa_AS0wm/view?usp=sharing
+615Dks@476
+
+
+alex ziskino how cpu works
+voltage=pressure
+current=volume
+x^2+y^2=5
+
+Clock speeds are generally measured in million of cycles per second (MHz) and thousand million of cycles per second (GHz)
+javascript
+rn = (x) => Math.floor(Math.random() * x)
+keys(window) to see variables
+dir(window) to see objects
+
+scamp
+sugar window cleaner and petroleum jelly
+for(var b in window) { 
+  if(window.hasOwnProperty(b)) console.log(b); 
+}
+two hand jobs and a pack of beef jerky
+annoying pop up windows
+56k
+javascript event 
+https://www.youtube.com/watch?v=FSs_JYwnAdI
+https://www.youtube.com/watch?v=9emXNzqCKyg
+https://www.youtube.com/watch?v=Mus_vwhTCq0
+JavaScript Pro Tips - Code This, NOT That
+vscode tips
+https://www.youtube.com/watch?v=ifTF3ags0XI
+meilli search
+fauna db
+script defer !! research
+
+christmas 1990 tim berners-lee
+Yes, that’s right, I verbified “offline.” Yes, I verbified “verb.” Feel free to inbox me grammar complaints that I’ll trashinate.
+
+memorize a number for every instruction
+epistemes
+quantum entanglement
+document.designMode = "on"
+discrete math, differential equations, calculus, and linear algebra
+Cishet, used as both an adjective and a noun, describes a person who is both cisgender and heterosexual.
+Judith Butler
+https://github.com/commoncrawl/
+https://en.wikipedia.org/wiki/GPT-3
+615Dks@476
+google 2billion lines of code
+100 terrabytes
+monrepo (blaze) bazel
+ useful complexity.
+ (2% management fee plus 20% of profits) means that managers were "showered with compensation" despite, often enough, providing only "esoteric gibberish" in return.
+
+M Health Fairview Clinic Bass Lake
+6320 Wedgewood Road North
+Maple Grove MN 55311-3647
+763-268-0400
+
+
+curl -H 'x-datasource-auth: true' 'https://docs.google.com/spreadsheets/d/1d1dth9fnjd6kiizikcmqjngbvujfxhdi4igyser6czu/gviz/tq?tqx=out:json&tq&gid=0' 
+curl -H 'x-datasource-auth: true' 'https://docs.google.com/spreadsheets/d/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/gviz/tq?tqx=out:json&tq&gid=0'
+
+Publish link
+https://docs.google.com/spreadsheets/d/e/2PACX-1vRNtR9XAqFtF7omch8ij13DcEZahFu4bM8_LxX5g-zUOd5g6ot0zKJfc5n9Pi84hkA0Sl4LrPW0fIRN/pubhtml
+
+https://docs.google.com/spreadsheets/d/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/edit?usp=sharing
+
+orthogonal
+sheets project api
+AIzaSyCksSrPzSDpTmgJ-FaTT4_Xg6lHb9YtZJw
+shared example
+https://docs.google.com/spreadsheets/d/1piOZ3najIKlAUXvdrUDlD3S6Ftj8s2D9zX5tWzxvBA4/edit?usp=sharing
+
+enjoin 
+https://geekflare.com/chrome-devtools-features/
+ttsttts
+walking public health disaster
+
+Ctrl-Shift J
+"myStorage = window.localStorage;","myStorage"]'
+myStorage.consoleHistory
+
+Control/Command + Shift + T to bring back the most recently closed tab.
+fecth decode execute
+
+program counter instruction register accumulator
+
+Get-ChildItem -File | Sort-Object -Property LastAccessTime -Descending | Select-Object -First 5
+1969 NFL championship
+
+First a punch is just a punch, Then a punch is not only a punch, And finally a punch is just a punch" (heard from Bruce Lee)
+
+cd /mnt/c/Users/jayst/AppData/Local/Google/Chrome/User Data/Default
+ffmpeg -i aps.mp3 -metadata title="The Title You Want" -metadata artist="" -metadata album="Name of the Album" -/mnt/ca copy out2.mp3
+
+ 1..100 | ForEach-Object { Add-Content -Path ./LineNumbers.txt -Value "This is line $_." }
+Double Data Rate 3 Synchronous Dynamic Random-Access Memory (DDR3 SDRAM)
+vim hex :%!xxd 
+stacks and triggers
+
+      Out of the Tar Pit
+
+Type %d and hit Enter to delete all the lines.
+:g/^/s*$/d
+vim show ascii - ga
+smart quotes
+%s/[”“]/"/g
+I map it as noremap Y 0vg_y in my .vimrc so that now I just have to press shift+y to copy line
+grep -rn "ico" .
+
+LIB
+21972086245722
+fav ico error:  <link rel="icon" href="data:,">
+<link rel="shortcut icon" href='#'/>
+
+ms
+615dks@478
+
+
+Mission
+763559-4249
+
+Gov phone
+612 461 2365
+
+
+max less min more
+@media only screen and (max-width: 600px)  {...}
+If [device width] is less than or equal to 600px, then do {}
+
+@media only screen and (min-width: 600px)  {...}
+If [device width] is greater than or equal to 600px, then do {}
+
+dBm stands for decibel milliwatts. dBm can be used in radio, microwave, and fiber-optical networks as a measure of absolute power because of its capability to express both very large and very small values in short form. The closer the number is to 0, the better off your signal strength is
+5 gig and 2.4 gig
+
+Brad Traversy + Bucky Roberts +Gary Simons + Net ninja + Academind +Mosh Hamedani == No need of college/universities
+
+youtube api
+apikey="AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao"
+
+Fairview mychart 615Dks@476
+
+git hub 
+Change password for @tc-streets
+615dks@480
+
+python -m http.server 9000
+
+pypl
+
+https://tc-streets.github.io/
+
+google jimsteffes2253@gmail.com
+615dks@477
+heroku
+615dks@477
+recover jimsteffes@outlook
+IP 34.136.187.35
+71921743
+
+What's the best thing about dating homeless girls ?
+You can drop them off anywhere :)
+
+HDL (hab dich lieb ("I love you" in German))
+ILD (ich liebe dich ("I love you" in German))
+OG; ASL; FR; pfp; AFF; SMH google aff
+If a persons behavior doesnt make sense to you, it is because you are missing a part of their context.
+All your base are belong to us
+
+beamish
+
+git lens vscode
+
+function convertToBinary(x) {
+    let bin = 0;
+    let rem, i = 1, step = 1;
+    while (x != 0) {
+        rem = x % 2;
+        console.log(
+            `Step ${step++}: ${x}/2, Remainder = ${rem}, Quotient = ${parseInt(x/2)}`
+        );
+        x = parseInt(x / 2);
+        bin = bin + rem * i;
+        i = i * 10;
+    }
+    console.log(`Binary: ${bin}`);
+}
+
+
+
+keybindings.json
+posh git
+bash profile vs rc
+import-module /mnt/c/Users/jayst/OneDrive/Documents/WindowsPowerShell/Modules/posh-git/1.0.0/posh-git.psd1
+
+Ctrl+o is used to issue normal commands without leaving INSERT mode,
+80 the repetition,
+i to insert,
+- the character you want to insert,
+Esc to leave INSERT mode.
+
+git hub jamessteffes
+615dks@480
+https://github.com/JamesSteffes/jamessteffes.github.io.git
+personal access token
+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
+615dks@500
+holmes pin
+340984
+(888) 321-5880
+
+
+github wither7007 615dks@800 personal access token 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
+
+
+Beware the barrenness of a busy life ~ Socrates
+ken thomspon dennis ritchie(c)
+juggling chainsaws
+Indeed, because writing maintainable code is what takes time.
+qbittorent
+mutex and semaphores
+pr welcome-itis
+legally drunk
+One terabyte is about a thousand gigabyte
+Reasons and Persons
+phenology
+10 to the 64th
+10 to 79th atoms
+vigin tillion
+2^256
+suspension of the natural order
+Secure Hash Algorithm 
+pinky promise
+autotelic
+ borborygmus
+exfoliate 
+{ "command": { "action": "splitPane", "split": "vertical" }, "keys": "alt+shift+plus" },
+{ "command": { "action": "splitPane", "split": "horizontal" }, "keys": "alt+shift+-" },
+{ "command": { "action": "splitPane", "split": "auto" }, "keys": "alt+shift+d" },
+{ "command": { "action": "splitPane", "split": "up" } },
+{ "command": { "action": "splitPane", "split": "right" } },
+{ "command": { "action": "splitPane", "split": "down" } },
+{ "command": { "action": "splitPane", "split": "left" } },
+ Bob Kahn and Vint Cerf 
+crash course computer
+open sea (nft)
+CPU-bound code: this refers to any piece of code which will be directly executed by the CPU.
+I/O-bound code: this can be any code that accesses the file system thru the OS
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+puerperal fever
+
+514 levo
+large white pliva 433 Traz
+white ep 127 folic
+blue 213 sert
+yellow h125 Pantoprazole 
+PNG for Crisp Graphics
+Regression searches for relationships among variables.
+I'm sorry dave, I'm afraid I can't do that
+Turing tarpit
+Those who are hardest to love, need it the most
+Be kind, for every one you meet is fighting a hard battle.
+bumblescum North dakota
+d3
+Seitan
+aleatoric
+comedogenic
+$ sudo rm -rf /
+waa · way
+bass
+grow
+shrink
+
+{
+  "contents": [
+    {
+      "productID": 34,
+      "productName": "SuperWidget"
+    },
+    {
+      "productID": 56,
+      "productName": "WonderWidget",
+      "quantity": 10 
+    }
+  ]
+}
+compression/decompression
+oneiric
+synaesthetic 
+- Codesmell's Dotfiles: https://github.com/whatsthatsmell/dots
+- Telescope ??: https://github.com/nvim-telescope/tel...
+- Treesitter ??: https://github.com/nvim-treesitter/nv...
+- lsp_signature: https://github.com/ray-x/lsp_signatur...
+- compe: https://github.com/hrsh7th/nvim-compe
+- compe-zsh: https://github.com/tamago324/compe-zsh
+- gitsigns: https://github.com/lewis6991/gitsigns...
+- nvim-tree: https://github.com/kyazdani42/nvim-tr...
+- nvim-toggleterm: https://github.com/akinsho/nvim-toggl...
+- vim-floaterm: https://github.com/voldikss/vim-floaterm
+
+23.3 million code linux
+Samizdat 
+case of pseudofed
+cd /mnt/c/Users/jayst/AppData/Roaming/Ditto
+code warrior
+ASMR
+frisson
+deoplete
+Simplicity is the final achievement. After one has played a vast quantity of notes and more notes, it is simplicity that emerges as the crowning reward of art
+mmu
+polonium (russian poison)
+i18n and L10n
+
+:g!/foo/d - Delete all lines not containing the string ¿foo¿.
+:g/^#/d - Remove all comments from a Bash script. The pattern ^# means each line beginning with #.
+:g/^$/d - Remove all blank lines. The pattern ^$ matches all empty lines.
+:g/^/s*$/d - Remove all blank lines. Unlike the previous command, this also removes the blank lines that have zero or more whitespace characters (/s*).
+lemma
+vim replace word with comma
+%s//>/s/,/g
+likes to play in the dirt
+microfauna
+mcoding
+ To recap, Bitcoin is "mined" by miners who solve cryptographic puzzles to verify and validate a block of transactions occurring in its network.
+vscode rest client, thundej quokka
+Auto Rename Tag: https://bit.ly/vsc-autorename
+Prettier: https://bit.ly/vsc-prettier
+ES7 Snippets: https://bit.ly/vsc-es7
+microfauna
+llvm
+don't hate the player, hate the game
+I just do what I do. 
+I got nothing to say to the haters
+object permanence skills
+"the calculus of infinitesimals", mathematical study of continuous change,  
+geometry study of shape 
+algebra study of generalizations of arithmetic operations.
+
+Syncthing
+
+odysee
+My willingness to judge something should be proportional to how much I know about it.
+du -h --max-depth=1
+
+
+Definition of bespoke
+1a: CUSTOM-MADE
+a bespoke suit
+
+https://use-the-index-luke.com/sql/anatomy/the-leaf-nodes
+
+Do not remove a fence until you know why it was put up in the first place.
+Chesterton went on to explain why this principle holds true, writing that fences don’t grow out of the ground, nor do people build them in their sleep or during a fit of madness. He explained that fences are built by people who carefully planned them out and “had some reason for thinking [the fence] would be a good thing for somebody.” 
+
+cd vite-react-demo
+npx create-react-app cra-demo
+npm init vite@latest vite-react-demo --template react
+cd vite-react-demo
+npm install vite-react-demo
+Measure-Command {npx create-react-app cra-demo}
+Measure-Command {(npm init vite@latest vite-react-demo --template react) ; (cd vite-react-demo) ; (npm install --verbose)}
+npm run build
+Measure-Command {npm run build}
+npm list --depth=0
+There are two kinds of languages: the ones people complain about and the ones nobody uses
+A very important thing to note is that splice() changes the original array. where as slice() creates a copy of the original array, so there won't be any change in the original one.
+
+remit a tax
+chemistry transitions to biology
+arrogance of the intellect (catholic church) moral superiority
+ Bernoulli principle
+A wing is shaped and tilted so the air moving over it moves faster than the air moving under it. As air speeds up, its pressure goes down. So the faster-moving air above exerts less pressure on the wing than the slower-moving air below. The result is an upward push on the wing—lift!
+
+$Env:Path += ";/mnt/c/temp"
+$Env:Path += ";/mnt/c/Users/jayst/AppData/Local/Programs/Microsoft VS Code/_"
+$Env:port="3000"
+
+Ever tried, ever failed, no matter. Try again, fail again, fail better.
+npm install esbuild
+Maybe if the likes of LTT or MKBHD
+simulacrum
+1: IMAGE, REPRESENTATION
+a reasonable simulacrum of reality
+— Martin Mayer
+2: an insubstantial form or semblance of something : TRACE
+sub mental shit posters
+virgule solidus / back slash /
+commercial at @
+Circumflex accent ^
+grave `
+wifi and mifi
+wireless fidelity
+802.11
+ http://192.168.0.1 
+ peaked at 79 and I'll never see me mountain top again
+ https://www.google.com/search?q=%s+site:reddit.com
+ path back to the present
+
+ are more horrifying than language has words for.
+ psychotic melancholia
+W bosons, together with Z bosons, mediate the weak force, one of the universe’s four fundamental forces. Unlike gravity, electromagnetism and the strong force, the weak force doesn’t push or pull so much as it transforms heavier particles into lighter ones. A muon spontaneously decays into a W boson and a neutrino, for instance, and the W then becomes an electron and another neutrino. Related subatomic shape-shifting causes radioactivity and helps keep the sun shining.
+hotspot Alcatel model MW43TM pass: mfir679f password: 4utD7bGR !!important 615dks@476
+
+queer feminist theory
+misbeliever
+print(f'{n:%Y-%m-%d %H:%M}')
+we don't see things as they are, we see things as we are
+Man can do what he wills but he cannot will what he wills.
+Course of Bitters and Anti-Hysteric Pills
+religious belief "traces, in the end, to dread of the unknown"
+Friedrich Schleiermacher (1768-1834), David Friedrich Strauss (1808-74), and Ludwig Feuerbach (1804-72)
+Being able to take compliment is hot.
+Lins 1,000,000; a Megabyte is a million bytes. Giga- means 1,000,000,000; a Gigabyte is a billion bytes. Tera- means 1,000,000,000,000; a Terabyte is a trillion bytes.fe doesn't come with instructions
+Count your blessings instead of sheep, When life gives you lemons, make lemonade, and If you see it, you can be it 
+relationship between propositions and the world
+asystole epinephrine (adrenaline)
+(?=) - positive lookahead
+(?<=) - positive lookbehind
+ E.B. White once said, "Humor can be dissected as a frog can, but the thing dies in the process and the innards are discouraging to any but the pure scientific mind."
+ verbal masturabation
+ infinity's not a number it's an idea
+ Understanding Application-Specific Integrated Circuit (ASIC) Miners
+ droste effect
+ Mega- means 1,000,000; a Megabyte is a million bytes. Giga- means 1,000,000,000; a Gigabyte is a billion bytes. Tera- means 1,000,000,000,000; a Terabyte is a trillion bytes.Peta- means 1,000,000,000,000,000; a Petabyte is 1,000 Terabytes.
+ Locke was the first to define the self through a continuity of consciousness. 
+
+ The commands to discard all local changes in Git are:
+
+git reset –hard
+git clean -fxd
+	
+
+It’s like a cow’s opinion, it doesn’t matter, it’s moo
+
+99% accurate 12 per cent of the time
+car bed in my room
+Confelicity: Pleasure in another's happiness. Antonym: schadenfreude
+Mind your words, they are important.
+Anything added dilutes everything else.
+Keep it logically awesome.
+
+Compassion, awe, devotion, and feelings of oneness 
+Definition of epigone
+: FOLLOWER, DISCIPLE
+also : an inferior imitator
+consider suicide at frequent intervals as an option to reduce the feelings of incipient madness.
+‘Why are you doing this?’ with the answer ‘Because’.
+
+They are part of being a human being.
+a chance of understanding what we are.
+I'm a liberal-minded, never-say-never guy, but I honestly think it's more likely that I will one day learn to fly by flapping my hands really quickly than I will believe in god, especially when the arguments for it are presented in such a pseudo-academic way. I still can't get over the feeling it's like the clasic image of the theologians arguing over how many angels can fit on the head of a pen.:w
+
+
+
+housing authority password
+$7$QXQsN8ZUN98h
+Your change request number is 3159 
+9682-TT1039888
+9682-TT1039888
+firefox password SQgMhA8L23MdFDz 6/23/22
+
+scramp
+sugar, window cleaner, and petroleum jelly.
+ Karlheinz Stockhausen,
+Aleatoric music
+roger scruton
+
+https://apply.internetessentials.com/BulkAddress
+aplication ID:
+300233886386
+
+
+button anchor
+
+a {
+    text-decoration: none;
+    padding: 8px;
+    background-color: #ddd;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+}
+
+.container h3 {
+    margin-bottom: 1rem;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+}
+
+.flex a:hover {
+    background-color: #ccc;
+    transition: 0.7s;
+}
+emmet
+Set start position with the @ symbol followed by an index.
+For example, div#id$@0*5 will begin the index at 0.
+Köchel (K) 
+Bach-Werke-Verzeichnis
+
+quantum computer
+https://www.youtube.com/watch?v=GR6ANm6Z0yk
+
+const k = new Date().toLocaleDateString('en-us', { weekday: "long", day: "numeric", hour: '2-digit', minute: '2-digit', second: '2-digit' })
+
+let ra=Array.from({length: 10}, () => Math.floor(Math.random() * 100));
+almighty God! I thank thee for my soul; & may I never die spiritually into a mere mind through disease of loneliness ee cummings
+ gci /all/ps | ? {$_.name -match '.*z'}
+
+vim delete rectange c-q select
+
+const randomColor = Math.floor(Math.random() * 16777215).toString(16);
+
+ax^2+bx+c=0
+(-b +/- sqrt(b^2 - 4ac))/2a
+
+
+
+"There are no lengths to which humorless people will not go to analyze humor."
+
+:: Robert Benchley
+
+
+center grid
+display: grid;
+place-items: center;
+height: 90vh;
+            content: url("https://upload.wikimedia.org/wikipedia/commons/c/c4/Quadratic_formula.svg");
+
+it's not that its wrong its not even wrong wolfang pauli
+
+gainsay
+ to declare to be untrue or invalid
+
+
+ Please see https://docs.github.com/en/get-started/getting-started-│
+with-git/about-remote-repositories#cloning-with-https-urls for information│
+ on currently recommended modes of authentication.                        │
+fatal: Authentication failed for 'https://github.com/wither7007/wsl/'
+
+ss card
+615dks@47678
+
+Hardy, Yeats, Frost, Wallace Stevens
+
+Definition of vouchsafe
+transitive verb
+1a: to grant or furnish often in a gracious or condescending manner
+wget "https://github.com/equalsraf/win32yank/releases/download/v0.0.4/win32yank-x64.zip"
+
+vim exif replace
+%s///n//r/g
+
+wither7007@gmail.com
+login.gov
+615dks@47878
+
+sudo apt install trash-cli -y
+autarky
+
+Can someone help me see a charitable framing of the phrase "not even wrong", as used in articles like this?
+My best guess is that it's equivalent to him saying that he disagrees with a position's premises. But in a deeply pejorative, dismissive, condescending, conversation-ending manner.
+
+It's hard to imagine someone in those crosshairs wanting to engage with him in discussion.
+
+But, maybe I'm badly misreading the author's intent.
+
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" 
+https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+
+Soteriology (/səˌtɪəriˈɒlədʒi/; Greek: σωτηρία sōtēria "salvation" from σωτήρ sōtēr "savior, preserver" and λόγος logos "study" or "word"[1]) is the study of religious doctrines of salvation.
+
+
+comedy "is the saving grace of life"
+
+The command killall5 -9 will forcefully terminate
+
+python -c "import math;print(math.sin(1))"
+bash !  find * -type f -name "*" -exec rename "s//s/_/g" {} /;
+
+duh |  sort -k1 -rh | rg -v '^0' | v -
+
+
+lq  1>&- 2>&-
+
+definition of smart - someone who thinks like you do but more
+
+Checkpoint-Computer -Description "9-9" -RestorePointType "MODIFY_SETTINGS"
+wp
+sitetitle non
+user steff007
+i(kqtQoB9nBuKugrmK
+
+
+Oh, Orville helped. An obsessive tinkerer and gifted mechanic, he was invaluable in building the Wright flyer, and yes, he piloted the first flight on Dec. 17, 1903. (The brothers supposedly flipped a coin for the honor, and Wilbur lost. Wilbur got to fly later in the day and went farther.) Yet Wilbur was the brains of the operation.
+
+docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=stars1  9eebb3304ce5 #!good my sql?
+docker exec -ti  optimistic_noether sh -c "bash"
+
+Life is like a box of chocolates.
+It doesn't last long for fat people.
+
+autocmd VimLeave * :!touch /home/odiszapc/vimleave
+https://vi.stackexchange.com/questions/5454/vimleave-event-not-triggered
+
+Greek alphabet letters & symbols
+Greek alphabet letters are used as math and science symbols.
+
+Greek alphabet list
+Upper Case Letter	Lower Case Letter	Greek Letter Name	English Equivalent	Letter Name Pronounce
+Α	α	Alpha	a	
+Β	β	Beta	b	
+Γ	γ	Gamma	g	
+Δ	δ	Delta	d	
+Ε	ε	Epsilon	e	
+Ζ	ζ	Zeta	z	
+Η	η	Eta	h	
+Θ	θ	Theta	th	
+Ι	ι	Iota	i	
+Κ	κ	Kappa	k	
+Λ	λ	Lambda	l	
+Μ	μ	Mu	m	
+Ν	ν	Nu	n	
+Ξ	ξ	Xi	x	
+Ο	ο	Omicron	o	
+Π	π	Pi	p	
+Ρ	ρ	Rho	r	
+Σ	σ,ς *	Sigma	s	
+Τ	τ	Tau	t	
+Υ	υ	Upsilon	u	
+Φ	φ	Phi	ph	
+Χ	χ	Chi	ch	
+Ψ	ψ	Psi	ps	
+Ω	ω	Omega	o	
