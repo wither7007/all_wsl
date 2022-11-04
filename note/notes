@@ -10,6 +10,15 @@ November 9th
 8:20
 800 west Broadway ave
 
+Flu Vaccine (Influenza) - 11/4/2022 at 6:00 PM
+Pharmacy:	Cub Pharmacy - ROCKFORD ROAD
+Address:	4445 N. Nathan Lane
+City:	Plymouth
+State:	MN
+Confirmation Number:	7278278
+Appointment Set:	Nov 3 2022 12:33PM CT
+Set By:	Patient
+
 It’s Okay to Be Smart
 
 Parameters are like placeholders for function arguments.
@@ -17,17 +26,22 @@ Parameters are like placeholders for function arguments.
 you are a waste of life and should give up
 is what I want to say but I won't
 
+with open('AnyFile.txt', 'w') as j:
+    print('this is j', file=j)
 
 bash error
 >/dev/null 2>&1
 lkkkk>err 2>&1
 
-
+console ninja vscode
+https://www.youtube.com/watch?v=bmKDT-yG2eE
 
 https://www.baeldung.com/linux/remove-duplicate-lines-no-sorting
 awk '!a[$0]++' bash_history | v -
 
 b=[...document.querySelectorAll('a')].map((a)=>a.href).filter((x)=>x.match('d.*moc.*bz2'))
+
+fd  -esh | xargs  -I{} /bin/bash -c "echo {}; cat {}; stat {}; printf '**********\n\n' " | v - #!good
 
 voluntary death
 
@@ -38,7 +52,8 @@ find . -maxdepth 1 -type f | xargs grep -n 'frumious'
 https://www.wandinround.com/other.html
 
 vim
-vim sp<tab>
+ctrl r insert mode
+vim sb<tab>
 https://vi.stackexchange.com/questions/8378/dump-the-output-of-internal-vim-command-into-buffer
 :enew|pu=execute('map') 
 vert sb6
