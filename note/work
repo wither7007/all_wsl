@@ -218,3 +218,6 @@ git clean -fxd :/ # CAUTION: as above, but cleans untracked and ignored files th
 To see what will be deleted before-hand, without actually deleting it, use the -n flag (this is basically a test-run). When you are ready to actually delete, then remove the -n flag:
 
 git clean -nfd
+
+long nothing to do sqllite database
+https://unix.stackexchange.com/questions/35292/quickly-find-which-files-belongs-to-a-specific-inode-number
