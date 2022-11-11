@@ -1,10 +1,11 @@
-
+assurance pin 340908 city paris
 Wednesday
 November 9th 
 8:20
 800 west Broadway ave
 
 partners@pcsforpeople.com
+651-354-2552
 
 fairview
 6320 Wedgewood Road North
@@ -12,13 +13,14 @@ fairview
 fetch decode execute store
       cpu     alu
 
-Flu Vaccine (Influenza) - 11/7/2022 at 11:00 AM
-Pharmacy:	Cub Pharmacy - ROCKFORD ROAD
-Address:	4445 N. Nathan Lane
-City:	Plymouth
-State:	MN
-Confirmation Number:	7290734
+https://stackoverflow.com/questions/21240337/grep-list-all-lines-not-containing-both-pattern
+cha 2000 | rg -v "tld|conf|hyp"
 
+https://stackoverflow.com/questions/16678661/how-can-i-delete-the-current-file-in-vim
+nnoremap <c-k> :call delete(expand('%'))
+
+https://stackoverflow.com/questions/5038856/shorthand-for-getting-the-diff-from-the-last-n-commits
+Use git diff HEAD~N. Or use git diff HEAD~N.. to exclude uncommitted changes.
 It’s Okay to Be Smart
 
 Parameters are like placeholders for function arguments.
@@ -54,6 +56,9 @@ https://www.wandinround.com/other.html
 vim
 ctrl r insert mode
 vim sb<tab>
+filename and path
+:r! echo %:p
+
 https://vi.stackexchange.com/questions/8378/dump-the-output-of-internal-vim-command-into-buffer
 :enew|pu=execute('map') 
 vert sb6
@@ -77,7 +82,6 @@ killall -9 appname
 good link explanation
 https://stackoverflow.com/questions/72729555/is-there-a-way-to-still-use-symbolic-link-for-gitignore-and-why-its-not-suppo
 
-^M
 https://github.com/koalaman/shellcheck/wiki/SC1017
 tr -d '\r' < badscript > goodscript
 
@@ -154,18 +158,12 @@ Email address
 wither7007@gmail.com
 SSA will only use this information to connect to your account.
 
-call fairview (shingles shoulder)
-1-855-324-7843
 dns renewal
-
 
 vscode switch slashes
 s///////g
 housing update
   sent a message from wither7007@gmail.com
-
-apt-get update
-apt-get upgrade 
 
 const chunk = (arr, size) =>
   Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>
@@ -1018,3 +1016,7 @@ Upper Case Letter	Lower Case Letter	Greek Letter Name	English Equivalent	Letter 
 Χ	χ	Chi	ch	
 Ψ	ψ	Psi	ps	
 Ω	ω	Omega	o	
+
+
+: to catch sight of
+among the several horses … she espied the white mustang
