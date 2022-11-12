@@ -13,10 +13,10 @@ alias duh='du -h --max-depth=1'
 alias e='echo $?'
 alias ehis="v $(echo $HISTFILE)"
 alias f1='fd --changed-within 1day'
-alias fda="fd -H -I"
+alias fda="fd -H -I "
 alias fday="find ~ -mtime -1 -ls"
 alias fdc="fd -H -I -d 1  -td | column"
-alias fdh='fd -help'
+alias fdh='fd --help | v -'
 alias fm='vifm'
 alias fp='find `pwd` -name '
 alias ga='git add'
@@ -97,4 +97,6 @@ alias lln="ls -lhtr  --time-style long-iso | tac | cat -n | tac | sed -s 's/^\s*
 alias lts='ls --human-readable --size -1 -S --classify'
 alias lts='ls --human-readable --size -1 -S --classify | head -n19'
 alias zsort="du -sh * | sort -h"
+alias dcount="du -a | cut -d/ -f2 | sort | uniq -c | sort -nr | v -"
+alias cat="batcat"
 #echo "aaliassssaliassssaliassssliassss"

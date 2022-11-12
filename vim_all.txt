@@ -1,0 +1,425 @@
+
+Fri 28 Oct 2022 06:25:45 PM UTC
+%s/\d\s*//g
+v/lib/d
+g/lib/d
+x cloud.sh
+v/sudo
+v/sudo/d
+x install.s
+w install.sh
+e .bash_aliases
+e .bashrc
+v/cul/d
+w a
+set ruler
+w apps
+g/^lib.*/d
+g/^rub/d
+w apps!
+%s/\/.*//g
+w ap.txt
+help ve
+help feature-list
+version
+w shis
+%b
+g/^compdef/d
+v/install/d
+!curl -s "https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/plugins/jsontools/jsontools.plugin.zsh" | bash
+v/curl/d
+X
+!ls
+saveas t.sh
+v/^lib/d
+g/^lib/d
+CocInstall coc-tsserver coc-css coc-eslint coc-emmet coc-pyright coc-prettier
+saveas b.py
+PlugClean
+PlugInstall
+x t
+%s/\d/s+//g
+%s/^[ ]*//
+%s/^\s*//
+%s/\d//
+%s/\d\s//
+%s/^\s*[0-9]\+\s*//g
+v/find/d
+%s/^[ ]*\d*[]*//g
+%s/^[ ]*\d*\s\+//g
+e t
+e fun
+b 2
+b 1
+bNext
+v/sed/d
+x ll
+v/du\s/d
+v/du/d
+number
+number off
+set
+set nonumber
+!man grep
+read !ls
+read !curl umn.edu
+read curl -L umn.edu
+read !curl -L umn.edu
+execute getline(".")
+read !ls -l
+v/\.loc/d
+g/\.loc/d
+v/1/d
+saveas archiveFileList
+saveas archiveFileList!
+saveas Archive
+saveas ark
+!history
+saveas Efiles
+saves good.txt
+saveas good.txt
+v/ark/d
+'<,'>
+map
+vsplit
+term
+terminal
+'<,'>v
+v/pyth/d
+!rm  %
+!rm
+!rm 
+!rm %
+Plug
+PlugStatus
+sba
+w hx
+!%:p
+!"%:p"
+! she %
+! sh %
+!&
+w xx
+w xx!
+!%
+v/his/d
+464
+w nn
+w bash_h9-8.txt
+e nn
+saveas bhist.txt
+/^a
+v/clone/d
+%s/:.*0;//g
+v/git.diff/d
+\sfd
+v/word/d
+v/cargo/d
+uniq
+w jjj
+!source jjj
+%s/:.*;//g
+w hist
+q!
+%s/<a.*?=
+s/\s/\r/g
+v/^fd/d
+v/exec/d
+v/xargs/d
+docke
+v/docker/d
+sort u
+help vnew
+close
+w delete
+v/tar/d
+v/git.*dif/d
+%s/nvim/vim/g
+w!
+w listsh.sh
+w
+wki
+w ki
+e ki
+reg
+s/\n/<br>/g
+%s/\n/<br>/g
+v/dif
+100
+1
+200
+colorscheme desert
+v/jj/d
+xz
+saveas ohist
+v/diff/d
+g
+pwd
+v/fd/d
+vim /bash **sh
+ls
+vim /hist//
+vim /hist/ **
+pu %c
+vim /bash/ **sh
+w jj
+pu %d
+reg a
+pu %
+put=system('date +%F')
+q
+r!date
+r!ls
+sort
+x
+%s/([AP])/$1xxx/g
+%s/(a)/$1xxx/g
+%s/(a)/\1xxx/g
+%s/\(p\)/\1x/g
+vnew
+v/docker.*sql/d
+xj
+w o
+v/dock.*ex/d
+read ~docker ps -a
+read !docker ps -a
+%s/vim/nvim/g
+v/wordp.*/d
+v/^docker/d
+v/wordpre/d
+v/compos/d
+read !fc -l
+%s/echo/printf/g
+%s/printf /printf '%s\n' /g
+%s/printf /printf '%s\\n' /g
+v/tmux/d
+v/jj.sh/d
+colorscheme blue
+ws
+v/ori.*mai/d
+v/mp3/d
+s/\d\d/\r/g
+s/\d\d/aa\r/g
+%s/\n//g
+%s/\n///g
+%s/\n
+%s/\n/, /g
+%s/\n/ /g
+'<,'>s/\s/ cat /g
+jju
+setglobal
+help popupmenu-keys
+NERDTreeFind:jj
+PlugUpgrade
+!
+buffer
+e /home/steff007/.config/nvim/init.vim
+C:\projects\p3re
+reg 1
+reg w
+reg q
+reg b
+reg t
+%s/\//\\/g
+%s/c:/\/mnt\/c/g
+%s/\
+%s/\\/\//g
+%s/c:/\/mnt\/c\//g
+set all
+redir @a
+h startup
+?
+v/fd\s/d
+,QJJJJJJJJJKKKKK:WWWW
+Qq
+NvimTreeOpen
+c
+tabclose
+v/less/d
+cd ..
+cd ~
+read !ls -a
+read 
+read ~ls
+'<,'>#//g
+'<,'>s/#//g
+'<,'>s/95/96/g
+w SampleFile.txt
+!rm dates.txt
+read !pwd
+reg a s
+!md /mnt/c/you/letit
+v/edit/d
+w work.sh
+saveas work.sh!
+w x
+v/nerd/d
+v/sh/d
+w xx.sh
+'<,'>s/"//g
+'<,'>s/"/
+'<,'>s/"/'/g
+saveas y.py
+saveas ipy
+v/git/d
+saveas githist.txt
+g/fd/d
+v/seq/d
+1,7000d
+g/v\s/d
+g/cd\s/d
+saveas n
+saveas n!
+v/^type/d
+v/rename/d
+w json.sh
+%s/,/\t/g
+e ~/.config/nvim/C:Usersjayst.confignvimundodir/
+e ~/.config/nvim/init.vim
+'<,'>s/\\/\//g
+echoconsole
+v/^rm/d
+w link.ps1
+%s/,/\r/g
+v/rm/d
+%s/-get//g
+autocmd BufWinEnter * !ls
+autocmd VimLeave * :!touch xxxxxxxxxxxxx
+autocmd VimLeave * :!touch $(date)
+autocmd VimLeave * :!touch $(date '+%Y')
+w sh.sh
+clos
+59
+v/sort/d
+!echo "ok"
+touch %
+!touch %
+source %
+w!source %
+!source %
+r!tree
+r!tree -L 2
+r!alias ls
+!uname
+r!uname
+r!uname -a
+r!fd -H -I
+r!fd -esh
+w gg
+w vimhist.txt
+scriptnames
+enew|pu=execute('scriptnames')
+v/name/d
+enew
+w xxxxx
+enew1
+enew|pu=execute('map')
+3d
+enew|pu=execute('ls')
+enew!
+enew|pu=execute('ls')!
+enew!|pu=execute('ls')!
+enew!|pu=execute('ls')
+enew!|pu=execute('ls'),q
+p
+v/leader/d
+w w
+b3
+b5
+b5!
+s
+b2
+b2!
+!b2
+set hidden
+!rm w
+b4
+bp
+b1
+b9
+jumps
+pu=execute('jumps')
+pu=GotoJump(24)
+call GotoJump()
+pu=GotoJump()
+b10
+vert sb9
+vert sb4
+vert sb17
+vert sb12
+b12
+b6
+vert sb6
+q:
+pu=execuite('ls')
+xjj
+exe "edit" stdpath("config") . "/init.lua"
+edit $MYVIMRC
+b#
+echo stdpath("config")
+edit $MYVIMRC,q
+settings
+pu=execute('set')
+source ~/.config/init.vim
+new
+s/,/\r/g
+pu=execute('pwd')
+w his_awk
+v/touch/d
+e 
+'<,'>sort
+exit
+put ='foo'
+%print
+r!ls -l
+r!fd -a
+r!fda -a
+r!alias fda
+r!alias
+read @
+map <F2> a<C-R>=strftime("%c")<CR><Esc>
+mapc[lear]
+map <F8> a<C-R>=strftime("%c")<CR><Esc>
+map <F8> a<C-R>=expand("%:p:h")<CR><Esc>
+echo expand('%:p')
+j="jim"
+set j="jim"
+let j="jim"
+echo j
+pu=execute(',cmap')
+!chmod 754 /home/steff007/hyper/j
+saveas j.sh
+saveas k.sh
+saveas l.sh
+saveas pp.sh
+%s/:/\r/g
+%s/\n/:/g
+saveas path
+'<,'>s/'/"/g
+close!
+bd
+r!map
+qa!
+pu=execute('map')
+bd!
+pu=execute('ls')
+%s/icon=.*"//g
+w indexnoicon
+w bootclean.html
+bn
+bl
+vsplit bn
+sbNext
+sball
+e $VIM shellcheck-v0.7.0/
+vsplit a.sh
+vsplit post_awk
+r!history
+lexpr
+Lexplore
+Les
+Lex
+vertical resize 130
+vertical resize 30
+Vexplore
+Q

@@ -16,6 +16,9 @@ fetch decode execute store
 https://stackoverflow.com/questions/21240337/grep-list-all-lines-not-containing-both-pattern
 cha 2000 | rg -v "tld|conf|hyp"
 
+quick speedtest
+wget -qO- bench.sh | bash
+
 https://stackoverflow.com/questions/16678661/how-can-i-delete-the-current-file-in-vim
 nnoremap <c-k> :call delete(expand('%'))
 
