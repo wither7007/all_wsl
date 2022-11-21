@@ -16,7 +16,7 @@ return
 
 !d::run, C:\tools\neovim\Neovim\bin\nvim.exe "c:\all\note\notes"
 
-!c::run,  C:\tools\neovim\Neovim\bin\nvim.exe -p c:\all\note\notes c:\all\note\power c:\all\note\work c:\all\note\python
+!c::run,  C:\tools\neovim\Neovim\bin\nvim.exe -p c:\all\note\notes c:\all\note\power c:\all\note\work c:\all\note\python c:\all\note\other
 
 !q:: Send !{f4}
 return

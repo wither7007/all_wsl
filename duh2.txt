@@ -1,0 +1,12 @@
+6.1M	./.git
+123M	./bash
+62M	./bin
+0	./delete
+4.0K	./dockerf
+29K	./nfl
+233K	./note
+41K	./ps
+0	./temp
+44K	./vscode
+140K	./wsl
+192M	.

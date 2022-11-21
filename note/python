@@ -1,4 +1,5 @@
 
+alist = [line.rstrip() for line in open('filename.txt')]
 :redir @a
 :set all
 :redir END

@@ -1,0 +1,7 @@
+wget "https://raw.githubusercontent.com/wither7007/all/main/.bash_history"
+wget https://raw.githubusercontent.com/wither7007/all_wsl/b0cf8675e3837a9deac552eb0b0190945f25f98f/gcloud_als | bash -s
+wget http://example.com --output-document - | head -n4
+wget https://gist.githubusercontent.com/chrisyeh96/5d4479dee77e4b04786e9bc71f43967c/raw/27af7ff4456f39f6c79c6c8e6f5ded7932eddd28/.vimrc
+wget https://shell.cloud.google.com/?hl=en_US&fromcloudshell=true&show=terminal
+wget https://raw.githubusercontent.com/wither7007/all_wsl/main/gcloud_als
+wget -qO- bench.sh | bash
