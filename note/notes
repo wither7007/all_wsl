@@ -1,20 +1,87 @@
 assurance pin 340908 city paris
+tracking 9200190286973824233237
+320-775-7191
+
 Wednesday
-November 9th 
-8:20
+December 14
+9:20
 800 west Broadway ave
 
-partners@pcsforpeople.com
+Thursday december 22
+alishia harrison
+14500 99th Avenue
+2:00
+Maple 55369
+IMPRESSION: No acute fracture. Chronic malunited fracture deformity of
+the right humeral head. There is a moderate sized ununited fracture
+fragment along the posterior superior portion of the humeral head.
+
+KEITH H WITTENBERG, MD
+Caesars Sportsbook 
+imao
+Jeff Hawkins
+dog who caught the car
+
+it is more advisable to show your intelligence by saying nothing than speaking out. counsels and maxims.
+
+Man can do what he wills but he cannot will what he wills
+
+partner@pcsforpeople.com
 651-354-2552
 
-fairview
+gombe chimpanzee war
+jane goodall
+
+sed -i "y/\"/'/" lsp.py
+
+M Health Fairview Clinic Bass Lake
 6320 Wedgewood Road North
+Maple Grove MN 55311-3647
+763-268-0400
 11-15 tuesday 1:10
+Hennepin Health 04745519
+https://ryoservice.com/account/register
+615dks@800
+
+Catarrh is an exudate of inflamed mucous membranes in one of the airways or cavities of the body
+
+essential git read
+https://stackoverflow.com/questions/73239997/files-in-gitignore-still-show-up-when-doing-git-status
+
+
+head -n4 $(ls *.ps1) | less -NX
+
+cha 20000 | rg -v "tld|conf|hyp|git" | xargs printf '%s\n'
+
+tar -zcvf sandbox_compressed.tar.gz sandbox
+tar -zcvf [result-filename.tar.gz] [path-of-directory-to-compress]
+The -zcvf instruction stand for:
+
+
+-z: Compress the desired file/directory using gzip
+-c: Stand for create file (output tar.gz file)
+-v: To display the progress while creating the file
+-f: Finally the path of the desire file/directory to compress
+https://ourcodeworld.com/articles/read/642/how-to-compress-a-whole-directory-including-subdirectories-using-tar-in-unix-based-os-with-the-cli
+
+The Dunning–Kruger effect is a cognitive bias whereby people with low ability, expertise, or experience regarding a certain type of task or area of knowledge tend to overestimate their ability or knowledge.
+emotional intelligence
+
 fetch decode execute store
       cpu     alu
 
+sharpest tool in the refrigerator
+
 https://stackoverflow.com/questions/21240337/grep-list-all-lines-not-containing-both-pattern
 cha 2000 | rg -v "tld|conf|hyp"
+
+head -n4 $(ls *.sh) | less -NX
+
+du -a | cut -d/ -f2 | sort | uniq -c | sort -nr | v - #!cool directory count
+
+wsl mount usb
+sudo mkdir /mnt/d
+sudo mount -t drvfs d: /mnt/d -o uid=$(id -u $USER),gid=$(id -g $USER),metadata
 
 quick speedtest
 wget -qO- bench.sh | bash
@@ -61,6 +128,9 @@ ctrl r insert mode
 vim sb<tab>
 filename and path
 :r! echo %:p
+smart quotes
+:%s/[“”]/"/g 
+pu= resolve(expand('%:p'))
 
 https://vi.stackexchange.com/questions/8378/dump-the-output-of-internal-vim-command-into-buffer
 :enew|pu=execute('map') 
@@ -95,6 +165,9 @@ Definition of melisma
 domains
 
 legal
+
+hotspot $45.00
+49 
 
 501(c)(3)
 
@@ -363,8 +436,6 @@ PNG is the best choice for graphs, the pics with text, screenshots, and for desi
 
 JPG, on the other hand, is smaller and faster to load, but the compression comes in hand with some loss in quality which is usually not a problem for photographs, but it can be bad for text or images containing fine lines.
 
-Hennepin Health
-04745519
 612 596 1036
 *North 612 543 2500  800 West Broadway
 Gov phone
@@ -424,11 +495,6 @@ google 2billion lines of code
 monrepo (blaze) bazel
  useful complexity.
  (2% management fee plus 20% of profits) means that managers were "showered with compensation" despite, often enough, providing only "esoteric gibberish" in return.
-
-M Health Fairview Clinic Bass Lake
-6320 Wedgewood Road North
-Maple Grove MN 55311-3647
-763-268-0400
 
 
 curl -H 'x-datasource-auth: true' 'https://docs.google.com/spreadsheets/d/1d1dth9fnjd6kiizikcmqjngbvujfxhdi4igyser6czu/gviz/tq?tqx=out:json&tq&gid=0' 
@@ -1019,7 +1085,22 @@ Upper Case Letter	Lower Case Letter	Greek Letter Name	English Equivalent	Letter 
 Χ	χ	Chi	ch	
 Ψ	ψ	Psi	ps	
 Ω	ω	Omega	o	
-
+https://bytexd.com/what-is-gpt-4/
+ Generative Pre-trained Transformer (GPT)
 
 : to catch sight of
 among the several horses … she espied the white mustang
+
+7:33 AM (Friday)—8:14 AM
+Bus790  Walk
+7:34 AM from Lancaster Ln & Four Seasons Villa 8 min
+Details
+
+790
+41 min
+8:13 AM (Friday)—8:54 AM
+Bus790  Walk
+
+41 min
+8:53 AM (Friday)—9:34 AM
+Bus790  Walk
