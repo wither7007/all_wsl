@@ -407,14 +407,7 @@ p=`ls *.sh`
 v dpkg.log
 wi ex
 done
-done
-done
-done
-done
 find . -maxdepth 1 -type f -executable 
-done
-done
-done
 hexdump -C -n 8 /dev/random
 sh rnd.sh
  fi\nThe file TestFile1 does not exist.
@@ -422,13 +415,10 @@ sh rnd.sh
 " "/n"
 se "PA.*tr"
 echo "abc" | tr "a" "xxxx"
-" "\n"
 ld -d
 ls -d
 printf "today is `date`"
 seq 5
-
-
 
 md kk && cd kk
  done
@@ -773,8 +763,6 @@ bash -c uname -a
 bash -c cat /etc/os-release
 bash -c 'cat /etc/os-release'
 bash -c 'ps'
- done
- done
  done #~ quick loop
  done #! quick loop
 ls | sort -k1.3,1n
@@ -857,9 +845,6 @@ fdi act
 cd in
 fd | les
 se 'venv'
- done
- done
- done
 manv head
 unalias rg
 fd \.con
@@ -875,11 +860,6 @@ declare testvar[0]="200"
 declare testvar[2]="200"
 echo ${testvar[*]}
 $testvar
-
-
-
-
-
 source for.sh
 v for.sh
 head 2 reg.html
@@ -889,9 +869,7 @@ se 'head'
 head -n 2 duh.txt
 ls sh
 ll sh
-
 se 'for\s'
-
  | v -
 man take
 sudo apt install network-manager
@@ -899,7 +877,6 @@ nmcli d wifi list
 nmcli
 lspci
  > a
- 
  
 alias g
 sh functions.sh
@@ -1070,10 +1047,6 @@ compgen -c | column
 alias vi
 alias gupa
  done 
- done 
- done 
- done 
- done 
 v alt
 echo $(sort alt)
 cat alt
@@ -1095,11 +1068,7 @@ ls -1 *.sh | sed 's/^/ cat    /' | sed 's/$/ \n/' > n.sh
 source n.sh
 ls -1 *.sh | sed 's/^/ cat/' 
 ls -1 *.sh | sed 's/^/ cat /' 
- done
 duh > duh.txt
- done
- done
- done
 fd 'ip.*py'
 fd 'ipys.*py'
 mv ipysql.py scripts
@@ -1141,11 +1110,6 @@ fd -d 1 -x head
 fd -d 1 -tf -x head n1
 fd -d 1 -tf -x head 
 fd -d 1 -tf -x { head n1 }
-
-
-
-
-
 fd -d 1 -tf -x 'head n1'
 fd -d 1 -tf -x echo
 fd -d 1 -tf -x echo {}
@@ -1153,11 +1117,6 @@ alias ex
 exif
 lt mp4
 fd mp4
-
-
-
-
-
 ps | sed 's/a/xxxxxxxxxx/g'
 ps | awk 'BEGIN{FS="|"} {print $2 " " $1}'
 ps | awk  {print $2 " " $1}'
@@ -1246,7 +1205,6 @@ ls | sed 's/\s/\.bat/g'
 ls | sed 'g/\./\.bat/g'
 ls | sed 's/\./\.bat/g'
 m=$(ls)
- done
 source k.sh
 v =$(ll)
 v =$(ls -lhrt)
@@ -1368,7 +1326,6 @@ fd -a -e py | awk '{print NR,$0}'
 fd -a -e py -x stat 
 v key
 }1'
-}1'
 fd -a -e py -x stat | grep 'File'
 fd -a -e py -x stat | grep 'File:Access'
 fd -a -e py -x stat | grep 'File|Access'
@@ -1395,11 +1352,6 @@ cd pTodo
 cd venv
 tree -ds
 rm -rf 2021-dataclasses GO-Gin-REST-API
-\nprint NR,$0}'
- done
- done
- done
- done
 fd -a -e py -x stat | grep -E "Access.*2|File" > pys
 v pys
 se 'v.*j'
@@ -1467,8 +1419,6 @@ ls -ahr
 ls -lhr
 ls -lhr | tail
  done'
- done'
- done'
 mkdir input
 ll | rg '^l'
 cd python3.10
@@ -1491,7 +1441,6 @@ docker run -ti image5
 docker attach sharp_shtern
  echo sleep"
 docker logs example
- echo sleepier"
  echo sleepier"
 docker logs example2
 ptre
@@ -1584,7 +1533,6 @@ se 'sd'
 fd -h ac
 fd -H ac
 fd -H -d 1
- done'
 $SHELL
 env | grep -v 'LS'
 cat /etc/passwd | grep 'nol'
@@ -1620,7 +1568,6 @@ fd -d 1 *.mp4
 fd -d 1 '*.mp4'
 fd -d 1 'mp4'
 fd 'mp4'
- done
 ls | sed 's/sys/\.bat/g'
 ls | sed 's/ /\.bat/g'
 ls | sed 's/ /_/g'
@@ -1641,7 +1588,6 @@ fd -H -esh | xargs -I {} sh -c 'stat {}'
 fd -H -d 1 -esh | xargs -I {} sh -c 'stat {}'
 stat --format='%n --- %x' $(ls)
 stat {}'
-stat {}'
 fd -H -d 1 -emp4 | xargs -I {} sh -c 'echo '========' {}'
 fd -H -tf -d 1 -emp4 | xargs -I {} sh -c 'echo '========' {}'
 fd 'under'
@@ -1653,22 +1599,14 @@ fd -H -tf -d 1 -emp4 'tar' | xargs -I {} sh -c 'echo  {}'
 ls | cat
  do\ndone
 fd 'cros'
- done
  do\necho $IFS  ...\ndone
  do\noned...
  do\necho change\ndone
-done
- do\ndone
-done
-done
 wc -c b.json
- 
-
 shopt -s nullglob
 touch ' ( noth ) '
 for i in *'('*')'*\ndone
 ls -d -- *\(*\)* | sed 's/\(.*\) (.*)\(.*\)/mv -- "&" "\1\2"/'
- done
 7za a -t7z files.7z *.*
 cp files.7z /mnt/c/all
 ls -S
@@ -1694,7 +1632,6 @@ rename -v 's/.txt/.pdf/' *.txt
 rename '' '_' *
 rename 'a' '_' *
 find * -type f -name "* *" 
-
 find * -type f -name "*.*" 
 mv 'jim is' jim is.txt
 mv 'jim is' 'jim is.txt'
@@ -1706,14 +1643,12 @@ fd -H '.*,'
 fd -H '.*,.*'
 fd -H '-'
 fd -H '('
-
 fd -H '\('
 fd -H '\)'
 fd -H '\,'
 fd -H ','
 fd -H 'e,'
 fd -H 'Docker'
-
 fd -H -I 'Docker'
 fd 'mp4' -x echo {} | sed 's/\''Linux.*- //g'
  sed 's/\''Linux.*- //g'
@@ -1745,10 +1680,6 @@ tar --exclude='.cache' --exclude='.rustup' --exclude '.npm' --exclude '.config' 
 tar --exclude='.cache' --exclude='.rustup' --exclude '.npm' --exclude '.config' --exclude '.local' -zcvf backup.tar.gz .
 npm list
 npm list -g
-
-
-
-
 fd -I '''
 fd -I "'"
 fd -I 
@@ -1812,11 +1743,7 @@ jq '.values' j.json
 echo $PATH | perl -pe 's/:/\n/g' #! split path
 curl 'https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Talking_Heads_discography/daily/20210928/20210930' | jq '.'
 cat j.json | jq '.'
- done
- done
  do echo -n "$i" 
- done
- done
  do echo -n "$i" |  done
   done
 man mapfile
@@ -1874,9 +1801,6 @@ bash -c "echo jim"
  echo steffes"
  find ."
  find ."'
- find ."
- find ."
- find ."
 fd . --changed-within=5mins
 fd . --changed-within=5months
 fd . --changed-within=1months
@@ -1961,10 +1885,7 @@ seq -s " jim " 1000
 fc -e 3
 fc -e vi 1 5
 alias hf='hyperfine'
- done'
- done
  done' --s
- done'
 hf ls
 fd -th
 fd -d 2 -tf
@@ -1990,9 +1911,6 @@ echo $NOW
 printf "%s\n" $NOW
 printf "%s\n\N" $NOW
 printf "%s\n\n" $NOW
- done
- done
- done
 fd -d 1 'z'
 se 'tar.*z'
 fd -d 1 ff
@@ -2162,19 +2080,10 @@ ls -d */
 lcd
  test -n "$BASH_VERSION" && echo ${FUNCNAME[0]}"
  fi
- fi
 test false
 test true
 test
  echo $?
- echo $?
- echo $?
- fi
- fi
- fi
- fi
- fi
- fi
 se 'Path'
 fd -H -I 'z.*'
 fd -d 2 -H -I 'z.*'
@@ -2189,36 +2098,21 @@ fd -ejpg | xargs -n1 ls -lhrt
 fd -ejpg | xargs -n1 ls echo
 fd -ejpg  
 take junk
- done
- done
 myArray=("cat" "dog" "mouse" "frog)
 n=("We is","also is","have is","another is","alternative is")
 echo $n[2]
- done
- done
- done
- done
- done
 myArray=("cat" "dog" "mouse" "frog")
 myArray[1]
- do\ndone
 echo $myArray[1]
 n=("We is" "also is" "have is" "another is" "alternative is")
- done
- do\ndone
 n=("We is" "also is" "have is\nbreak" "another is" "alternative is")
- do\ndone
 chmod +x work_on_file.sh
 ./work_on_file.sh 'have is'
-
 find -type f -print0
 find -type f -printf
 fd 'have'
-
 v work_on_file.sh
-
 n=(American professional baseball pitcher for the Minnesota Twins of Major League Baseball (MLB). He made his MLB debut in 2017 with the Cincinnati Reds.)
- done
 v e.sh
 chmod +x e.sh
 ./e.sh x
@@ -2232,9 +2126,6 @@ p = $( ls )
 p =3
 p=$( ls )
 echo $p
- done
- done
- done
 declare -a mahabharata
 mahabharata[0]="Krishna"\nmahabharata[1]="Yudhishthira"\nmahabharata[2]="Bheema"\nmahabharata[3]="Arjuna"\nmahabharata[4]="Draupadi"\nmahabharata[5]="Duryodhana"
 mahabharata[1]="Yudhishthira"
@@ -2256,10 +2147,8 @@ ech [ -n $string1 ]
 echo [ -n $string1 ]
 echo `if [ -n $string1 ]`
 file e.sh
-
 which 2017
 which she.sh
-
 ps -f
 ps -x
 ps -e
@@ -2314,28 +2203,14 @@ ls -l *.py
 ls -lh *.py
 ls -lhrt *.py
 ls -lht *.py
- fi
- fi
-
-
 2=2 && echo yes
 2=2 && echo yes || echo no
 ls && echo yes 
 lsq && echo yes 
 2 -eq 2
 2=3 && echo yes || echo no
-
-
-
-
-
-
-
 echo $$$$
 lsq 2>/dev/null
- fi
- fi
- fi
 ltt && echo no
 ltt 2>/dev/null && echo no
 ls>ls 2>/dev/null && echo no
@@ -2397,28 +2272,16 @@ which ipy.sh
 v ipy.sh
 fd -a 'l'
 fd "Shel.*\-" | sed 's/Shell.*\-\s//g'
-
-
-
 fd "mp4" -exec echo {}  
-
 fd -d 1 -x stat --printf='access %y name %n\n' * | sort | v -
 fd -d 1 |
 fd -d 1 | xargs ls 
-
-
-
-
-
-
 fd -d 1 "'"
 fd -d 1 "#"
-
 fd -d 1 "__"
 apt install -y banner
 sudo apt install -y banner
 banner hello
- cal && echo sucess
  cal && echo sucess
 lst && echo sucess
 lst || echo sucess
@@ -2465,36 +2328,22 @@ fd -d 1 | rg -v "\.sh"  | xargs head
 fd -d 1 | rg  "\.sh"  | xargs head
 fd -d 1 | rg  "\.sh"  | xargs head -n 2
 fd -d 1 | rg  "\.sh"  | xargs files
-
 md copy
-ls sh
 sh *.sh
 chmod +x c.sh
-
 fd --changed-within=10min   
 fd --changed-within=10min   | rg 'c\.sh'
 fd --changed-within=10min   | rg -v 'c\.sh'
 fd --changed-within=10min   | rg -v 'c\.sh'  
-
-
-
-
 fd --changed-within=10min   | rg -v 'sh' | xargs echo   
 rm copy/*
 fd --changed-within=10min   | rg -v 'sh' | xargs c.sh
-
-
-
-
-
 fd 'rname'
 fd 'rname' -exec mv {} c.sh
 ls copy
 fd | rg '*.sh'
 fd | rg '.*'
 fd | rg '.*sh'
-
-
 fd | rg '.*sh' | xargs echo {}  
 fd | rg '.*sh' | xargs printf {}  
 fd | rg '.*sh' | xargs echo {}\n  
@@ -2534,15 +2383,9 @@ find * -type f -name "*" -exec cat
 find * -type f -name "*" | xargs cat 
 find * -type f -name "*" -exec cat {} +
 find * -type f -name "*" -exec head -n 2 {} +
-
 man head
 v foo\ -o\ index.html
-
 chmod +x ex.sh
-
- | v -
- 
- 
 fd -d 1 -x ls
 fd -d 1 -x ll
 fd -d 1 -x cat
@@ -2623,7 +2466,6 @@ a=`fd '*.sh' -0`
 a=`fd '.*sh' -0`
 a=`fd '.*sh' `
 echo $a > a
- done
 sh nn.sh
 man ifconfig
 ifconfig -a
@@ -2692,7 +2534,6 @@ ls -Ra
 fd -d 2 '.*history.*'
 fd -d 2 '.*his.*'
 fd -H -I -d 2 '.*his.*'
-
 fd -H -I -d 2 '.*his.*' | xargs echo
 fd -H -I -d 2 '.*his.*' | xargs echo {}
 fd -H -I -d 2 '.*his.*'  
@@ -2700,15 +2541,8 @@ touch x
 fd -H -I -d 2 '.*his.*' | xargs -0 -I _ echo _ .
 fd -H -I -d 2 '.*' | xargs -0 -I _ echo _ .
 fd -H -I -d 2 '.*' | xargs -0 -I _ cp _ ~/
-
-
-
-
 rm ~/x
-
 ls ~ 
-
-
 v .zsh_history
 md /mnt/c/you/wsl
 fd 'Track'
@@ -2719,12 +2553,9 @@ rm wsl/mp4
 rd wsl/mp4
 rm -rf wsl/mp4
 ls /mnt/c/you/wsl
-
-
 fd -H -I '.*mp\d'   
 take
 take wsl
-
 git commit -m 'files'
 fd 'ke.*js'
 fd 'keybo.*js'
@@ -2733,8 +2564,6 @@ cd AppData/Roaming/Code/User
 cp * /mnt/g/My\ Drive
 fd "("
 fd "\("
-
-
 mv ww0792.mp3 /mnt/c/twit
 ls -Sh
 ls -l -Sh
@@ -2745,11 +2574,6 @@ rm bob.mp3
 rm bob.mp4
 rm ffmpeg_4.4.2.orig.tar.xz piano-trainer_1.0.1_amd64.AppImage
 ls  -Shr | v -
-
-
-
-
-
 take gut
 ls *.mscz
 se 'e
@@ -2757,10 +2581,6 @@ fd -emscz -exec mv {} /mnt/c/Users/jayst/OneDrive/Documents/MuseScore3/Scores/gu
 fd -emscz
 cd /mnt/c/Users/jayst/OneDrive/Documents/MuseScore3/Scores/gut
 md mp3
-
-
-
-
 se 'exec'
 fd -emp3 -exec mv {} mp3/
 cd mp3
@@ -2915,14 +2735,7 @@ sudo nvim index.html
 docker -ps
 touch jim is here
 fd --changed-within=20min    
- done
- done
- done
- done
 touch xx
- done
- done
- done
 mv yy xx
  done #!interesting file rename
 fd -d 1 "*.*"
@@ -2978,7 +2791,6 @@ curl https://cht.sh
 ls /mnt/c/you/lazy
 ls /mnt/c/you/lazy | rg 'sea'
 ls /mnt/c/you/lazy | rg 'Lan'
- done
 kill SIGNAL PID
 ps -aux | grep 'nv'
 ps -aux | 
@@ -3104,7 +2916,6 @@ fd -H -I ".*shada.*" -x ll
 fd -H -I ".*shada.*" -x ls -l
 fd -H -I ".*shada.*" | xargs ls -l
 fd -H -I ".*shada.*" | xargs ls -l | v -
-
 alias fda='fd -H -I '
 fda --changed-within=2mins
 fda --changed-within=12mins
@@ -3120,7 +2931,6 @@ lt | sort -k 2
 lt | sort -k 3
 lt | sort -k 8
 take sort
-se 'for\s'
 n=(American professional baseball pitcher for the Minnesota Twins of Major League Baseball MLB. He made his MLB debut in 2017 with the Cincinnati Reds.)
 echo $n[1]
 v words
@@ -3145,8 +2955,6 @@ ls -l | sort -k5 -sh
 ls -l | sort -R
 n=$(ls | sort -R)
 echo $n
- done
- done
 sudo docker run hello-world
 cd .docker
 take wordp
@@ -3603,10 +3411,6 @@ declare -f | v -
 typeset -f
 compgen -c
 compgen -c | sort | column
- done
- done
- done
- done
 compgen -a | column
 compgen -c | sort | column | v -
 compgen -c | sort | column | nvim -
@@ -3640,10 +3444,6 @@ a=$(fd -d 1 ".*sh")
 a=$(compgen -a)
 which $a
 which ll
- done
- done
- done
- done
 which ld
 req_bins_count=$(wc -w <<<"$bins")
 echo $req_bins_count
@@ -3666,13 +3466,6 @@ echo ${bins[@]}
 bins=$(ls)
 echo ${#bins[@]}
 ls | wc
- done
- done
- done
- done
- done
- done
- done
 source pp.sh
 bash pp.sh
 v pp.sh
@@ -3687,14 +3480,8 @@ echo a[@]
 printf "%s\n" "${a[@]}"
 printf "%s\n" "${a[1]}"
 for i in "${a[@]}"\ndo echo $i\ndone
- done
 echo "${a[@]}"
- done
 limits=( 10 20 26 39 48)
- done
- done
- done
- done
 fd -esh --changed-within=2days
 sh gitAll.sh
 date -r 1663087843
@@ -3964,13 +3751,6 @@ declare -a take
 declare -a fd
 type -a python
 type -a python3
-
-
-
-
-
-
-
 shellcheck if.sh
 v if.sh
 ./if.sh
@@ -4424,21 +4204,14 @@ declare -a testvar
 testvar=$(ls)
 echo $testvar
 echo $testvar[0]
- done
 echo ${testvar[2]}
 printf ${testvar[2]}
 printf '%s/n' ${testvar[2]}
 printf '%s\n' ${testvar[2]}
- done
- done
 k=20
 j=30
 echo $k $j
 echo "$k $j"
- done
- done
- done
- done
 echo "$kk"
 printf "$kk"
 printf '%s\n' "$kk"
@@ -4560,17 +4333,11 @@ printf '%s\n' word{1..10}
 printf '%s\n' wordecho_{1..10}
 printf 'the %s\n' wordecho_{1..10}
 $a=0
- done
- done
  echo jim done
- done
- done
 jim=steffes
 set | rg 'ste'
 set | rg 'steffes'
 echo $path
- done
- done
 x = 2
 echo "$((a++))"
 echo "$(( a++ ))"
@@ -4616,11 +4383,6 @@ v $(printf '%s\n' "$HISTFILE")
 echo $USER
 echo $USER | rg 's'
 echo [[ 1 = 1 ]]
-
-
-
-
-
 uname -a | rg 'wsl'
 uname -a | rg '2'
 uname -a | rg 'WSLxxx'
@@ -4644,12 +4406,8 @@ printf '%s\n' "$HISTFILE"
 printf '%s\n' $PATH
 printf '%s\n' $(ls)
 printf '%s\n' $(ld)
-
-
- > alls
  > alls
 rm Bash\ Scripting\ Full\ Course\ 3\ Hours.mp4
-
 fd -emp4 -x exiftool
 fd -emp4 -x exiftool | rg "desc"
 fd -emp4 -x exiftool | jq '.'
@@ -4835,10 +4593,7 @@ mv Be__mp3_mp3_mp3sha__mp3_mp3_mp3Swing__mp3_mp3_mp3__mp3_mp3_mp3__mp3_mp3_mp3__
 mv Blue__mp3_mp3_mp3Monk__mp3_mp3_mp3__mp3_mp3_mp3Rudy__mp3_mp3_mp3Van__mp3_mp3_mp3Gelder__mp3_mp3_mp3Re__mp3_mp3_mp3aster__mp3_mp3_mp3__mp3_mp3_mp3__mp3_mp3_mp3__mp3_mp3_mp3__mp3_mp3_mp3 x
 cd you/monk
 fd "" -exec rename 's/__mp3{2}//g'
- done
- done
 fd "" -exec rename 's/__mp3//g'
- done
 rename * *.txt
 man rename
 manv rename
@@ -5216,7 +4971,6 @@ docker exec -ti mysql-db -c "sh"
 find . -type f -executable -print
  -print
  -print 2>err
- -print 2>err
 docker run --name mysql-db -v ~/datadir:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:8.0.28-debian
 docker exec -ti mysql-db -c "bash"
 fd -tsh
@@ -5387,8 +5141,6 @@ fc -3
 ech $BASH_VERSION
 fc -5
 s=$(cat file)
- done
- done
 s={1..100}
 echo $s
 echo ${1..100}
@@ -5422,13 +5174,10 @@ echo ${arr[0]}
 printf '%s\n' ${arr[@]}
 printf '%s\n' ${$arr[@]}
 printf '%s\n' ${#arr[@]}
- done
 unset arr
- done
 arr=$(ls ~)
  do\n  echo arr[$i] is ${arr[$i]}\ndone
 v ss
- done
 f b.sh
 chmod 777 b.sh docker-stop.sh
 chmod 777 b.sh 
@@ -5532,7 +5281,6 @@ find . -mtime -1 | v -
 find . -mtime -3 | v -
 find . -mtime -3 -ls
 find . -mtime -3 -ls |v -
-
 echo $place
 echo "hello `ls` world"
 echo "hello `ls m*` world"
@@ -5644,7 +5392,6 @@ printf "${red}test"
 printf '%s\n' "${red}test"
 jj.sh
 sc nn.sh
-
 v nn.sh
 sc nn.sh 'jim'
 cha 120
@@ -5716,7 +5463,6 @@ git commit -am "cleaned shells to /script"
 git log -
 git commit --amend -m "cleaned shells to /script *amended"
 cat ~/functions.sh
-cd dockerf
 git log --oneline --graph
 git checkout f743282
 fd -tf -d 1 -x rg -H 'git'
@@ -5822,7 +5568,6 @@ fd 'jq'
 fd 'jq' -x rm
 fd '9[456]'
 fd '9[456]' -x touch
-cat jqs
 exiftool -j LNL195.mp3 | v -
 v classes
 echo 'vlc $(fd 95)'
@@ -5906,7 +5651,6 @@ echo "Input from tput/echo at 23/45"
 tput rc
 echo "Input from tput/echo at 2/45"
 tput setb 6 tput setf 4
-
 fd -tf -E  *.mp3 -x  ./j | less
 j b.sh
 ./j d2
@@ -5963,7 +5707,6 @@ p "$p"
 p "$p\n"
 read name
 e $name
- read name
 p $name
 p $name\n
 p "$name\n"
@@ -6083,7 +5826,6 @@ p3 -m timeit -s "from math import sqrt" -n 100000 -r 4 "y = sqrt(1200000)"
 hyperfine 'find . -name 'echo''
 hyperfine 'fd -H -I'
 find . -name 'echo'
-hyperfine 'find .'
 rg 'find'
 grep 'find'
 grep 'find' .
@@ -6287,11 +6029,8 @@ cd nod
  rg 'google.*sheet.*QI' | v -
 v grid/ax.js
 fd -ets
- rg 'google.*sheet.*QI' | v -
 fd -ets -x rg 'google.*sheet.*QI' | v -
 fd -ets -x echo
- rg 'google.*sheet.*QI' | v -
- rg 'google.*sheet.*QI' | v -
 fd -ets -x echo {}
  rg 'google.*sheet.*QI' {} | v -
 fd -ets -x  rg 'google.*sheet.*QI' {} | v -
@@ -6335,9 +6074,6 @@ cd /tmp
 fd --changed-within 2hours -x head
 fd --changed-within 2hours -x echo
  head
- head
-
-
 se 'fd.*x\s'
 fd -a --changed-within 2hours | v -
 fd -a --changed-within 4hours | v -
@@ -6359,7 +6095,6 @@ fd -esh -x rg 'pr'
  rg 'pr' 
  rg 'printf' 
 fd -d 1 -esh
- rg 'printf' 
  rg 'printf'  | less
 fd -d 1 -esh -x echo
  rg 'printf'
@@ -6390,14 +6125,12 @@ fd . -esh -d 1 -x hean -n 2
 fd . -esh -d 1 -x head -n 2
  head -n 2
 fd . -esh -d 1 -x rg 'printf'
- rg 'printf'
  rg 'printf' | less
 se 'jj'
 v a.sh jj.sh
 fd -d 1 -esh -x jj.sh
 v jj.sh
 cat gitAll.sh | tail
- cat {}
 fd -d 1 -esh | xargs jj.shm{}
 fd -d 1 -esh | xargs jj.sh {}
 fd -d 1 -esh | xargs echo
@@ -6480,7 +6213,6 @@ git commit -am "git rm --cached"
 fd -x caqt
 fd -x cat
  read
- read
 chmod 777 v.py
 chmod 777 v.sh
 fd -x v.sh
@@ -6495,8 +6227,6 @@ cp 'n!' n
 rm 'n!'
 git rm --cached n
 git rm --cached $(ls)
- done
- done
 git rm --cached v
 git commit -m "one"
 git add n
@@ -6604,12 +6334,8 @@ echo %?
 echo $0
 [ -f a ]
 [ -f ab ]
- echo $?
- echo $?
 [ -f a ]\\necho $?
 \\necho $?
- echo $?
- echo $?
 [  -f a ] && echo 'a is a file'
 [ ! -f a ] && echo 'a is a file'
 [ -d ~/jq ] 
@@ -6692,15 +6418,9 @@ alias e='echo $?'
 [[ ! -e a ]] || echo 'no'
 [[ -e vvv ]]
  e
- e
- e
- e
- e
- e
  || e
 [[ 1 -lt 2 ]] || e
 [[ 1 -lt 2 ]] && e
- }
 command -v foo
 command -v fd
 command -v fd > /dev/null
@@ -6958,9 +6678,6 @@ xz -9e lf
 wi lf
 se 'for.*{'
 se 'for.*\{'
-done
-done
-done
 done &
 pstree
 pstree -aux 
@@ -7168,7 +6885,6 @@ left
 left | head
 alias nvim
 git commit -am "added lua files"
-glst
 nvim --headless -c 'call mkdir(stdpath("config"), "p") | exe "edit" stdpath("config") . "/init.lua" | write | quit'
 alias v | clip
 alias | rg clip
@@ -7343,17 +7059,11 @@ hyperfine $a
 v j.sh
 ./j.sh 'ls -lhrt'
 hp 'ls -lhrt'
- }
 cdm ~
 hiscdm ~
- }
 lt -lhrt /etc
- }
 cdm /etc
- }
- }
 cdm ls
- }
 cdm 'ls -lhrt'
 cdm 'ls -lhrt' 'ls'
 cdm "curl www.google.com"
@@ -7406,7 +7116,6 @@ fd -d 1 '^a' -x echo {/}
 fd -d 1 '^a' -x echo {/.}
 fd -d 1 '^a' -a -x echo {/.}
 fd -d 1 '^a' -a -x echo {}
- cat {}
 fd -d 1 '^a' -a -x  cat {}
 fd -d 1 'rc' -a -x  cat {}
 fd -d 1 -tf 'rc' -a -x  cat {}
@@ -7464,8 +7173,6 @@ chmod 754 comm.sh
 v comm.sh $(ls ~)
 ls ~ | wc
 ls ~
- done
- done
 v pc.sh
 bash -v
 bash -v | less
@@ -7710,7 +7417,6 @@ lln
 l -a
 touch lll
 ls -ahrt
-
 alias lta='ls -ahrt'
 alias | rg '^l' | column
 touch newdir/fff
@@ -7839,35 +7545,19 @@ fd --changed-within 1hour -0 | xargs -0 sh -c
 fd --changed-within 1hour -0 'aaa' | xargs -0 sh -c 
 fd  -0 'aaa' | xargs -0 sh -c 
  sh -c 
-
-
-
  echo
 fd  -0 'aaa' | xargs  -0 echo
- stat
  stat {}
- stat {}
- stat {}
- stat 
- stat 
  stat 
 fd  'aaa' | xargs  -I{} echo {}
- stat {}
- stat {}
 wc *.sh
  stat {}"
- stat {}"
  printf '\n\n' "
- printf '\n\n' "
- printf '\n\n' " | v -
  printf '\n\n' " | v -
  printf '**********\n\n' " | v -
 v hyper/k.sh
- printf '**********\n\n' " | v -
  printf '**********\n\n' "
 alias
- printf '**********\n\n' "
- printf '**********\n\n' " | v -
 ls | echo ok
 ls | xargs echo ok
 printf "jim\n"
@@ -7926,7 +7616,6 @@ find  -size 10M | xargs ls -lhrt
 find  -size 5M | xargs ls -lhrt
 find  -size 2M | xargs ls -lhrt
 find  -size 1M | xargs ls -lhrt
-lcd
 a ="something"
 a="something"
 e $a
@@ -8026,7 +7715,6 @@ lt | rg 'w.*'
 lt | rg '^d'
 stat work
 ln aaa junk/aaa
-v aaa
 sh aa
 sh aaa
 stat aaa
@@ -8052,13 +7740,9 @@ cat /dev/random | tail
 cat /dev/random | head
 cat /dev/random | head -n1
 echo -n "Enter the username: "\
-read name
 echo  "Enter the username: "\
-read name
 echo -n "Enter the username: "\nread name
-read name
  printf '%s\n' $name
- printf 'hello %s\n' $name
  printf 'hello %s\n' $name
 touch jim
  ls $name
@@ -8161,8 +7845,6 @@ he seq
 hit 
 hit 4
 seq 0 1 10
- done
- done
 alias ls
 ls | sort -n | sd '\n' ,''
 ls | sort -n | sd '\n' ,' '
@@ -8185,7 +7867,6 @@ v a
 ls *
 tldr seq
 se 'seq' | tail
- done
 sed -i '1itask goes here' 0020
 sed -i '1i\n\n\nj' 0020
 v 0020
@@ -8252,7 +7933,6 @@ v t
 t | v -
 t > v 
 v v
-t
 \rm v
 t > ww
 v ww
@@ -8322,7 +8002,6 @@ he read
 he ls
 he fd
 he rg
-
 rg 'frum'
 rg --stats 'frum'
 rg --stats 'frum' | nl
@@ -8356,7 +8035,6 @@ two\
 three\
 four\
 one two\
-two\
 nine\
 six two
 v file
@@ -8455,12 +8133,10 @@ se 'red.*nor'
 head -n2 '\0.*'
 fd '0.*' -x head -n2
  head -n2
- head -n2
 fd '0.*' -X head -n2
 cat tx.sh
 se 'seq'
 fd '0.*' -X \rm
- done
 cat 07
 cat 06
 rg 'echo' *
@@ -8538,7 +8214,6 @@ echo "'fd -H -I' 2>nn"
 ll=$(echo "'fd -H -I' 2>nn")
 p $ll
 ll=$(echo "fd -H -I")
-hyperfine $ll
 hyperfine $ll 2>/dev/null
 ./hype.sh
 rg eval
@@ -8548,7 +8223,6 @@ v hype.sh
 mmm=$(echo "'fd -H -I'")
 jj="hyperfine 'ls -lhrt' 2>&1"\
 eval $jj\
-eval $jj 2>&1
 alias cha
 type -a cha
 tmux --version
@@ -8573,7 +8247,6 @@ rg 'hyper' *
 bat j.sh
 alias cat="batcat"
 ./j.sh ls -lhrt
-cat j.sh
 ./j.sh ls
 ./j.sh ls 2>/dev/null
 fd -esh -x vim
@@ -8616,10 +8289,8 @@ mm=$(echo "hyperfine '$prog'")
 p $mm
 mm+=" 2>/dev/null"
 eval $mm
-prog="ls -lhrt"\
 mm=$(echo "hyperfine '$prog'")\
 mm+=" 2>/dev/null"\
-eval $mm
 v .tmux.conf
 tmux
 chmod 755 h.sh
@@ -8642,8 +8313,6 @@ wi a.py
 alias p3
 COMMAND="alias"\
 bash --login -c "$COMMAND"
-COMMAND="alias"\
-bash --login -c "alias"
 bash --login -c "alias"
 bash --login -c "lt"
 bash -i -c lt
@@ -8654,8 +8323,6 @@ man shopt
  }\
 $(echo bab)       # launches a python shell
 python
- }\
-$(echo bab)       # launches a python shell
 fd -esh -X nvim -o
 p $SHELLOPTS
 p $BASHOPTS
@@ -8685,7 +8352,6 @@ unset myip
 myip=''
 type -a myip
 source functions.sh
-myip
  echo "I'm now in $PWD")
  ls)
  ls -lhrt)
@@ -8699,15 +8365,10 @@ hisf () {\
 	omz_history | cut -c 1-7 --complement > hisfile\
 hisf
 v hisfile
-hisf () {\
 	omz_history | cut -c 1-7 --complement > hf\
 v functions.sh
 hf () {\
-	omz_history | cut -c 1-7 --complement > hf\
 }hf () {\
-	omz_history | cut -c 1-7 --complement > hf\
-hf () {\
-	omz_history | cut -c 1-7 --complement > hf\
 hf
 exec bash
 $(shuf -e "echo hi" "echo bye" "ls" -n 1)
@@ -8776,7 +8437,6 @@ trash court\
 trash dot.zip\
 trash eblue.svg\
 trash election-judge-interest-form.pdf
-trash april.mp3\
 trash essays_of_schopenhauer_2107_librivox.zip\
 trash f.txt\
 trash fc.sh\
@@ -8810,18 +8470,6 @@ trash test.txt\
 trash thr.tar.gz\
 trash top.jpg\
 trash tzdata2022c.tar.gz\
-trash unifying250.exe\
-trash unknown.mid\
-trash util-linux-2.38-rc1.tar.gz\
-trash v.sh\
-trash weekly-challenge\
-trash win32yank-x64.zip\
-trash win32yank.exe\
-trash winning_numbers.csv\
-trash wn.csv\
-trash z-coil.jpg\
-trash zsh-autosuggestions_0.7.0-1+3.1_amd64.deb\
-trash zsh-in-docker.sh
 trash unifying250.exe\
 trash unknown.mid\
 trash util-linux-2.38-rc1.tar.gz\
@@ -9090,7 +8738,6 @@ fda -d 1 -tf 'mp4_' -x \rm -rf
 \rm j.py\
 \rm j.sh\
 \rm json.sh\
-\rm ok\
 \rm practice.sh\
 \rm profit.txt\
 \rm readb.py\
@@ -9214,11 +8861,8 @@ tree | v
 \rm -rf mmmm
 tree | v -
 fd -d 1 -tf
-
 \rm 01_Track_1.mp3
 \rm Charlie_Parker_-_The__Levin_Wilson_Controversy_part_1..mp3
-
-
 fd -d 1 -tf " -exec rename "s/\\!//g" {}
 fd -d 1 -tf "\!" -exec rename "s/\\!//g" 
 fd -d 1 -tf "(" -exec rename "s/\(//g" 
@@ -9274,8 +8918,6 @@ fd 'nap'
 \rm The_Napoleonic_Soldier_History_Documentary.mp3
 cd Program\ Files
 cd ld
-
-
 fd -td /
 fd . -td /
 fd . -td -d 1 /
@@ -9647,7 +9289,6 @@ type -f dirs
 manv dirs
 tldr dirs
 cd twit
-rm *
 wget https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL200.mp3\
 wget https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL201.mp3\
 wget https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL202.mp3
@@ -9827,7 +9468,6 @@ tree .git
 t y
 git ls-tree -d
 git ls-tree -l
-
 t gg
 la
 touch gg
@@ -9855,7 +9495,6 @@ t p
 tree
 watch -d -n .5 tree .git | tail
 watch -d -n .5 ps -aux
-ls
 ld .git
 ld -a .git
 fda .git
@@ -9889,7 +9528,6 @@ bash yv.sh
 cd you/lazy
 fd '\s'
 space
-fd | v -
 vlc In_Our_Time_S16_12_Hindu_Ideas_of_Creation_Dec_5_2013.mp3 Despot_or_Enlightenment_Hero_Napoleon_Bonaparte.mp3 C_Span_The_Dark_Side_of_Bro._Napoleon_Bonaparte_That_Books_Try_to_Suppress_1997_.mp3 FrenchR.mp3 In_Our_Time_S15_09_The_Upanishads_Nov_8_2012.mp3 In_Our_Time_S22_01_Napoleon_s_Retreat_from_Moscow_Sept_19_2019_.mp3 Islam_s_Origins_Myth_and_Material_Evidence.mp3 Machiavelli_s_Advice_For_Nice_Guys.mp3
 se 'aux'
 ps -aux 
@@ -10002,9 +9640,7 @@ u
 cha 2000
 se 'rg.*v'
 se 'rg.*v' | v 0
-cha() {\
    fd -H -I --changed-within $1mins | rg -v "tld|conf|\.git|hyp|cache" | xargs stat --format="%n %x" | column -t\
-}
 cha 200
 cha 20000
 cha 20000 | sort
@@ -10030,9 +9666,7 @@ find / -type f -printf "\n%Ab %p" | head -n 11
 find / -type f -printf "\n%AD %AT %p" | head -n 11 | sort -k1.8n -k1.1nr -k1
 cha 20000 | sort -k1.8n -k1.1nr -k1
 cha 20000 | sort -k2.8n -k2.1nr -k1
-cha() {\
    fd -H -I --changed-within $1mins | rg -v "tld|conf|\.git|hyp|cache|\.local" | xargs stat --format="%n %x" | column -t\
-}
 cha 20000 
 cha 20000 | v -
 cha 20000 | sort -k2
@@ -10171,9 +9805,7 @@ elif [[ -n "$string" ]]; then\
   echo "String is not empty"\
 fi
 string=''
-fi
 cd junk
-his
 cham 20
 sc st
 string='xxx'
@@ -10215,175 +9847,60 @@ lt
  cd list
 exit
 ls *.py | xargs head -n1
-type -a python3.10
-v x.py
-v functions.sh
-chah 24
-v workon
-lt
 chmod 755 workon
 . workon newer
-lt
 \rm new newer
 mv workon pys
-cd junk
 workon cool
-cd winp
-lt
 cd list
-c
-lt
 lsp.py
-pc
 cd /home/steff007/winp/list
-lt
 sed -i "y/\"/'/" lsp.py
-lsp.py
-i3
-lt
-lsp.py
 p(d)
-v not
-lt
-h3
-lt
-v not
-lt
 ' not
-v not
-lt
 cat not.back not
-lt
 cat lsp.py
 ' lsp.py
-' lsp.py
 perl -w
-lt
 sed not
-his
-' lsp.py
-lt
-..
-lt
 v coolReadFile.py
-i3
-bas
-v ye.sh
-bash ye.sh
-mps
-cd
-cd winp
-lt
 d='less'
  cd $d
-c
 t sum.py
-..
-lt
-cd list
-lt
 \rm not not.back
 v lsp.py
-d
-2
-c
-lt
 cd less
-lt
 ./sum.py
-ipy
-bas
-cat ye.sh
 sed -i "s/time3/lazy" ye.sh
 sed -i -e "s/time3/lazy" ye.sh
-v xx
-lt
-v xx
-lt
 se 'sed' | tail
 sed -i "s/time3/lazy/" ye.sh
-cat ye.sh
-bash ye.sh
-c
-cd
-fda 'voic'
-mps
-fda 'voic'
-cd
 fda -ejs --changed-within=2weeks
 fda -ejs --changed-within=8weeks
-mc
-fda -ejs --changed-within=2weeks
-bas
-bash ye.sh
-...
 fda -ejs --changed-within=2weeks > ~/voice.js &
-mps
-cd
-lt
-ld
-cd winp
-lt
-cd
-lt
 v voice.js
-gst
 fd voice
 git log --oneline | tail
 git log --oneline 
 git checkout 581fd2a
-fd voice
-v voice.js
-gst
 fda -ejs --changed-within=2weeks 
 git checkout -
-git log
-mps
-bas
-cd
-source /mnt/c/all/bash/mp4/bin/activate
-deactivate
 fd . /mnt/c/you -td | column
 alias fdc
 fd . /mnt/c/you -td -d 1 | column
-c
 cd /mnt/c/you\
 fd . -td -d 1 | column\
-cd -
 read -p 'Enter DL youtube audio: ' DIRY\
 newdir="/mnt/c/you/$DIRY"\
 echo newdir
 read -p 'Enter DL youtube audio: ' DIRY
-fc
 read  'Enter DL youtube audio: ' DIRY
-workon cool
-lt
-workon cool
 cool
 v cool
-cool
-v cool
-cool
-fd . /mnt/c/you -td -d 1 | column
-c
 ne='/mnt/c'
 cd $ne
-d
-1
 workon cool2
-fd . /mnt/c/you -td -d 1 | column
-workon cool2
-echo $(date)
-bas
-v ye.sh
-bash ye.sh
-cd you/lazy
-cd
-lt
-fd work
 ln pys /mnt/c/smith
 cp -R pys/ /mnt/c/all
-fd -d 1 git
 lt gitall*
 lt git*
-gitAll.sh
