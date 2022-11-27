@@ -1,0 +1,9 @@
+#!/bin/bash -v
+#copy hist wsl git
+#important
+cat ~/.bash_history ~/all_wsl/gcloud_his   >> ~/all_wsl/gcloud_his
+cp ~/.bash_aliases ~/all_wsl/gcloud_als 
+cp ~/fun ~/all_wsl/gcloud_fun
+cat ~/.bash_history >>~/all_wsl/bash_history
+awk '!a[$0]++' ~/all_wsl/gcloud_his > ~/all_wsl/gcloud_his_u
+awk '!a[$0]++' ~/all_wsl/bash_history > ~/all_wsl/bash_history_u

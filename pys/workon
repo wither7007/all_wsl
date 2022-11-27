@@ -6,7 +6,7 @@ fi
 
 while [ 1 ];
 do
-        nvim $1
+        vim $1
         chmod 755 $1
         ./$1
         read dummy
