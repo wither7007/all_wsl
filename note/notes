@@ -39,6 +39,8 @@ imao
 Jeff Hawkins
 dog who caught the car
 
+vim /^.\{,25}$/ to find lines shorter than 25 characters.
+
 distributed graph theory tree model
 ipython ctrl-z fg
 
