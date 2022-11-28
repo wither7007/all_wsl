@@ -19,7 +19,7 @@ fd -H -I --changed-within 5mins
 }
 
 cha() {
-   fdfind -H -I --changed-within $1mins | rg -v '\.git' | rg -v '\theia'
+   fdfind -H -I --changed-within $1mins | rg -v "\.git" | rg -v "\theia"
 }
 
 vdiff () {
@@ -44,12 +44,13 @@ function mkcd {
   if [ ! -n "$1" ]; then
     echo "Enter a directory name"
   elif [ -d $1 ]; then
-    echo "\`$1' already exists"
+    echo ""$1" already exists"
   else
     mkdir $1 && cd $1
   fi
 }
-alias lln="ls -lhtr  --time-style long-iso | tac | cat -n | tac | sed -s 's/^\s*\([0-9]*\)\s*\(.*\)/[\1]  \2 [\1]/'g && pwd"
+#funny alias
+#alias lln="ls -lhtr  --time-style long-iso | tac | cat -n | tac | sed -s"s/^\s*\([0-9]*\)\s*\(.*\)/[\1]  \2 [\1]/"g && pwd"
 function lf() {
     if [ "x${1}" == "x" ]
     then
@@ -59,3 +60,4 @@ function lf() {
     fi  
     ls -rt1 | tail -n ${n} | head -n 1
 }
+function rhc(){ rg $1 ~/all_wsl/gcloud_his; }

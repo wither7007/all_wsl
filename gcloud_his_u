@@ -1596,3 +1596,181 @@ lt gclo
 lt gclo*
 cat ~/.bash_history ~/all_wsl/gcloud_his   >> ~/all_wsl/gcloud_his_u
 lt all_wsl/
+git commit -am "golden git awk"
+se 'git.*main'
+se 'git.*diff'
+rg diff gcloud_his
+se 'git.*show'
+type -a se
+rhc() { rg $1 ~/all_wsl/gcloud_his } 
+rgh()\
+rgc() { rg $1 }
+function rhc() { rg $1 ~/all_wsl/gcloud_his } 
+echo pwd pwd
+function message1() {     echo "welcome to the world of linux"; }
+message1
+rgc() {echo ok \
+function rhc(){ rg $1 ~/all_wsl/gcloud_his }  \
+function rhc(){ rg $1 ~/all_wsl/gcloud_his; }  
+rgh diff
+rgc diff
+rhc diff
+git diff --name-only main origin/main
+ghc 'ln\s'
+rhc 'ln\s'
+ln .bash_aliases all_wsl/cloud_alias
+v ~/.bashrc 
+ln chis.sh all_wsl/chis
+stat chis
+se 'rg'
+rhc 'diff'
+lt 
+git commit -am "c"
+stat bashrc
+..
+v exist
+sc exist 
+v exist 
+sc exist
+lt ex*
+v exit
+mv exist exist.sh
+chmod 754 exist.sh 
+./exist.sh 
+v exist.sh 
+appsc
+command -v foo >/dev/null 2>&1 || { echo >&2 "I require foo but it's not installed.  Aborting."; exit 1; }
+touch qqqq
+ln qqqq all_wsl/qqqq
+ls -i q*
+ls -i q* all_wsl/
+stat qqqq
+cat qqqq 
+rm qqqq 
+alias glf='git log --oneline HEAD..@{u}'
+glf
+alias glp='git log --oneline @{u}..HEAD'
+glp
+v -o ~/.bash_history ~/.bash_aliases 
+git commit -am "what"
+apps | grep -v 'vim'
+. install.sh 
+echo $TERM
+fd 'term' /etc
+cd /etc/terminfo/
+printf '\033[32m'
+v README 
+fda -d 1 'term'
+cd pys/
+. workon
+gse workon 
+. workon nuts
+gst | head
+git commit -am "valley lib"
+git commit -am "cloud root"
+fd '9'
+fd '9' | xargs ls -lhrt
+echo $LS_COLORS
+set
+shist 'fd'
+set | tail
+set | tail -n50
+manv set
+v .vimrc 
+type -a manv
+lf
+rhc 'fd'
+rhc 'fd' | v -
+cha 200
+cha 200 | rg -v 'all'
+cha 2000 | rg -v 'all'
+sed fun
+sed -e fun
+sed '.*' fun
+sed 's/.*' fun
+sed 's/.*//' fun
+sed 's/a/xxxxxxxxxxxxxxxxxxx/' fun
+sed 's/$1/xxxxxxxxxxxxxxxxxxx/' fun
+sed 's/$1/"xxxxxxxxxxxxxxxxxxx"/' fun
+sed 's/($1)/\1/' fun
+echo Ubuntu Debian Linux Fedora | sed 's/\(Ubuntu\) \(Debian\) \(Linux\)/\3 \2 \1/'
+sed 's/\($1\)/\1/' fun
+sed 's/\($1\)/xxx\1/' fun
+sed 's/\($1\)/"\1"/' fun
+sed 's/\($1\)/"\1"/' fun | head
+sed 's/\($1\)/"xxx\1"/' fun | head
+grep '$1' *
+fd -tf | xargs grep '$1'
+fd -tf -d 1 | xargs grep '$1'
+x
+my $string = 'bcdabdcbabcd';
+fd -d 1 work
+fd -d 2 work
+ls w*
+cd pys
+. workon exis
+gce .bashrc
+gse .bashrc
+fd -d 1 -tf | args grep 'github'
+fd -d 1 -tf | xargs grep 'github'
+curl 'https://api.github.com/repos/wither7007/all/commits | jq '.[0]' | v -
+. .bash_aliases 
+fd -d 1 'bash' | xargs grep 'pwd'
+fd -d 1 -tf  | xargs grep 'pwd'
+fd -d 1 -tf  | xargs grep 'pwd' | less
+ls all*
+rm all_commands 
+rm index.html 
+fd -d 1 -tf  | xargs grep 'pwd' | v -
+fd -d 1 'his'
+. ~/fun
+type -f shist
+cha 24
+d all_wsl/
+git commit -am 'fixed whis with vim replace first line"
+git commit -am "fixed whis with vim replace first line"
+v gcloud_his_u 
+awk '!a[$0]++' whis | v -
+wc whis
+wc whis wslhis 
+mv wslhis whis
+git commit -am "uniq whis"
+curl 'https://api.github.com/repos/wither7007/all_wsl/commits?per_page=5' | jq '.[] | {full_name: .full_name, url: .url}'
+curl https://api.github.com/users/wither7007
+curl https://api.github.com/users/wither7007 | jq '.[]'
+curl https://api.github.com/users/wither7007 | jq '.'
+curl https://api.github.com/users/wither7007 | jq '.id'
+curl https://api.github.com/users/wither7007 | jq '.repos_url'
+curl "https://api.github.com/users/wither7007/repos"
+curl "https://api.github.com/users/wither7007/repos" | head 
+curl "https://api.github.com/users/wither7007/repos" | head  -n20
+curl "https://api.github.com/users/wither7007/repos" | jq '.full_name'
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0]'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.[0]'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.[0]' | {message: .commit.message, name: .commit.committer.name}'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.[0] | {message: .commit.message, name: .commit.committer.name}'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.[0]' | v -
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.[0] | {.commit.message}'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.[0] | {message: .commit.message}'
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0]' | v -
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0]' | { id: .id }
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0] | { id: .id }'
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0] | { ssh: .ssh_url }'
+curl "https://api.github.com/users/wither7007/repos" | jq '.[3] | { ssh: .ssh_url }'
+curl "https://api.github.com/users/wither7007/repos" | jq '.[] | { ssh: .ssh_url }'
+curl "https://api.github.com/users/wither7007/repos" | jq '.[] | { ssh: .ssh_url }' | v -
+git clone git@github.com:wither7007/wither7007.github.io.git
+cd wither7007.github.io/
+fd nfl
+cd nfl
+v index.html 
+cd nfl/
+git commit -am "week 12"
+git diff HEAD~1
+ssp
+git commit -am "week 12 fix"
+curl 'https://api.github.com/repos/wither7007/all/commits' | jq '.[0]' | v -
+tmux attach-session -t 1
+rm 9-29.tar.gz 
