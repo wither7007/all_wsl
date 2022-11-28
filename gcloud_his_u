@@ -1457,7 +1457,6 @@ alias lt
 alias take
 a='vim_comm.txt'
 awk '!a[$0]++' bash_history > history_awk
-awk '!a[$0]++' .bash_history > history_awk
 awk '!a[$0]++' gcloud_his | v -
 Bears       3-4 @ Cowboys     5-2  @ 12:00 PM
 Bengals     4-3 @ Browns      2-5  @  7:15 PM
@@ -1818,3 +1817,8 @@ hstash
 vmn\
 chis
 fd chis.sh 
+v gcloud_his_h
+echo "$(date)"
+fd chis
+git rm chis.sh 
+cp chis ~/chis

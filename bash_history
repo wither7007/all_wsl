@@ -4844,3 +4844,24 @@ vmn
 hstash
 exit
 his
+v .bash_history
+exit
+v gcloud_his_h
+v gcloud_his_u 
+echo "$(date)"
+git fetch
+git diff --name-only main origin/main 
+fd
+git merge
+cat chis
+fd chis
+his
+git rm chis.sh 
+h3
+cat chis.sh 
+cd all_wsl/
+lt
+cp chis ~/chis
+..
+c
+gst

@@ -898,3 +898,9 @@ hstash
 vmn\
 chis
 fd chis.sh 
+v gcloud_his_h
+echo "$(date)"
+cat chis
+fd chis
+git rm chis.sh 
+cp chis ~/chis
