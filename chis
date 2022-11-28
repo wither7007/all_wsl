@@ -7,3 +7,8 @@ cp ~/fun ~/all_wsl/gcloud_fun
 cat ~/.bash_history >>~/all_wsl/bash_history
 awk '!a[$0]++' ~/all_wsl/gcloud_his > ~/all_wsl/gcloud_his_u
 awk '!a[$0]++' ~/all_wsl/bash_history > ~/all_wsl/bash_history_u
+cd ~/all_wsl
+git add .
+git commit -am "gcloud "
+git push
+echo "all done"
