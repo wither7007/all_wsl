@@ -59,7 +59,7 @@ alias la='ls -A'
 alias ld='ls -la | grep "^d"'
 alias ldr='ls -td -- */ | head -n 20 | column'
 alias left='ls -t -1'
-alias lf='exa  -a --group-directories-first'
+alias ldf='exa  -a --group-directories-first'
 alias ll='ls -alF'
 alias lln="ls -lhtr  --time-style long-iso | tac | cat -n | tac | sed -s 's/^\s*\([0-9]*\)\s*\(.*\)/[\1]  \2 [\1]/'g && pwd"
 alias ls='ls --color=auto'
@@ -77,7 +77,7 @@ alias nb='node --inspect-brk'
 alias no='node'
 alias nv='nvim'
 alias ovim="nvim -u /home/steff007/.config/init.vim"
-alias p3='python3.10'
+alias p3='/bin/python3.10'
 alias pc='pwd |tr '\''\n'\'' '\'' '\'' | clip.exe'
 alias pow='powershell.exe'
 alias py="python"

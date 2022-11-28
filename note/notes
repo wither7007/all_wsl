@@ -1,4 +1,5 @@
 assurance pin 340908 city paris
+m tabulate import tabulatej
 tracking 9200190286973824233237
 320-775-7191
 
@@ -11,10 +12,26 @@ Thursday december 22
 alishia harrison
 14500 99th Avenue
 2:00
+
 Maple 55369
 IMPRESSION: No acute fracture. Chronic malunited fracture deformity of
 the right humeral head. There is a moderate sized ununited fracture
 fragment along the posterior superior portion of the humeral head.
+!cool
+curl cheat.sh/find
+
+Rep. Ginny Klevorn
+head -n4 $(ls *.*) | less -NX | v -
+
+https://news.ycombinator.com/item?id=33760607
+
+ Ken Thompson, Dennis Ritchie
+Tim Berners-Lee
+
+wtf is this
+man iconv
+https://stackoverflow.com/questions/18238771/jump-to-byte-address-in-vim
+f=open("c.csv", encoding="unicode_escape")
 
 KEITH H WITTENBERG, MD
 Caesars Sportsbook 
@@ -22,16 +39,25 @@ imao
 Jeff Hawkins
 dog who caught the car
 
+ipython ctrl-z fg
+
 it is more advisable to show your intelligence by saying nothing than speaking out. counsels and maxims.
+
+kaggle.com
 
 Man can do what he wills but he cannot will what he wills
 
 partner@pcsforpeople.com
 651-354-2552
 
+vim You got into insert mode inside Ex mode with :i, so you need to leave it with a line containing only a period:
+
+.
 gombe chimpanzee war
 jane goodall
 
+date -ud @1669514959 #!date utc
+date -d @1669515089 #!date locl
 sed -i "y/\"/'/" lsp.py
 
 M Health Fairview Clinic Bass Lake
@@ -49,14 +75,11 @@ essential git read
 https://stackoverflow.com/questions/73239997/files-in-gitignore-still-show-up-when-doing-git-status
 
 
-head -n4 $(ls *.ps1) | less -NX
-
 cha 20000 | rg -v "tld|conf|hyp|git" | xargs printf '%s\n'
 
 tar -zcvf sandbox_compressed.tar.gz sandbox
 tar -zcvf [result-filename.tar.gz] [path-of-directory-to-compress]
 The -zcvf instruction stand for:
-
 
 -z: Compress the desired file/directory using gzip
 -c: Stand for create file (output tar.gz file)
@@ -131,6 +154,17 @@ filename and path
 smart quotes
 :%s/[“”]/"/g 
 pu= resolve(expand('%:p'))
+nvim --clean
+%!python -m json.tool
+!cool https://vi.stackexchange.com/questions/9831/disable-ctrl-z-in-normal-mode
+nnoremap <c-z> <nop>
+You can understand it like this:
+
+n                      Do the following mapping only in normal mode
+ nore          Don't make it recursive (This is not necessary here but strongly recommended in all your mappings)
+     map               Create a mapping
+         <c-z>         The keys that you want to remap
+               <nop>   This is the short for "no operation" i.e. Do nothing
 
 https://vi.stackexchange.com/questions/8378/dump-the-output-of-internal-vim-command-into-buffer
 :enew|pu=execute('map') 
