@@ -1774,3 +1774,46 @@ git commit -am "week 12 fix"
 curl 'https://api.github.com/repos/wither7007/all/commits' | jq '.[0]' | v -
 tmux attach-session -t 1
 rm 9-29.tar.gz 
+git commit -am "chis run"
+type -a workon
+ls i*
+type -a python
+python --version
+type -a p3
+p3
+apps | rg "^py"
+type -a i3
+ipython3 --version
+dhu
+fd -H -I -S +10M -x stat --printf='Name: %n \t Size: %s\n'
+fd -H -I -S +1M -x stat --printf='Name: %n \t Size: %s\n'
+cd .git/objects/pack/
+cd .git
+git stash
+git stash list
+git stash show
+git stash show -p
+git stash pop
+rg tree note/notes
+rhg
+rg -c 2 tree note/notes
+alias rgh='rg -help -v'
+alias rgh='rg -help | v -'
+rg -C 2 tree note/notes
+rg -C 2 github note/notes
+rg -C 2 github note/notes | v -
+h3 | column
+source ~/.bash_aliases 
+h
+git commit -am "alias"
+echo $HISTCONTROL
+source .bash_aliases 
+type -a h3
+h3 | column -t
+ls | column -t
+ls | column 
+la | column
+hstash
+vmn\
+chis
+fd chis.sh 

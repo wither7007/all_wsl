@@ -179,6 +179,7 @@ declare -f take
 
 tmux
 resize-pane U, D
+max-pane ctrl-a z
 
 Use the pidof command to find the process ID of a running program or app
 pidoff appname

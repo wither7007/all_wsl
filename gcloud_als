@@ -1,6 +1,7 @@
 # Aliases
 #alias c="cd /mnt/c"
 alias als=' v ~/.bash_aliases'
+alias hstash='curl https://gist.githubusercontent.com/Preethi-Dev/fa8ae46a75761356dc1fa711376c8345/raw/a2dfe8bac54f92925092a75aee4692ac82212747/git__stash__commands.md | v -'
 alias apps='sudo apt list --installed'
 alias appsc="apps | sed -e '/^lib/d' -e '/^p/d' -e '/^rub/d' | vim -"
 alias bas="cd /mnt/c/all/bash"
@@ -48,7 +49,7 @@ alias gst='git status'
 alias gup='git fetch && git rebase'
 alias gx='ga . && gc "initial"'
 alias h30='history | tail -n 30'
-alias h3='history | tail -n 50'
+alias h3='history | tail -n 100 | column'
 alias hi='history'
 alias his='hi |  cut -c 1-7 --complement | v -'
 alias hn='hi | vim -'
@@ -81,7 +82,7 @@ alias pow='powershell.exe'
 alias psa="ps -aux | v -"
 alias py="python"
 alias ran='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
-alias rgh='rg -help'
+alias rgh='rg -help | v -'
 alias sc="source "
 alias se='history | rg '
 alias ssp="python3 -m http.server"
