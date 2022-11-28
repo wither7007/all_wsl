@@ -5435,3 +5435,35 @@ cp chis ~/chis
 ..
 c
 gst
+exit
+v gcloud_his_h
+echo "$(date)"
+git fetch
+git diff --name-only main origin/main 
+git merge
+cat chis
+fd chis
+his
+git rm chis.sh 
+cat chis.sh 
+cp chis ~/chis
+./chis 
+cd all_wsl/
+v gcloud_his_u 
+..
+echo $HISTCONTROL
+lt
+fd al
+fda
+h3
+la
+la | rg al
+tail .gitignore 
+v .gitignore 
+fd
+gst
+c
+fdc
+fd | column
+wc .bash_history
+v .bash_history

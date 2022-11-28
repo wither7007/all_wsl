@@ -1822,3 +1822,8 @@ echo "$(date)"
 fd chis
 git rm chis.sh 
 cp chis ~/chis
+./chis 
+fd al
+la | rg al
+tail .gitignore 
+wc .bash_history
