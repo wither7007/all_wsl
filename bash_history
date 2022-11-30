@@ -3715,3 +3715,1185 @@ lt
 rm 9-29.tar.gz 
 c
 v chis.sh 
+rgc diff
+rhc diff
+his
+cd all_wsl/
+gst
+git diff --name-only main origin/main
+git pull
+git diff --name-only main origin/main
+u
+ghc 'ln\s'
+cat fun
+rhc 'ln\s'
+ln .bash_aliases all_wsl/cloud_alias
+cd all_wsl/
+gst
+v ~/.bashrc 
+lt
+u
+lt -a
+cd all_wsl/
+gst
+u
+exit
+tmux
+exit
+lt
+ln chis.sh all_wsl/chis
+cd all_wsl/
+lt
+lt ch*
+stat chis
+se 'rg'
+rhc 'diff'
+lt
+c
+cd all_wsl/
+lt
+c
+lt
+lt -a
+cd all_wsl/
+lt 
+u
+c
+wi fd
+type -a fd
+cd all_wsl/
+gst
+git add .
+gst
+git commit -am "c"
+git push
+git pull
+gst
+u
+v .bashrc 
+cd all_wsl/
+lt
+stat bashrc
+..
+c
+v exist
+sc exist 
+v exist 
+sc exist 
+lt
+c
+lt | tail
+sc exist
+c
+..
+lt ex*
+v exist
+lt ex*
+sc exist 
+v exist 
+sc exist 
+v exit
+v exist 
+sc exist 
+v exist 
+mv exist exist.sh
+chmod 754 exist.sh 
+lt
+./exist.sh 
+c
+v exist.sh 
+./exist.sh 
+v exist.sh 
+./exist.sh 
+v exist.sh 
+./exist.sh 
+c
+v exist.sh 
+./exist.sh 
+./install.sh 
+c
+./exist.sh 
+wi fd
+type -a fd
+v exist.sh 
+./exist.sh 
+v exist.sh 
+c
+lt | tail
+./exist.sh 
+als
+vmn
+als
+appsc
+c
+command -v foo >/dev/null 2>&1 || { echo >&2 "I require foo but it's not installed.  Aborting."; exit 1; }
+tmux ls
+..
+lt
+...
+ls
+l
+duh
+c
+cd
+ls -i
+touch qqqq
+ln qqqq all_wsl/qqqq
+ls -i q*
+ls -i q* all_wsl/
+stat qqqq
+date
+exit
+tmux
+exit
+ls *.sh
+cd all_wsl/
+gst
+cat qqqq 
+rm qqqq 
+gst
+alias glf='git log --oneline HEAD..@{u}'
+glf
+git fetch
+glf
+alias glf='git log --oneline HEAD..@{u}'
+alias glp='git log --oneline @{u}..HEAD'
+glp
+v -o ~/.bash_history ~/.bash_aliases 
+gst
+git add .
+git commit -am "what"
+gst
+git pull
+gst
+c
+u
+lt
+rm qqqq 
+lt -a
+l
+apps
+apps | grep -v 'vim'
+exit
+ld
+cd all_wsl/
+c
+l
+..
+wi fd
+ls
+. install.sh 
+..
+cd
+c
+l
+cd all
+cd all_wsl/
+gst
+als
+ls
+echo $TERM
+fd 'term' /etc
+cd /etc/terminfo/
+lt
+la
+printf '\033[32m'
+ls
+lt
+v README 
+cd
+fda -d 1 'term'
+ls
+gst
+c
+lt
+gst
+cd all_wsl/
+c
+gst
+git pull
+lt
+cd pys/
+lt
+. workon
+als
+c
+lt
+gse workon 
+. workon
+. workon nuts
+cd all_wsl/
+gst
+git add .
+gst | head
+git push
+gst
+git commit -am "valley lib"
+gst
+..
+gst
+git show
+git add .
+gst
+git commit -am "cloud root"
+fd '9'
+fd '9' | xargs ls -lhrt
+c
+echo $LS_COLORS
+set
+ps -aux
+shist
+shist 'fd'
+c
+set | tail
+set | tail -n50
+manv set
+v .vimrc 
+c
+v chis.sh 
+v fun 
+type -a manv
+lln
+ll
+lln
+lf
+rhc 'fd'
+rhc 'fd' | v -
+cha
+cha 2000
+type -f cha
+type -a cha
+v fun
+c
+cha 200
+cha 200 | rg -v 'all'
+cha 2000 | rg -v 'all'
+cd all_wsl/
+lt
+..
+sed fun
+sed -e fun
+sed '.*' fun
+sed 's/.*' fun
+sed 's/.*//' fun
+cat fun
+sed 's/a/xxxxxxxxxxxxxxxxxxx/' fun
+sed 's/$1/xxxxxxxxxxxxxxxxxxx/' fun
+sed 's/$1/"xxxxxxxxxxxxxxxxxxx"/' fun
+sed 's/($1)/\1/' fun
+echo Ubuntu Debian Linux Fedora | sed 's/\(Ubuntu\) \(Debian\) \(Linux\)/\3 \2 \1/'
+sed 's/\($1\)/\1/' fun
+sed 's/\($1\)/xxx\1/' fun
+c
+sed 's/\($1\)/"\1"/' fun
+c
+sed 's/\($1\)/"\1"/' fun
+sed 's/\($1\)/"\1"/' fun | head
+sed 's/\($1\)/"xxx\1"/' fun | head
+grep '$1' *
+fd -tf | xargs grep '$1'
+fd -tf -d 1 | xargs grep '$1'
+x
+c
+fd -tf -d 1 | xargs grep '$1'
+my $string = 'bcdabdcbabcd';
+fd -d 1 work
+fd -d 2 work
+ls w*
+cd all_wsl/
+gst
+ls w*
+lt
+cd pys
+lt
+. workon exis
+c
+exit
+v fun 
+exit
+ls
+l
+. install.sh 
+c
+gce .bashrc
+als
+gse .bashrc
+tmux ls
+cd all_wsl/
+fd -d 1 -tf
+fd -d 1 -tf | args grep 'github'
+fd -d 1 -tf | xargs grep 'github'
+curl 'https://api.github.com/repos/wither7007/all/commits | jq '.[0]' | v -
+v .bash_aliases 
+. .bash_aliases 
+fd -d 1 'bash' | xargs grep 'pwd'
+fd -d 1 -tf  | xargs grep 'pwd'
+fd -d 1 -tf  | xargs grep 'pwd' | less
+ls all*
+v all_commands 
+rm all_commands 
+l
+fd -d 1 -tf  | xargs grep 'pwd' | less
+rm index.html 
+fd -d 1 -tf  | xargs grep 'pwd' | less
+c
+v fun
+exit
+fd -d 1 -tf  | xargs grep 'pwd' | v -
+cd all_wsl/
+fd -d 1 'his'
+v whis
+type -f cha
+v ~/fun 
+. ~/fun
+type -f cha
+. ~/fun
+type -f shist
+type -a shist
+type -a cha
+cha 24
+d all_wsl/
+v ~/fun 
+type -a cha
+c
+cd all_wsl/
+lt
+gst
+c
+gst
+git add .
+gst
+git commit -am 'fixed whis with vim replace first line"
+git commit -am "fixed whis with vim replace first line"
+gst
+c
+git push
+gst
+lt
+v gcloud_his_u 
+awk '!a[$0]++' whis | v -
+gst
+git diff
+lt
+wc whis
+wc whis wslhis 
+mv wslhis whis
+lt
+wc whis
+gst
+git diff
+git status
+git commit -am "uniq whis"
+git push
+c
+lt
+c
+cls
+curl 'https://api.github.com/repos/wither7007/all_wsl/commits?per_page=5' | jq '.[] | {full_name: .full_name, url: .url}'
+exit
+ls
+tmux ls
+v whis 
+curl https://api.github.com/users/wither7007
+curl https://api.github.com/users/wither7007 | jq '.[]'
+curl https://api.github.com/users/wither7007 | jq '.'
+curl https://api.github.com/users/wither7007 | jq '.id'
+curl https://api.github.com/users/wither7007 | jq '.repos_url'
+c
+curl https://api.github.com/users/wither7007 | jq '.repos_url'
+curl "https://api.github.com/users/wither7007/repos"
+curl "https://api.github.com/users/wither7007/repos" | head 
+c
+curl "https://api.github.com/users/wither7007/repos" | head  -n20
+h3
+curl "https://api.github.com/users/wither7007/repos" | head 
+curl "https://api.github.com/users/wither7007/repos" | jq '.full_name'
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0]'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.[0]'
+c
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.[0]' | {message: .commit.message, name: .commit.committer.name}'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.[0] | {message: .commit.message, name: .commit.committer.name}'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.[0]' | v -
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.[0] | {.commit.message}'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.[0] | {message: .commit.message}'
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0]' | v -
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0]' | { id: .id }
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0] | { id: .id }'
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0]' | v -
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0] | { ssh: .ssh_url }'
+curl "https://api.github.com/users/wither7007/repos" | jq '.[3] | { ssh: .ssh_url }'
+curl "https://api.github.com/users/wither7007/repos" | jq '.[] | { ssh: .ssh_url }'
+curl "https://api.github.com/users/wither7007/repos" | jq '.[] | { ssh: .ssh_url }' | v -
+exit
+l
+git clone git@github.com:wither7007/wither7007.github.io.git
+l
+cd wither7007.github.io/
+lt
+fd nfl
+cd nfl
+lt
+c
+v index.html 
+..
+gst
+cd nfl/
+..
+gst
+git commit -am "week 12"
+git push
+cd nfl/
+lt
+gst
+git diff HEAD~1
+v index.html 
+git diff
+v index.html 
+git diff
+c
+lt
+als
+ssp
+gst
+..
+gst
+git diff
+git commit -am "week 12 fix"
+c
+git push
+gst
+exit
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0]' | v -
+exit
+exit
+curl 'https://api.github.com/repos/wither7007/all/commits' | jq '.[0]' | v -
+exit
+tmux attach-session -t 1
+exit
+ls
+l
+v chis.sh 
+cd all_wsl/
+gst
+..
+c
+lt
+rm 9-29.tar.gz 
+c
+v chis.sh 
+./chis.sh 
+cd all_wsl/
+lt
+c
+git status
+git diff
+c
+gst
+git commit -am "chis run"
+git push
+git pull
+gst
+git push
+cd all_wsl/
+lt
+git status
+c
+git fetch
+git status
+lt
+c
+als
+type -a workon
+..
+ls i*
+cat install.sh 
+. install.sh 
+c
+gst
+cd wither7007.github.io/
+duh
+c
+mem
+type -a python
+python --version
+type -a p3
+p3
+apps | rg "^py"
+type -a i3
+ipython3 --version
+c
+cd all_wsl/
+lt
+git diff --name-only HEAD~15 HEAD
+dhu
+duh
+c
+l
+fd -H -I -S +10M -x stat --printf='Name: %n \t Size: %s\n'| v -
+fd -H -I -S +10M -x stat --printf='Name: %n \t Size: %s\n'
+fd -H -I -S +1M -x stat --printf='Name: %n \t Size: %s\n'
+c
+fd -H -I -S +1M -x stat --printf='Name: %n \t Size: %s\n'
+cd .git/objects/pack/
+duh
+vmn
+..
+gst
+fd -H -I -S +1M -x stat --printf='Name: %n \t Size: %s\n'
+cd .git
+duh
+gst
+..
+gst
+c
+gst
+git stash
+gst
+git stash list
+gst
+vmn
+git stash list
+git stash show
+git stash show -p
+git stash pop
+c
+gst
+vmn
+c
+git stash
+gst
+git stash show
+git stash list
+git stash pop
+vmn
+rg tree note/notes
+rhg
+rgh
+rgh | v -
+rg -c 2 tree note/notes
+c
+als
+alias rgh='rg -help -v'
+als
+alias rgh='rg -help | v -'
+rgh
+rg -C 2 tree note/notes
+rg -C 2 github note/notes
+rg -C 2 github note/notes | v -
+his
+c
+als
+h3
+rg -C 2 github note/notes | v -
+h3 | column
+als
+c
+source ~/.bash_aliases 
+h
+h3
+als
+h3
+source ~/.bash_aliases 
+h3
+als
+source ~/.bash_aliases 
+h3
+c
+h3
+gst
+c
+gst
+git commit -am "alias"
+gst
+..
+v .bashrc 
+echo $HISTCONTROL
+vmn
+tmus ls
+tmux ls
+his
+h3
+als
+source .bash_aliases 
+h3
+type -a h3
+c
+h3 | column -t
+h3 | column
+ls | column -t
+ls | column 
+c
+la | column
+l
+v .bash_history
+h3
+his
+hstash
+c
+als
+duh
+..
+vmn\
+vmn
+u
+c
+v .bash_history
+chis
+fd
+fd chis.sh 
+git diff --name-only main origin/main
+u
+ghc 'ln\s'
+cat fun
+rhc 'ln\s'
+ln .bash_aliases all_wsl/cloud_alias
+cd all_wsl/
+gst
+v ~/.bashrc 
+lt
+u
+lt -a
+cd all_wsl/
+gst
+u
+exit
+tmux
+exit
+lt
+ln chis.sh all_wsl/chis
+cd all_wsl/
+lt
+lt ch*
+stat chis
+se 'rg'
+rhc 'diff'
+lt
+c
+cd all_wsl/
+lt
+c
+lt
+lt -a
+cd all_wsl/
+lt 
+u
+c
+wi fd
+type -a fd
+cd all_wsl/
+gst
+git add .
+gst
+git commit -am "c"
+git push
+git pull
+gst
+u
+v .bashrc 
+cd all_wsl/
+lt
+stat bashrc
+..
+c
+v exist
+sc exist 
+v exist 
+sc exist 
+lt
+c
+lt | tail
+sc exist
+c
+..
+lt ex*
+v exist
+lt ex*
+sc exist 
+v exist 
+sc exist 
+v exit
+v exist 
+sc exist 
+v exist 
+mv exist exist.sh
+chmod 754 exist.sh 
+lt
+./exist.sh 
+c
+v exist.sh 
+./exist.sh 
+v exist.sh 
+./exist.sh 
+v exist.sh 
+./exist.sh 
+c
+v exist.sh 
+./exist.sh 
+./install.sh 
+c
+./exist.sh 
+wi fd
+type -a fd
+v exist.sh 
+./exist.sh 
+v exist.sh 
+c
+lt | tail
+./exist.sh 
+als
+vmn
+als
+appsc
+c
+command -v foo >/dev/null 2>&1 || { echo >&2 "I require foo but it's not installed.  Aborting."; exit 1; }
+tmux ls
+..
+lt
+...
+ls
+l
+duh
+c
+cd
+ls -i
+touch qqqq
+ln qqqq all_wsl/qqqq
+ls -i q*
+ls -i q* all_wsl/
+stat qqqq
+date
+exit
+tmux
+exit
+ls *.sh
+cd all_wsl/
+gst
+cat qqqq 
+rm qqqq 
+gst
+alias glf='git log --oneline HEAD..@{u}'
+glf
+git fetch
+glf
+alias glf='git log --oneline HEAD..@{u}'
+alias glp='git log --oneline @{u}..HEAD'
+glp
+v -o ~/.bash_history ~/.bash_aliases 
+gst
+git add .
+git commit -am "what"
+gst
+git pull
+gst
+c
+u
+lt
+rm qqqq 
+lt -a
+l
+apps
+apps | grep -v 'vim'
+exit
+ld
+cd all_wsl/
+c
+l
+..
+wi fd
+ls
+. install.sh 
+..
+cd
+c
+l
+cd all
+cd all_wsl/
+gst
+als
+ls
+echo $TERM
+fd 'term' /etc
+cd /etc/terminfo/
+lt
+la
+printf '\033[32m'
+ls
+lt
+v README 
+cd
+fda -d 1 'term'
+ls
+gst
+c
+lt
+gst
+cd all_wsl/
+c
+gst
+git pull
+lt
+cd pys/
+lt
+. workon
+als
+c
+lt
+gse workon 
+. workon
+. workon nuts
+cd all_wsl/
+gst
+git add .
+gst | head
+git push
+gst
+git commit -am "valley lib"
+gst
+..
+gst
+git show
+git add .
+gst
+git commit -am "cloud root"
+fd '9'
+fd '9' | xargs ls -lhrt
+c
+echo $LS_COLORS
+set
+ps -aux
+shist
+shist 'fd'
+c
+set | tail
+set | tail -n50
+manv set
+v .vimrc 
+c
+v chis.sh 
+v fun 
+type -a manv
+lln
+ll
+lln
+lf
+rhc 'fd'
+rhc 'fd' | v -
+cha
+cha 2000
+type -f cha
+type -a cha
+v fun
+c
+cha 200
+cha 200 | rg -v 'all'
+cha 2000 | rg -v 'all'
+cd all_wsl/
+lt
+..
+sed fun
+sed -e fun
+sed '.*' fun
+sed 's/.*' fun
+sed 's/.*//' fun
+cat fun
+sed 's/a/xxxxxxxxxxxxxxxxxxx/' fun
+sed 's/$1/xxxxxxxxxxxxxxxxxxx/' fun
+sed 's/$1/"xxxxxxxxxxxxxxxxxxx"/' fun
+sed 's/($1)/\1/' fun
+echo Ubuntu Debian Linux Fedora | sed 's/\(Ubuntu\) \(Debian\) \(Linux\)/\3 \2 \1/'
+sed 's/\($1\)/\1/' fun
+sed 's/\($1\)/xxx\1/' fun
+c
+sed 's/\($1\)/"\1"/' fun
+c
+sed 's/\($1\)/"\1"/' fun
+sed 's/\($1\)/"\1"/' fun | head
+sed 's/\($1\)/"xxx\1"/' fun | head
+grep '$1' *
+fd -tf | xargs grep '$1'
+fd -tf -d 1 | xargs grep '$1'
+x
+c
+fd -tf -d 1 | xargs grep '$1'
+my $string = 'bcdabdcbabcd';
+fd -d 1 work
+fd -d 2 work
+ls w*
+cd all_wsl/
+gst
+ls w*
+lt
+cd pys
+lt
+. workon exis
+c
+exit
+v fun 
+exit
+ls
+l
+. install.sh 
+c
+gce .bashrc
+als
+gse .bashrc
+tmux ls
+cd all_wsl/
+fd -d 1 -tf
+fd -d 1 -tf | args grep 'github'
+fd -d 1 -tf | xargs grep 'github'
+curl 'https://api.github.com/repos/wither7007/all/commits | jq '.[0]' | v -
+v .bash_aliases 
+. .bash_aliases 
+fd -d 1 'bash' | xargs grep 'pwd'
+fd -d 1 -tf  | xargs grep 'pwd'
+fd -d 1 -tf  | xargs grep 'pwd' | less
+ls all*
+v all_commands 
+rm all_commands 
+l
+fd -d 1 -tf  | xargs grep 'pwd' | less
+rm index.html 
+fd -d 1 -tf  | xargs grep 'pwd' | less
+c
+v fun
+exit
+fd -d 1 -tf  | xargs grep 'pwd' | v -
+cd all_wsl/
+fd -d 1 'his'
+v whis
+type -f cha
+v ~/fun 
+. ~/fun
+type -f cha
+. ~/fun
+type -f shist
+type -a shist
+type -a cha
+cha 24
+d all_wsl/
+v ~/fun 
+type -a cha
+c
+cd all_wsl/
+lt
+gst
+c
+gst
+git add .
+gst
+git commit -am 'fixed whis with vim replace first line"
+git commit -am "fixed whis with vim replace first line"
+gst
+c
+git push
+gst
+lt
+v gcloud_his_u 
+awk '!a[$0]++' whis | v -
+gst
+git diff
+lt
+wc whis
+wc whis wslhis 
+mv wslhis whis
+lt
+wc whis
+gst
+git diff
+git status
+git commit -am "uniq whis"
+git push
+c
+lt
+c
+cls
+curl 'https://api.github.com/repos/wither7007/all_wsl/commits?per_page=5' | jq '.[] | {full_name: .full_name, url: .url}'
+exit
+ls
+tmux ls
+v whis 
+curl https://api.github.com/users/wither7007
+curl https://api.github.com/users/wither7007 | jq '.[]'
+curl https://api.github.com/users/wither7007 | jq '.'
+curl https://api.github.com/users/wither7007 | jq '.id'
+curl https://api.github.com/users/wither7007 | jq '.repos_url'
+c
+curl https://api.github.com/users/wither7007 | jq '.repos_url'
+curl "https://api.github.com/users/wither7007/repos"
+curl "https://api.github.com/users/wither7007/repos" | head 
+c
+curl "https://api.github.com/users/wither7007/repos" | head  -n20
+h3
+curl "https://api.github.com/users/wither7007/repos" | head 
+curl "https://api.github.com/users/wither7007/repos" | jq '.full_name'
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0]'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.[0]'
+c
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.[0]' | {message: .commit.message, name: .commit.committer.name}'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.[0] | {message: .commit.message, name: .commit.committer.name}'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.[0]' | v -
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.[0] | {.commit.message}'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=1' | jq '.[0] | {message: .commit.message}'
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0]' | v -
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0]' | { id: .id }
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0] | { id: .id }'
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0]' | v -
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0] | { ssh: .ssh_url }'
+curl "https://api.github.com/users/wither7007/repos" | jq '.[3] | { ssh: .ssh_url }'
+curl "https://api.github.com/users/wither7007/repos" | jq '.[] | { ssh: .ssh_url }'
+curl "https://api.github.com/users/wither7007/repos" | jq '.[] | { ssh: .ssh_url }' | v -
+exit
+l
+git clone git@github.com:wither7007/wither7007.github.io.git
+l
+cd wither7007.github.io/
+lt
+fd nfl
+cd nfl
+lt
+c
+v index.html 
+..
+gst
+cd nfl/
+..
+gst
+git commit -am "week 12"
+git push
+cd nfl/
+lt
+gst
+git diff HEAD~1
+v index.html 
+git diff
+v index.html 
+git diff
+c
+lt
+als
+ssp
+gst
+..
+gst
+git diff
+git commit -am "week 12 fix"
+c
+git push
+gst
+exit
+curl "https://api.github.com/users/wither7007/repos" | jq '.[0]' | v -
+exit
+exit
+curl 'https://api.github.com/repos/wither7007/all/commits' | jq '.[0]' | v -
+exit
+tmux attach-session -t 1
+exit
+ls
+l
+v chis.sh 
+cd all_wsl/
+gst
+..
+c
+lt
+rm 9-29.tar.gz 
+c
+v chis.sh 
+./chis.sh 
+cd all_wsl/
+lt
+c
+git status
+git diff
+c
+gst
+git commit -am "chis run"
+git push
+git pull
+gst
+git push
+cd all_wsl/
+lt
+git status
+c
+git fetch
+git status
+lt
+c
+als
+type -a workon
+..
+ls i*
+cat install.sh 
+. install.sh 
+c
+gst
+cd wither7007.github.io/
+duh
+c
+als
+duh
+..
+vmn\
+vmn
+hstash
+exit
+his
+v .bash_history
+exit
+v gcloud_his_h
+v gcloud_his_u 
+echo "$(date)"
+git fetch
+git diff --name-only main origin/main 
+fd
+git merge
+cat chis
+fd chis
+his
+git rm chis.sh 
+h3
+cat chis.sh 
+cd all_wsl/
+lt
+cp chis ~/chis
+..
+c
+gst
+exit
+v gcloud_his_h
+echo "$(date)"
+git fetch
+git diff --name-only main origin/main 
+git merge
+cat chis
+fd chis
+his
+git rm chis.sh 
+cat chis.sh 
+cp chis ~/chis
+./chis 
+cd all_wsl/
+v gcloud_his_u 
+..
+echo $HISTCONTROL
+lt
+fd al
+fda
+h3
+la
+la | rg al
+tail .gitignore 
+v .gitignore 
+fd
+gst
+c
+fdc
+fd | column
+wc .bash_history
+v .bash_history

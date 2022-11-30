@@ -7,3 +7,22 @@ cp ~/fun ~/all_wsl/gcloud_fun
 cat ~/.bash_history >>~/all_wsl/bash_history
 awk '!a[$0]++' ~/all_wsl/gcloud_his > ~/all_wsl/gcloud_his_u
 awk '!a[$0]++' ~/all_wsl/bash_history > ~/all_wsl/bash_history_u
+cd ~/all_wsl  || exit
+git add .
+git commit -am "gcloud "
+git push
+echo "all done"
+
+
+# Problematic code:
+# grep foo file.txt | sed -e 's/foo/bar/g' > file.txt
+# Correct code:
+# grep foo file.txt  | sed -e 's/foo/bar/g' > tmpfile && mv tmpfile file.txt
+# Rationale:
+# Each step in a pipeline runs in parallel.
+
+# In this case, grep foo file.txt will immediately try to read file.txt while sed .. > file.txt will immediately try to truncate it.
+
+# This is a race condition, and results in the file being partially or (far more likely) entirely truncated.
+
+# Note that this can also be a problem when you write to a file and read from it later in the pipe. The second command (which reads the file) may not see all the output of the first. An exception in this case is a non-greedy file reader like less, for example python foo.py 2> errfile.txt | less - errfile.txt will successfully allow you to see stdout and stderr separately in less

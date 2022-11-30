@@ -45,6 +45,9 @@ imao
 Jeff Hawkins
 dog who caught the car
 
+vim /^.\{,25}$/ to find lines shorter than 25 characters.
+
+distributed graph theory tree model
 ipython ctrl-z fg
 
 it is more advisable to show your intelligence by saying nothing than speaking out. counsels and maxims.
@@ -190,6 +193,7 @@ declare -f take
 
 tmux
 resize-pane U, D
+max-pane ctrl-a z
 
 Use the pidof command to find the process ID of a running program or app
 pidoff appname
