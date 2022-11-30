@@ -100,4 +100,5 @@ alias y3='youtube-dl -x --audio-format mp3 '
 alias y4='youtube-dl -f 18 '
 alias zsort="du -sh * | sort -h"
 alias t="touch "
+alias sc"shellcheck"
 alias fdd="fd -d 1"

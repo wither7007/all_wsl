@@ -20,12 +20,21 @@ fragment along the posterior superior portion of the humeral head.
 !cool
 curl cheat.sh/find
 
+manipulating phrasing and tempo. 
+
 fd -d 1 -epy | xargs sed -i "s/^M//" #!cool ^M is ctrl-q ctrl-m
 fd -epy| xargs sed -i '/^$/d' #!good remove blanks
 https://its.ucsc.edu/unix-timeshare/tutorials/clean-ctrl-m.html
 
 Rep. Ginny Klevorn
 head -n4 $(ls *) | less -NX | v -
+
+vim run buffer
+:!%:p
+nnoremap <leader>r :!%:p
+:! sh %
+replace with quotes
+%s/\(\$USERVAR\)/"\1"/
 
 weird vim search across blank lines
 https://vi.stackexchange.com/questions/13603/regex-to-match-any-character-including-newline
