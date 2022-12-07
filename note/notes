@@ -12,15 +12,40 @@ Thursday december 22
 alishia harrison
 14500 99th Avenue
 2:00
-
 Maple 55369
+
+:enew!
+
+/GNU GRand Unified Bootloader
 IMPRESSION: No acute fracture. Chronic malunited fracture deformity of
 the right humeral head. There is a moderate sized ununited fracture
 fragment along the posterior superior portion of the humeral head.
 !cool
 curl cheat.sh/find
 
+mistaking thinking for brain chatter
+
+fd -d 1 -t f -X grep -lI . | xargs head -n4 | v - #!good nonbinary?
+
+printf '%s\n' "$(date +'%a %m/%d/%Y - %H:%M')" >> file.txt
+
+watch -d -n .5 tree .git/objects
+
 manipulating phrasing and tempo. 
+
+echo "123 24{{{abc" | sed -r -e 's/[^a-zA-Z0-9]//g' -e 's/b/xxxx/g'
+-r means extend (maybe -E) e means pipe
+
+awk '(PROGRAM)' testfile.txt > testfile.tmp && mv testfile.tmp testfile.txt
+
+awsk () {
+#https://stackoverflow.com/questions/8019617/how-to-write-finding-output-to-same-file-using-awk-command
+	awk '!a[$0]++' ~/.sqlite_history > testfile.tmp && mv testfile.tmp ~/.sqlite_history
+	nvim ~/.sqlite_history
+}
+
+git clean -fxd
+git reset --hard
 
 fd -d 1 -epy | xargs sed -i "s/^M//" #!cool ^M is ctrl-q ctrl-m
 fd -epy| xargs sed -i '/^$/d' #!good remove blanks
@@ -76,7 +101,10 @@ partner@pcsforpeople.com
 
 vim You got into insert mode inside Ex mode with :i, so you need to leave it with a line containing only a period:
 
-.
+To open file and go to a line number 546 in a file named functions, enter:
+$ vim +546 functions
+.vim +/killproc functions
+
 gombe chimpanzee war
 jane goodall
 
@@ -157,6 +185,7 @@ https://www.youtube.com/watch?v=bmKDT-yG2eE
 
 https://www.baeldung.com/linux/remove-duplicate-lines-no-sorting
 awk '!a[$0]++' bash_history | v -
+awk '!a[$0]++' .sqlite_history > sqa
 
 b=[...document.querySelectorAll('a')].map((a)=>a.href).filter((x)=>x.match('d.*moc.*bz2'))
 
@@ -255,19 +284,15 @@ press ctrl and v(or q) // start select
 press shift and i // then type in any text
 press esc esc // press esc twice
 
-
 replace wsl q macro
 G:%s///////g
 gg:%s//mnt/c///mnt//c/g
 
+mysql -u root -p #finally #!cool
+
 radix
 bash -c 'apt-get -y install fd-find curl vim >/dev/null 2>&1 & disown'
  apt-get install bsdmainutils
-docker run --name mysql-db -v $(pwd)/datadir:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:8.0.28-debian
-docker
-mysql --host="localhost" --user="root" --password="rootpress" 
-
-mysql --host="mysql_server" --user="user_name" --database="database_name" --password="user_password" < "path/to/sql/file.sql"
 
 jimsteffes
 615dks@476
@@ -1103,9 +1128,6 @@ i(kqtQoB9nBuKugrmK
 
 Oh, Orville helped. An obsessive tinkerer and gifted mechanic, he was invaluable in building the Wright flyer, and yes, he piloted the first flight on Dec. 17, 1903. (The brothers supposedly flipped a coin for the honor, and Wilbur lost. Wilbur got to fly later in the day and went farther.) Yet Wilbur was the brains of the operation.
 
-docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=stars1  9eebb3304ce5 #!good my sql?
-docker exec -ti  optimistic_noether sh -c "bash"
-
 Life is like a box of chocolates.
 It doesn't last long for fat people.
 
@@ -1185,3 +1207,9 @@ A stick.
 
 strong minds discuss ideas, average minds discuss events, weak minds discuss people.
 https://github.com/tc-streets
+
+We live in an imperfect society where extremists leverage the very real flaws to insist that everything is absolutely corrupt and that we should embrace the exact opposite of anything that’s imperfect. Vaccines don’t prevent 100% of all infections for everyone? They’re obviously complete frauds that do no good at all.
+The sad thing is that we have real problems, and this nihilistic insistence that everything is fake means that those problems will only get worse.
+
+vaccinations have prevented a lot of suffering
+Looking out my window right now, the sky is grey.

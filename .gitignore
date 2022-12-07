@@ -11,7 +11,7 @@ filex
 *.mp3
 # Logs
 /bs
-/bash/
+/*/bash/*/
 his
 logs
 package-lock.json

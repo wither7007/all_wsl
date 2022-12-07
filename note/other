@@ -1,4 +1,4 @@
-good replace word discussion
+ replace word discussion
 https://askubuntu.com/questions/20414/find-and-replace-text-within-a-file-using-commands
 
 
@@ -12,3 +12,6 @@ linux trash output
 llllkj > /dev/null 2>&1
 
 “My solitude doesn’t depend on the presence or absence of people; on the contrary, I hate who steals my solitude without, in exchange, offering me true company.”
+
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY '';
