@@ -1,110 +1,3 @@
-assurance pin 340908 city paris
-m tabulate import tabulatej
-tracking 9200190286973824233237
-320-775-7191
-
-Wednesday
-December 14
-9:20
-800 west Broadway ave
-
-Thursday december 22
-alishia harrison
-14500 99th Avenue
-2:00
-Maple 55369
-
-:enew!
-
-/GNU GRand Unified Bootloader
-IMPRESSION: No acute fracture. Chronic malunited fracture deformity of
-the right humeral head. There is a moderate sized ununited fracture
-fragment along the posterior superior portion of the humeral head.
-!cool
-curl cheat.sh/find
-
-mistaking thinking for brain chatter
-
-fd -d 1 -t f -X grep -lI . | xargs head -n4 | v - #!good nonbinary?
-
-printf '%s\n' "$(date +'%a %m/%d/%Y - %H:%M')" >> file.txt
-
-watch -d -n .5 tree .git/objects
-
-manipulating phrasing and tempo. 
-
-echo "123 24{{{abc" | sed -r -e 's/[^a-zA-Z0-9]//g' -e 's/b/xxxx/g'
--r means extend (maybe -E) e means pipe
-
-awk '(PROGRAM)' testfile.txt > testfile.tmp && mv testfile.tmp testfile.txt
-
-awsk () {
-#https://stackoverflow.com/questions/8019617/how-to-write-finding-output-to-same-file-using-awk-command
-	awk '!a[$0]++' ~/.sqlite_history > testfile.tmp && mv testfile.tmp ~/.sqlite_history
-	nvim ~/.sqlite_history
-}
-
-git clean -fxd
-git reset --hard
-
-fd -d 1 -epy | xargs sed -i "s/^M//" #!cool ^M is ctrl-q ctrl-m
-fd -epy| xargs sed -i '/^$/d' #!good remove blanks
-https://its.ucsc.edu/unix-timeshare/tutorials/clean-ctrl-m.html
-
-Rep. Ginny Klevorn
-head -n4 $(ls *) | less -NX | v -
-
-vim run buffer
-:!%:p
-nnoremap <leader>r :!%:p
-:! sh %
-replace with quotes
-%s/\(\$USERVAR\)/"\1"/
-
-weird vim search across blank lines
-https://vi.stackexchange.com/questions/13603/regex-to-match-any-character-including-newline
-
-https://news.ycombinator.com/item?id=33760607
- Ken Thompson, Dennis Ritchie
-Tim Berners-Lee
-
-wtf is this
-man iconv
-https://stackoverflow.com/questions/18238771/jump-to-byte-address-in-vim
-f=open("c.csv", encoding="unicode_escape")
-
-KEITH H WITTENBERG, MD
-Caesars Sportsbook 
-imao
-Jeff Hawkins
-dog who caught the car
-
-vim /^.\{,25}$/ to find lines shorter than 25 characters.
-
-distributed graph theory tree model
-ipython ctrl-z fg
-
-it is more advisable to show your intelligence by saying nothing than speaking out. counsels and maxims.
-
-kaggle.com
-
-
-fd > tfiles
-tar czf sh.tar.gz -T tfiles
-tar xvzf ../sh.tar.gz
-tar -xf sh.tar.gz one
-
-Man can do what he wills but he cannot will what he wills
-
-partner@pcsforpeople.com
-651-354-2552
-
-vim You got into insert mode inside Ex mode with :i, so you need to leave it with a line containing only a period:
-
-To open file and go to a line number 546 in a file named functions, enter:
-$ vim +546 functions
-.vim +/killproc functions
-
 gombe chimpanzee war
 jane goodall
 
@@ -150,7 +43,7 @@ sharpest tool in the refrigerator
 https://stackoverflow.com/questions/21240337/grep-list-all-lines-not-containing-both-pattern
 cha 2000 | rg -v "tld|conf|hyp"
 
-head -n4 $(ls *.sh) | less -NX
+head -n4 $(ls *.py) | less -NX
 
 du -a | cut -d/ -f2 | sort | uniq -c | sort -nr | v - #!cool directory count
 
@@ -211,6 +104,46 @@ nvim --clean
 %!python -m json.tool
 !cool https://vi.stackexchange.com/questions/9831/disable-ctrl-z-in-normal-mode
 nnoremap <c-z> <nop>
+
+
+vim /^.\{,25}$/ to find lines shorter than 25 characters.
+vim You got into insert mode inside Ex mode with :i, so you need to leave it with a line containing only a period:
+
+To open file and go to a line number 546 in a file named functions, enter:
+$ vim +546 functions
+.vim +/killproc functions
+
+source ~/.config/init.vim
+vim paste block
+press ctrl and v(or q) // start select
+press shift and i // then type in any text
+press esc esc // press esc twice
+
+replace wsl q macro
+G:%s///////g
+gg:%s//mnt/c///mnt//c/g
+vim replace backslash forward slash
+:%s///////g
+vim hex :%!xxd 
+Type %d and hit Enter to delete all the lines.
+:g/^/s*$/d
+vim show ascii - ga
+smart quotes
+%s/[”“]/"/g
+I map it as noremap Y 0vg_y in my .vimrc so that now I just have to press shift+y to copy line
+:g!/foo/d - Delete all lines not containing the string ¿foo¿.
+:g/^#/d - Remove all comments from a Bash script. The pattern ^# means each line beginning with #.
+:g/^$/d - Remove all blank lines. The pattern ^$ matches all empty lines.
+:g/^/s*$/d - Remove all blank lines. Unlike the previous command, this also removes the blank lines that have zero or more whitespace characters (/s*).
+lemma
+vim replace word with comma
+autocmd VimLeave * :!touch /home/odiszapc/vimleave
+https://vi.stackexchange.com/questions/5454/vimleave-event-not-triggered
+
+v +/fru .bashrc
+v +4 .bashrc
+source ~/.config/init.vim
+
 You can understand it like this:
 
 n                      Do the following mapping only in normal mode
@@ -222,9 +155,6 @@ n                      Do the following mapping only in normal mode
 https://vi.stackexchange.com/questions/8378/dump-the-output-of-internal-vim-command-into-buffer
 :enew|pu=execute('map') 
 vert sb6
-v +/fru .bashrc
-v +4 .bashrc
-source ~/.config/init.vim
 
 type -a take
 declare -f take
@@ -279,14 +209,6 @@ fd 'read' -exec rename "y/a-z/A-Z/" #!cool uppercase rename
 long fd/rg search
 fd -d 1 -tf -esh -x rg -H 'git'
 
-vim paste block
-press ctrl and v(or q) // start select
-press shift and i // then type in any text
-press esc esc // press esc twice
-
-replace wsl q macro
-G:%s///////g
-gg:%s//mnt/c///mnt//c/g
 
 mysql -u root -p #finally #!cool
 
@@ -415,8 +337,6 @@ phone streets
 Fourier analysis says that complex patterns can be created by adding up a large number of patterns as simple as sinusoidal waves
 importmap
 
-vim replace backslash forward slash
-:%s///////g
 
 AST(Abstract Syntax Trees)
 
@@ -445,7 +365,6 @@ Maple Grove, MN 55311
 Minneapolis, MN 55411/22 2:00
 
 
-Generative Pre-trained Transformer 3 (GPT-3) is an autoregressive language model
 A.J. Jacobs
 https://www.youtube.com/watch?v=tC91t9OvVHA
 
@@ -620,17 +539,10 @@ ffmpeg -i aps.mp3 -metadata title="The Title You Want" -metadata artist="" -meta
 
  1..100 | ForEach-Object { Add-Content -Path ./LineNumbers.txt -Value "This is line $_." }
 Double Data Rate 3 Synchronous Dynamic Random-Access Memory (DDR3 SDRAM)
-vim hex :%!xxd 
 stacks and triggers
 
       Out of the Tar Pit
 
-Type %d and hit Enter to delete all the lines.
-:g/^/s*$/d
-vim show ascii - ga
-smart quotes
-%s/[”“]/"/g
-I map it as noremap Y 0vg_y in my .vimrc so that now I just have to press shift+y to copy line
 grep -rn "ico" .
 
 LIB
@@ -844,13 +756,6 @@ mmu
 polonium (russian poison)
 i18n and L10n
 
-:g!/foo/d - Delete all lines not containing the string ¿foo¿.
-:g/^#/d - Remove all comments from a Bash script. The pattern ^# means each line beginning with #.
-:g/^$/d - Remove all blank lines. The pattern ^$ matches all empty lines.
-:g/^/s*$/d - Remove all blank lines. Unlike the previous command, this also removes the blank lines that have zero or more whitespace characters (/s*).
-lemma
-vim replace word with comma
-%s//>/s/,/g
 likes to play in the dirt
 microfauna
 mcoding
@@ -1041,8 +946,6 @@ let ra=Array.from({length: 10}, () => Math.floor(Math.random() * 100));
 almighty God! I thank thee for my soul; & may I never die spiritually into a mere mind through disease of loneliness ee cummings
  gci /all/ps | ? {$_.name -match '.*z'}
 
-vim delete rectange c-q select
-
 const randomColor = Math.floor(Math.random() * 16777215).toString(16);
 
 ax^2+bx+c=0
@@ -1082,8 +985,6 @@ transitive verb
 1a: to grant or furnish often in a gracious or condescending manner
 wget "https://github.com/equalsraf/win32yank/releases/download/v0.0.4/win32yank-x64.zip"
 
-vim exif replace
-%s///n//r/g
 
 wither7007@gmail.com
 login.gov
@@ -1134,8 +1035,6 @@ It doesn't last long for fat people.
 console history chrome
 https://chema.medio.click/en/dev/reviewing-the-console-command-history-in-chromes-devtools/
 
-autocmd VimLeave * :!touch /home/odiszapc/vimleave
-https://vi.stackexchange.com/questions/5454/vimleave-event-not-triggered
 
 Greek alphabet letters & symbols
 Greek alphabet letters are used as math and science symbols.
@@ -1213,3 +1112,9 @@ The sad thing is that we have real problems, and this nihilistic insistence that
 
 vaccinations have prevented a lot of suffering
 Looking out my window right now, the sky is grey.
+
+time find . -type f | wc -l
+time fda | wc -l
+hpyerfine "fda | wc -l"
+assurance pin 340908 city paris
+320-775-7191
