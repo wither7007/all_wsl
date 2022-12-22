@@ -1,3 +1,90 @@
+
+assurance pin 340908 city paris
+m tabulate import tabulate
+'320-775-7191'
+
+Thursday december 22
+check my chart
+alishia harrison
+14500 99th Avenue N Maple Grove, MN 55369
+Hennepin Health 04745519
+1:50
+1:00
+Maple 55369
+
+git log --oneline --graph --decorate --all
+
+:enew!
+
+/GNU GRand Unified Bootloader
+IMPRESSION: No acute fracture. Chronic malunited fracture deformity of
+the right humeral head. There is a moderate sized ununited fracture
+fragment along the posterior superior portion of the humeral head.
+!cool
+curl cheat.sh/find
+
+mistaking thinking for brain chatter
+
+fd -d 1 -t f -X grep -lI . | xargs head -n4 | v - #!good nonbinary?
+
+printf '%s\n' "$(date +'%a %m/%d/%Y - %H:%M')" >> file.txt
+
+watch -d -n .5 tree .git/objects
+
+manipulating phrasing and tempo. 
+
+echo "123 24{{{abc" | sed -r -e 's/[^a-zA-Z0-9]//g' -e 's/b/xxxx/g'
+-r means extend (maybe -E) e means pipe
+
+awk '(PROGRAM)' testfile.txt > testfile.tmp && mv testfile.tmp testfile.txt
+
+
+git clean -fxd #wow actually trashes files
+git reset --hard
+
+fd -d 1 -epy | xargs sed -i "s/^M//" #!cool ^M is ctrl-q ctrl-m
+fd -epy| xargs sed -i '/^$/d' #!good remove blanks
+https://its.ucsc.edu/unix-timeshare/tutorials/clean-ctrl-m.html
+
+Rep. Ginny Klevorn
+head -n4 $(ls *) | less -NX | v -
+
+
+
+https://news.ycombinator.com/item?id=33760607
+ Ken Thompson, Dennis Ritchie
+Tim Berners-Lee
+
+wtf is this
+man iconv
+f=open("c.csv", encoding="unicode_escape")
+
+KEITH H WITTENBERG, MD
+Caesars Sportsbook 
+imao
+Jeff Hawkins
+dog who caught the car
+
+
+distributed graph theory tree model
+ipython ctrl-z fg
+
+it is more advisable to show your intelligence by saying nothing than speaking out. counsels and maxims.
+
+kaggle.com
+
+
+fd > tfiles
+tar czf sh.tar.gz -T tfiles
+tar xvzf ../sh.tar.gz
+tar -xf sh.tar.gz one
+
+Man can do what he wills but he cannot will what he wills
+
+partner@pcsforpeople.com
+651-354-2552
+
+
 gombe chimpanzee war
 jane goodall
 
@@ -92,7 +179,28 @@ find . -maxdepth 1 -type f | xargs grep -n 'frumious'
 
 https://www.wandinround.com/other.html
 
-vim
+vim ****
+
+quote each line
+%s/\(^.*$\)/"\1"/g
+awsk () {
+#https://stackoverflow.com/questions/8019617/how-to-write-finding-output-to-same-file-using-awk-command
+	awk '!a[$0]++' ~/.sqlite_history > testfile.tmp && mv testfile.tmp ~/.sqlite_history
+	nvim ~/.sqlite_history
+}
+vim You got into insert mode inside Ex mode with :i, so you need to leave it with a line containing only a period:
+
+!trash %
+To open file and go to a line number 546 in a file named functions, enter:
+$ vim +546 functions
+.vim +/killproc functions
+
+vim run buffer
+:!%:p
+nnoremap <leader>r :!%:p
+:! sh %
+replace with quotes
+%s/\(\$USERVAR\)/"\1"/
 ctrl r insert mode
 vim sb<tab>
 filename and path
@@ -101,6 +209,7 @@ smart quotes
 :%s/[“”]/"/g 
 pu= resolve(expand('%:p'))
 nvim --clean
+
 %!python -m json.tool
 !cool https://vi.stackexchange.com/questions/9831/disable-ctrl-z-in-normal-mode
 nnoremap <c-z> <nop>
@@ -1066,7 +1175,7 @@ Upper Case Letter	Lower Case Letter	Greek Letter Name	English Equivalent	Letter 
 Ψ	ψ	Psi	ps	
 Ω	ω	Omega	o	
 https://bytexd.com/what-is-gpt-4/
- Generative Pre-trained Transformer (GPT)
+ Generative Pre-trained Transformer (GPT) autoregressive
 
 : to catch sight of
 among the several horses … she espied the white mustang

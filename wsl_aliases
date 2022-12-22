@@ -48,7 +48,8 @@ alias gx='ga . && gc "initial"'
 alias h3="history | tail -n 30 | tac | nl | tac"
 alias h5='history | tail -n 50'
 alias hi='history'
-alias his='hi |  cut -c 1-7 --complement | nvim +$ -'
+#nvim -c "normal Gzz" ~/pys/ipy_linux3
+alias his='hi |  cut -c 1-7 --complement | nvim -c "normal Gzz"  -'
 alias hist='hi |  cut -c 1-7 --complement > ~/hist'
 alias hn='hi | nvim -'
 alias hp="hyperfine "
@@ -100,5 +101,15 @@ alias y3='youtube-dl -x --audio-format mp3 '
 alias y4='youtube-dl -f 18 '
 alias zsort="du -sh * | sort -h"
 alias t="touch "
-alias sc"shellcheck"
+alias shc="shellcheck"
 alias fdd="fd -d 1"
+alias vmn="nvim /mnt/c/all/note/notes"
+alias sl="sqlite3"
+alias heds="head -n8 $(ls *) | less -NX | v -"
+alias sql="mysql -u root -pstars1"
+alias python='python3.10'
+alias memHogsPs='ps wwaxm -o pid,stat,vsize,rss,time,command | head -10'
+alias vim="nvim"
+alias lf="lfcd"
+alias lfc="v ~/.config/lf/lfrc"
+alias vset="v -O /mnt/c/Users/jayst/AppData/Roaming/Code/User/keybindings.json /mnt/c/Users/jayst/AppData/Roaming/Code/User/settings.json"

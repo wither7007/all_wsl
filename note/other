@@ -1,6 +1,14 @@
  replace word discussion
 https://askubuntu.com/questions/20414/find-and-replace-text-within-a-file-using-commands
+CAESAR: Let me have men about me that are fat;
+Sleek-headed men and such as sleep o'nights:
+Yond Cassius has a lean and hungry look;
+He thinks too much: such men are dangerous.
 
+ANTONY: Fear him not, Caesar; he's not dangerous;
+He is a noble Roman, and well given.
+
+CAESAR: Would he were fatter! But I fear him not:
 
 
 find /directory/path -type f -name "*.out" -exec sed -i 's/keystring/newstring/g' {} +
