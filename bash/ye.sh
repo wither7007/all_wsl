@@ -17,7 +17,10 @@ cd $newdir || exit
 read -p  'Enter DL youtube audio: ' USERVAR
 echo "USERVAR IS: ${USERVAR}"
 echo "($date)" >> /mnt/c/you/dates.txt ' - ' "$USERVAR"
-yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3' > /dev/null 2>&1 
+read -p 'enter name' ANAME
+# yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3' > /dev/null 2>&1 
+yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o $ANAME
+#  > /dev/null 2>&1 
 name=$(yt-dlp --get-filename -o "%(title)s.%(ext)s" $USERVAR | sed 's/webm/mp3/')
 touch "$name"
 #>output.log 2>&1 &

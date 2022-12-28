@@ -2145,8 +2145,6 @@
 : 1666935505:0;se 'exec'
 : 1666935505:0;fd -emp3 -exec mv {} mp3/
 : 1666935505:0;cd mp3
-: 1666935505:0;md mid
-: 1666935505:0;fd -emid -exec mv {} mid/
 : 1666935505:0;v AfterTheGoldrush.mscz
 : 1666935505:0;v legend.docx
 : 1666935505:0;take sed
@@ -4651,7 +4649,6 @@
 : 1666935505:0;cat index.html | less
 : 1666935505:0;cd /var/www
 : 1666935505:0;cd html
-: 1666935505:0;v index.html
 : 1666935505:0;cd /data/www
 : 1666935505:0;cd /data
 : 1666935505:0;ls -l /dev/sda
@@ -5343,7 +5340,6 @@
 : 1666935505:0;beautiful/bin/activate
 : 1666935505:0;alias sc
 : 1666935505:0;source beautiful/bin/activate
-: 1666935505:0;cd lnl
 : 1666935505:0;wget 'https://pdst.fm/e/cdn.twit.tv/audio/ww/ww0797/ww0797.mp3'
 : 1666935505:0;exiftool -j ww0797.mp3 | v -
 : 1666935505:0;alias winh="cd /mnt/c/Users/jayst"
@@ -6151,7 +6147,6 @@
 : 1666935505:0;more n.sh
 : 1666935505:0;less n.sh
 : 1666935505:0;less -s n.sh
-: 1666935505:0;v n.sh
 : 1666935505:0;v pp
 : 1666935505:0;alias jojo
 : 1666935505:0;cat some
@@ -7459,7 +7454,6 @@ read name
 : 1667778991:0;git commit -am "playing glf"
 : 1667778996:0;glf
 : 1667779007:0;get fetch
-: 1667779656:0;cd crows
 : 1667780086:0;v mp3
 : 1667780246:0;rg --hidden 'f'
 : 1667780254:0;rg --hidden 'frumious'
@@ -8179,14 +8173,12 @@ trash zsh-in-docker.sh
 : 1668228650:0;wget -qO- bench.sh > x
 : 1668228762:0;wget -qO- bench.sh > coolbench.shell
 : 1668228818:0;fda -emp3 -x \rm
-: 1668229398:0;md back
 : 1668229456:0;fd d 1 
 : 1668229478:0;cd youfolk
 : 1668229489:0;rm -rf youfolk
 : 1668229507:0;fda -emp4
 : 1668229591:0;mv Configuring\ Neovim\ With\ Lua\ \(It\'s\ Easy\!\).mp4 /mnt/c/you/vim
 : 1668229603:0;\rm Configuring\ Neovim\ With\ Lua\ \(It\'s\ Easy\!\).mp4
-: 1668229690:0;fda -tf --size +10m
 : 1668229714:0;rm back.tar
 : 1668229749:0;duh > duh3.txt
 : 1668229759:0;v duh3.txt
@@ -8481,7 +8473,6 @@ sudo mount -t drvfs d: /mnt/d -o uid=$(id -u $USER),gid=$(id -g $USER),metadata
 : 1668387531:0;p $EDITOR
 : 1668387627:0;env
 : 1668387652:0;export $JAMES
-: 1668387657:0;printenv | v -
 : 1668387715:0;set | grep BASH
 : 1668387807:0;set | grep path
 : 1668387827:0;set | grep HIST
@@ -8783,7 +8774,6 @@ wget https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL2
 : 1668667264:0;fda '\.git' | -E .config -E .cache rg -v 'cache'
 : 1668667271:0;fda '\.git'  -E .config -E .cache rg -v 'cache'
 : 1668667297:0;fda '\.git'  -E .config -E .cache
-: 1668667368:0;cd back
 : 1668667373:0;lt all
 : 1668667408:0;\rm -rf back
 : 1668667427:0;git rm -r back
@@ -9378,7 +9368,6 @@ cp Kris_Kristofferson_Rita_Coolidge_Please_don_t_tell_me_how_the_story_ends_1978
 : 1669258783:0;v  /home/steff007/.ipython/profile_default/startup
 : 1669261316:0;whos
 : 1669261457:0;v filename.txt
-: 1669261965:0;ie
 : 1669272026:0;v tables.txt
 : 1669299455:0;fda -d 2 | xargs rg 'HIST'
 : 1669299476:0;fda -d 2 -tf | xargs rg 'HIST'
@@ -9401,7 +9390,6 @@ fda -tf -L --changed-within=$1minutes |  rg -v "tld|conf|\.git|hyp|cache|\.local
 : 1669352391:0;v wrap.txt
 : 1669354013:0;cat c.csv
 : 1669354404:0;cp Characters.csv c.csv
-: 1669354409:0;v c.csv
 : 1669354499:0;dos2unix
 : 1669354513:0;manv dos2unix
 : 1669354540:0;dos2unix c.csv
@@ -9674,7 +9662,6 @@ $sum += $F[4]; } printf "%dn", $sum; ' transaction.list\
 : 1669587541:0;trash whis
 : 1669587571:0;git rm whis
 : 1669587657:0;chis
-: 1669587662:0;./gitAll.sh
 : 1669595896:0;curl "https://api.github.com/repos/wither7007" | jq 'keys' | v -
 : 1669595949:0;curl "https://api.github.com/repos/wither7007" 
 : 1669596106:0;head -n4 $(fd --changed-within=2days) | less -NX | v -
@@ -9703,7 +9690,6 @@ rm pys/jim.is
 : 1669599282:0;curl https://api.github.com/ | jq -r '.[]' | v -
 : 1669599595:0;git log HEAD@{1} --stat 
 : 1669599651:0;git diff HEAD~4 | v - #!good git stuff
-: 1669599728:0;git diff --name-only HEAD~4 | v - #!good git stuff
 : 1669599755:0;git diff --name-only HEAD~24 | v - #!good git stuff
 : 1669599786:0;git rm zzzz
 : 1669599830:0;git log HEAD@{1} --stat | v -
@@ -10129,7 +10115,6 @@ echo "\!"\
 : 1669850660:0;echo "$(date)" ' - ' "$USERVAR"
 : 1669850874:0;git rm pys/.a.
 : 1669850940:0;fd 'win'
-: 1669851002:0;v gitAll.sh
 : 1669851013:0;gitAll.sh
 : 1669851509:0;cd goodman
 : 1669853445:0;cd you/goodman
@@ -10302,8 +10287,6 @@ echo "\!"\
 : 1669947417:0;t 25_nooby_Python_habits_you_need_to_ditch.mp4
 : 1669947494:0;echo "one two" | sed -r 's/([a-z]+) ([a-z]+)/\2 \1/' # Using GNU sed
 : 1669947518:0;echo "one two" | sed -r 's/([a-z]+) ([a-z]+)/\2 \1/' # Using GNU sed#cool sed replace
-: 1669948930:0;cd you/mcoding
-: 1669948979:0;bas
 : 1669949024:0;bash yv.sh
 : 1669949038:0;bash -v yv.sh
 : 1669949777:0;v yv.sh
@@ -10335,7 +10318,6 @@ done | sort -n | sed '/s/[0-9]* //'
 : 1669962806:0;{cat gitAll.sh | while read i; do\
 echo $RANDOM "$i"\
 done | sort -n | sed '^s/[0-9]* //'/
-: 1669965012:0;v ye.sh
 : 1670000046:0;type -a ye.sh
 : 1670000258:0;shellcheck y3.sh
 : 1670000406:0;cp /mnt/c/all/bash/ye.sh ~/pys
@@ -10424,7 +10406,6 @@ cd -
 : 1670130654:0;echo 1 | sed -E 's/\d/333/g'
 : 1670130665:0;manv sed
 : 1670130689:0;fd '\d'
-: 1670130698:0;fd '\d\d'
 : 1670130707:0;wi sd
 : 1670130713:0;sd --version
 : 1670130719:0;sd --help
@@ -10434,9 +10415,7 @@ cd -
 : 1670130949:0;fd | sd 'a' 'xxxxxxx'
 : 1670130967:0;fd | sd '\d' 'xxxxxxx'
 : 1670131143:0;cd xx
-: 1670131152:0;cd yy
 : 1670131170:0;rm -rf xx yy
-: 1670131196:0;fd -tf
 : 1670131201:0;cat cols
 : 1670131234:0;mkcd sd
 : 1670131272:0;for a in {1..5}; do touch $a;done 2>&1 &
@@ -10650,7 +10629,6 @@ awk '!a[$0]++'  ~/.sqlite_history >testfile.tmp  && mv testfile.tmp  ~/.sqlite_h
 : 1670272330:0;mv .bashrc bashrc.bak
 : 1670272448:0;mv  bashrc.bak .bashrc
 : 1670272546:0;source .bash_aliases
-: 1670272611:0;sc functions.sh
 : 1670282342:0;stat ok
 : 1670282367:0;sl ok
 : 1670282393:0;sl ok ".schema"
@@ -11233,7 +11211,6 @@ awk '!a[$0]++'  ~/.sqlite_history >testfile.tmp  && mv testfile.tmp  ~/.sqlite_h
 : 1670539647:0;touch 1 2 3
 : 1670539662:0;git inin
 : 1670539706:0;git reset 1
-: 1670539716:0;git reset .
 : 1670539780:0;v 1
 : 1670539789:0;v 2
 : 1670539829:0;git restore 1
@@ -11492,7 +11469,6 @@ pwd | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'\
 : 1670634691:0;cat ~/functions.sh
 : 1670634936:0;rm index.html
 : 1670634954:0;git checkout fae64c7
-: 1670634960:0;cd nfl
 : 1670634965:0;cp index.html ~/tmp
 : 1670634995:0;cp ~/tmp/index.html .
 : 1670635096:0;git commit -am "nfl 14"
@@ -11543,7 +11519,6 @@ pwd | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'\
 : 1670643939:0;git filter-branch --index-filter 'git rm --cached --ignore-unmatch ./path/to/resource/*.jpg' --tag-name-filter cat -- --all -f
 : 1670643979:0;git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch ./path/to/resource/*.jpg' --tag-name-filter cat -- --all
 : 1670645054:0;cd git
-: 1670646147:0;chah 4
 : 1670646454:0;u
 : 1670646462:0;rm -rf wither7007.github.io
 : 1670646482:0;cp -avr wither7007.github.io ..
@@ -11557,7 +11532,6 @@ pwd | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'\
 : 1670649034:0;git gc --aggressive --prune=all
 : 1670649272:0;git push -f origin main
 : 1670649320:0;cd with2
-: 1670649341:0;se 'fd.*size'
 : 1670649391:0;rm -rf build
 : 1670649397:0;fd -I -H --size +1m -x ls -lhrt
 : 1670649480:0;cd docs
@@ -11606,7 +11580,6 @@ pwd | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'\
 : 1670701405:0;lt lf
 : 1670701543:0;type -a fdd
 : 1670704210:0;v vdiff
-: 1670704452:0;v yv
 : 1670705595:0;fd -d 1
 : 1670705643:0;vdiff yv ye
 : 1670705761:0;fd '[yv|ye]'
@@ -11614,13 +11587,11 @@ pwd | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'\
 : 1670705829:0;fd 'y[v|e]' | rg 'pys'
 : 1670705840:0;fd 'y[v|e]' -x rg 'pys'
 : 1670705986:0;fd 'y[v|e]' -x perl -p -i.bak -e 's/pys/script/g' {/}
-: 1670706135:0;v ye
 : 1670706148:0;v /home/steff007/script/space
 : 1670706240:0;vdiff yv yv.bak
 : 1670706348:0;cd stones
 : 1670706407:0;v morphine.txt
 : 1670706466:0;se 'exift'
-: 1670706623:0;windir | cl
 : 1670706724:0;echo "tttttttttttt is nothing" | rg -v "[^\s]{5,}"
 : 1670706734:0;echo "tttttttttttt is nothing" | rg  "[^\s]{5,}"
 : 1670706748:0;echo "tttttttttttt is nothing\nmemm" | rg  "[^\s]{5,}"
@@ -11640,13 +11611,11 @@ pwd | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'\
 : 1670707137:0;rename "s/xx/gggg/g"
 : 1670707146:0;rename "s/xx/gggg/g" *
 : 1670707180:0;rm -rf tmp
-: 1670707235:0;lts
 : 1670707245:0;lts | v -
 : 1670707338:0;#tar -cvf ~/tmp/vid.tar.gz .
 : 1670707420:0;tar -cvf ~/tmp/stones.tar .
 : 1670707472:0;cd ~/tmp
 : 1670707478:0;v stones.tar
-: 1670707517:0;se 'rename' | tail -n6
 : 1670707566:0;rename "s/The_Rolling_Stones_//g"
 : 1670707575:0;rename "s/The_Rolling_Stones_//g" *
 : 1670707634:0;rename "s/_OFFICIAL_PROMO//g" *
@@ -11741,7 +11710,6 @@ echo My name is $var6
 : 1670733524:0;fd  -d 1 -t f -x rgs | v -
 : 1670733552:0;fd  -d 1 -t f
 : 1670733605:0;fd  -d 1 -t f -x rgs
-: 1670733632:0;v vlc.xspf
 : 1670733645:0;rg 'sheets' vlc.xspf
 : 1670733689:0;rgs vlc.xspf
 : 1670733698:0;v gs
@@ -11756,7 +11724,6 @@ echo My name is $var6
 : 1670734087:0;v cool/sheet.js
 : 1670734095:0;v cool/sheet.py
 : 1670736925:0;fd  -tf -epy -x ./rgs
-: 1670736951:0;fd shee
 : 1670738678:0;fd corrup
 : 1670738697:0;sh scripts/zcorrupt.sh
 : 1670738714:0;base scripts/zcorrupt.sh
@@ -11781,7 +11748,6 @@ echo My name is $var6
 : 1670782500:0;cat /etc/apt/sources.list
 : 1670792822:0;sudo apt upgrade
 : 1670793097:0;sudo apt install -y zip
-: 1670793109:0;git --version
 : 1670793456:0;git restore rgs
 : 1670793491:0;git reset rgs
 : 1670793501:0;rv rgs
@@ -11907,7 +11873,6 @@ man $1 | nvim -\
 : 1670897536:0;python -m timeit -s "from sorting import test_sort" "test_sort()"
 : 1670897635:0;v sorting.py
 : 1670897690:0;cd /home/steff007/p3/benches
-: 1670897734:0;v README.md
 : 1670897812:0;./runt.sh
 : 1670897888:0;v runt.sh
 : 1670898076:0;sc runt.sh
@@ -12090,7 +12055,6 @@ man $1 | nvim -\
 : 1670980127:0;fda \.git
 : 1670980172:0;fda -td '\.git'
 : 1670980216:0;fda -E .cache -td '\.git'
-: 1670986268:0;chah 2
 : 1670986569:0;tar -cvf ~/tmp/ipython.tar ~/ipython
 : 1670986633:0;fda trash
 : 1670986690:0;cd .local/share/Trash/
@@ -12166,7 +12130,6 @@ man $1 | nvim -\
 : 1670992669:0;fda '\.git' -x trash
 : 1670992771:0;git commit -am "fixed submodules?"
 : 1670994117:0;v path
-: 1670994164:0;v .zshrc
 : 1670994179:0;git diff | v -
 : 1670994529:0;printf "%'.2f\n" 10000000000000
 : 1670994568:0;price=1254.43\
@@ -12247,14 +12210,12 @@ echo "$1" | rev | sed -E 's/([0-9]{3})/\1,/g' | rev\
 : 1671040289:0;python3 -m scalene walk.py
 : 1671048852:0;andy=456
 : 1671048883:0;p $andy
-: 1671048893:0;se 'export' | tail
 : 1671048915:0;export bar='foo'
 : 1671048969:0;andy=456\
 export bar='foo'
 : 1671049214:0;fd -epy -x nvim
 : 1671049785:0;git checkout  4f66d50
 : 1671049885:0;se 'perl.*p'
-: 1671049981:0;3
 : 1671050100:0;cat one | perl -ple 's/\d_/xxx/g'
 : 1671050214:0;cat one | perl -ple 's/\d/xxx/g'
 : 1671050224:0;se 'perl.*p' | v -
@@ -12355,7 +12316,6 @@ echo "$files"
 : 1671062818:0;git clean -fxd
 : 1671068712:0;cdp3
 : 1671068736:0;mkcd gar
-: 1671068776:0;cd di
 : 1671068913:0;perl -e '$x = "Hello world!\n"; print $x;'
 : 1671068960:0;se 'perl.*p' 
 : 1671069134:0;perl -ne 'print "$1\n" if /Messages read: (\d+)/' < heights.txt
@@ -12407,7 +12367,6 @@ echo "$files"
 : 1671073217:0;md ../json
 : 1671073235:0;mv file ../json/file.json
 : 1671073263:0;cd ../json
-: 1671073271:0;t work.py
 : 1671074077:0;cd /mnt/c/projects/p3/json
 : 1671074084:0;v file
 : 1671074091:0;v work.py
@@ -12463,7 +12422,6 @@ echo "$files"
 : 1671144844:0;./arg.py 22
 : 1671144933:0;mv arg.py dem
 : 1671144938:0;dem 123444134
-: 1671144977:0;ls
 : 1671144985:0;lt -rt
 : 1671144995:0;lt -t
 : 1671145008:0;ls -lrt
@@ -12614,10 +12572,8 @@ git log --oneline --graph --decorate --all\
 : 1671220622:0;tmux
 : 1671220659:0;gb
 : 1671235226:0;git diff --staged
-: 1671235235:0;git push
 : 1671235279:0;git pull
 : 1671235391:0;git push -f
-: 1671235534:0;cd wither7007.github.io
 : 1671235557:0;ssp
 : 1671239657:0;cd speed
 : 1671239662:0;./spe.sh
@@ -12705,13 +12661,11 @@ git log --oneline --graph --decorate --all\
 : 1671318687:0;git restore functions.sh
 : 1671318715:0;rm aaaaa delete
 : 1671318795:0;alias lfc="v ~/.config/lf/lfrc"
-: 1671318797:0;lfc
 : 1671319052:0;fd -epy
 : 1671319059:0;v ipysql.py
 : 1671319168:0;sqlite3 
 : 1671319665:0;sqlite3 /home/steff007/.ipython/profile_default/history.sqlite
 : 1671319948:0;mv sql_hist sql_back
-: 1671322672:0;cd script
 : 1671322679:0;v ipy
 : 1671322884:0;mktmp
 : 1671322911:0;p $t
@@ -12722,7 +12676,6 @@ git log --oneline --graph --decorate --all\
 : 1671323085:0;v /home/steff007/.cache/zsh/history
 : 1671323177:0;v hf
 : 1671323220:0;hf&&his
-: 1671323229:0;h3
 : 1671323236:0;hisf:his
 : 1671323243:0;hisf&&his
 : 1671323275:0;source functions.sh
@@ -12741,7 +12694,6 @@ git log --oneline --graph --decorate --all\
 : 1671325591:0;fd -E sc*
 : 1671325624:0;fd sc*
 : 1671325632:0;fd 'sc*'
-: 1671325867:0;fd --changed-within=120min -X nvim -O
 : 1671325901:0;fd -epy --changed-within=18hours | xargs nvim -O
 : 1671328268:0;export dir='.'
 : 1671329404:0;"gener"."py" "lisdir"."py" "scan"."py" "walk"."py"
@@ -12761,11 +12713,9 @@ git log --oneline --graph --decorate --all\
 : 1671331003:0;./gener.py && echo "--------" && ./scan.py
 : 1671331011:0;v -O gener.py scan.py
 : 1671331050:0;p $dir
-: 1671331098:0;cd you/lazy
 : 1671342887:0;cp .gitignore gitignore
 : 1671343132:0;cd .ipython
 : 1671343153:0;git ls-files | v -
-: 1671343198:0;fdh
 : 1671343307:0;fda -d1
 : 1671343312:0;fda -d 1
 : 1671343322:0;fda -d 1 | column
@@ -12778,7 +12728,6 @@ git log --oneline --graph --decorate --all\
 : 1671344784:0;rm client-delivery.zip
 : 1671344827:0;rm -rf .rustup
 : 1671344846:0;cd tmp
-: 1671344861:0;rm *
 : 1671344928:0;mc 
 : 1671344979:0;cd coke
 : 1671344987:0;ex Kendrick_Lamar_Count_Me_Out.mp3
@@ -12793,7 +12742,6 @@ git log --oneline --graph --decorate --all\
 : 1671345771:0;fd 'Cash' | v -
 : 1671345815:0;se 'fd.*cp'
 : 1671345898:0;fd 'Cash' -x cp {} /mnt/c/you/kb \;
-: 1671346102:0;y3
 : 1671348066:0;for a in $(seq -s " " 5 3 20); do echo $a; done
 : 1671348091:0;for a in $(seq -s " " 5 3 20); do echo "foo$a"; done
 : 1671348116:0;mkcd files
@@ -12819,7 +12767,6 @@ git log --oneline --graph --decorate --all\
 : 1671388380:0;perl -p -i.bak -e 's//\n/g' bsp.py
 : 1671388388:0;./bsp.py
 : 1671388404:0;v links
-: 1671388520:0;cd twit
 : 1671388552:0;wget -q -O https://twit.cachefly.net/audio/twig/twig0694/twig0694.mp3
 : 1671388573:0;wget -q https://twit.cachefly.net/audio/twig/twig0694/twig0694.mp3
 : 1671404365:0;winh
@@ -12835,15 +12782,12 @@ git log --oneline --graph --decorate --all\
 : 1671412878:0;v scan.py
 : 1671412951:0;trash workspaceStorage
 : 1671413046:0;trash History
-: 1671413783:0;vinit
 : 1671414132:0;git rm --cached jgit
 : 1671414156:0;trash jgti
 : 1671414164:0;trash jgit
-: 1671414179:0;git add .
 : 1671414342:0;export dir='/mnt/c/projects/files'
 : 1671414443:0;./scan.py ~ | column | less
 : 1671414468:0;./gener.py ~ | column | less
-: 1671414520:0;fd | v -
 : 1671414637:0;export dir='/mnt/c/you'
 : 1671414657:0;hp "scan.py" "walk.py"
 : 1671415034:0;fd -d 1 '_Amy.*e_' -exec rename "s/_Amy.*e_//g"
@@ -12864,7 +12808,6 @@ git log --oneline --graph --decorate --all\
 : 1671416223:0;fdd -emp3 | trash {\}
 : 1671416247:0;fdd -emp3 -X trash {\}
 : 1671416256:0;fdd -emp3
-: 1671416264:0;lf
 : 1671425032:0;work xx.py
 : 1671425073:0;./xx.py | v -
 : 1671425863:0;fd -a | v -
@@ -12875,13 +12818,11 @@ git log --oneline --graph --decorate --all\
 : 1671426226:0;fd -tf -a -emp3 | rg '\s'
 : 1671426241:0;fd -tf -a -emp3 | rg '\s' | v -
 : 1671426346:0;cd lazy
-: 1671473433:0;git diff
 : 1671473511:0;git diff walk
 : 1671473525:0;git diff walk.py
 : 1671473591:0;git diff --name-only
 : 1671473601:0;git diff p3/dir/walk.py
 : 1671473624:0;git diff -- p3/dir/walk.py
-: 1671473831:0;git add -A
 : 1671473840:0;git commit -m 'xx'
 : 1671473873:0;git diff dir/walk.py
 : 1671474086:0;./walk.py | v -
@@ -12892,14 +12833,11 @@ git log --oneline --graph --decorate --all\
 : 1671493413:0;./unclaimed.py
 : 1671493639:0;perl -i.bak -n -e'print if /\S/' unclaimed.py
 : 1671493672:0;ls *.bak
-: 1671493934:0;duh
-: 1671493952:0;df -hT 
 : 1671494151:0;perl -E 'say for sort map{ [(split)[4], $_]->[0] } <>'lt
 : 1671494167:0;perl -E 'say for sort map{ [(split)[4], $_]->[0] } <>' dates.txt
 : 1671494177:0;perl -E 'say for sort map{ [(split)[4], $_]->[0] } <>' dates.txt | tail
 : 1671494244:0;perl -E 'say for sort map{ [(split)[1], $_]->[0] } <>' dates.txt | tail
 : 1671494251:0;cat dates.txt| tail
-: 1671494297:0;v dates.txt
 : 1671510134:0;mv /mnt/c/you/alb/Put Your Head On My Shoulder.mp3  /mnt/c/you/alb/PutYourHeadOnMyShoulder.mp3
 : 1671510136:0;mv '/mnt/c/you/alb/Put Your Head On My Shoulder.mp3'  /mnt/c/you/alb/PutYourHeadOnMyShoulder.mp3
 : 1671510164:0;cd you/kb
@@ -12947,15 +12885,12 @@ mv '/mnt/c/you/aretha/Aretha Franklin - Rock Steady (Official Lyric Video).mp3' 
 : 1671522456:0;cd /mnt/c/you
 : 1671522482:0;fd '\s' | tail
 : 1671522493:0;fd '\s' | tail | v -
-: 1671522756:0;fdc
 : 1671522772:0;cd time3
 : 1671522877:0;stat In_Our_Time___S14_19_The_Scientific_Method__Jan_26_2012_.mp3
 : 1671523208:0;lt | wc
 : 1671560917:0;cd funnyv
-: 1671560918:0;space
 : 1671560947:0;fd
 : 1671561350:0;fda | wc
-: 1671561371:0;fda
 : 1671561706:0;v sorted.txt
 : 1671561719:0;fda | sort
 : 1671561741:0;fda -tf | sort
@@ -12965,7 +12900,6 @@ mv '/mnt/c/you/aretha/Aretha Franklin - Rock Steady (Official Lyric Video).mp3' 
 : 1671561861:0;v -O sorted.txt fsorted.txt
 : 1671561925:0;se 'vdiff'
 : 1671561939:0;vdiff fsorted.txt sorted.txt
-: 1671562964:0;se 'p3.*pip'
 : 1671562977:0;p3 -m pip install joblib
 : 1671563027:0;v places.sav
 : 1671564958:0;cd /mnt/c/projects
@@ -12975,32 +12909,21 @@ mv '/mnt/c/you/aretha/Aretha Franklin - Rock Steady (Official Lyric Video).mp3' 
 : 1671566880:0;cd ../twit
 : 1671566889:0;wget "https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/twit/twit0906/twit0906.mp3" ##twit 8/15
 : 1671572533:0;to
-: 1671572808:0;md x
 : 1671572812:0;cd x
-: 1671572814:0;pc
 : 1671572821:0;t nothin.txt
 : 1671572870:0;pa=os.getcwd()
-: 1671573048:0;pystart
-: 1671573645:0;yv
 : 1671574438:0;cd /mnt/c/you/aretha
 : 1671574447:0;fd king
 : 1671574467:0;fd Bord
 : 1671574675:0;rm log
-: 1671574812:0;./rename.py
 : 1671574824:0;fd '\s' | wc
-: 1671574848:0;fda | v -
 : 1671574863:0;fda -tf | v -
 : 1671579081:0;git restore walk.py
-: 1671579164:0;v walk.py
-: 1671579190:0;./walk.py
 : 1671579229:0;git add rename.py
 : 1671579291:0;gst | v -
 : 1671579382:0;v
 : 1671579404:0;rm	listfile.txt;rm	log;rm	moves;rm	x/;rm	../listfile.txt;rm	../moves;rm	../places.sav;rm	../v;
-: 1671579589:0;p3
-: 1671579603:0;cd bs
 : 1671579646:0;p3 unclaimed.py | head
-: 1671579691:0;wi python3.10 | v -
 : 1671579774:0;bat unclaimed.py
 : 1671579783:0;cat unclaimed.py
 : 1671579893:0;rg '3\.10' *
@@ -13019,12 +12942,10 @@ mv '/mnt/c/you/aretha/Aretha Franklin - Rock Steady (Official Lyric Video).mp3' 
 : 1671593637:0;fdd -etxt | xargs rg 'sheets'
 : 1671593647:0;fdd -etxt | xargs rg 'sheets' | less
 : 1671593668:0;fdd -etxt
-: 1671593682:0;ld
 : 1671593703:0;fdd -epy | xargs rg 'sheets' | less
 : 1671597332:0;cd cool
 : 1671597335:0;fdd -epy | xargs rg 'sheets' 
 : 1671597339:0;v sheets.py
-: 1671597408:0;d
 : 1671597412:0;1
 : 1671601482:0;v rename
 : 1671601594:0;cd /mnt/c/you/alb/
@@ -13042,11 +12963,7 @@ mv '/mnt/c/you/aretha/Aretha Franklin - Rock Steady (Official Lyric Video).mp3' 
 : 1671603579:0;vz
 : 1671635251:0;git rm p3/sql_hist.txt
 : 1671635268:0;git rm script/sql_hist
-: 1671635276:0;v .gitignore
 : 1671635287:0;git rm script/sql_hist_awk
-: 1671635303:0;git commit -am "daily"
-: 1671635331:0;gst
-: 1671637609:0;cd /mnt/c/projects/p3/dir
 : 1671637645:0;cd /mnt/c/you/alb
 : 1671637730:0;fd stone
 : 1671637747:0;fd cle
@@ -13059,51 +12976,32 @@ mv '/mnt/c/you/aretha/Aretha Franklin - Rock Steady (Official Lyric Video).mp3' 
 : 1671639856:0;cd car
 : 1671639862:0;fd kell
 : 1671639870:0;fd frid
-: 1671639892:0;..
-: 1671639895:0;cd alb
 : 1671639911:0;fd hope
 : 1671639928:0;fd worsh
 : 1671640589:0;tmux ls
-: 1671640645:0;mem
-: 1671640892:0;v rename.txt
 : 1671640924:0;cd /mnt/c/you/cb/
 : 1671640941:0;fd beg
 : 1671640967:0;fd kan
 : 1671640980:0;stat kant_metaphys.mp3
 : 1671656630:0;se 'jq' | tail
 : 1671656653:0;se 'jq' | tail | v -
-: 1671656891:0;mc
-: 1671656893:0;cd you
-: 1671656896:0;cd mcoding
 : 1671656944:0;exiftool -j Why_you_shouldnt_except_in_Python_mp4| jq 'keys[]'
 : 1671656963:0;exiftool -j Why_you_shouldnt_except_in_Python_mp4
-: 1671665218:0;ye
 : 1671668029:0;pwd
 : 1671668035:0;pwd | cl
 : 1671669640:0;t sample.log
 : 1671670487:0;t log.txt
 : 1671670613:0;cd /mnt/c/projects/p3
-: 1671671273:0;rm log.txt
-: 1671674366:0;i3
 : 1671674546:0;v log.txt
-: 1671674862:0;v long.txt
-: 1671674893:0;fg
-: 1671674904:0;ipy
-: 1671676506:0;cd p3/bs
 : 1671676616:0;fdd -epy
 : 1671676632:0;wi python3.10
 : 1671676643:0;v unclaimed.py
 : 1671676711:0;#perl -p -i.bak -e 's/^M/\n/g' bsp.py
 : 1671676739:0;perl -p -i.bak -e 's//\n/g' unclaimed.py
-: 1671676749:0;./unclaimed.py | head
 : 1671677167:0;axit
-: 1671721527:0;p3 imp.py
-: 1671721672:0;chah 1
 : 1671721890:0;ll
-: 1671721891:0;l
 : 1671721899:0;stat --format="%n,%F" /dev/null 
 : 1671721933:0;stat -t /etc
-: 1671723344:0;lt
 : 1671723376:0;stat -c '%n %A %.19z' long.txt
 : 1671723401:0;stat -c '%n  %.19z' long.txt
 : 1671723417:0;stat -c ' %.19z' long.txt
@@ -13112,84 +13010,490 @@ mv '/mnt/c/you/aretha/Aretha Franklin - Rock Steady (Official Lyric Video).mp3' 
 fda -tf -L --changed-within=$1hours |  rg -v "tld|conf|\.git|hyp|cache|\.local" | xargs stat -c "%n/%.19z" | sort | sed -e "s/[0-9]*\:.*00\///g" ; }
 : 1671723694:0;chah()  {\
 fda -tf -L --changed-within=$1hours |  rg -v "tld|conf|\.git|hyp|cache|\.local" | xargs stat -c "%n   %.19z" | sort | sed -e "s/[0-9]*\:.*00\///g" ; }
-: 1671723738:0;mps
-: 1671723759:0;cd p3
-: 1671723778:0;cd dir
-: 1671723784:0;chah 24
-: 1671723826:0;c
-: 1671723829:0;cd
 : 1671723832:0;v functions.sh
-: 1671723859:0;his
-: 1671723936:0;exit
 : 1671723943:0;sc functions.sh
-: 1671723950:0;mps
-: 1671723953:0;cd p3
-: 1671723957:0;lt
-: 1671723960:0;chah 24
-: 1671723968:0;chah 2
-: 1671724397:0;chah 1
-: 1671724514:0;lt
 : 1671724518:0;cd di
-: 1671724522:0;cd dir
-: 1671724523:0;lt
 : 1671724533:0;t ex.py
-: 1671724534:0;lt
-: 1671724597:0;p3 imp.py
 : 1671724625:0;v shorten.py
-: 1671724710:0;p3 imp.py
-: 1671724942:0;c
-: 1671724949:0;lt
-: 1671724954:0;./imp.py
 : 1671725002:0;p3 imp.py
-: 1671725012:0;wi python3.10 | v -
-: 1671725041:0;./imp.py
-: 1671725077:0;c
-: 1671725079:0;lt
-: 1671725095:0;lf
-: 1671725165:0;lt
 : 1671725175:0;rm -rf x
-: 1671725178:0;lt
-: 1671725179:0;gst
-: 1671725207:0;..
-: 1671725209:0;gst
-: 1671725220:0;v .gitignore
-: 1671725224:0;..
-: 1671725225:0;v .gitignore
-: 1671725241:0;gst
-: 1671725259:0;v .gitignore
-: 1671725268:0;gst
-: 1671725283:0;git add .
-: 1671725287:0;gst
-: 1671725301:0;git commit -am "daily"
-: 1671725303:0;gst
-: 1671725306:0;c
-: 1671725314:0;cd p3
-: 1671725316:0;cd dir
-: 1671725318:0;lt
-: 1671725465:0;chah 1
-: 1671725471:0;lt
-: 1671725579:0;i3
-: 1671731512:0;mps
-: 1671731515:0;cd p3
-: 1671731517:0;cd dir
 : 1671731522:0;chah 1
-: 1671731526:0;chah 2
-: 1671731532:0;lt
-: 1671731637:0;i3
 : 1671731891:0;cd /mnt/c/projects/p3/dir
 : 1671731895:0;chah 2
 : 1671731919:0;fd --changed-within=120min -X nvim -O
-: 1671732001:0;lt
-: 1671732005:0;./imp.py
-: 1671732021:0;v imp.py
-: 1671732035:0;lt
-: 1671732103:0;v imp.py
-: 1671732111:0;./imp.py
 : 1671732128:0;v imp.py
-: 1671732140:0;v walk.py
-: 1671732190:0;./walk.py
 : 1671732196:0;./imp.py
-: 1671732282:0;lt
 : 1671734829:0;fd gita
 : 1671734834:0;v gitAll.sh
 : 1671734842:0;./gitAll.sh
+: 1671745521:0;cd p3/bs
+: 1671745790:0;v walk.py
+: 1671746670:0;cat export.py
+: 1671746753:0;./walk.py
+: 1671747033:0;v export.py
+: 1671748714:0;alias mps='cd /mnt/c/projects/p3'
+: 1671749352:0;printenv | v -
+: 1671749469:0;md modules
+: 1671749476:0;mv export.py modules
+: 1671749481:0;cd modules
+: 1671749531:0;export PYTHONPATH=
+: 1671749547:0;export PYTHONPATH=$PWD/modules
+: 1671749751:0;git commit -am "daily"
+: 1671749757:0;git rm .python_history
+: 1671749810:0;pip freeze 
+: 1671749890:0;v .zshrc
+: 1671749900:0;export PYTHONPATH=/mnt/c/projects/p3/modules
+: 1671750076:0;rm log.txt
+: 1671750499:0;fd -epy | xargs rg 'spaced'
+: 1671750539:0;fd -epy | xargs rg 'def\ssp'
+: 1671750578:0;v dir/sheetR.py
+: 1671752886:0;cd wither7007.github.io
+: 1671752910:0;cd nfl
+: 1671752919:0;v index.html
+: 1671753071:0;git diff
+: 1671753102:0;git push
+: 1671759863:0;cd p3
+: 1671759872:0;p $PYTHONPATH
+: 1671760399:0;cd dir
+: 1671761079:0;fd -epy | xargs rg 'open'
+: 1671761488:0;rm /mnt/c/you/mcoding/_April_Fools_2021_Python_4_0_New_old_print_mandatory_static_typing_StackOverflow_integration_mp4
+: 1671761819:0;v rename.txt
+: 1671761837:0;cd you/cb
+: 1671761840:0;fd hume
+: 1671761908:0;mv Introduction_to_Hume___An_Enquiry_Concerning_Human_Understanding_n8XSqkeOnPI.mp3 humeEnquiry.mp3
+: 1671761928:0;mv Epistemology___Hume_s_Skepticism_and_Induction_Part_2_dPlNsyXl_0c.mp3 hume_skep.mp3
+: 1671761969:0;mv Wars_of_the_Roses___England_s_Bloody_Crown___Full_History_Documentary_ptpxb6gMq1k.mp3 wars_and_roses.mp3
+: 1671761990:0;mv Barber___Russell_Paradoxes__History_of_Undecidability_Part_2____Computerphile.mp3 barberRussel.mp3
+: 1671762027:0;mv Sam_Harris_2018___Why_Buddhism_is_True_with_Robert_Wright__BEST__McwHELx7Oa4.mp3 Why_b_is_true.mp3
+: 1671762226:0;rm long.txt
+: 1671762230:0;./rename.py
+: 1671762233:0;v long.txt
+: 1671765548:0;fd ba
+: 1671765563:0;cd projects
+: 1671765581:0;code .
+: 1671771328:0;bas
+: 1671771333:0;v ye.sh
+: 1671771407:0;type -a ye
+: 1671771437:0;lt sc*
+: 1671771448:0;fd sc.*
+: 1671771610:0;work n.sh
+: 1671771910:0;cd you/lazy
+: 1671771992:0;mv Richard\ Wolff\ -\ Marxism\ and\ Communism\ _\ Lex\ Fridman\ Podcast\ \#295\ \[o0Bi-q89j5Y\].mp3 wolfCommunism.mp3
+: 1671772046:0;rm Richard\ Wolff\ -\ Marxism\ and\ Communism\ _\ Lex\ Fridman\ Podcast\ \#295\ \[o0Bi-q89j5Y\].webm
+: 1671772112:0;rm Richard\ Wolff\ -\ Marxism\ and\ Communism\ _\ Lex\ Fridman\ Podcast\ \#295.mp3
+: 1671773190:0;t nn
+: 1671773194:0;t aa
+: 1671773261:0;lfc
+: 1671774670:0;exiftool -j oop_python.mp4
+: 1671774698:0;exiftool -j oop_python.mp4 | jq
+: 1671774930:0;exiftool -j oop_python.mp4 | jq { .description }
+: 1671775022:0;exiftool -j oop_python.mp4 | jq '.[0] | { .description }'
+: 1671775072:0;exiftool -j oop_python.mp4 | jq '.[0]'
+: 1671775082:0;exiftool -j oop_python.mp4 | jq '.[0]' | less
+: 1671775109:0;exiftool -j oop_python.mp4 | jq '.[0] | { .Description }'
+: 1671775150:0;curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.[0]' | v -
+: 1671775215:0;exiftool -j oop_python.mp4 | jq '.[0] | { Description }'
+: 1671775288:0;mkcd oop
+: 1671775310:0;git clone https://github.com/jimdevops19/PythonOOP 
+: 1671775322:0;cd PythonOOP
+: 1671775346:0;v README.md
+: 1671775399:0;d
+: 1671775402:0;3
+: 1671775412:0;ex tryExecept.mp4
+: 1671775452:0;vlc tryExecept.mp4
+: 1671775512:0;windir | cl
+: 1671775584:0;fd gpt
+: 1671775612:0;mv hottest_new.mp3 hottes_new.mp4
+: 1671811730:0;v oop.txt
+: 1671825451:0;pc
+: 1671825573:0;mv ~/script/start.py .
+: 1671826087:0;pystart
+: 1671827041:0;ie
+: 1671827970:0;cd twit
+: 1671827981:0;md back
+: 1671827985:0;mv * back
+: 1671828024:0;fd -tf | xargs mv back/
+: 1671828038:0;fd -tf
+: 1671828049:0;wget  https://twit.cachefly.net/audio/twig/twig0695/twig0695.mp3
+: 1671828633:0;ex twig0695.mp3
+: 1671828730:0;cd back
+: 1671828748:0;wget https://twit.cachefly.net/audio/ww/ww0807/ww0807.mp3
+: 1671856121:0;cd bs
+: 1671856128:0;./unclaimed.py | head
+: 1671858955:0;deci 48304000000
+: 1671860411:0;cd you/mcoding
+: 1671860506:0;exiftool -j oop_python.mp4 | jq '.[0] | { Description }' | sed 's/\\n/\r/g'
+: 1671860876:0;cat yv | perl -ple 's/\s*//g'
+: 1671860912:0;cat yv | perl -ple 's/\s*//g' | perl -ple 's/\n*//g'
+: 1671861073:0;cat yv | sed '/^$/d'
+: 1671861101:0;sed '/^$/d' yv
+: 1671861158:0;sed -i sed '/^$/d' yv
+: 1671861182:0;sed -i '/^$/d' yv
+: 1671861309:0;rm pyREPR.mp
+: 1671861314:0;rm pyREPR.mp3
+: 1671861357:0;exiftool -j oop_python.mp4 | jq '.[0] | { Description }' | v -
+: 1671867621:0;gpg
+: 1671947803:0;v main.py
+: 1671947968:0;./main.py
+: 1671950068:0;fd shee
+: 1671957706:0;lsof
+: 1671958358:0;se 'p3.*pip'
+: 1671958395:0;p3 -m install gpt-do 
+: 1671958410:0;p3 -m pip install gpt-do 
+: 1671958526:0;se 'export' | tail
+: 1671988868:0;md mcoding
+: 1671988882:0;git clone git@github.com:mCodingLLC/VideosSampleCode.git
+: 1671988906:0;cd VideosSampleCode
+: 1671989130:0;mv videos ..
+: 1671989156:0;trash VideosSampleCode
+: 1671989161:0;cd videos
+: 1671989234:0;git@github.com:mCodingLLC/VideosSampleCode.git
+: 1671989259:0;export OPENAI_API_KEY=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
+: 1671989263:0;gpt-do touch
+: 1671990144:0;rm ipython_hist.txt
+: 1671990189:0;t work.py
+: 1671990217:0;wi python3.10 | v -
+: 1671994808:0;mc
+: 1671994811:0;cd you
+: 1671994817:0;fd taxi
+: 1671994831:0;cd crows
+: 1672005082:0;alias cdy="cd /mnt/c/you"
+: 1672005092:0;cd muse
+: 1672005889:0;cd alb
+: 1672016181:0;p3
+: 1672016231:0;cd modules/__pycache__
+: 1672016512:0;v ../../.gitignore
+: 1672016596:0;v ~/functions.sh
+: 1672016640:0;pyclean () {\
+        find . -type f -name "*.py[co]" -delete\
+        find . -type d -name "__pycache__" -delete\
+}
+: 1672016657:0;fd 'py[co]'
+: 1672016669:0;fd 'py'
+: 1672016699:0;fd '__.*'
+: 1672016728:0;fd '.*cache'
+: 1672017964:0;v c.csv
+: 1672017981:0;cd oop
+: 1672017983:0;ls
+: 1672018597:0;v b.csv
+: 1672019577:0;cd /mnt/c/projects/p3/oop
+: 1672019585:0;fd -ecsv
+: 1672019608:0;fd -ecsv | v -
+: 1672019619:0;cp PythonOOP/04_Class_vs_Static_Methods/codesnippets/items.csv .
+: 1672019964:0;v items.csv
+: 1672033486:0;ex books.mp3
+: 1672033552:0;v yv
+: 1672033577:0;cp yv yvl
+: 1672033581:0;v yvl
+: 1672033668:0;yvl
+: 1672035496:0;cd shop
+: 1672035529:0;fdh
+: 1672035554:0;se 'fd.*size'
+: 1672035568:0;se 'fd.*size' | v -
+: 1672035582:0;fda -tf --size +10m
+: 1672035603:0;fda -tf --size +10m | ls -lhrt
+: 1672035617:0;fda -tf --size +10m | xargs ls -lhrt
+: 1672035646:0;fda -tf --size +10m -x ls -lhrt
+: 1672035758:0;rm letit/4k_Elton_John_Farewell_Yellow_Brick_Road_Tour_Live_in_Columbus_4_12_2022.mp3
+: 1672035772:0;rm letit/Meditating_with_Ra_s_al_Ghul_in_Batman_Begins_ambient_.mp3
+: 1672035816:0;fda -tf --size +50m -x ls -lhrt
+: 1672035829:0;fda -tf --size +100m -x ls -lhrt
+: 1672035886:0;lts
+: 1672035908:0;df -hT 
+: 1672035926:0;v dates.txt
+: 1672037327:0;cd booktv
+: 1672037366:0;cd
+: 1672037369:0;cd script
+: 1672037507:0;v yel
+: 1672037545:0;v ye
+: 1672037589:0;yel
+: 1672078205:0;yv
+: 1672078818:0;cdy
+: 1672078824:0;fd giant
+: 1672079380:0;cd mcoding
+: 1672079403:0;exiftool -j xml.mp4 | jq '.[0] | { Description }' | v -
+: 1672079747:0;v vlc
+: 1672082306:0;v vlc.xspf
+: 1672082528:0;mpx
+: 1672083093:0;fd | v -
+: 1672083232:0;v vlc.m3u
+: 1672083387:0;cd /mnt/c/music
+: 1672083401:0;cd mozart
+: 1672083443:0;vlc .
+: 1672083803:0;v mo24.m3u
+: 1672083866:0;v bm.m3u
+: 1672084018:0;fd -d 1 
+: 1672084020:0;fdc
+: 1672084051:0;cd Bach-\ Brandenburg\ Concertos\ \#4-6
+: 1672084179:0;cd yuniBeethoven
+: 1672084218:0;fd -t f -emp3 | v -
+: 1672084374:0;fd pick
+: 1672084405:0;fd pick.*01
+: 1672084418:0;fd 'pick.*01'
+: 1672084512:0;fd 'pick.*01' -exec rename "s/pick//g"
+: 1672084555:0;h3
+: 1672084571:0;fd '.*01'
+: 1672084584:0;md x
+: 1672084591:0;md y
+: 1672084613:0;fd '.*_01'
+: 1672084626:0;fd '^_01'
+: 1672084744:0;fd 'pick' -x mv y/
+: 1672084754:0;fd 'pick' -x mv y
+: 1672084775:0;ld y
+: 1672084784:0;fd 'pick' -x mv yy
+: 1672084807:0;md yy
+: 1672084817:0;fd 'pick' -X mv yy
+: 1672084835:0;ls yy
+: 1672084843:0;fd 'pick'
+: 1672084852:0;fd -tf 'pick'
+: 1672084860:0;fd -tf 'pick' -X mv yy
+: 1672084893:0;mv pick_22_The_Scientist.mp3 yy
+: 1672084948:0;fd -tf 'pick' | xargs mv yy
+: 1672084969:0;fd -tf 'pick' | xargs mv yy/
+: 1672085016:0;fd -tf 'pick' -X mv {/} yy/
+: 1672085030:0;l yy
+: 1672085042:0;fdd pick
+: 1672085109:0;fd 'yuni' -X rm
+: 1672085115:0;fd 'yuni'
+: 1672085125:0;rm -rf yuniBeethoven
+: 1672085145:0;fd -tf jazz
+: 1672085170:0;md jazz
+: 1672085206:0;fd -tf jazz -X mv jazz
+: 1672085214:0;l jazz
+: 1672085230:0;fd -tf jazz -X mv {/} jazz/
+: 1672085240:0;ls jaz*
+: 1672085257:0;cd jazz
+: 1672085282:0;se 'rename' | tail -n6
+: 1672085336:0;rename 's/jazzV_//g'
+: 1672085341:0;rename 's/jazzV_//g' *
+: 1672085366:0;ex 09_I_Get_Along_Without_You_Very_Well.mp3
+: 1672085424:0;fd 'hum' -X mv {/} ~/tmp
+: 1672085432:0;fd 'hum'
+: 1672085502:0;fd -tf "bach"
+: 1672085527:0;fd -tf -emp3 "bach"
+: 1672085534:0;fd -tf -emp3 "bach" -X rm
+: 1672085561:0;fd -tf -emp3 "moz" -X rm
+: 1672085575:0;md mid
+: 1672085596:0;fd -emid -exec mv {} mid/
+: 1672085599:0;ld
+: 1672085627:0;fd -tf -emp3 "beet" -X rm
+: 1672085678:0;fd -tf -emp4 "how" -X rm
+: 1672085724:0;fd autumn -emp3 -exec mv {} jazz/
+: 1672085746:0;rm _01_Against_All_Odds.mp3
+: 1672085772:0;fd -tf midi
+: 1672085781:0;fd -d 1 -tf midi
+: 1672085788:0;fd -d 1 -tf midi -x rm
+: 1672085810:0;fd -d 1 -tf hor -x rm
+: 1672085862:0;rm back846.mp3 x output.mp3 aut beeth_04_Sonate_3_Allegro_Assai.m3u
+: 1672085882:0;rm Bob_Seger_Old_Time_Rock_n_Roll_SoaAb5MnKtY.m4a
+: 1672085885:0;fda
+: 1672085902:0;duh
+: 1672085912:0;cd Mussorgsky_Pictures_At_An_Exhibition_Rimsky_Korsakov_Capriccio_Espagnol_Etc
+: 1672085922:0;space
+: 1672087288:0;mv Mussorgsky_Pictures_At_An_Exhibition_Rimsky_Korsakov_Capriccio_Espagnol_Etc Muss_pic
+: 1672087316:0;fd joh
+: 1672087333:0;fd joh -x mv mash.mp3
+: 1672087351:0;type -a mv
+: 1672087382:0;fd joh -X mv mash.mp3
+: 1672087427:0;wi mv
+: 1672087462:0;type -a cp
+: 1672087505:0;fd joh -X mv {/} mash.mp3
+: 1672087526:0;lf
+: 1672087583:0;fda '\s'
+: 1672087600:0;cd nln
+: 1672087604:0;cd lnl
+: 1672087610:0;rm *
+: 1672087612:0;..
+: 1672087681:0;windir
+: 1672087729:0;fda | v -
+: 1672087735:0;cd yy
+: 1672087772:0;rename 's/pick_//g' *
+: 1672087789:0;fd '\d\d'
+: 1672087808:0;rename 's/\d\d_//g' *
+: 1672087810:0;l
+: 1672087909:0;cp Bridge_Over_Troubled_Water.mp3 ..
+: 1672088323:0;y3
+: 1672088325:0;ye
+: 1672095964:0;mps
+: 1672095974:0;chah 24
+: 1672096261:0;git --version
+: 1672096334:0;git reset .
+: 1672096353:0;git add .
+: 1672096418:0;c
+: 1672096482:0;i3
+: 1672096857:0;lt
+: 1672096860:0;v long
+: 1672096921:0;mv /mnt/c/you/class/Beethoven___Symphony_No._3_in_E_flat_major__Op._55__Eroica_Berliner_Philharmoniker.mp3 Beeth_sy3.mp3
+: 1672097021:0;mv /mnt/c/you/coke/Dirty_Old_Egg_Suckin_Dog_Live_at_Folsom_State_Prison_Folsom_CA_1st_Show_January_1968_.mp3 egg_sucking.mp3
+: 1672097030:0;mem
+: 1672097048:0;fg
+: 1672097069:0;ipy
+: 1672097092:0;vinit
+: 1672097211:0;v .gitignore
+: 1672097230:0;v n.sh
+: 1672097235:0;rm n
+: 1672097240:0;rm n.sh
+: 1672097255:0;git add -A
+: 1672097263:0;git commit -am "week 15"
+: 1672097325:0;git diff --name-only head~3 head
+: 1672097386:0;git diff --name-only HEAD~4 | v - #!good git stuff
+: 1672097440:0;git diff .config/nvim/init.vim y HEAD~4
+: 1672097452:0;git diff .config/nvim/init.vim  HEAD~4
+: 1672097454:0;his
+: 1672097470:0;git diff   HEAD~4 .config/nvim/init.vim
+: 1672097481:0;git diff   HEAD~4 .config/nvim/init.vim | v -
+: 1672097602:0;chah 4
+: 1672097629:0;gst
+: 1672097649:0;exit
+: 1672097677:0;vinit
+: 1672097878:0;lt
+: 1672097893:0;v eval
+: 1672097943:0;lf
+: 1672098029:0;c
+: 1672101776:0;mps
+: 1672102313:0;mc
+: 1672102315:0;cd all
+: 1672102318:0;lt
+: 1672102334:0;git log  --oneline | v -
+: 1672102530:0;fd note
+: 1672105977:0;mps
+: 1672105980:0;cd oop
+: 1672105982:0;lt
+: 1672105986:0;i3
+: 1672108440:0;cd p3
+: 1672108444:0;mps
+: 1672108451:0;cd bs
+: 1672108455:0;./unclaimed.py | head
+: 1672110663:0;try:\
+  print(x)\
+except:\
+  print("Something went wrong")\
+finally:\
+  print("The 'try except' is finished")
+: 1672114173:0;mpx
+: 1672114175:0;mps
+: 1672114183:0;cd oop
+: 1672114184:0;lt
+: 1672114186:0;gst
+: 1672114212:0;lt
+: 1672114227:0;ld
+: 1672114310:0;v items.csv
+: 1672114784:0;mps
+: 1672114790:0;cd oop
+: 1672114792:0;ipy
+: 1672114871:0;i3
+: 1672118662:0;cdy
+: 1672118667:0;cd mcoding
+: 1672118669:0;lt
+: 1672118683:0;ex oop_python.mp4
+: 1672118790:0;ye
+: 1672119486:0;yv
+: 1672162286:0;mps
+: 1672162292:0;i3
+: 1672162618:0;lynx
+: 1672162710:0;sudo apt update
+: 1672163020:0;sudo apt install lynx
+: 1672163041:0;lynx
+: 1672163109:0;lynx www.umn.edu
+: 1672163157:0;lynx www.startribune.com
+: 1672163607:0;sudo apt install w3m w3m-img
+: 1672163625:0;w3m xyz.com
+: 1672163649:0;w3m ibm.com
+: 1672163707:0;w3m startribune.com
+: 1672163813:0;c
+: 1672163817:0;df -hT 
+: 1672163946:0;mps
+: 1672163949:0;ld
+: 1672163951:0;fdc
+: 1672163967:0;ls gar
+: 1672163971:0;l gar
+: 1672163973:0;cd gar
+: 1672163974:0;lt
+: 1672163997:0;work git.sh
+: 1672164144:0;curl 'https://api.github.com/users/caspyin'
+: 1672164188:0;curl ibm.com
+: 1672164193:0;c
+: 1672164196:0;h3
+: 1672164209:0;curl 'ibm.com'
+: 1672164216:0;h3
+: 1672164237:0;his
+: 1672164346:0;lt
+: 1672164363:0;mv git.sh gq.sh
+: 1672164365:0;lt
+: 1672164376:0;./gq.sh
+: 1672164401:0;./gq.sh | jq '.'
+: 1672164450:0;./gq.sh | jq '.' > jq.json
+: 1672164453:0;lt
+: 1672164461:0;pc
+: 1672164561:0;ipy
+: 1672168807:0;mps
+: 1672168811:0;chah 4
+: 1672168833:0;cd gar
+: 1672168834:0;lt
+: 1672168841:0;i3
+: 1672181270:0;mps
+: 1672181274:0;cd less
+: 1672181290:0;work j.py
+: 1672181524:0;lt
+: 1672181532:0;his
+: 1672181566:0;curl 'https://api.github.com/users/wither7007'
+: 1672181582:0;curl 'https://api.github.com/users/wither7007' > j.json
+: 1672181584:0;lt
+: 1672181595:0;mps
+: 1672181597:0;cd bs
+: 1672181602:0;./unclaimed.py | head
+: 1672181779:0;i3
+: 1672182013:0;lt
+: 1672182023:0;pwd
+: 1672182027:0;fg
+: 1672182202:0;lt
+: 1672182214:0;fg
+: 1672182224:0;cd /mnt/c/projects/p3/less
+: 1672182226:0;lt
+: 1672182236:0;fg
+: 1672182295:0;his
+: 1672182421:0;curl 'https://api.github.com/users/wither7007' | jq '.' > j.json
+: 1672182432:0;v j.json
+: 1672182436:0;fg
+: 1672182804:0;his
+: 1672182831:0;curl 'https://api.github.com/users/wither7007' | python -m json.tool
+: 1672182842:0;curl 'https://api.github.com/users/wither70077' | python -m json.tool
+: 1672183194:0;ipy
+: 1672183228:0;lt
+: 1672183230:0;v x
+: 1672183236:0;fg
+: 1672187882:0;mps
+: 1672187883:0;cd p3
+: 1672187887:0;cd less
+: 1672187891:0;i3
+: 1672188036:0;cd /mnt/c/projects/p3/less
+: 1672188261:0;lt
+: 1672188262:0;v xy
+: 1672188272:0;fg
+: 1672188701:0;ipy
+: 1672191837:0;ye
+: 1672191893:0;cdy
+: 1672191903:0;lt
+: 1672191909:0;cd alb
+: 1672191910:0;lt
+: 1672192091:0;mps
+: 1672192093:0;cd p3
+: 1672192097:0;cd less
+: 1672192098:0;lt
+: 1672192101:0;i3
+: 1672195754:2;curl https://api.github.com/users/wither7007/repos
+: 1672195796:0;curl https://api.github.com/users/wither7007/repos | v -
+: 1672195830:0;his
+: 1672196679:0;lt
+: 1672196682:0;v git
+: 1672196766:0;fg
+: 1672197145:0;i3
+: 1672197530:0;ipy
+: 1672201544:0;mps
+: 1672202933:0;ipy
+: 1672202989:0;i3
+: 1672205299:0;mpx
+: 1672205302:0;mps
+: 1672205306:0;i3
+: 1672205685:0;fd git
+: 1672205693:0;gitAll.sh
