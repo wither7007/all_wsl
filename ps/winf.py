@@ -1,15 +1,16 @@
 #!/usr/bin/python3.10
-
+#link
 import re
 import sys
 import pdb
+cor = re.compile(r'c:\\', flags=re.IGNORECASE)
 def winL(x):
     # pdb.set_trace()
     cor = re.compile(r'c:\\', flags=re.IGNORECASE)
     co=re.sub(cor,'/mnt/c/',x )
     lin=co.replace('\\','/')
-    print(f"linux: {lin}")
-    print(f'windows: {x}')
+    print(f"cd {lin}")
+    print(f'cd {x}')
     return lin
 def pConv(pat='/mnt/'):
     if len(sys.argv)>1:
@@ -18,8 +19,8 @@ def pConv(pat='/mnt/'):
     pats = re.search("/mnt/c/", pat)
     if pats:
         bb=pat.replace('/mnt/c/','c:\\').replace('/', '\\')
-        print(f"Linux: {pat}\nWindows: {bb}")
-    patx = re.search(r"c:\\", pat)
+        print(f"cd {pat}\ncd {bb}")
+    patx = re.search(cor, pat)
     if patx:
         winL(pat)
 pConv()
