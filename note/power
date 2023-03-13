@@ -1,4 +1,5 @@
 
+v C:\Users\jayst\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 gci | ? {$_.Name -match 'siv.*usin'} | % {touch.exe $_.Name}
 Get-ChildItem  | ? { $_.Name -match '.*node' }
 $services | ft -auto

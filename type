@@ -1,0 +1,19 @@
+return {
+-- Table: {1}
+{
+   {2},
+   {3},
+},
+-- Table: {2}
+{
+   ["formattedTime"]="00:03:18.553",
+   ["time"]=198553135,
+   ["label"]="nothing",
+},
+-- Table: {3}
+{
+   ["formattedTime"]="00:05:38.291",
+   ["time"]=338291996,
+   ["label"]="start",
+},
+}

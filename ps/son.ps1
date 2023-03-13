@@ -1,3 +1,3 @@
-cd c:\you\kb
+cd c:\you\evans
 vlc -Z .
 cd -

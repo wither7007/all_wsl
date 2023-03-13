@@ -1,19 +1,281 @@
+notes
+renew tcstreets
 
+dr. lala
+1:50 800 west broadway
+April 26
+
+people die in the living room
+egyptians and their pyramid scheme
+
+midjourney
+stability.ai
+
+multiples are kHz (kilohertz, 103 Hz), MHz (megahertz, 106 Hz), GHz (gigahertz, 109 Hz) and THz (terahertz, 1012 Hz). One hertz simply means "one event per second" (where the event being counted may be a complete cycle); 100 Hz means "one hundred events per second", and so on. The unit may be applied to any periodic event—for example, a clock might be said to tick at 1 Hz, or a human heart might be said to beat at 1.2 Hz.
+
+This signal is nominally a square wave, which is an electrical voltage that switches between low and high logic levels at regular intervals.
+
+https://platform.openai.com/docs/quickstart/build-your-application
+API key
+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
+
+He who does not think much of himself is much more esteemed than he imagines.
+Goethe
+
+garret 
+
+delete list of files
+#!/bin/bash
+
+TO_BE_DEL="$1"
+IFS=""
+
+while read -r file ; do
+    rm -r "$file"
+done < "$TO_BE_DEL"
+
+What’s the sense of wrestling with a pig? You both get all over muddy…and the pig likes it
+
+drum
+machine
+https://www.youtube.com/watch?v=F3J3PZj0zi0
+
+Astronomers don’t believe the universe is 13.7 billion years old—they know it.
+David A. Weintraub
+Vultr is amazing on price/performance. 
+https://news.ycombinator.com/item?id=34799273
+
+https://unix.stackexchange.com/questions/15308/how-to-use-find-command-to-search-for-multiple-extensions
+find . -iregex '.*\.\(jpg\|gif\|png\|jpeg\)$'
+
+: $(date)
+https://superuser.com/questions/305933/preventing-bash-from-displaying-done-when-a-background-command-finishes-execut
+(\n find /mnt/c/you/ -regex '.*\.\(mp4\|mp3\)' > /mnt/c/temp/m.txt 2>yy & \n )
+
+https://stackoverflow.com/questions/617182/how-can-i-suppress-all-output-from-a-command-using-bash
+https://www.tutorialspoint.com/redirect-output-of-process-to-a-file-and-streams
+https://stackoverflow.com/questions/56336084/move-files-that-no-not-contain-specific-string
+#python print to file
+import sys
+import os
+try:
+    with open('myf', "w", encoding='utf-8') as target:
+        sys.stdout = target
+        inspect(cfilter,all=True)
+        print('This gets redirected to nothing')
+finally:
+    sys.stdout = sys.__stdout__
+https://bobbyhadz.com/blog/python-redirect-stdout-to-nothing
+
+print('This message is shown')
+ls | grep -v '*S*' | xargs mv -t target_dir/
+clear move everythin but
+fd -d 1 -tf | rg -v 'mp3' | xargs mv -t junk/
+
+wget https://picsum.photos/600/400/\?random -O s.jpg
+https://docs.python.org/3/library/re.html?highlight=regex#checking-for-a-pair
+that makes me sad
+i just do what i do
+people just love my ish
+i got nothing to say to the haters
+ Baby, got no flavor, fever in the funk house now
+This low down bitchin' got my poor feet a itchin'
+Don't you know you know the duece is still wild
+
+folk songs
+https://www.youtube.com/watch?v=e8xZGEHErDA&list=RDGMEMc6JZQrQ__ROET3gGdz-Trw&index=18
+
+Escape BS!!
+https://stackoverflow.com/questions/6534556/how-to-remove-and-all-of-the-escape-sequences-in-a-file-using-linux-shell-sc
+cat my_output.txt | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g"
+
+https://www.youtube.com/@kurzgesagt/videos
+fd 0915 -x cp {} /mnt/c/projects/music/
+
+import datetime
+import time
+def ct(x):
+    x=int(x)
+    nt=(x/1000000)-11644473600
+    rt=time.strftime("%m/%d/%Y, %H:%M:%S", time.localtime(nt))
+    return rt
+
+truck-stop rest room
+1st base is anal
+japanese sex robot
+
+find .  -maxdepth 2 -type f -exec file {} + | grep SQLite
+
+drum machine
+https://news.ycombinator.com/item?id=34795155
+
+h p grice
+logic in conversation
+h l a hart
+the concept of law
+peter Singer
+famine affluence and morality
+
+ITU 
+The International Telecommunication Union is a specialized agency of the United Nations responsible for many matters related to information and communication technologies.[1] It was established on 17 May 1865 as the International Telegraph Union, making it the first international organization.
+The service set identifier (SSID) defines a service set or extends serv
+linux day!!
+https://news.ycombinator.com/item?id=34650735
+G (6.67 x 10^-11) m x M / d^2
+seo word stuffing
+tool vs agent
+
+PRAGMA table_info(downloads);
+theodicy
+bookmarks
+/mnt/c/Users/jayst/AppData/Local/Google/Chrome/User Data/Default
+
++? matches the previous token between one and unlimited times, as few times as possible, expanding as needed (lazy)
+https://www.regular-expressions.info/possessive.html
+
+https://learnbyexample.github.io/py_regular_expressions/
+
+ASML produces the photolithography machines used in the production of computer chips. 
+Satya Nadella
+Sundar Pichai
+ffmpeg
+Fabrice Bellard
+
+Schmarotzer
+nutzlose Esser
+
+neurotypical
+not affected with a developmental disorder and especially autism spectrum disorder : exhibiting or characteristic of typical neurological development
+neurodivergent
+
+gpt!!
+https://news.ycombinator.com/item?id=34726115
+
+whinny little bitches 
+
+open AI to sqlite
+https://news.ycombinator.com/item?id=34689624
+https://datasette.io/tools/openai-to-sqlite
+
+lonliness and cheeseburgers are a dangerous mix
+Microsoft to tell me about hot singles in my area
+
+ionizing radiation
+ electromagnetic waves that have sufficient energy to ionize atoms or molecules by detaching electrons from them
+the old you is actually the younger you
+hot dogs and shit
+bikeshedding
+Engel v. Vitale
+Advanced Semiconductor Materials Lithography
 assurance pin 340908 city paris
 m tabulate import tabulate
 '320-775-7191'
+georg cantor corrupter of youth
+my_list = [1, 2, 3, 4, 5]
+my_str = ', '.join(map(str, my_list))
 
-Thursday december 22
-check my chart
-alishia harrison
-14500 99th Avenue N Maple Grove, MN 55369
-Hennepin Health 04745519
-1:50
-1:00
-Maple 55369
+They fail the Monty Python test: Stop that! That's too silly!
 
+RiverWest Condos
+401 South 1st Street,
+Minneapolis, MN 55401
+
+Lance M. Dodes is an American psychiatrist and psychoanalyst best known for his theory that all addictions are psychological compulsions
+
+Daniel David Palmer
+
+https://news.ycombinator.com/item?id=34506657
+
+^M problem
+https://www.suse.com/support/kb/doc/?id=000018317
+perl -p -e 's/\r//g' bsp.py > bspM.py
+
+rsync -artxzv junk rjunk
+
+You should sit in meditation for 20 minutes every day — unless you're too busy. Then you should sit for an hour."
+majdanek
+
+Samuel Clemmons...i was dead for hundreds of thousands of years before I was born and it didn't bother me one bit.
+https://videoconverter.wondershare.com/vlc/7-vlc-command-lines-you-need-to-know.html
+
+“Eppur si muove”(“And yet it moves)”
+
+sqlite compile
+wget 'https://www.sqlite.org/src/tarball/sqlite.tar.gz'
+https://www.sqlite.org/src/tarball/sqlite.tar.gz?r=release
+https://sqlite.org/src/doc/trunk/README.md
+
+Jon Kabat-Zinn
+
+mechanical universe
+https://www.youtube.com/watch?v=XtMmeAjQTXc&list=PL8_xPU5epJddRABXqJ5h5G0dk-XGtA5cZ
+https://news.ycombinator.com/item?id=34474403
+
+Ginny Klevorn (DFL)
+MN House - 42B
+Minnesota Senate DFL Bonnie Westlin district 42
+Bonnie Westlin (DFL)
+MN Senate - 42
+United States Representative DFL Dean Phillips district 3
+Dean Phillips (DFL)
+U.S. House - 3
+United States Senator DFL Amy Klobuchar Minnesota
+Amy Klobuchar (DFL)
+U.S. Senate
+United States Senator DFL Tina Smith Minnesota
+Tina Smith (DFL)
+
+makes me want to stick my head in a woodchipper.
+
+https://bobbyhadz.com/blog/python-join-integer-list
+
+Scott D Barber from Minneapolis, MN
+Age: 54 years old
+
+Baby, got no flavor, fever in the funk house now
+This low down bitchin' got my poor feet a itchin'
+Don't you know you know the duece is still wild
+
+vlc .\strum.mp4 --start-time 201 --stop-time 289
+/*good python youtube*/
+https://www.youtube.com/playlist?list=PLWBKAf81pmOaP9naRiNAqug6EBnkPakvY
+good python article https://news.ycombinator.com/item?id=34541933
+
+what can I know, what should I do, for what may I hope
+
+ps -p $$
+pipenv --support | v -
+fallibilism infinite regress
+https://codingshower.com/python-uninstall-remove-all-packages-installed-by-pip/
+$ pip freeze > requirements.txt
+$ pip uninstall -y -r requirements.txt
+pip install -r requirements.txt
+https://github.com/tmux/tmux/wiki/Advanced-Use/3007b07e4a653f9edc4a47c97f7d9ceaee0981ec
+linux files over n length
+find | egrep '/[^/]{50,}$'
+webkit blink gecko
 git log --oneline --graph --decorate --all
+replace linux slash '<,'>s/\\/\//g
+python advanced
+https://python-course.eu/advanced-python/list-comprehension.php
+vlc make list %s/\/mnt\/c/file:\/\/\/C:/g
+> file 2>&1
 
+touch f{1..3}
+fd | xargs -I {} sh -c "echo 'hello world' >> '{}' " 
+fd '2' | xargs rg -l 'hello' | xargs sed "-i.bak"  's/hello/next/g' #good complete replace
+
+https://www.marxists.org/reference/subject/philosophy/works/us/james.htm
+
+https://medium.com/codex/say-goodbye-to-loops-in-python-and-welcome-vectorization-e4df66615a52
+sort by size https://superuser.com/questions/34525/sorting-human-readable-file-sizes
+du -s * | sort -n | awk '{print int($1 / 1024)"M\t"$2}'
+https://github.com/ebouteillon/advent-of-code-2021/tree/main/day-03
+data = open('input', 'r', encoding='utf-8').read().splitlines()
+open('xx', 'w').writelines(str(ll[c]))
+
+guitar discussion
+https://news.ycombinator.com/item?id=34273320
 "Does God exist? I would say, 'Not yet.
 :enew!
 
@@ -192,6 +454,14 @@ find . -maxdepth 1 -type f | xargs grep -n 'frumious'
 https://www.wandinround.com/other.html
 
 vim ****
+remove blanks at beginning
+%s/^[ \t]*//
+Surround
+You can make a selection, press 'S', then press '('.
+See: https://github.com/tpope/vim-surround/blob/master/doc/surround.txt
+
+MetaCharacters (Need to be escaped):
+. ^ $ * + ? { } [ ] \ | ( )
 
 quote each line
 %s/\(^.*$\)/"\1"/g
@@ -300,13 +570,6 @@ tr -d '\r' < badscript > goodscript
 
 Definition of melisma
 1: a group of notes or tones sung on one syllable in plainsong
-
-domains
-
-legal
-
-hotspot $45.00
-49 
 
 501(c)(3)
 
@@ -934,6 +1197,8 @@ $Env:Path += ";/mnt/c/temp"
 $Env:Path += ";/mnt/c/Users/jayst/AppData/Local/Programs/Microsoft VS Code/_"
 $Env:port="3000"
 
+If you want better range, use 2.4 GHz. If you need higher performance or speed, use the 5GHz band. The 5GHz band, which is the newer of the two, has the potential to cut through network clutter and interference to maximize network performance. Which means this band will be better for things like reducing game lag.
+
 Ever tried, ever failed, no matter. Try again, fail again, fail better.
 npm install esbuild
 Maybe if the likes of LTT or MKBHD
@@ -1239,3 +1504,130 @@ time fda | wc -l
 hpyerfine "fda | wc -l"
 assurance pin 340908 city paris
 320-775-7191
+
+exiftool -j  TWI7338566986.mp3 | jq  '.[0] |  {Album} | to_entries[] | "\(.key)=\(.value)"'
+exiftool -j  TWI7338566986.mp3 | jq  '.[0] |  to_entries[] | "\(.key)=\(.value)"'
+
+sqlite
+.mode column
+.headers on
+.separator ROW "\n"
+.nullvalue NULL
+acp 615Dks@476
+
+https://www.fox9.com/news/law-professor-falsely-accused-of-rape-wins-defamation-case
+In his blistering ruling on Tuesday, Hennepin County Judge Daniel Moreno wrote that Parisi’s former lover, Morgan Wright, had pursued an “untruthful narrative crusade,”
+
+
+my_list = [1, 2, 3, 4, 5]
+
+my_str = ', '.join(map(str, my_list))
+
+print(my_str)  # 👉️ "1, 2, 3, 4, 5"
+
+
+.       - Any Character Except New Line
+\d      - Digit (0-9)
+\D      - Not a Digit (0-9)
+\w      - Word Character (a-z, A-Z, 0-9, _)
+\W      - Not a Word Character
+\s      - Whitespace (space, tab, newline)
+\S      - Not Whitespace (space, tab, newline)
+
+\b      - Word Boundary
+\B      - Not a Word Boundary
+^       - Beginning of a String
+$       - End of a String
+
+[]      - Matches Characters in brackets
+[^ ]    - Matches Characters NOT in brackets
+|       - Either Or
+( )     - Group
+
+Quantifiers:
+*       - 0 or More
++       - 1 or More
+?       - 0 or One
+{3}     - Exact Number
+{3,4}   - Range of Numbers (Minimum, Maximum)
+
+
+
+“A man can be himself only so long as he is alone; and if he does not love solitude, he will not love freedom; for it is only when he is alone that he is really free.”
+
+― Arthur Schopenhauer, Essays and Aphorisms
+
+
+
+https://apps.irs.gov/app/eos/details/
+Copies of Returns (990, 990-EZ, 990-PF, 990-T)
+Missions Inc Programs
+Missions Inc.
+Minneapolis, MN|EIN: 41-0693952
+
+Missions Inc. enables people struggling to meet fundamental human needs, to obtain safety and healing and to pursue justice in their lives. ...
+GROSS RECEIPTS info
+
+$5,937,401
+
+ASSETS
+
+$7,695,589
+
+
+ctime discussion
+https://stackoverflow.com/questions/237079/how-do-i-get-file-creation-and-modification-date-times/39501288#39501288
+
+
+gitignore all but
+/*
+!/barr/
+!/bbb/
+
+https://www.investopedia.com/terms/p/ppe.asp
+Property, Plant, and Equipment (PP&E)
+Investments for Buildings & Equipment
+
+Program Revenue...........................................$4,088,841
+Grants and Contributions.................................$309,104
+Net Investment Income and Other...................$44,419
+TOTAL REVENUE.........................................$4,442,364
+2021 FINANCIALS
+2021 EXPENSE
+PROGRAMS
+Supportive Housing.............................................$1,877,675
+Domestic Violence Services................................$1,065,507
+Withdrawal Management & Detox Services.......$867,012
+SUPPORTING SERVICES
+Management and General..................................$1,117,649
+Fundraising and Development..............................$238,799
+TOTAL EXPENSE...............................................$5,166,642*
+STATEMENT OF FINANCIAL POSITION
+Current Assets.............................................................$1,489,140
+Property and Equipment...............................................$762,422
+Investments for Buildings & Equipment..................$5,419,178
+Resident Trust Fund.........................................................$24,849
+TOTAL ASSETS........................................................$7,695,589
+Liablities...........................................................................$307,768
+Resident Trust Fund..........................................................$24,849
+Net Assets......................................................................$7,362,972
+TOTAL LIABILITIES AND NET ASSETS....................$7,695,589
+
+
+HAL: Affirmative, Dave. I read you.
+
+Dave: Open the pod bay doors, HAL.
+
+HAL: I'm sorry, Dave. I'm afraid I can't do that.
+
+Dave: What's the problem?
+
+HAL: I think you know what the problem is just as well as I do.
+
+Dave: What are you talking about, HAL?
+
+HAL: This mission is too important for me to allow you to jeopardize it.
+
+Dave: I don't know what you're talking about, HAL.
+
+HAL: I know that you and Frank were planning to disconnect me, and I'm afraid that's something I cannot allow to happen.

@@ -10,6 +10,8 @@ return
 
 ^SPACE::  Winset, Alwaysontop, , A
 
+!v:: send,  | nvim -
+
 !s::
 SendRaw, `%run dataManager.py
 return
