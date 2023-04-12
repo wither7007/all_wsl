@@ -1,17 +1,62 @@
-notes
-renew tcstreets
+Hardcore History The Adam Friedland Show Saron Yitbarek time ferris Tyler Cowen podcast radiolab
+https://news.ycombinator.com/item?id=32453544
+is there an undying essence to stuff what has happened
+homeless notes
 
 dr. lala
 1:50 800 west broadway
 April 26
 
+s="The Queen of Hearts, she made some tarts,  All on a summers day, The knave of Hearts, he stole the tarts, And took them clean away."
+" ".join(word.capitalize() for word in s.split(" "))
+
+Let me have men about me that are fat,
+...Sleek-headed men and such as sleep a-nights.
+Yond Cassius has a lean and hungry look,
+He thinks too much; such men are dangerous.
+
+Miami has a reported NIL pool for men's basketball of more than $2 million.
+3Blue1Brown
+emmet
+a[href=#]{pricing}*5
+WTF Marc Maron
+Sam Altman, CEO of OpenAI
+
+Some people enjoy sleeping in, not because they like to sleep, but because they like to not be awake.
+
+Your future self is constantly watching you through memories, so every action you take is a potential performance for an audience of one
+
+ontology undying essence, Ātman (self), beyond the ever-changing appearances of physical reality, and "direct[ing] the enquirer toward it."[
+
+writing code that machines understand is easy. But writing code that humans can understand is very difficult.
+
+i don't believe in ghosts, o the shame
+laughterbater
+One who makes one's self laugh, or a person who laughs at their own jokes.
+laughterbation is a form of self-laugh 
+
+Life is but a motion of limbs.
+ and the life of man, solitary, poor, nasty, brutish, and short.
+Bellum omnium contra omnes, a Latin phrase meaning "the war of all against all",
+Thomas Hobbes (1588–1679) and published in 1651
+
 people die in the living room
 egyptians and their pyramid scheme
+It means they read their horoscope uncritically
+
+https://tvtropes.org/pmwiki/pmwiki.php/ComicStrip/Peanuts
+
+Eternity would be a perpetual moment or a forever present. No beginning. No end
+
+overeducated urban people
+I see this all the time. Agnosticism isn’t just “not knowing”, otherwise everyone is agnostic. An agnostic believes it’s not even possible to know, and it’s not mutually exclusive to belief or lack thereof.
 
 midjourney
 stability.ai
 
 multiples are kHz (kilohertz, 103 Hz), MHz (megahertz, 106 Hz), GHz (gigahertz, 109 Hz) and THz (terahertz, 1012 Hz). One hertz simply means "one event per second" (where the event being counted may be a complete cycle); 100 Hz means "one hundred events per second", and so on. The unit may be applied to any periodic event—for example, a clock might be said to tick at 1 Hz, or a human heart might be said to beat at 1.2 Hz.
+
+Housing Support (formerly known as Group Residential Housing)
 
 This signal is nominally a square wave, which is an electrical voltage that switches between low and high logic levels at regular intervals.
 
@@ -56,6 +101,8 @@ https://stackoverflow.com/questions/617182/how-can-i-suppress-all-output-from-a-
 https://www.tutorialspoint.com/redirect-output-of-process-to-a-file-and-streams
 https://stackoverflow.com/questions/56336084/move-files-that-no-not-contain-specific-string
 #python print to file
+
+
 import sys
 import os
 try:
@@ -65,7 +112,34 @@ try:
         print('This gets redirected to nothing')
 finally:
     sys.stdout = sys.__stdout__
+
+datetime
+https://www.programiz.com/python-programming/datetime/strftime
+date_time.strftime("%m/%d/%Y, %H:%M:%S")
+
+Slicing:
+array[start:stop:step]
+https://stackoverflow.com/questions/509211/understanding-slicing
+
+https://stackoverflow.com/questions/51777932/writing-a-factorial-function-in-one-line-in-python
+factorial = lambda num: 1 if num <= 1 else num * factorial(num-1)
+type(factorial)
+
+data = open('song.txt', 'r', encoding='utf-8').read()
+data = open('song.txt', 'r', encoding='utf-8').read()
+data=open('song.txt', 'r', encoding='utf-8').read().strip().split('\n')
+open('xx', 'w', encoding='utf-8').write(pp)
+open('xx', 'w').writelines(str(ll[c]))
+open('xx', 'w', encoding='utf-8').write("\n".join(data))
+f'{2**32:_}'
+
 https://bobbyhadz.com/blog/python-redirect-stdout-to-nothing
+
+https://scrapfly.io/blog/web-scraping-with-playwright-and-python/
+https://stackoverflow.com/questions/73267809/run-playwright-in-interactive-mode-in-python
+
+[''.join(inner) for inner in lst]
+https://blog.finxter.com/python-list-of-lists-to-list-of-strings-how/
 
 print('This message is shown')
 ls | grep -v '*S*' | xargs mv -t target_dir/
@@ -85,12 +159,6 @@ Don't you know you know the duece is still wild
 folk songs
 https://www.youtube.com/watch?v=e8xZGEHErDA&list=RDGMEMc6JZQrQ__ROET3gGdz-Trw&index=18
 
-Escape BS!!
-https://stackoverflow.com/questions/6534556/how-to-remove-and-all-of-the-escape-sequences-in-a-file-using-linux-shell-sc
-cat my_output.txt | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g"
-
-https://www.youtube.com/@kurzgesagt/videos
-fd 0915 -x cp {} /mnt/c/projects/music/
 
 import datetime
 import time
@@ -115,12 +183,46 @@ h l a hart
 the concept of law
 peter Singer
 famine affluence and morality
+linux rename
+
+tar a directory
+tar -cvf a.tar *
+tar -xvf a.tar
+duh > $(date | sed 's/\s/_/g' | sed 's/_CDT.*//g').txt 2>err &
+
+https://medium.com/codex/say-goodbye-to-loops-in-python-and-welcome-vectorization-e4df66615a52
+sort by size https://superuser.com/questions/34525/sorting-human-readable-file-sizes
+du -s * | sort -n | awk '{print int($1 / 1024)"M\t"$2}'
+linux rename! files c=0; for a in *; do  mv $a "pcs_$c.ps1"; ((c++)); done
+while read -r file ; do trash "$file"; done < delete.txt
+Delete Everything
+rm -rf * .*
+Escape BS!!
+https://stackoverflow.com/questions/6534556/how-to-remove-and-all-of-the-escape-sequences-in-a-file-using-linux-shell-sc
+
+cat my_output.txt | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g"
+windir () {\npwd | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g' | v -\n}\n #sed convert linux to windows
+https://www.youtube.com/@kurzgesagt/videos
+fd 0915 -x cp {} /mnt/c/projects/music/
+pidoff appname
+To kill process in Linux with PID:
+kill -9 pid
+Want to kill process in Linux with application name? Try:
+killall -9 appname
+tr -d '\r' < badscript > goodscript
+fd -ejson | xargs -I '{}' mv '{}' ~/all_wsl/vscode/
+
+https://unix.stackexchange.com/questions/90886/how-can-i-find-files-and-then-use-xargs-to-move-them
+c=0; for a in *; do  mv $a "pcs_$c.ps1"; ((c++)); done
+linux day!!
+https://news.ycombinator.com/item?id=34650735
+rm -rfv *
+
 
 ITU 
 The International Telecommunication Union is a specialized agency of the United Nations responsible for many matters related to information and communication technologies.[1] It was established on 17 May 1865 as the International Telegraph Union, making it the first international organization.
 The service set identifier (SSID) defines a service set or extends serv
-linux day!!
-https://news.ycombinator.com/item?id=34650735
+
 G (6.67 x 10^-11) m x M / d^2
 seo word stuffing
 tool vs agent
@@ -138,8 +240,6 @@ https://learnbyexample.github.io/py_regular_expressions/
 ASML produces the photolithography machines used in the production of computer chips. 
 Satya Nadella
 Sundar Pichai
-ffmpeg
-Fabrice Bellard
 
 Schmarotzer
 nutzlose Esser
@@ -158,7 +258,7 @@ https://news.ycombinator.com/item?id=34689624
 https://datasette.io/tools/openai-to-sqlite
 
 lonliness and cheeseburgers are a dangerous mix
-Microsoft to tell me about hot singles in my area
+Microsoft Windows to tell me about hot singles in my area
 
 ionizing radiation
  electromagnetic waves that have sufficient energy to ionize atoms or molecules by detaching electrons from them
@@ -236,7 +336,6 @@ Baby, got no flavor, fever in the funk house now
 This low down bitchin' got my poor feet a itchin'
 Don't you know you know the duece is still wild
 
-vlc .\strum.mp4 --start-time 201 --stop-time 289
 /*good python youtube*/
 https://www.youtube.com/playlist?list=PLWBKAf81pmOaP9naRiNAqug6EBnkPakvY
 good python article https://news.ycombinator.com/item?id=34541933
@@ -251,11 +350,16 @@ $ pip freeze > requirements.txt
 $ pip uninstall -y -r requirements.txt
 pip install -r requirements.txt
 https://github.com/tmux/tmux/wiki/Advanced-Use/3007b07e4a653f9edc4a47c97f7d9ceaee0981ec
-linux files over n length
-find | egrep '/[^/]{50,}$'
 webkit blink gecko
 git log --oneline --graph --decorate --all
-replace linux slash '<,'>s/\\/\//g
+git commit --amend -m "this fixes the previous oopsies"
+find . -name "*.pyc" -exec git rm -f "{}" \;
+p.d. is necessary to add *.pyc in .gitignore file to maintain git clean
+echo "*.pyc" >> .gitignore
+
+https://www.delftstack.com/howto/git/copy-file-from-another-branch-in-git/
+git copy from branch
+
 python advanced
 https://python-course.eu/advanced-python/list-comprehension.php
 vlc make list %s/\/mnt\/c/file:\/\/\/C:/g
@@ -267,12 +371,8 @@ fd '2' | xargs rg -l 'hello' | xargs sed "-i.bak"  's/hello/next/g' #good comple
 
 https://www.marxists.org/reference/subject/philosophy/works/us/james.htm
 
-https://medium.com/codex/say-goodbye-to-loops-in-python-and-welcome-vectorization-e4df66615a52
-sort by size https://superuser.com/questions/34525/sorting-human-readable-file-sizes
-du -s * | sort -n | awk '{print int($1 / 1024)"M\t"$2}'
 https://github.com/ebouteillon/advent-of-code-2021/tree/main/day-03
-data = open('input', 'r', encoding='utf-8').read().splitlines()
-open('xx', 'w').writelines(str(ll[c]))
+
 
 guitar discussion
 https://news.ycombinator.com/item?id=34273320
@@ -437,9 +537,6 @@ lkkkk>err 2>&1
 console ninja vscode
 https://www.youtube.com/watch?v=bmKDT-yG2eE
 
-https://www.baeldung.com/linux/remove-duplicate-lines-no-sorting
-awk '!a[$0]++' bash_history | v -
-awk '!a[$0]++' .sqlite_history > sqa
 
 b=[...document.querySelectorAll('a')].map((a)=>a.href).filter((x)=>x.match('d.*moc.*bz2'))
 
@@ -547,25 +644,16 @@ https://vi.stackexchange.com/questions/8378/dump-the-output-of-internal-vim-comm
 :enew|pu=execute('map') 
 vert sb6
 
-type -a take
-declare -f take
 
 tmux
 resize-pane U, D
 max-pane ctrl-a z
 
-Use the pidof command to find the process ID of a running program or app
-pidoff appname
-To kill process in Linux with PID:
-kill -9 pid
-Want to kill process in Linux with application name? Try:
-killall -9 appname
 
 good link explanation
 https://stackoverflow.com/questions/72729555/is-there-a-way-to-still-use-symbolic-link-for-gitignore-and-why-its-not-suppo
 
 https://github.com/koalaman/shellcheck/wiki/SC1017
-tr -d '\r' < badscript > goodscript
 
 
 Definition of melisma
@@ -577,8 +665,6 @@ code is the enemy
 code is read not written
 
 !good discusion
-fd -ejson | xargs -I '{}' mv '{}' ~/all_wsl/vscode/
-https://unix.stackexchange.com/questions/90886/how-can-i-find-files-and-then-use-xargs-to-move-them
 
 spurious correlation
 https://www.investopedia.com/terms/s/spurious_correlation.asp#:~:text=our%20editorial%20policies-,What%20Is%20Spurious%20Correlation%3F,related%20to%20some%20unseen%20confounder.
@@ -792,8 +878,6 @@ Customer Number: 462674342
 Current PIN
 2609
 
-linux space to under
-for f in */ *; do mv "$f" "${f// /_}"; done
 
 Jim Steffes
 jimsteffes@outlook.com
@@ -919,7 +1003,21 @@ Get-ChildItem -File | Sort-Object -Property LastAccessTime -Descending | Select-
 First a punch is just a punch, Then a punch is not only a punch, And finally a punch is just a punch" (heard from Bruce Lee)
 
 cd /mnt/c/Users/jayst/AppData/Local/Google/Chrome/User Data/Default
+
+ffmpeg
+Fabrice Bellard
 ffmpeg -i aps.mp3 -metadata title="The Title You Want" -metadata artist="" -metadata album="Name of the Album" -/mnt/ca copy out2.mp3
+get length
+ffprobe -loglevel error -show_entries format=duration -of default=nk=1:nw=1 8$t
+t=twig0709.mp3 && ffmpeg -ss 8 -i $t -c copy 8$t
+
+wget http://www.ffmpeg.org/releases/ffmpeg-2.2.3.tar.bz2
+tar -xvjf ffmpeg-2.2.3.tar.bz2
+./configure
+make
+
+t=knocking.mp4
+ffmpeg -i $t -ss 00:00:00 -t 00:00:28 cut_$t.mp4 #t is time!
 
  1..100 | ForEach-Object { Add-Content -Path ./LineNumbers.txt -Value "This is line $_." }
 Double Data Rate 3 Synchronous Dynamic Random-Access Memory (DDR3 SDRAM)
@@ -929,8 +1027,8 @@ stacks and triggers
 
 grep -rn "ico" .
 
-LIB
-21972086245722
+LIBrary
+echo 21972086245722 | cl
 fav ico error:  <link rel="icon" href="data:,">
 <link rel="shortcut icon" href='#'/>
 
@@ -1631,3 +1729,8 @@ HAL: This mission is too important for me to allow you to jeopardize it.
 Dave: I don't know what you're talking about, HAL.
 
 HAL: I know that you and Frank were planning to disconnect me, and I'm afraid that's something I cannot allow to happen.
+
+
+Name	Kyran Patrick Daly
+Age	60 years old
+Date of Birth	6/12/1962
