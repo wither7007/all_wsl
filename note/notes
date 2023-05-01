@@ -1,19 +1,69 @@
+
+What’s brown and sticky? A stick
+
+Done is better than perfect.
+
+ What do you call a boomerang that won’t come back?
+A stick.
+
+Knock, knock. Who’s there? Spell. Spell who?
+W-H-O
+
+  edit
+Bill Withers
+personal use script
+H8khid-HDT56C7tRQTWBFw
+TestingDevelopers: jonray007
+
 Hardcore History The Adam Friedland Show Saron Yitbarek time ferris Tyler Cowen podcast radiolab
+https://youtu.be/CVDAE9TXgoE?t=18149
 https://news.ycombinator.com/item?id=32453544
 is there an undying essence to stuff what has happened
 homeless notes
-
+map j gj
+map k gk
+map Y y$ # Yank to the end of line
+nnoremap L Lzz<CR> # go to bottom of screen and center on that line
+nnoremap H Hzz<CR> # go to top of screen and center on that line
+inoremap jk <esc> # just type jk to exit inserting mode
+inoremap <esc> <nop> # don`t do anything in insert mode
+vnoremap v <Esc> #  Quit visual mode
+nnoremap U <C-r> # Redo
+nnoremap n nzz # search and center
+nnoremap N Nzz # search and center
+nnoremap * *zz # search and center
+nnoremap # #zz # search and center
+nnoremap g* g*zz # search and center
 dr. lala
 1:50 800 west broadway
-April 26
+Fri may 26
+2:50
+What do you call a book club that’s been stuck on the same book for years?
+Church!
+bananna a day
 
+Use the imperative mood. That is to say write the message in the form of a command in the present tense.
+To help me remember, I think of completing the sentence "This commit will: " For example: "This commit will improve color contrast". Not "improved" or "improving".
+
+https://developer.musixmatch.com/admin/applications
+Mission Lodge's App	5cf246e287d7d925b13b6ee37a57be31
+
+There comes a time in history when the man who dares to say that two and two make four is punished with death.
+
+ student-athletes commercializing their identities
 s="The Queen of Hearts, she made some tarts,  All on a summers day, The knave of Hearts, he stole the tarts, And took them clean away."
 " ".join(word.capitalize() for word in s.split(" "))
+
+Hiroshima Carp.[8]
+
+Nit: the Internet is a bit older. Internet as we know it started in 1983 when IPv4 was deployed on ARPANET (otherwise it's even older). HTML appeared in 1993, 10 years after.
 
 Let me have men about me that are fat,
 ...Sleek-headed men and such as sleep a-nights.
 Yond Cassius has a lean and hungry look,
 He thinks too much; such men are dangerous.
+
+Folie à deux is defined as an identical or similar mental disorder affecting two or more individuals, usually the members of a close family.
 
 Miami has a reported NIL pool for men's basketball of more than $2 million.
 3Blue1Brown
@@ -96,12 +146,16 @@ find . -iregex '.*\.\(jpg\|gif\|png\|jpeg\)$'
 : $(date)
 https://superuser.com/questions/305933/preventing-bash-from-displaying-done-when-a-background-command-finishes-execut
 (\n find /mnt/c/you/ -regex '.*\.\(mp4\|mp3\)' > /mnt/c/temp/m.txt 2>yy & \n )
+standard error https://www.cyberciti.biz/faq/how-to-redirect-standard-error-in-bash/
 
 https://stackoverflow.com/questions/617182/how-can-i-suppress-all-output-from-a-command-using-bash
 https://www.tutorialspoint.com/redirect-output-of-process-to-a-file-and-streams
 https://stackoverflow.com/questions/56336084/move-files-that-no-not-contain-specific-string
 #python print to file
 
+
+def tt(x):
+    return datetime.fromtimestamp(x.st_atime).strftime('%m-%d-%y %H:%M:%S')
 
 import sys
 import os
@@ -116,6 +170,7 @@ finally:
 datetime
 https://www.programiz.com/python-programming/datetime/strftime
 date_time.strftime("%m/%d/%Y, %H:%M:%S")
+https://www.freecodecamp.org/news/python-string-to-datetime-how-to-convert-an-str-to-a-date-time-with-strptime/
 
 Slicing:
 array[start:stop:step]
@@ -144,7 +199,12 @@ https://blog.finxter.com/python-list-of-lists-to-list-of-strings-how/
 print('This message is shown')
 ls | grep -v '*S*' | xargs mv -t target_dir/
 clear move everythin but
+
 fd -d 1 -tf | rg -v 'mp3' | xargs mv -t junk/
+fdi -emp4 --changed-within=1days -0 | xargs -r0 mv -t clips
+https://askubuntu.com/questions/487035/mv-files-with-xargs
+Ideally you should use -print0 with find, so filenames with spaces don't screw things up.
+find . -whatever-flags-go-here -print0 | xargs -r0 mv -t target-directory
 
 wget https://picsum.photos/600/400/\?random -O s.jpg
 https://docs.python.org/3/library/re.html?highlight=regex#checking-for-a-pair
@@ -184,11 +244,28 @@ the concept of law
 peter Singer
 famine affluence and morality
 linux rename
-
+https://devconnected.com/how-to-rename-a-directory-on-linux/
+redirect-- command > file 2>&1
+touch file{1..10}.txt
+zero out file sed -i 'd' cutter
+windows sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'
+fdi -a -d 1 only | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'
+list file number count
+find -maxdepth 1 -type d | sort | while read -r dir; do n=$(find "$dir" -type f | wc -l); printf "%4d : %s\n" $n "$dir"; done | sort
+du -h --max-depth=1 --inodes
 tar a directory
 tar -cvf a.tar *
 tar -xvf a.tar
 duh > $(date | sed 's/\s/_/g' | sed 's/_CDT.*//g').txt 2>err &
+date | sed 's/\s/_/g' | sed 's/_CDT.*//g'| sed 's/:/-/g'
+
+
+rsync -avzh --progress hist spoken
+Source destination
+-v verbose 
+https://www.computerhope.com/unix/rsync.htm
+https://unix.stackexchange.com/questions/43957/using-rsync-to-move-not-copy-files-between-directories
+duh > $(date | sed 's/\s/_/g' | sed 's/_CDT.*//g'| sed 's/:/-/g').txt 2>err &
 
 https://medium.com/codex/say-goodbye-to-loops-in-python-and-welcome-vectorization-e4df66615a52
 sort by size https://superuser.com/questions/34525/sorting-human-readable-file-sizes
@@ -304,6 +381,8 @@ sqlite compile
 wget 'https://www.sqlite.org/src/tarball/sqlite.tar.gz'
 https://www.sqlite.org/src/tarball/sqlite.tar.gz?r=release
 https://sqlite.org/src/doc/trunk/README.md
+sqlite get schema
+sl db.sqlite3 ".output s" ".schema"
 
 Jon Kabat-Zinn
 
@@ -352,7 +431,9 @@ pip install -r requirements.txt
 https://github.com/tmux/tmux/wiki/Advanced-Use/3007b07e4a653f9edc4a47c97f7d9ceaee0981ec
 webkit blink gecko
 git log --oneline --graph --decorate --all
+git rev-parse --abbrev-ref HEAD  --show-toplevel #show repo top
 git commit --amend -m "this fixes the previous oopsies"
+##git add . --dry-run
 find . -name "*.pyc" -exec git rm -f "{}" \;
 p.d. is necessary to add *.pyc in .gitignore file to maintain git clean
 echo "*.pyc" >> .gitignore
@@ -1111,7 +1192,9 @@ function convertToBinary(x) {
 keybindings.json
 posh git
 bash profile vs rc
+powershell
 import-module /mnt/c/Users/jayst/OneDrive/Documents/WindowsPowerShell/Modules/posh-git/1.0.0/posh-git.psd1
+
 
 Ctrl+o is used to issue normal commands without leaving INSERT mode,
 80 the repetition,
@@ -1581,14 +1664,7 @@ People who say they don’t care what people think are usually desperate to have
 People who see life as anything more than pure entertainment are missing the point
 
 
-What’s brown and sticky? A stick
 
-Done is better than perfect.
-
- What do you call a boomerang that won’t come back?
-A stick.
-
-strong minds discuss ideas, average minds discuss events, weak minds discuss people.
 https://github.com/tc-streets
 
 We live in an imperfect society where extremists leverage the very real flaws to insist that everything is absolutely corrupt and that we should embrace the exact opposite of anything that’s imperfect. Vaccines don’t prevent 100% of all infections for everyone? They’re obviously complete frauds that do no good at all.

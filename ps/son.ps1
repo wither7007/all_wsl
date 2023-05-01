@@ -1,5 +1,5 @@
 #cd c:\you\evans
 cd c:\you
-vlc .\shuf.m3u
+vlc .\Apr-29-79298.m3u
 #vlc -Z .
 #cd -
