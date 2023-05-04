@@ -14,7 +14,9 @@ git push
 echo "all done"
 
 
+
 # Problematic code:
+#nothing to see
 # grep foo file.txt | sed -e 's/foo/bar/g' > file.txt
 # Correct code:
 # grep foo file.txt  | sed -e 's/foo/bar/g' > tmpfile && mv tmpfile file.txt
