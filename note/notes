@@ -1,13 +1,27 @@
-
+Pack my box with five dozen liquor jugs
+Winning is optional, but trying your hardest is not
 What’s brown and sticky? A stick
-
+https://makefiletutorial.com/#top
 Done is better than perfect.
-
+write in active voice (“the boy hit the ball”) rather than passive (“the ball was hit by the boy.”)
  What do you call a boomerang that won’t come back?
 A stick.
 
 Knock, knock. Who’s there? Spell. Spell who?
 W-H-O
+Comminuted transverse intra-articular fracture of the olecranon. There is up to 19 mm of distraction the fracture site. The distal ulna remains congruent with the trochlea. Soft tissue defect overlying the olecranon, which is suspicious for an open fracture.
+ 
+REPORT SIGNED BY DR. Ryan Murphy
+
+growing old is not a battle, its a massacre
+
+data strucs course
+https://news.ycombinator.com/item?id=35957811
+
+ false belief system.
+The fact that it is grounded in her wishes
+
+. I simply need to learn how to accept the things I cannot change, because there is nothing I can do to escape the spiraling, bottomless void that awaits.
 
   edit
 Bill Withers
@@ -153,6 +167,28 @@ https://www.tutorialspoint.com/redirect-output-of-process-to-a-file-and-streams
 https://stackoverflow.com/questions/56336084/move-files-that-no-not-contain-specific-string
 #python print to file
 
+In general: Hettinger and Arjan are petty good bets.
+
+Specifically:
+
+https://www.youtube.com/watch?v=-J3wNP6u5YU "Naming Things in Code"
+
+https://www.youtube.com/watch?v=t4vKPhjcMZg "What Nobody Tells You About Documentation"
+
+https://www.youtube.com/watch?v=xKgELVmrqfs "Super Considered Super"
+
+https://www.youtube.com/watch?v=8kTlzR4HhWo "Error Handling in the Real World"
+
+https://www.youtube.com/watch?v=azcrPFhaY9k "How to Think Like a Programmer"
+
+import logging
+logging.basicConfig(
+level=logging.WARNING,
+format="%(asctime)s %(levelname)s %(message)s",
+datefmt="%Y-%m-%d %H:%M:%S",
+filename="basic.log"
+)
+logging.debug("This is a debug message.")
 
 def tt(x):
     return datetime.fromtimestamp(x.st_atime).strftime('%m-%d-%y %H:%M:%S')
@@ -244,9 +280,30 @@ the concept of law
 peter Singer
 famine affluence and morality
 linux rename
+nothing to do linux
+
 https://devconnected.com/how-to-rename-a-directory-on-linux/
+
+!! https://linuxhandbook.com/tar-exclude-files/
+tar -czvf ../ll.tar.gz --exclude-from=ex .
+
+https://www.thegeekstuff.com/2012/11/linux-touch-command/
+CC – Specifies the first two digits of the year
+YY – Specifies the last two digits of the year. If the value of the YY is between 70 and 99, the value of the CC digits is assumed to be 19. If the value of the YY is between 00 and 37, the value of the CC digits is assumed to be 20. It is not possible to set the date beyond January 18, 2038.
+MM – Specifies the month
+DD – Specifies the date
+hh – Specifies the hour
+mm – Specifies the minute
+SS – Specifies the seconds
+For example:
+
+$ touch -a -m -t 203801181205.09 tgs.txt
+mp3 duration
+ffmpeg -i Pain.mp3 2>&1 | grep Duration
+printf 'epoch is %s\n' $(date '+%s')
 redirect-- command > file 2>&1
 touch file{1..10}.txt
+https://github.com/dylanaraps/pure-sh-bible#loop-over-files-and-directories
 zero out file sed -i 'd' cutter
 windows sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'
 fdi -a -d 1 only | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'
@@ -430,6 +487,8 @@ $ pip uninstall -y -r requirements.txt
 pip install -r requirements.txt
 https://github.com/tmux/tmux/wiki/Advanced-Use/3007b07e4a653f9edc4a47c97f7d9ceaee0981ec
 webkit blink gecko
+!!git word diff
+https://www.endpointdev.com/blog/2022/01/wdiff-alternative-git-diff-word-diff/
 git log --oneline --graph --decorate --all
 git rev-parse --abbrev-ref HEAD  --show-toplevel #show repo top
 git commit --amend -m "this fixes the previous oopsies"
@@ -437,6 +496,14 @@ git commit --amend -m "this fixes the previous oopsies"
 find . -name "*.pyc" -exec git rm -f "{}" \;
 p.d. is necessary to add *.pyc in .gitignore file to maintain git clean
 echo "*.pyc" >> .gitignore
+
+create repo at github
+https://tecadmin.net/git-change-remote-url-to-ssh-from-https/
+git set-url origin git@github.com:wither7007/ll.git
+git remote set-url origin git@github.com:wither7007/ll.git
+git remote -v
+git fetch origin
+git push origin main
 
 https://www.delftstack.com/howto/git/copy-file-from-another-branch-in-git/
 git copy from branch
@@ -1810,3 +1877,6 @@ HAL: I know that you and Frank were planning to disconnect me, and I'm afraid th
 Name	Kyran Patrick Daly
 Age	60 years old
 Date of Birth	6/12/1962
+
+
+What is truth? said jesting Pilate, and would not stay for an answer." Thus begins Francis Bacon's essay on truth, published in 1597. Bacon was referring to the Gospel of St. John, in which Pilate wearily tries to make sense of the Jewish high priest's complaints against Jesus. Jesus is riddling and evasive in his answers to the charges, or so it must have appeared to Pilate, and ends by saying: "For this cause came I into the world, that I should bear witness unto the truth. Every one that is of the truth heareth my voice." On that note, Pilate tosses out his rhetorical question and leaves to tell the Jews that he can find no fault with Jesus.
