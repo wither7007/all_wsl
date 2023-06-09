@@ -94,6 +94,8 @@ print(f"Argument list {str(sys.argv)}")
 rg copy -g *.py
 jq '.[]'
 !/usr/bin/python
+
+https://www.sharepointdiary.com/2020/12/delete-all-files-older-than-x-days-using-powershell.html
 Get-ChildItem  -File  -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -gt (Get-Date).AddDays(-1)} 
 
 | % {Remove-Item $_.FullName}
