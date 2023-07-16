@@ -1,0 +1,39 @@
+
+
+E492: Not an editor command: Map
+
+   <C-H>         <C-W>h
+	Last set from ~/.config/nvim/init.vim line 130
+   <NL>          <C-W>j
+	Last set from ~/.config/nvim/init.vim line 131
+   <C-K>         <C-W>k
+	Last set from ~/.config/nvim/init.vim line 132
+   <C-L>         <C-W>l
+	Last set from ~/.config/nvim/init.vim line 133
+n  <C-N>       * :call OpenTerminal()<CR>
+	Last set from ~/.config/nvim/init.vim line 223
+ov <C-N>         <C-W>n
+	Last set from ~/.config/nvim/init.vim line 136
+   <C-T>         :NERDTreeFocus<CR>
+	Last set from ~/.config/nvim/init.vim line 139
+o  %             <Plug>(MatchitOperationForward)
+	Last set from /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 60
+x  %             <Plug>(MatchitVisualForward)
+	Last set from /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 58
+n  %             <Plug>(MatchitNormalForward)
+	Last set from /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 56
+v  ,b          * "_x
+	Last set from ~/.config/nvim/init.vim line 38
+   ,w          * :wa<CR>:qa!
+	Last set from ~/.config/nvim/init.vim line 26
+   ,q          * :qa!<CR>
+	Last set from ~/.config/nvim/init.vim line 25
+   ,l          * ^vg_y
+	Last set from ~/.config/nvim/init.vim line 24
+   ,p          * :put =expand('%:p')
+	Last set from ~/.config/nvim/init.vim line 23
+   ,k          * :call delete(expand('%'))
+	Last set from ~/.config/nvim/init.vim line 21
+   ,c          * :let @c=@"<CR>
+	Last set from ~/.config/nvim/init.vim line 20
+

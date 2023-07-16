@@ -1,6 +1,3 @@
 #cd c:\you\evans
 cd c:\you
-vlc -Z May-16-529548.m3u
-cd -
-#vlc -Z .
-#cd -
+vlc -Z Jul-15-915613 #cd -

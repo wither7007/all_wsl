@@ -1,4 +1,8 @@
 
+windows symbolic
+https://winaero.com/create-symbolic-link-windows-10-powershell/
+New-Item -ItemType SymbolicLink -Path C:\projects\download_twit.py -target C:\twit\download_twit.py
+
 v C:\Users\jayst\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 gci | ? {$_.Name -match 'siv.*usin'} | % {touch.exe $_.Name}
 Get-ChildItem  | ? { $_.Name -match '.*node' }

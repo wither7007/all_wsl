@@ -1,0 +1,147 @@
+-r-xr-xr-x 1 steff007 steff007 140K Mar 12  2014 Windows/Installer/101da44.msi
+-r-xr-xr-x 1 steff007 steff007 140K Mar 12  2014 Windows/Installer/101da49.msi
+-r-xr-xr-x 1 steff007 steff007 4.3M Oct 27  2021 Windows/Installer/101da4c.msi
+-r-xr-xr-x 1 steff007 steff007 107M Nov 15  2022 Windows/Installer/10486a6.msi
+-r-xr-xr-x 1 steff007 steff007 28M Nov 22  2021 Windows/Installer/114ce13.msi
+-r-xr-xr-x 1 steff007 steff007 24M Nov 22  2021 Windows/Installer/114ce18.msi
+-r-xr-xr-x 1 steff007 steff007 876K Nov 22  2021 Windows/Installer/114ce1d.msi
+-r-xr-xr-x 1 steff007 steff007 732K Nov 22  2021 Windows/Installer/114ce23.msi
+-r-xr-xr-x 1 steff007 steff007 69M Jul 23  2021 Windows/Installer/11683f0.msi
+-r-xr-xr-x 1 steff007 steff007 45M Jan 12  2022 Windows/Installer/114d36e.msi
+-r-xr-xr-x 1 steff007 steff007 206M Mar 29 18:28 Windows/Installer/14e4f4ee.msi
+-r-xr-xr-x 1 steff007 steff007 876K Jul 23  2021 Windows/Installer/11683f4.msi
+-r-xr-xr-x 1 steff007 steff007 1.7M Mar 23  2022 Windows/Installer/159c6f99.msi
+-r-xr-xr-x 1 steff007 steff007 580K Mar 23  2022 Windows/Installer/159c6f9d.msi
+-r-xr-xr-x 1 steff007 steff007 296K Mar 23  2022 Windows/Installer/159c6fa1.msi
+-r-xr-xr-x 1 steff007 steff007 7.9M Mar 23  2022 Windows/Installer/159c6fa5.msi
+-r-xr-xr-x 1 steff007 steff007 3.6M Mar 23  2022 Windows/Installer/159c6fa9.msi
+-r-xr-xr-x 1 steff007 steff007 8.9M Mar 23  2022 Windows/Installer/159c6fad.msi
+-r-xr-xr-x 1 steff007 steff007 204K Mar 23  2022 Windows/Installer/159c6fb1.msi
+-r-xr-xr-x 1 steff007 steff007 508K Mar 23  2022 Windows/Installer/159c6fbe.msi
+-r-xr-xr-x 1 steff007 steff007 3.4M Mar 23  2022 Windows/Installer/159c6fb5.msi
+-r-xr-xr-x 1 steff007 steff007 248K Mar 23  2022 Windows/Installer/159c6fc2.msi
+-r-xr-xr-x 1 steff007 steff007 44K Mar 23  2022 Windows/Installer/159c6fc6.msi
+-r-xr-xr-x 1 steff007 steff007 96M Jul 28  2021 Windows/Installer/15c4ebf.msi
+-r-xr-xr-x 1 steff007 steff007 95M Aug 20  2021 Windows/Installer/2c4a4ab.msi
+-r-xr-xr-x 1 steff007 steff007 324M Sep 29  2021 Windows/Installer/1c57546.msi
+-r-xr-xr-x 1 steff007 steff007 43M Sep  3  2021 Windows/Installer/3d36847.msi
+-r-xr-xr-x 1 steff007 steff007 180K Oct 17  2021 Windows/Installer/4a4784.msi
+-r-xr-xr-x 1 steff007 steff007 184K Oct 18  2021 Windows/Installer/4a4798.msi
+-r-xr-xr-x 1 steff007 steff007 180K Mar 10  2022 Windows/Installer/4a479d.msi
+-r-xr-xr-x 1 steff007 steff007 2.5M Mar 10  2022 Windows/Installer/4a48e2.msi
+-r-xr-xr-x 1 steff007 steff007 208K Mar 10  2022 Windows/Installer/4a485e.msi
+-r-xr-xr-x 1 steff007 steff007 120K Mar 10  2022 Windows/Installer/4a48e7.msi
+-r-xr-xr-x 1 steff007 steff007 120K Mar 10  2022 Windows/Installer/4a48ec.msi
+-r-xr-xr-x 1 steff007 steff007 196K Mar 10  2022 Windows/Installer/4a48dc.msi
+-r-xr-xr-x 1 steff007 steff007 140K Mar 10  2022 Windows/Installer/4a48f1.msi
+-r-xr-xr-x 1 steff007 steff007 268K Mar 10  2022 Windows/Installer/4a4900.msi
+-r-xr-xr-x 1 steff007 steff007 636K Mar 10  2022 Windows/Installer/4a48fb.msi
+-r-xr-xr-x 1 steff007 steff007 132K Mar 10  2022 Windows/Installer/4a48f6.msi
+-r-xr-xr-x 1 steff007 steff007 120K Mar 10  2022 Windows/Installer/4a4905.msi
+-r-xr-xr-x 1 steff007 steff007 48K Mar 10  2022 Windows/Installer/4add04f.msi
+-r-xr-xr-x 1 steff007 steff007 1.3M Mar 10  2022 Windows/Installer/4add06f.msi
+-r-xr-xr-x 1 steff007 steff007 268K Mar 10  2022 Windows/Installer/4add059.msi
+-r-xr-xr-x 1 steff007 steff007 17M May  4  2022 Windows/Installer/4d88c.msi
+-r-xr-xr-x 1 steff007 steff007 639K May 27  2015 Windows/Installer/5508.msi
+-r-xr-xr-x 1 steff007 steff007 75M Mar 22 03:57 Windows/Installer/7034741.msi
+-r-xr-xr-x 1 steff007 steff007 1.1M Apr  6 04:55 Windows/Installer/556e92c.msi
+-r-xr-xr-x 1 steff007 steff007 18M Sep 21  2021 Windows/Installer/70d216.msi
+-r-xr-xr-x 1 steff007 steff007 28M Mar 19  2022 Windows/Installer/7d5b91.msi
+-r-xr-xr-x 1 steff007 steff007 99M Apr 10 03:24 Windows/Installer/82c810.msi
+-r-xr-xr-x 1 steff007 steff007 150M Jul 24  2021 Windows/Installer/acd9f2.msi
+-r-xr-xr-x 1 steff007 steff007 1.7M Jun 28  2021 Windows/Installer/aeee5c.msi
+-r-xr-xr-x 1 steff007 steff007 540K Jun 28  2021 Windows/Installer/aeee64.msi
+-r-xr-xr-x 1 steff007 steff007 8.0M Jun 28  2021 Windows/Installer/aeee68.msi
+-r-xr-xr-x 1 steff007 steff007 284K Jun 28  2021 Windows/Installer/aeee60.msi
+-r-xr-xr-x 1 steff007 steff007 3.5M Jun 28  2021 Windows/Installer/aeee6c.msi
+-r-xr-xr-x 1 steff007 steff007 6.3M Jun 28  2021 Windows/Installer/aeee70.msi
+-r-xr-xr-x 1 steff007 steff007 196K Jun 28  2021 Windows/Installer/aeee74.msi
+-r-xr-xr-x 1 steff007 steff007 3.5M Jun 28  2021 Windows/Installer/aeee78.msi
+-r-xr-xr-x 1 steff007 steff007 248K Jun 28  2021 Windows/Installer/aeee80.msi
+-r-xr-xr-x 1 steff007 steff007 40K Feb  3  2021 Windows/Installer/b153.msi
+-r-xr-xr-x 1 steff007 steff007 40K Jun 28  2021 Windows/Installer/aeee84.msi
+-r-xr-xr-x 1 steff007 steff007 304K Aug  6  2021 Windows/Installer/d016c3.msi
+-r-xr-xr-x 1 steff007 steff007 180K Aug 30  2021 Windows/Installer/eb1130.msi
+-r-xr-xr-x 1 steff007 steff007 180K Aug 30  2021 Windows/Installer/eb1146.msi
+-r-xr-xr-x 1 steff007 steff007 180K Aug 30  2021 Windows/Installer/eb1159.msi
+-r-xr-xr-x 1 steff007 steff007 180K Aug 30  2021 Windows/Installer/eb116f.msi
+-r-xr-xr-x 1 steff007 steff007 26M Aug 25  2022 Windows/Installer/f769d8.msi
+-r-xr-xr-x 1 steff007 steff007 812K Jan 19  2022 Windows/Installer/f16ee3b.msi
+-r-xr-xr-x 1 steff007 steff007 736K Aug 25  2022 Windows/Installer/f769e4.msi
+-r-xr-xr-x 1 steff007 steff007 804K Aug 25  2022 Windows/Installer/f769dd.msi
+-r-xr-xr-x 1 steff007 steff007 99M Dec 23  2022 Windows/Installer/f769ee.msi
+-r-xr-xr-x 1 steff007 steff007 29M Aug 25  2022 Windows/Installer/f769e9.msi
+-r-xr-xr-x 1 steff007 steff007 206M Mar 29 18:28 Program Files/paint.net/Staging/PaintDotNet_x64_5.0.3.msi
+-r-xr-xr-x 1 steff007 steff007 6.3M Jun 28  2021 ProgramData/Package Cache/{2994270E-FE74-49E5-98BB-E65F5F0EC304}v3.9.6150.0/doc.msi
+-r-xr-xr-x 1 steff007 steff007 45M Jan 12  2022 ProgramData/Package Cache/{1EEAC01B-68E4-41E8-AE8C-33A2D149637C}v0.53.3/PowerToysSetup-0.53.3-x64.msi
+-r-xr-xr-x 1 steff007 steff007 26M Aug 25  2022 ProgramData/Package Cache/{0B4F742D-2D47-4E95-B756-402822D31C48}v48.39.47157/dotnet-runtime-6.0.9-win-x64.msi
+-r-xr-xr-x 1 steff007 steff007 588K Jun 28  2021 ProgramData/Package Cache/{3CC89AD9-6FF2-40BE-ADF4-8ADDD3030FCE}v3.9.7483.0/launcher.msi
+-r-xr-xr-x 1 steff007 steff007 24M Nov 22  2021 ProgramData/Package Cache/{44D628C6-14F5-48F2-89F9-6C0A5FF2B9F0}v24.88.30721/dotnet-runtime-3.1.22-win-x64.msi
+-r-xr-xr-x 1 steff007 steff007 8.0M Jun 28  2021 ProgramData/Package Cache/{4DD10049-CC97-48AE-BE76-4CB6E3111F7B}v3.9.6150.0/lib.msi
+-r-xr-xr-x 1 steff007 steff007 196K Jun 28  2021 ProgramData/Package Cache/{511119D2-41C4-48E1-A3DA-0A6A1E68AC76}v3.9.6150.0/tools.msi
+-r-xr-xr-x 1 steff007 steff007 3.5M Jun 28  2021 ProgramData/Package Cache/{5C5B7907-C4E8-4E09-8CD6-3E844C7D65E2}v3.9.6150.0/test.msi
+-r-xr-xr-x 1 steff007 steff007 248K Jun 28  2021 ProgramData/Package Cache/{69BCB7EC-54AF-47F2-A891-D335CE44A530}v3.9.6150.0/pip.msi
+-r-xr-xr-x 1 steff007 steff007 508K Mar 23  2022 ProgramData/Package Cache/{691AAAA1-FE86-4973-8DA2-6AA2B3327562}v3.10.7751.0/launcher.msi
+-r-xr-xr-x 1 steff007 steff007 3.5M Jun 28  2021 ProgramData/Package Cache/{7C56D977-225C-4EBA-8308-E47DF9FA867F}v3.9.6150.0/tcltk.msi
+-r-xr-xr-x 1 steff007 steff007 876K Nov 22  2021 ProgramData/Package Cache/{87DE9382-0F95-4768-98B8-BB5C1AB2B94F}v24.88.30721/dotnet-hostfxr-3.1.22-win-x64.msi
+-r-xr-xr-x 1 steff007 steff007 732K Nov 22  2021 ProgramData/Package Cache/{B343AEBD-9A5A-40B7-A032-81163019A913}v24.88.30721/dotnet-host-3.1.22-win-x64.msi
+-r-xr-xr-x 1 steff007 steff007 540K Jun 28  2021 ProgramData/Package Cache/{9BE9E7F0-F9F1-487B-A2FC-790CD2898388}v3.9.6150.0/exe.msi
+-r-xr-xr-x 1 steff007 steff007 29M Aug 25  2022 ProgramData/Package Cache/{C1CD2FC1-92E6-4DE2-89D8-6D309881856F}v48.39.47171/windowsdesktop-runtime-6.0.9-win-x64.msi
+-r-xr-xr-x 1 steff007 steff007 1.7M Jun 28  2021 ProgramData/Package Cache/{C4B7FF79-1195-436F-AA85-28EE995151B7}v3.9.6150.0/core.msi
+-r-xr-xr-x 1 steff007 steff007 28M Nov 22  2021 ProgramData/Package Cache/{D5C6F442-F51D-4D15-82C1-61E3435BA3C8}v24.88.30721/windowsdesktop-runtime-3.1.22-win-x64.msi
+-r-xr-xr-x 1 steff007 steff007 736K Aug 25  2022 ProgramData/Package Cache/{C30ABA3F-32C0-43D1-B3B8-9AEFD58A15D9}v48.39.47157/dotnet-host-6.0.9-win-x64.msi
+-r-xr-xr-x 1 steff007 steff007 284K Jun 28  2021 ProgramData/Package Cache/{D6580352-5B95-49A9-B2F3-313D12D13968}v3.9.6150.0/dev.msi
+-r-xr-xr-x 1 steff007 steff007 40K Jun 28  2021 ProgramData/Package Cache/{EC27BF73-AB7E-4867-9EEC-3AD456006835}v3.9.6150.0/path.msi
+-r-xr-xr-x 1 steff007 steff007 804K Aug 25  2022 ProgramData/Package Cache/{FD10B803-97FD-4867-9753-8784BC35D2F8}v48.39.47157/dotnet-hostfxr-6.0.9-win-x64.msi
+-r-xr-xr-x 1 steff007 steff007 639K May 27  2015 Program Files/Realtek/Audio/HDA/SetupRAPCOM.msi
+-r-xr-xr-x 1 steff007 steff007 48K Oct 17  2021 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.Build.FileTracker.Msi,version=16.10.31303.231/Microsoft.Build.FileTracker.Msi.msi
+-r-xr-xr-x 1 steff007 steff007 44K Aug  6  2021 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.Build.FileTracker.Msi,version=15.9.28128.53/Microsoft.Build.FileTracker.Msi.msi
+-r-xr-xr-x 1 steff007 steff007 48K Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.Build.FileTracker.Msi,version=17.1.32113.165/Microsoft.Build.FileTracker.Msi.msi
+-r-xr-xr-x 1 steff007 steff007 196K Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.Net.4.TargetingPack,version=4.0.30319.2/netfx_dtp.msi
+-r-xr-xr-x 1 steff007 steff007 180K Aug  8  2021 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualCpp.CRT.ClickOnce.Msi,version=14.16.27033,language=en-US/vcpp_crt.redist.clickonce.msi
+-r-xr-xr-x 1 steff007 steff007 184K Aug  6  2021 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualCpp.RuntimeDebug.14,version=14.16.27033.1,chip=x64/vc_RuntimeDebug.msi
+-r-xr-xr-x 1 steff007 steff007 180K Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualCpp.CRT.ClickOnce.Msi,version=14.29.30135,language=en-US/vcpp_crt.redist.clickonce.msi
+-r-xr-xr-x 1 steff007 steff007 180K Aug  6  2021 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualCpp.RuntimeDebug.14,version=14.16.27033.1,chip=x86/vc_RuntimeDebug.msi
+-r-xr-xr-x 1 steff007 steff007 180K Oct 17  2021 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualCpp.RuntimeDebug.14,version=14.29.30135,chip=x86/vc_RuntimeDebug.msi
+-r-xr-xr-x 1 steff007 steff007 120K Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=en-US/Microsoft.VisualStudio.Community.Msi.Resources.msi
+-r-xr-xr-x 1 steff007 steff007 184K Oct 18  2021 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualCpp.RuntimeDebug.14,version=14.29.30135,chip=x64/vc_RuntimeDebug.msi
+-r-xr-xr-x 1 steff007 steff007 2.5M Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualStudio.Debugger.Script.Msi,version=16.10.31205.180,chip=x64/scriptdebugging_x64.msi
+-r-xr-xr-x 1 steff007 steff007 268K Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualStudio.Community.Msi,version=16.11.31613.86/Microsoft.VisualStudio.Community.Msi.msi
+-r-xr-xr-x 1 steff007 steff007 140K Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x86/Microsoft.VisualStudio.FileHandler.Msi.x86.msi
+-r-xr-xr-x 1 steff007 steff007 132K Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x64/Microsoft.VisualStudio.FileHandler.Msi.x64.msi
+-r-xr-xr-x 1 steff007 steff007 120K Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualStudio.MinShell.Msi,version=16.11.31503.54/Microsoft.VisualStudio.MinShell.Msi.msi
+-r-xr-xr-x 1 steff007 steff007 636K Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualStudio.MinShell.Interop.Msi,version=16.10.31306.167/Microsoft.VisualStudio.MinShell.Interop.Msi.msi
+-r-xr-xr-x 1 steff007 steff007 268K Aug  6  2021 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualStudio.Setup.Configuration,version=2.5.2141.57745/Microsoft.VisualStudio.Setup.Configuration.msi
+-r-xr-xr-x 1 steff007 steff007 268K Oct 17  2021 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualStudio.Setup.Configuration,version=2.7.3111.17308/Microsoft.VisualStudio.Setup.Configuration.msi
+-r-xr-xr-x 1 steff007 steff007 1.2M Aug  6  2021 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualStudio.Setup.WMIProvider,version=2.5.2141.57745/Microsoft.VisualStudio.Setup.WMIProvider.msi
+-r-xr-xr-x 1 steff007 steff007 1.3M Oct 17  2021 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualStudio.Setup.WMIProvider,version=2.7.3111.17308/Microsoft.VisualStudio.Setup.WMIProvider.msi
+-r-xr-xr-x 1 steff007 steff007 1.3M Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualStudio.Setup.WMIProvider,version=3.1.1126.51066/Microsoft.VisualStudio.Setup.WMIProvider.msi
+-r-xr-xr-x 1 steff007 steff007 304K Aug  6  2021 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.Windows.UniversalCRT.Redistributable.Msi,version=10.0.26624/Universal CRT Redistributable-x86_en-us.msi
+-r-xr-xr-x 1 steff007 steff007 120K Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualStudio.MinShell.Msi.Resources,version=16.10.31306.167,language=en-US/Microsoft.VisualStudio.MinShell.Msi.Resources.msi
+-r-xr-xr-x 1 steff007 steff007 268K Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualStudio.Setup.Configuration,version=3.1.1126.51066/Microsoft.VisualStudio.Setup.Configuration.msi
+-r-xr-xr-x 1 steff007 steff007 99M Dec 23  2022 ProgramData/MuseHub/Downloads/Installers/4f58d054-46bd-4951-978f-8ce311a5f08f/MuseScore-4.0.0.223472200-x86_64.msi
+-r-xr-xr-x 1 steff007 steff007 180K Aug 30  2021 ProgramData/Package Cache/{36A1E79B-581A-4FE5-843D-84C2D3C9431E}v14.29.30135/packages/vcRuntimeMinimum_x86/vc_runtimeMinimum_x86.msi
+-r-xr-xr-x 1 steff007 steff007 180K Aug 30  2021 ProgramData/Package Cache/{34DB4181-0770-4B5A-B561-68758A077B0F}v14.29.30135/packages/vcRuntimeAdditional_amd64/vc_runtimeAdditional_x64.msi
+-r-xr-xr-x 1 steff007 steff007 180K Aug 30  2021 ProgramData/Package Cache/{40118CD9-A805-400C-864E-041A5B5C01B0}v14.29.30135/packages/vcRuntimeMinimum_amd64/vc_runtimeMinimum_x64.msi
+-r-xr-xr-x 1 steff007 steff007 180K Aug 30  2021 ProgramData/Package Cache/{77EB1EA9-8E1B-459D-8CDC-1984D0FF15B6}v14.29.30135/packages/vcRuntimeAdditional_x86/vc_runtimeAdditional_x86.msi
+-r-xr-xr-x 1 steff007 steff007 208K Mar 10  2022 ProgramData/Package Cache/{E18618EC-D9DB-4BCE-B382-85ADA2CBB340}v10.1.0.0/Redistributable/10.1.0.0/UAPSDKAddOn-x86.msi
+-r-xr-xr-x 1 steff007 steff007 140K Mar 12  2014 ProgramData/Package Cache/{A749D8E6-B613-3BE3-8F5F-045C84EBA29B}v12.0.21005/packages/vcRuntimeMinimum_amd64/vc_runtimeMinimum_x64.msi
+-r-xr-xr-x 1 steff007 steff007 140K Mar 12  2014 ProgramData/Package Cache/{929FBD26-9020-399B-9A7A-751D61F0B942}v12.0.21005/packages/vcRuntimeAdditional_amd64/vc_runtimeAdditional_x64.msi
+-r-xr-xr-x 1 steff007 steff007 48M Nov 22  2017 Windows/System32/DriverStore/FileRepository/netwbw02.inf_amd64_8167dd723c98f377/WiFi.msi
+-r-xr-xr-x 1 steff007 steff007 639K May 27  2015 Windows/System32/DriverStore/FileRepository/hdxadcma.inf_amd64_5a19ab44fee80f8d/SetupRAPCOM.msi
+-r-xr-xr-x 1 steff007 steff007 27M Nov 22  2017 Windows/System32/DriverStore/FileRepository/netwbw02.inf_amd64_8167dd723c98f377/Driver.msi
+-rwxrwxrwx 1 steff007 steff007 248K Mar 23  2022 Users/jayst/AppData/Local/Package Cache/{0707FD0B-C82B-4730-8967-D6C3003BCAE0}v3.10.4150.0/pip.msi
+-rwxrwxrwx 1 steff007 steff007 296K Mar 23  2022 Users/jayst/AppData/Local/Package Cache/{5A092BC3-DC8C-4B40-871A-D50F71058449}v3.10.4150.0/dev.msi
+-rwxrwxrwx 1 steff007 steff007 1.7M Mar 23  2022 Users/jayst/AppData/Local/Package Cache/{12BDD20C-1666-463B-B473-3473B4BB97A7}v3.10.4150.0/core.msi
+-rwxrwxrwx 1 steff007 steff007 44K Mar 23  2022 Users/jayst/AppData/Local/Package Cache/{51D88D9C-47E1-45C7-992C-3AF1AD91BF5F}v3.10.4150.0/path.msi
+-rwxrwxrwx 1 steff007 steff007 204K Mar 23  2022 Users/jayst/AppData/Local/Package Cache/{7CBB42A3-C12B-413C-AA93-65DA4C31D421}v3.10.4150.0/tools.msi
+-rwxrwxrwx 1 steff007 steff007 3.6M Mar 23  2022 Users/jayst/AppData/Local/Package Cache/{9C759455-2832-4F78-B2C7-511820072E90}v3.10.4150.0/test.msi
+-rwxrwxrwx 1 steff007 steff007 8.9M Mar 23  2022 Users/jayst/AppData/Local/Package Cache/{E2B8DCDD-2047-44A2-ADC7-E526084777B4}v3.10.4150.0/doc.msi
+-rwxrwxrwx 1 steff007 steff007 3.4M Mar 23  2022 Users/jayst/AppData/Local/Package Cache/{E22FBFCD-7312-4CED-BE8C-B8CB8D4EADCA}v3.10.4150.0/tcltk.msi
+-rwxrwxrwx 1 steff007 steff007 580K Mar 23  2022 Users/jayst/AppData/Local/Package Cache/{FBCE87D2-C7FC-47AB-B870-A0613A081CFD}v3.10.4150.0/exe.msi
+-rwxrwxrwx 1 steff007 steff007 7.9M Mar 23  2022 Users/jayst/AppData/Local/Package Cache/{FFF8FCBE-5551-4DB2-8828-D2FE463981E2}v3.10.4150.0/lib.msi
+-r-xr-xr-x 1 steff007 steff007 21M Mar 28 23:09 Windows/servicing/LCU/Package_for_RollupFix~31bf3856ad364e35~amd64~~19041.3086.1.9/amd64_microsoft-windows-ppi-managementservice_31bf3856ad364e35_10.0.19041.2913_none_6457c8eea5802c71/f/momagent.msi
+-r-xr-xr-x 1 steff007 steff007 25M Mar 28 23:08 Windows/servicing/LCU/Package_for_RollupFix~31bf3856ad364e35~amd64~~19041.3086.1.9/amd64_microsoft-windows-ppi-managementservice_31bf3856ad364e35_10.0.19041.2913_none_6457c8eea5802c71/r/momagent.msi
+-r--r--r-- 1 steff007 steff007 43M Nov  4  2021 Users/jayst/AppData/LocalLow/Oracle/Java/jre1.8.0_311/jre1.8.0_311patch.msi
+-r--r--r-- 1 steff007 steff007 705K Nov  4  2021 Users/jayst/AppData/LocalLow/Oracle/Java/jre1.8.0_311/au.msi
+-r--r--r-- 1 steff007 steff007 150M Jul 24  2021 Users/jayst/AppData/LocalLow/Oracle/Java/jdk16.0.2_x64/jdk16.0.264.msi
