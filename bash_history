@@ -4897,3 +4897,164 @@ fdc
 fd | column
 wc .bash_history
 v .bash_history
+v gcloud_his_h
+v gcloud_his_u 
+echo "$(date)"
+git diff --name-only main origin/main 
+git merge
+cat chis
+fd chis
+git rm chis.sh 
+cat chis.sh 
+cp chis ~/chis
+./chis 
+gcloud
+ls *.sh
+fd .git
+cd win
+./install.sh 
+fd --changed-within 2days
+python --version
+i3
+lf
+cat /etc/os-release 
+fd -I -H his
+fd | column
+glg | head
+fd sett
+v vscode/settings.json 
+rg 'fetch'
+rg 'fetch' | v -
+rg 'fetch' | more
+h3
+fd -tf -d 1 | xargs rg 'fetch'
+fd -tf -d 1| rg -v 'git' | xargs rg 'fetch'
+v bash_history_u 
+cd .git
+v config
+v description 
+v HEAD 
+git fetch --dry-run
+git log
+git log | head
+glg
+glg | v -
+exit
+fdi
+df -ht
+df
+python 
+ip
+ipython
+pip list
+pip list | column
+printenv
+printenv | nvim
+printenv | v
+printenv | v -
+printenv > env.txt
+wi python
+chmod +x djan.py 
+./djan.py 
+git fetch
+git ls-files
+git ls-files | v -
+git diff main origin/main
+git diff --name-only main origin/main
+tmux
+git pull
+git commit -am "goldenvalley"
+git push
+git log --oneline
+v .gitignore 
+git diff
+git diff | v -
+git commit -am "library"
+v .bash_history
+ldf
+ls -a
+v .bashrc
+v fun
+hism
+type -f his
+cat /etc/os
+cd /etc
+cat os-release
+uname -a
+cd
+mkcd web
+django-admin startproject me
+cd me
+als
+python manage.py migrate
+python manage.py runserver
+tmux ls
+mem
+sqlite3 db.sqlite3 
+tree
+fd
+gh
+type -f gh
+cd junk/
+v hello.kt
+lt
+kotlinc first.kt -include-runtime -d hello.jar
+udo snap install --classic kotliN
+sudo snap install --classic kotliN
+wi snap
+sudo apt update
+sudo apt install snapd
+sudo apt install snapd 
+sudo snap install hello-world
+curl -s https://get.sdkman.io | bash 
+sdk install kotlin
+java -versio
+java -version
+ls
+cd all
+cd bash
+ld
+cd all_wsl
+cd all_wsl/
+git remote -v | nvim -
+nvim
+v
+his
+alias v
+..
+l
+fd inst
+ls inst
+find inst
+find . inst
+find . inst -maxdepth 1
+find . install -maxdepth 1
+find . name "install" -maxdepth 1
+find . -iname "*install*" -maxdepth 1
+find . -maxdepth 1 -iname "*install*"
+v install.sh 
+install.sh
+./install.sh
+ssp
+myip
+me
+fd 
+fdc
+fd -d 1 alias
+v .bash_aliases
+fd -d 1 --changed-with=1days
+fd -d 1 --changed-within=1days
+fdh
+source .bash_aliases
+fdh | nvim -
+fd -d 1 -type x
+v chis
+git add .
+gst
+git log | nvim -
+git remote -v
+git commit -am 'from bed'
+duh
+c
+chis
+fd -d 1 --type x

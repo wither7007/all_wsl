@@ -95,6 +95,7 @@ alias wi='whereis'
 alias y3='youtube-dl -x --audio-format mp3 '
 alias y4='youtube-dl -f 18 '
 alias vmn='vim ~/all_wsl/note/notes'
+alias nvim='vim '
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
