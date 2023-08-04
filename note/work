@@ -3,8 +3,8 @@ The words which open up whole new worlds of abstract understanding and are actua
 Finally, the words which open up whole new worlds of abstract understanding and are barely ever used in German. Example One: der Treppenwitz (literally: the staircase joke), meaning: The witty comeback you concocted too late. Example Two: das Backpfeifengesicht (literally: the slap face), meaning: A face you’d like to slap.
 const object = { a: 1, b: 2, c: 3 };
 
-for (property in Window) {
-  console.log(`${property}: ${object[property]}`);
+for (property in ob ) {
+  console.log(`${property}: ${ob[property]}`);
 }
 Object.keys( window );
 

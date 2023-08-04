@@ -1,20 +1,53 @@
-!! ebt 612 879 2494
-6104 2390 4461 4486
-case number 2127935
+document.body.onload = addElement;
+async function fetchDataFromApi() {
+  fetch('https://v2.jokeapi.dev/joke/Dark?type=single')
+    .then(res => res.json())
+    .then(json => console.log(json.joke))
+}
 
+
+fetchDataFromApi()
+.then(()=>{console.log('\n\nDone')}
+
+fundamental theorom of arithmetic
+states that every integer greater than 1 can be represented uniquely as a product of prime numbers
+
+product notation II sigma notation Σ
+
+https://javascript.info/article/script-async-defer/long.js
 612 596 1036
 *North 612 543 2500  800 West Broadway
-housing
+wednesday aug 23rd 1:00
+
+https://ncf.idallen.com/english.html
+
+e=nhf
+6.626 10-34 jxs
+
+https://www.youtube.com/watch?v=TlP5WIxVirU&list=PLZlA0Gpn_vH8DWL14Wud_m8NeNNbYKOkj&index=16
+David Graeber
+bull shit jobs
+https://www.30secondsofcode.org/
+
+https://hackernoon.com/patterns-and-practices-for-using-sqlalchemy-20-with-fastapi
 
 ffmpeg, imagemagick, povray, supercollider, blender …
 I’d also say amule, qbittorrent, fopnu (freeware, but not free), retroshare.
+
+https://poets.org/poem/affirmation
+To grow old is to lose everything. 
 
 Minneapolis Public Housing Authority
 1001 Washington Avenue North, Minneapolis, MN 55401-1043
 Phone: (612) 342-1400   Web: 
 www.mphaonline.org
 (612) 342-1400
+612-335-4427
+(612) 342-1553
 called 7/14/23
+
+sorting
+https://youtu.be/kPRA0W1kECg
 
 wells 615dks@{  wauwatosa }
 Jets impressed how quickly AR complaining about roster
@@ -28,8 +61,13 @@ We feel waves of different emotions as we move through our lives
 
 everything not an anecdote, didn't you notice on the plane when you kept on blabbing i started reading the vomit bag
 
-
 Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.
+
+!! ebt 612 879 2494
+6104 2390 4461 4486
+case number 2127935
+
+alaska dick proenkke
 
 traversy react
 https://www.youtube.com/watch?v=w7ejDZ8SWv8&t=1271s
@@ -43,7 +81,12 @@ git squash, fixupo
 git hooks
 git clean -df
 thecatjumpedoff@476
-source $(poetry env info --path)/bin/activate)
+
+poetry init -n
+poetry add pendulum
+source $(poetry env info --path)/bin/activate
+poetry add $( cat requirements.txt )
+
 https://mattermost.com/blog/getting-started-with-django-part-2/
 
 node debugger
@@ -72,7 +115,6 @@ Nothing can bring you peace but yourself.
  life is "learning and forgetting and learning again.
 Keep a little fire burning; however small, however hidden.
 What could a child know of the darkness of God’s plan? Or how flesh is so frail it is hardly more than a dream.
-Every step you take is forever. You can't make it go away. None of it.
 
 three chords axis of awesom
 https://www.youtube.com/watch?v=oOlDewpCfZQ
@@ -85,8 +127,6 @@ nomethic
 ken thompson dennis ritchie
 I'm @steff007@mastodon.social on #Mastodon! Come follow me at https://mastodon.social/@steff007
 
-Course of Bitters and Anti-Hysteric Pills
-progressive insight
 must do django
 https://github.com/nickjj/docker-django-example
 
@@ -112,7 +152,9 @@ Robbinsdale Alano
 
 It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness
 
-PJazz pianist Brad Mehldau shares his love of The Beatles on a new album | Fresh Airack my box with five dozen liquor jugs
+PJazz pianist Brad Mehldau shares his love of The Beatles on a new album | Fresh Airack 
+
+
 https://www.youtube.com/watch?v=06d_94kcDNs
 Winning is optional, but trying your hardest is not
 What’s brown and sticky? A stick
@@ -127,7 +169,6 @@ mastadon
 Set your wifi password to 2444666668888888
 So when someone asks you, tell them it's 12345678
 
-growing old is not a battle, its a massacre
 
 data strucs course
 https://news.ycombinator.com/item?id=35957811
@@ -135,7 +176,6 @@ https://news.ycombinator.com/item?id=35957811
  false belief system.
 The fact that it is grounded in her wishes
 
-. I simply need to learn how to accept the things I cannot change, because there is nothing I can do to escape the spiraling, bottomless void that awaits.
 
 
 Hardcore History The Adam Friedland Show Saron Yitbarek time ferris Tyler Cowen podcast radiolab
@@ -165,9 +205,6 @@ bananna a day will do wonders for your colon
 
 Use the imperative mood. That is to say write the message in the form of a command in the present tense.
 To help me remember, I think of completing the sentence "This commit will: " For example: "This commit will improve color contrast". Not "improved" or "improving".
-
-
-There comes a time in history when the man who dares to say that two and two make four is punished with death.
 
  student-athletes commercializing their identities
 s="The Queen of Hearts, she made some tarts,  All on a summers day, The knave of Hearts, he stole the tarts, And took them clean away."
@@ -244,7 +281,17 @@ machine
 https://www.youtube.com/watch?v=F3J3PZj0zi0
 
 Astronomers don’t believe the universe is 13.7 billion years old—they know it.
+cells 37 trillion
+But human cells are not the only cells in our bodies. Although previous studies have estimated that there are 10 times as many bacteria in our bodies than human cells, Prof. Milo and colleagues revised this number to be around 38 trillion.
+
+Interestingly, although large in number, bacteria are much smaller than human cells, and they actually make up only 200 grams of total body mass, according to Prof. Milo.
+Azevedo and colleagues took a crack at a more precise estimate. Their answer?
+
+Approximately 86 billion neurons in the human brain. The latest estimates for the number of stars in the Milky Way is somewhere between 200 and 400 billion. So close, but the human brain certainly doesn't quite stack up!
+But with nearly equal numbers of cells in our bodies, one could argue that we are as much bacteria as we are human, bringing the total number up to around 70 trillion.
+
 How does WMAP data enable us to determine the age of the universe is 13.77 billion years, with an uncertainty of only 0.4%? The key to this is that by knowing the composition of matter and energy density in the universe, we can use Einstein's General Relativity to compute how fast the universe has been expanding in the past. With that information, we can turn the clock back and determine when the universe had "zero" size, according to Einstein
+
 sun 4.603 billion years
 4.5
 
@@ -266,6 +313,7 @@ https://stackoverflow.com/questions/56336084/move-files-that-no-not-contain-spec
 #python print to file
 # given epoch time  
 python sh command
+virtualenv env && source env/bin/activate
 https://martinheinz.dev/blog/98
 print(sh.awk('{print $9}', _in=sh.ls('-la')))
 
@@ -493,7 +541,7 @@ tar -cvf a.tar *
 tar -xvf a.tar
 duh > $(date | sed 's/\s/_/g' | sed 's/_CDT.*//g').txt 2>err &
 date | sed 's/\s/_/g' | sed 's/_CDT.*//g'| sed 's/:/-/g'
-
+( duh > duh7-23.txt 2>&1  & )
 
 rsync -avzh --progress hist spoken
 rsync -av --exclude-from='./list.txt' tailwind-landing-page /mnt/c/projects
@@ -1223,9 +1271,10 @@ Current PIN
 
 Jim Steffes
 jimsteffes@outlook.com
-(612) 461-2365
+320-775-7191
 3409 E. Medicine Lake Plymouth MN 55441-2307
-
+fax 763-550-0095
+(612) 461-2365
 
 <link rel="icon" href="data:,">
 accuweather api
@@ -1241,7 +1290,6 @@ openweather api
 let key = 'c1226a736dac2e52a2c456f0dc2c03ba';
 //todo
 
- the man who slashed himself to remove the “wires” in his body
 Google Voice number
 ‪(612) 567-9410‬
 
@@ -1261,17 +1309,18 @@ current=volume
 x^2+y^2=5
 
 Clock speeds are generally measured in million of cycles per second (MHz) and thousand million of cycles per second (GHz)
-scamp --- sugar, window cleaner, and petroleum jelly
 for(var b in window) { 
   if(window.hasOwnProperty(b)) console.log(b); 
 }
-two hand jobs and a pack of beef jerky
 annoying pop up windows
 56k
 
 javascript
 fillArray=[...Array(10).keys()]
 
+const myj=(x)=>{
+    console.log(JSON.stringify(x,null,"\t"))
+}
 https://github.com/lesander/console.history
 <script src="https://cdn.jsdelivr.net/gh/lesander/console.history@v1.5.1/console-history.min.js"></script>
 
@@ -1527,18 +1576,12 @@ I/O-bound code: this can be any code that accesses the file system thru the OS
 </form> 
 puerperal fever
 
-514 levo
-large white pliva 433 Traz
-white ep 127 folic
-blue 213 sert
-yellow h125 Pantoprazole 
 PNG for Crisp Graphics
 Regression searches for relationships among variables.
 I'm sorry dave, I'm afraid I can't do that
 Turing tarpit
 Those who are hardest to love, need it the most
 Be kind, for every one you meet is fighting a hard battle.
-bumblescum North dakota
 d3
 Seitan
 aleatoric
@@ -2085,7 +2128,13 @@ What is truth? said jesting Pilate, and would not stay for an answer." Thus begi
 https://www.goodreads.com/quotes/9547355-in-some-remote-corner-of-the-universe-poured-out-and
 https://www.xvideos.com/video67013013/fun_times_with_this_newbie_cutie_riley_jean
 
-7d chess move
+
+
+[T]he two most salient traits of the radical movement are its anti-intellectualism and its hostility to the university as an institution. ... Intellectuals, by definition, are people who take ideas seriously for their own sake. Whether or not a theory is true or false is important to them, independently of any practical applications it may have. [Intellectuals] have, as Richard Hofstadter has pointed out, an attitude to ideas that is at once playful and pious. But, in the radical movement, the intellectual ideal of knowledge for its own sake is rejected. Knowledge is seen as valuable only as a basis for action, and it is not even very valuable there. Far more important than what one knows is how one feels
+
+scamp --- sugar, window cleaner, and petroleum jelly
+two hand jobs and a pack of beef jerky
+
 I have to admit it, I have a tremendous sex drive
 My girlfriend lives 55 miles away.
 
@@ -2094,5 +2143,36 @@ A blind man walks into a bar
 
 What’s the difference between a good and a bad joke timing
 
-What’s the best pet about having a prostitute die on you?
+What’s the best part about having a prostitute die on you?
 The second hour is free
+
+7d chess move
+
+bumblescum North dakota
+
+Every step you take is forever. You can't make it go away. None of it.
+
+Course of Bitters and Anti-Hysteric Pills
+progressive insight
+
+growing old is not a battle, its a massacre
+
+I simply need to learn how to accept the things I cannot change, because there is nothing I can do to escape the spiraling, bottomless void that awaits.
+
+There comes a time in history when the man who dares to say that two and two make four is punished with death.
+
+ the man who slashed himself to remove the “wires” in his body
+
+My girlfriend's dog died, so I tried to cheer her up by getting her an identical one. It just made her more upset. She screamed at me, "What am I supposed to do with two dead dogs?"
+
+
+I didn't vaccinate my 10 kids and the one that survived is fine!
+
+I don't know where I stand on abortion. I like killing babies, but I don't like giving women a choice.
+
+
+I'll never forget my dad's last words to me before he died. "Are you still holding the ladder?"
+
+pack my box with five dozen liquor jugs
+
+
