@@ -1,3 +1,26 @@
+hard reload ctrl-shift-r
+
+Ethyl Alcohol, or ethanol (C2H5OH)
+
+curl "https://opentdb.com/api.php?amount=10" | jq '.' | less
+
+
+Pablo Galindo Salgado 
+https://stackoverflow.blog/2023/07/25/how-the-python-team-is-adapting-the-language-for-an-ai-future-ep-593/
+*North 612 543 2500  800 West Broadway Minneapolis, MN 55411
+Hennepin Health cab 04745519
+3409 E. Medicine Lake Plymouth MN 55441-2307
+
+cpu.land
+
+https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
+
+per cents are reversible
+1% of 100 is 1
+100% of 1 is 1
+
+https://tabs.ultimate-guitar.com/tab/bob-dylan/knockin-on-heavens-door-chords-66559
+https://stackoverflow.com/questions/32452014/change-key-name-in-javascript-object?rq=3
 document.body.onload = addElement;
 async function fetchDataFromApi() {
   fetch('https://v2.jokeapi.dev/joke/Dark?type=single')
@@ -5,19 +28,39 @@ async function fetchDataFromApi() {
     .then(json => console.log(json.joke))
 }
 
+find working
+fdm -epy -tf --changed-within=2days | xargs rg -l -i post |  xargs ls -lh {} | awk '{ print $9 ": " $6 $7 " - " $8 }'
 
+danny boy
+https://www.youtube.com/watch?v=4ieGo6RfhNo
+
+Leopold Koželuch
+Muzio Clementi
+
+fastapi
+https://www.youtube.com/watch?v=TPyfM8ns_MY
+
+git reset --soft head~1
+https://www.youtube.com/watch?v=TPyfM8ns_MY
+
+big-o
+https://www.youtube.com/watch?v=PXWL_Xzyrp4
+
+idempotent
 fetchDataFromApi()
 .then(()=>{console.log('\n\nDone')}
 
 fundamental theorom of arithmetic
 states that every integer greater than 1 can be represented uniquely as a product of prime numbers
 
+trade Max for a bucket of balls
+
+The author George Johnson has written a biography of Gell-Mann, Strange Beauty: Murray Gell-Mann, and the Revolution in 20th-Century Physics (1999)
+
 product notation II sigma notation Σ
 
 https://javascript.info/article/script-async-defer/long.js
 612 596 1036
-*North 612 543 2500  800 West Broadway
-wednesday aug 23rd 1:00
 
 https://ncf.idallen.com/english.html
 
@@ -482,6 +525,9 @@ linux rename
 !!error redirect
 xya >>file.txt 2>&1
 
+rg 'word'
+fdm -tf | xargs sed -i 's/container/card-grid/g'
+
 nohup npm run build &>/dev/null & #https://www.maketecheasier.com/run-bash-commands-background-linux/
 
 #remove all in directore (-t d for directories)
@@ -505,6 +551,7 @@ while read -r file ; do
 done < "$TO_BE_DEL"
 
 !! https://linuxhandbook.com/tar-exclude-files/
+!! fdm -tf | xargs tail -n +1 | nvim - #cat all files
 tar -czvf ../ll.tar.gz --exclude-from=ex .
 tar --exclude='42' -zvcf ~/first.tar.gz .
 tar -zxvf first.tar.gz -C junk/django
@@ -531,6 +578,10 @@ redirect-- command > file 2>&1
 touch file{1..10}.txt
 https://github.com/dylanaraps/pure-sh-bible#loop-over-files-and-directories
 zero out file sed -i 'd' cutter
+remove -browser bs
+sed -i  '/\s-/d' style.css
+remove blank lines
+sed -i '/^$/d' style.css
 windows sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'
 fdi -a -d 1 only | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'
 list file number count
@@ -543,6 +594,9 @@ duh > $(date | sed 's/\s/_/g' | sed 's/_CDT.*//g').txt 2>err &
 date | sed 's/\s/_/g' | sed 's/_CDT.*//g'| sed 's/:/-/g'
 ( duh > duh7-23.txt 2>&1  & )
 
+sudo rsync --remove-source-files /path/subdirectory/ /path/
+$ rsync -av /home/tin/sample /home/tin/test
+Note: Specifying “/” after the source directory only copies the contents of the directory. If we do not specify the “/”after the source directory, the source directory will also be copied to the destination directory.
 rsync -avzh --progress hist spoken
 rsync -av --exclude-from='./list.txt' tailwind-landing-page /mnt/c/projects
 Source destination
@@ -854,7 +908,7 @@ Maple Grove MN 55311-3647
 11-15 tuesday 1:10
 
 612 596 1036
-1132
+punch for ride 1132
 Hennepin Health cab 04745519
 
 https://ryoservice.com/account/register
@@ -2175,4 +2229,9 @@ I'll never forget my dad's last words to me before he died. "Are you still holdi
 
 pack my box with five dozen liquor jugs
 
-
+let space = (n) => {
+    let reg = /[^a-zA-Z0-9\.]/g
+    var m = n.replace(reg, ' ').trim()
+    var o = m.replace(/\s+/g, ' ')
+    return o
+}
