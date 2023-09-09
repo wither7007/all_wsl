@@ -1,6 +1,15 @@
+It's a lot easier to see the ball coming from a pitcher of the opposite hand -- especially breaking pitches, which are easier to hit if they're coming toward you rather than moving away from you
+
+https://www.zenrows.com/blog/web-scraping-golang#convert-data-to-csv
+
+https://oxylabs.io/blog/golang-web-scraper
+
 hard reload ctrl-shift-r
 
 Ethyl Alcohol, or ethanol (C2H5OH)
+
+At first, 20 to 30 milligrams (mg) taken as a single dose per day. Your doctor may adjust your dose as needed. However, the dose is usually not more than 40 mg per day.
+The average daily dosage of methadone was 45.8 mg in the moderate-dose group and 89.5 mg in the high-dose group.
 
 curl "https://opentdb.com/api.php?amount=10" | jq '.' | less
 
@@ -10,6 +19,8 @@ https://stackoverflow.blog/2023/07/25/how-the-python-team-is-adapting-the-langua
 *North 612 543 2500  800 West Broadway Minneapolis, MN 55411
 Hennepin Health cab 04745519
 3409 E. Medicine Lake Plymouth MN 55441-2307
+
+"Platoon splits" refers to a fundamental fact about baseball: Righty hitters do better against lefty pitchers, and lefty hitters do better against righty pitchers. It's a lot easier to see the ball coming from a pitcher of the opposite hand -- especially breaking pitches, which are easier to hit if they're coming toward you rather than moving away from you.
 
 cpu.land
 
@@ -124,7 +135,8 @@ git squash, fixupo
 git hooks
 git clean -df
 thecatjumpedoff@476
-
+git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
+https://stackoverflow.com/questions/5188320/how-can-i-get-a-list-of-git-branches-ordered-by-most-recent-commit
 poetry init -n
 poetry add pendulum
 source $(poetry env info --path)/bin/activate
@@ -2224,6 +2236,7 @@ I didn't vaccinate my 10 kids and the one that survived is fine!
 
 I don't know where I stand on abortion. I like killing babies, but I don't like giving women a choice.
 
+My boss told me to have a good day. So I went home...
 
 I'll never forget my dad's last words to me before he died. "Are you still holding the ladder?"
 
