@@ -37,6 +37,9 @@ alias gitsall="git status -vv | v -"
 alias gl='git pull'
 alias glg='git log --stat | v  -'
 alias gdiff='git diff | nvim -'
+
+alias graph='git log --graph --pretty="%C(yellow) Hash: %h %C(blue)Date: %ad %C(red) Message: %s " --date=human'
+alias grapho='git log --all --decorate --oneline --graph'
 alias glgg='git log --graph --max-count=5'
 alias gm='git merge'
 alias glog='git log | nvim -'
@@ -48,6 +51,7 @@ alias gs='git switch'
 alias gss='git status -s'
 alias gst='git status'
 alias gup='git fetch && git rebase'
+alias gflog='git reflog | nvim -'
 alias glo="git log --oneline | nvim -"
 alias gx='ga . && gc "initial"'
 alias h1='history | tail -n 10'

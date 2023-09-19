@@ -1,4 +1,12 @@
 
+pqle()
+{
+  echo "PGPASSWORD=stars1  pg_dump -h localhost -p 5432 -U steff007 tempdb"
+  PGPASSWORD=stars1   psql -L nOutput.txt -E -h localhost -p 5432 -U steff007 tempdb
+}
+
+pg_dump -h localhost -p 5432 -U steff007 thurs > db.sql
+
 The words which open up whole new worlds of abstract understanding and are actually used in German. Example: die Fremdscham (literally: the foreign shame). huf -e "echo hi" "echo bye" "ls" -n 1)Geaning: The vicarious embarrassment you feel when you observe someone making a fool of him or herself.
 Finally, the words which open up whole new worlds of abstract understanding and are barely ever used in German. Example One: der Treppenwitz (literally: the staircase joke), meaning: The witty comeback you concocted too late. Example Two: das Backpfeifengesicht (literally: the slap face), meaning: A face you’d like to slap.
 const object = { a: 1, b: 2, c: 3 };

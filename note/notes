@@ -1,4 +1,24 @@
+state gets passed down
+actions get passed up
+
 It's a lot easier to see the ball coming from a pitcher of the opposite hand -- especially breaking pitches, which are easier to hit if they're coming toward you rather than moving away from you
+
+align-items  cross axis 
+justify-content  main axis.
+
+display:none turns off the layout of the elements, so they are not rendered
+visibility:hidden hides the elements without changing their layouts
+opacity:0 causes the elements to be very transparent but users can still interact with them.
+
+Louis CK said: "Everything is amazing and no one is happy."
+https://www.reddit.com/r/Supabase/comments/16dij23/developing_a_tool_these_days_is_so_fun_and_easy/
+My stack is
+Backend : Deno , Fresh
+DB: Supabase
+Frontend: preact, tailwindcss
+https://dassum.medium.com/building-rest-apis-using-fastapi-sqlalchemy-uvicorn-8a163ccf3aa1
+
+Deno Deploy and Supabase have high free quota, so I start and run the product for free until it had lots of users everyday.
 
 https://www.zenrows.com/blog/web-scraping-golang#convert-data-to-csv
 
@@ -608,7 +628,7 @@ date | sed 's/\s/_/g' | sed 's/_CDT.*//g'| sed 's/:/-/g'
 
 sudo rsync --remove-source-files /path/subdirectory/ /path/
 $ rsync -av /home/tin/sample /home/tin/test
-Note: Specifying “/” after the source directory only copies the contents of the directory. If we do not specify the “/”after the source directory, the source directory will also be copied to the destination directory.
+***Note: Specifying “/” after the source directory only copies the contents of the directory. If we do not specify the “/”after the source directory, the source directory will also be copied to the destination directory.
 rsync -avzh --progress hist spoken
 rsync -av --exclude-from='./list.txt' tailwind-landing-page /mnt/c/projects
 Source destination
