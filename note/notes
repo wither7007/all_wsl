@@ -1,4 +1,22 @@
-mychange
+Stanislav Petrov
+cytisine 
+Propofol
+'inappropriate marriage arrangements
+Law 1: Never outshine your master.
+Law 4: Always say less than necessary.
+Law 13: When asking for help, appeal to people's self interest, never to their mercy or gratitude.
+Law 19: Know who you are dealing with, do not offend the wrong person.
+Law 40: Despise the free lunch.
+Law 46: Never appear two perfect.
+
+The Financial Accounting Standards Board (FASB), which sets standards for GAAP rules,
+Goodwill=P−( A − L )
+where:
+P=Purchase price of the target company
+A=Fair market value of assets
+L=Fair market value of liabilities
+
+webkit blink and gecko
 ai models
 https://www.youtube.com/watch?v=EFe7-WZMMhc
 state gets passed down
@@ -6,8 +24,13 @@ actions get passed up
 
 Ah! vous dirai-je, maman
 
+node inspect
+https://www.youtube.com/watch?v=FMsNsSHhRC8
 
+“Nayler’s masterful debut combines fascinating science and well-wrought characters to deliver a deep dive into the nature of intelligent life . . . As entertaining as it is intellectually rigorous, this taut exploration of human―and inhuman―consciousness is a knockout.”
+―Publishers Weekly, starred review
 Unit	Value	Example
+
 Kilobytes (KB)	1,000 bytes	a paragraph of a text document
 Megabytes (MB)	1,000 Kilobytes	a small novel
 Gigabytes (GB)	1,000 Megabytes	Beethoven’s 5th Symphony
@@ -146,7 +169,6 @@ To have a veteran QB show from day one how seriously he takes grumbling about hi
 
 SS-Totenkopfverbände (SS-TV; "Death's Head Units"[2])
 
-vim remove newlines :'<,'>s#\\\\n#\\\r#g replace :%s#\\n#\r#g
 
 We feel waves of different emotions as we move through our lives
 
@@ -578,6 +600,10 @@ fdm --changed-within=12days | xargs ls -lhrt | awk '{ print $9 ": " $6 " " $7 " 
 
 rg 'word'
 fdm -tf | xargs sed -i 's/container/card-grid/g'
+https://learnbyexample.github.io/learn_gnused/breere-regular-expressions.html
+
+sed -i.bak 's#\.d\.#d\.#g' junk.js
+diff junk.js.bak junk.js
 
 nohup npm run build &>/dev/null & #https://www.maketecheasier.com/run-bash-commands-background-linux/
 
@@ -632,7 +658,19 @@ zero out file sed -i 'd' cutter
 remove -browser bs
 sed -i  '/\s-/d' style.css
 remove blank lines
+https://vim.fandom.com/wiki/Remove_unwanted_empty_lines
+vim blank (two ways)
+:g/^\s*$/d
+:v/\S/d
+
 sed -i '/^$/d' style.css
+preferred?
+sed -i.bak '/\S/!d' html.txt
+
+remove space at beginning of line
+sed -i.bak 's/^[ \t]*//' cards.txt
+
+/mnt/c/projects/puppet/unclaimed 
 windows sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'
 fdi -a -d 1 only | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'
 list file number count
@@ -1007,6 +1045,12 @@ quick speedtest
 wget -qO- bench.sh | bash
 
 https://stackoverflow.com/questions/16678661/how-can-i-delete-the-current-file-in-vim
+
+vim remove newlines :'<,'>s#\\\\n#\\\r#g replace :%s#\\n#\r#g
+vim big huge line gw
+
+fmt -w 120 i | nvim -
+
 nnoremap <c-k> :call delete(expand('%'))
 
 https://stackoverflow.com/questions/5038856/shorthand-for-getting-the-diff-from-the-last-n-commits
