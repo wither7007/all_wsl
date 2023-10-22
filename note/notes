@@ -1,4 +1,28 @@
+ Android Open Source Project (AOSP)[
+Brewster Kahle
+nomophobia
+tim leary the pyschedelic experience
+What a tire fire.
+var head = document.getElementsByTagName('head')[0];
+javascript: function addcss(css) {
+    var s = document.createElement('style');
+    s.setAttribute('type', 'text/css');
+    s.appendChild(document.createTextNode(css));
+    head.appendChild(s);
+} addcss(
+    "html{filter: invert(1) hue-rotate(180deg)}"); 
+    addcss("img{filter: invert(1) hue-rotate(180deg)}"); 
+    addcss("video{filter: invert(1) hue-rotate(180deg)}");
+
+const promise = new Promise((resolve, reject) => {
+  setTimeout(()=> {
+    resolve('resolved')
+  }, 1000)
+  })
 Stanislav Petrov
+Jarred Sumner  JavaScriptCore
+The 48 Laws of Power
+Robert Greene
 cytisine 
 Propofol
 'inappropriate marriage arrangements
@@ -9,12 +33,27 @@ Law 19: Know who you are dealing with, do not offend the wrong person.
 Law 40: Despise the free lunch.
 Law 46: Never appear two perfect.
 
+5,300-year-old
+Ötzi, the 5,300-year-old mummy found murdered high in the Alps with an arrow in his back, is a prehistoric celebrity who attracts 300,000 visitors a year to his custom cooling chamber in the South Tyrol Museum of Archaeology in Bolzano, Italy
+
 The Financial Accounting Standards Board (FASB), which sets standards for GAAP rules,
 Goodwill=P−( A − L )
 where:
 P=Purchase price of the target company
 A=Fair market value of assets
 L=Fair market value of liabilities
+
+ginners:
+
+* Life of Pythagoras, by Iamblichus
+
+* The Golden Ass, by Apuleius of Numenia (specifically, translation by Robert Graves)
+
+* Life of Alexander by Plutarch
+
+* Education of Cyrus by Xenophon
+
+* Parmenides by Plato
 
 webkit blink and gecko
 ai models
@@ -435,6 +474,13 @@ print(sh.awk('{print $9}', _in=sh.ls('-la')))
   
 re.sub(r'[^a-zA-Z0-9]','',myq)
 
+
+def fc(x):
+    """
+    Formats an integer with commas as thousand separators.
+    """
+    return f"{x:,}"
+
 # using datetime.fromtimestamp() function to convert epoch time into datetime object  
 mytimestamp = datetime.datetime.fromtimestamp( epoch_time )  
   
@@ -629,6 +675,7 @@ done < "$TO_BE_DEL"
 
 !! https://linuxhandbook.com/tar-exclude-files/
 !! fdm -tf | xargs tail -n +1 | nvim - #cat all files
+find . -type f -name "*.mp3" -exec cp {} ../evans \;
 tar -czvf ../ll.tar.gz --exclude-from=ex .
 tar --exclude='42' -zvcf ~/first.tar.gz .
 tar -zxvf first.tar.gz -C junk/django
