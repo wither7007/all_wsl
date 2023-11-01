@@ -1,9 +1,37 @@
+fairview 10-31 5:25 (5:30)
+
+hatertainment
+*North 612 543 2500  800 West Broadway Minneapolis, MN 55411
+lala
+ november 22nd wed 2:00 800 west
+call 11/1
+crotch goblins 
+document.body.contentEditable = true;
+I didn't vaccinate my 10 kids and the one that survived is fine!
+I don't know where I stand on abortion. I like killing babies, but I don't like giving women a choice.
+My boss told me to have a good day. So I went home...
+pack my box with five dozen liquor jugs
+
  Android Open Source Project (AOSP)[
+
+gcp gloud run
+https://news.ycombinator.com/item?id=38016849
+
+Dove Original Beauty Bar, CeraVe Hydrating Body Wash and Cetaphil Ultra Gentle Body Wash.
 Brewster Kahle
 nomophobia
 tim leary the pyschedelic experience
 What a tire fire.
 var head = document.getElementsByTagName('head')[0];
+
+const reg = /e/g;
+let result;
+while ((result = reg.exec(targetText)) !== null) {
+    console.log(result);
+}
+$$('div').filter(a=>a.textContent.match(/queen.*proves/i)).forEach((n,i)=>log(`${i},${sp(n.textContent)}`))
+$$('div').filter(a=>a.textContent.match(/queen.*proves/i)).forEach((n,i)=>log(`${i},${n.childElementCount}, ${sp(n.textContent)}`))
+
 javascript: function addcss(css) {
     var s = document.createElement('style');
     s.setAttribute('type', 'text/css');
@@ -14,6 +42,25 @@ javascript: function addcss(css) {
     addcss("img{filter: invert(1) hue-rotate(180deg)}"); 
     addcss("video{filter: invert(1) hue-rotate(180deg)}");
 
+https://alvarotrigo.com/blog/change-css-javascript/
+function css(e) {
+  // Defining all our CSS styles
+  const myStyles = `
+    display: block;
+    width: 80%;
+    background-color: red;
+    border: 2px;
+    font-size: 5em;
+    color: white;
+    margin: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+  `;
+  const element = document.querySelector(e);
+
+  element.style.cssText = myStyles;
+}
 const promise = new Promise((resolve, reject) => {
   setTimeout(()=> {
     resolve('resolved')
@@ -115,7 +162,6 @@ curl "https://opentdb.com/api.php?amount=10" | jq '.' | less
 
 Pablo Galindo Salgado 
 https://stackoverflow.blog/2023/07/25/how-the-python-team-is-adapting-the-language-for-an-ai-future-ep-593/
-*North 612 543 2500  800 West Broadway Minneapolis, MN 55411
 Hennepin Health cab 04745519
 3409 E. Medicine Lake Plymouth MN 55441-2307
 
@@ -641,6 +687,9 @@ famine affluence and morality
 linux rename
 !!error redirect
 xya >>file.txt 2>&1
+
+curl -X GET -H "Content-Type: application/json"  "http://localhost:5000/posts"
+curl -X GET -H "Content-Type: application/json"   https://api.github.com/users/wither7007/repos
 
 fdm --changed-within=12days | xargs ls -lhrt | awk '{ print $9 ": " $6 " " $7 " " $8}'
 
@@ -2362,15 +2411,9 @@ There comes a time in history when the man who dares to say that two and two mak
 My girlfriend's dog died, so I tried to cheer her up by getting her an identical one. It just made her more upset. She screamed at me, "What am I supposed to do with two dead dogs?"
 
 
-I didn't vaccinate my 10 kids and the one that survived is fine!
-
-I don't know where I stand on abortion. I like killing babies, but I don't like giving women a choice.
-
-My boss told me to have a good day. So I went home...
 
 I'll never forget my dad's last words to me before he died. "Are you still holding the ladder?"
 
-pack my box with five dozen liquor jugs
 
 let space = (n) => {
     let reg = /[^a-zA-Z0-9\.]/g
