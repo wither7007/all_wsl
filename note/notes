@@ -1,11 +1,59 @@
-fairview 10-31 5:25 (5:30)
 
-hatertainment
+================
 *North 612 543 2500  800 West Broadway Minneapolis, MN 55411
 lala
  november 22nd wed 2:00 800 west
 call 11/1
+================
+
+ Keith Humphreys, PhD, professor of psychiatry and behavioral sciences, and his fellow investigators determined that AA was nearly always found to be more effective than psychotherapy in achieving abstinence. In addition, most studies showed that AA participation lowered health care costs.
+Cochrane review,
+
+What is truth? said jesting Pilate; and would not stay for an answer.
+HyperCard was created by Bill Atkinson following an LSD trip.[11] Work for it began in March 1985 under the name of WildCard (hence its creator code of WILD).
+
+debugg chrome!!!
+https://news.ycombinator.com/item?id=38226743
+
+https://inv.tux.pizza/watch?v=AOO5f5Qf9W8&list=PLnXXfVF21G8xhbG1azUTY34kRTiEQKkEa&index=2&autoplay=1
+tired of the human face
+“To succeed, planning alone is insufficient. One must improvise as well.”
+Districts for this address:
+Congressional: 3
+MN Senate: 42
+MN House:42B
+County Commissioner: 02
+Judicial:  04
+Park: HENNEPIN 1
+Soil and Water Conservation:
+School: ROBBINSDALE (281)
+County: Hennepin
+Minnesota State Senate District 42
+Incumbent
+Bonnie Westlin
+Democratic
+Assumed office: January 3, 2023
+Rep. Ginny Klevorn (DFL) District: 42B
+2018
+
+State legislative salaries, 2023
+Salary	Per diem
+$51,750/year	For senators: $86/day. For representatives: $66/day.
+
+hatertainment
+linear search O(n)
+binary O(log2n)
+At the time, my Xfinity service provided downloads of about 100 megabits per second, with pokey uploads in the single digits. This was painful, especially uploading, because I work from home and often transfer large files.
+
+The wireless services left Xfinity in the dust.
+
+T-Mobile downloads consistently hit 200 Mbps and sometimes peaked at 250 Mbps. Verizon regularly exceeded 250 Mbps and sometimes topped 300 Mbps. Uploads for both services were higher than 10 Mbps and sometimes peaked at 30 to 40 Mbps.
+
+At 300 Mbps, it takes about four minutes to download a high-definition video file.
 crotch goblins 
+
+https://www.youtube.com/watch?v=rDVceKdx1UY
+https://inv.tux.pizza/watch?v=rDVceKdx1UY
 document.body.contentEditable = true;
 I didn't vaccinate my 10 kids and the one that survived is fine!
 I don't know where I stand on abortion. I like killing babies, but I don't like giving women a choice.
@@ -14,6 +62,7 @@ pack my box with five dozen liquor jugs
 
  Android Open Source Project (AOSP)[
 
+yahoo oxy123
 gcp gloud run
 https://news.ycombinator.com/item?id=38016849
 
@@ -43,6 +92,14 @@ javascript: function addcss(css) {
     addcss("video{filter: invert(1) hue-rotate(180deg)}");
 
 https://alvarotrigo.com/blog/change-css-javascript/
+
+javascript
+Array.from(document.querySelectorAll("*")).forEach(element => {
+    const events = getEventListeners(element)
+    if (Object.keys(events).length !== 0) {
+        console.log(element, events)
+    }
+})
 function css(e) {
   // Defining all our CSS styles
   const myStyles = `
@@ -294,7 +351,6 @@ https://www.builder.io/blog/debug-nodejs
 volt html to android app
 https://www.youtube.com/watch?v=RpYQJvqxNN8
 
-https://github.com/folke/flash.nvim
 
 https://www.coltsteele.com/tutorials/mastering-css-grid
 todo tomorrow Monday
@@ -685,6 +741,14 @@ the concept of law
 peter Singer
 famine affluence and morality
 linux rename
+sort by dir size
+(du -sh -- * | sort -rh > h &)
+weird create 10mb file
+yes 'This is a test file.' | head -c 10MB > testfile.txt
+
+https://learnbyexample.github.io/substitution-with-ripgrep/
+cat gObj.html  | rg --passthru 'a' -r ' xxxx '
+
 !!error redirect
 xya >>file.txt 2>&1
 
@@ -701,6 +765,7 @@ sed -i.bak 's#\.d\.#d\.#g' junk.js
 diff junk.js.bak junk.js
 
 nohup npm run build &>/dev/null & #https://www.maketecheasier.com/run-bash-commands-background-linux/
+npm --prefix /mnt/c/projects/server/ run server
 
 #remove all in directore (-t d for directories)
 find -mindepth 1 -maxdepth 1 -print0 | xargs -r0 rm -R #https://unix.stackexchange.com/questions/68846/how-do-i-remove-all-sub-directories-from-within-a-directory
@@ -724,6 +789,26 @@ done < "$TO_BE_DEL"
 
 !! https://linuxhandbook.com/tar-exclude-files/
 !! fdm -tf | xargs tail -n +1 | nvim - #cat all files
+vim to json :%!jq .
+:%!python -m json.tool
+
+vim format long line !fmt -1 
+vim run linux cmd :%! sort
+vim replace backslash
+:%s/\\\\/\\/g
+vim init 
+:echo $MYVIMRC
+
+vim error in json
+:set filetype=javascript
+
+
+vim blank (two ways)
+:g/^\s*$/d
+:v/\S/d
+
+https://github.com/folke/flash.nvim
+
 find . -type f -name "*.mp3" -exec cp {} ../evans \;
 tar -czvf ../ll.tar.gz --exclude-from=ex .
 tar --exclude='42' -zvcf ~/first.tar.gz .
@@ -755,9 +840,6 @@ remove -browser bs
 sed -i  '/\s-/d' style.css
 remove blank lines
 https://vim.fandom.com/wiki/Remove_unwanted_empty_lines
-vim blank (two ways)
-:g/^\s*$/d
-:v/\S/d
 
 sed -i '/^$/d' style.css
 preferred?
@@ -1308,7 +1390,7 @@ h3
 fc -e v 619
 
 fd "[^a-zA-Z0-9]" -exec rename "s/[^a-zA-Z0-9]/_/g" #!good replace garbage names
-
+javascript l.replaceAll(/[^a-zA-Z0-9]/g,' ').replaceAll(/\s{2,}/g,' ')
 fd 'read' -exec rename "y/a-z/A-Z/" #!cool uppercase rename
 
 long fd/rg search
