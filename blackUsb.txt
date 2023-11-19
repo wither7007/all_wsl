@@ -1,0 +1,2076 @@
+
+    Directory: E:\
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/30/2020  6:10 AM                Android
+d----          10/17/2019 11:30 PM                boot
+d----          10/17/2019 11:30 PM                efi
+d----            1/3/2023 12:24 PM                GDrive
+d----            1/3/2023 12:18 AM                gut
+d----           3/20/2023  5:40 PM                justin
+d----          10/17/2019 11:30 PM                sources
+d----          10/17/2019 11:37 PM                support
+d----            1/3/2023 12:12 PM                you
+-a---          10/25/2023 12:56 AM            365 ESD-USB (D) - Shortcut.lnk
+
+    Directory: E:\boot
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/17/2019 11:30 PM                en-us
+d----          10/17/2019 11:30 PM                fonts
+d----          10/17/2019 11:30 PM                resources
+-a---           12/9/2020  8:28 AM          16384 bcd
+-a---            9/9/2019  2:48 PM        3170304 boot.sdi
+-a---            9/9/2019  2:48 PM           1024 bootfix.bin
+-a---            9/9/2019  2:48 PM         108048 bootsect.exe
+-a---            9/9/2019  2:48 PM           4096 etfsboot.com
+-a---            9/9/2019  2:48 PM         990008 memtest.exe
+
+    Directory: E:\boot\en-us
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  3:00 PM          16384 bootsect.exe.mui
+
+    Directory: E:\boot\fonts
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM        3695854 chs_boot.ttf
+-a---            9/9/2019  2:48 PM        3878522 cht_boot.ttf
+-a---            9/9/2019  2:49 PM        1985976 jpn_boot.ttf
+-a---            9/9/2019  2:48 PM        2373110 kor_boot.ttf
+-a---            9/9/2019  2:48 PM         178122 malgun_boot.ttf
+-a---            9/9/2019  2:48 PM          82554 malgun_console.ttf
+-a---            9/9/2019  2:48 PM         175666 malgunn_boot.ttf
+-a---            9/9/2019  2:48 PM         145894 meiryo_boot.ttf
+-a---            9/9/2019  2:48 PM          91741 meiryo_console.ttf
+-a---            9/9/2019  2:48 PM         144230 meiryon_boot.ttf
+-a---            9/9/2019  2:48 PM         165734 msjh_boot.ttf
+-a---            9/9/2019  2:48 PM         203950 msjh_console.ttf
+-a---            9/9/2019  2:48 PM         163706 msjhn_boot.ttf
+-a---            9/9/2019  2:48 PM         157274 msyh_boot.ttf
+-a---            9/9/2019  2:48 PM          97646 msyh_console.ttf
+-a---            9/9/2019  2:48 PM         155438 msyhn_boot.ttf
+-a---            9/9/2019  2:48 PM          44970 segmono_boot.ttf
+-a---            9/9/2019  2:48 PM          86287 segoe_slboot.ttf
+-a---            9/9/2019  2:48 PM          85974 segoen_slboot.ttf
+-a---            9/9/2019  2:48 PM          49202 wgl4_boot.ttf
+
+    Directory: E:\boot\resources
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM          92688 bootres.dll
+
+    Directory: E:\efi
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/17/2019 11:30 PM                boot
+d----          10/17/2019 11:30 PM                microsoft
+-a---          10/30/2020  6:46 AM         284643 aaKinko.pdf
+-a---            9/9/2019  2:48 PM            128 autorun.inf
+-a---            5/4/2021  3:22 PM           1438 BOOTEX.LOG
+-a---            9/9/2019  2:48 PM         409654 bootmgr
+-a---            9/9/2019  2:48 PM        1509688 bootmgr.efi
+-a---          10/14/2019  8:34 PM          13450 BusOct.docx
+-a---          10/14/2019  4:58 PM          13445 busPass.docx
+-a---            9/4/2019  2:54 AM          13463 busPassJune.docx
+-a---           9/11/2019  9:21 PM          13637 busPassSep.docx
+-a---           9/11/2019  9:21 PM          13656 busPassSep2.docx
+-a---           9/25/2019 10:27 PM          28372 FD0791CC.tmp
+-a---            5/4/2021  6:02 PM          27538 hcBill11.docx
+-a---            5/5/2021 12:37 PM          27838 hcBill12.docx
+-a---          10/30/2020  6:47 AM         284844 MV_DuplicatePlate_Stickers_Application.pdf
+-a---           9/23/2019  7:45 PM          27554 NORTHMEM.docx
+-a---           9/23/2019  7:45 PM          27827 NORTHMEM2.docx
+-a---           12/2/2020  7:54 AM          27960 NORTHMEM3.docx
+-a---            5/4/2021  6:06 PM          23194 NorthPointbill.docx
+-a---           7/15/2019 10:09 PM          23177 NorthPointbill2.docx
+-a---           9/23/2019  9:56 PM          17082 paycheck.docx
+-a---           9/23/2019  9:56 PM          18663 paycheck2.docx
+-a---           9/23/2019  9:57 PM          28162 paycheck3.docx
+-a---           9/23/2019  9:57 PM          29241 paycheck5.docx
+-a---           9/26/2019  4:31 AM          27810 paycheck6.docx
+-a---           1/14/2020  1:42 PM              0 paycheck7.docx
+-a---           9/26/2019  4:31 AM          28371 paycheck8.docx
+-a---           9/26/2019  4:31 AM          27788 paycheck9.docx
+-a---           12/9/2020  8:28 AM              0 Recovery.txt
+-a---            9/9/2019  2:48 PM          73904 setup.exe
+-a---            5/4/2021  7:56 PM            550 ssi.txt
+
+    Directory: E:\efi\boot
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM        1526072 bootx64.efi
+
+    Directory: E:\efi\microsoft
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/17/2019 11:30 PM                boot
+
+    Directory: E:\efi\microsoft\boot
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/17/2019 11:30 PM                fonts
+d----          10/17/2019 11:30 PM                resources
+-a---            9/9/2019  2:48 PM          16384 bcd
+-a---            9/9/2019  2:48 PM        1144336 cdboot_noprompt.efi
+-a---            9/9/2019  2:48 PM        1144328 cdboot.efi
+-a---            9/9/2019  2:48 PM        1474560 efisys_noprompt.bin
+-a---            9/9/2019  2:48 PM        1474560 efisys.bin
+-a---            9/9/2019  2:48 PM        1321784 memtest.efi
+-a---            9/9/2019  2:48 PM           8928 winsipolicy.p7b
+
+    Directory: E:\efi\microsoft\boot\fonts
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM        3695830 chs_boot.ttf
+-a---            9/9/2019  2:48 PM        3878522 cht_boot.ttf
+-a---            9/9/2019  2:48 PM        1985978 jpn_boot.ttf
+-a---            9/9/2019  2:48 PM        2373110 kor_boot.ttf
+-a---            9/9/2019  2:48 PM         178098 malgun_boot.ttf
+-a---            9/9/2019  2:48 PM          82554 malgun_console.ttf
+-a---            9/9/2019  2:48 PM         175642 malgunn_boot.ttf
+-a---            9/9/2019  2:48 PM         145894 meiryo_boot.ttf
+-a---            9/9/2019  2:48 PM          91765 meiryo_console.ttf
+-a---            9/9/2019  2:48 PM         144254 meiryon_boot.ttf
+-a---            9/9/2019  2:48 PM         165733 msjh_boot.ttf
+-a---            9/9/2019  2:48 PM         203950 msjh_console.ttf
+-a---            9/9/2019  2:48 PM         163730 msjhn_boot.ttf
+-a---            9/9/2019  2:48 PM         157273 msyh_boot.ttf
+-a---            9/9/2019  2:48 PM          97645 msyh_console.ttf
+-a---            9/9/2019  2:48 PM         155438 msyhn_boot.ttf
+-a---            9/9/2019  2:48 PM          44970 segmono_boot.ttf
+-a---            9/9/2019  2:48 PM          86290 segoe_slboot.ttf
+-a---            9/9/2019  2:48 PM          85974 segoen_slboot.ttf
+-a---            9/9/2019  2:48 PM          49202 wgl4_boot.ttf
+
+    Directory: E:\efi\microsoft\boot\resources
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM          92688 bootres.dll
+
+    Directory: E:\sources
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/17/2019 11:31 PM                dlmanifests
+d----          10/17/2019 11:31 PM                en-us
+d----          10/17/2019 11:31 PM                etwproviders
+d----          10/17/2019 11:31 PM                inf
+d----          10/17/2019 11:36 PM                migration
+d----          10/17/2019 11:36 PM                replacementmanifests
+d----          10/17/2019 11:37 PM                sxs
+d----          10/17/2019 11:37 PM                uup
+d----          10/17/2019 11:37 PM                vista
+d----          10/17/2019 11:37 PM                xp
+-a---            9/9/2019  2:48 PM         324408 acmigration.dll
+-a---            9/9/2019  2:48 PM         331816 acres.dll
+-a---            9/9/2019  2:48 PM         187400 actionqueue.dll
+-a---            9/9/2019  2:48 PM          50728 adfscomp.dll
+-a---            9/9/2019  2:48 PM          73880 admtv3check.dll
+-a---            9/9/2019  2:48 PM         735544 aeinv.dll
+-a---            9/9/2019  2:48 PM           1046 alert.gif
+-a---            9/9/2019  2:48 PM          12498 appcompat_bidi.xsl
+-a---            9/9/2019  2:48 PM          13371 appcompat_detailed_bidi_txt.xsl
+-a---            9/9/2019  2:48 PM          13732 appcompat_detailed_bidi.xsl
+-a---            9/9/2019  2:48 PM          13326 appcompat_detailed_txt.xsl
+-a---            9/9/2019  2:48 PM          13608 appcompat_detailed.xsl
+-a---            9/9/2019  2:48 PM          11673 appcompat.xsl
+-a---            9/9/2019  2:48 PM          58384 appcompatservicing.dll
+-a---            9/9/2019  2:49 PM        1711416 appraiser.dll
+-a---            9/9/2019  2:49 PM        2606840 appraiser.sdb
+-a---            9/9/2019  2:48 PM           9669 appraiserdatasha1.cat
+-a---            9/9/2019  2:48 PM         127504 appraiserres.dll
+-a---            9/9/2019  2:48 PM         825360 arunimg.dll
+-a---            9/9/2019  2:48 PM          14352 arunres.dll
+-a---            9/9/2019  2:48 PM         163856 autorun.dll
+-a---            9/9/2019  2:49 PM        2359350 background_cli.bmp
+-a---          10/17/2019 11:23 PM      382435126 boot.wim
+-a---            9/9/2019  2:48 PM           1976 cdplib.mof
+-a---            9/9/2019  2:48 PM            571 cdplibuninstall.mof
+-a---            9/9/2019  2:48 PM          21144 clustercompliance.dll
+-a---            9/9/2019  2:48 PM         177680 cmi2migxml.dll
+-a---            9/9/2019  2:48 PM         662544 cmisetup.dll
+-a---            9/9/2019  2:48 PM         150544 compatctrl.dll
+-a---            9/9/2019  2:49 PM        3810832 compatresources.dll
+-a---            9/9/2019  2:48 PM          39576 compres.dll
+-a---            9/9/2019  2:48 PM          23696 cryptosetup.dll
+-a---            9/9/2019  2:48 PM         656392 csiagent.dll
+-a---            9/9/2019  2:48 PM             49 cversion.ini
+-a---            9/9/2019  2:48 PM           1499 db_msftproductionwindowssigningca.cer
+-a---            9/9/2019  2:48 PM         631824 devinv.dll
+-a---            9/9/2019  2:48 PM          52264 diager.dll
+-a---            9/9/2019  2:48 PM         171016 diagnostic.dll
+-a---            9/9/2019  2:49 PM        1365856 diagtrack.dll
+-a---            9/9/2019  2:48 PM          88256 diagtrackrunner.exe
+-a---            9/9/2019  2:48 PM         278840 dism.exe
+-a---            9/9/2019  2:49 PM        1002808 dismapi.dll
+-a---            9/9/2019  2:48 PM         387896 dismcore.dll
+-a---            9/9/2019  2:48 PM         181048 dismcoreps.dll
+-a---            9/9/2019  2:48 PM         247096 dismprov.dll
+-a---            9/9/2019  2:48 PM         150024 du.dll
+-a---            9/9/2019  2:49 PM         932880 facilitator.dll
+-a---            9/9/2019  2:48 PM          59704 folderprovider.dll
+-a---            9/9/2019  2:49 PM        1469696 gatherosstate.exe
+-a---            9/9/2019  2:49 PM         810512 generaltel.dll
+-a---            9/9/2019  2:48 PM         198664 hwcompat.dll
+-a---            9/9/2019  2:48 PM         740638 hwcompat.txt
+-a---            9/9/2019  2:48 PM            257 hwcompatPE.txt
+-a---            9/9/2019  2:48 PM             51 hwexclude.txt
+-a---            9/9/2019  2:48 PM             15 hwexcludePE.txt
+-a---            9/9/2019  2:48 PM         180888 hypervcomplcheck.dll
+-a---            9/9/2019  2:48 PM         695312 iasmigplugin.dll
+-a---            9/9/2019  2:48 PM            124 idwbinfo.txt
+-a---            9/9/2019  2:48 PM          23704 iiscomp.dll
+-a---            9/9/2019  2:48 PM         216888 imagingprovider.dll
+-a---            9/9/2019  2:48 PM         376848 input.dll
+-a---          10/17/2019 11:30 PM     3561455274 install.esd
+-a---            9/9/2019  2:48 PM          86168 itgtupg.dll
+-a---            9/9/2019  3:00 PM             78 lang.ini
+-a---            9/9/2019  2:49 PM         811144 locale.nls
+-a---            9/9/2019  2:48 PM         142888 logprovider.dll
+-a---            9/9/2019  2:49 PM       13957648 mediasetupuimgr.dll
+-a---            9/9/2019  2:48 PM         654548 migapp.xml
+-a---            9/9/2019  2:49 PM        8928568 migcore.dll
+-a---            9/9/2019  2:48 PM         257552 mighost.exe
+-a---            9/9/2019  2:48 PM         141840 migisol.dll
+-a---            9/9/2019  2:48 PM          16400 migres.dll
+-a---            9/9/2019  2:49 PM        1228840 migstore.dll
+-a---            9/9/2019  2:48 PM         384008 migsys.dll
+-a---            9/9/2019  2:48 PM          48280 migtestplugin.dll
+-a---            9/9/2019  2:48 PM         250896 mitigation.dll
+-a---            9/9/2019  2:48 PM         315408 mxeagent.dll
+-a---            9/9/2019  2:48 PM          89912 nlsbres.dll
+-a---            9/9/2019  2:48 PM          28336 ntdsupg.dll
+-a---            9/9/2019  2:48 PM          52376 ntfrsupg.dll
+-a---            9/9/2019  2:48 PM           1475 nxquery.inf
+-a---            9/9/2019  2:48 PM          16024 nxquery.sys
+-a---            9/9/2019  2:48 PM          38790 offline.xml
+-a---            9/9/2019  2:48 PM         193024 offlineprofileutils.dll
+-a---            9/9/2019  2:48 PM         249101 oscomps.woa.xml
+-a---            9/9/2019  2:48 PM         435175 oscomps.xml
+-a---            9/9/2019  2:48 PM          21299 osfilter.inf
+-a---            9/9/2019  2:48 PM           4780 outofbox_windows_db.bin
+-a---            9/9/2019  2:48 PM          80912 pnpibs.dll
+-a---            9/9/2019  2:48 PM          76088 pnppropmig.dll
+-a---            9/9/2019  3:00 PM           6139 product.ini
+-a---            9/9/2019  2:48 PM          53560 rdsupgcheck.dll
+-a---            9/9/2019  2:48 PM           1240 reagent.admx
+-a---            9/9/2019  2:49 PM        1084432 reagent.dll
+-a---            9/9/2019  2:48 PM            837 reagent.xml
+-a---            9/9/2019  2:48 PM          51728 reportgen.dll
+-a---            9/9/2019  2:49 PM         248120 reservemanager.dll
+-a---            9/9/2019  2:48 PM          74256 rmsupg.dll
+-a---            9/9/2019  2:48 PM         121352 rollback.exe
+-a---            9/9/2019  2:48 PM          94208 schema.dat
+-a---            9/9/2019  2:48 PM         308752 sdbapiu.dll
+-a---            9/9/2019  2:49 PM         955804 segoeui.ttf
+-a---            9/9/2019  2:48 PM         275256 setup.exe
+-a---            9/9/2019  2:48 PM         328720 setupcompat.dll
+-a---            9/9/2019  2:49 PM        2282808 setupcore.dll
+-a---            9/9/2019  2:48 PM          87864 setuperror.exe
+-a---            9/9/2019  2:49 PM         858936 setuphost.exe
+-a---            9/9/2019  2:49 PM         904504 setupmgr.dll
+-a---            9/9/2019  2:48 PM           8089 setupplatform.cfg
+-a---            9/9/2019  2:49 PM        9189688 setupplatform.dll
+-a---            9/9/2019  2:48 PM         166200 setupplatform.exe
+-a---            9/9/2019  2:49 PM       10758672 setupprep.exe
+-a---            9/9/2019  2:48 PM           1824 sfcn.dat
+-a---            9/9/2019  2:48 PM           1644 sflcid.dat
+-a---            9/9/2019  2:49 PM        5593408 sflistrs1.dat
+-a---            9/9/2019  2:49 PM        1703368 sflistw7.dat
+-a---            9/9/2019  2:49 PM        2608858 sflistw8.dat
+-a---            9/9/2019  2:49 PM         954436 sflistw8.woa.dat
+-a---            9/9/2019  2:49 PM        3172904 sflistwb.dat
+-a---            9/9/2019  2:49 PM        1150134 sflistwb.woa.dat
+-a---            9/9/2019  2:49 PM        4935368 sflistwt.dat
+-a---            9/9/2019  2:49 PM        2636850 sflistwt.woa.dat
+-a---            9/9/2019  2:48 PM          11365 sfpat.inf
+-a---            9/9/2019  2:48 PM         169870 sfpatrs1.inf
+-a---            9/9/2019  2:48 PM          17396 sfpatw7.inf
+-a---            9/9/2019  2:48 PM          79818 sfpatw8.inf
+-a---            9/9/2019  2:48 PM          91635 sfpatwb.inf
+-a---            9/9/2019  2:48 PM         165729 sfpatwt.inf
+-a---            9/9/2019  2:49 PM         856072 smiengine.dll
+-a---            9/9/2019  2:48 PM          35344 spflvrnt.dll
+-a---            9/9/2019  2:48 PM          59920 spprgrss.dll
+-a---            9/9/2019  2:49 PM         507912 spwizeng.dll
+-a---            9/9/2019  2:49 PM        5865488 spwizimg.dll
+-a---            9/9/2019  2:48 PM          16912 spwizres.dll
+-a---            9/9/2019  2:48 PM          47720 sqmapi.dll
+-a---            9/9/2019  2:48 PM          49808 uddicomp.dll
+-a---            9/9/2019  2:49 PM         203064 unattend.dll
+-a---            9/9/2019  2:49 PM        1088040 unbcl.dll
+-a---            9/9/2019  2:48 PM          11122 uninstall_data.xml
+-a---            9/9/2019  2:48 PM           3286 uninstall.xml
+-a---            9/9/2019  2:49 PM        2721080 updateagent.dll
+-a---            9/9/2019  2:49 PM        1953296 updatesetupuimgr.dll
+-a---            9/9/2019  2:49 PM         116232 upgloader.dll
+-a---            9/9/2019  2:49 PM         192141 upgrade_bulk.xml
+-a---            9/9/2019  2:48 PM           4320 upgrade_comp.xml
+-a---            9/9/2019  2:48 PM          41108 upgrade_data.xml
+-a---            9/9/2019  2:48 PM          17284 upgrade_frmwrk.xml
+-a---            9/9/2019  2:49 PM        2970424 upgradeagent.dll
+-a---            9/9/2019  2:49 PM          70911 upgradeagent.xml
+-a---            9/9/2019  2:48 PM          97110 upgwow_bulk.xml
+-a---            9/9/2019  2:49 PM         176648 uxlib.dll
+-a---            9/9/2019  2:48 PM          11792 uxlibres.dll
+-a---            9/9/2019  2:49 PM         557368 vhdprovider.dll
+-a---            9/9/2019  2:49 PM        2897928 w32uiimg.dll
+-a---            9/9/2019  2:49 PM         212496 w32uires.dll
+-a---            9/9/2019  2:48 PM            597 warning.gif
+-a---            9/9/2019  2:49 PM         992408 wdsclient.dll
+-a---            9/9/2019  2:49 PM         298136 wdsclientapi.dll
+-a---            9/9/2019  2:49 PM         249360 wdscore.dll
+-a---            9/9/2019  2:48 PM          60432 wdscsl.dll
+-a---            9/9/2019  2:49 PM         945304 wdsimage.dll
+-a---            9/9/2019  2:49 PM         675992 wdstptc.dll
+-a---            9/9/2019  2:48 PM          20120 wdsupgcompl.dll
+-a---            9/9/2019  2:49 PM         296464 wdsutil.dll
+-a---            9/9/2019  2:48 PM          13734 wicadevicefilters.xml
+-a---            9/9/2019  2:49 PM         592184 wimprovider.dll
+-a---            9/9/2019  2:49 PM         663560 win32ui.dll
+-a---            9/9/2019  2:49 PM        1400848 windlp.dll
+-a---            9/9/2019  2:49 PM        3640328 winsetup.dll
+-a---            9/9/2019  2:48 PM           8192 winsetupboot.hiv
+-a---            9/9/2019  2:48 PM          66360 winsetupboot.sys
+-a---            9/9/2019  2:49 PM        1337656 wpx.dll
+
+    Directory: E:\sources\dlmanifests
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/17/2019 11:31 PM                microsoft-activedirectory-webservices-dl
+d----          10/17/2019 11:31 PM                microsoft-windows-bluetooth-config
+d----          10/17/2019 11:31 PM                microsoft-windows-com-complus-setup-dl
+d----          10/17/2019 11:31 PM                microsoft-windows-com-dtc-setup-dl
+d----          10/17/2019 11:31 PM                microsoft-windows-dhcpservermigplugin-dl
+d----          10/17/2019 11:31 PM                microsoft-windows-directoryservices-adam-dl
+d----          10/17/2019 11:31 PM                microsoft-windows-iasserver-migplugin
+d----          10/17/2019 11:31 PM                microsoft-windows-ie-clientnetworkprotocolimplementation-migration
+d----          10/17/2019 11:31 PM                microsoft-windows-iis-dl
+d----          10/17/2019 11:31 PM                microsoft-windows-internet-naming-service-runtime
+d----          10/17/2019 11:31 PM                microsoft-windows-msmq-messagingcoreservice
+d----          10/17/2019 11:31 PM                microsoft-windows-networkbridge
+d----          10/17/2019 11:31 PM                microsoft-windows-networkloadbalancing-core
+d----          10/17/2019 11:31 PM                microsoft-windows-rasconnectionmanager
+d----          10/17/2019 11:31 PM                microsoft-windows-rasserver-migplugin
+d----          10/17/2019 11:31 PM                microsoft-windows-tapisetup
+d----          10/17/2019 11:31 PM                microsoft-windows-terminalservices-licenseserver
+d----          10/17/2019 11:31 PM                microsoft-windows-textservicesframework-migration-dl
+d----          10/17/2019 11:31 PM                microsoft-windows-unimodem-config
+d----          10/17/2019 11:31 PM                microsoft-windows-winsock-core-infrastructure-upgrade
+d----          10/17/2019 11:31 PM                microsoft-windows-wmi-core
+d----          10/17/2019 11:31 PM                networking-mpssvc-svc
+-a---            9/9/2019  2:48 PM           4717 accessibilitycpl-dl.man
+-a---            9/9/2019  2:48 PM            667 activedirectory-webservices-dl.man
+-a---            9/9/2019  2:48 PM           1164 activedirectory-wmireplicationprovider-dl.man
+-a---            9/9/2019  2:48 PM           3725 adsi-ldap-extensions-dl.man
+-a---            9/9/2019  2:48 PM           1676 adsi-ldap-provider-dl.man
+-a---            9/9/2019  2:48 PM           1962 adsi-router-dl.man
+-a---            9/9/2019  2:48 PM           1655 adsi-winnt-provider-dl.man
+-a---            9/9/2019  2:48 PM           1424 bluetooth-config-dl.man
+-a---            9/9/2019  2:48 PM           3170 browserservice-dl.man
+-a---            9/9/2019  2:48 PM           7079 capi2_certs-dl.man
+-a---            9/9/2019  2:48 PM           2879 commandprompt-dl.man
+-a---            9/9/2019  2:48 PM           1655 coreos-dl.man
+-a---            9/9/2019  2:48 PM           2224 credential-manager-dl.man
+-a---            9/9/2019  2:48 PM           2947 crypto_keys-dl.man
+-a---            9/9/2019  2:48 PM           1468 cryptoconfig-dl.man
+-a---            9/9/2019  2:48 PM           1685 dfsclient-dl.man
+-a---            9/9/2019  2:48 PM           2062 dfsmgmt-dl.man
+-a---            9/9/2019  2:48 PM           1514 dhcpclient-dl.man
+-a---            9/9/2019  2:48 PM           4183 dhcpservermigplugin-dl.man
+-a---            9/9/2019  2:48 PM           2199 directoryservices-adam-dl.man
+-a---            9/9/2019  2:48 PM           2030 directoryservices-domain-dl.man
+-a---            9/9/2019  2:48 PM           1837 directoryservices-ism-smtp-dl.man
+-a---            9/9/2019  2:48 PM           3754 dns-client-dl.man
+-a---            9/9/2019  2:48 PM           2305 dns-server-service-dl.man
+-a---            9/9/2019  2:48 PM           4533 dpapi_keys-dl.man
+-a---            9/9/2019  2:48 PM           1459 etw-core-dl.man
+-a---            9/9/2019  2:48 PM          15130 etwtracing.man
+-a---            9/9/2019  2:48 PM           1759 eventlog-dl.man
+-a---            9/9/2019  2:48 PM           1969 evntagnt-dl.man
+-a---            9/9/2019  2:48 PM           2571 explorer-dl.man
+-a---            9/9/2019  2:48 PM           1617 extensibleauthenticationprotocolhostservice-dl.man
+-a---            9/9/2019  2:48 PM           1613 feclient-dl.man
+-a---            9/9/2019  2:48 PM            788 fonts-type1-dl.man
+-a---            9/9/2019  2:48 PM           4453 frs-core-dl.man
+-a---            9/9/2019  2:48 PM           7121 gpbase-dl.man
+-a---            9/9/2019  2:48 PM           1383 gpmc-dl.man
+-a---            9/9/2019  2:48 PM           1509 gpmgmt-dl.man
+-a---            9/9/2019  2:48 PM           1444 grouppolicy-admin-gpedit-dl.man
+-a---            9/9/2019  2:48 PM           1454 grouppolicy-admin-gpedit-snapin-dl.man
+-a---            9/9/2019  2:48 PM           1923 grouppolicy-cse-softwareinstallation-dl.man
+-a---            9/9/2019  2:48 PM           1591 grouppolicy-serveradmintools-gpmc-dl.man
+-a---            9/9/2019  2:48 PM           4134 iasmigplugin-dl.man
+-a---            9/9/2019  2:48 PM           1085 ieframe-dl.man
+-a---            9/9/2019  2:48 PM           1534 ime-traditional-chinese-migration-dl.man
+-a---            9/9/2019  2:48 PM           5546 internet-naming-service-runtime-dl.man
+-a---            9/9/2019  2:48 PM           1745 isns_service-dl.man
+-a---            9/9/2019  2:48 PM           2062 kerberos-key-distribution-center-dl.man
+-a---            9/9/2019  2:48 PM           1390 ldap-client-dl.man
+-a---            9/9/2019  2:48 PM           1614 microsoft-windows-bits-client-dl.man
+-a---            9/9/2019  2:48 PM           1865 microsoft-windows-certificateservices-ca-dl.man
+-a---            9/9/2019  2:48 PM           1439 microsoft-windows-certificateservices-camanagement-dl.man
+-a---            9/9/2019  2:48 PM           1721 microsoft-windows-certificateservices-mscep-dl.man
+-a---            9/9/2019  2:48 PM           2179 microsoft-windows-dot3svc-dl.man
+-a---            9/9/2019  2:48 PM           1938 microsoft-windows-errorreportingcore-dl.man
+-a---            9/9/2019  2:48 PM           1142 microsoft-windows-errorreportingfaults-dl.man
+-a---            9/9/2019  2:48 PM           3761 microsoft-windows-fax-client-applications-dl.man
+-a---            9/9/2019  2:48 PM           1831 microsoft-windows-fax-client-proenterprise-dl.man
+-a---            9/9/2019  2:48 PM           4829 microsoft-windows-fax-common-dl.man
+-a---            9/9/2019  2:48 PM           1855 microsoft-windows-fax-server-dl.man
+-a---            9/9/2019  2:48 PM           7636 microsoft-windows-fax-service-dl.man
+-a---            9/9/2019  2:48 PM           1789 microsoft-windows-htmlhelp-dl.man
+-a---            9/9/2019  2:48 PM           1927 microsoft-windows-ie-esc-dl.man
+-a---            9/9/2019  2:48 PM           2339 microsoft-windows-ie-feeds-platform-dl.man
+-a---            9/9/2019  2:48 PM          13279 microsoft-windows-ie-internetexplorer-dl.man
+-a---            9/9/2019  2:48 PM           1598 microsoft-windows-iis-asp-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1561 microsoft-windows-iis-aspnet-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1571 microsoft-windows-iis-aspnet45-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1664 microsoft-windows-iis-basicauthentication-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1598 microsoft-windows-iis-cgi-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1744 microsoft-windows-iis-clientcertificatemappingauthentication-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1461 microsoft-windows-iis-corewebengine-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1640 microsoft-windows-iis-customlogging-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1648 microsoft-windows-iis-defaultdocument-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1668 microsoft-windows-iis-digestauthentication-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1656 microsoft-windows-iis-directorybrowsing-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1624 microsoft-windows-iis-ftpserver-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1678 microsoft-windows-iis-httpcompressiondynamic-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1674 microsoft-windows-iis-httpcompressionstatic-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1628 microsoft-windows-iis-httperrors-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1632 microsoft-windows-iis-httplogging-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1636 microsoft-windows-iis-httpredirect-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1632 microsoft-windows-iis-httptracing-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1732 microsoft-windows-iis-iiscertificatemappingauthentication-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1628 microsoft-windows-iis-ipsecurity-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1648 microsoft-windows-iis-isapiextensions-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1632 microsoft-windows-iis-isapifilter-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1640 microsoft-windows-iis-legacyscripts-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1544 microsoft-windows-iis-legacysnapin-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1652 microsoft-windows-iis-logginglibraries-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1562 microsoft-windows-iis-managementconsole-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1686 microsoft-windows-iis-managementscriptingtools-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1656 microsoft-windows-iis-managementservice-deployment-dl.man
+-a---            9/9/2019  2:48 PM           2752 microsoft-windows-iis-metabase-dl.man
+-a---            9/9/2019  2:48 PM           1585 microsoft-windows-iis-netfxextensibility-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1593 microsoft-windows-iis-netfxextensibility45-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1632 microsoft-windows-iis-odbclogging-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1652 microsoft-windows-iis-requestfiltering-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1644 microsoft-windows-iis-requestmonitor-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1662 microsoft-windows-iis-serversideincludes-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1640 microsoft-windows-iis-staticcontent-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1648 microsoft-windows-iis-urlauthorization-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1672 microsoft-windows-iis-windowsauthentication-deployment-dl.man
+-a---            9/9/2019  2:48 PM           1652 microsoft-windows-iis-wmicompatibility-deployment-dl.man
+-a---            9/9/2019  2:48 PM           9028 microsoft-windows-netfx35-dl.man
+-a---            9/9/2019  2:48 PM           1273 microsoft-windows-netfx35cdfcomp-dl.man
+-a---            9/9/2019  2:48 PM          45175 microsoft-windows-netfxcorecomp-dl.man
+-a---            9/9/2019  2:48 PM           2028 microsoft-windows-sharedaccess-dl.man
+-a---            9/9/2019  2:48 PM           7840 microsoft-windows-storagemigration-dl.man
+-a---            9/9/2019  2:48 PM           2587 microsoft-windows-tapisetup-dl.man
+-a---            9/9/2019  2:48 PM           1320 microsoft-windows-terminalservices-clientactivexcore-dl.man
+-a---            9/9/2019  2:48 PM           2591 microsoft-windows-wab-dl.man
+-a---            9/9/2019  2:48 PM           1660 microsoft-windows-was-configurationapi-dl.man
+-a---            9/9/2019  2:48 PM           1660 microsoft-windows-was-netfxenvironment-dl.man
+-a---            9/9/2019  2:48 PM           1644 microsoft-windows-was-processmodel-dl.man
+-a---            9/9/2019  2:48 PM           4869 microsoft-windows-wcfcorecomp-dl.man
+-a---            9/9/2019  2:48 PM           1605 microsoft-windows-wlansvc-dl.man
+-a---            9/9/2019  2:48 PM           1806 microsoft.windows.com.base-dl.man
+-a---            9/9/2019  2:48 PM           2383 microsoft.windows.com.complus.setup.dl.man
+-a---            9/9/2019  2:48 PM           1697 msmq-dcom-dl.man
+-a---            9/9/2019  2:48 PM           1546 msmq-domain-ic-dl.man
+-a---            9/9/2019  2:48 PM           2282 msmq-http-dl.man
+-a---            9/9/2019  2:48 PM           6789 msmq-messagingcoreservice-dl.man
+-a---            9/9/2019  2:48 PM           1544 msmq-multicast-dl.man
+-a---            9/9/2019  2:48 PM           1451 msmq-routing-dl.man
+-a---            9/9/2019  2:48 PM           1749 msmq-triggers-dl.man
+-a---            9/9/2019  2:48 PM           1533 mup-dl.man
+-a---            9/9/2019  2:48 PM           1215 netfx-wcf-http-activation-dl.man
+-a---            9/9/2019  2:48 PM           1621 netfx-wcf-msmqactivation-registration-dl.man
+-a---            9/9/2019  2:48 PM           1627 netfx-wcf-pipeactivation-registration-dl.man
+-a---            9/9/2019  2:48 PM           1615 netfx-wcf-tcpactivation-registration-dl.man
+-a---            9/9/2019  2:48 PM           1151 netfx-wcf-tcpportsharing-dl.man
+-a---            9/9/2019  2:48 PM           1423 netfx3-dl.man
+-a---            9/9/2019  2:48 PM           1550 netfx4-wcf-client-dl.man
+-a---            9/9/2019  2:48 PM           1466 netfx4-wcf-extended-dl.man
+-a---            9/9/2019  2:48 PM          15848 netfx4clientcorecomp-dl.man
+-a---            9/9/2019  2:48 PM           2053 netlogon-dl.man
+-a---            9/9/2019  2:48 PM           2830 networkloadbalancingfullserver-dl.man
+-a---            9/9/2019  2:48 PM           2637 ntfs-dl.man
+-a---            9/9/2019  2:48 PM           8035 ntoskrnl-dl.man
+-a---            9/9/2019  2:48 PM           4820 odbc32dll-dl.man
+-a---            9/9/2019  2:48 PM           1045 partmgr-dl.man
+-a---            9/9/2019  2:48 PM           1186 peertopeeradmin-dl.man
+-a---            9/9/2019  2:48 PM           1391 peertopeerbase-dl.man
+-a---            9/9/2019  2:48 PM           1385 peertopeergraphing-dl.man
+-a---            9/9/2019  2:48 PM           1522 peertopeergrouping-dl.man
+-a---            9/9/2019  2:48 PM           1190 peertopeeridmanager-dl.man
+-a---            9/9/2019  2:48 PM           1727 peertopeerpnrp-dl.man
+-a---            9/9/2019  2:48 PM           2598 printing-spooler-core-dl.man
+-a---            9/9/2019  2:48 PM           2290 printing-spooler-networkclient-dl.man
+-a---            9/9/2019  2:48 PM           1697 rasmanservice-dl.man
+-a---            9/9/2019  2:48 PM           3288 rights-management-client-v1-api-dl.man
+-a---            9/9/2019  2:48 PM           3265 rights-management-services-server-dl.man
+-a---            9/9/2019  2:48 PM           1429 rpc-http_proxy-dl.man
+-a---            9/9/2019  2:48 PM           1682 rpc-http-dl.man
+-a---            9/9/2019  2:48 PM           1859 rpc-local-dl.man
+-a---            9/9/2019  2:48 PM           1973 rpc-remote-dl.man
+-a---            9/9/2019  2:48 PM           1461 schannel-dl.man
+-a---            9/9/2019  2:48 PM           1923 schedsvc-dl.man
+-a---            9/9/2019  2:48 PM            803 security-digest-dl.man
+-a---            9/9/2019  2:48 PM            803 security-kerberos-dl.man
+-a---            9/9/2019  2:48 PM           1458 security-ntlm-dl.man
+-a---            9/9/2019  2:48 PM           1079 security-ntlm-lmc.man
+-a---            9/9/2019  2:48 PM           1288 shutdown-event-tracker-dl.man
+-a---            9/9/2019  2:48 PM           3757 smartcardsubsystem-dl.man
+-a---            9/9/2019  2:48 PM          13993 smbserver-dl.man
+-a---            9/9/2019  2:48 PM           1694 smss-dl.man
+-a---            9/9/2019  2:48 PM           1164 smtpsvc-admin-dl.man
+-a---            9/9/2019  2:48 PM           1180 smtpsvc-service-dl.man
+-a---            9/9/2019  2:48 PM           2407 snmp-dl.man
+-a---            9/9/2019  2:48 PM           2858 speechcommon-dl.man
+-a---            9/9/2019  2:48 PM           1737 tabletpc-tabbtn-dl.man
+-a---            9/9/2019  2:48 PM           1429 tabletpcinputpanel-dl.man
+-a---            9/9/2019  2:48 PM           8752 tabletpcjournal-dl.man
+-a---            9/9/2019  2:48 PM           1131 tabletpcplatforminput-core-dl.man
+-a---            9/9/2019  2:48 PM           2196 telnet-client-dl.man
+-a---            9/9/2019  2:48 PM           1573 terminalservices-appserver-dl.man
+-a---            9/9/2019  2:48 PM           1305 terminalservices-appserver-licensing-dl.man
+-a---            9/9/2019  2:48 PM           1164 terminalservices-drivers-dl.man
+-a---            9/9/2019  2:48 PM           2232 terminalservices-licenseserver-dl.man
+-a---            9/9/2019  2:48 PM           1438 terminalservices-localsessionmanager-dl.man
+-a---            9/9/2019  2:48 PM          20863 terminalservices-rdp-winstationextensions-dl.man
+-a---            9/9/2019  2:48 PM           1438 terminalservices-remoteconnectionmanager-dl.man
+-a---            9/9/2019  2:48 PM           2240 terminalservices-sessiondirectory-client-dl.man
+-a---            9/9/2019  2:48 PM           2453 terminalservices-sessiondirectory-server-dl.man
+-a---            9/9/2019  2:48 PM           1919 terminalservices-terminalservicesclient-dl.man
+-a---            9/9/2019  2:48 PM           2841 textservicesframework-migration-dl.man
+-a---            9/9/2019  2:48 PM           4441 time-service-dl.man
+-a---            9/9/2019  2:48 PM           1460 unimodem-config-dl.man
+-a---            9/9/2019  2:48 PM           1655 upnpcontrolpoint-dl.man
+-a---            9/9/2019  2:48 PM           2493 upnpdevicehost-dl.man
+-a---            9/9/2019  2:48 PM           2500 upnpdevicehost-server-dl.man
+-a---            9/9/2019  2:48 PM           2285 upnpssdp-dl.man
+-a---            9/9/2019  2:48 PM           2292 upnpssdp-server-dl.man
+-a---            9/9/2019  2:48 PM           2015 video-tvvideocontrol-dl.man
+-a---            9/9/2019  2:48 PM           1040 volsnap-dl.man
+-a---            9/9/2019  2:48 PM           2018 wcf-http-activation-dl.man
+-a---            9/9/2019  2:48 PM           1452 wcf-http-activation-postapply-dl.man
+-a---            9/9/2019  2:48 PM           1403 wcf-nonhttp-activation-dl.man
+-a---            9/9/2019  2:48 PM           1914 web-services-for-management-core-dl.man
+-a---            9/9/2019  2:48 PM           1676 webenroll-dl.man
+-a---            9/9/2019  2:48 PM          12503 win32k-settings-dl.man
+-a---            9/9/2019  2:48 PM           5748 windowssearchengine-dl.man
+-a---            9/9/2019  2:48 PM           2887 winlogon-dl.man
+-a---            9/9/2019  2:48 PM           1381 wirelessnetworking-dl.man
+-a---            9/9/2019  2:48 PM           2372 wmi-core-dl.man
+-a---            9/9/2019  2:48 PM           1811 workstationservice-dl.man
+
+    Directory: E:\sources\dlmanifests\microsoft-activedirectory-webservices-dl
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         102416 adwsmigrate.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-bluetooth-config
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         102912 bthmigplugin.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-com-complus-setup-dl
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         162816 commig.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-com-dtc-setup-dl
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM          83472 msdtcstp.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-dhcpservermigplugin-dl
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         132096 dhcpsrvmigplugin.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-directoryservices-adam-dl
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         130056 adammigrate.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-iasserver-migplugin
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         695312 iasmigplugin.dll
+-a---            9/9/2019  2:48 PM         488448 iasmigreader.exe
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-ie-clientnetworkprotocolimplementation-migration
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM          42496 wininetplugin.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-iis-dl
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         352272 iismig.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-internet-naming-service-runtime
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM          51200 winsplgn.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-msmq-messagingcoreservice
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         146448 mqmigplugin.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-networkbridge
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         109576 bridgemigplugin.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-networkloadbalancing-core
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         156160 nlbmigplugin.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-rasconnectionmanager
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM          68608 cmmigr.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-rasserver-migplugin
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         526864 rasmigplugin.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-tapisetup
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM          65024 tapimigplugin.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-terminalservices-licenseserver
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         105488 tlsmigplugin.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-textservicesframework-migration-dl
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         110096 chxmig.dll
+-a---            9/9/2019  2:48 PM         129040 imjpmig.dll
+-a---            9/9/2019  2:48 PM          85032 imkrmig.dll
+-a---            9/9/2019  2:48 PM         197648 msctfmig.dll
+-a---            9/9/2019  2:48 PM          77328 tabletextservicemig.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-unimodem-config
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         152576 modemmigplugin.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-winsock-core-infrastructure-upgrade
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         199680 wsupgrade.dll
+
+    Directory: E:\sources\dlmanifests\microsoft-windows-wmi-core
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         680464 wmimigrationplugin.dll
+
+    Directory: E:\sources\dlmanifests\networking-mpssvc-svc
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM          96768 icfupgd.dll
+
+    Directory: E:\sources\en-us
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  3:00 PM         322560 acres.dll.mui
+-a---            9/9/2019  3:00 PM           3584 actionqueue.dll.mui
+-a---            9/9/2019  3:00 PM           3584 appraiser.dll.mui
+-a---            9/9/2019  3:00 PM           5632 arunres.dll.mui
+-a---            9/9/2019  3:00 PM           4608 cmisetup.dll.mui
+-a---            9/9/2019  3:00 PM           6144 compatctrl.dll.mui
+-a---            9/9/2019  3:00 PM          30720 compatresources.dll.mui
+-a---            9/9/2019  3:00 PM          30720 compres.dll.mui
+-a---            9/9/2019  2:48 PM         351960 credits.rtf
+-a---            9/9/2019  3:00 PM          30208 dism.exe.mui
+-a---            9/9/2019  3:00 PM           4608 dismapi.dll.mui
+-a---            9/9/2019  3:00 PM           7680 dismcore.dll.mui
+-a---            9/9/2019  3:00 PM           2560 dismprov.dll.mui
+-a---            9/9/2019  3:00 PM            276 erofflps.txt
+-a---            9/9/2019  3:00 PM           2560 folderprovider.dll.mui
+-a---            9/9/2019  3:00 PM          18432 imagingprovider.dll.mui
+-a---            9/9/2019  3:00 PM          25088 input.dll.mui
+-a---            9/9/2019  3:00 PM           6144 logprovider.dll.mui
+-a---            9/9/2019  3:00 PM          52224 mediasetupuimgr.dll.mui
+-a---            9/9/2019  3:00 PM           7680 migres.dll.mui
+-a---            9/9/2019  3:00 PM          63488 nlsbres.dll.mui
+-a---            9/9/2019  3:00 PM         111188 oobe_help_opt_in_details.rtf
+-a---            9/9/2019  3:00 PM           5120 pnpibs.dll.mui
+-a---            9/9/2019  3:00 PM            771 privacy.rtf
+-a---            9/9/2019  3:00 PM           1817 reagent.adml
+-a---            9/9/2019  3:00 PM          10752 reagent.dll.mui
+-a---            9/9/2019  3:00 PM           4608 rollback.exe.mui
+-a---            9/9/2019  3:00 PM          63676 setup_help_upgrade_or_custom.rtf
+-a---            9/9/2019  3:00 PM          79921 setup_help_whattokeep.rtf
+-a---            9/9/2019  3:00 PM          18432 setup.exe.mui
+-a---            9/9/2019  3:00 PM           3072 setupcompat.dll.mui
+-a---            9/9/2019  3:00 PM          14848 setupcore.dll.mui
+-a---            9/9/2019  3:00 PM           3584 setuperror.exe.mui
+-a---            9/9/2019  3:00 PM          13328 setupplatform.exe.mui
+-a---            9/9/2019  3:00 PM          26112 setupprep.exe.mui
+-a---            9/9/2019  3:00 PM          12288 smiengine.dll.mui
+-a---            9/9/2019  3:00 PM           8192 spwizres.dll.mui
+-a---            9/9/2019  3:00 PM           4608 upgloader.dll.mui
+-a---            9/9/2019  3:00 PM           3072 uxlibres.dll.mui
+-a---            9/9/2019  3:00 PM           7168 vhdprovider.dll.mui
+-a---            9/9/2019  3:00 PM            769 vofflps.rtf
+-a---            9/9/2019  3:00 PM         203776 w32uires.dll.mui
+-a---            9/9/2019  3:00 PM           7680 wdsclient.dll.mui
+-a---            9/9/2019  3:00 PM           6144 wdsimage.dll.mui
+-a---            9/9/2019  3:00 PM          27648 wimprovider.dll.mui
+-a---            9/9/2019  3:00 PM           5632 windlp.dll.mui
+-a---            9/9/2019  3:00 PM          53760 winsetup.dll.mui
+
+    Directory: E:\sources\etwproviders
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/17/2019 11:31 PM                en-us
+-a---            9/9/2019  2:48 PM          13464 actionqueueetw.dll
+-a---            9/9/2019  2:48 PM          14488 auditetw.dll
+-a---            9/9/2019  2:48 PM          14488 cmisetupetw.dll
+-a---            9/9/2019  2:48 PM           6868 etwproviderinstall.vbs
+-a---            9/9/2019  2:48 PM          14280 oobeldretw.dll
+-a---            9/9/2019  2:48 PM          18584 setupcletw.dll
+-a---            9/9/2019  2:48 PM          20792 setupetw.dll
+-a---            9/9/2019  2:48 PM          13768 setupugcetw.dll
+-a---            9/9/2019  2:48 PM          18584 sysprepetw.dll
+-a---            9/9/2019  2:48 PM          14280 windeployetw.dll
+-a---            9/9/2019  2:48 PM          66712 winsetupetw.dll
+
+    Directory: E:\sources\etwproviders\en-us
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  3:00 PM           3584 actionqueueetw.dll.mui
+
+    Directory: E:\sources\inf
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM           3266 setup.cfg
+
+    Directory: E:\sources\migration
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/17/2019 11:36 PM                wtr
+
+    Directory: E:\sources\migration\wtr
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM            414 adminpack_en-us_noloc.inf
+-a---            9/9/2019  2:48 PM            651 adminpack_en-us.inf
+-a---            9/9/2019  2:48 PM           1098 adobe_flash.inf
+-a---            9/9/2019  2:48 PM          17201 appmanwtr.inf
+-a---            9/9/2019  2:48 PM           7194 browserchoice_win7.inf
+-a---            9/9/2019  2:48 PM           1589 browserchoice_win8.inf
+-a---            9/9/2019  2:48 PM           1274 compattelemetry.inf
+-a---            9/9/2019  2:48 PM            412 dtumig.inf
+-a---            9/9/2019  2:48 PM           1643 ftp_7.0.inf
+-a---            9/9/2019  2:48 PM           2108 ftp_7.5_en-us_noloc.inf
+-a---            9/9/2019  2:48 PM           2773 ftp_7.5_loc.inf
+-a---            9/9/2019  2:48 PM           1078 gwxmig.inf
+-a---            9/9/2019  2:48 PM           1002 powershell_en-us_noloc.inf
+-a---            9/9/2019  2:48 PM           2551 powershell_loc.inf
+-a---            9/9/2019  2:48 PM            486 standardcollector.inf
+-a---            9/9/2019  2:48 PM          10086 unpmig.inf
+-a---            9/9/2019  2:48 PM            724 webdav_7.0.inf
+-a---            9/9/2019  2:48 PM            961 webdav_7.5_en-us_noloc.inf
+-a---            9/9/2019  2:48 PM           1265 webdav_7.5_loc.inf
+
+    Directory: E:\sources\replacementmanifests
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/17/2019 11:36 PM                hwvid-migration-2
+d----          10/17/2019 11:36 PM                microsoft-activedirectory-webservices
+d----          10/17/2019 11:36 PM                microsoft-client-license-platform-service-migration
+d----          10/17/2019 11:36 PM                microsoft-onecore-tiledatarepository
+d----          10/17/2019 11:36 PM                microsoft-windows-appmanagement-migration
+d----          10/17/2019 11:36 PM                microsoft-windows-appx-deployment-server
+d----          10/17/2019 11:36 PM                microsoft-windows-audio-mmecore-other
+d----          10/17/2019 11:36 PM                microsoft-windows-bth-user
+d----          10/17/2019 11:36 PM                microsoft-windows-com-complus-setup
+d----          10/17/2019 11:36 PM                microsoft-windows-deviceassociationframeworkmigration
+d----          10/17/2019 11:36 PM                microsoft-windows-directoryservices-adam-client
+d----          10/17/2019 11:36 PM                microsoft-windows-iis-rm
+d----          10/17/2019 11:36 PM                microsoft-windows-mapscontrol-migration
+d----          10/17/2019 11:36 PM                microsoft-windows-mup
+d----          10/17/2019 11:36 PM                microsoft-windows-network-setup
+d----          10/17/2019 11:36 PM                microsoft-windows-offlinefiles-core
+d----          10/17/2019 11:36 PM                microsoft-windows-pnpmigration
+d----          10/17/2019 11:36 PM                microsoft-windows-rasapi-mig
+d----          10/17/2019 11:36 PM                microsoft-windows-rasserver-migplugin
+d----          10/17/2019 11:36 PM                microsoft-windows-security-ngc-localaccountmigplugin
+d----          10/17/2019 11:36 PM                microsoft-windows-shmig
+d----          10/17/2019 11:36 PM                microsoft-windows-sxs
+d----          10/17/2019 11:36 PM                microsoft-windows-tcpip
+d----          10/17/2019 11:36 PM                microsoft-windows-terminalservices-appserver-licensing
+d----          10/17/2019 11:36 PM                microsoft-windows-terminalservices-licenseserver
+d----          10/17/2019 11:36 PM                microsoft-windows-textservicesframework-migration
+d----          10/17/2019 11:36 PM                microsoft-windows-virtualization-vmswitch
+d----          10/17/2019 11:37 PM                networkbridge
+d----          10/17/2019 11:37 PM                networking-mpssvc-svc
+d----          10/17/2019 11:37 PM                printing-localprinting-replacement
+d----          10/17/2019 11:37 PM                sppmig
+d----          10/17/2019 11:37 PM                windowssearchengine
+d----          10/17/2019 11:37 PM                wpc
+-a---            9/9/2019  2:49 PM           1734 activedirectory-webservices-replacement.man
+-a---            9/9/2019  2:49 PM           1995 adsi-router-replacement.man
+-a---            9/9/2019  2:48 PM          11951 application-experience-program-compatibility-assistant-replacement.man
+-a---            9/9/2019  2:48 PM           2193 appmanmigration-replacement.man
+-a---            9/9/2019  2:48 PM           2042 appxalluserstore-replacement.man
+-a---            9/9/2019  2:48 PM           4900 appxdeploymentserver-replacement.man
+-a---            9/9/2019  2:48 PM            852 audiommecore-mm-other-migration-replacement.man
+-a---            9/9/2019  2:48 PM           8193 authui-migration-replacement.man
+-a---            9/9/2019  2:48 PM          10219 authui-migration-win8-replacement.man
+-a---            9/9/2019  2:48 PM           1511 bisrv-replacement.man
+-a---            9/9/2019  2:49 PM            785 bthmig-replacement.man
+-a---            9/9/2019  2:48 PM           9285 capi2_certs-repl.man
+-a---            9/9/2019  2:48 PM            976 certificateenrollment-replacement.man
+-a---            9/9/2019  2:48 PM           2888 cliplicensemigration-replacement.man
+-a---            9/9/2019  2:48 PM           1702 cloudapreplacement.man
+-a---            9/9/2019  2:48 PM           2413 codeintegrity-repl.man
+-a---            9/9/2019  2:48 PM           2795 commandprompt-win7-replacement.man
+-a---            9/9/2019  2:48 PM          11666 commandprompt-win8-replacement.man
+-a---            9/9/2019  2:48 PM           7442 contentdeliverymanager.utilities-replacement.man
+-a---            9/9/2019  2:48 PM           4431 credential-manager-replacement.man
+-a---            9/9/2019  2:48 PM           2829 crypto_keys-repl.man
+-a---            9/9/2019  2:49 PM           1222 dataintegrityscan-replacement.man
+-a---            9/9/2019  2:49 PM            734 dcb-repl.man
+-a---            9/9/2019  2:49 PM           1527 deviceassociationframework-replacement.man
+-a---            9/9/2019  2:49 PM           1222 devicedirectory-devicedirectoryclient-desktop-replacement.man
+-a---            9/9/2019  2:49 PM           1066 deviceregistration-replacement.man
+-a---            9/9/2019  2:49 PM           4207 dhcpclientdll-repl.man
+-a---            9/9/2019  2:49 PM            636 dhcpserver-tools-replacement.man
+-a---            9/9/2019  2:49 PM          12795 dhcpservermigplugin-rep.man
+-a---            9/9/2019  2:49 PM           6093 dhcpservermigpluginwin8-replacement.man
+-a---            9/9/2019  2:49 PM           1244 directaccessservermanagement-repl.man
+-a---            9/9/2019  2:49 PM           1064 directoryservices-adam-client-replacement.man
+-a---            9/9/2019  2:49 PM            664 directoryservices-adam-tools-replacement.man
+-a---            9/9/2019  2:49 PM            666 directoryservices-administrativecenter-replacement.man
+-a---            9/9/2019  2:49 PM           1178 directoryservices-domaincontroller-servercoreupg-replacement.man
+-a---            9/9/2019  2:49 PM            682 directoryservices-domaincontroller-tools-replacement.man
+-a---            9/9/2019  2:49 PM           1676 directoryservices-sm-plugin.registration-replacement.man
+-a---            9/9/2019  2:49 PM           2206 displayconfigsettings_win7update.man
+-a---            9/9/2019  2:49 PM            917 dmrcwin7replacement.man
+-a---            9/9/2019  2:49 PM           7642 dns-client-mw-replacement.man
+-a---            9/9/2019  2:49 PM           2108 dns-client-replacement.man
+-a---            9/9/2019  2:49 PM            802 dns-server-role-replacement.man
+-a---            9/9/2019  2:49 PM            634 dns-server-tools-replacement.man
+-a---            9/9/2019  2:49 PM           4309 dpapi_keys-repl.man
+-a---            9/9/2019  2:49 PM           1420 dsreg-replacement.man
+-a---            9/9/2019  2:49 PM           1016 elam-replacement.man
+-a---            9/9/2019  2:49 PM           1424 etw-core-replacement.man
+-a---            9/9/2019  2:49 PM           2057 eudcedit-replacement.man
+-a---            9/9/2019  2:49 PM           4062 explorer-repl.man
+-a---            9/9/2019  2:49 PM           3019 extensibleauthenticationprotocolhostservice-rep.man
+-a---            9/9/2019  2:49 PM            929 failovercluster-core-wow64-rm.man
+-a---            9/9/2019  2:49 PM           1054 feclient-replacement-th.man
+-a---            9/9/2019  2:49 PM           1561 fidocredprov_dll_repl.man
+-a---            9/9/2019  2:49 PM           1290 fileserver-replacement.man
+-a---            9/9/2019  2:49 PM         100794 font-truetype-fontsregistrysettingsmigration-replacement.man
+-a---            9/9/2019  2:49 PM           1393 fonts-type1-replacement.man
+-a---            9/9/2019  2:49 PM           1390 fundisc-replacement.man
+-a---            9/9/2019  2:49 PM          10121 gpbase-replacement.man
+-a---            9/9/2019  2:49 PM           1216 gpiobuttons-replacement.man
+-a---            9/9/2019  2:49 PM           1179 hal-repl.man
+-a---            9/9/2019  2:49 PM           1033 helpandsupport-replacement.man
+-a---            9/9/2019  2:49 PM            942 http-replacement.man
+-a---            9/9/2019  2:49 PM           1072 hwvid-migration-replacement-2.man
+-a---            9/9/2019  2:49 PM           1479 identityserver-migration-replacement.man
+-a---            9/9/2019  2:49 PM           1971 identityserver-proxymigration-replacement.man
+-a---            9/9/2019  2:49 PM           1100 identitystore-replacement.man
+-a---            9/9/2019  2:49 PM            856 iis-adminservice-rm.man
+-a---            9/9/2019  2:49 PM            892 iis-appwarmup-rm.man
+-a---            9/9/2019  2:49 PM           1029 iis-ftpextensibility-rm.man
+-a---            9/9/2019  2:49 PM            852 iis-ftpsvc-rm.man
+-a---            9/9/2019  2:49 PM            900 iis-ipsecurity-rm.man
+-a---            9/9/2019  2:49 PM            743 iis-managementconsole-rm.man
+-a---            9/9/2019  2:49 PM           1037 iis-powershellprovider-rm.man
+-a---            9/9/2019  2:49 PM           2433 iis-sharedlibraries-rm.man
+-a---            9/9/2019  2:49 PM           1189 iis-w3logsvc-rm.man
+-a---            9/9/2019  2:49 PM           1172 iis-w3svc-rm.man
+-a---            9/9/2019  2:49 PM           1003 iis-webdav-rm.man
+-a---            9/9/2019  2:49 PM           2003 ime-eashared-migration-replacement.man
+-a---            9/9/2019  2:49 PM           5181 international-core-replacement.man
+-a---            9/9/2019  2:49 PM           4699 internet-naming-service-runtime-rep.man
+-a---            9/9/2019  2:49 PM            640 internet-naming-tools-replacement.man
+-a---            9/9/2019  2:49 PM           3805 ipv4ipv6coexistencemigration-net-replacement.man
+-a---            9/9/2019  2:49 PM           1309 kernel-pnp-repl.man
+-a---            9/9/2019  2:49 PM           1095 keyboardfilter-replacement.man
+-a---            9/9/2019  2:49 PM           4788 legacy-sapi-repl.man
+-a---            9/9/2019  2:49 PM          25564 mdm_migration-replacement.man
+-a---            9/9/2019  2:49 PM            993 media-settings-migration-replacement.man
+-a---            9/9/2019  2:49 PM           1030 mfmpeg2srcsnk-migration-replacement.man
+-a---            9/9/2019  2:49 PM           1090 mfplat-migration-replacement.man
+-a---            9/9/2019  2:49 PM           1164 mfsrcsnk-migration-replacement.man
+-a---            9/9/2019  2:49 PM            703 microsoft-activedirectory-powershell-replacement.man
+-a---            9/9/2019  2:49 PM           1941 microsoft-certificateauthority-enrollment-serverupgrade-replacement.man
+-a---            9/9/2019  2:49 PM           2089 microsoft-certificateservices-ca-serverupgrade-replacement.man
+-a---            9/9/2019  2:49 PM           2018 microsoft-certificateservices-mscep-serverupgrade-replacement.man
+-a---            9/9/2019  2:49 PM           1959 microsoft-certificateservices-ocsp-serverupgrade-replacement.man
+-a---            9/9/2019  2:49 PM           1936 microsoft-certificateservices-policy-serverupgrade-replacement.man
+-a---            9/9/2019  2:49 PM           2057 microsoft-certificateservices-webenrollment-serverupgrade-replacement.man
+-a---            9/9/2019  2:49 PM           1368 microsoft-hyper-v-client-migration-replacement.man
+-a---            9/9/2019  2:49 PM            634 microsoft-hyper-v-drivers-migration-replacement.man
+-a---            9/9/2019  2:49 PM           5908 microsoft-hyper-v-migration-replacement.man
+-a---            9/9/2019  2:49 PM            918 microsoft-onecore-tiledatarepository-replacement.man
+-a---            9/9/2019  2:49 PM           1239 microsoft-windows-advertisingid-replacement.man
+-a---            9/9/2019  2:49 PM           1954 microsoft-windows-credentialmanagementrole-replacement.man
+-a---            9/9/2019  2:49 PM           1326 microsoft-windows-credentialmanagementrole-tools-replacement.man
+-a---            9/9/2019  2:49 PM            672 microsoft-windows-deployment-services-admin-pack-replacement.man
+-a---            9/9/2019  2:49 PM           1421 microsoft-windows-deviceaccess-replacement.man
+-a---            9/9/2019  2:49 PM           1433 microsoft-windows-enterprisemgmt-replacement.man
+-a---            9/9/2019  2:49 PM          16645 microsoft-windows-errorreportingcore-replacement.man
+-a---            9/9/2019  2:49 PM            657 microsoft-windows-failovercluster-adminpak-replacement.man
+-a---            9/9/2019  2:49 PM           3998 microsoft-windows-fax-service-replacement.man
+-a---            9/9/2019  2:49 PM           4920 microsoft-windows-flighting-settings.replacement.man
+-a---            9/9/2019  2:49 PM           1884 microsoft-windows-geolocation-replacement.man
+-a---            9/9/2019  2:49 PM           2149 microsoft-windows-identity-foundation-migration-replacement.man
+-a---            9/9/2019  2:49 PM           4228 microsoft-windows-ie-adminkitbranding-repl.man
+-a---            9/9/2019  2:49 PM           4575 microsoft-windows-ie-clientnetworkprotocolimplementation-repl.man
+-a---            9/9/2019  2:49 PM          19986 microsoft-windows-ie-internetexplorer-repl-2.man
+-a---            9/9/2019  2:49 PM          16859 microsoft-windows-ie-internetexplorer-repl.man
+-a---            9/9/2019  2:49 PM           2848 microsoft-windows-ie-pdm-replacement.man
+-a---            9/9/2019  2:49 PM            911 microsoft-windows-netfx35cdfcomp-replacement.man
+-a---            9/9/2019  2:49 PM          45059 microsoft-windows-netfxcorecomp-repl.man
+-a---            9/9/2019  2:49 PM            884 microsoft-windows-network-setup-replacement.man
+-a---            9/9/2019  2:49 PM            744 microsoft-windows-networkbridge-replacement.man
+-a---            9/9/2019  2:49 PM           8102 microsoft-windows-offlinefiles-replacement.man
+-a---            9/9/2019  2:49 PM           1311 microsoft-windows-parentalcontrolssettings-replacement.man
+-a---            9/9/2019  2:49 PM           4347 microsoft-windows-powershell-replacement.man
+-a---            9/9/2019  2:49 PM           1161 microsoft-windows-powershell-ws08-replacement.man
+-a---            9/9/2019  2:49 PM            874 microsoft-windows-powershellwebaccess-commands-powershell-migration-replacement.man
+-a---            9/9/2019  2:49 PM           1708 microsoft-windows-rmapi-replacement.man
+-a---            9/9/2019  2:49 PM           3852 microsoft-windows-securestartup-filterdriver-replacement.man
+-a---            9/9/2019  2:49 PM           1766 microsoft-windows-security-ngc-credprov-replacement.man
+-a---            9/9/2019  2:49 PM           1274 microsoft-windows-security-ngc-ctnrsvc-repl.man
+-a---            9/9/2019  2:49 PM            686 microsoft-windows-servermanager-rsat-featuretools-replacement.man
+-a---            9/9/2019  2:49 PM            659 microsoft-windows-servermanager-rsat-replacement.man
+-a---            9/9/2019  2:49 PM            680 microsoft-windows-servermanager-rsat-roletools-replacement.man
+-a---            9/9/2019  2:49 PM            747 microsoft-windows-servermanager-shell-replacement.man
+-a---            9/9/2019  2:49 PM            839 microsoft-windows-services-targetedcontent-replacement.man
+-a---            9/9/2019  2:49 PM           1965 microsoft-windows-slb-mux-replacement.man
+-a---            9/9/2019  2:49 PM            932 microsoft-windows-smb1-replacement.man
+-a---            9/9/2019  2:49 PM           1059 microsoft-windows-softwareinventorylogging-scheduledtasks-replacement.man
+-a---            9/9/2019  2:49 PM           1533 microsoft-windows-storagemigration-od-replacement.man
+-a---            9/9/2019  2:49 PM           6048 microsoft-windows-storagemigration-replacement.man
+-a---            9/9/2019  2:49 PM           1306 microsoft-windows-sxs-replacement.man
+-a---            9/9/2019  2:49 PM           1970 microsoft-windows-virtualization-vmswitch-migration-replacement.man
+-a---            9/9/2019  2:49 PM            865 microsoft-windows-wcfcorecomp-replacement.man
+-a---            9/9/2019  2:49 PM           1940 microsoft.windows.com.complus.setup-replacement.man
+-a---            9/9/2019  2:49 PM           4456 microsoft.windows.com.dtc.setup-replacement.man
+-a---            9/9/2019  2:49 PM           1303 microsoftwindowsdefragcore-replacement.man
+-a---            9/9/2019  2:49 PM           1152 mmdeviceapi-migration-replacement.man
+-a---            9/9/2019  2:49 PM           1376 mmsys-migration-replacement.man
+-a---            9/9/2019  2:49 PM           1210 msmpeg2vdec-migration-replacement.man
+-a---            9/9/2019  2:49 PM           2518 mup-replacement.man
+-a---            9/9/2019  2:49 PM           2986 ndis-repl.man
+-a---            9/9/2019  2:49 PM           1848 netfx-wcf-http-activation-replacement.man
+-a---            9/9/2019  2:49 PM           1043 netfx-wcf-msmqactivation-registration-replacement.man
+-a---            9/9/2019  2:49 PM           1043 netfx-wcf-pipeactivation-registration-replacement.man
+-a---            9/9/2019  2:49 PM           1036 netfx-wcf-tcpactivation-registration-replacement.man
+-a---            9/9/2019  2:49 PM            601 netfx3-replacement.man
+-a---            9/9/2019  2:49 PM            863 netfx4-policy-replacement.man
+-a---            9/9/2019  2:49 PM            668 netfx4-replacement.man
+-a---            9/9/2019  2:49 PM           1517 netfx4-wcf-client-replacement.man
+-a---            9/9/2019  2:49 PM           1433 netfx4-wcf-extended-replacement.man
+-a---            9/9/2019  2:49 PM          17501 netfx4clientcorecomp-replacement.man
+-a---            9/9/2019  2:49 PM           1490 networking-mpssvc-svc.replacement.man
+-a---            9/9/2019  2:49 PM            674 networkloadbalancingmanagementclient-replacement.man
+-a---            9/9/2019  2:49 PM            673 networkloadbalancingmanagementheadlessserver-replacement.man
+-a---            9/9/2019  2:49 PM           2131 networkprofile-replacement.man
+-a---            9/9/2019  2:49 PM           1149 networksecurity.replacement.man
+-a---            9/9/2019  2:49 PM           1277 nfs-admincore-repl.man
+-a---            9/9/2019  2:49 PM           1199 nfs-clientcore-repl.man
+-a---            9/9/2019  2:49 PM           1193 nfs-servercore-repl.man
+-a---            9/9/2019  2:49 PM           1095 nfs-servercoreupg-clientcore-repl.man
+-a---            9/9/2019  2:49 PM           1094 nfs-servercoreupg-servercore-repl.man
+-a---            9/9/2019  2:49 PM           1336 ngclocalaccountmigplugin-replacement.man
+-a---            9/9/2019  2:49 PM            889 ngcpopkeysrv_dll-repl.man
+-a---            9/9/2019  2:49 PM            943 nlasvc-replace.man
+-a---            9/9/2019  2:49 PM           1066 notepad-repl.man
+-a---            9/9/2019  2:49 PM            753 npas-role-replacement.man
+-a---            9/9/2019  2:49 PM            633 npsui-replacement.man
+-a---            9/9/2019  2:49 PM          13893 odbc32dll-repl.man
+-a---            9/9/2019  2:49 PM          11885 onecore_speechcommon-rep.man
+-a---            9/9/2019  2:49 PM           3825 pcpksp_dll-repl.man
+-a---            9/9/2019  2:49 PM           6356 peerdist-client-migration-replacement.man
+-a---            9/9/2019  2:49 PM           6363 peerdist-server-migration-replacement.man
+-a---            9/9/2019  2:49 PM           3261 peerdist-upgrade-replacement.man
+-a---            9/9/2019  2:49 PM           1702 peertopeergrouping-replacement.man
+-a---            9/9/2019  2:49 PM           1386 personalizationcsp-repl.man
+-a---            9/9/2019  2:49 PM            982 pnpmigration-replacement.man
+-a---            9/9/2019  2:49 PM           1303 posproviders-replacement.man
+-a---            9/9/2019  2:49 PM           6428 power-energyestimationengine-replacement.man
+-a---            9/9/2019  2:49 PM           2577 powercpl-replacement.man
+-a---            9/9/2019  2:49 PM           5518 powermanagement-powerpolicy-definitions-replacement-v1019h1.man
+-a---            9/9/2019  2:49 PM           3520 powermanagement-powerpolicy-definitions-replacement-v4rs1.man
+-a---            9/9/2019  2:49 PM           3520 powermanagement-powerpolicy-definitions-replacement-v5rs1.man
+-a---            9/9/2019  2:49 PM           3520 powermanagement-powerpolicy-definitions-replacement-v6rs2.man
+-a---            9/9/2019  2:49 PM           4878 powermanagement-powerpolicy-definitions-replacement-v7rs2.man
+-a---            9/9/2019  2:49 PM           5378 powermanagement-powerpolicy-definitions-replacement-v8rs4.man
+-a---            9/9/2019  2:49 PM           5497 powermanagement-powerpolicy-definitions-replacement-v9rs5.man
+-a---            9/9/2019  2:49 PM           1899 powermanagement-powerpolicy-definitions-replacement-vista.man
+-a---            9/9/2019  2:49 PM           2702 powermanagement-powerpolicy-definitions-replacement-win10.man
+-a---            9/9/2019  2:49 PM           2616 powermanagement-powerpolicy-definitions-replacement-win7.man
+-a---            9/9/2019  2:49 PM          26483 powermanagement-powerpolicy-definitions-replacement-win8.man
+-a---            9/9/2019  2:49 PM            652 powermanagement-powerpolicy-migration-replacement.man
+-a---            9/9/2019  2:49 PM           3370 printing-localprinting-replacement.man
+-a---            9/9/2019  2:49 PM           1400 printing-server-foundation-features-upgrade.man
+-a---            9/9/2019  2:49 PM            930 printing-servercore-wow64-rm.man
+-a---            9/9/2019  2:49 PM           1176 printing-spooler-core-replacement.man
+-a---            9/9/2019  2:49 PM           1631 processmodel-cpt-rm.man
+-a---            9/9/2019  2:49 PM           1046 profsvcreplacement.man
+-a---            9/9/2019  2:49 PM           2282 propsys-replacement.man
+-a---            9/9/2019  2:49 PM           1380 quickactions-windows-replacement.man
+-a---            9/9/2019  2:49 PM           3203 rasapi-repl.man
+-a---            9/9/2019  2:49 PM           6131 rasbase-rassstp-repl.man
+-a---            9/9/2019  2:49 PM           5955 rasbase-repl.man
+-a---            9/9/2019  2:49 PM           2523 rasddm-repl.man
+-a---            9/9/2019  2:49 PM           2276 rasmanservice-repl.man
+-a---            9/9/2019  2:49 PM           2701 rasmanservice-replv2.man
+-a---            9/9/2019  2:49 PM           2805 rasmanservice-replv3.man
+-a---            9/9/2019  2:49 PM           2975 rasppp-repl.man
+-a---            9/9/2019  2:49 PM           1814 rasrqs-repl.man
+-a---            9/9/2019  2:49 PM          27273 rasserver-repl.man
+-a---            9/9/2019  2:49 PM            642 rasserveradmintools-replacement.man
+-a---            9/9/2019  2:49 PM           1156 refs-replacement.man
+-a---            9/9/2019  2:49 PM            454 refs-v1-replacement.man
+-a---            9/9/2019  2:49 PM           1041 retaildemo.deployment.replacement.man
+-a---            9/9/2019  2:49 PM           4460 rights-management-client-v1-api-replacement.man
+-a---            9/9/2019  2:49 PM           1032 rights-management-services-admin-tools-replacement.man
+-a---            9/9/2019  2:49 PM           1041 rights-management-services-management-tools-replacement.man
+-a---            9/9/2019  2:49 PM           1019 rights-management-services-role-replacement.man
+-a---            9/9/2019  2:49 PM           2317 schedsvc-replacement.man
+-a---            9/9/2019  2:49 PM           2849 security-spp-migration-replacement.man
+-a---            9/9/2019  2:49 PM            957 securitycenter-core-replacement.man
+-a---            9/9/2019  2:49 PM            763 servercore-wow64-rm.man
+-a---            9/9/2019  2:49 PM           1194 settingsync-repl.man
+-a---            9/9/2019  2:49 PM           1282 sharedpccsp-repl.man
+-a---            9/9/2019  2:49 PM            625 sharemgmt-rsatclient-tools-replacement.man
+-a---            9/9/2019  2:49 PM           2560 shmig-replacement.man
+-a---            9/9/2019  2:49 PM           1036 signalmanager-replacement.man
+-a---            9/9/2019  2:49 PM           2906 signature-replacement.man
+-a---            9/9/2019  2:49 PM           2394 smartcardsubsystem-repl.man
+-a---            9/9/2019  2:49 PM            634 snmp-gui-tools-replacement.man
+-a---            9/9/2019  2:49 PM           2423 sounds-migration-replacement.man
+-a---            9/9/2019  2:49 PM            864 spectrum-replacement.man
+-a---            9/9/2019  2:49 PM           2610 srm-cbadriver-repl.man
+-a---            9/9/2019  2:49 PM           2621 srm-datascrndriver-repl.man
+-a---            9/9/2019  2:49 PM            694 srm-infrastructure-repl.man
+-a---            9/9/2019  2:49 PM            621 srm-management-repl.man
+-a---            9/9/2019  2:49 PM           2590 srm-quotadriver-repl.man
+-a---            9/9/2019  2:49 PM           4084 srm-service-repl.man
+-a---            9/9/2019  2:49 PM           2827 srm-service-reports-repl.man
+-a---            9/9/2019  2:49 PM           2410 srm-ui-repl.man
+-a---            9/9/2019  2:49 PM           1307 srumon-replacement.man
+-a---            9/9/2019  2:49 PM           2598 starttiledata-replacement.man
+-a---            9/9/2019  2:49 PM           2692 sysdm-replacement.man
+-a---            9/9/2019  2:49 PM           1823 sysmain-replacement.man
+-a---            9/9/2019  2:49 PM           1027 systemsettingsthreshold-replacement.man
+-a---            9/9/2019  2:49 PM          15619 tabletpcplatforminput-core-replacement.man
+-a---            9/9/2019  2:49 PM          24488 tcpip-replacement.man
+-a---            9/9/2019  2:49 PM           1134 terminalservices-appserver-licensing-replacement.man
+-a---            9/9/2019  2:49 PM           1039 terminalservices-gateway-package-r-replacement.man
+-a---            9/9/2019  2:49 PM           1039 terminalservices-gateway-package-replacement.man
+-a---            9/9/2019  2:49 PM           1052 terminalservices-gateway-ui-package-r-replacement.man
+-a---            9/9/2019  2:49 PM           1052 terminalservices-gateway-ui-package-replacement.man
+-a---            9/9/2019  2:49 PM           1731 terminalservices-licenseserver-replacement.man
+-a---            9/9/2019  2:49 PM            860 terminalservices-rapweb-replacement.man
+-a---            9/9/2019  2:49 PM           1083 terminalservices-rapwebpart-replacement.man
+-a---            9/9/2019  2:49 PM           3390 terminalservices-rdp-winstationextensions-replacement.man
+-a---            9/9/2019  2:49 PM           1044 terminalservices-role-package-r-replacement.man
+-a---            9/9/2019  2:49 PM           1042 terminalservices-role-package-replacement.man
+-a---            9/9/2019  2:49 PM           2743 terminalservices-sessiondirectory-client-replacement.man
+-a---            9/9/2019  2:49 PM           4168 terminalservices-sessiondirectory-server-replacement.man
+-a---            9/9/2019  2:49 PM           1279 terminalservices-tsv-vmhostagent-replacement.man
+-a---            9/9/2019  2:49 PM           1065 tetheringservice-repl.man
+-a---            9/9/2019  2:49 PM           6465 textservicesframework-migration-replacement.man
+-a---            9/9/2019  2:49 PM           1190 time-service-replacement.man
+-a---            9/9/2019  2:49 PM           2577 tpmdriverwmi-replacement.man
+-a---            9/9/2019  2:49 PM            916 tpmvsc-repl.man
+-a---            9/9/2019  2:49 PM          11716 twinui-replacement.man
+-a---            9/9/2019  2:49 PM           1557 udfs-replacement.man
+-a---            9/9/2019  2:49 PM            850 updateservices-common-replacement.man
+-a---            9/9/2019  2:49 PM           2825 updateservices-services-replacement.man
+-a---            9/9/2019  2:49 PM           2455 upnpdevicehost-replacement.man
+-a---            9/9/2019  2:49 PM           2462 upnpdevicehost-server-replacement.man
+-a---            9/9/2019  2:49 PM           2320 upnpssdp-replacement.man
+-a---            9/9/2019  2:49 PM           2327 upnpssdp-server-replacement.man
+-a---            9/9/2019  2:49 PM           1685 usbmigration-replacement.man
+-a---            9/9/2019  2:49 PM            914 video-tvvideocontrol-replacement.man
+-a---            9/9/2019  2:49 PM           1786 virtualdiskservice-repl.man
+-a---            9/9/2019  2:49 PM           2955 volsnap-repl.man
+-a---            9/9/2019  2:49 PM           4120 vssservice-repl.man
+-a---            9/9/2019  2:49 PM           1275 wbiosrvc-replacement.man
+-a---            9/9/2019  2:49 PM            850 wcf-http-activation-replacement.man
+-a---            9/9/2019  2:49 PM            860 wcf-nonhttp-activation-replacement.man
+-a---            9/9/2019  2:49 PM          13714 web-services-for-management-core-replacement.man
+-a---            9/9/2019  2:49 PM            969 wia-coreservices-replacement.man
+-a---            9/9/2019  2:49 PM          10142 wicamigrationav-rl.man
+-a---            9/9/2019  2:49 PM           2056 wid8-migration.man
+-a---            9/9/2019  2:49 PM          15740 win32k-settings-repl.man
+-a---            9/9/2019  2:49 PM          12987 win32k-settings-replacement.man
+-a---            9/9/2019  2:49 PM           1382 windows-senseclient-service-rep.man
+-a---            9/9/2019  2:49 PM           1532 windows.cortana.desktop-repl.man
+-a---            9/9/2019  2:49 PM           1047 windows.holographic.displaythrottling-replacement.man
+-a---            9/9/2019  2:49 PM            993 windows.media-migration-replacement.man
+-a---            9/9/2019  2:49 PM           1421 windows.sharedpc.accountmanager-repl.man
+-a---            9/9/2019  2:49 PM           2074 windows.ui.shell-repl.man
+-a---            9/9/2019  2:49 PM           1392 windowspushnotifications-platform-library-replacement.man
+-a---            9/9/2019  2:49 PM           6109 windowssearchengine-replacement.man
+-a---            9/9/2019  2:49 PM           1175 windowsstoreapi-replacement.man
+-a---            9/9/2019  2:49 PM           1671 windowsupdate-replacement.man
+-a---            9/9/2019  2:49 PM           1123 windowswebapphost-replacement.man
+-a---            9/9/2019  2:49 PM          12471 winlogon-replacement.man
+-a---            9/9/2019  2:49 PM           1016 winmde-migration-replacement.man
+-a---            9/9/2019  2:49 PM           1188 winnat-replacement.man
+-a---            9/9/2019  2:49 PM            889 winsat-cmi-replacement.man
+-a---            9/9/2019  2:49 PM           4165 wlidsvc.vista-win7.man
+-a---            9/9/2019  2:49 PM           4136 wmdmigration-replacement.man
+-a---            9/9/2019  2:49 PM           2743 wmi-core-replacement.man
+-a---            9/9/2019  2:49 PM           1128 wmiacpi-replacement.man
+-a---            9/9/2019  2:49 PM           1509 wmpnsservice-migration-replacement.man
+-a---            9/9/2019  2:49 PM           2821 wmpplayer-migration-replacement.man
+-a---            9/9/2019  2:49 PM           1159 wsinfra-other-mw-replacement.man
+-a---            9/9/2019  2:49 PM           1553 wsinfra-upgrade-replacement.man
+-a---            9/9/2019  2:49 PM           1042 wwansvc-servercfg-repl.man
+
+    Directory: E:\sources\replacementmanifests\hwvid-migration-2
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM          73224 hwvidmigplugin.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-activedirectory-webservices
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         102416 adwsmigrate.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-client-license-platform-service-migration
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         248120 clipmigplugin.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-onecore-tiledatarepository
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         113664 tilestoremigrationplugin.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-appmanagement-migration
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM        1198904 appmanmigrationplugin.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-appx-deployment-server
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  3:00 PM          21708 appxprovisioning.xml
+-a---            9/9/2019  2:48 PM         451088 appxupgrademigrationplugin.dll
+-a---            9/9/2019  2:48 PM           1692 microsoft.windows.secondarytileexperience_10.0.0.0_neutral__cw5n1h2txyewy.xml
+-a---            9/9/2019  2:48 PM           1498 windows.miracastview_6.3.0.0_neutral_neutral_cw5n1h2txyewy.xml
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-audio-mmecore-other
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM          71720 audmigplugin.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-bth-user
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         111632 bthmigplugin.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-com-complus-setup
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         162816 commig.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-deviceassociationframeworkmigration
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         245256 dafmigplugin.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-directoryservices-adam-client
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         130088 adammigrate.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-iis-rm
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         352272 iismig.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-mapscontrol-migration
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         102712 mapsmigplugin.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-mup
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         104960 mupmigplugin.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-network-setup
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         143376 netsetupapi.dll
+-a---            9/9/2019  2:48 PM         825360 netsetupengine.dll
+-a---            9/9/2019  2:48 PM         342544 networkbindingenginemigplugin.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-offlinefiles-core
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/17/2019 11:36 PM                en-us
+-a---            9/9/2019  2:48 PM         145424 cscmig.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-offlinefiles-core\en-us
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  3:00 PM           3072 cscmig.dll.mui
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-pnpmigration
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         384008 pnpmig.dll
+-a---            9/9/2019  2:48 PM          24842 pnpmig.inf
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-rasapi-mig
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM          69128 pbkmigr.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-rasserver-migplugin
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:49 PM         526856 rasmigplugin.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-security-ngc-localaccountmigplugin
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM          90632 ngclocalaccountmigplugin.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-shmig
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/17/2019 11:36 PM                en-us
+-a---            9/9/2019  2:48 PM         202768 shmig.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-shmig\en-us
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  3:00 PM           4096 shmig.dll.mui
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-sxs
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/17/2019 11:36 PM                en-us
+-a---            9/9/2019  2:48 PM         129544 sxsmigplugin.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-sxs\en-us
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  3:00 PM           2560 sxsmigplugin.dll.mui
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-tcpip
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM          82960 netiomig.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-terminalservices-appserver-licensing
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         132104 tsmigplugin.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-terminalservices-licenseserver
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         105488 tlsrepplugin.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-textservicesframework-migration
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         110096 chxmig.dll
+-a---            9/9/2019  2:48 PM         129040 imjpmig.dll
+-a---            9/9/2019  2:48 PM          85008 imkrmig.dll
+-a---            9/9/2019  2:48 PM         197648 msctfmig.dll
+-a---            9/9/2019  2:48 PM          77328 tabletextservicemig.dll
+
+    Directory: E:\sources\replacementmanifests\microsoft-windows-virtualization-vmswitch
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         248336 vmswitchmigrationplugin.dll
+
+    Directory: E:\sources\replacementmanifests\networkbridge
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         109584 bridgemigplugin.dll
+
+    Directory: E:\sources\replacementmanifests\networking-mpssvc-svc
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         105488 icfupgd.dll
+
+    Directory: E:\sources\replacementmanifests\printing-localprinting-replacement
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         101392 apmonportmig.dll
+
+    Directory: E:\sources\replacementmanifests\sppmig
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM          44048 sppmig.dll
+
+    Directory: E:\sources\replacementmanifests\windowssearchengine
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         132408 wsearchmigplugin.dll
+
+    Directory: E:\sources\replacementmanifests\wpc
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         209920 wpcmigration.downlevel.dll
+-a---            9/9/2019  2:48 PM         253440 wpcmigration.uplevel.dll
+
+    Directory: E:\sources\sxs
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM         292247 microsoft-windows-internetexplorer-optional-package~31bf3856ad364e35~amd64~~.cab
+-a---            9/9/2019  3:00 PM          22664 Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~en-US~.cab
+-a---            9/9/2019  2:51 PM       72702771 microsoft-windows-netfx3-ondemand-package~31bf3856ad364e35~amd64~~.cab
+-a---            9/9/2019  3:00 PM         108263 Microsoft-Windows-NetFx3-OnDemand-Package~31bf3856ad364e35~amd64~en-US~.cab
+
+    Directory: E:\sources\uup
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/17/2019 11:37 PM                metadata
+
+    Directory: E:\sources\uup\metadata
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM          47850 desktoptargetcompdb_neutral.xml.cab
+
+    Directory: E:\sources\vista
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:49 PM        1103872 webservices.dll
+
+    Directory: E:\sources\xp
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  2:48 PM        1297248 webservices.dll
+
+    Directory: E:\support
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/17/2019 11:37 PM                logging
+
+    Directory: E:\support\logging
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/17/2019 11:37 PM                en-us
+-a---            9/9/2019  2:48 PM          13488 actionqueueetw.dll
+-a---            9/9/2019  2:48 PM          14488 auditetw.dll
+-a---            9/9/2019  2:48 PM          14488 cmisetupetw.dll
+-a---            9/9/2019  2:48 PM           6868 etwproviderinstall.vbs
+-a---            9/9/2019  2:48 PM           5875 microsoft-windows-actionqueue-instrumentation.man
+-a---            9/9/2019  2:48 PM           6729 microsoft-windows-audit-instrumentation.man
+-a---            9/9/2019  2:48 PM           6734 microsoft-windows-cmisetup-instrumentation.man
+-a---            9/9/2019  2:48 PM           8301 microsoft-windows-oobeldr-instrumentation.man
+-a---            9/9/2019  2:48 PM          19567 microsoft-windows-setup-events.man
+-a---            9/9/2019  2:48 PM           8830 microsoft-windows-setup-instrumentation.man
+-a---            9/9/2019  2:48 PM          13881 microsoft-windows-setupcl-instrumentation.man
+-a---            9/9/2019  2:48 PM           6725 microsoft-windows-setupugc-instrumentation.man
+-a---            9/9/2019  2:48 PM          13373 microsoft-windows-sysprep-instrumentation.man
+-a---            9/9/2019  2:48 PM           8169 microsoft-windows-windeploy-instrumentation.man
+-a---            9/9/2019  2:48 PM          14280 oobeldretw.dll
+-a---            9/9/2019  2:48 PM          18584 setupcletw.dll
+-a---            9/9/2019  2:48 PM          20792 setupetw.dll
+-a---            9/9/2019  2:48 PM          13768 setupugcetw.dll
+-a---            9/9/2019  2:48 PM          18584 sysprepetw.dll
+-a---            9/9/2019  2:48 PM          14280 windeployetw.dll
+-a---            9/9/2019  2:48 PM          66712 winsetupetw.dll
+
+    Directory: E:\support\logging\en-us
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            9/9/2019  3:00 PM           3584 actionqueueetw.dll.mui
+
+    Directory: E:\Android
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/30/2020  6:41 AM                data
+
+    Directory: E:\Android\data
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/30/2020  6:41 AM                com.google.android.gms
+d----          10/30/2020  6:10 AM                com.google.android.music
+
+    Directory: E:\Android\data\com.google.android.music
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/30/2020  6:10 AM                files
+
+    Directory: E:\Android\data\com.google.android.gms
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/30/2020  6:41 AM                files
+
+    Directory: E:\gut
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           9/14/2021  4:39 AM      213709231 Advanced_Bash_Scripting_Tutorial.mp4
+-a---           7/30/2022  4:58 PM       14162434 Ava_Max_Sweet_but_Psycho_Official_Music_Video_.mp4
+-a---          10/23/2022 10:43 PM         339852 b.json
+-a---           7/16/2021  3:05 PM       24968703 Bob_Dylan_Knockin_on_Heaven_s_Door_Cover.mp4
+-a---           9/27/2022  2:23 AM       15561879 Boots_of_Spanish_Leather_Bob_Dylan_Cover_.mp4
+-a---           7/13/2022  9:31 AM       12530723 Boots_of_Spanish_Leather_Bob_Dylan_Cover_by_Ange_Takats_and_Ashley_Bell_.mp4
+-a---          10/16/2021  1:39 PM        5249186 Chicken_Fried.mp4
+-a---            2/7/2022 10:17 AM       44786892 COOLHAND_LUKE_Paul_Newman_PLASTIC_JESUS_fingerstyle_GUITAR_LESSON.mp4
+-a---           11/2/2022  6:31 PM       21359459 Dr._Dre_Still_D.R.E._Official_Music_Video_ft._Snoop_Dogg.mp4.part
+-a---           8/27/2021  9:26 PM      109358926 Fail_Proof_Guide_To_Easy_Barre_Chords_on_Guitar.mp4
+-a---           7/19/2022  1:29 AM        9326377 Four_Strong_Winds_by_Neil_Young_play_along_with_scrolling_guitar_chords_and_lyrics.mp4
+-a---          10/16/2021  5:50 PM      270337582 How_to_play_Four_Strong_Winds_Neil_Young_version_.mp4
+-a---          10/19/2022  8:51 PM      202983488 How_to_play_Unknown_Legend_by_Neil_Young_on_the_guitar.mp4.part
+-a---           9/23/2022  5:59 PM       10700663 Luke_Combs_Beautiful_Crazy.mp4
+-a---            1/9/2021  1:17 AM       59219329 Mr._Tambourine_Man_Bob_Dylan_Cover_.mp4
+-a---            1/3/2023 12:18 AM      128239224 museScore4.mp4
+-a---           9/19/2022  2:02 PM         157228 output.log
+-a---           12/7/2019 10:34 AM        5672850 Spirit_In_The_Sky.mp4
+-a---          12/15/2019 11:19 PM        8286629 Stuck_In_The_Middle_With_You.mp4
+-a---           12/1/2019 10:40 AM        8802521 Superstition.mp4
+-a---            8/4/2021  6:28 PM       21180989 Tennessee_Whiskey.mp4
+-a---           12/3/2022  8:47 PM       10113042 The_Beatles_Yesterday_live_in_Munich_1966.mp4
+-a---           7/19/2018  8:46 PM      193332907 Travis_Picking_Lesson_3_Bob_Dylan_s_Girl_From_The_North_Country.mp4
+-a---           12/1/2019  1:23 PM        5317796 Werewolves_of_London_2007_Remaster_.mp4
+-a---            9/6/2021  5:30 AM        4515045 You_Make_It_Easy.mp4
+
+    Directory: E:\you
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          12/26/2022  5:23 PM                coke
+d----            1/3/2023 12:23 PM                lazy
+-a---           6/12/2023  6:06 PM      146589322 TraversyTail.mp4
+-a---           6/16/2023 12:02 AM      128289450 TravSvelte.mp4
+
+    Directory: E:\you\coke
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---            8/8/2019  6:40 PM        3657462 _100_000_In_Pennies.mp3
+-a---            2/8/2022 12:12 PM        4349368 _Ghost_Riders_In_the_Sky.mp3
+-a---           2/17/2021  5:59 AM        1762136 _Sittin_On_the_Dock_of_the_Bay.mp3
+-a---          12/15/2022  3:38 PM        2765649 _The_Redneck_Underground_NEW_SONG_Buddy_Brown_Truck_Sessions.mp3
+-a---           2/19/2021  1:18 PM        3636464 25_Minutes_to_Go_Live_at_Folsom_State_Prison_Folsom_CA_1st_Show_January_1968_.mp3
+-a---           2/23/2021 11:22 PM        3544412 900_Miles.mp3
+-a---           7/15/2022 11:39 PM        3758861 A_Boy_Named_Sue.mp3
+-a---          11/26/2019  2:03 AM        4248828 A_Country_Boy_Can_Survive.mp3
+-a---           3/24/2021 10:33 AM        2896034 A_Good_Hearted_Woman_Live_at_Western_Place_Dallas_Texas_September_25_1974_.mp3
+-a---           11/9/2022  2:45 PM        2330984 A_Moment_Isn_t_Very_Long.mp3
+-a---            6/9/2022  7:03 PM        4257419 AC_DC_Back_In_Black_Official_Video_.mp3
+-a---            6/9/2022  9:12 PM        5104505 AC_DC_Thunderstruck_Official_Video_.mp3
+-a---           7/12/2021  9:35 AM        4576296 Aerosmith_I_Don_t_Want_to_Miss_a_Thing_Official_HD_Video_.mp3
+-a---          12/16/2022 12:02 AM        4322797 AlcolirykoZ_Armando_Hernandez_El_Remate_Prod._El_Arke_logo_.mp3
+-a---           4/18/2020 12:07 PM        3143993 All_My_Ex_s_Live_In_Texas.mp3
+-a---           2/29/2020  3:25 PM        3978969 All_My_Rowdy_Friends_Have_Settled_Down_.mp3
+-a---           12/7/2019  9:30 AM        3062960 Amarillo_By_Morning.mp3
+-a---          11/28/2019  3:05 AM        3578228 American_Girl.mp3
+-a---          11/28/2019  6:44 PM        7703849 American_Pie.mp3
+-a---           6/15/2021  2:13 PM        4061692 American_Remains.mp3
+-a---           2/28/2020 10:22 AM        2176369 Amos_Moses.mp3
+-a---           11/9/2022  2:44 PM        3030794 And_So_Will_You_My_Love.mp3
+-a---           11/9/2022  2:48 PM        2418653 Any_Old_Arms_Won_t_Do.mp3
+-a---           5/16/2022  4:15 PM        4299348 Arctic_Monkeys_Do_I_Wanna_Know_Official_Video_.mp3
+-a---           7/17/2021 12:26 PM        3739127 Are_the_Good_Times_Really_Over_I_Wish_a_Buck_Was_Still_Silver_.mp3
+-a---           5/15/2021  4:56 PM        2904891 Are_You_Sure_Hank_Done_It_This_Way.mp3
+-a---          12/14/2022  8:12 PM        3694046 Baby_It_s_Cold_Outside.mp3
+-a---           9/11/2021  5:20 PM        2879527 Bad_Bad_Leroy_Brown.mp3
+-a---           3/23/2020  7:56 PM        2003059 Bad_Moon_Rising.mp3
+-a---           2/14/2021  5:46 AM        4328269 Bad_Wolves_Zombie_Official_Video_.mp3
+-a---           4/21/2022 12:32 PM        1698340 Belshazzar.mp3
+-a---           12/8/2019  2:38 PM        3196182 Big_Bad_John.mp3
+-a---           11/8/2019 11:16 PM        1186429 Big_Blon_Baby_Original.mp3
+-a---          11/29/2019  2:24 AM        3813226 Big_Iron.mp3
+-a---           8/14/2019  3:19 AM        1512051 Big_River_2017_Remaster_.mp3
+-a---           8/15/2019  4:25 AM        2784749 Big_River.mp3
+-a---          11/26/2021 12:08 AM        1677554 Bill_Withers_Ain_t_No_Sunshine.mp3
+-a---          11/27/2019  5:57 PM        3015307 BLACK_SABBATH_Paranoid_Official_Video_.mp3
+-a---           12/8/2019  1:16 AM        1911025 Blue_Eyes_Crying_In_the_Rain.mp3
+-a---           12/3/2019  1:48 AM        5707283 Blue_on_Black.mp3
+-a---           6/18/2020  8:29 PM        2076520 Blue_Train_1988_Version_.mp3
+-a---           8/12/2019 11:40 AM        3858911 Blue_Umbrella.mp3
+-a---            6/7/2017  6:27 AM        2212318 Bob_Dylan_Remember_Me_When_The_Candle_Lights_Are_Gleamin_.mp3
+-a---          11/30/2019  8:12 AM        3977322 Bob_Seger_Turn_the_Page.mp3
+-a---            2/2/2021  5:09 PM        3229513 Boot_Scootin_Boogie.mp3
+-a---          11/26/2019 12:18 AM        5164213 Born_On_The_Bayou.mp3
+-a---            4/4/2020  5:19 PM        3675312 Born_To_Be_Wild.mp3
+-a---           4/21/2022 12:28 PM        1331674 Born_to_Lose.mp3
+-a---          11/24/2021  4:04 PM        3199714 Brad_Paisley_Penguin_James_Penguin.mp3
+-a---           4/21/2022  1:50 PM        1869778 Breathless.mp3
+-a---           8/16/2019  7:04 PM        3942355 Bridge_Over_Troubled_Water.mp3
+-a---           6/16/2020  6:49 AM        4110792 Brown_Eyed_Girl.mp3
+-a---           9/26/2022  3:16 PM        4735231 Caledonia_Appalachian_Woman.mp3
+-a---           7/25/2020  5:35 AM        6575130 Can_t_You_See.mp3
+-a---          12/16/2022  3:42 PM        2900878 Central_Cee_Let_Go_Music_Video_.mp3
+-a---          10/16/2021 12:57 PM        3759860 Chicken_Fried.mp3
+-a---           8/12/2019  3:37 AM        3610289 Christmas_in_Prison.mp3
+-a---           9/14/2022  6:25 PM        1450213 Christmas_Is_Here.mp3
+-a---           5/11/2021 10:35 PM        2679040 City_Of_New_Orleans_Live_.mp3
+-a---           2/19/2021  1:14 PM        3045358 Cocaine_Blues_Live_at_Folsom_State_Prison_Folsom_CA_January_1968_.mp3
+-a---           8/14/2019 12:51 PM        3985756 Cocaine_Blues.mp3
+-a---           8/15/2019 11:46 PM        2740543 Cocaine_Carolina.mp3
+-a---           2/29/2020 12:33 PM        3944639 Cocaine.mp3
+-a---           4/20/2020 12:01 PM        3592872 Come_and_Get_Your_Love.mp3
+-a---           11/7/2019  4:36 PM        1351135 Commodores_Uranium.mp3
+-a---          11/14/2020 10:58 AM        4187733 Convoy.mp3
+-a---           4/11/2022  1:08 PM        4446039 Coolio_Gangsta_s_Paradise_feat._L.V._Official_Music_Video_.mp3
+-a---           12/8/2019  2:59 AM        3587080 Country_Heroes.mp3
+-a---           1/11/2020 10:52 AM        4181145 Country_State_Of_Mind.mp3
+-a---          11/30/2019  5:04 AM        4747216 Coward_Of_The_County.mp3
+-a---           4/21/2022  1:15 PM        1556766 Crazy_Arms.mp3
+-a---          11/28/2019  1:40 PM        2317819 Creedence_Clearwater_Revival_Fortunate_Son_Official_Music_Video_.mp3
+-a---           6/15/2022  7:52 AM        3148033 Creedence_Clearwater_Revival_Have_You_Ever_Seen_The_Rain_Official_.mp3
+-a---          12/14/2022 11:35 PM        3494147 CROSSBREED_N.F.G._Official_music_video_.mp3
+-a---           8/12/2019  8:50 PM        1801829 Cry_Cry_Cry_.mp3
+-a---            2/8/2022 11:22 AM        2491968 Daddy_Sang_Bass.mp3
+-a---           8/16/2019  7:07 PM        3218176 Danny_Boy.mp3
+-a---           2/19/2021  1:18 PM        3216570 Dark_as_the_Dungeon_Live_at_Folsom_State_Prison_Folsom_CA_January_1968_.mp3
+-a---           3/13/2020  3:44 PM        5395119 David_Bowie_Space_Oddity_Official_Video_.mp3
+-a---           8/15/2019  9:50 PM        1755297 Delia_s_Gone.mp3
+-a---          12/15/2022  1:06 AM        4746563 Devil_Dog_Road_I_Don_t_Wanna_Be_A_Rock_n_Roll_Star_T._Nikki_.mp3
+-a---           8/15/2019 12:29 PM        2196491 Devil_s_Right_Hand.mp3
+-a---           11/4/2021 10:57 AM        3844836 Disturbed_The_Sound_Of_Silence_Official_Music_Video_.mp3
+-a---            5/6/2022 12:03 AM        5146444 Dixieland_Delight.mp3
+-a---          12/17/2022  9:12 AM        4398607 Djalil_Palermo_Calma.mp3
+-a---           9/30/2020  8:52 PM        1607683 Doin_My_Time_Original.mp3
+-a---           9/25/2019  9:15 PM        1419259 Don_t_Make_Me_Go_Alternate_SUNBOX_103_.mp3
+-a---          11/30/2019  5:59 AM        4072119 Don_t_Stop_Believin_.mp3
+-a---            2/8/2022 12:47 PM        3556031 Don_t_Take_Your_Guns_to_Town.mp3
+-a---          11/12/2019  1:44 AM        4497417 Down_East_Day.mp3
+-a---           5/18/2022  8:39 AM        1276068 Down_The_Line.mp3
+-a---          10/20/2019  5:28 AM        1806675 Dream_baby.mp3
+-a---           3/14/2020 12:04 PM        4381299 Dream_On.mp3
+-a---            3/5/2020  6:25 PM        2819570 Dust_in_a_Baggie.mp3
+-a---            1/2/2020  7:34 AM        2629007 East_Bound_and_Down.mp3
+-a---           5/22/2021  1:02 PM        2752713 El_Paso.mp3
+-a---            3/4/2022  2:56 PM        3011050 Elvis_Presley_Can_t_Help_Falling_In_Love_Official_Audio_.mp3
+-a---           12/9/2022  2:24 PM        2813530 Emily_Ann_Roberts_The_Building_Behind_The_Scenes_.mp3
+-a---           4/21/2022  1:16 PM        1238579 End_Of_The_Road.mp3
+-a---          12/16/2022  6:18 PM        2936145 ERNEST_Songs_We_Used_To_Sing_Lyric_Video_.mp3
+-a---           3/12/2020  1:33 AM        4185678 Everlast_What_it_s_Like_Official_Music_Video_.mp3
+-a---           11/9/2022  2:49 PM        2712869 Everything_But_You.mp3
+-a---           1/11/2020  6:05 PM        4187196 Family_Tradition.mp3
+-a---           8/12/2019  3:50 PM        4585625 Far_from_Me.mp3
+-a---           12/3/2019  2:31 AM        3219080 Feel_Alright.mp3
+-a---          12/16/2022  8:32 AM        2448767 FEET_Can_t_Get_In_Live_from_The_Mill_.mp3
+-a---           8/16/2019  7:30 PM        3657918 First_Time_Ever_I_Saw_Your_Face.mp3
+-a---            2/8/2022 11:20 AM        1969422 Five_Feet_High_and_Rising.mp3
+-a---            4/4/2020  1:02 PM        5363907 Five_Finger_Death_Punch_Wrong_Side_Of_Heaven.mp3
+-a---          12/16/2022  5:35 PM        2835045 FJ_OUTLAW_X_DUSTY_LEIGH_HEART_BEEN_COLD.mp3
+-a---           2/19/2021  1:23 PM        2760054 Flushed_from_the_Bathroom_of_Your_Heart_Live_at_Folsom_State_Prison_Folsom_CA_January_1968_.mp3
+-a---           4/21/2022  1:37 PM        1618059 Fools_Like_Me.mp3
+-a---          11/28/2019  5:57 PM        3813149 Forever_and_Ever_Amen.mp3
+-a---           6/26/2022  9:04 AM        8927237 Free_Bird.mp3
+-a---           12/7/2019  9:46 AM        4178591 Free_Fallin_.mp3
+-a---          12/28/2019  4:22 AM        3264856 Further_On_Up_The_Road.mp3
+-a---          12/15/2019  2:59 PM        1725449 Get_Rhythm.mp3
+-a---           1/25/2020  1:13 PM        5786346 Ghosts_Of_Mississippi.mp3
+-a---            3/6/2021  5:57 AM        1807485 Girl_On_My_Mind.mp3
+-a---           4/12/2020  1:53 PM        3722305 Give_It_Away.mp3
+-a---           2/19/2021  1:31 PM        2915085 Give_My_Love_to_Rose_Live_at_Folsom_State_Prison_Folsom_CA_January_1968_.mp3
+-a---           12/1/2019  1:07 AM        2528938 God_s_Gonna_Cut_You_Down.mp3
+-a---          12/14/2022  9:48 PM        2411574 God_Will.mp3
+-a---           12/8/2022  3:32 PM        4426736 Goin_to_Town.mp3
+-a---           6/15/2021  5:33 PM        4313079 Gone_Country.mp3
+-a---           4/21/2022 12:32 PM        1821842 Goodnight_Irene.mp3
+-a---          11/25/2021 12:34 AM        4666193 Green_Day_Boulevard_Of_Broken_Dreams_Official_Music_Video_.mp3
+-a---           2/19/2021  1:24 PM        3133215 Green_Green_Grass_of_Home_Live_at_Folsom_State_Prison_Folsom_CA_January_1968_.mp3
+-a---           8/10/2022  1:20 PM        1336119 Guess_Things_Happen_That_Way.mp3
+-a---          10/17/2020 11:33 AM        3123196 He_Stopped_Loving_Her_Today.mp3
+-a---          12/29/2019  5:30 PM        3354368 Heart_Of_Gold.mp3
+-a---           12/7/2019 10:19 PM        2144413 Hey_Good_Lookin_.mp3
+-a---           8/13/2019  2:01 AM        1614788 Hey_Porter_.mp3
+-a---           12/7/2019 10:24 AM        5850539 High_Cost_Of_Living.mp3
+-a---           9/22/2022  8:17 PM        3397783 Holy_Water.mp3
+-a---           4/21/2022 12:51 PM        1539082 Home_Of_The_Blues.mp3
+-a---           5/30/2020  6:07 AM        2820262 Hot_Rod_Lincoln.mp3
+-a---           7/29/2022  1:13 PM        6736473 Hotel_California_2013_Remaster_.mp3
+-a---           12/7/2019  5:04 AM        3566158 House_Of_The_Rising_Sun.mp3
+-a---           5/25/2022  7:21 AM        3609361 Hozier_Take_Me_To_Church.mp3
+-a---           3/12/2020  1:50 PM        4215892 I_Ain_t_Living_Long_Like_This.mp3
+-a---          11/29/2019  2:06 AM        3736667 I_Am_A_Man_Of_Constant_Sorrow_With_Band_.mp3
+-a---           11/9/2022  2:41 PM        2307422 I_Can_t_Find_the_Time.mp3
+-a---           12/3/2019  4:20 PM        4375343 I_Drink_Alone.mp3
+-a---           3/14/2021  5:52 AM        1125573 I_Forgot_to_Remember_to_Forget_2017_Remaster_.mp3
+-a---           2/19/2021  1:23 PM        1737501 I_Got_Stripes_Live_at_Folsom_State_Prison_Folsom_CA_2nd_Show_January_1968_.mp3
+-a---           4/19/2020  4:03 PM        4054883 I_Hung_My_Head.mp3
+-a---           11/9/2022  2:49 PM        2773730 I_Just_Don_t_Understand.mp3
+-a---           12/1/2019  1:11 PM        3418458 I_ll_Fly_Away.mp3
+-a---           4/21/2022  1:36 PM        1249302 I_ll_Sail_My_Ship_Alone.mp3
+-a---           12/7/2019  8:48 AM        5803352 I_Love_This_Bar.mp3
+-a---           3/22/2020  4:53 PM        1612380 I_Love_You_The_Best_Of_The_Johnny_Cash.mp3
+-a---           1/23/2021  2:09 PM        2857682 I_m_a_Ramblin_Man.mp3
+-a---          12/26/2019  8:14 AM        1852771 I_m_so_Lonesome_I_Could_Cry.mp3
+-a---           8/13/2019  5:15 PM        3242052 I_m_the_Only_Hell_Mama_Ever_Raised_.mp3
+-a---           2/19/2021  1:15 PM        1663634 I_Still_Miss_Someone_Live_at_Folsom_State_Prison_Folsom_CA_1st_Show_January_1968_.mp3
+-a---          11/30/2019  8:24 AM        4738339 I_Think_I_ll_Just_Stay_Here_And_Drink.mp3
+-a---          12/21/2019  3:34 AM        3806434 I_ve_Always_Been_Crazy.mp3
+-a---          12/30/2019  4:01 AM        3255548 I_ve_Been_Everywhere.mp3
+-a---           8/15/2019  6:25 PM        1518597 I_Walk_the_Line.mp3
+-a---           8/16/2019  7:25 AM        1356634 I_Was_There_When_It_Happened_2017_Remaster_.mp3
+-a---          11/30/2019  7:34 PM        2492035 I_Won_t_Back_Down.mp3
+-a---          11/26/2019 12:47 AM        2783601 If_Heaven_Ain_t_A_Lot_Like_Dixie.mp3
+-a---          10/10/2020  4:50 AM        4909857 If_I_Had_1_000_000.mp3
+-a---           8/16/2019  7:21 AM        1069846 If_the_Good_Lord_s_Willing_2017_Remaster_.mp3
+-a---           4/28/2021 10:49 AM        2347318 If_Your_Gonna_Be_Dumb_You_Gotta_Be_Tough.mp3
+-a---           8/23/2021 12:46 AM        3990068 Imagine_Dragons_Radioactive.mp3
+-a---           7/29/2022  1:55 PM        3491356 Imagine_Dragons_Thunder.mp3
+-a---            3/8/2020  2:30 PM        4938874 In_Color.mp3
+-a---           8/16/2019  7:59 PM        2702533 In_My_Life.mp3
+-a---           8/16/2019  9:21 PM        3252416 In_The_Jailhouse_Now.mp3
+-a---           11/9/2022  2:47 PM        2231071 Is_There_Something_on_Your_Mind.mp3
+-a---            2/8/2022 11:22 AM        3208946 It_Ain_t_Me_Babe.mp3
+-a---          10/29/2019 12:54 PM        2290390 It_ll_Be_Me.mp3
+-a---          11/10/2019  1:29 PM        1298477 It_s_Just_About_Time_2017_Remaster_.mp3
+-a---            6/6/2020  2:35 AM        4220433 Jack_Diane.mp3
+-a---           8/16/2019  4:22 PM        2089690 Jambalaya_On_the_Bayou_.mp3
+-a---          12/15/2019 10:24 PM        1594386 Johnny_B._Goode.mp3
+-a---           8/14/2021 12:30 PM        2873685 Johnny_Cash_Folsom_Prison_Blues_Official_Audio_.mp3
+-a---          12/21/2016 10:00 PM        4008693 Johnny_Cash_ft._2pac_Pain_Remix_Produced_by_Mo_DIRT.mp3
+-a---           2/26/2022 12:37 PM        2931040 Johnny_Cash_Jackson.mp3
+-a---          10/25/2018  4:12 PM        2717404 Johnny_Cash_June_Carter_Jackson.mp3
+-a---           2/26/2022 11:24 PM        2873637 Johnny_Cash_Man_in_Black.mp3
+-a---           5/23/2020  9:30 PM        2999759 Johnny_Cash_Rusty_Cage.mp3
+-a---           12/9/2019  5:24 AM        1360160 Johnny_Cash_San_Quentin_Live_at_San_Quentin_1969_.mp3
+-a---           6/23/2021  9:13 AM        3850119 Johnny_Cash_She_Used_To_Love_Me_A_Lot_Official_Video_.mp3
+-a---            5/7/2021 12:51 PM        2832942 Johnny_Cash_Sixteen_Tons_Official_Music_Video_.mp3
+-a---            6/4/2022  3:29 PM        4977967 Johnny_Cash_Sunday_Mornin_Comin_Down_Live_from_Austin_TX_.mp3
+-a---            4/6/2019  3:56 PM        2824584 Johnny_Cash_Tennessee_Flat_Top_Box.mp3
+-a---            7/4/2020  7:22 PM        4135980 Johnny_Cash_The_Ballad_of_Ira_Hayes.mp3
+-a---           5/16/2022 10:32 AM        3375417 KALEO_Way_Down_We_Go_Official_Music_Video_.mp3
+-a---          12/17/2022  4:20 AM        2719232 Kendrick_Lamar_Count_Me_Out.mp3
+-a---           1/12/2021  6:41 PM        1305094 King_Of_The_Road.mp3
+-a---           8/23/2022  6:10 PM        3610795 Kiss_I_Was_Made_For_Lovin_You.mp3
+-a---           7/17/2021 10:21 AM        4028606 La_Grange_2005_Remaster_.mp3
+-a---            4/8/2022  6:33 AM        3293629 Lady_Gaga_Bradley_Cooper_Shallow_from_A_Star_Is_Born_Official_Music_Video_.mp3
+-a---          12/14/2022 11:16 PM        2494670 Lead_Me_Father.mp3
+-a---          12/15/2022 12:11 AM        2029765 Lead_Me_Gently_Home.mp3
+-a---           5/21/2021 10:42 AM        3698461 Lean_on_Me.mp3
+-a---           4/21/2022  1:34 PM        1155462 Lewis_Boogie.mp3
+-a---           3/12/2021  5:51 PM        1335054 Life_Goes_On_2017_Remaster_.mp3
+-a---          11/28/2019 11:17 PM        8742473 Life_s_Been_Good.mp3
+-a---           8/10/2019 10:11 AM        2072529 Listen_To_Me.mp3
+-a---          12/17/2019  3:37 AM        1814647 Little_Queenie.mp3
+-a---          12/13/2022  9:53 PM        4801998 lofibardzzz_wind_down_city_Relaxing_Fantasy_Orchestra_Music.mp3
+-a---           1/20/2022  7:09 PM        1891018 Lonesome_Tears.mp3
+-a---            4/4/2021  3:09 PM        3342655 Long_Cool_Woman_In_a_Black_Dress_1999_Remaster_.mp3
+-a---           1/17/2020  2:37 PM        4271208 Long_Haired_Country_Boy.mp3
+-a---           8/15/2019 10:44 AM        3559336 Longhaired_Redneck.mp3
+-a---          11/21/2020 12:26 PM        2039046 Lost_Highway.mp3
+-a---            3/6/2021  3:52 AM        1812675 Love_Me.mp3
+-a---           4/21/2022  1:36 PM        1152261 Lovin_up_a_Storm.mp3
+-a---          11/13/2022  2:06 PM        3277527 Luckenbach_Texas_Back_to_the_Basics_of_Love_.mp3
+-a---           1/26/2020 11:57 AM        3836950 Lukas_Graham_7_Years_Official_Music_Video_.mp3
+-a---           12/7/2019 11:05 AM        4802331 Magic_Carpet_Ride.mp3
+-a---           1/14/2021 11:35 AM        3387301 Makin_Memories.mp3
+-a---           8/29/2020  7:58 PM        2512508 Mama_Tried.mp3
+-a---           6/15/2021  5:33 PM        2407152 Mammas_Don_t_Let_Your_Babies_Grow_up_to_Be_Cowboys.mp3
+-a---           4/20/2022  8:41 PM        7678106 Manchester_Orchestra_The_Silence_Official_Music_Video_.mp3
+-a---          12/16/2022  2:59 PM        2984178 Marc_Ginale_PLATA_XEOS_REMIX_.mp3
+-a---          12/15/2022  7:56 PM        4125591 MARISOLA_REMIX_Video_Oficial_CRIS_MJ_x_STANDLY_x_NICKI_NICOLE_x_DUKI_x_STARS_MUSIC_CHILE.mp3
+-a---          11/26/2019  3:31 AM        4658391 Mary_Jane_s_Last_Dance.mp3
+-a---          11/17/2022  7:45 PM        3617180 MaRynn_Taylor_O_Come_All_Ye_Faithful_Official_Music_Video_.mp3
+-a---           6/10/2020  7:48 PM        4975979 Master_of_Disaster.mp3
+-a---           10/9/2020  4:17 PM        1947375 Mean_Eyed_Cat.mp3
+-a---            7/6/2022  7:41 AM        2720044 Men_At_Work_Down_Under_Official_HD_Video_.mp3
+-a---            7/4/2020  7:43 PM        3300981 Midnight_Rider.mp3
+-a---           2/15/2020 10:30 AM        4159666 Midnight_Special.mp3
+-a---           7/14/2021 12:47 PM        3008810 Miley_Cyrus_The_Backyard_Sessions_Jolene_.mp3
+-a---            3/3/2022  9:22 PM        3109574 Milky_Chance_Stolen_Dance_Official_Video_.mp3
+-a---            1/1/2020  9:43 PM        3265033 Missing_Ol_Johnny_Cash.mp3
+-a---            5/6/2022 10:21 AM        4209376 Mountain_Music.mp3
+-a---          12/24/2019  2:07 PM        2854301 My_Girl.mp3
+-a---            2/2/2021  5:09 PM        4141878 Neon_Moon.mp3
+-a---           4/21/2022 12:32 PM        1302408 New_Mexico.mp3
+-a---           4/21/2022  1:45 PM        1574880 Next_in_Line.mp3
+-a---            7/5/2020 10:25 PM        5711853 Night_Moves.mp3
+-a---           8/16/2019  1:52 AM        2806358 Ninety_Miles_An_Hour_Down_A_Dead_End_Street_.mp3
+-a---           2/24/2021 12:51 AM        1821489 Not_Fade_Away.mp3
+-a---           3/24/2021  9:48 AM        2930060 Nowhere_Road.mp3
+-a---           12/1/2019  1:14 PM        2725764 O.D._d_In_Denver.mp3
+-a---           3/10/2020  3:59 AM        4720327 Oasis_Wonderwall_Official_Video_.mp3
+-a---           11/7/2019  4:08 AM        1598027 Oh_Lonesome_Me_2017_Remaster_.mp3
+-a---           8/10/2019  3:09 PM        2826185 Okie_From_Muskogee.mp3
+-a---           4/16/2020  3:26 AM        7956838 One_Bourbon_One_Scotch_One_Beer.mp3
+-a---          11/28/2019  9:55 PM        4715047 One_Piece_at_a_Time.mp3
+-a---           8/15/2019  1:21 PM        4596683 One.mp3
+-a---           4/21/2022  1:13 PM        1802443 Ooby_Dooby.mp3
+-a---            3/8/2020  7:23 PM        5178907 Pancho_and_Lefty.mp3
+-a---          12/14/2022  9:45 PM        2889174 Peace_In_The_Valley.mp3
+-a---           10/9/2017  1:39 AM        1537408 Peggy_Sue_BUDDY_HOLLY..mp3
+-a---           3/14/2021  8:45 AM        1369318 Peggy_Sue_Got_Married.mp3
+-a---            2/9/2021  2:19 PM        3355707 Personal_Jesus.mp3
+-a---          12/23/2019  1:19 PM        5160416 Piano_Man.mp3
+-a---           12/8/2019  2:50 PM        2527018 Pills_I_Took.mp3
+-a---            4/6/2022  8:55 AM        3183763 Rag_n_Bone_Man_Human_Official_Video_.mp3
+-a---          11/26/2019  1:50 AM        2367564 Ram_Jam_Black_Betty.mp3
+-a---            8/9/2019  7:46 PM        3339141 Rebel_Soldier.mp3
+-a---            4/7/2020 11:31 AM        4456651 Redemption_Day.mp3
+-a---           6/10/2017  5:06 PM        4978948 Ring_Of_Fire_Johnny_Cash.mp3
+-a---            2/8/2022 11:48 AM        2891841 Ring_of_Fire.mp3
+-a---           8/10/2019  1:57 PM        6849015 Ripplin_Waters_Remastered_.mp3
+-a---          11/12/2019  8:56 PM        1265736 Rock_Island_Line.mp3
+-a---           2/22/2020 12:54 PM        4554385 Rocket_Man_I_Think_It_s_Going_To_Be_A_Long_Long_Time_.mp3
+-a---           8/14/2019  3:13 PM        3168055 Roll_Me_Up.mp3
+-a---           12/3/2019  3:49 AM        1590976 Roll_Over_Beethoven.mp3
+-a---          12/15/2022 11:47 PM        2856236 ROSAL_A_Cardi_B_DESPECH_RMX_Official_Audio_.mp3
+-a---          12/10/2022  6:20 PM        3880725 Rosie_Drugs.mp3
+-a---          11/15/2018  1:33 PM        2669901 Roy_Clark_And_Johnny_Cash_Orange_Blossom_Special_1978.mp3
+-a---          10/20/2019  7:18 AM        2175087 Running_scared.mp3
+-a---           8/16/2019  7:46 PM        2906775 Sam_Hall.mp3
+-a---          11/26/2021  6:52 PM        2032839 Send_a_Picture_of_Mother_Live_at_Folsom_State_Prison_Folsom_CA_January_1968_.mp3
+-a---           8/10/2019  6:06 AM        3905349 Shake_Sugaree.mp3
+-a---           5/17/2021  4:48 PM        3344433 She_Got_The_Goldmine_I_Got_The_Shaft_Buddha_Remastered_2000_.mp3
+-a---           11/9/2022  2:47 PM        2462036 She_s_Not_for_You.mp3
+-a---           12/7/2019  9:11 AM        5496028 She_Talks_To_Angels.mp3
+-a---           8/16/2022 10:41 PM        2823684 Ships_in_the_Harbor.mp3
+-a---          11/28/2019  4:30 AM        3757247 Should_ve_Been_A_Cowboy.mp3
+-a---           5/22/2021  9:20 PM        3339008 Simple_Man.mp3
+-a---           5/20/2022 11:50 AM        4513887 Sin_ad_O_Connor_Nothing_Compares_2_U_Official_Music_Video_HD_.mp3
+-a---           12/3/2019  3:14 AM        2837690 Sleeping_on_the_Blacktop.mp3
+-a---          11/28/2019  8:55 AM        8588489 Slow_Ride.mp3
+-a---           12/2/2019  2:38 AM        2974376 Solitary_Man.mp3
+-a---            5/9/2021  5:11 AM        3025776 Song_of_the_South.mp3
+-a---           12/7/2019 10:07 AM        4483737 Spirit_In_The_Sky.mp3
+-a---          11/28/2019  6:48 PM        8084475 Stairway_to_Heaven_Remaster_.mp3
+-a---          11/28/2019  2:30 PM        1987019 Stand_by_Me.mp3
+-a---          12/16/2022  7:15 AM        2716251 Stand_By_Your_Man_George_Tammy_Original_Series_Soundtrack_.mp3
+-a---           2/27/2020  9:34 PM        4357662 Steve_Earle_Copperhead_Road.mp3
+-a---           4/21/2022 12:35 PM        1377760 Straight_A_s_in_Love.mp3
+-a---           8/13/2019  4:25 PM        3205369 Straight_To_Hell_Satan_Is_Real_Medley_.mp3
+-a---           8/16/2019  6:52 PM        3161787 Streets_Of_Laredo.mp3
+-a---          12/15/2019 11:19 PM        3525361 Stuck_In_The_Middle_With_You.mp3
+-a---           12/7/2022 10:21 AM        3341012 Sturdy_Soul_An_Ode_To_Brandi_Carlile_Helen_O_Shea.mp3
+-a---           2/15/2020 10:04 AM        5917609 Sultans_of_Swing.mp3
+-a---            6/3/2017  9:43 PM        1768250 Sunday_morning_coming_down.mp3
+-a---           3/17/2021  6:47 PM        4525128 Suspicious_Minds.mp3
+-a---           7/27/2021  2:41 AM        3482929 Sweet_Caroline.mp3
+-a---            2/8/2020  5:05 PM        5745345 Sweet_Child_O_Mine.mp3
+-a---           12/8/2019 10:57 AM        4479763 Sweet_Home_Alabama.mp3
+-a---          12/14/2022  9:04 PM        1770098 Swing_Low_Sweet_Chariot.mp3
+-a---           3/29/2020  4:20 PM        2626095 Swingin_.mp3
+-a---          11/25/2019 12:38 PM        3906985 Take_It_Easy_2013_Remaster_.mp3
+-a---          11/28/2019  3:59 PM        3175234 Take_Me_Home_Country_Roads.mp3
+-a---           8/10/2019  1:40 PM        1548011 Take_Your_Time.mp3
+-a---           8/16/2019  7:45 PM        3800806 Tear_Stained_Letter.mp3
+-a---           3/18/2020  5:30 PM        4139084 Tennessee_Whiskey.mp3
+-a---            3/6/2022  9:41 AM        1155744 The_Big_Rock_Candy_Mountain.mp3
+-a---            8/9/2019 11:36 AM        4903512 The_Christmas_Guest.mp3
+-a---           4/27/2022  5:12 AM        2306360 The_Dead_South_In_Hell_I_ll_Be_In_Good_Company_Official_Music_Video_.mp3
+-a---           5/31/2020  6:47 AM        3794227 The_Devil_Went_Down_to_Georgia.mp3
+-a---           12/7/2019  9:03 AM        3657285 The_Gambler.mp3
+-a---            4/1/2021  2:35 PM        3127511 The_General_Lee.mp3
+-a---           8/15/2019  3:26 PM        3029266 The_Highwayman.mp3
+-a---            3/8/2019  4:26 PM        3116950 The_Highwaymen_Highwayman.mp3
+-a---           8/27/2022  4:03 PM        3431876 The_I_95_Asshole_Song.mp3
+-a---          12/31/2019  1:57 PM        4397603 The_Jimi_Hendrix_Experience_All_Along_The_Watchtower_Official_Audio_.mp3
+-a---           12/7/2019  2:41 PM        4485888 The_Joker.mp3
+-a---          11/26/2019 12:01 AM        2729336 The_Last_Gunfighter_Ballad.mp3
+-a---            9/7/2019  4:21 PM        7974796 The_Legend_of_John_Henry_s_Hammer_Live_at_Folsom_State_Prison_Folsom_CA_1st_Show_January....mp3
+-a---          12/14/2019  3:01 PM        4863451 The_Man_Comes_Around.mp3
+-a---           3/20/2021  4:31 PM        2993215 The_Ride.mp3
+-a---          12/23/2019  5:56 AM        4897629 The_Road_Goes_On_Forever.mp3
+-a---            7/1/2022  4:55 PM        2310501 The_Rolling_Stones_Paint_It_Black_Official_Lyric_Video_.mp3
+-a---           1/28/2020  6:12 PM        7037524 The_Rolling_Stones_Sympathy_For_The_Devil_Official_Lyric_Video_.mp3
+-a---           2/19/2021  1:17 PM        1936497 The_Wall_Live_at_Folsom_State_Prison_Folsom_CA_January_1968_.mp3
+-a---          11/26/2019 12:50 AM        3016610 The_Wanderer.mp3
+-a---           4/21/2022 12:50 PM        1325481 The_Ways_Of_A_Woman_In_Love.mp3
+-a---          12/17/2022 12:37 AM        4395360 The_Weeknd_Nothing_Is_Lost_You_Give_Me_Strength_Official_Lyric_Video_.mp3
+-a---           12/7/2019  5:20 AM        4519688 The_Weight_Remastered_2000_.mp3
+-a---           4/21/2022 12:37 PM        1159932 The_Wreck_of_the_Old_97.mp3
+-a---           3/21/2020  9:48 AM        2055736 Theme_from_The_Dukes_of_Hazzard_Good_Ol_Boys_.mp3
+-a---            2/8/2022 12:58 PM        3258850 There_Ain_t_No_Good_Chain_Gang.mp3
+-a---            7/6/2020  3:43 PM        4454622 Toby_Keith_As_Good_As_I_Once_Was.mp3
+-a---           8/21/2022  1:25 PM        4576312 Toto_Africa_Official_HD_Video_.mp3
+-a---           10/7/2020  3:32 AM        1613440 Train_of_Love.mp3
+-a---           4/21/2022 12:28 PM        1231914 Two_Timin_Woman.mp3
+-a---           12/7/2019  8:41 AM        3804175 Unchained_Melody.mp3
+-a---            5/3/2022  3:45 AM        2847198 Uncle_Lucius_Keep_The_Wolves_Away_Official_Video_.mp3
+-a---           8/10/2019  3:40 AM        1945830 Valley_Of_Tears.mp3
+-a---          12/17/2022 11:30 AM        2019260 Vevo_Somos_Video_Semanal_Year_In_Review_2022.mp3
+-a---           5/25/2021  4:41 PM        5177657 Virginia_s_Bloody_Soil.mp3
+-a---          12/31/2019  7:09 PM        4705721 Wagon_Wheel.mp3
+-a---          12/16/2022 12:15 AM        5499613 Walk_Em_Down_Don_t_Kill_Civilians_.mp3
+-a---           12/7/2019  6:13 AM        5102322 Wanted_Dead_Or_Alive.mp3
+-a---           2/22/2020 10:26 AM        2675237 Waymore_s_Blues.mp3
+-a---           8/16/2019  7:07 PM        2425275 We_ll_Meet_Again.mp3
+-a---          12/24/2019  7:38 PM        4054667 Weed_With_Willie.mp3
+-a---          11/27/2021  9:56 PM        3867651 Where_I_Come_From.mp3
+-a---           10/3/2020  7:05 PM        2645446 Whiskey_and_Wine.mp3
+-a---          11/25/2019  4:12 PM        3308541 Whiskey_Bent_And_Hell_Bound.mp3
+-a---          10/18/2021  4:14 AM        4394809 Whiskey_River.mp3
+-a---          12/16/2022  3:46 AM        2463405 White_Lightning_George_Tammy_Original_Series_Soundtrack_.mp3
+-a---          12/12/2019 10:44 AM        2345180 Wide_Open_Road.mp3
+-a---          10/13/2020  4:46 PM        5373267 Wish_You_Were_Here.mp3
+-a---           1/12/2020  8:01 PM        8706142 Won_t_Get_Fooled_Again.mp3
+-a---           12/8/2019  4:18 PM        2807958 You_Are_My_Sunshine.mp3
+-a---           10/2/2021 10:08 AM        3198751 You_Don_t_Mess_Around_with_Jim.mp3
+-a---           11/9/2022  2:47 PM        2607689 You_ll_Always_Have_Someone.mp3
+-a---           2/29/2020 10:18 AM        5689116 You_Never_Even_Called_Me_By_My_Name.mp3
+-a---           8/10/2019  2:01 PM        1529606 You_re_So_Square_Baby_I_Don_t_Care_.mp3
+-a---           4/21/2022 12:55 PM        1577471 You_re_the_Nearest_Thing_to_Heaven.mp3
+-a---          11/10/2019  2:04 PM        1416106 You_Win_Again_2017_Remaster_.mp3
+
+    Directory: E:\GDrive
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----            1/3/2023 12:27 PM                Downloads
+d----            1/3/2023 11:58 AM                Downloads (1)
+
+    Directory: E:\GDrive\Downloads (1)
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/13/2022  2:48 PM           6484 21amazgrace (1).mid
+-a---           7/13/2022  2:50 PM          49810 21amazgrace1.png
+-a---           7/13/2022  2:50 PM          59126 21amazgrace2.png
+-a---           7/13/2022  2:50 PM          57192 21amazgrace3.png
+-a---           7/13/2022  2:50 PM          64207 21amazgrace4.png
+-a---           7/13/2022  2:50 PM          11626 21amazgrace5.png
+-a---           7/13/2022  2:39 PM            282 desktop (1).ini
+-a---           7/13/2022  2:50 PM         237692 drive-download-20220713T194959Z-001.zip
+-a---           7/13/2022  2:48 PM         747008 MidiSheetMusic-2.6.2 (1).exe
+
+    Directory: E:\GDrive\Downloads
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           5/17/2022  3:52 PM                846
+d----           5/17/2022  3:52 PM                graceImg
+d----           5/17/2022  3:52 PM                Harrison, Mark
+-a---           5/17/2022  3:19 PM           6484 21amazgrace.mid
+-a---           5/17/2022  3:10 PM         315976 Chord-Chart-Eb-Major-Scale-1200x1697.png
+-a---           5/17/2022  3:08 PM          88064 major-chords.jpg
+
+    Directory: E:\GDrive\Downloads\846
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           5/17/2022  3:20 PM          42570 Bach__Prelude_in_C_major1.png
+-a---           5/17/2022  3:20 PM          38621 Bach__Prelude_in_C_major2.png
+-a---           5/17/2022  3:20 PM          22402 Bach__Prelude_in_C_major3.png
+
+    Directory: E:\GDrive\Downloads\graceImg
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           5/17/2022  3:25 PM          49810 21amazgrace1.png
+-a---           5/17/2022  3:25 PM          59126 21amazgrace2.png
+-a---           5/17/2022  3:25 PM          57192 21amazgrace3.png
+-a---           5/17/2022  3:25 PM          64207 21amazgrace4.png
+-a---           5/17/2022  3:25 PM          11626 21amazgrace5.png
+
+    Directory: E:\GDrive\Downloads\Harrison, Mark
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           5/17/2022  3:52 PM                All About Piano
+
+    Directory: E:\GDrive\Downloads\Harrison, Mark\All About Piano
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           5/17/2022  3:06 PM         545263 01 Rhythm Example #1.mp3
+-a---           5/17/2022  3:06 PM         575704 02 Rhythm Example #2.mp3
+-a---           5/17/2022  3:06 PM         571951 03 Go Tell Aunt Rhody.mp3
+-a---           5/17/2022  3:06 PM         627829 04 When The Saints Go Marching In.mp3
+-a---           5/17/2022  3:06 PM         467284 05 Dry Bones.mp3
+-a---           5/17/2022  3:06 PM         465616 06 Home Sweet Home.mp3
+-a---           5/17/2022  3:06 PM         260452 07 Eighth-Note Rhythm Example.mp3
+-a---           5/17/2022  3:07 PM         405151 08 Dotted Notes Example.mp3
+-a---           5/17/2022  3:07 PM         225841 09 Tied Note Example 1.mp3
+-a---           5/17/2022  3:07 PM         225424 10 Tied Note Example 2.mp3
+-a---           5/17/2022  3:07 PM         402232 11 Mixed Notes And Rests Example.mp3
+-a---           5/17/2022  3:07 PM         167461 12 Eighth-Note Triplet Example 1.mp3
+-a---           5/17/2022  3:07 PM         174967 13 Eighth-Note Triplet Example 2.mp3
+-a---           5/17/2022  3:07 PM         465616 14 Straight And Swing Eight Note Examples (Parts 1-2).mp3
+-a---           5/17/2022  3:07 PM         233347 15 Sixteenth-Note Rhythm Example.mp3
+-a---           5/17/2022  3:07 PM         282970 16 Melody Example With Sixteenth Notes.mp3
+-a---           5/17/2022  3:07 PM         275881 17 Melody Example With Sixteenth Notes And Rests.mp3
+-a---           5/17/2022  3:07 PM         621574 18 Marianne.mp3
+-a---           5/17/2022  3:07 PM         653683 19 Michael Row The Boat Ashore.mp3
+-a---           5/17/2022  3:08 PM         850507 20 Shenandoah.mp3
+-a---           5/17/2022  3:08 PM         458527 21 For He's A Jolly Good Fellow.mp3
+-a---           5/17/2022  3:08 PM         543595 22 Lavender's Blue.mp3
+-a---           5/17/2022  3:08 PM         776698 23 Hail, Hail, The Gang's All Here.mp3
+-a---           5/17/2022  3:08 PM         534838 24 Jingle Bells.mp3
+-a---           5/17/2022  3:08 PM         623242 25 Ode To Joy.mp3
+-a---           5/17/2022  3:08 PM        1068598 26 Auld Lang Syne.mp3
+-a---           5/17/2022  3:08 PM         574036 27 Buffalo Gals.mp3
+-a---           5/17/2022  3:08 PM         365536 28 Left-Hand Triad Progression.mp3
+-a---           5/17/2022  3:09 PM         381382 29 Left-Hand Triad Progression W- Inversions.mp3
+-a---           5/17/2022  3:09 PM         300067 30 Left Hand 4-Part Chord Progression.mp3
+-a---           5/17/2022  3:09 PM         319249 31 Left Hand 4-Part Chord Progression W-Inversions.mp3
+-a---           5/17/2022  3:09 PM         471871 32 Sonatina In C Major.mp3
+-a---           5/17/2022  3:09 PM         850090 33 Gymnopedie No. 1.mp3
+-a---           5/17/2022  3:09 PM         319666 34 Pop Ballad & Rock Comping Example, Stage 1.mp3
+-a---           5/17/2022  3:09 PM         318415 35 Pop Ballad & Rock Comping Example, Stage 2.mp3
+-a---           5/17/2022  3:09 PM         337597 36 Pop Ballad & Rock Comping Example, Stage 2.mp3
+-a---           5/17/2022  3:09 PM         320500 37 R&B Ballad & Funk Comping Example, Stage 1.mp3
+-a---           5/17/2022  3:09 PM         318415 38 R&B Ballad & Funk Comping Example, Voice Led.mp3
+-a---           5/17/2022  3:09 PM         328006 39 R&B Ballad & Funk Comping Example, Stage 2.mp3
+-a---           5/17/2022  3:09 PM         358447 40 R&B Ballad & Funk Comping Example, Stage 2.mp3
+-a---           5/17/2022  3:09 PM         653266 41 Let Sombody Love You, Piano Only.mp3
+-a---           5/17/2022  3:09 PM         660772 42 Let Sombody Love You, Full Band.mp3
+-a---           5/17/2022  3:10 PM         576538 43 You Can't Hide, Piano Only.mp3
+-a---           5/17/2022  3:10 PM         551101 44 You Can't Hide, Full Band.mp3
+-a---           5/17/2022  3:10 PM         239602 45 Left Hand Open Triad Arpeggios Example 1.mp3
+-a---           5/17/2022  3:10 PM         243772 46 Left Hand Open Triad Arpeggios Example 2.mp3
+-a---           5/17/2022  3:10 PM         241687 47 Left Hand Open Triad Arpeggios Example 3.mp3
+-a---           5/17/2022  3:10 PM         344686 48 Left Hand Open Triad Arpeggios Example 4.mp3
+-a---           5/17/2022  3:10 PM         657019 49 Easy Going, Version 1.mp3
+-a---           5/17/2022  3:10 PM         654517 50 Easy Going, Version 2.mp3
+-a---           5/17/2022  3:10 PM         656602 51 Easy Going, Version 3.mp3
+-a---           5/17/2022  3:10 PM        2278315 52 Chicago Breakup, Slow.mp3
+-a---           5/17/2022  3:11 PM        1410955 53 Chicago Breakup, Full Speed.mp3
+-a---           5/17/2022  3:11 PM         551518 54 Rock My Soul.mp3
+-a---           5/17/2022  3:11 PM        1355494 55 Blues Crossover Licks (Parts 1-7).mp3
+-a---           5/17/2022  3:11 PM        2596486 56 Every Night I Have The Blues, Slow.mp3
+-a---           5/17/2022  3:12 PM        1656151 57 Every Night I Have The Blues, Full Speed.mp3
+-a---           5/17/2022  3:12 PM        1975156 58 Blue Bop, Slow.mp3
+-a---           5/17/2022  3:12 PM        1428886 59 Blue Bop, Full Speed.mp3
+-a---           5/17/2022  3:12 PM         865519 60 Bird Of Prey.mp3
+-a---           5/17/2022  3:12 PM        1911772 61 Hand Prints, Slow.mp3
+-a---           5/17/2022  3:13 PM        1333810 62 Hand Prints, Full Speed.mp3
+-a---           5/17/2022  3:13 PM         807556 63 Before I Get Old.mp3
+-a---           5/17/2022  3:13 PM         643675 64 Outlaw Country, Slow.mp3
+-a---           5/17/2022  3:13 PM         483964 65 Outlaw Country, Full Speed.mp3
+-a---           5/17/2022  3:13 PM        1105294 66 Fur Elise.mp3
+-a---           5/17/2022  3:13 PM         462697 67 Sonata In C Major.mp3
+-a---           5/17/2022  3:13 PM        1738300 68 Prelude In B Minor.mp3
+-a---           5/17/2022  3:13 PM        1283353 69 Clair De Lune.mp3
+-a---           5/17/2022  3:14 PM        2009767 70 Minuet In G.mp3
+-a---           5/17/2022  3:14 PM        4449217 71 Come Sail Away.mp3
+-a---           5/17/2022  3:15 PM        4099354 72 Bennie And The Jets.mp3
+-a---           5/17/2022  3:15 PM        4674814 73 Takin' Care Of Business.mp3
+-a---           5/17/2022  3:16 PM        3260350 74 Misty.mp3
+
+    Directory: E:\justin
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           3/20/2023  5:34 PM                x
+-a---           3/20/2023  5:15 PM        6305657 id_1.jpg
+-a---           3/20/2023  5:15 PM        6551618 id_2.jpg
+-a---           3/20/2023  5:16 PM        6383845 id_3.jpg
+-a---           3/20/2023  5:16 PM        6404029 id_4.jpg
+
+    Directory: E:\justin\x
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           3/20/2023  5:34 PM              0 pcs_people-1
+-a---           3/20/2023  5:34 PM              0 pcs_people-2
+-a---           3/20/2023  5:34 PM              0 pcs_people-3
+

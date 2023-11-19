@@ -1,4 +1,4 @@
-
+<div style="text-align:center">
 ================
 *North 612 543 2500  800 West Broadway Minneapolis, MN 55411
 lala
@@ -8,6 +8,12 @@ call 11/1
 
  Keith Humphreys, PhD, professor of psychiatry and behavioral sciences, and his fellow investigators determined that AA was nearly always found to be more effective than psychotherapy in achieving abstinence. In addition, most studies showed that AA participation lowered health care costs.
 Cochrane review,
+
+justify-content main axis
+align-items cross axis
+
+align-content
+wrap
 
 What is truth? said jesting Pilate; and would not stay for an answer.
 HyperCard was created by Bill Atkinson following an LSD trip.[11] Work for it began in March 1985 under the name of WildCard (hence its creator code of WILD).
@@ -2495,7 +2501,8 @@ My girlfriend's dog died, so I tried to cheer her up by getting her an identical
 
 
 I'll never forget my dad's last words to me before he died. "Are you still holding the ladder?"
-
+Vernichtungslager
+Lebensunwertes Leben
 
 let space = (n) => {
     let reg = /[^a-zA-Z0-9\.]/g
@@ -2503,3 +2510,4 @@ let space = (n) => {
     var o = m.replace(/\s+/g, ' ')
     return o
 }
+
