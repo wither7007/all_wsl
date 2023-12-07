@@ -1,0 +1,301 @@
+
+qa('[class*=\"totalReact\"]').forEach(a=>log(a.textContent))
+qa('[class*=\"totalReact\"]')
+$0.nextElementSibling.nextElementSibling.className
+$0.nextElementSibling.nextElementSibling
+$0.textContent
+qa('.coral-comment-content')[0].parentElement.children\n
+qa('.coral-comment-content')[0].parentElement\n
+qa('.coral-comment-content')[0].children.length\n
+qa('.coral-comment-content')[0].children\n
+qa('.coral-comment-content')[0]\n
+qa('.coral-comment-content').forEach((a,i)=>log(`${i} - ${a.textContent}`))\n
+qa('.coral-comment-content').forEach(a=>log(a.textContent))
+qs('#comments-loadMore').click()
+sword('load more')[8]
+sword('load more')[9]
+sword('load more')
+window.sword = (x) => {\n    window.elements = [...document.querySelectorAll('*:not(head, body, html,meta)')]\n    var expression = `${x}`;\n    var re = new RegExp(expression, 'gi');\n    console.log(re)\n    let word = window.elements.filter(aa => aa.textContent.match(re))\n    return word\n}
+elements
+sword
+sword('load more')
+$0.id
+$0.textContent
+sword('load more')[0].innerHTML
+sword('load more')[0]
+sword('load more')
+qa('.coral-comment-content').forEach(a=>log(a.textContent))
+$0.parentElement.classList
+qs('span.comments-show').click()
+qs('span.comments-show')
+sword('show comm')
+qs('.coral').children[1].innerHTML
+qs('.coral').children[1].textContent
+qs('.coral').children[1]
+qs('.coral').children
+qs('.coral')
+$0.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.children
+$0.parentElement.children
+$0.parentElement
+$0
+sword('show comm')[7].click()
+sword('show comm')[7]
+sword('show comm')
+sword('Another Bowl')
+copy(qa('.coral')[0].textContent)
+qa('.coral')[0].textContent
+qa('.coral')[0].innerHTML
+qa('.coral')[0].textContent
+qa('.coral')[0]
+qa('.coral').forEach(a=>log(a.textContent))
+qa('.coral')
+$0.parentElement.classList
+$0.parentElement
+sword('Another Bowl')
+swor('Another Bowl')
+$0.click()
+sword('show comments')[7].click()
+sword('show comments')[7]
+sword('show comments')
+copy(sc)
+sc=sc.join('\\n')
+sc[1]
+sc
+qa('script').forEach((a,i)=>sc.push([`${i} ${a.src} ${a.textContent}`]))
+sc=[]
+qa('script').forEach((a,i)=>sc.push([`${i} ${a.src} ${a.textContent}`]))
+elements
+gel
+let gscript = await \"https://raw.githubusercontent.com/wither7007/htmlTemplate/main/html/events.js\";\nlet mytext\nlet n = async () => {\n    let gscript = await \"https://raw.githubusercontent.com/wither7007/htmlTemplate/main/html/events.js\";\n    let res = await fetch(gscript)\n    let j = await res.text()\n    let mytext = j\n    eval(mytext)\n    console.log(j)\n}\nn()\n
+copy(sc)
+qa('script').forEach((a,i)=>sc.push([`${i} ${a.src} ${a.textContent}`]))
+qa('script').forEach((a,i)=>sc.push([`${i} ${a.src} ${a.textContent}`)])
+sc=[]
+qa('script').forEach((a,i)=>log(`${i} ${a.src} ${a.textContent}`))
+qa('script').forEach((a,i)=>log(`${i} ${a.src}`))
+qa('script').forEach((a,i)=>log(${i} ${a.src}))
+qa('script').forEach(a=>log(a))
+qa('script').forEach(a=>log(a.src))
+qa('script').forEach(a=>log(a))
+qa('script').length
+qa('script')
+$0
+qs('div.Dropdown').outerHTML
+qs('div.Dropdown')
+sword('all time')
+sword('all time')[7].value
+sword('all time')[7]
+sword('all time')
+sword('search')[6].querySelector('input').style='color:#00f'
+sword('search')[6].querySelector('input').style='color:#f00'
+sword('search')[6].querySelector('input')
+sword('search')[6].querySelector('button')
+sword('search')[6].children[0].value
+sword('search')[6].children[0]
+sword('search')[6].children
+sword('search')[6].children[1]
+sword('search')[6].children[0]
+sword('search')[6].children
+sword('search')[6].value='none'
+sword('search')[6]
+sword('search')
+history.back()
+history.back
+sword('space.*exp')[10].click()
+sword('space.*exp')[10].href.click()
+sword('space.*exp')[10].href
+sword('space.*exp')[10]
+sword('space.*exp')
+qs('pre').remove()
+qs('table').querySelectorAll('a').forEach(a=>log(a.children))
+qs('center').querySelectorAll('a')[0]
+qs('center').querySelectorAll('a')
+qa('*').reduce((acc,item) => {\n    if (item.tagName in acc) {\n        acc[item.tagName]++\n    }\n    else {\n        acc[item.tagName]=1\n    }\n    return acc}, [])
+qa('*').reduce((acc,item) => {\n    if (item.tagName in acc) {\n        acc[item.tagName]++\n    }\n    else {\n        acc[item.tagName]=1\n    }\n    return acc}, {})
+qa('link').forEach(a=>log(a))
+qa('link').forEach(a=>log(a)
+qa('link').forEach(a=>log(a.src))
+qa('script').forEach(a=>log(a.src))
+qa('script').forEach(a=>log(a.className))
+qa('[class]').forEach(a=>log(a.className))
+qa('[class]').forEach(a=>log(a.class))
+qa('[class]')
+copy(s.join(\"\\n\"))
+copy(s)
+qa('a').forEach(a=>s.push(`${a.href} ${a.textContent}`))
+s=[]
+qa('a').forEach(a=>log(`${a.href} ${a.textContent}`))
+qa('a').forEach(a=>log(`${a.href} ${a.textContent}`)
+qa('a').forEach(a=>log(`${a.href} ${a.textContent)`)
+qa('a').forEach(a=>log(a))
+newstory
+q
+q.onop
+copy(s.join('\\n'))
+for (a in q) {s.push([a, q[a]])}
+s=[]
+q.hasAttribute
+s.forEach(a=>log(a))
+s
+copy(s.join('\\n'))
+s[1]
+copy(s)
+for (a in q) {s.push([a, q[a]])}
+s=[]
+for (a in q) {log(a)}
+q
+q.le
+q
+Object.keys(q)
+q=qs('body')
+qa('link')
+qa('script')
+copy(myscript)
+add({a:myscript})
+byClass
+document.body.prepend(pr)
+pr.textContent=myscript
+pr=document.createElement('pre')
+myscript
+fetch(qs('body').children[1].src)    .then((response) => response.text())\n    .then((data) => myscript = data);
+let myscript
+fetch(qs('body').children[1].src).then((x)=>x.textContent()).then((z)=>log(z))
+fetch(qs('body').children[1].src).then((x)=>x.textContent).then((z)=>log(z))
+fetch(qs('body').children[1].src).then(x=>x.textContent()).then(z=>log(z))
+fetch(qs('body').children[1].src).then(x=>x.textContent).then(z=>log(z))
+qs('body').children[1].src
+af(qs('body').children).forEach(a=>log(a))
+af(qs('head').children).forEach(a=>log(a))
+qs('#div-02').childElementCount
+[...qs('#div-02').children]
+qs('#div-02').children
+sword('-03').slice(3)[0].parentElement
+sword('-03').slice(3)[0].innerHTML
+sword('-03').slice(3).innerHTML
+sword('-03').slice(3)
+sword('-03').slice(4)
+sword('-03').length
+sword('-03')
+sword
+el=qs(':not[id*=\"03]\"')
+el=qs(':not[id*=\"03\"')
+qa(':not(div)')
+el.closest(':not(div)')
+el.closest('#div-01')
+el.closest('div')
+el=qs('[id*=\"03\"')
+qs('.poem').closest('div')
+af(qa('script')).forEach(a=>log(a))
+qs('head').remove()
+qs('body').previousSibling.textContent=c
+c
+fetch('http://localhost:3000/style.css').then(a=>a.text()).then(z=>c=z)
+let c
+qs('body').previousSibling=\"The lady doth protest too much, methinks\"
+qs('body').previousSibling
+qs('body').previousSibling.textContent
+qs('body').previousSibling
+qs('body').previousElementSibling
+qs('body').classList
+qs('pre').innerText=k.map((a,i)=>`${i} *** ${a[0]} *** ${a[1]}`).join('\\n')
+qs('pre').innerText=k.map((a,i)=>`${i} <b>${a[0]}</b> ${a[1]}`).join('\\n')
+qs('pre').innerText=k.map((a,i)=>`${i} ${a[0]} ${a[1]}`).join('\\n')
+qs('pre').innerHTML=k.map((a,i)=>`${i} ${a[0]} ${a[1]}`).join('\\n')
+qs('pre').innerHTML=k.map((a,i)=>`${i} ${a[0]} ${a[1]}`)
+k.map((a,i)=>`${i} ${a[0]} ${a[1]}`)
+document.querySelector('body').innerText
+document.querySelector('body').onbeforeprint
+q.onbeforeprint
+k[13]
+k.map((a,i)=>`${i} ${a[0]} ${a[1]}`)
+k.map(a=>`${a[0]} ${a[1]}`)
+k.forEach(a=>log(a))
+k[1]
+for (a in q) k.push([a, q[a]]) 
+k=[]
+k[1]
+for (a in q) k.push(a, q[a]) 
+k=[]
+q[k[1]]
+k[1]
+q=qs('body')
+for (a in qs('body')) k.push(a)
+k=[]
+document.body.prepend(pr)
+pr.textContent=qs('[class*=\"fit\"]').innerHTML
+pr=document.createElement('pre')
+qs('[class*=\"fit\"]').innerHTML
+qs('[class*=\"fit\"]')
+qs('[class*=\"fil\"]').children[1].innerHTML='The lady doth protest too much, methinks'
+qs('[class*=\"fil\"]').children
+qs('[class*=\"fil\"]')
+'i' in 'jim'
+qs('button').style.display
+hi()
+qs('button')
+qa('button')[0]
+hi()
+hi
+qa('button')[0].addEventListener('click',hi)
+qa('button')[0].addEventListener('click',hi())
+hi()
+let hi=()=>qs('pre').style.display=='block'? qs('pre').style.display='none' : qs('pre').style.display='block'
+hi()
+hi(0
+qa('button')[0].addEventListener('click',hi)
+qa('button').forEach(a=>log(a))
+qa('button')
+qa('button)
+hi()
+let hi=()=>qs('pre').style.display=='block'? qs('pre').style.display='none' : qs('pre').style.display='block'
+qs('pre').style.display=='block'? qs('pre').style.display='none' : qs('pre').style.display='block'
+qs('pre').style.display='block'
+qs('pre').style.display='content'
+qs('pre').style.display='none'
+qs('pre').style.display='content'
+qs('pre').style.display='block'
+qs('pre').style.display='none'
+add({1:c})
+add(1:c)
+add({1,c})
+add(c)
+add({a,c})
+c
+fetch('http://localhost:3000/style.css').then(a=>a.text()).then(z=>c=z)
+c=''
+c=''\\
+qa('link[href*=\"c\"]').forEach(a=>log(a.href))
+qa('link[href*=\"c\"]').forEach(a=>log(a.href))[1]
+qa('link[href*=\"c\"]').forEach(a=>log(a.href))
+qa('link[href*=\"c\"]').forEach(a=>log(a))
+qa('[href*=\"c\"]').forEach(a=>log(a))
+qa('[href=\"\"]').forEach(a=>log(a))
+qa('[href=\"\"]').map(a=>a)
+qa('[href=\"\"]')
+qa('a')
+qs('pre').remove()
+qs('pre').style=\"position: sticky; top: 0; z-index: 100;\"
+window.StyleSheet[1]
+window.StyleSheet()
+window.StyleSheet
+copy(earr)
+earr[1]
+console.table(earr)
+console.log(earr)
+earr.forEach(a=>log(a))
+earr
+let earr = elements.map((a, i) => `${i}, ${a.tagName}, ${a.className}, ${a.id}, ${a.childElementCount}, ${a.outerHTML.length}`)
+elements
+var script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.14.11/beautify.js';\ndocument.head.appendChild(script);
+af(qs('head').children).forEach(a=>log(a))
+  my=[]\nfor (a in qs('body')) my.push(a)\npr=document.createElement('pre')\npr.style=\"columns: 100px 4; column-rule: 1px solid #000; margin-top: -1.5rem; font-family: Arial, Helvetica, sans-serif; font-size: 8px; background-color: pink;\"\npr.innerHTML=my.map(a=>`<div>${a}</div>`).join('')\ndocument.body.prepend(pr)\n\n
+my=[]\nfor (a in qs('body')) my.push(a)\npr=document.createElement('pre')\npr.style=\"columns: 100px 4; column-rule: 1px solid #000; margin-top: -1.5rem auto; font-family: Arial, Helvetica, sans-serif; font-size: 8px; background-color: pink;\"\npr.innerHTML=my.map(a=>`<div>${a}</div>`).join('')\ndocument.body.prepend(pr)
+my=[]\nfor (a in qs('body')) my.push(a)\npr=document.createElement('pre')\npr.style=\"columns: 100px 4; column-rule: 1px solid #000; margin-top: -1.5rem auto; font-family: Arial, Helvetica, sans-serif; font-size: 8px; background-color: pink;\"\npr.textContent=my.map(a=>`<div>${a}</div>`).join('')\ndocument.body.prepend(pr)\n\n
+document.body.prepend(pr)
+document.body.prepend(myi)
+pr.innerHTML=myi
+myi=my.map(a=>`<div>${a}</div>`).join('')
+myi=my.map(a=>`<div>${a}</div>`)
+my
+for (a in qs('body')) my.push(a)
+my=[]

@@ -1,0 +1,301 @@
+
+qa('.menu-item-object-category')
+mm.reduce((acc,i)=>{\n    if (i in acc){\n        acc[i]++\n    }\n    else {\n        acc[i]=1\n    }\n    return acc}, {})
+mm.reduce((acc,i)=>{\n    if (i in acc){\n        acc[i]++\n    }\n    else {\n        acc[i]=i\n    }\n    return acc}, {})
+mm.reduce((acc,i)=>{\n    if (i in acc){\n        acc[i]++\n    }\n    else {\n        acc[i]=i\n    }\n    return acc, {})
+mm=String(sc).split(',')
+String(sc).split(',')
+String(sc)
+sc
+u.forEach(a=>sc.push(a.split(/\\s/)))
+u.forEach(a=>log(a.split(/\\s/)))
+u.forEach(a=>a.split(/\\s/))
+u
+u.forEach(a=>a.split(/\\s/))
+u.forEach(a=>a.split(/\\s/)).forEach(a=>log(a))
+u.forEach(a=>a.split(/\\s/)).forEach(a=>log(a)))
+u.forEach(a=>log(a.split(/\\s/)))
+u.forEach(a=>log(a.split(/\\s/))
+u[0]
+u.forEach(a=>log(a))
+u.forEach(a=>log(typeof a))
+u.forEach(a=>log(a))
+a
+u
+u=qa('[class]').map(a=>a.className)\nsc=[]\nu.forEach(a=>a.forEach(x=>sc.push(x)))
+u=qa('[class]').map(a=>a.className)
+u=qa('[class]')
+sc
+w.forEach(a=>a.forEach(x=>sc.push(x)))
+w.forEach(a=>a.forEach(x=>log(x)))
+sc=[]
+sc
+w[3].forEach(a=>sc.push(a))
+sc=[]
+w[3].forEach(a=>sc.push(a))
+w[3]
+w
+log(w.join('\\n'))
+w
+w[0].join(' ')
+w.forEach(a=>{\n    log(a)\n})
+copy(JSON.stringify(w,null,2))
+log(JSON.stringify(w,null,2))
+JSON.stringify(w,null,2)
+w
+w.join(' xxx ')
+w
+w.forEach(a=>log(a))
+w=qa('[class]').map(a=>a.className.split(' ')).slice(0,4)
+qa('[class]').map(a=>a.className.split(' ')).slice(0,4)
+qa('[class]').map(a=>a.className.split(' '))
+qa('[class]').map(a=>a.className.split(' ')).join(' ')
+qa('[class]').map(a=>a.className.split(' '))[0]
+qa('[class]').map(a=>a.className.split(' '))[1]
+qa('[class]').map(a=>a.className.split(' '))
+cl[0]
+cl
+qa('[class]').forEach(a=>cl.push(a.className.split(/\\s/)))
+cl=[]
+qa('[class]').forEach(a=>log(a.className.split(/\\s/)))
+qa('[class]').forEach(a=>log(a.className.split(/\\s/))
+qa('[class]').forEach(a=>log(a.className))
+qa('[class]')
+'jim'.search('i')
+document.body.prepend(pr)
+pr.textContent=sword('indexof')[31].parentNode.parentNode.parentNode.textContent
+pr=document.createElement('pre')
+document.body.prepend(d)
+d.innerHTML=sword('indexof')[31].parentNode.parentNode.parentNode.textContent
+d=document.createElement('div')
+sword('indexof')[31].parentNode.parentNode.parentNode.textContent
+sword('indexof')[31].parentNode.parentNode.parentNode
+sword('indexof')[31].parentNode.parentNode.textContent
+sword('indexof')[31].parentNode.parentNode
+sword('indexof')[31].parentNode
+sword('indexof')[31].parent
+sword('indexof')[31]
+qa('strong')
+sword('indexof')[31]
+qs('strong')
+sword('indexof')
+window.elements = [...document.querySelectorAll('*:not(head, body, html,meta,script)')]\n
+sword('indexof')
+elements
+sword('alphabet')
+sword('alphabet')[20].textContent.slice(700,740)
+sword('alphabet')[20].textContent.match(/alpha/i)
+sword('alphabet')[20].textContent.match('alpha')
+sword
+sword('alphabet')[20].textContent.search('alpha')
+sword('alphabet')[20].textContent.find('alpha')
+sword('alphabet')[20].textContent
+sword('alphabet')[20]
+sword('alphabet')
+sword('beta')
+sword('alpha')
+qs('pre').style.columns=2
+qs('pre').textContent=tt.map((a,i)=>`${i} ${a}`)
+qs('pre').textContent=tt.forEach((a,i)=>log(`${i} ${a}`))
+tt.forEach((a,i)=>log(`${i} ${a}`))
+tt.forEach((a,i)=>log(`${i} ${a}`)
+tt=t.split(' ,').filter(a=>a.length>1)
+t.split(' ,').filter(a=>a.length>1)
+t.split(' ,').filter(a=>a.length>0)
+t.split(' ,')
+t=t.replaceAll('\\n',' ,')
+t.replaceAll('\\n',' ,')
+t
+qs('pre').style.fontSize='2rem'
+document.body.prepend(pr)
+t
+    pr.innerHTML=t.split(', ')
+    p.innerHTML=t.split(', ')
+pr=document.createElement('pre')
+t.split(' ,')
+typeof t
+t
+t=sword('alpha')[0].innerHTML.replaceAll('<br>','')
+log(sword('alpha')[0].innerHTML.replaceAll('<br>',''))
+log(sword('alpha')[0].innerHTML.replaceAll('<br>','\\n'))
+sword('alpha')[0].innerHTML.replaceAll('<br>','\\n')
+sword('alpha')[0].textContent
+sword('alpha')[0].innerHTML
+sword('alpha')
+sword('alpha'
+elements
+gr.replaceAll('\\n','\\t').trim().split('\\t')
+gr.replaceAll('\\n','\\t').split('\\t').trim()
+gr.replaceAll('\\n','\\t').split('\\t')
+gr.replaceAll('\\n',' ').split('\\t')
+gr.replaceAll('\\n','').split('\\t')
+gr.replaceAll('\\n','')
+gr
+gr.split('\\t')
+document.body.prepend(d)
+d.innerHTML=gr.split('\\t').map(a=>`${a} <br>`)
+d.innerHTML=gr.split('\\t').map(`${a} <br>`)
+d=document.createElement('div')
+gr.split('\\t')
+gr=`Αα\tAlpha\tΝν\tNu\nΒβ\tBeta\tΞξ\tXi\nΓγ\tGamma\tΟο\tOmicron\nΔδ\tDelta\tΠπ\tPi\nΕε\tEpsilon\tΡρ\tRho\nΖζ\tZeta\tΣσς\tSigma\nΗη\tEta\tΤτ\tTau\nΘθ\tTheta\tΥυ\tUpsilon\nΙι\tIota\tΦφ\tPhi\nΚκ\tKappa\tΧχ\tChi\nΛλ\tLambda\tΨψ\tPsi\nΜμ\tMu\tΩω\tOmega\n`
+ss[1]
+ss=[]\nfor ( a in it) {ss.push([a, it[a]])}
+it.title='new'
+it
+ss[1]
+ss
+ss=[]\nfor ( a in it) {ss.push([a, it[a]])}
+it.replaceChild
+it=qs('pre')\nfor ( a in it) {log([a, it[a]])}
+it=qs('pre')\nfor ( a in it) {log([a, it[a])}
+it=qs('pre')\nfor ( a in it) {log(a)}
+it=qs('pre')\nfor ( a in it) {log(x)}
+for ( a in qs('pre')) {log(a)}
+for ( a in qs('pre')) {log(x)}
+attrs
+element.setAttribute('data-id','x')\n// ✅ Get object of all {name: value}\nconst attrs = element.getAttributeNames().reduce((acc, name) => {\n  return {...acc, [name]: element.getAttribute(name)};\n}, {});
+attrs
+const attrs = element.getAttributeNames().reduce((acc, name) => {\n  return {...acc, [name]: element.getAttribute(name)};\n}, {});\n
+qq
+qq.setAttribute('x','x')
+element.data-id=\"xx\"
+attrs
+const element = document.querySelector('pre');\n\n// ✅ Get object of all {name: value}\nconst attrs = element.getAttributeNames().reduce((acc, name) => {\n  return {...acc, [name]: element.getAttribute(name)};\n}, {});
+const element = document.qs('pre');\n\n// ✅ Get object of all {name: value}\nconst attrs = element.getAttributeNames().reduce((acc, name) => {\n  return {...acc, [name]: element.getAttribute(name)};\n}, {});
+for (a of qq.attributes) log(`${a.name} => ${a.value}`)
+qq.className='jjj'
+for (a of qq.attributes) log(`${a.name} => ${a.value}`)
+for (a of qq.attributes) log(a.name)
+for (a of qq.attributes) log(a)
+qq.attributes
+qq=qs('pre')
+qs('pre').hasAttributes()
+qs('pre').hasAttributes(0
+q.hasAttributes()
+q.className='x'
+q.hasAttributes()
+q.hasAttribute()
+q.hasAttribute(0
+Object.getOwnPropertyNames(q)
+q=qs('body')
+q
+parseInt(12,2)
+parseInt(12)
+parseInt(2)
+parent(2)
+JSON.stringify(k)
+k.x
+k
+k.x='bill'
+k
+met(k)
+k.lo
+k.lo()
+k.lo=function s(){log('x')}
+k.lo=function s(){log('x'}
+k='jim'
+met('jim')
+String.raw('jim')
+'jim'.raw()
+met(undefinedObject)
+const undefinedObject = String
+met(undefinedObject)
+const undefinedObject = 'jim'
+met(undefinedObject)
+met
+undefinedObject
+const undefinedObject = null;
+undefinedObject
+const undefinedObject = undefined;
+Number.EPSILON
+console.log(0.1 + 0.2); 
+Number.EPSILON
+typeof Number.EPSILON
+typeof Number.parseFloat
+typeof Number.length
+Object.getOwnPropertyNames(Number)
+Math.E
+Object.getOwnPropertyNames(Math)
+Object.getOwnPropertyDescriptor(Math)
+met(Error)
+try {xx(23)}\ncatch(error) {log(error.message)}
+try {xx(22)}\ncatch(error) {log(error.message)}
+try {xx(23)}\ncatch(error) {log(error.message)}
+try {xx(23)}\ncatch(error) {log(error)}
+try {xx(23)}\ncatch(error) {log('what')}
+xx(23)
+xx(22)
+xx(99)
+function xx (n=2) {\n    if (n%2==1) {throw new Error('not even')}\n   log(n) \n}
+xx(99)
+xx(2)
+function xx (n=2) {\n    if (n%2==1) {log('not even')}\n   log(n) \n}
+xx(2)
+xx(3)
+function xx (n=2) {\n    if (n%2==0) {log('not even')}\n   log(n) \n}
+function xx (n=2) {\n    if n%2==0 {log('not even')}\n   log(n) \n}
+3%2
+xx(3)
+xx()
+function xx (n=2) {\n   log(n) \n}
+for (x in a) {if (typeof a[x]=='function') {log(x)}}
+a.onpagehide
+copy(ss.join('\\n'))
+cp(ss.join('\\n'))
+ss
+for (x in a) {ss.push([x,typeof a[x]])}
+ss=[]
+for (x in a) {log([x,typeof a[x]])}
+for (x in a) {log([a,typeof a[x]])}
+for (x in a) {log(typeof a[x])}
+typeof a.normalize
+for (x in a) {log(x)}
+for (x in a) {log(typeof x)}
+for (x in a) {log(typeof x}
+for (x in a) {if (typeof x=='function') {log(x)}}
+for (x in a) {if (typeof x=='function' {log(x)}}
+for (x in a) log(x)
+Object.values(a)
+a=qs('body')
+met(Object)
+met(Math)
+met(Array)
+Object.getOwnPropertyNames(qs('body'))
+met(Number)
+function met(obj) {\n    return Object.getOwnPropertyNames(obj).filter(function(property) {\n        return typeof obj[property] == \"function\";\n    });\n}
+Number
+for (a of Number) log(a)
+Object.keys(Number)
+for (a in Number) log(a)
+Number.isInteger(3.2)
+Number.isInteger(3)
+x=2
+$0.style.fontSize='36px'
+$0.style.fontSize
+$0.style.fontSize='12rem'
+$0.style.fontSize='2rem'
+getComputedStyle($0).font
+getComputedStyle($0)
+qs('style')
+f=qa('link[rel*=\"style\"]')[0].remove()
+copy(st)
+st
+fetch(f).then(x=>x.text()).then(y=>st=y)
+fetch(f).then(x=>x.text()).then(y=>st=y))
+st=``
+fetch(f).then(x=>x.text()).then(y=>log(y))
+f=qa('link[rel*=\"style\"]')[0].href
+qa('link[rel*=\"style\"]')[0].href
+qa('link[rel*=\"style\"]')
+qa('link[rel=\"stylesheet\"]')
+qs('link[rel=\"stylesheet\"]')
+document.querySelector('head').querySelectorAll('link')
+window.close()
+history.back()
+copy(ss.map(a=>a.replace(/\\s{2,}/g,'\\n')))
+ss.map(a=>a.replace(/\\s{2,}/g,'\\n'))
+ss.map(a=>a.replace(/\\s{2,}/,'\\n'))
+ss
+qa('.commtext').forEach(a=>ss.push(a.textContent))
+ss=[]
+qa('.commtext').forEach(a=>log(a.textContent))

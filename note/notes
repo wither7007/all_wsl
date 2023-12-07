@@ -2,19 +2,53 @@
 ================
 *North 612 543 2500  800 West Broadway Minneapolis, MN 55411
 lala
- november 22nd wed 2:00 800 west
-call 11/1
+thursday 12/14
+1:40 pm
+612-543-2500
+
 ================
+fairview bass lake
+jan 3rd 2:40
+dr. patella
+
+cgm
+blood sugar levels between 70 - 140. The CGM (continuous glucose monitor) 
+ testing 6-8 times per day on schedule. With a pump and CGM 
+
+ 12-bar blues as consisting of I, IV, and V chords. Thus, a simple version of the 12-bar blues might be expressed as I–I–I–I, IV–IV–I–I, V–IV–I–I.
+
+khan https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19
+tagManager https://www.youtube.com/watch?v=DiAgCihHW58
+
+Graeber and Wengrow 
+
+Boron, arsenic, phosphorus, and occasionally gallium are used to dope silicon. Boron is the p-type dopant of choice for silicon integrated circuit production because it diffuses at a rate that makes junction depths easily controllable.
+
+https://archive.org/details/JoniMitchellAndJamesTaylor1970BBCConcert
+
+trade soul for unlimited knowledge and earthy pleasure
+if Mephistopheles can grant Faust an experience of transcendence on Earth—a moment so blissful that he wishes to remain in it forever, ceasing to strive further—then he will instantly die and serve the Devil in Hell.
+
+The fundamental frequencies for the notes on a piano range from 27.5 Hz to 4186 Hz. The modern standard for tuning defines the frequency of the note A above middle C to be 440 Hz. Musicians refer to this as "A-440." It's the reference frequency used for piano, guitar, and all band and orchestra instruments.
+
+ middle C is 256 Hz, and the frequency of the A above is 440 Hz.
+ 417 hz solfeggio
 
  Keith Humphreys, PhD, professor of psychiatry and behavioral sciences, and his fellow investigators determined that AA was nearly always found to be more effective than psychotherapy in achieving abstinence. In addition, most studies showed that AA participation lowered health care costs.
 Cochrane review,
+
+Sound travels through the vibration of atoms and molecules in a medium (such as air or water). In space, where there is no air, sound has no way to travel.
+Watts = Amps x Volts
 
 justify-content main axis
 align-items cross axis
 
 align-content
 wrap
+According to the Energy Information Administration (EIA), the average American home uses an average of 10,632 kilowatt-hours (kWh) of electricity per year. That's 29,130 watts (W) per day, which can be divided by 24 hours to get an average of 1,214 W to power a home t
 
+mount usb
+https://askubuntu.com/questions/1116200/how-can-i-access-my-usb-drive-from-my-windows-subsystem-for-linux-ubuntu-dist
 What is truth? said jesting Pilate; and would not stay for an answer.
 HyperCard was created by Bill Atkinson following an LSD trip.[11] Work for it began in March 1985 under the name of WildCard (hence its creator code of WILD).
 
@@ -96,6 +130,15 @@ javascript: function addcss(css) {
     "html{filter: invert(1) hue-rotate(180deg)}"); 
     addcss("img{filter: invert(1) hue-rotate(180deg)}"); 
     addcss("video{filter: invert(1) hue-rotate(180deg)}");
+
+qs('body').style = "font-family: Arial, Helvetica, sans-serif; font-size: 18px; background-color:#f00"
+https://stackoverflow.com/questions/3959211/what-is-the-fastest-factorial-function-in-javascript
+factorial = n => n <= 1 ? 1 : factorial(n - 1) * n
+
+function factorial(n, r = 1) {
+  while (n > 0) r *= n--;
+  return r;
+}
 
 https://alvarotrigo.com/blog/change-css-javascript/
 
@@ -541,7 +584,7 @@ drum
 machine
 https://www.youtube.com/watch?v=F3J3PZj0zi0
 
-Astronomers don’t believe the universe is 13.7 billion years old—they know it.
+Astronomers don’t believe the universe is 13.78 billion years old—they know it.
 cells 37 trillion
 But human cells are not the only cells in our bodies. Although previous studies have estimated that there are 10 times as many bacteria in our bodies than human cells, Prof. Milo and colleagues revised this number to be around 38 trillion.
 
@@ -747,6 +790,9 @@ the concept of law
 peter Singer
 famine affluence and morality
 linux rename
+https://unix.stackexchange.com/questions/43527/kill-all-background-jobs
+kill -9 $(jobs -p |awk '{print $3}')
+npx serve . >output.log 2>&1 &
 sort by dir size
 (du -sh -- * | sort -rh > h &)
 weird create 10mb file
@@ -797,6 +843,10 @@ done < "$TO_BE_DEL"
 !! fdm -tf | xargs tail -n +1 | nvim - #cat all files
 vim to json :%!jq .
 :%!python -m json.tool
+vim long lines
+:%!fmt --width=75 --split-only
+gww
+gww yields (with textwidth=40
 
 vim format long line !fmt -1 
 vim run linux cmd :%! sort
@@ -846,8 +896,8 @@ remove -browser bs
 sed -i  '/\s-/d' style.css
 remove blank lines
 https://vim.fandom.com/wiki/Remove_unwanted_empty_lines
-
-sed -i '/^$/d' style.css
+sed -i.bak '/^$/d' style.css
+sed -i '/^\s*$/d' closets.html #better?
 preferred?
 sed -i.bak '/\S/!d' html.txt
 
@@ -974,6 +1024,7 @@ https://news.ycombinator.com/item?id=34506657
 ^M problem
 https://www.suse.com/support/kb/doc/?id=000018317
 perl -p -e 's/\r//g' bsp.py > bspM.py
+fd -d 1 -epy | xargs sed -i "s/^M//" #!cool ^M is ctrl-q ctrl-m
 
 rsync -artxzv junk rjunk
 
@@ -1052,6 +1103,8 @@ git log --oneline --graph --decorate --all
 git rev-parse --abbrev-ref HEAD  --show-toplevel #show repo top
 git commit --amend -m "this fixes the previous oopsies"
 !!git diff --name-only HEAD~1 HEAD
+https://stackoverflow.com/questions/610208/how-to-retrieve-a-single-file-from-a-specific-revision-in-git
+git restore -s 0acaa341 -- style.css
 ##git add . --dry-run
 find . -name "*.pyc" -exec git rm -f "{}" \;
 p.d. is necessary to add *.pyc in .gitignore file to maintain git clean
@@ -1124,7 +1177,6 @@ awk '(PROGRAM)' testfile.txt > testfile.tmp && mv testfile.tmp testfile.txt
 git clean -fxd #wow actually trashes files
 git reset --hard
 
-fd -d 1 -epy | xargs sed -i "s/^M//" #!cool ^M is ctrl-q ctrl-m
 fd -epy| xargs sed -i '/^$/d' #!good remove blanks
 https://its.ucsc.edu/unix-timeshare/tutorials/clean-ctrl-m.html
 
@@ -2498,6 +2550,9 @@ There comes a time in history when the man who dares to say that two and two mak
 
 My girlfriend's dog died, so I tried to cheer her up by getting her an identical one. It just made her more upset. She screamed at me, "What am I supposed to do with two dead dogs?"
 
+theory > /dev/null
+
+conspire against our own happiness
 
 
 I'll never forget my dad's last words to me before he died. "Are you still holding the ladder?"
