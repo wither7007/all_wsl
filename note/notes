@@ -1,15 +1,29 @@
+
 <div style="text-align:center">
 ================
+dental JANUARY 2ND dr. lala
 *North 612 543 2500  800 West Broadway Minneapolis, MN 55411
 lala
 thursday 12/14
 1:40 pm
 612-543-2500
 
+reliacard 12/7/2023
+us bank
+
+Voluntary Death
+A transistor is a semiconductor device used to amplify or switch electrical signals and power. 
+ earth-shattering Janeaustegasm
 ================
 fairview bass lake
 jan 3rd 2:40
 dr. patella
+
+David Hume (1711–76) whose Treatise on Human Nature (1738) and Essays, Moral and Political (1741) helped outline the parameters of philosophical Empiricism and Scepticism.[31] He would be a major influence on later Enlightenment figures including Adam Smith, Immanuel Kant and Jeremy Bentham.
+
+Vanguard Group Inc.
+ $7.7 trillion in global assets under management, as of April 2023.[3] It is the largest provider of mutual funds and the second-largest provider of exchange-traded funds (ETFs) in the world after BlackRock's iShares.
+Fidelity 500 Index Fund	
 
 cgm
 blood sugar levels between 70 - 140. The CGM (continuous glucose monitor) 
@@ -107,6 +121,7 @@ gcp gloud run
 https://news.ycombinator.com/item?id=38016849
 
 Dove Original Beauty Bar, CeraVe Hydrating Body Wash and Cetaphil Ultra Gentle Body Wash.
+internet archive
 Brewster Kahle
 nomophobia
 tim leary the pyschedelic experience
@@ -120,7 +135,9 @@ while ((result = reg.exec(targetText)) !== null) {
 }
 $$('div').filter(a=>a.textContent.match(/queen.*proves/i)).forEach((n,i)=>log(`${i},${sp(n.textContent)}`))
 $$('div').filter(a=>a.textContent.match(/queen.*proves/i)).forEach((n,i)=>log(`${i},${n.childElementCount}, ${sp(n.textContent)}`))
-
+javascript remove comments regex
+https://stackoverflow.com/questions/14975737/regular-expression-to-remove-comment
+qs('pre').textContent.replace(/\/\*[\s\S]*?\*\/|(?<=[^:])\/\/.*|^\/\/.*/g,'');
 javascript: function addcss(css) {
     var s = document.createElement('style');
     s.setAttribute('type', 'text/css');
@@ -267,7 +284,6 @@ curl "https://opentdb.com/api.php?amount=10" | jq '.' | less
 
 
 Pablo Galindo Salgado 
-https://stackoverflow.blog/2023/07/25/how-the-python-team-is-adapting-the-language-for-an-ai-future-ep-593/
 Hennepin Health cab 04745519
 3409 E. Medicine Lake Plymouth MN 55441-2307
 
@@ -621,6 +637,14 @@ virtualenv env && source env/bin/activate
 https://martinheinz.dev/blog/98
 print(sh.awk('{print $9}', _in=sh.ls('-la')))
 
+data = open('song.txt', 'r', encoding='utf-8').read()
+data = open('song.txt', 'r', encoding='utf-8').read()
+data=open('song.txt', 'r', encoding='utf-8').read().strip().split('\n')
+data=open('curl.html','w', encoding='utf-8').write(page)
+open('xx', 'w', encoding='utf-8').write(pp)
+open('xx', 'w').writelines(str(ll[c]))
+open('xx', 'w', encoding='utf-8').write("\n".join(data))
+f'{2**32:_}'
 #!/usr/bin/env python
   
 re.sub(r'[^a-zA-Z0-9]','',myq)
@@ -654,7 +678,7 @@ dict([(f'{a:03}',b) for a,b in enumerate(kk,4)])
 https://stackoverflow.com/questions/3437059/does-python-have-a-string-contains-substring-method
 
 with open('output.txt', 'w') as f:
-    print('Hello World!', file=f)
+    print(dir(pl.Config), file=f)
 
 sys.stdout = open('logfile', 'w') 
 sys.stdout = sys.__stdout__
@@ -721,13 +745,6 @@ https://stackoverflow.com/questions/51777932/writing-a-factorial-function-in-one
 factorial = lambda num: 1 if num <= 1 else num * factorial(num-1)
 type(factorial)
 
-data = open('song.txt', 'r', encoding='utf-8').read()
-data = open('song.txt', 'r', encoding='utf-8').read()
-data=open('song.txt', 'r', encoding='utf-8').read().strip().split('\n')
-open('xx', 'w', encoding='utf-8').write(pp)
-open('xx', 'w').writelines(str(ll[c]))
-open('xx', 'w', encoding='utf-8').write("\n".join(data))
-f'{2**32:_}'
 
 https://bobbyhadz.com/blog/python-redirect-stdout-to-nothing
 

@@ -1,0 +1,301 @@
+
+getComputedStyle(qs('body')).backgroundColor
+qs('body').style.backgroundColor='#0ff'
+getComputedStyle(qs('body')).backgroundColor
+qs('body').style.backgroundColor='#fff'
+qs('body').style.backgroundColor=#fff;
+getComputedStyle(qs('body')).backgroundColor
+getComputedStyle(qs('body').background)
+qs('body').style.backgroundColor
+d.style.columnCount=3
+d.innerHTML=s.map(m=>`<div>${m}</div>`).join('')
+d.innerHTML=s.map(m=>`<div>${m}</div>`)
+s=s.filter(g=>!g[0].match(/\\d+/))
+s.filter(g=>!g[0].match(/\\d+/))
+s=Object.entries(getComputedStyle(qs('body')))
+s=s.filter(g=>!g[0].match(/\\d+/)).forEach(a=>log(a))
+s
+d.innerHTML=s.map(m=>`<div>${m}</div>`)
+s=s.filter(g=>!g[0].match(/\\d+/)).forEach(a=>log(a))
+s=Object.entries(getComputedStyle(qs('body')))
+s=s.filter(g=>!g[0].match(/\\d+/)).forEach(a=>log(a))
+d.innerHTML=s.map(m=>`<div>${m}</div>`)
+d
+d.innerHTML=''
+d
+s=s.filter(g=>!g[0].match(/\\d+/)).forEach(a=>log(a))
+s.filter(g=>!g[0].match(/\\d+/)).forEach(a=>log(a))
+s.filter(g=>g[0].match(/\\d+/)).forEach(a=>log(a))
+s.filter(g=>g[0].match(/\\d+/))
+s.filter(g=>g.match(/\\d+/))
+s.filter(g=>!g.match(/\\d+/))
+s[1][0].match(/\\d+/)
+s[1]
+s=Object.entries(getComputedStyle(qs('body')))
+d.innerHTML
+d.innerHTML=ps
+ps=s.map(a=>`<div>${a[0]} - ${a[1]}</div>`).join('')
+document.body.prepend(d)
+d.innerHTML=ps
+d.style.columnCount=6
+d=document.createElement('div')
+ps=s.map(a=>`<div>${a[0]} - ${a[1]}</div>`)
+s.map(a=>`<div>${a[0]} - ${a[1]}</div>`)
+s.map(a=>`${a[0]} - ${a[1]}`)[980]
+s[970]
+s.forEach(a=>log(a[0]))
+s[1]
+s
+s.forEach(a=>log(a[0]))
+s.slice(0,4).forEach(a=>log(a[0]))
+s.slice(0,4).forEach(a=>log(a))
+s.slice(0,4)
+s[1][0]
+s[1]
+s=Object.entries(getComputedStyle(qs('body')))
+kk[1][0]
+kk[1]
+kk.forEach(a=>log([a[0]]))
+kk[1]
+kk
+s.forEach(a=>kk.push([a[0],a[1]]))
+kk=[]
+s.forEach(a=>log([a[0]]))
+s[1]
+xx
+s.map(xx=>`${xx[0]} - ${xx[1]}`)
+s
+s.forEach(a=>log([a[0]]))
+s.forEach(a=>log([a[1]]))
+s.forEach(a=>log([a[0],a[1]]))
+s.forEach(a=>log(a[0]))
+s.forEach(a=>log(a))
+s.forEach(a=>log(a[1]))
+s.forEach(a=>log(a))
+s=Object.entries(getComputedStyle(qs('body')))
+b
+s=Object.valueOf(getComputedStyle(qs('body')))
+for (a in s) log(a.valueOf())
+s.forEach(a=>log(a))
+s=Object.entries(getComputedStyle(qs('body'))).slice(0,4)
+s=Object.entries(getComputedStyle(qs('body'))).slice(0,4
+s=Object.entries(getComputedStyle(qs('body'))).slice(0,40
+s.map(a=>`${a[0]} - ${a[1]}`)
+s.forEach(a=>log(a))
+s=Object.entries(getComputedStyle(qs('body')))
+s.forEach(a=>log(a))
+s.forEach(a=log(a))
+s[1]
+values(s[1])
+values[1]
+for (a in s) log(a.valueOf())
+s[1]
+s=Object.values(getComputedStyle(qs('body')))
+Object.values(s)[1]
+Object.entries(s)[1]
+Object.entries(s)
+s[1]
+s=Object.values(getComputedStyle(qs('body')))
+for (a in s) log(valueOf(a))
+for (a in s) log(a)
+s=Object.values(getComputedStyle(qs('body')))
+s=Object.values(getComputedStyle(qs('body')).height)
+s
+s=Object.valueOf(getComputedStyle(qs('body')).height)
+s=Object.valueOf(getComputedStyle(qs('body')))
+s=Object.values(getComputedStyle(qs('body')))
+s=Object.entries(getComputedStyle(qs('body')))
+s=Object.entries(getComputedStyle(qs('body')))[1]
+s
+getComputedStyle(b).height
+getComputedStyle(b).accentColor
+s=Object.entries(getComputedStyle(qs('body')))[1]
+s[0]
+s=Object.entries(getComputedStyle(qs('body')))
+getComputedStyle(b).accentColor
+b=qs('body')
+s[0]
+s=getComputedStyle(qs('body'))
+Object.entries(qs('body').style).filter(a=>a[1].length>1)
+Object.entries(qs('body').style).forEach(a=>log(a))
+Object.entries(qs('body').style).slice(0,3).forEach(a=>log(a))
+Object.entries(qs('body').style).slice(0,3)
+Object.entries(qs('body').style)
+qs('body').style.accentColor=\"blue\"
+qs('body').style.accentColor
+Object.keys(qs('body').style).forEach(a=>log(qs('body').style[a]))
+Object.keys(qs('body').style)
+Object.values(qs('body').style)
+Object.values(computedStyle)
+typeof Object
+Object.constructor()
+Object.constructor
+typeof Object
+for (a of Object) log(a)
+for (a in Object) log(a)
+Object.keys(computedStyle)
+computedStyle.alignContent
+computedStyle
+var computedStyle = window.getComputedStyle(qs('body'));
+var computedStyle = window.getComputedStyle(qs('body'); 
+d.innerHTML
+document.body.append(d)
+document.body.prepend(d)
+d.innerHTML.replace('First','XXXXXXXXXXXXXX')
+d.innerHTML
+d.innerHTMl
+d.innerHTM
+d
+document.body.prepend(d)
+d.innerHTM='xxx'
+document.body.prepend(d)
+d
+document.body.append(d)
+d.innerHTML.replace('First','XXXXXXXXXXXXXX')
+document.body.append(d)
+d.innerHTML=nn
+nn=qs('section').innerHTML
+d.outerHTML=nn
+d=document.createElement('div')
+nn=qs('section').outerHTML
+qs('section').outerHTML
+qs('section').append(ms2)
+ms2=qs('section').querySelector('*').cloneNode(true)
+qs('section').append(ms2)
+ms2=qs('section').querySelector('*').cloneNode(true)
+ms.style.color='rgb(255,0,0)'
+ms
+qs('section').append(ms)
+qs('section').append(ms2)
+ms2=qs('section').querySelector('*').cloneNode(true)
+qs('section').append(ms)
+ms=qs('section').querySelector('*').cloneNode(true)
+document.body.prepend(ms)
+document.body.prepend('ms')
+ms
+qs('section').append(ms)
+ms
+ms=qs('section').querySelector('*')
+qs('section').append(qs('section').querySelector('*'))
+qs('section').appendChild(qs('section').querySelector('*'))
+qs('section').querySelector('*')
+qs('section').style.justifyContent='space-between'
+console.dir(qs('section').style.justifyContent)
+console.ldir(qs('section').style.justifyContent)
+qs('section').style.justifyContent='space-around'
+for ( a in qs('section').style.justifyContent) log(a)
+for ( a in qs('header').style.justifyContent) log(a)
+qs('article').style.cssText='color: rgba(0, 0, 255, 1.5)'
+qs('article').style.cssText='color: rgba(0, 0, 255, .5)'
+qs('article').style.cssText='color: rgba(0, 0, 255)'
+qs('article').style.cssText='color: rgba(255, 0, 0)'
+qs('article').style.cssText='color: rgb(255, 0, 0)'
+qs('article').style.cssText='color: rgb(255, 255, 0)'
+qs('article').style.cssText='color: rgb(0, 255, 0)'
+qs('article').style.cssText
+qs('article').style.cssText='color: #f00'
+qs('article').style.cssText='rgb(0, 255, 0)'
+qs('article').style.cssText='color: #f00'
+qs('article').style.cssText
+qa('article').forEach((a,i)=>{if (i>1){a.remove()}} )
+qa('article').forEach((a,i)=>{if (i>3){a.remove()}} )
+qa('article').forEach((a,i)=>{if (i<3){a.remove()}} )
+qa('article').forEach((a,i)=>{if (i<3){a.remove()}} 
+qa('article')
+qa
+qa('article\")
+qs('section').querySelectorAll('*').forEach((a,i)=>log([i, a.tagName, a.textContent]))
+qs('section').querySelectorAll('*').forEach(a=>log([a.tagName, a.textContent]))
+qs('section').querySelectorAll('*').forEach(a=>log(a.textContent))
+qs('section').querySelectorAll('*').forEach(a=>log(a))
+qs('section').children
+qs('section').querySelectorAll('*')
+qs('section').qa('*')
+qs('section')
+qa('style')
+log(qs('style').textContent)
+qs('style').textContent
+qs('header').style.justifyContent
+qs('header').style.justify-content
+qs('header').style.justifySelf
+qs('header').style
+for (a in qs('header').style) {\n    if (a.match('jus')) {log(a)}}
+for (a in qs('header').style) {\n    if (a.match('j')) {log(a)}}
+for (a in qs('header')) {\n    if (a.match('j')) {log(a)}}
+for (a in qs('header')) log(a)
+$0.style.justifyContent='space-around'
+$0.style.justifyContent='center'
+$0.style
+copy($0.href)
+$0.href
+$0
+qs('.xIZ6Le').children
+qs('.xIZ6Le').outerHTML
+qa('.xIZ6Le')
+af(qs('body').children)[1].outerHTML
+af(qs('body').children)[1].innerHTML
+af(qs('body').children)[0].innerHTML
+af(qs('body').children)[0]
+af(qs('body').children).map((a,i)=>[i,a]).forEach(x=>log(x))
+qa('script').forEach(a=>a.remove())
+af(qs('body').children).map((a,i)=>[i,a]).forEach(x=>log(x))
+af(qs('body').children).map((a,i)=>[i,a])[1].forEach(x=>log(x))
+af(qs('body').children).map((a,i)=>[i,a])[1]
+af(qs('body').children).map((a,i)=>[i,a])
+af(qs('body').children).map((a,i)=>log([i,a]))
+af(qs('body').children).forEach((a,i)=>log([i,a]))
+af(qs('body').children).forEach(a=>log(a))
+$0.innerHTML
+copy($0.src)
+$0.src
+c
+a[1]=999
+c=[...a]
+c[...a]
+a
+b
+a[1]=99
+[...a]
+b
+b=a
+a=[1, 2, [4, 0]]
+[1, 2, [4, 0]]
+window.document.querySelector('a')
+document.querySelector('.poem')
+window.document.querySelector('body').innerHTML
+document.querySelector('body').innerHTML
+qa('script').forEach(a=>a.remove())
+[...qs('body').children].forEach(a=>log([a.tagName, a.textContent.slice(0,10)].join(' - ')))
+[...qs('body').children].forEach(a=>log([a.tagName, a.textContent.slice(0,10)].join(' - '))
+[...qs('body').children].forEach(a=>log([a.tagName, a.textContent.slice(0,10)]).join(' - '))
+[...qs('body').children].forEach(a=>log([a.tagName, a.textContent.slice(0,10)]).join(' - ')
+[...qs('body').children].forEach(a=>log([a.tagName, a.textContent.slice(0,10)]))
+[...qs('body').children].forEach(a=>log([a.tagName, a.textContent.slice(0,10)])
+[...qs('body').children].forEach(a=>log(a.tagName, a.textContent.slice(0,10))
+qs('body').children
+qa('.garden')
+qa('link[rel=\"stylesheet\"]').forEach(a=>log(a.href))
+qa('link[rel=\"stylesheet\"]').forEach(a=>log(a))
+qa('link[rel]').forEach(a=>log(a))
+qa('link').forEach(a=>log(a))
+qa('link')
+getComputedStyle($0.children[0])
+$0.children
+$0.style.background=''
+$0.style.background='#b2b2b2'
+$0.style.background='#440'
+$0.style.background='#400'
+qs('pre').remove()
+qs('main').style=\"line-height: 2; text-align: left;\"
+qs('main').innerHTML=te.map(a=>`<div>${a}</div>`).join(\"\")
+fetch('https://raw.githubusercontent.com/wither7007/all_wsl/main/wasteland.txt').then(x=>x.text()).then(y=>te=y.trim().split(/\\s{2,}/))
+qs('main').style.lineHeight='2.5'
+qs('main').style.lineHeight='1.5'
+qs('main').innerHTML=te.map(a=>`<div>${a}</div>`).join(\"\")
+qs('main').style.textAlign='left'
+qs('main').style.textAlign=left
+qs('main').innerHTML=te.map(a=>`<div>${a}</div>`)
+te
+fetch('https://raw.githubusercontent.com/wither7007/all_wsl/main/wasteland.txt').then(x=>x.text()).then(y=>te=y.trim().split(/\\s{2,}/))
+te.split(/\\s{2,}/)
+fetch('https://raw.githubusercontent.com/wither7007/all_wsl/main/wasteland.txt').then(x=>x.text()).then(y=>te=y.trim())

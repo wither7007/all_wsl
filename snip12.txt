@@ -1,0 +1,301 @@
+
+st.rules[0]
+for (let i=0; i<5; i++) {log(st.rules[i])}
+for (let i=; i<5; i++) {log(st.rules[i])}
+for (let i=; i<5; i++) {log(st.rules[i]}
+st.rules
+af(st.rules)[1]
+af(st.rules)
+st.rules
+st=document.styleSheets[0]
+af(document.styleSheets).forEach(a=>log(a))
+document.styleSheets.length
+af(document.styleSheets[0]).forEach(a=>log(a))
+document.styleSheets[0].innerHTML
+document.styleSheets[0]
+document.styleSheets
+$0.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.innerHTML
+$0.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement
+$0.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.tagName
+$0.parentElement.parentElement.parentElement
+qs('.body-wrap').children
+$0.children.forEach(a=>log([a.tagName, a.className, a.id]))
+$0.children.forEach(a=>log([a.tagName, a.className]))
+$0.children.forEach(a=>log([a.tagName, a.class]))
+$0.children.forEach(a=>log(a.tagName))
+$0.children
+window.location.href='non'
+window.location.href
+window.URL.href
+title
+button
+document.querySelectorAll('.book-preview-body').forEach((e, i) => { let title = e.querySelector('h2').innerText.toLowerCase().replace(/ /g, '-'); let button = e.querySelector('button'); button.innerHTML = `<a href=\"/book/${title}\">Learn more</a>`; })
+qa('.book-preview-body')
+qs('.book-preview-body')
+button
+ document.querySelectorAll('.book-preview-body').forEach((e, i) => { let title = e.querySelector('h2').innerText.toLowerCase().replace(/ /g, '-'); let button = e.querySelector('button'); button.innerHTML = `<a href=\"/book/${title}\">Learn more</a>`; })
+document.querySelectorAll('.book-preview-body').forEach((e, i) => { let title = e.querySelector('h2').innerText.toLowerCase().replace(/ /g, '-'); \n                                                                   
+button
+document.querySelectorAll('.book-preview-body').forEach((e, i) => { let title = e.querySelector('h2').innerText.toLowerCase().replace(/ /g, '-'); let button = e.querySelector('button'); button.innerHTML = `<a href=\"/book/${title}\">Learn more</a>`; })
+copy(qs('pre').textContent.replace(/\\/\\*[\\s\\S]*?\\*\\/|(?<=[^:])\\/\\/.*|^\\/\\/.*/g,''))
+copy(qs('pre').textContent.replace(/\\/\\*[\\s\\S]*?\\*\\/|(?<=[^:])\\/\\/.*|^\\/\\/.*/g,'');)
+qs('pre').textContent.replace(/\\/\\*[\\s\\S]*?\\*\\/|(?<=[^:])\\/\\/.*|^\\/\\/.*/g,'');
+someString.replace(/\\/\\*[\\s\\S]*?\\*\\/|(?<=[^:])\\/\\/.*|^\\/\\/.*/g,'');
+someString
+re.exec(someString)
+const re = new RegExp(/\\*(.|[\\r\\n])*?\\*/);
+someString = \"An example comment: /* example */\";
+qs('pre').textContent
+qs('pre')
+pr.textContent
+document.body.prepend(pr)
+pr
+document.prepend(pr)
+pr.innerHTML=qs('pre').textContent.split('\\n').filter(a=>!a.match(/\\s{4,}/)).map(x=>`<div>${x}</div>`).join('')
+pr=document.createElement('div')
+pr=document.createElement('pre')
+pr.innerHTML=qs('pre').textContent.split('\\n').filter(a=>!a.match(/\\s{4,}/)).map(x=>`<div>${x}</div>`).join('')
+document.body.prepend(pr)
+pr.innerHTML=qs('pre').textContent.split('\\n').filter(a=>!a.match(/\\s{4,}/)).map(x=>`<div>${x}</div>`).join('')
+pr.innertHTML
+pr
+document.body.prepend(pr)
+pr.innertHTML=qs('pre').textContent.split('\\n').filter(a=>!a.match(/\\s{4,}/)).map(x=>`<div>${x}</div>`).join('')
+div.innertHTML=qs('pre').textContent.split('\\n').filter(a=>!a.match(/\\s{4,}/)).map(x=>`<div>${x}</div>`)
+pr=document.createElement('div')
+qs('pre').textContent.split('\\n').filter(a=>!a.match(/\\s{4,}/)).map(x=>`<div>${x}</div>`)
+qs('pre').textContent.split('\\n').filter(a=>!a.match(/\\s{4,}/))
+qs('pre').textContent.split('\\n').filter(a=>!a.match(/\\s{4,}/)).trim()
+qs('pre').textContent.split('\\n').filter(a=>!a.match(/\\s{4,}/))
+qs('pre').textContent.split('\\n').filter(a=>!a.match(/just/))
+qs('pre').textContent.split('\\n')
+qs('pre').textContent
+qs('header').style.justifyContent='space-around'
+qs('head').style.justifyContent='space-around'
+qs('head').style.justifyContent='space-between'
+getComputedStyle(qs('header')).justifyContent
+$0
+'jim'.startsWith('j')
+    qs('pre').textContent.split(/\\n/).forEach((a,i)=>{if (i>15 && i<27) {log([i, a])}})
+    qs('pre').textContent.split(/\\n/).forEach((a,i)=>{if (i>16 && i<27) {log([i, a])}})
+    qs('pre').textContent.split(/\\n/).forEach((a,i)=>{if (i in aa) {log([i, a])}})
+aa=[16,19,22,24]
+    qs('pre').textContent.split(/\\n/).forEach((a,i)=>{if (i<27) {log([i, a])}})
+    qs('pre').textContent.split(/\\n/).forEach((a,i)=>{if (i<27) {log([i, a])})
+    qs('pre').textContent.split(/\\n/).forEach((a,i)=>log([i, a]))
+    qs('pre').textContent.split(/\\n/).forEach((a,i)=>log(a))
+qs('pre').textContent.split(/\\n/)
+qs('pre').textContent.split(/\\\\n/)
+qs('pre').textContent
+$0.style.justifyContent='left'
+$0.style.justifyContent='space-around'
+fetch('http://example.com/movies.json')\n  .then((response) => response.json())\n  .then((data) => console.log(data));\n
+fetch(‘http://example.com/movies.json’)\n  .then((response) => response.json())\n  .then((data) => console.log(data));
+fetch('https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content').then(x=>x.text()).then(y=>log(y))
+getComputedStyle($0).justifyContent
+getComputedStyle($0).display
+getComputedStyle($0)
+$0.style
+qa('link[rel]=\"sty\"')
+qa('link[rel]=*\"sty\"')
+qa('link[rel]*=\"sty\"')
+qa('link')
+qa('style')[0].textContent
+qa('style')[0].href
+qa('style')[0].hrerf
+qa('style')[0].innerHTML
+qa('style')
+af(document.styleSheets).forEach(a=>log(a.href))
+af(document.styleSheets).forEach(a=>log(a))
+af(document.styleSheets)
+af(document.styleSheets[0].rules)[1].cssText
+af(document.styleSheets[0].rules)[1]
+af(document.styleSheets[0].rules)
+af(document.styleSheets[0].rules[0])
+af(document.styleSheets)[0].rules[0]
+af(document.styleSheets)[0].rules[0].textContent
+af(document.styleSheets)[0].rules[0]
+af(document.styleSheets)[0].rules
+af(document.styleSheets)[0]
+af(document.styleSheets).forEach(a=>log(a))
+af(document.styleSheets)
+document.styleSheets.forEach(a=>log(a))
+qa(document.styleSheets)
+for (a in document.styleSheets) log(a)
+document.styleSheets.length
+document.styleSheets
+af(document.styleSheets[0].rules).forEach(a=>log(af(a)))
+af(document.styleSheets[0].rules).forEach(a=>log(a))
+document.styleSheets[0].rules
+document.styleSheets[0].href
+document.styleSheets[0]
+s.filter(x=>x[0].match(/\\d+/)).forEach(n=>log(n))
+s.filter(x=>x[0].match(/\\d+/))
+s.filter(x=>x.match(/\\d+/))
+s.forEach(a=>log(a))
+s=Object.entries(getComputedStyle(qs('body')))
+qs('header').style.justifyContent
+qs('header').style.justify-content
+qs('header').style.justifySelf
+qs('header').style
+for (a in qs('header').style) {\n    if (a.match('jus')) {log(a)}}
+for (a in qs('header').style) {\n    if (a.match('j')) {log(a)}}
+for (a in qs('header')) {\n    if (a.match('j')) {log(a)}}
+for (a in qs('header')) log(a)
+$0.style.justifyContent='space-around'
+$0.style.justifyContent='center'
+$0.style
+copy($0.href)
+$0.href
+$0
+qs('.xIZ6Le').children
+qs('.xIZ6Le').outerHTML
+qa('.xIZ6Le')
+af(qs('body').children)[1].outerHTML
+af(qs('body').children)[1].innerHTML
+af(qs('body').children)[0].innerHTML
+af(qs('body').children)[0]
+af(qs('body').children).map((a,i)=>[i,a]).forEach(x=>log(x))
+qa('script').forEach(a=>a.remove())
+af(qs('body').children).map((a,i)=>[i,a]).forEach(x=>log(x))
+af(qs('body').children).map((a,i)=>[i,a])[1].forEach(x=>log(x))
+af(qs('body').children).map((a,i)=>[i,a])[1]
+af(qs('body').children).map((a,i)=>[i,a])
+af(qs('body').children).map((a,i)=>log([i,a]))
+af(qs('body').children).forEach((a,i)=>log([i,a]))
+af(qs('body').children).forEach(a=>log(a))
+$0.innerHTML
+copy($0.src)
+$0.src
+c
+a[1]=999
+c=[...a]
+c[...a]
+a
+b
+a[1]=99
+[...a]
+b
+b=a
+a=[1, 2, [4, 0]]
+[1, 2, [4, 0]]
+window.document.querySelector('a')
+document.querySelector('.poem')
+window.document.querySelector('body').innerHTML
+document.querySelector('body').innerHTML
+qa('script').forEach(a=>a.remove())
+[...qs('body').children].forEach(a=>log([a.tagName, a.textContent.slice(0,10)].join(' - ')))
+[...qs('body').children].forEach(a=>log([a.tagName, a.textContent.slice(0,10)].join(' - '))
+[...qs('body').children].forEach(a=>log([a.tagName, a.textContent.slice(0,10)]).join(' - '))
+[...qs('body').children].forEach(a=>log([a.tagName, a.textContent.slice(0,10)]).join(' - ')
+[...qs('body').children].forEach(a=>log([a.tagName, a.textContent.slice(0,10)]))
+[...qs('body').children].forEach(a=>log([a.tagName, a.textContent.slice(0,10)])
+[...qs('body').children].forEach(a=>log(a.tagName, a.textContent.slice(0,10))
+qs('body').children
+qa('.garden')
+qa('link[rel=\"stylesheet\"]').forEach(a=>log(a.href))
+qa('link[rel=\"stylesheet\"]').forEach(a=>log(a))
+qa('link[rel]').forEach(a=>log(a))
+qa('link').forEach(a=>log(a))
+qa('link')
+getComputedStyle($0.children[0])
+$0.children
+$0.style.background=''
+$0.style.background='#b2b2b2'
+$0.style.background='#440'
+$0.style.background='#400'
+qs('pre').remove()
+qs('main').style=\"line-height: 2; text-align: left;\"
+qs('main').innerHTML=te.map(a=>`<div>${a}</div>`).join(\"\")
+fetch('https://raw.githubusercontent.com/wither7007/all_wsl/main/wasteland.txt').then(x=>x.text()).then(y=>te=y.trim().split(/\\s{2,}/))
+qs('main').style.lineHeight='2.5'
+qs('main').style.lineHeight='1.5'
+qs('main').innerHTML=te.map(a=>`<div>${a}</div>`).join(\"\")
+qs('main').style.textAlign='left'
+qs('main').style.textAlign=left
+qs('main').innerHTML=te.map(a=>`<div>${a}</div>`)
+te
+fetch('https://raw.githubusercontent.com/wither7007/all_wsl/main/wasteland.txt').then(x=>x.text()).then(y=>te=y.trim().split(/\\s{2,}/))
+te.split(/\\s{2,}/)
+fetch('https://raw.githubusercontent.com/wither7007/all_wsl/main/wasteland.txt').then(x=>x.text()).then(y=>te=y.trim())
+te.split(/\\s{2,}/)
+fetch('https://raw.githubusercontent.com/wither7007/all_wsl/main/wasteland.txt').then(x=>x.text()).then(y=>te=y)
+te.split(/\\s{2,}/)
+te
+te=te.slice(0,1000)
+te.slice(0,1000)
+fetch('https://raw.githubusercontent.com/wither7007/all_wsl/main/wasteland.txt').then(x=>x.text()).then(y=>te=y)
+te=''
+te
+te.split(/\\r\\n/)
+te.split(/\\s+/)
+te
+fetch('https://raw.githubusercontent.com/wither7007/all_wsl/main/wasteland.txt').then(x=>x.text()).then(y=>te=y)
+te=''
+qs('main').innerHTML=sc.sort().map(a=>`<div>${a}</div>`).join('')
+for (a in qs('body')) sc.push(a)
+sc=[]
+qs('main').innerHTML=sc.sort().map(a=>`<div>${a}</div>`).join('')
+qs('main').innerHTML=sc.map(a=>`<div>${a}</div>`).join('')
+qs('main').innerHTML=sc.map(a=>`<div>${a}</div>`)
+qs('main').innerHTML
+for (a in qs('body')) sc.push(a)
+sc=[]
+qs('link[href*=\"e2\"]').remove()
+qs('link[href*=\"e2\"]')
+sc.href=\"junk\\\\style2.css\"
+sc.href=\"junk\\style2.css\"
+document.head.append(sc)
+sc.href=\"junk/style2.css\"
+sc.href=\"junk/style2.css'
+sc=document.createElement('link')
+tt=af(qs('head').children).filter(p=>String(p.href).match(/junk.*cs/))
+tt=af(qs('head').children).filter(p=>String(p.href).match(/junk/))
+tt=af(qs('head').children)[13].filter(p=>String(p.href).match(/junk/))
+tt=af(qs('head').children).slice(13,15).filter(p=>String(p.href).match(/a/))
+tt=af(qs('head').children).slice(13,15).filter(p=>p.href.match(/a/))
+tt=af(qs('head').children)[13].filter(p=>p.href.match(/a/))
+tt=af(qs('head').children)[13]
+af(qs('head').children).filter(n=>n.textContent.match(/style/))
+af(qs('head').children).filter(n=>n.href.match(/style/))
+tt.href.match(/junk/)
+tt.href.match(/a/)
+t.href
+tt=af(qs('head').children)[13]
+af(qs('head').children)[13]
+'jim'.match('i')
+'jim'.match('a')
+af(qs('head').children).filter(a=>a.href.match(/style/))
+af(qs('head').children)[13].href.match(/junk/)
+af(qs('head').children)[13].href.match(/a/)
+af(qs('head').children)[13].href
+af(qs('head').children).map(a=>a.href)
+af(qs('head').children).map(a=a.href)
+af(qs('head').children)[9].href
+af(qs('head').children)[9]
+af(qs('head').children)[8]
+'http://localhost:3000/junk/style.css'.match(/junk/)
+af(qs('head').children).filter(a=>a.href.match(/style/))
+af(qs('head').children).map(a=>a.href)
+af(qs('head').children).filter(a=>a.href.includes(/style/))
+'jim'.match(/i/)
+af(qs('head').children).filter(a=>a.href.match(/style/))
+af(qs('head').children)
+\n$0.href='http://localhost:3000/junk/style.css'
+$0.href
+af(qs('head').children).slice(6,20).forEach((a,i)=>log([i,a]))
+af(qs('head').children).slice(6,20)
+qs('head').children
+window.location.href
+$0.parentElement
+$0.textContent
+$0.children
+qa('script').forEach(x=>x.remove())
+qs('.fl').innerHTML=ss.split(/\\s+/g).sort().filter(g=>g.length>1).map(m=>`<div> ${m} </div>`).join(\"\")
+qs('.f1').innerHTML=ss.split(/\\s+/g).sort().filter(g=>g.length>1).map(m=>`<div> ${m} </div>`).join(\"\")
+ss.split(/\\s+/g).sort().filter(g=>g.length>1).map(m=>`<div> ${m} </div>`).join(\"\")
+qs('.f1').innerHTML=ss.split(/\\s+/g).sort().filter(g=>g.length>1).map(m=>`<div> ${m} </div>`).join(\"\")
+ss.split(/\\s+/g).sort().filter(g=>g.length>1).map(m=>`<div> ${m} </div>`).join(\"\")
+ss.split(/\\s+/g).sort().filter(g=>g.length>1)
+ss.split(/\\s+/g).sort()
+ss.split(/\\s+/g)
