@@ -7,10 +7,17 @@ lala
 thursday 12/14
 1:40 pm
 612-543-2500
+Photons and electrons change their behavior based on whether or not they are being observed. True story. Look up double slit experiment.
+
+The word ‘non-hyphenated’ is, in fact, hyphenated
+https://www.songsterr.com/a/wsa/bob-dylan-girl-from-the-north-country-tab-s6672
+
+If you count a number per second, you will reach a million in 11 and a half days. It will take you almost 32 YEARS to reach billion
 
 reliacard 12/7/2023
 us bank
 
+existentialism philosophy is that man’s existence is the only reality that should and can be explored.
 Voluntary Death
 A transistor is a semiconductor device used to amplify or switch electrical signals and power. 
  earth-shattering Janeaustegasm
@@ -858,10 +865,16 @@ done < "$TO_BE_DEL"
 
 !! https://linuxhandbook.com/tar-exclude-files/
 !! fdm -tf | xargs tail -n +1 | nvim - #cat all files
+nvim --startuptime startup.log -c exit && less startup.log
+nvim --startuptime x
+nvim --clean
 vim to json :%!jq .
 :%!python -m json.tool
-vim long lines
+vim longlines
 :%!fmt --width=75 --split-only
+fmt --width=75 --split-only auto | rg 'target'
+rg -l 'target' | xargs fmt --width=75 --split-only  | rg 'target' | nvim -
+https://www.baeldung.com/linux/print-longest-lines-in-file
 gww
 gww yields (with textwidth=40
 
@@ -908,6 +921,7 @@ printf 'epoch is %s\n' $(date '+%s')
 redirect-- command > file 2>&1
 touch file{1..10}.txt
 https://github.com/dylanaraps/pure-sh-bible#loop-over-files-and-directories
+sed -i 's/\\"/"/g' s #sed replace backslash quote
 zero out file sed -i 'd' cutter
 remove -browser bs
 sed -i  '/\s-/d' style.css
