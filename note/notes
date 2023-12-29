@@ -832,7 +832,8 @@ curl -X GET -H "Content-Type: application/json"  "http://localhost:5000/posts"
 curl -X GET -H "Content-Type: application/json"   https://api.github.com/users/wither7007/repos
 
 fdm --changed-within=12days | xargs ls -lhrt | awk '{ print $9 ": " $6 " " $7 " " $8}'
-
+!! windows conrol M fix
+tr -d '\15\32' < snips > msnips && mv msnips snips
 rg 'word'
 fdm -tf | xargs sed -i 's/container/card-grid/g'
 https://learnbyexample.github.io/learn_gnused/breere-regular-expressions.html

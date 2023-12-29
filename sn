@@ -1,0 +1,6 @@
+#!/bin/bash
+cat /mnt/c/projects/server/snipall.txt >> /mnt/c/all/snips
+cd /mnt/c/all/
+tr -d '\15\32' < snips > msnips && mv msnips snips
+awk '!a[$0]++' /mnt/c/all/snips > testfile.tmp && mv testfile.tmp /mnt/c/all/snips
+cp /mnt/c/all/snips /mnt/c/projects/server/snipall.txt 
