@@ -1,0 +1,1464 @@
+
+document.querySelector('input[name="selectedGameTypes[]"]');
+$0.name
+document.querySelector('input[name="pwd"]');
+querySelector('input[name="pwd"]');
+document.querySelectorAll('input[type="checkbox"]')
+document.querySelectorAll('input[type="checkbox"])
+qa('input')
+$0.checked=true
+$0
+qs('#amount').value='allWinners'
+qs('#amount')
+qa
+url='https://www.mnlottery.com/winners/game'
+location.href=url
+location.href
+window.open(url);
+document.querySelector('#amount')
+document.querySelector('#amount').value='allWinners'
+window.open("https://www.mozilla.org/");
+window.open("https://www.mozilla.org/", "mozillaTab");
+copy(location.href)
+qs('#loadMore').click()
+qa('#loadMore').click()
+qa('#loadMore')
+qa('#loadmore')
+he
+qa('head>*').forEach(a=>he.push(a.outerHTML.slice(0,100)))
+he=[]
+qa('head>*')
+document.querySelectorAll('.load-more')[0].click()
+document.querySelectorAll('.load-more')[0]
+document.querySelectorAll('.load-more')
+[...document.querySelectorAll('.card-content')].forEach(a=>console.log(a.textContent))
+[document.querySelectorAll('.card-content')][1]
+[document.querySelectorAll('.card-content')].forEach(a=>console.log(a.textContent))
+[document.querySelectorAll('.card-content')].forEach(a=>console.log(a.text))
+[document.querySelectorAll('.card-content')]
+[document.querySelectorAll('.card_content')]
+document.querySelectorAll('.card-section')
+document.querySelectorAll('.card-content')
+copy([...document.querySelectorAll('img')].map(a=>a.src).join('\
+'))
+copy([...document.querySelectorAll('img')].map(a=>a.src).join(''))
+[...document.querySelectorAll('img')].map(a=>a.src)
+[...document.querySelectorAll('img')].map(a=a.src)
+document.querySelectorAll('img')
+qa('img')
+document.querySelector('head').querySelectorAll('style')
+document.querySelector('head').querySelector('style')
+qa('head').querySelector('style')
+he.length
+copy(he.join('\
+qa('head>*').forEach(a=>log(a.outerHTML.slice(0,100)))
+qa('head>*').forEach(a=>log(a.innerHTML.slice(0,100)))
+qa('head>*').forEach(a=>log(a.tagName))
+qa('head>*').forEach(a=>log(a.textContent))
+qa('head')
+qa('head>*').forEach(a=>log(a))
+qs('head>*')
+qs('head.*')
+qs('head')
+qa('head>.*')
+qa('head.*')
+copy(qa('img').filter(a=>a.src.includes('gif')).map(a=>a.src).join('\
+qa('img').filter(a=>a.src.includes('gif')).map(a=>a.src)
+qa('img').filter(a=>a.src.includes('gif'))
+copy($0.src)
+$0.src
+$)
+copy($0.href)
+$0.href
+c[1]
+c.forEach(a=>addEventListener('click', xx, true))
+c.forEach(a=>addEventListener('click', l, false))
+c.forEach(a=>addEventListener('click', l, true))
+l=()=>console.log('touch')
+c.forEach(a=>addEventListener('click', xx, false))
+c.forEach(a=>addEventListener('click', xx))
+c
+c.forEach(a=>addEventListener('click', l))
+c.forEach(a=>addEventListener('click', l)
+chunk(mydata,10).forEach(a=>console.log(a))
+mydata
+chunk(mydata,10).forEach(a=>log(a))
+chunk(mydata,10)
+splitIntoChunk(mydata,10)
+splitIntoChunk(mydata,14)
+splitIntoChunk(mydata,4)
+function splitIntoChunk(arr, chunk) {
+    while(arr.length > 0) {
+        let tempArray;
+        tempArray = arr.splice(0, chunk);
+        console.log(tempArray);
+    }
+}
+const array = [1, 2, 3, 4, 5, 6, 7, 8];
+const chunk = 2;
+console.log('it works')
+af(document.styleSheets)
+document.styleSheets[1]
+document.styleSheets[0]
+document.styleSheets
+myRules
+let myRules = document.styleSheets[0].cssRules;
+document.styleSheets[0].cssRules
+a
+a.innerHTML
+qs('head').appendChild(a)
+qs('head').querySelector('link').remove()
+a=qs('head').querySelector('link')
+qs('head').querySelector('link')
+window.innerWidth
+window.innerHeight
+window.innerHeight=20
+sleep(2000).then(() => { console.log('World!'); });
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+qs('head>*').querySelect('meta')
+qa('head>*').querySelect('meta')
+gr = `Αα\tAlpha\tΝν\tNu
+Ββ\tBeta\tΞξ\tXi
+Γγ\tGamma\tΟο\tOmicron
+Δδ\tDelta\tΠπ\tPi
+Εε\tEpsilon\tΡρ\tRho
+Ζζ\tZeta\tΣσς\tSigma
+Ηη\tEta\tΤτ\tTau
+Θθ\tTheta\tΥυ\tUpsilon
+Ιι\tIota\tΦφ\tPhi
+Κκ\tKappa\tΧχ\tChi
+Λλ\tLambda\tΨψ\tPsi
+Μμ\tMu\tΩω\tOmega
+`.split(/\\s/).filter(x => x.length > 1)
+gr.map((ss, i) => `${i} ${ss}`)
+gr.forEach((a, i) => log([i, gr.slice(i, i + 2).join(' ')]))
+sc = []
+for (a = 0; a < 48; a += 2) sc.push([gr.slice(a, a + 2)].join(" "))
+u = qa('[class]').map(a => a.className.trim())
+u = qa('[class]').map(a => a.className.trim().split('\\s').join(' '))
+u = qa('[class]').map(a => a.className.trim().split('\\s').join(' ')
+u = qa('[class]').map(a => a.className.trim().split('\\s'))
+u = qa('[class]').map(a => a.className)
+chunk(mydata,8)
+chunk(mydata,3)
+//#Source https://bit.ly/2neWfJ2 
+const chunk = (arr, size) =>
+  Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>
+    arr.slice(i * size, i * size + size)
+  );
+console.log(chunk([1, 2, 3, 4, 5], 2));
+ct(1,2)
+function ct(a,b) {        console.log(a);        return a.tagName.localCompare(b.tagName);}
+function ct(a,b) {        console.log(a)        return a.tagName.localCompare(b.tagName);}
+elements
+copy(qa('script').map(a=>a.src).filter(x=>x.length>1).join('\
+qa('script').map(a=>a.src).filter(x=>x.length>1).join('\
+')
+qa('script').map(a=>a.src).filter(x=>x.length>1)
+qa('script').map(a=>a.src)
+qa('script').forEach(a=>log(a.src))
+qa('script').forEach(a=>log(a))
+qa('style').forEach(a=>log(a))
+qa('style')
+qa('article>*').filter(x=>x.tagName.startsWith('H')).filter(y=>y.textContent.match(/^\\d/))
+qa('article>*').filter(x=>x.tagName.startsWith('H')).map(z=>z.textContent).filter(y=>y.match(/^\\d/))
+qa('article>*').filter(x=>x.tagName.startsWith('H')).map(z=>z.textContent).filter(y=>y.match(/\\d/))
+qa('article>*').filter(x=>x.tagName.startsWith('H')).map(z=>z.textContent).filter(y=>y.match(/\\d/)
+qa('article>*').filter(x=>x.tagName.startsWith('H')).map(z=>z.textContent)
+qa('article>*').filter(x=>x.tagName.startsWith('H'))
+qa('article>*').map(a=>a.tagName).filter(x=>x.startsWith('H'))[1]
+qa('article>*').map(a=>a.tagName).filter(x=>x.startsWith('H'))
+qa('article>*').map(a=>a.tagName)
+qa('article>p').map(a=>a.tagName)
+qa('article.article-content').map(a=>a.tagName)
+qs('article.article-content').querySelectorAll('p').forEach(a=>log(a.textContent))
+qs('article.article-content').querySelectorAll('p').forEach(a=>log(a.outerHTML))
+qs('article.article-content').querySelectorAll('p').forEach(a=>log(a))
+qs('article.article-content').querySelectorAll('p')
+qs('article.article-content').querySelector('p')
+qs('article.article-content').querySelector('h2')
+qs('article.article-content').children
+qs('article.article-content')
+sword('Taking the first spot')
+console.log('whahoo')
+log('who')
+af
+qs
+[...qs('head>*')]
+af(qs('head>*'))
+he=af(qs('head>*'))
+qs('body').querySelectorAll('img').forEach(a=>a.remove())
+body
+copy(qs('body').innerHTML)
+qs('body').outerHTML
+qs('body').innerHTML
+qa('img').forEach(a=>a.remove())
+qa('head>*')[2].href='/auto/dist/style.css'
+qa('head>*')[2].href='./auto/dist/style.css'
+qa('head>*')[2].href
+qa('head>*')[2].href='http://auto/dist/style.css'
+qa('head>*')[2].href='http://auto\\dist\\style.css'
+qa('head>*')[2]
+copy(he)
+he = af(qs('head').children).map(a => a.outerHTML.slice(0, 300)).join('\
+qs('body').style.cssText='display: grid; margin: 1rem 4rem; grid-template-columns: repeat(1, 1fr); font-family: Arial; line-height: 2; font-size: 1.5rem'
+qs('body').style.cssText='display: grid; margin: 1rem 3rem; grid-template-columns: repeat(1, 1fr); font-family: Arial; line-height: 2; font-size: 1.5rem'
+qs('body').style.cssText='display: grid; margin: 1rem 3rem; grid-template-columns: repeat(1, 1fr); font-family: Arial; line-height: 1.5'
+qs('body').style.cssText='display: grid; margin: 1rem 3rem; grid-template-columns: repeat(1, 1fr); font-family: Arial'
+qs('body').style.cssText='display: grid; margin: 1rem auto; grid-template-columns: repeat(1, 1fr); font-family: Arial'
+qs('body').style.cssText='display: grid; margin: 1rem auto; grid-template-columns: repeat(2, 1fr); font-family: Arial'
+qs('head>[rel]').remove()
+copy(qs('head>[rel]').href)
+qs('head>[rel]').href
+qs('head>[rel]').src
+qs('head>[rel]')
+qa('head>*').forEach(a=>he.push(a.outerHTML))
+copy(he[1])
+he[1]
+qa('head>*').forEach(a=>he.push(a))
+document.querySelectorAll('head>*').map(a=>a.src)
+qa('a')
+qs('a')
+qa('head>link')[0].href='http://localhost:3000/junk/flex/style.css'
+copy(qa('head>link')[0].href)
+qa('head>link')[0].href
+qa('head>link')[0]
+qa('head>link').forEach(a=>log(a.href))
+qa('head>link')
+qa('head>[rel]').slice(0,4).forEach(a=>log(a))
+qa('head>[rel*="s"]').slice(0,4).forEach(a=>log(a))
+qa('head>*').slice(0,4).forEach(a=>log(a))
+qa('head>*').slice(0,4)
+qa('head>*')[1].name
+qa('head>*')[1]
+qa('head'>*')
+qa('head'>*)
+qa('head>*').querySelector('meta')
+qa('head>*')[1].querySelector('meta')
+qa('head>*')[1].querySelect('meta')
+qs('.poem').style.cssText="color: red"
+qs('.poem').style.cssText
+qs('.poem')
+qa('[class*="o"]')
+qa('[class*=""]')
+qa('[class*="oem"]')
+qa('[class*="oem"]'
+qs('.poem').childNodes.forEach(a=>log(a))
+qs('.poem').childNodes
+qs('.poem').children
+qs('.poem + div')
+qa('[class]')
+$0.parentElement
+qa('div >div')
+qa('*')
+qa('body *')
+qa('nav *')
+qa('nav')
+qa('body div')
+'jim'.split('').some(a=>a=='x')
+'jim'.split('').some(a=>a=='i')
+'jim'.split( ).some(a=>a=='i')
+'jim'.split( ).every(a=>a=='i')
+'jim'.split('')
+'jim'.split( )
+'jim'.split()
+    Object.keys(q).every((function(e) {return e}))
+    Object.keys(q).every((function(e) {return e})
+Object.keys(q).every((function(e) {log(e)}))
+Object.keys(q).every((function(e) {log(e)})
+Object.keys(q)
+q=qs('body').style
+q
+q=qs('body')
+log(he)
+he=qa('[src]').map(a=>a.src).join('\
+qa('[src]').map(a=>a.src).join('\
+qa('[src]').map(a=>a.src)
+qa('[src]')
+copy(window.location.href)
+copy(qs('script').src)
+qs('script').src
+qs('script')
+he=af(qs('head').children).filter(a => a.tagName.match(/meta/i)).map(a => a.outerHTML.slice(0, 300)).join('\
+he=af(qs('head').children).filter(a => a.tagName.match(/meta/i)).map(a => a.outerHTML.slice(0, 300))
+he=af(qs('head').children).filter(a => a.tagName.match(/meta/i)).forEach(a => a.outerHTML.slice(0, 300))
+let he=af(qs('head').children).filter(a => a.tagName.match(/meta/i)).forEach(a => log(a.outerHTML.slice(0, 300)))
+he=af(qs('head').children).filter(a => a.tagName.match(/meta/i)).forEach(a => log(a.outerHTML.slice(0, 300)))
+af(qs('head').children).filter(a => a.tagName.match(/meta/i)).forEach(a => log(a.outerHTML.slice(0, 300)))
+af(qs('head').children).filter(a=>a.tagName.match(/meta/i)).forEach(a=>log(a.outerHTML.slice(0,300)))
+af(qs('head').children).filter(a=>a.tagName.match(/script/i)).forEach(a=>log(a.outerHTML.slice(0,300)))
+af(qs('head').children).filter(a=>a.tagName.match(/script/i))[2].outerHTML
+af(qs('head').children).filter(a=>a.tagName.match(/script/i))[2].innerHTMl
+af(qs('head').children).filter(a=>a.tagName.match(/script/i))[2]
+af(qs('head').children).filter(a=>a.tagName.match(/script/i)).forEach(a=>log(a.innerHTML.slice(0,300)))
+af(qs('head').children).filter(a=>a.tagName.match(/script/i)).forEach(a=>log(a.innerHTML.slice(0,300))
+af(qs('head').children).filter(a=>a.tagName.match(/script/i)).forEach(a=>log(a.innerHTML))
+af(qs('head').children).filter(a=>a.tagName.match(/script/i)).forEach(a=>log(a))
+af(qs('head').children).filter(a=>a.tagName.match(/script/i)).forEach(a=>a.log(a))
+af(qs('head').children).filter(a=>a.tagName.match(/script/i))
+af(qs('head').children).map(a=>a.tagName)
+af(qs('head').children)
+af(qs('head').children).forEach(a=>log(a))
+he.sort(tn)
+tn=(a,b)=>{
+    a=a.tagName;
+    b=b.tagName;
+    return a> b ? 1 :-1;
+he.propertyIsEnumerable()
+he=af(qs('head').children)
+sfilter(qs('.home').textContent)
+copy(sfilter(qs('.home').innerHTML))
+sfilter = (x) => {
+    ns=x.replace(/\\s{2,}/g,'\
+    return ns
+sfilter(qs('.home').innerHTML)
+    ns=x.replace(/\\s{2,}/g,' ')
+sfilter
+sfilter(qs('.home').innerHTML
+qs('.home').innerHTML.filter(sfilter)
+    ns=x.replace(/\\s{2,}/,' ')
+qs('.home').innerHTML
+qa('.home').innerHTML
+qa('.home')
+[20,8,6].sort((a,b)=>b-a)
+[20,8,6].sort((a,b)=>a-b)
+[20,8,6].sort()
+cc
+cc=[...cc].sort()
+cc[0]='xx'
+dd=cc.slice()
+bb
+cc=[...bb].sort(tsort)
+cc=[...bb.sort(tsort)]
+cc=[...bb.sorted(tsort)]
+cc=[...bb]
+bb.sort(tsort)
+window.bb = af(qs('*'))
+aa.sort(tsort)
+aa=af(qa('*'))
+aa
+b.sort(tsort)
+b.sort()
+"🔒".length
+"&#x"+("🔒".charCodeUTF32()).toString(16)+";"
+b.forEach(xx=>log(xx.charCodeAt(0)))
+b.forEach(xx=>log(xx[0].charCodeAt(0)))
+b.forEach(xx=>log(xx[0]))
+b.forEach(xx=>log(xx))
+b.forEach(xx=>log('jim'))
+b.forEach(xx=>log('jim')
+b.forEach(xx=>log('jim'.charCoodeAt(0)))
+b.forEach(xx=>log('jim'.charCoodeAt(0))
+b
+'jim'[0]
+b.forEach(xx=>log(xx[0].charCoodeAt(0))
+b.forEach(xx=>log(xx[0].charCoodeAt(0)))
+b.forEach(xx=>log(xx.charCoodeAt(0)))
+b.forEach(xx=>log(xx.charCoodeAt(0))
+'C'.charCodeAt(0)
+'C'.charAt(0)
+s=Object.values('jim').map(a=>[a,a.charCodeAt(0)]).join(' ')
+s=Object.values('jim').map(a=>[a,a.charCodeAt(0)]).join(' ').join('')
+s=Object.values('jim').map(a=>[a,a.charCodeAt(0)]).join('')
+log(JSON.stringify(s,null,2))
+JSON.stringify(s,null,2)
+he = af(qs('head').children).map(a => a.outerHTML.slice(0, 300)).join('\')
+copy(he.join('\'))
+he=qa('[src]').map(a=>a.src).join('\')
+qa('[src]').map(a=>a.src).join('\')
+he=af(qs('head').children).filter(a => a.tagName.match(/meta/i)).map(a => a.outerHTML.slice(0, 300)).join('\')
+tn=(a,b)=>{    a=a.tagName;    b=b.tagName;    return a> b ? 1 :-1;}
+sfilter = (x) => {    ns=x.replace(/\\s{2,}/g,'\')    return ns}
+sfilter = (x) => {    ns=x.replace(/\\s{2,}/g,' ')    return ns}
+sfilter = (x) => {    ns=x.replace(/\\s{2,}/,' ')    return ns}
+s=Object.values('jim').map(a=>[a,a.charCodeAt(0)])
+Object.values('jim').map(a=>[a,a.charCodeAt(0)])
+Object.values('jim').map(a=>a.charCodeAt(0))
+Object.values('jim')
+Object.entries('jim')
+for (a in 'jim') log(Object.entries(a))
+for (a in 'jim') log(Object.valuesOf(a))
+for (a in 'jim') log(Object.valuesof(a))
+for (a in 'jim') log(Object.values(a))
+for (a in 'jim') log(Object.keys(a))
+for (a in 'jim') log(a)
+aa.sort()
+arr.sort()
+arr
+[4,1,2,3,-2].sort()
+[4,1,2,3,-2].sort(function(a,b){a-b})
+[4,1,2,3].sort(function(a,b){a-b})
+[1,2,3].sort(function(a,b){a-b})
+[1,2,3].sort(function(a,b){b-a})
+aa.sort(function(a,b){b-a})
+aa.sort(function(a,b){a-b})
+aa.sort(function(a,b){a-b}
+aa.map(x=>x.tagName)
+window.window.aa=22
+window.aa='x'
+mylog()
+log()
+setTimeout(x=>console.log('time'),100)
+aa=af(qa('button,head'))
+aa=af(qa('button','head'))
+qa('button, head')
+qa('button head')
+qa('button', 'head')
+aa=af(qa('div','head'))
+aa.map(a=>a.tagName)
+aa=af(qa('div'))
+af(qa('div'))
+a.tagName.localeCompare(b.tagName)
+a.tagName
+a.tagName.localeCompare('s')
+ct(he[1],he[2])
+function ct(a,b) {        console.log(a.tagName)        debugger        return a.tagName.localCompare(b.tagName);}
+function ct(a,b) {        console.log(a.tagName)        return a.tagName.localCompare(b.tagName);}
+ct(he[1].tagName,he[2])
+he[1].tagName
+ct('a','b')
+    p.innerHTML=t.split(', ')
+    pr.innerHTML=t.split(', ')
+    qs('body').style
+    qs('pre').textContent.split(/\/).forEach((a,i)=>log([i, a]))
+    qs('pre').textContent.split(/\/).forEach((a,i)=>log(a))
+    qs('pre').textContent.split(/\/).forEach((a,i)=>{if (i in aa) {log([i, a])}})
+    qs('pre').textContent.split(/\/).forEach((a,i)=>{if (i<27) {log([i, a])})
+    qs('pre').textContent.split(/\/).forEach((a,i)=>{if (i<27) {log([i, a])}})
+    qs('pre').textContent.split(/\/).forEach((a,i)=>{if (i>15 && i<27) {log([i, a])}})
+    qs('pre').textContent.split(/\/).forEach((a,i)=>{if (i>16 && i<27) {log([i, a])}})
+  my=[]for (a in qs('body')) my.push(a)pr=document.createElement('pre')pr.style="columns: 100px 4; column-rule: 1px solid #000; margin-top: -1.5rem; font-family: Arial, Helvetica, sans-serif; font-size: 8px; background-color: pink;"pr.innerHTML=my.map(a=>`<div>${a}</div>`).join('')document.body.prepend(pr)
+ document.querySelectorAll('.book-preview-body').forEach((e, i) => { let title = e.querySelector('h2').innerText.toLowerCase().replace(/ /g, '-'); let button = e.querySelector('button'); button.innerHTML = `<a href="/book/${title}">Learn more</a>`; })
+$('.top')
+$('body').setAttribute(  "style",  "color: blue; font-size: 2em; text-align: center");
+$0.childNodes
+$0.children
+$0.children.forEach(a=>log([a.tagName, a.className, a.id]))
+$0.children.forEach(a=>log([a.tagName, a.className]))
+$0.children.forEach(a=>log([a.tagName, a.class]))
+$0.children.forEach(a=>log(a.tagName))
+$0.children[1].children
+$0.children[1].outerHTML
+$0.children[3]
+$0.children[4]
+$0.children[4].te
+$0.classList
+$0.click()
+$0.id
+$0.innerHTML
+$0.innerHTML=$0.innerHTML.replaceAll('\','<br>')
+$0.nextElementSibling.nextElementSibling
+$0.nextElementSibling.nextElementSibling.className
+$0.nextSibling
+$0.nodeType
+$0.outerHTML
+$0.parentElement.children
+$0.parentElement.classList
+$0.parentElement.innerHTML
+$0.parentElement.lastElementChild
+$0.parentElement.lastElementChild.children
+$0.parentElement.lastElementChild.children[0]
+$0.parentElement.lastElementChild.children[0].children
+$0.parentElement.lastElementChild.querySelectorAll('a')
+$0.parentElement.lastElementChild.textContent
+$0.parentElement.parentElement.parentElement
+$0.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement
+$0.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.innerHTML
+$0.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.children
+$0.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.tagName
+$0.parentElement.style.cssText="color: blue; font-size: 2em; text-align: center;border: solid #f00 13px;";
+$0.style
+$0.style.background='#400'
+$0.style.background='#440'
+$0.style.background='#b2b2b2'
+$0.style.background=''
+$0.style.color='#f00'
+$0.style.cssText
+$0.style.cssText='display: grid; margin: 0px auto; grid-template-columns: repeat(5, 1fr);'
+$0.style.cssText='display: grid; margin: 0px auto; grid-template-columns: repeat(50, 1fr);'
+$0.style.cssText="color: blue; font-size: 2em; text-align: center;border: solid #ddd;";
+$0.style.cssText="color: blue; font-size: 2em; text-align: center;border: solid #f00 13px;";
+$0.style.cssText="color: blue; font-size: 2em; text-align: center;border: solid #f00 3px;";
+$0.style.cssText="color: blue; font-size: 2em; text-align: center;border: solid #f00;";
+$0.style.cssText="color: blue; font-size: 2em; text-align: center";
+$0.style.fontSize
+$0.style.fontSize='12rem'
+$0.style.fontSize='2rem'
+$0.style.fontSize='36px'
+$0.style.justifyContent='center'
+$0.style.justifyContent='left'
+$0.style.justifyContent='space-around'
+$0.tagName
+$0.textContent
+$0.textContent=te
+'http://localhost:3000/junk/style.css'.match(/junk/)
+'i' in 'jim'
+'jim'.at(2)
+'jim'.charCodeAt(1)
+'jim'.match('a')
+'jim'.match('i')
+'jim'.match(/i/)
+'jim'.raw()
+'jim'.search('i')
+'jim'.startsWith('j')
+3%2
+JSON.stringify(k)
+JSON.stringify(w,null,2)
+Math.E
+Number
+Number.EPSILON
+Number.isInteger(3)
+Number.isInteger(3.2)
+Object.constructor
+Object.constructor()
+Object.entries(qs('body').style)
+Object.entries(qs('body').style).filter(a=>a[1].length>1)
+Object.entries(qs('body').style).forEach(a=>log(a))
+Object.entries(qs('body').style).slice(0,3)
+Object.entries(qs('body').style).slice(0,3).forEach(a=>log(a))
+Object.entries(s)
+Object.entries(s)[1]
+Object.getOwnPropertyDescriptor(Math)
+Object.getOwnPropertyNames(Math)
+Object.getOwnPropertyNames(Number)
+Object.getOwnPropertyNames(q)
+Object.getOwnPropertyNames(qs('body'))
+Object.getPrototypeOf(m)
+Object.keys(Number)
+Object.keys(computedStyle)
+Object.keys(qs('body').style)
+Object.keys(qs('body').style).forEach(a=>log(qs('body').style[a]))
+Object.values(a)
+Object.values(computedStyle)
+Object.values(qs('body').style)
+Object.values(s)[1]
+String(sc)
+String(sc).split(',')
+String.raw('jim')
+[...$0.children].forEach(a=>log(a))
+[...$0.parentElement.lastElementChild.querySelectorAll('a')].forEach(a=>log(a))
+[...a]
+[...af(qs('body').children)[0].children].forEach(n=>log(n))
+[...document.querySelector('head').children]
+[...document.querySelector('head').children].forEach((a,i)=>h.push(`${i} ${a.tagName} ${a.outerHTML}`))
+[...qs('#div-02').children]
+[...qs('body').children].forEach(a=>log([a.tagName, a.textContent.slice(0,10)])
+[...qs('body').children].forEach(a=>log([a.tagName, a.textContent.slice(0,10)]))
+[...qs('body').children].forEach(a=>log([a.tagName, a.textContent.slice(0,10)]).join(' - ')
+[...qs('body').children].forEach(a=>log([a.tagName, a.textContent.slice(0,10)]).join(' - '))
+[...qs('body').children].forEach(a=>log([a.tagName, a.textContent.slice(0,10)].join(' - '))
+[...qs('body').children].forEach(a=>log([a.tagName, a.textContent.slice(0,10)].join(' - ')))
+[...qs('body').children].forEach(a=>log(a.tagName, a.textContent.slice(0,10))
+[1, 2, [4, 0]]
+$0.href='http://localhost:3000/junk/style.css'
+a.onpagehide
+a=[1, 2, [4, 0]]
+a=qs('body')
+a[1]=99
+a[1]=999
+aa=[16,19,22,24]
+add(1:c)
+add(c)
+add({1,c})
+add({1:c})
+add({a,c})
+add({a:myscript})
+af(document.styleSheets).forEach(a=>log(a))
+af(document.styleSheets).forEach(a=>log(a.href))
+af(document.styleSheets)[0]
+af(document.styleSheets)[0].rules
+af(document.styleSheets)[0].rules[0]
+af(document.styleSheets)[0].rules[0].textContent
+af(document.styleSheets[0]).forEach(a=>log(a))
+af(document.styleSheets[0].rules)
+af(document.styleSheets[0].rules).forEach(a=>log(a))
+af(document.styleSheets[0].rules).forEach(a=>log(af(a)))
+af(document.styleSheets[0].rules)[1]
+af(document.styleSheets[0].rules)[1].cssText
+af(document.styleSheets[0].rules[0])
+af(qa('a')).forEach(a=>a.style.cssText="color: blue; font-size: .5em;border: solid #0f0 3px;")
+af(qa('div')).forEach(a=>a.style.cssText="color: blue; font-size: .5em;border: solid #f00 13px;")
+af(qa('div')).forEach(a=>a.style.cssText="color: blue; font-size: .5em;border: solid #f00 3px;")
+af(qa('div')).forEach(a=>a.style.cssText="color: blue; font-size: 2em; text-align: center;border: solid #f00 13px;")
+af(qa('div')).forEach(a=>a.style.cssText="color: blue; font-size: 2em; text-align: center;border: solid #f00 13px;";)
+af(qa('input')).forEach(a=>a.style.cssText="color: blue; font-size: .5em;border: solid #0f0 3px;")
+af(qa('input')).forEach(a=>a.style.cssText="color: blue; font-size: .5em;border: solid #f00 13px;")
+af(qa('script')).forEach(a=>log(a))
+af(qs('body').children).forEach((a,i)=>log([i,a]))
+af(qs('body').children).forEach(a=>log(a))
+af(qs('body').children).map((a,i)=>[i,a])
+af(qs('body').children).map((a,i)=>[i,a]).forEach(x=>log(x))
+af(qs('body').children).map((a,i)=>[i,a])[1]
+af(qs('body').children).map((a,i)=>[i,a])[1].forEach(x=>log(x))
+af(qs('body').children).map((a,i)=>log([i,a]))
+af(qs('body').children)[0]
+af(qs('body').children)[0].children
+af(qs('body').children)[0].children)
+af(qs('body').children)[0].innerHTML
+af(qs('body').children)[1].innerHTML
+af(qs('body').children)[1].outerHTML
+af(qs('head').children).filter(a=>a.href.includes(/style/))
+af(qs('head').children).filter(a=>a.href.match(/style/))
+af(qs('head').children).filter(n=>n.href.match(/style/))
+af(qs('head').children).filter(n=>n.textContent.match(/style/))
+af(qs('head').children).map(a=>a.href)
+af(qs('head').children).map(a=a.href)
+af(qs('head').children).slice(6,20)
+af(qs('head').children).slice(6,20).forEach((a,i)=>log([i,a]))
+af(qs('head').children)[13]
+af(qs('head').children)[13].href
+af(qs('head').children)[13].href.match(/a/)
+af(qs('head').children)[13].href.match(/junk/)
+af(qs('head').children)[8]
+af(qs('head').children)[9]
+af(qs('head').children)[9].href
+af(st.rules)
+af(st.rules)[1]
+attrs
+b=a
+b=qs('body')
+button
+byClass
+c=''
+c=''\\
+c='https://c0.wp.com/c/6.4.1/wp-includes/css/dist/block-library/style.min.css'
+c=[...a]
+c[...a]
+cl
+cl=[]
+cl[0]
+computedStyle
+computedStyle.alignContent
+console.dir(qs('section').style.justifyContent)
+console.ldir(qs('section').style.justifyContent)
+console.log(0.1 + 0.2); 
+console.log(String.fromCharCode(105));
+console.log(String.fromCharCode(189, 43, 190, 61));
+console.log(earr)
+console.table(earr)
+const attrs = element.getAttributeNames().reduce((acc, name) => {  return {...acc, [name]: element.getAttribute(name)};}, {});
+const element = document.qs('pre');// ✅ Get object of all {name: value}const attrs = element.getAttributeNames().reduce((acc, name) => {  return {...acc, [name]: element.getAttribute(name)};}, {});
+const element = document.querySelector('pre');// ✅ Get object of all {name: value}const attrs = element.getAttributeNames().reduce((acc, name) => {  return {...acc, [name]: element.getAttribute(name)};}, {});
+const options = { indent_size: 2, space_in_empty_paren: true }const dataObj = {completed: false,id: 1,title: "delectus aut autem",userId: 1,}const dataJson = JSON.stringify(dataObj)js_beautify(dataJson, options)
+const re = new RegExp(/\\*(.|[\\r\])*?\\*/);
+const str = 'codingbeauty';// "g" flag not specifiedconst result = str.match(/.{1,4}/) ?? [];// [ 'codi' ... ] (single-item array)console.log(result);
+const str = 'codingbeauty';// "g" flag not specifiedconst result = str.match(/.{1,4}/g) ?? [];// [ 'codi' ... ] (single-item array)console.log(result);
+const undefinedObject = 'jim'
+const undefinedObject = String
+const undefinedObject = null;
+const undefinedObject = undefined;
+copy($0.style.cssText)
+copy(JSON.stringify(w,null,2))
+copy(css)
+copy(earr)
+copy(h)
+copy(h[1])
+copy(myscript)
+copy(qa('.coral')[0].textContent)
+copy(qs('pre').textContent.replace(/\\/\\*[\\s\\S]*?\\*\\/|(?<=[^:])\\/\\/.*|^\\/\\/.*/g,''))
+copy(qs('pre').textContent.replace(/\\/\\*[\\s\\S]*?\\*\\/|(?<=[^:])\\/\\/.*|^\\/\\/.*/g,'');)
+copy(s)
+copy(s.join('\'))
+copy(s.join(""))
+copy(sc)
+copy(ss.join('\'))
+copy(ss.map(a=>a.replace(/\\s{2,}/g,'\')))
+copy(st)
+cp(ss.join('\'))
+css
+css=''
+d
+d.innerHTM
+d.innerHTM='xxx'
+d.innerHTML
+d.innerHTML.replace('First','XXXXXXXXXXXXXX')
+d.innerHTML=''
+d.innerHTML=gr.split('\\t').map(`${a} <br>`)
+d.innerHTML=gr.split('\\t').map(a=>`${a} <br>`)
+d.innerHTML=nn
+d.innerHTML=ps
+d.innerHTML=s.map(m=>`<div>${m}</div>`)
+d.innerHTML=s.map(m=>`<div>${m}</div>`).join('')
+d.innerHTML=st.split('').map(a=>`<div>${a}</div>`)
+d.innerHTML=st.split('').map(a=>`<div>${a}</div>`).join('')
+d.innerHTML=sword('indexof')[31].parentNode.parentNode.parentNode.textContent
+d.innerHTML=ted.join('')
+d.innerHTMl
+d.outerHTML=nn
+d.style.columnCount=3
+d.style.columnCount=6
+d.style.cssText='display: grid; margin: 0 auto; grid-template-columns: repeat(5 1fr);'
+d.textContent=ted
+d.textContent=ted.join('')
+d=document.createElement('div')
+d=document.createElement('pre')
+div.innertHTML=qs('pre').textContent.split('\').filter(a=>!a.match(/\\s{4,}/)).map(x=>`<div>${x}</div>`)
+document.body.append(d)
+document.body.prepend('ms')
+document.body.prepend(d)
+document.body.prepend(e)
+document.body.prepend(ms)
+document.body.prepend(myi)
+document.body.prepend(p)
+document.body.prepend(pr)
+document.body.prepend(s)
+document.createElement('pre')
+document.createElement('script')
+document.head.append(sc)
+document.prepend(pr)
+document.querySelector('.poem')
+document.querySelector('body').innerHTML
+document.querySelector('body').innerText
+document.querySelector('body').onbeforeprint
+document.querySelector('body').style.fontFamily='Arial'
+document.querySelector('head').querySelectorAll('link')
+document.querySelectorAll('.book-preview-body').forEach((e, i) => { let title = e.querySelector('h2').innerText.toLowerCase().replace(/ /g, '-');                                                                    
+document.querySelectorAll('.book-preview-body').forEach((e, i) => { let title = e.querySelector('h2').innerText.toLowerCase().replace(/ /g, '-'); let button = e.querySelector('button'); button.innerHTML = `<a href="/book/${title}">Learn more</a>`; })
+document.styleSheets.forEach(a=>log(a))
+document.styleSheets.length
+document.styleSheets[0].href
+document.styleSheets[0].innerHTML
+document.styleSheets[0].rules
+e
+e.innerHTML
+e.innerHTML=tedc.join("")
+e.textContent
+e=document.createElement('div')
+earr
+earr.forEach(a=>log(a))
+earr[1]
+el.closest('#div-01')
+el.closest(':not(div)')
+el.closest('div')
+el=qs(':not[id*="03"')
+el=qs(':not[id*="03]"')
+el=qs('[id*="03"')
+element.data-id="xx"
+element.setAttribute('class','new')
+element.setAttribute('className','new')
+element.setAttribute('data-id','x')// ✅ Get object of all {name: value}const attrs = element.getAttributeNames().reduce((acc, name) => {  return {...acc, [name]: element.getAttribute(name)};}, {});
+element.setAttribute('id','zero')
+element=$('body')
+elements[5]
+f=qa('link[rel*="style"]')[0].href
+f=qa('link[rel*="style"]')[0].remove()
+fetch('http://example.com/movies.json')  .then((response) => response.json())  .then((data) => console.log(data));
+fetch('http://localhost:3000/style.css').then(a=>a.text()).then(z=>c=z)
+fetch('https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content').then(x=>x.text()).then(y=>log(y))
+fetch('https://raw.githubusercontent.com/wither7007/all_wsl/main/wasteland.txt').then(x=>x.text()).then(y=>te=y)
+fetch('https://raw.githubusercontent.com/wither7007/all_wsl/main/wasteland.txt').then(x=>x.text()).then(y=>te=y.trim())
+fetch('https://raw.githubusercontent.com/wither7007/all_wsl/main/wasteland.txt').then(x=>x.text()).then(y=>te=y.trim().split(/\\s{2,}/))
+fetch(c).then(r=>r.text()).then(d=>css=d)
+fetch(c).then(r=>r.text()).then(d=>log(d))
+fetch(f).then(x=>x.text()).then(y=>log(y))
+fetch(f).then(x=>x.text()).then(y=>st=y)
+fetch(f).then(x=>x.text()).then(y=>st=y))
+fetch(qa('script')[0].src).then(x=>x.text()).then(y=>hh.push(y))
+fetch(qa('script')[0].src).then(x=>x.text()).then(y=>hh=y)
+fetch(qa('script')[0].src).then(x=>x.text()).then(y=>log(y))
+fetch(qa('script')[0].src).then(x=>x.text()).then(y=>sc=y)
+fetch(qa('script')[0].src).then(x=>x.text).then(y=>log(y))
+fetch(qa('script')[0].srch).then(x=>x.text()).then(y=>sc=y)
+fetch(qa('script')[1].src).then(x=>x.text()).then(y=>sc=y)
+fetch(qs('body').children[1].src)    .then((response) => response.text())    .then((data) => myscript = data);
+fetch(qs('body').children[1].src).then((x)=>x.textContent()).then((z)=>log(z))
+fetch(qs('body').children[1].src).then((x)=>x.textContent).then((z)=>log(z))
+fetch(qs('body').children[1].src).then(x=>x.textContent()).then(z=>log(z))
+fetch(qs('body').children[1].src).then(x=>x.textContent).then(z=>log(z))
+fetch(s).then(a=>a.text()).then(data=>e.innerHTML=data)
+fetch(s).then(a=>a.text()).then(data=>e.textContent=data)
+fetch(s).then(a=>a.text()).then(data=>log(data))
+fetch(‘http://example.com/movies.json’)  .then((response) => response.json())  .then((data) => console.log(data));
+for ( a in qs('header').style.justifyContent) log(a)
+for ( a in qs('pre')) {log(a)}
+for ( a in qs('pre')) {log(x)}
+for ( a in qs('section').style.justifyContent) log(a)
+for (a in Number) log(a)
+for (a in Object) log(a)
+for (a in document.styleSheets) log(a)
+for (a in q) k.push([a, q[a]]) 
+for (a in q) k.push(a, q[a]) 
+for (a in q) {log(a)}
+for (a in q) {s.push([a, q[a]])}
+for (a in qs('body')) k.push(a)
+for (a in qs('body')) my.push(a)
+for (a in qs('body')) sc.push(a)
+for (a in qs('header')) log(a)
+for (a in qs('header')) {    if (a.match('j')) {log(a)}}
+for (a in qs('header').style) {    if (a.match('j')) {log(a)}}
+for (a in qs('header').style) {    if (a.match('jus')) {log(a)}}
+for (a in s) log(a)
+for (a in s) log(a.valueOf())
+for (a in s) log(valueOf(a))
+for (a of Number) log(a)
+for (a of Object) log(a)
+for (a of qq.attributes) log(`${a.name} => ${a.value}`)
+for (a of qq.attributes) log(a)
+for (a of qq.attributes) log(a.name)
+for (a=0;a<1000;a++) st+=String.fromCharCode(a)
+for (a=0;a<100;a++) console.log(String.fromCharCode(a))
+for (a=0;a<100;a++) console.log(a)
+for (a=0;a<100;a++) log(a)
+for (const name of element.getAttributeNames()) {  const value = element.getAttribute(name);  console.log(name, value);}
+for (let i=0; i<5; i++) {log(st.rules[i])}
+for (let i=; i<5; i++) {log(st.rules[i])}
+for (let i=; i<5; i++) {log(st.rules[i]}
+for (nn in m.match(/e/g) console.log(nn)
+for (s in m.match(/e/g) console.log(s)
+for (s in m.match(/e/g) log(s)
+for (s of m.match(/e/g) console.log(s)
+for (x in a) log(x)
+for (x in a) {if (typeof a[x]=='function') {log(x)}}
+for (x in a) {if (typeof x=='function' {log(x)}}
+for (x in a) {if (typeof x=='function') {log(x)}}
+for (x in a) {log([a,typeof a[x]])}
+for (x in a) {log([x,typeof a[x]])}
+for (x in a) {log(typeof a[x])}
+for (x in a) {log(typeof x)}
+for (x in a) {log(typeof x}
+for (x in a) {log(x)}
+for (x in a) {ss.push([x,typeof a[x]])}
+function met(obj) {    return Object.getOwnPropertyNames(obj).filter(function(property) {        return typeof obj[property] == "function";    });}
+function xx (n=2) {    if (n%2==0) {log('not even')}   log(n) }
+function xx (n=2) {    if (n%2==1) {log('not even')}   log(n) }
+function xx (n=2) {    if (n%2==1) {throw new Error('not even')}   log(n) }
+function xx (n=2) {    if n%2==0 {log('not even')}   log(n) }
+function xx (n=2) {   log(n) }
+gel
+getComputedStyle($0)
+getComputedStyle($0).display
+getComputedStyle($0).font
+getComputedStyle($0).justifyContent
+getComputedStyle($0.children[0])
+getComputedStyle(b).accentColor
+getComputedStyle(b).height
+getComputedStyle(qs('body')).backgroundColor
+getComputedStyle(qs('body').background)
+getComputedStyle(qs('header')).justifyContent
+gr
+gr.replaceAll('\',' ').split('\\t')
+gr.replaceAll('\','')
+gr.replaceAll('\','').split('\\t')
+gr.replaceAll('\','\\t').split('\\t')
+gr.replaceAll('\','\\t').split('\\t').trim()
+gr.replaceAll('\','\\t').trim().split('\\t')
+gr.split('\\t')
+gr=`Αα\tAlpha\tΝν\tNuΒβ\tBeta\tΞξ\tXiΓγ\tGamma\tΟο\tOmicronΔδ\tDelta\tΠπ\tPiΕε\tEpsilon\tΡρ\tRhoΖζ\tZeta\tΣσς\tSigmaΗη\tEta\tΤτ\tTauΘθ\tTheta\tΥυ\tUpsilonΙι\tIota\tΦφ\tPhiΚκ\tKappa\tΧχ\tChiΛλ\tLambda\tΨψ\tPsiΜμ\tMu\tΩω\tOmega`
+h
+h=[][...$('head').children].forEach((a,i)=>h.push(`${i} ${a.tagName} ${a.outerHTML}`))te=h.join('\')pr=document.createElement('pre')pr.textContent=tedocument.body.prepend(pr)
+h[1]
+hh
+hh=''
+hh=[]
+hi
+hi()
+hi(0
+history.back
+history.back()
+it
+it.replaceChild
+it.title='new'
+it=qs('pre')for ( a in it) {log([a, it[a])}
+it=qs('pre')for ( a in it) {log([a, it[a]])}
+it=qs('pre')for ( a in it) {log(a)}
+it=qs('pre')for ( a in it) {log(x)}
+js_beautify
+k
+k.forEach(a=>log(a))
+k.lo
+k.lo()
+k.lo=function s(){log('x')}
+k.lo=function s(){log('x'}
+k.map((a,i)=>`${i} ${a[0]} ${a[1]}`)
+k.map(a=>`${a[0]} ${a[1]}`)
+k.x
+k.x='bill'
+k='jim'
+k=[]
+k[13]
+k[1]
+kk
+kk.forEach(a=>log([a[0]]))
+kk=[]
+kk[1]
+kk[1][0]
+let c
+let earr = elements.map((a, i) => `${i}, ${a.tagName}, ${a.className}, ${a.id}, ${a.childElementCount}, ${a.outerHTML.length}`)
+let elements = [...document.querySelectorAll('*:not(head, body, html,meta)')]
+let gscript = await "https://raw.githubusercontent.com/wither7007/htmlTemplate/main/html/events.js";let mytextlet n = async () => {    let gscript = await "https://raw.githubusercontent.com/wither7007/htmlTemplate/main/html/events.js";    let res = await fetch(gscript)    let j = await res.text()    let mytext = j    eval(mytext)    console.log(j)}n()
+let h = [...document.querySelector('head').children].map((a, i) => `${i} ${a.tagName} ${a.outerHTML}`);let te = h.join('\');let ted = h.map(a => `<div>${a}</div>`)let tedc = h.map(a => `<code>${a}</code>`)let pr = document.createElement('pre');let div = document.createElement('div');pr.textContent = te;document.body.prepend(pr);
+let h = [];[...document.querySelector('head').children].forEach((a, i) => h.push(`${i} ${a.tagName} ${a.outerHTML}`));
+let h = [];[...document.querySelector('head').children].forEach((a, i) => h.push(`${i} ${a.tagName} ${a.outerHTML}`));let te = h.join('\');let pr = document.createElement('pre');pr.textContent = te;document.body.prepend(pr);
+let h=[]
+let h=[];[...document.querySelector('head').children].forEach((a,i)=>h.push(`${i} ${a.tagName} ${a.outerHTML}`));let te=h.join('\');let pr=document.createElement('pre')pr.textContent=tedocument.body.prepend(pr)
+let h=[][...document.querySelector('head').children].forEach((a,i)=>h.push(`${i} ${a.tagName} ${a.outerHTML}`))let te=h.join('\')let pr=document.createElement('pre')pr.textContent=tedocument.body.prepend(pr)
+let hi=()=>qs('pre').style.display=='block'? qs('pre').style.display='none' : qs('pre').style.display='block'
+let myscript
+let sword = (x) => {    var expression = `${x}`;    var re = new RegExp(expression, 'gi');    console.log(re)    let word = elements.filter(aa => aa.textContent.match(re))    console.log(word)    return word}
+let tedc = h.map(a => `<code>${a}</code>`)
+let window.elements = [...document.querySelectorAll('*:not(head, body, html,meta)')]
+log(JSON.stringify(w,null,2))
+log(js_beautify(dataJson, options))
+log(js_beautify(sc,options))
+log(qs('style').textContent)
+log(sword('alpha')[0].innerHTML.replaceAll('<br>',''))
+log(sword('alpha')[0].innerHTML.replaceAll('<br>','\'))
+log(w.join('\'))
+m.filter(x=>x.match(/e/)
+m.filter(x=>x.match(/e/))
+m.match(/.{1,8}/g) ?? [];
+m.match(/e/)
+m.match(/e/g)
+m.valueOf()
+m='jim'
+m=2
+m=`Do not go gentle into that good night, Old age should burn and rave at close of day; Rage, rage against the dying of the light. Though wise men at their end know dark is`
+met
+met('jim')
+met(Array)
+met(Error)
+met(Math)
+met(Number)
+met(Object)
+met(k)
+met(undefinedObject)
+mm.reduce((acc,i)=>{    if (i in acc){        acc[i]++    }    else {        acc[i]=1    }    return acc}, {})
+mm.reduce((acc,i)=>{    if (i in acc){        acc[i]++    }    else {        acc[i]=i    }    return acc, {})
+mm.reduce((acc,i)=>{    if (i in acc){        acc[i]++    }    else {        acc[i]=i    }    return acc}, {})
+mm=String(sc).split(',')
+ms
+ms.style.color='rgb(255,0,0)'
+ms2=qs('section').querySelector('*').cloneNode(true)
+ms=qs('section').querySelector('*')
+ms=qs('section').querySelector('*').cloneNode(true)
+my
+my=[]
+my=[]for (a in qs('body')) my.push(a)pr=document.createElement('pre')pr.style="columns: 100px 4; column-rule: 1px solid #000; margin-top: -1.5rem auto; font-family: Arial, Helvetica, sans-serif; font-size: 8px; background-color: pink;"pr.innerHTML=my.map(a=>`<div>${a}</div>`).join('')document.body.prepend(pr)
+my=[]for (a in qs('body')) my.push(a)pr=document.createElement('pre')pr.style="columns: 100px 4; column-rule: 1px solid #000; margin-top: -1.5rem auto; font-family: Arial, Helvetica, sans-serif; font-size: 8px; background-color: pink;"pr.textContent=my.map(a=>`<div>${a}</div>`).join('')document.body.prepend(pr)
+myi=my.map(a=>`<div>${a}</div>`)
+myi=my.map(a=>`<div>${a}</div>`).join('')
+myscript
+newstory
+nn
+nn=js_beautify(sc,options)
+nn=js_beautify(sc,options))
+nn=qs('section').innerHTML
+nn=qs('section').outerHTML
+options
+p.textContent=hh
+p.textContent=nn
+p.textContent=p
+p=document.createElement('pre')
+parent(2)
+parseInt(12)
+parseInt(12,2)
+parseInt(2)
+pr
+pr.innerHTML=h.join('')
+pr.innerHTML=myi
+pr.innerHTML=qs('pre').textContent.split('\').filter(a=>!a.match(/\\s{4,}/)).map(x=>`<div>${x}</div>`).join('')
+pr.innertHTML
+pr.innertHTML=qs('pre').textContent.split('\').filter(a=>!a.match(/\\s{4,}/)).map(x=>`<div>${x}</div>`).join('')
+pr.textContent
+pr.textContent=myscript
+pr.textContent=qs('[class*="fit"]').innerHTML
+pr.textContent=sword('indexof')[31].parentNode.parentNode.parentNode.textContent
+pr=document.createElement('div')
+pr=document.createElement('pre')
+pre
+ps=s.map(a=>`<div>${a[0]} - ${a[1]}</div>`)
+ps=s.map(a=>`<div>${a[0]} - ${a[1]}</div>`).join('')
+q.className='x'
+q.hasAttribute
+q.hasAttribute()
+q.hasAttribute(0
+q.hasAttributes()
+q.le
+q.onbeforeprint
+q.onop
+q[k[1]]
+qa('*').reduce((acc,item) => {    if (item.tagName in acc) {        acc[item.tagName]++    }    else {        acc[item.tagName]=1    }    return acc}, [])
+qa('*').reduce((acc,item) => {    if (item.tagName in acc) {        acc[item.tagName]++    }    else {        acc[item.tagName]=1    }    return acc}, {})
+qa('.book-preview-body')
+qa('.commtext').forEach(a=>log(a.textContent))
+qa('.commtext').forEach(a=>ss.push(a.textContent))
+qa('.coral')
+qa('.coral').forEach(a=>log(a.textContent))
+qa('.coral')[0]
+qa('.coral')[0].innerHTML
+qa('.coral')[0].textContent
+qa('.coral-comment-content').forEach((a,i)=>log(`${i} - ${a.textContent}`))
+qa('.coral-comment-content').forEach(a=>log(a.textContent))
+qa('.coral-comment-content')[0].children.length
+qa('.coral-comment-content')[0].children
+qa('.coral-comment-content')[0].parentElement.children
+qa('.coral-comment-content')[0].parentElement
+qa('.coral-comment-content')[0]
+qa('.garden')
+qa('.menu-item-object-category')
+qa('.xIZ6Le')
+qa(':not(div)')
+qa('[class*="totalReact"]')
+qa('[class*="totalReact"]').forEach(a=>log(a.textContent))
+qa('[class]').forEach(a=>cl.push(a.className.split(/\\s/)))
+qa('[class]').forEach(a=>log(a.class))
+qa('[class]').forEach(a=>log(a.className))
+qa('[class]').forEach(a=>log(a.className.split(/\\s/))
+qa('[class]').forEach(a=>log(a.className.split(/\\s/)))
+qa('[class]').map(a=>a.className.split(' '))
+qa('[class]').map(a=>a.className.split(' ')).join(' ')
+qa('[class]').map(a=>a.className.split(' ')).slice(0,4)
+qa('[class]').map(a=>a.className.split(' '))[0]
+qa('[class]').map(a=>a.className.split(' '))[1]
+qa('[href*="c"]').forEach(a=>log(a))
+qa('[href=""]')
+qa('[href=""]').forEach(a=>log(a))
+qa('[href=""]').map(a=>a)
+qa('[id]')
+qa('a').forEach(a=>log(`${a.href} ${a.textContent)`)
+qa('a').forEach(a=>log(`${a.href} ${a.textContent}`)
+qa('a').forEach(a=>log(`${a.href} ${a.textContent}`))
+qa('a').forEach(a=>log(a))
+qa('a').forEach(a=>s.push(`${a.href} ${a.textContent}`))
+qa('article')
+qa('article').forEach((a,i)=>{if (i<3){a.remove()}} 
+qa('article').forEach((a,i)=>{if (i<3){a.remove()}} )
+qa('article').forEach((a,i)=>{if (i>1){a.remove()}} )
+qa('article').forEach((a,i)=>{if (i>3){a.remove()}} )
+qa('article")
+qa('button')
+qa('button').forEach(a=>log(a))
+qa('button')[0]
+qa('button')[0].addEventListener('click',hi())
+qa('button')[0].addEventListener('click',hi)
+qa('button)
+qa('class*='')
+qa('class*='a')
+qa('class*=" "')
+qa('div[class]')
+qa('link')
+qa('link').forEach(a=>log(a)
+qa('link').forEach(a=>log(a))
+qa('link').forEach(a=>log(a.src))
+qa('link[href*="c"]').forEach(a=>log(a))
+qa('link[href*="c"]').forEach(a=>log(a.href))
+qa('link[href*="c"]').forEach(a=>log(a.href))[1]
+qa('link[rel*="style"]')
+qa('link[rel*="style"]')[0].href
+qa('link[rel="stylesheet"]')
+qa('link[rel="stylesheet"]').forEach(a=>log(a))
+qa('link[rel="stylesheet"]').forEach(a=>log(a.href))
+qa('link[rel]').forEach(a=>log(a))
+qa('link[rel]*="sty"')
+qa('link[rel]=*"sty"')
+qa('link[rel]="sty"')
+qa('script')
+qa('script').forEach((a,i)=>log(${i} ${a.src}))
+qa('script').forEach((a,i)=>log(`${i} ${a.src} ${a.textContent}`))
+qa('script').forEach((a,i)=>log(`${i} ${a.src}`))
+qa('script').forEach((a,i)=>log(i+" "+a))
+qa('script').forEach((a,i)=>sc.push([`${i} ${a.src} ${a.textContent}`)])
+qa('script').forEach((a,i)=>sc.push([`${i} ${a.src} ${a.textContent}`]))
+qa('script').forEach(a=>a.remove())
+qa('script').forEach(a=>log(a.className))
+qa('script').forEach(x=>x.remove())
+qa('script').length
+qa('script')[0].innerHTML
+qa('script')[0].outerHTML
+qa('script')[0].src
+qa('script')[1].innerHTML
+qa('strong')
+qa('style')[0].href
+qa('style')[0].hrerf
+qa('style')[0].innerHTML
+qa('style')[0].textContent
+qa(document.styleSheets)
+qq
+qq.attributes
+qq.className='jjj'
+qq.setAttribute('x','x')
+qq=qs('pre')
+qs('#comments-loadMore').click()
+qs('#div-02').childElementCount
+qs('#div-02').children
+qs('.body-wrap').children
+qs('.book-preview-body')
+qs('.coral')
+qs('.coral').children
+qs('.coral').children[1]
+qs('.coral').children[1].innerHTML
+qs('.coral').children[1].textContent
+qs('.f1').innerHTML=ss.split(/\\s+/g).sort().filter(g=>g.length>1).map(m=>`<div> ${m} </div>`).join("")
+qs('.fl').innerHTML=ss.split(/\\s+/g).sort().filter(g=>g.length>1).map(m=>`<div> ${m} </div>`).join("")
+qs('.poem').closest('div')
+qs('.poem').style.textAlign='left'
+qs('.top').textContent
+qs('.top').textContent.length
+qs('.xIZ6Le').children
+qs('.xIZ6Le').outerHTML
+qs('[class*="fil"]')
+qs('[class*="fil"]').children
+qs('[class*="fil"]').children[1].innerHTML='The lady doth protest too much, methinks'
+qs('[class*="fit"]')
+qs('[class*="fit"]').innerHTML
+qs('article').style.cssText
+qs('article').style.cssText='color: #f00'
+qs('article').style.cssText='color: rgb(0, 255, 0)'
+qs('article').style.cssText='color: rgb(255, 0, 0)'
+qs('article').style.cssText='color: rgb(255, 255, 0)'
+qs('article').style.cssText='color: rgba(0, 0, 255)'
+qs('article').style.cssText='color: rgba(0, 0, 255, .5)'
+qs('article').style.cssText='color: rgba(0, 0, 255, 1.5)'
+qs('article').style.cssText='color: rgba(255, 0, 0)'
+qs('article').style.cssText='rgb(0, 255, 0)'
+qs('body#one')
+qs('body').children
+qs('body').children[1].src
+qs('body').classList
+qs('body').getAttributeNames
+qs('body').getAttributeNames()
+qs('body').innerHTML.slice(-100)
+qs('body').innerHTML.slice(-1000)
+qs('body').lastElementChild
+qs('body').lastElementChild.previousElementSibling
+qs('body').lastElementChild.previousElementSibling.previousElementSibling
+qs('body').previousElementSibling
+qs('body').previousSibling
+qs('body').previousSibling.textContent
+qs('body').previousSibling.textContent=c
+qs('body').previousSibling="The lady doth protest too much, methinks"
+qs('body').setAttribute('class','one')
+qs('body').setAttribute('id','one')
+qs('body').style.accentColor
+qs('body').style.accentColor="blue"
+qs('body').style.backgroundColor
+qs('body').style.backgroundColor=#fff;
+qs('body').style.backgroundColor='#0ff'
+qs('body').style.backgroundColor='#fff'
+qs('button')
+qs('button').style.display
+qs('center').querySelectorAll('a')
+qs('center').querySelectorAll('a')[0]
+qs('div').children[1]
+qs('div.Dropdown')
+qs('div.Dropdown').outerHTML
+qs('head').children
+qs('head').children[4]
+qs('head').children[4].href
+qs('head').children[4].src
+qs('head').children[5]
+qs('head').children[5].outerHTML
+qs('head').remove()
+qs('head').style.justifyContent='space-around'
+qs('head').style.justifyContent='space-between'
+qs('header').style
+qs('header').style.justify-content
+qs('header').style.justifyContent
+qs('header').style.justifyContent='space-around'
+qs('header').style.justifySelf
+qs('link[href*="e2"]')
+qs('link[href*="e2"]').remove()
+qs('link[rel="stylesheet"]')
+qs('main').innerHTML
+qs('main').innerHTML=sc.map(a=>`<div>${a}</div>`)
+qs('main').innerHTML=sc.map(a=>`<div>${a}</div>`).join('')
+qs('main').innerHTML=sc.sort().map(a=>`<div>${a}</div>`).join('')
+qs('main').innerHTML=te.map(a=>`<div>${a}</div>`)
+qs('main').innerHTML=te.map(a=>`<div>${a}</div>`).join("")
+qs('main').style.lineHeight='1.5'
+qs('main').style.lineHeight='2.5'
+qs('main').style.textAlign='left'
+qs('main').style.textAlign=left
+qs('main').style="line-height: 2; text-align: left;"
+qs('pre')
+qs('pre').hasAttributes()
+qs('pre').hasAttributes(0
+qs('pre').innerHTML
+qs('pre').innerHTML=k.map((a,i)=>`${i} ${a[0]} ${a[1]}`)
+qs('pre').innerHTML=k.map((a,i)=>`${i} ${a[0]} ${a[1]}`).join('\')
+qs('pre').innerText=k.map((a,i)=>`${i} ${a[0]} ${a[1]}`).join('\')
+qs('pre').innerText=k.map((a,i)=>`${i} *** ${a[0]} *** ${a[1]}`).join('\')
+qs('pre').innerText=k.map((a,i)=>`${i} <b>${a[0]}</b> ${a[1]}`).join('\')
+qs('pre').remove()
+qs('pre').style.columns=2
+qs('pre').style.display='block'
+qs('pre').style.display='content'
+qs('pre').style.display='none'
+qs('pre').style.display=='block'? qs('pre').style.display='none' : qs('pre').style.display='block'
+qs('pre').style.fontSize='2rem'
+qs('pre').style.padding='1rem'
+qs('pre').style.textAlign='left'
+qs('pre').style="position: sticky; top: 0; z-index: 100;"
+qs('pre').textContent
+qs('pre').textContent.replace(/\\/\\*[\\s\\S]*?\\*\\/|(?<=[^:])\\/\\/.*|^\\/\\/.*/g,'');
+qs('pre').textContent.split('\')
+qs('pre').textContent.split('\').filter(a=>!a.match(/\\s{4,}/))
+qs('pre').textContent.split('\').filter(a=>!a.match(/\\s{4,}/)).map(x=>`<div>${x}</div>`)
+qs('pre').textContent.split('\').filter(a=>!a.match(/\\s{4,}/)).trim()
+qs('pre').textContent.split('\').filter(a=>!a.match(/just/))
+qs('pre').textContent.split(/\\\/)
+qs('pre').textContent.split(/\/)
+qs('pre').textContent=tt.forEach((a,i)=>log(`${i} ${a}`))
+qs('pre').textContent=tt.map((a,i)=>`${i} ${a}`)
+qs('section')
+qs('section').append(ms)
+qs('section').append(ms2)
+qs('section').append(qs('section').querySelector('*'))
+qs('section').appendChild(qs('section').querySelector('*'))
+qs('section').children
+qs('section').outerHTML
+qs('section').qa('*')
+qs('section').querySelector('*')
+qs('section').querySelectorAll('*')
+qs('section').querySelectorAll('*').forEach((a,i)=>log([i, a.tagName, a.textContent]))
+qs('section').querySelectorAll('*').forEach(a=>log([a.tagName, a.textContent]))
+qs('section').querySelectorAll('*').forEach(a=>log(a))
+qs('section').querySelectorAll('*').forEach(a=>log(a.textContent))
+qs('section').style.justifyContent='space-around'
+qs('section').style.justifyContent='space-between'
+qs('span.comments-show')
+qs('span.comments-show').click()
+qs('strong')
+qs('style')
+qs('style').textContent
+qs('table').querySelectorAll('a').forEach(a=>log(a.children))
+qs('top')
+re.exec(someString)
+result
+s
+s.filter(g=>!g.match(/\\d+/))
+s.filter(g=>!g[0].match(/\\d+/))
+s.filter(g=>!g[0].match(/\\d+/)).forEach(a=>log(a))
+s.filter(g=>g.match(/\\d+/))
+s.filter(g=>g[0].match(/\\d+/))
+s.filter(g=>g[0].match(/\\d+/)).forEach(a=>log(a))
+s.filter(x=>x.match(/\\d+/))
+s.filter(x=>x[0].match(/\\d+/))
+s.filter(x=>x[0].match(/\\d+/)).forEach(n=>log(n))
+s.forEach(a=>kk.push([a[0],a[1]]))
+s.forEach(a=>log([a[0],a[1]]))
+s.forEach(a=>log([a[0]]))
+s.forEach(a=>log([a[1]]))
+s.forEach(a=>log(a))
+s.forEach(a=>log(a[0]))
+s.forEach(a=>log(a[1]))
+s.forEach(a=log(a))
+s.map(a=>`${a[0]} - ${a[1]}`)
+s.map(a=>`${a[0]} - ${a[1]}`)[980]
+s.map(a=>`<div>${a[0]} - ${a[1]}</div>`)
+s.map(xx=>`${xx[0]} - ${xx[1]}`)
+s.slice(0,4)
+s.slice(0,4).forEach(a=>log(a))
+s.slice(0,4).forEach(a=>log(a[0]))
+s.src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.14.11/beautify.js"
+s=$('.poem').textContent
+s=Object.entries(getComputedStyle(qs('body')))
+s=Object.entries(getComputedStyle(qs('body'))).slice(0,4
+s=Object.entries(getComputedStyle(qs('body'))).slice(0,4)
+s=Object.entries(getComputedStyle(qs('body'))).slice(0,40
+s=Object.entries(getComputedStyle(qs('body')))[1]
+s=Object.valueOf(getComputedStyle(qs('body')))
+s=Object.valueOf(getComputedStyle(qs('body')).height)
+s=Object.values(getComputedStyle(qs('body')))
+s=Object.values(getComputedStyle(qs('body')).height)
+s=[]
+s=document.createElement('script')
+s=getComputedStyle(qs('body'))
+s=qs('head').children[4].href
+s=s.filter(g=>!g[0].match(/\\d+/))
+s=s.filter(g=>!g[0].match(/\\d+/)).forEach(a=>log(a))
+s[0]
+s[1]
+s[1][0]
+s[1][0].match(/\\d+/)
+s[970]
+sc
+sc.href="junk/style2.css'
+sc.href="junk/style2.css"
+sc.href="junk\\\\style2.css"
+sc.href="junk\\style2.css"
+sc=''
+sc=[]
+sc=document.createElement('link')
+sc=sc.join('\')
+sc[1]
+someString
+someString = "An example comment: /* example */";
+someString.replace(/\\/\\*[\\s\\S]*?\\*\\/|(?<=[^:])\\/\\/.*|^\\/\\/.*/g,'');
+ss
+ss.map(a=>a.replace(/\\s{2,}/,'\'))
+ss.map(a=>a.replace(/\\s{2,}/g,'\'))
+ss.split(/\\s+/g)
+ss.split(/\\s+/g).sort()
+ss.split(/\\s+/g).sort().filter(g=>g.length>1)
+ss.split(/\\s+/g).sort().filter(g=>g.length>1).map(m=>`<div> ${m} </div>`).join("")
+ss=[]
+ss=[]for ( a in it) {ss.push([a, it[a]])}
+ss[1]
+st
+st.rules
+st.rules[0]
+st.split('')
+st=''
+st=``
+st=document.styleSheets[0]
+swor('Another Bowl')
+sword
+sword('-03')
+sword('-03').length
+sword('-03').slice(3)
+sword('-03').slice(3).innerHTML
+sword('-03').slice(3)[0].innerHTML
+sword('-03').slice(3)[0].parentElement
+sword('-03').slice(4)
+sword('Another Bowl')
+sword('all time')
+sword('all time')[7]
+sword('all time')[7].value
+sword('alpha'
+sword('alpha')
+sword('alpha')[0].innerHTML
+sword('alpha')[0].innerHTML.replaceAll('<br>','\')
+sword('alpha')[0].textContent
+sword('alphabet')
+sword('alphabet')[20]
+sword('alphabet')[20].textContent
+sword('alphabet')[20].textContent.find('alpha')
+sword('alphabet')[20].textContent.match('alpha')
+sword('alphabet')[20].textContent.match(/alpha/i)
+sword('alphabet')[20].textContent.search('alpha')
+sword('alphabet')[20].textContent.slice(700,740)
+sword('beta')
+sword('cochran')
+sword('cochran').map((a,i)=>`${i} ${a.textContent}`)
+sword('cochran').map(a=>a.textContent)
+sword('cochrane')
+sword('indexof')
+sword('indexof')[31]
+sword('indexof')[31].parent
+sword('indexof')[31].parentNode
+sword('indexof')[31].parentNode.parentNode
+sword('indexof')[31].parentNode.parentNode.parentNode
+sword('indexof')[31].parentNode.parentNode.parentNode.textContent
+sword('indexof')[31].parentNode.parentNode.textContent
+sword('load more')
+sword('load more')[0]
+sword('load more')[0].innerHTML
+sword('load more')[8]
+sword('load more')[9]
+sword('load.*games')
+sword('load.*games')[8]
+sword('search')
+sword('search')[6]
+sword('search')[6].children
+sword('search')[6].children[0]
+sword('search')[6].children[0].value
+sword('search')[6].children[1]
+sword('search')[6].querySelector('button')
+sword('search')[6].querySelector('input')
+sword('search')[6].querySelector('input').style='color:#00f'
+sword('search')[6].querySelector('input').style='color:#f00'
+sword('search')[6].value='none'
+sword('show comm')
+sword('show comm')[7]
+sword('show comm')[7].click()
+sword('show comments')
+sword('show comments')[7]
+sword('show comments')[7].click()
+sword('space.*exp')
+sword('space.*exp')[10]
+sword('space.*exp')[10].click()
+sword('space.*exp')[10].href
+sword('space.*exp')[10].href.click()
+t
+t.href
+t.replaceAll('\',' ,')
+t.split(' ,')
+t.split(' ,').filter(a=>a.length>0)
+t.split(' ,').filter(a=>a.length>1)
+t=sword('alpha')[0].innerHTML.replaceAll('<br>','')
+t=t.replaceAll('\',' ,')
+te
+te.slice(0,1000)
+te.split(/\\r\/)
+te.split(/\\s+/)
+te.split(/\\s{2,}/)
+te=''
+te=h.join('')
+te=h.join('\')
+te=h.join('\')pr=document.createElement('pre')pr.textContent=tedocument.body.prepend(pr)
+te=te.slice(0,1000)
+ted
+title
+try {xx(22)}catch(error) {log(error.message)}
+try {xx(23)}catch(error) {log('what')}
+try {xx(23)}catch(error) {log(error)}
+try {xx(23)}catch(error) {log(error.message)}
+tt.forEach((a,i)=>log(`${i} ${a}`)
+tt.forEach((a,i)=>log(`${i} ${a}`))
+tt.href.match(/a/)
+tt.href.match(/junk/)
+tt=af(qs('head').children).filter(p=>String(p.href).match(/junk.*cs/))
+tt=af(qs('head').children).filter(p=>String(p.href).match(/junk/))
+tt=af(qs('head').children).slice(13,15).filter(p=>String(p.href).match(/a/))
+tt=af(qs('head').children).slice(13,15).filter(p=>p.href.match(/a/))
+tt=af(qs('head').children)[13]
+tt=af(qs('head').children)[13].filter(p=>String(p.href).match(/junk/))
+tt=af(qs('head').children)[13].filter(p=>p.href.match(/a/))
+tt=t.split(' ,').filter(a=>a.length>1)
+typeof Number.EPSILON
+typeof Number.length
+typeof Number.parseFloat
+typeof Object
+typeof a.normalize
+typeof t
+u
+u.forEach(a=>a.split(/\\s/))
+u.forEach(a=>a.split(/\\s/)).forEach(a=>log(a))
+u.forEach(a=>a.split(/\\s/)).forEach(a=>log(a)))
+u.forEach(a=>log(a))
+u.forEach(a=>log(a.split(/\\s/))
+u.forEach(a=>log(a.split(/\\s/)))
+u.forEach(a=>log(typeof a))
+u.forEach(a=>sc.push(a.split(/\\s/)))
+u=qa('[class]')
+u=qa('[class]').map(a=>a.className)
+u=qa('[class]').map(a=>a.className)sc=[]u.forEach(a=>a.forEach(x=>sc.push(x)))
+u[0]
+undefinedObject
+values(s[1])
+values[1]
+var computedStyle = window.getComputedStyle(qs('body'));
+var computedStyle = window.getComputedStyle(qs('body'); 
+var script = document.createElement('script');script.type = 'text/javascript';script.src = 'https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.14.11/beautify.js';document.head.appendChild(script);
+w
+w.forEach(a=>a.forEach(x=>log(x)))
+w.forEach(a=>a.forEach(x=>sc.push(x)))
+w.forEach(a=>log(a))
+w.forEach(a=>{    log(a)})
+w.join(' xxx ')
+w=qa('[class]').map(a=>a.className.split(' ')).slice(0,4)
+w[0].join(' ')
+w[3]
+w[3].forEach(a=>sc.push(a))
+window.StyleSheet
+window.StyleSheet()
+window.StyleSheet[1]
+window.URL.href
+window.close()
+window.document.querySelector('a')
+window.document.querySelector('body').innerHTML
+window.elements = [...document.querySelectorAll('*:not(head, body, html,meta)')]
+window.elements = [...document.querySelectorAll('*:not(head, body, html,meta,script)')]
+window.location.href
+window.location.href='non'
+window.sword = (x) => {    window.elements = [...document.querySelectorAll('*:not(head, body, html,meta)')]    var expression = `${x}`;    var re = new RegExp(expression, 'gi');    console.log(re)    let word = window.elements.filter(aa => aa.textContent.match(re))    return word}
+x=2
+xx
+xx()
+xx(2)
+xx(22)
+xx(23)
+xx(3)
+xx(99)
