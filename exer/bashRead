@@ -1,0 +1,4 @@
+#!/bin/bash
+while read line; do
+  if [[ $line =~ bird ]] ; then printf '%s\n' "bird is $line"; fi
+done <foo.txt

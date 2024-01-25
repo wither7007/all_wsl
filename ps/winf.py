@@ -1,7 +1,6 @@
 #!/usr/bin/python3.10
-#link
+##c good print windows of linux path
 import re
-import pdb
 import sys
 import os
 myos = sys.platform
@@ -13,8 +12,8 @@ def winL(x):
     # pdb.set_trace()
     co=re.sub(cor,'/mnt/c/',x )
     lin=co.replace('\\','/')
-    print(f"cd {lin}")
-    print(f'cd {x}')
+#    print(f"cd what {lin}")
+    print(f'{x}')
     return lin
 def pConv(pat=mydir+'/'):
     if len(sys.argv)>1:
@@ -23,7 +22,7 @@ def pConv(pat=mydir+'/'):
     pats = re.search("/mnt/c/", pat)
     if pats:
         bb=pat.replace('/mnt/c/','c:\\').replace('/', '\\')
-        print(f"cd {pat}\ncd {bb}")
+        print(f"{pat}\n{bb}")
     patx = re.search(cor, pat)
     if patx:
         winL(pat)

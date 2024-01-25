@@ -1,17 +1,47 @@
+Feb 1
+hcma Thu
+Join by 3:00 PM CST
+With Anna Bailey, LICSW
 
-reliacard
 
 In february Health renewal!!!!!!!! 
 
 Hennepin County social services
  612-543-5500
 
+social worker
+ 612-348-4111
+1  0
+week and a half
+2/7/2024
+
+check arms
+
+#### DENTAL FEBRUARY 29TH 8 SOMETHING
+
 https://mnhelp.org/
 nystrom  
 
-adult armhs
+adult arms
+
+cub reward 48639038287 6123599139
+
 dmv Q747-127-227-818
+Thank you for submitting your MyDVS login request. Your confirmation number is 0-015-501-969.
+
 https://onlineservices.dps.mn.gov/EServices/_/#1
+
+ai conversation kottke
+https://www.audacy.com/podcast/human-centered-e647e/episodes/developing-ai-like-raising-kids-alison-gopnik-ted-chiang-3551b
+
+alias gtop="git rev-parse --abbrev-ref HEAD  --show-toplevel #show repo top"
+
+A pentatonic scale is a musical scale with five notes per octave, in contrast to the heptatonic scale, which has seven notes per octave (such as the major scale and minor scale).
+
+To wit is used to indicate that you are about to state or describe something more precisely.
+[literary]
+The Oracle's advice was sound, to wit: 'Nothing in excess.'
+Middle English to witen, literally, to know 
 
 justin blues
 https://www.youtube.com/watch?v=E6X80uAzqFQ&list=PL05D69B7AE9077E05
@@ -214,6 +244,7 @@ while ((result = reg.exec(targetText)) !== null) {
 $$('div').filter(a=>a.textContent.match(/queen.*proves/i)).forEach((n,i)=>log(`${i},${sp(n.textContent)}`))
 $$('div').filter(a=>a.textContent.match(/queen.*proves/i)).forEach((n,i)=>log(`${i},${n.childElementCount}, ${sp(n.textContent)}`))
 javascript remove comments regex
+https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
 https://stackoverflow.com/questions/14975737/regular-expression-to-remove-comment
 qs('pre').textContent.replace(/\/\*[\s\S]*?\*\/|(?<=[^:])\/\/.*|^\/\/.*/g,'');
 javascript: function addcss(css) {
@@ -384,6 +415,11 @@ async function fetchDataFromApi() {
     .then(json => console.log(json.joke))
 }
 
+fd | xargs -p -I {} touch {}
+fd | xargs -t -I {} echo {}
+xargs fixed
+https://stackoverflow.com/questions/8296710/how-to-ignore-xargs-commands-if-stdin-input-is-empty
+fdm -tf -d 1 | xargs rg -l -i 'qqq' | xargs -r  ls -lhrt
 find working
 fdm -epy -tf --changed-within=2days | xargs rg -l -i post |  xargs ls -lh {} | awk '{ print $9 ": " $6 $7 " - " $8 }'
 fdm  -epy --changed-within=14days | xargs  -I{} /bin/bash -c "echo {}; stat -c "%y" {};head {};  printf '**********\n\n' " | v - #!good
@@ -480,7 +516,8 @@ git hooks
 git clean -df
 thecatjumpedoff@476
 
-https://linuxhandbook.com/github-download-files/
+gh repo create
+
 https://download-directory.github.io/
 
 git reset --soft head~1
@@ -895,6 +932,14 @@ the concept of law
 peter Singer
 famine affluence and morality
 linux rename
+https://linuxhandbook.com/github-download-files/
+
+for I in $(seq -w 5) ; do touch file-$I ; done
+for a in $(ls); do echo "word" > $a; done;
+
+split result and error redirect
+lsxx > resu 2>ee
+
 https://unix.stackexchange.com/questions/43527/kill-all-background-jobs
 kill -9 $(jobs -p |awk '{print $3}')
 npx serve . >output.log 2>&1 &
@@ -1030,7 +1075,7 @@ remove -browser bs
 sed -i  '/\s-/d' style.css
 remove blank lines
 https://vim.fandom.com/wiki/Remove_unwanted_empty_lines
-sed -i.bak '/^$/d' style.css
+??sed -i.bak '/^$/d' style.css
 sed -i '/^\s*$/d' closets.html #better?
 preferred?
 sed -i.bak '/\S/!d' html.txt

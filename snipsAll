@@ -1,4 +1,164 @@
 
+myhead.forEach(a=>console.log(a.outerHTML.slice(0,90)))
+myhead.forEach(a=>console.log(a.innerHTML.slice(0,90)))
+myhead.forEach(a=>console.log(a))
+myhead.forEach(a=>console.log(a.slice(0,60)))
+'jim'.slice(0,2)
+myhead.forEach(a=>console.log(a.splice(0,60)))
+myhead.forEach(a=>console.log(a.splice(0,60))
+myhead=[...document.querySelectorAll('head>*')]
+myhead
+$0.innerHTML
+$0
+copy($0.textContent)
+$0.textContent
+$0.children[0].textContent
+$0.children[1].textContent
+$0.children[1].innerHTML
+$0.children[1]
+$0.children
+Headers
+document.querySelectorAll('head>*')
+function t25() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 5000);    });}function setKeywordText(text, qse) {    var el = document.querySelector(qse);    el.value = text;    var evt = document.createEvent("Events");    evt.initEvent("change", true, true);    el.dispatchEvent(evt);}async function cl() {    r = await t25();    schedule = await document.querySelector('#l_Df-9-1');    r = await t25();    console.log(schedule)    r = await t25();    schedule.click()    r = await t25();    DriverServices = await document.querySelector('#caption2_Dd-a-2')    DriverServices.click()    r = await t25();    SkillRetest = document.querySelector('#caption2_Dg-c-4')    SkillRetest.click()    r = await t25();    Mnumber = document.querySelector('#Dk-e')    dId = 'Q747-127-227-818'    Mnumber.value = 'Q747-127-227-818'    dob = document.querySelector('#Dk-h')    myDob = '26-Oct-1964'    dob.value = '26-Oct-1964'}cl()
+function t25() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 5000);    });}function setKeywordText(text, qse) {    var el = document.querySelector(qse);    el.value = text;    var evt = document.createEvent("Events");    evt.initEvent("change", true, true);    el.dispatchEvent(evt);}async function cl() {    r = await t25();    schedule = await document.querySelector('#l_Df-9-1');    r = await t25();    console.log(schedule)    r = await t25();    schedule.click()    r = await t25();    DriverServices = await document.querySelector('#caption2_Dd-a-2')    DriverServices.click()    r = await t25();    SkillRetest = document.querySelector('#caption2_Dg-c-4')    SkillRetest.click()    r = await t25();    Mnumber = document.querySelector('#Dk-e')    dId = 'Q747-127-227-818'    Mnumber.value = 'Q747-127-227-818'    dob = document.querySelector('#Dk-h')    myDob = '26-Oct-1964'    dob.value = '26-Oct-1964'}cl()setKeywordText(dId, '#Dk-e')setKeywordText(myDob, '#Dk-h')
+copy(document.querySelector('html').outerHTML)
+document.querySelector('html')
+qa
+location.href
+copy(dId)
+setKeywordText(dId,'#Dk-e')setKeywordText(myDob,'#Dk-h')
+setKeywordText(dId,'#Dk-e')setKeywordText(myDob,'#Dk-e')
+function t25() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 5000);    });}function setKeywordText(text, qse) {    var el = document.querySelector(qse);    el.value = text;    var evt = document.createEvent("Events");    evt.initEvent("change", true, true);    el.dispatchEvent(evt);}async function cl() {    r = await t25();    schedule = await document.querySelector('#l_Df-9-1');    r = await t25();    console.log(schedule)    r = await t25();    schedule.click()    r = await t25();    DriverServices = await document.querySelector('#caption2_Dd-a-2')    DriverServices.click()    r = await t25();    SkillRetest = document.querySelector('#caption2_Dg-c-4')    SkillRetest.click()    r = await t25();    Mnumber = document.querySelector('#Dk-e')    dId='Q747-127-227-818'    Mnumber.value = 'Q747-127-227-818'    dob = document.querySelector('#Dk-h')    myDob='26-Oct-1964'    dob.value = '26-Oct-1964'}cl()
+schedule =  document.querySelector('#l_Df-9-1');
+setKeywordText
+function t25() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 5000);    });}function setKeywordText(text, qse) {    var el = document.querySelector(qse);    el.value = text;    var evt = document.createEvent("Events");    evt.initEvent("change", true, true);    el.dispatchEvent(evt);}async function cl() {    // mylocation = 'https://onlineservices.dps.mn.gov/EServices/_/#0';    // window.location.href = mylocation;    r = await t25();    schedule = await document.querySelector('#l_Df-9-1');    r = await t25();    console.log(schedule)    r = await t25();    schedule.click()    r = await t25();    DriverServices = await document.querySelector('#caption2_Dd-a-2')    DriverServices.click()    r = await t25();    SkillRetest = document.querySelector('#caption2_Dg-c-4')    SkillRetest.click()    r = await t25();    Mnumber = document.querySelector('#Dk-e')    dId='Q747-127-227-818'    Mnumber.value = 'Q747-127-227-818'    dob = document.querySelector('#Dk-h')    myDob='26-Oct-1964'    dob.value = '26-Oct-1964'}cl()
+setKeywordText(dId,'#Dk-e')
+dId='Q747-127-227-818'
+Mnumber
+setKeywordText(Mnumber,'#Dk-e')
+setKeywordText('123','#Dk-e')
+function setKeywordText(text, qse) {    var el = document.querySelector(qse);    el.value = text;    var evt = document.createEvent("Events");    evt.initEvent("change", true, true);    el.dispatchEvent(evt);}
+function t25() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 5000);    });}async function cl() {    // mylocation = 'https://onlineservices.dps.mn.gov/EServices/_/#0';    // window.location.href = mylocation;    r = await t25();    schedule = await document.querySelector('#l_Df-9-1');    r = await t25();    console.log(schedule)    r = await t25();    schedule.click()    r = await t25();    DriverServices = await document.querySelector('#caption2_Dd-a-2')    DriverServices.click()    r = await t25();    SkillRetest = document.querySelector('#caption2_Dg-c-4')    SkillRetest.click()    r = await t25();    Mnumber = document.querySelector('#Dk-e')    Mnumber.value = 'Q747-127-227-818'    dob = document.querySelector('#Dk-h')    dob.value = '26-Oct-1964'}cl()
+q=qs('.poem')
+qs('.poem').setFocus()
+function setKeywordText(text, qse) {    var el = document.querySelector(qse);    el.value = text;    var evt = document.createEvent("Events");    evt.initEvent("change", true, true);    el.dispatchEvent(evt);}setKeywordText("test", "#send");
+setKeywordText('new')
+function setKeywordText(text) {    var el = document.getElementById("send");    el.value = text;    var evt = document.createEvent("Events");    evt.initEvent("change", true, true);    el.dispatchEvent(evt);}
+el.dispatchEvent(evt);
+evt.initEvent("change", true, true);
+var evt = document.createEvent("Events");
+el.value = 'ex';
+el.value = text;
+el
+var el = document.getElementById("send");
+gwt-debug-keywords-text-area
+q.sendKeys('1')
+q=qs("input[type='text']")
+qs("input[type='text']").sendKeys('ok')
+qs("input[type='text']").outerHTML
+qs("input[type='text']").innerHTML
+qs("input[type='text']")
+qs("input[type='text'])
+qs('input')
+$0.click()
+    Mnumber = document.querySelector('#Dk-e')    Mnumber.value = 'Q747-127-227-818'    dob = document.querySelector('#Dk-h')    dob.value = '26-Oct-1964'
+    dob = document.querySelector('#Dk-h')    dob.value = '26-Oct-1964'
+dob.value = '26-Oct-1964'
+    Mnumber = document.querySelector('#Dk-e')    Mnumber.value = 'Q747-127-227-818'
+    SkillRetest = document.querySelector('#caption2_Dg-c-4')    SkillRetest.click()
+function t25() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 5000);    });}async function cl() {    // mylocation = 'https://onlineservices.dps.mn.gov/EServices/_/#0';    // window.location.href = mylocation;    r = await t25();    schedule = await document.querySelector('#l_Df-9-1');    r = await t25();    console.log(schedule)    r = await t25();    schedule.click()    r = await t25();    DriverServices = await document.querySelector('#caption2_Dd-a-2')    DriverServices.click()}cl()
+cl()
+function t25() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 5000);    });}async function cl() {    schedule = await document.querySelector('#l_Df-9-1');    r=await t25();    console.log(schedule)    r=await t25();    schedule.click()}
+function t25() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 5000);    });}
+t25
+function t25() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 5000);    });}async function cl() {    mylocation = 'https://onlineservices.dps.mn.gov/EServices/_/#0';    window.location.href = mylocation;    r=await t25();    schedule = document.querySelector('#l_Df-9-1');    console.log(schedule)}
+function resolveAfter2Seconds() {  return new Promise((resolve) => {    setTimeout(() => {      resolve('resolved');    }, 2000);  });}async function asyncCall() {  console.log('calling');  const result = await resolveAfter2Seconds();  console.log(result);  // Expected output: "resolved"}asyncCall();
+af(qa('img')).forEach(a=>log(a.src))
+af(qa('img')).forEach(a=>log(a))
+[1,2].forEach(aaa=>console.log(aaa))
+[1,2].forEach(a=>console.log(a))
+[1,2].forEach(a=>log(a))
+af(qa('img'))
+qa('img').forEach(a=>log(a.id))
+qa('img')[1].src
+qa('img').forEach(a=>log(a.src))
+qa('img')
+copy(i.join('\'))
+i
+I
+qa('img').forEach(a=>i.push(a.src))
+i=[]
+qa('img')[1]
+qa('img').forEach(a=>i.push(i.src))
+copy($0.src)
+$0.src
+qa('.audio')[1].href
+qa('.audio')[1].innerHTML
+qa('.audio')[1]
+af(qa('.audio')).forEach(gg=>log(gg))
+qa('.audio').forEach(gg=>log(gg))
+qa('.audio').forEach(a=>log(a))
+qa('.audio').forEach(a=>log(a.innerHTML))
+qa('.audio').length
+[...qa('.audio')].forEach(a=>log(a.id))
+qa('.audio').forEach(a=>log(a.id))
+qa('.audio')
+$0.href
+$0.outerHTML
+copy(qs('html'))
+copy(i.join('\')
+qa('img').forEach(a=>log(a.src)
+copy(myheadar.join('\'))
+copy(myheadar.join())
+copy(myheadar)
+myheadar
+myheadar=[]heads.forEach((x,i)=>myheadar.push(`${i} ${x.tagName} ${x.outerHTML.slice(0,140)}`))
+heads.forEach((x,i)=>console.log(`${i} ${x.tagName} ${x.outerHTML.slice(0,140)}`))
+heads.forEach(x,i=>console.log(`${i} ${x.tagName} ${x.outerHTML.slice(0,140)}`))
+heads.forEach(x=>console.log(`${x.tagName} ${x.outerHTML.slice(0,140)}`))
+heads.forEach(x=>console.log(`${x.tagName} ${x.outerHTML.slice(0,40)}`))
+heads.forEach(x=>console.log(`${x.tagName} ${x.outerHTML.slice(0,20)}`))
+heads.forEach(x=>console.log(`${x.tagName}`))
+heads.forEach(x=>console.log(x.tagName))
+heads=[...document.querySelectorAll('head>*')]
+heads=document.querySelectorAll('head>*')
+qa('head>*')
+qs('head>*')
+qs('head'>*')
+copy(location.href)
+mydata
+poem
+gtext
+copy(gtext)
+poem.click()
+home.outerHTML
+home.innerHTML
+getEventListeners(home)
+home
+home.addEventListener('click',myf)
+myf()
+myf
+h
+h.addEventListener('click', ()=>console.log('home'))
+h=qs('#home')
+qs('#home').click()
+qs('#home')
+qs('.poem').remove()
+qs('html')
+copy($0.parentElement.href)
+$0.parentElement.href
+console.log('who I did it')
+article
+const article = document.querySelector("article");
+copy(qs('html').outerHTML)
+qs('html').outerHTML
+qs('document')
+x.remove()
+x=qs('.poem')
+x=qs('#poem')
+$0.parentElement
+qa('img').forEach(a=>a.remove())
+document.querySelector('input[name="pwd"]').checked
 document.querySelector('input[name="selectedGameTypes[]"]');
 $0.name
 document.querySelector('input[name="pwd"]');
@@ -7,19 +167,15 @@ document.querySelectorAll('input[type="checkbox"]')
 document.querySelectorAll('input[type="checkbox"])
 qa('input')
 $0.checked=true
-$0
 qs('#amount').value='allWinners'
 qs('#amount')
-qa
-url='https://www.mnlottery.com/winners/game'
+url='https://www.mnlottery.com/winners/game'location.href=url
 location.href=url
-location.href
-window.open(url);
+url='https://www.mnlottery.com/winners/game'window.open(url);
 document.querySelector('#amount')
 document.querySelector('#amount').value='allWinners'
 window.open("https://www.mozilla.org/");
 window.open("https://www.mozilla.org/", "mozillaTab");
-copy(location.href)
 qs('#loadMore').click()
 qa('#loadMore').click()
 qa('#loadMore')
@@ -27,7 +183,6 @@ qa('#loadmore')
 he
 qa('head>*').forEach(a=>he.push(a.outerHTML.slice(0,100)))
 he=[]
-qa('head>*')
 document.querySelectorAll('.load-more')[0].click()
 document.querySelectorAll('.load-more')[0]
 document.querySelectorAll('.load-more')
@@ -39,37 +194,31 @@ document.querySelectorAll('.load-more')
 [document.querySelectorAll('.card_content')]
 document.querySelectorAll('.card-section')
 document.querySelectorAll('.card-content')
-copy([...document.querySelectorAll('img')].map(a=>a.src).join('\
-'))
+copy([...document.querySelectorAll('img')].map(a=>a.src).join('\'))
 copy([...document.querySelectorAll('img')].map(a=>a.src).join(''))
 [...document.querySelectorAll('img')].map(a=>a.src)
 [...document.querySelectorAll('img')].map(a=a.src)
 document.querySelectorAll('img')
-qa('img')
 document.querySelector('head').querySelectorAll('style')
 document.querySelector('head').querySelector('style')
 qa('head').querySelector('style')
 he.length
-copy(he.join('\
+copy(he.join('\'))
 qa('head>*').forEach(a=>log(a.outerHTML.slice(0,100)))
 qa('head>*').forEach(a=>log(a.innerHTML.slice(0,100)))
 qa('head>*').forEach(a=>log(a.tagName))
 qa('head>*').forEach(a=>log(a.textContent))
 qa('head')
 qa('head>*').forEach(a=>log(a))
-qs('head>*')
 qs('head.*')
 qs('head')
 qa('head>.*')
 qa('head.*')
-copy(qa('img').filter(a=>a.src.includes('gif')).map(a=>a.src).join('\
+copy(qa('img').filter(a=>a.src.includes('gif')).map(a=>a.src).join('\'))
 qa('img').filter(a=>a.src.includes('gif')).map(a=>a.src)
 qa('img').filter(a=>a.src.includes('gif'))
-copy($0.src)
-$0.src
 $)
 copy($0.href)
-$0.href
 c[1]
 c.forEach(a=>addEventListener('click', xx, true))
 c.forEach(a=>addEventListener('click', l, false))
@@ -81,21 +230,12 @@ c
 c.forEach(a=>addEventListener('click', l))
 c.forEach(a=>addEventListener('click', l)
 chunk(mydata,10).forEach(a=>console.log(a))
-mydata
 chunk(mydata,10).forEach(a=>log(a))
 chunk(mydata,10)
 splitIntoChunk(mydata,10)
 splitIntoChunk(mydata,14)
 splitIntoChunk(mydata,4)
-function splitIntoChunk(arr, chunk) {
-    while(arr.length > 0) {
-        let tempArray;
-        tempArray = arr.splice(0, chunk);
-        console.log(tempArray);
-    }
-}
-const array = [1, 2, 3, 4, 5, 6, 7, 8];
-const chunk = 2;
+function splitIntoChunk(arr, chunk) {    while(arr.length > 0) {        let tempArray;        tempArray = arr.splice(0, chunk);        console.log(tempArray);    }}const array = [1, 2, 3, 4, 5, 6, 7, 8];const chunk = 2;
 console.log('it works')
 af(document.styleSheets)
 document.styleSheets[1]
@@ -114,27 +254,11 @@ window.innerWidth
 window.innerHeight
 window.innerHeight=20
 sleep(2000).then(() => { console.log('World!'); });
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
+function sleep(ms) {    return new Promise(resolve => setTimeout(resolve, ms));}
 qs('head>*').querySelect('meta')
 qa('head>*').querySelect('meta')
-gr = `Αα\tAlpha\tΝν\tNu
-Ββ\tBeta\tΞξ\tXi
-Γγ\tGamma\tΟο\tOmicron
-Δδ\tDelta\tΠπ\tPi
-Εε\tEpsilon\tΡρ\tRho
-Ζζ\tZeta\tΣσς\tSigma
-Ηη\tEta\tΤτ\tTau
-Θθ\tTheta\tΥυ\tUpsilon
-Ιι\tIota\tΦφ\tPhi
-Κκ\tKappa\tΧχ\tChi
-Λλ\tLambda\tΨψ\tPsi
-Μμ\tMu\tΩω\tOmega
-`.split(/\\s/).filter(x => x.length > 1)
-gr.map((ss, i) => `${i} ${ss}`)
-gr.forEach((a, i) => log([i, gr.slice(i, i + 2).join(' ')]))
-sc = []
-for (a = 0; a < 48; a += 2) sc.push([gr.slice(a, a + 2)].join(" "))
+gr = `Αα\tAlpha\tΝν\tNuΒβ\tBeta\tΞξ\tXiΓγ\tGamma\tΟο\tOmicronΔδ\tDelta\tΠπ\tPiΕε\tEpsilon\tΡρ\tRhoΖζ\tZeta\tΣσς\tSigmaΗη\tEta\tΤτ\tTauΘθ\tTheta\tΥυ\tUpsilonΙι\tIota\tΦφ\tPhiΚκ\tKappa\tΧχ\tChiΛλ\tLambda\tΨψ\tPsiΜμ\tMu\tΩω\tOmega`.split(/\\s/).filter(x => x.length > 1)gr.map((ss, i) => `${i} ${ss}`)gr.forEach((a, i) => log([i, gr.slice(i, i + 2).join(' ')]))
+sc = []for (a = 0; a < 48; a += 2) sc.push([gr.slice(a, a + 2)].join(" "))
 u = qa('[class]').map(a => a.className.trim())
 u = qa('[class]').map(a => a.className.trim().split('\\s').join(' '))
 u = qa('[class]').map(a => a.className.trim().split('\\s').join(' ')
@@ -142,19 +266,13 @@ u = qa('[class]').map(a => a.className.trim().split('\\s'))
 u = qa('[class]').map(a => a.className)
 chunk(mydata,8)
 chunk(mydata,3)
-//#Source https://bit.ly/2neWfJ2 
-const chunk = (arr, size) =>
-  Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>
-    arr.slice(i * size, i * size + size)
-  );
-console.log(chunk([1, 2, 3, 4, 5], 2));
+//#Source https://bit.ly/2neWfJ2 const chunk = (arr, size) =>  Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>    arr.slice(i * size, i * size + size)  );console.log(chunk([1, 2, 3, 4, 5], 2));
 ct(1,2)
 function ct(a,b) {        console.log(a);        return a.tagName.localCompare(b.tagName);}
 function ct(a,b) {        console.log(a)        return a.tagName.localCompare(b.tagName);}
 elements
-copy(qa('script').map(a=>a.src).filter(x=>x.length>1).join('\
-qa('script').map(a=>a.src).filter(x=>x.length>1).join('\
-')
+copy(qa('script').map(a=>a.src).filter(x=>x.length>1).join('\'))
+qa('script').map(a=>a.src).filter(x=>x.length>1).join('\')
 qa('script').map(a=>a.src).filter(x=>x.length>1)
 qa('script').map(a=>a.src)
 qa('script').forEach(a=>log(a.src))
@@ -193,7 +311,6 @@ body
 copy(qs('body').innerHTML)
 qs('body').outerHTML
 qs('body').innerHTML
-qa('img').forEach(a=>a.remove())
 qa('head>*')[2].href='/auto/dist/style.css'
 qa('head>*')[2].href='./auto/dist/style.css'
 qa('head>*')[2].href
@@ -201,7 +318,7 @@ qa('head>*')[2].href='http://auto/dist/style.css'
 qa('head>*')[2].href='http://auto\\dist\\style.css'
 qa('head>*')[2]
 copy(he)
-he = af(qs('head').children).map(a => a.outerHTML.slice(0, 300)).join('\
+he = af(qs('head').children).map(a => a.outerHTML.slice(0, 300)).join('\')
 qs('body').style.cssText='display: grid; margin: 1rem 4rem; grid-template-columns: repeat(1, 1fr); font-family: Arial; line-height: 2; font-size: 1.5rem'
 qs('body').style.cssText='display: grid; margin: 1rem 3rem; grid-template-columns: repeat(1, 1fr); font-family: Arial; line-height: 2; font-size: 1.5rem'
 qs('body').style.cssText='display: grid; margin: 1rem 3rem; grid-template-columns: repeat(1, 1fr); font-family: Arial; line-height: 1.5'
@@ -249,7 +366,6 @@ qs('.poem').childNodes
 qs('.poem').children
 qs('.poem + div')
 qa('[class]')
-$0.parentElement
 qa('div >div')
 qa('*')
 qa('body *')
@@ -260,6 +376,50 @@ qa('body div')
 'jim'.split('').some(a=>a=='i')
 'jim'.split( ).some(a=>a=='i')
 'jim'.split( ).every(a=>a=='i')
+url='https://www.mnlottery.com/winners/game'
+window.open(url);
+copy([...document.querySelectorAll('img')].map(a=>a.src).join('\
+'))
+copy(he.join('\
+copy(qa('img').filter(a=>a.src.includes('gif')).map(a=>a.src).join('\
+function splitIntoChunk(arr, chunk) {
+    while(arr.length > 0) {
+        let tempArray;
+        tempArray = arr.splice(0, chunk);
+        console.log(tempArray);
+    }
+}
+const array = [1, 2, 3, 4, 5, 6, 7, 8];
+const chunk = 2;
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+gr = `Αα\tAlpha\tΝν\tNu
+Ββ\tBeta\tΞξ\tXi
+Γγ\tGamma\tΟο\tOmicron
+Δδ\tDelta\tΠπ\tPi
+Εε\tEpsilon\tΡρ\tRho
+Ζζ\tZeta\tΣσς\tSigma
+Ηη\tEta\tΤτ\tTau
+Θθ\tTheta\tΥυ\tUpsilon
+Ιι\tIota\tΦφ\tPhi
+Κκ\tKappa\tΧχ\tChi
+Λλ\tLambda\tΨψ\tPsi
+Μμ\tMu\tΩω\tOmega
+`.split(/\\s/).filter(x => x.length > 1)
+gr.map((ss, i) => `${i} ${ss}`)
+gr.forEach((a, i) => log([i, gr.slice(i, i + 2).join(' ')]))
+sc = []
+for (a = 0; a < 48; a += 2) sc.push([gr.slice(a, a + 2)].join(" "))
+//#Source https://bit.ly/2neWfJ2 
+const chunk = (arr, size) =>
+  Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>
+    arr.slice(i * size, i * size + size)
+  );
+console.log(chunk([1, 2, 3, 4, 5], 2));
+copy(qa('script').map(a=>a.src).filter(x=>x.length>1).join('\
+qa('script').map(a=>a.src).filter(x=>x.length>1).join('\
+')
+he = af(qs('head').children).map(a => a.outerHTML.slice(0, 300)).join('\
 'jim'.split('')
 'jim'.split( )
 'jim'.split()
@@ -363,8 +523,6 @@ s=Object.values('jim').map(a=>[a,a.charCodeAt(0)]).join(' ').join('')
 s=Object.values('jim').map(a=>[a,a.charCodeAt(0)]).join('')
 log(JSON.stringify(s,null,2))
 JSON.stringify(s,null,2)
-he = af(qs('head').children).map(a => a.outerHTML.slice(0, 300)).join('\')
-copy(he.join('\'))
 he=qa('[src]').map(a=>a.src).join('\')
 qa('[src]').map(a=>a.src).join('\')
 he=af(qs('head').children).filter(a => a.tagName.match(/meta/i)).map(a => a.outerHTML.slice(0, 300)).join('\')
@@ -433,7 +591,6 @@ ct('a','b')
 $('.top')
 $('body').setAttribute(  "style",  "color: blue; font-size: 2em; text-align: center");
 $0.childNodes
-$0.children
 $0.children.forEach(a=>log([a.tagName, a.className, a.id]))
 $0.children.forEach(a=>log([a.tagName, a.className]))
 $0.children.forEach(a=>log([a.tagName, a.class]))
@@ -444,15 +601,12 @@ $0.children[3]
 $0.children[4]
 $0.children[4].te
 $0.classList
-$0.click()
 $0.id
-$0.innerHTML
 $0.innerHTML=$0.innerHTML.replaceAll('\','<br>')
 $0.nextElementSibling.nextElementSibling
 $0.nextElementSibling.nextElementSibling.className
 $0.nextSibling
 $0.nodeType
-$0.outerHTML
 $0.parentElement.children
 $0.parentElement.classList
 $0.parentElement.innerHTML
@@ -490,7 +644,6 @@ $0.style.justifyContent='center'
 $0.style.justifyContent='left'
 $0.style.justifyContent='space-around'
 $0.tagName
-$0.textContent
 $0.textContent=te
 'http://localhost:3000/junk/style.css'.match(/junk/)
 'i' in 'jim'
@@ -845,7 +998,6 @@ gr.replaceAll('\','\\t').split('\\t').trim()
 gr.replaceAll('\','\\t').trim().split('\\t')
 gr.split('\\t')
 gr=`Αα\tAlpha\tΝν\tNuΒβ\tBeta\tΞξ\tXiΓγ\tGamma\tΟο\tOmicronΔδ\tDelta\tΠπ\tPiΕε\tEpsilon\tΡρ\tRhoΖζ\tZeta\tΣσς\tSigmaΗη\tEta\tΤτ\tTauΘθ\tTheta\tΥυ\tUpsilonΙι\tIota\tΦφ\tPhiΚκ\tKappa\tΧχ\tChiΛλ\tLambda\tΨψ\tPsiΜμ\tMu\tΩω\tOmega`
-h
 h=[][...$('head').children].forEach((a,i)=>h.push(`${i} ${a.tagName} ${a.outerHTML}`))te=h.join('\')pr=document.createElement('pre')pr.textContent=tedocument.body.prepend(pr)
 h[1]
 hh
