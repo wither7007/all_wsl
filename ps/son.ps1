@@ -1,2 +1,1 @@
-cd c:\you\evans
-vlc -Z c:\you\Nov-30-489769.m3u
+vlc -Z c:\you\Feb-9-630709.m3u

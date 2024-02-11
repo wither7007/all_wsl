@@ -1,3 +1,3 @@
 cd C:\you\class
-vlc .
+vlc --random .
 cd -
