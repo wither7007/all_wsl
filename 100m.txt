@@ -1,0 +1,52 @@
+390M Oct 17 01:01 Program Files/WSL/system.vhd
+387M Mar 26  2023 Users/jayst/AppData/Local/Programs/Python/Python310/Lib/site-packages/torch/lib/dnnl.lib
+387M Feb 16 00:39 Program Files/BraveSoftware/Brave-Browser/Application/121.1.62.165/Installer/chrome.7z
+355M Feb 15 19:00 Program Files/Google/Chrome/Application/121.0.6167.185/Installer/chrome.7z
+324M Sep 29  2021 Windows/Installer/1c57546.msi
+261M Feb  7 21:15 Program Files (x86)/Microsoft/EdgeWebView/Application/121.0.2277.112/msedge.dll
+261M Feb  7 21:15 Program Files (x86)/Microsoft/EdgeCore/121.0.2277.112/msedge.dll
+261M Feb  7 21:15 Program Files (x86)/Microsoft/Edge/Application/121.0.2277.112/msedge.dll
+241M Feb 14 02:19 Program Files/BraveSoftware/Brave-Browser/Application/121.1.62.165/chrome.dll
+238M Mar 26  2023 Users/jayst/AppData/Local/Programs/Python/Python310/Lib/site-packages/torch/lib/torch_cpu.dll
+238M Dec 15 22:09 you/spoken/webdev/GoodPuppet.mp4
+223M Feb 13 01:28 Program Files/Google/Chrome/Application/121.0.6167.185/chrome.dll
+215M Sep 30 03:49 Users/jayst/.cache/puppeteer/chrome/win64-117.0.5938.92/chrome-win64/chrome.dll
+202M Feb  9 14:02 Program Files/Google/Drive File Stream/86.0.9.0/libcef.dll
+198M Jul 24  2023 Users/jayst/AppData/Local/Google/Chrome/User Data/Default/Extensions/jbijbbnkaeclpmednjodmbdeobebiobg/0.2.0_0/models/distilbart-cnn-6-6/onnx/decoder_model_merged_quantized.onnx
+187M May 31  2023 Users/jayst/AppData/Local/Programs/pgAdmin 4/v7/runtime/nw.dll
+183M Feb 13 16:06 Windows/System32/MRT.exe
+179M Feb 11 15:01 you/class/cMix.mp3
+173M Oct 31 03:17 you/spoken/intime/td/ww2Collapse.mp3
+157M Feb 13 20:10 Users/jayst/AppData/Local/Programs/Microsoft VS Code/_/Code.exe
+157M Feb  7 09:39 Users/jayst/AppData/Local/Programs/Microsoft VS Code/Code.exe
+143M Aug 31 23:33 you/spoken/intime/td/goethe.mp3
+141M Oct 14 20:53 you/spoken/intime/td/EnglishCivil.mp3
+135M Feb 10  2021 you/class/Yo_Yo_Ma_Bach_Six_Cello_Suites_BBC_Proms_2015.mp3
+133M Feb 11 13:00 you/class/oYo_Yo_Ma_Bach_Six_Cello_Suites_BBC_Proms_2015.mp3
+131M Jun 17  2023 you/class/StMatthew.mp3
+129M Dec 11 21:19 Windows/Installer/1e30b.msi
+129M Apr 11  2023 projects/music/gut/todo/GutTheory.mp4
+126M Apr 11  2023 projects/music/gut/todo/YesterG.mp4
+125M Oct 14 20:53 you/spoken/intime/td/goodH.mp3
+123M Jul 24  2023 Users/jayst/AppData/Local/Google/Chrome/User Data/Default/Extensions/jbijbbnkaeclpmednjodmbdeobebiobg/0.2.0_0/models/distilbart-cnn-6-6/onnx/encoder_model_quantized.onnx
+120M Feb  4 12:48 twit/twig2-4.mp3
+119M Feb 16 00:39 Program Files (x86)/BraveSoftware/Update/Download/{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}/121.1.62.165/brave_installer-x64.exe
+116M Nov 13 11:03 Program Files (x86)/Foxit Software/Foxit PDF Reader/FoxitPDFReader.exe
+114M Jun 23  2022 Program Files/Mozilla Firefox/xul.dll
+114M Feb 12 12:54 twit/twit-2-11.mp3
+114M Apr 11  2023 projects/music/gut/todo/NewKid.mp4
+113M Jan 23 00:24 you/spoken/music/BluesA.mp4
+113M Apr 11  2023 projects/music/gut/strum2.mp4
+111M Feb  4 12:49 twit/ww2-4.mp3
+110M Oct  5  2021 Windows/WinSxS/amd64_microsoft-windows-edgechromium_31bf3856ad364e35_10.0.19041.3636_none_7437336f112dbb3d/Edge.wim
+110M Feb  2 01:32 Windows/servicing/LCU/Package_for_RollupFix~31bf3856ad364e35~amd64~~19041.4046.1.11/amd64_microsoft-windows-edgechromium_31bf3856ad364e35_10.0.19041.3636_none_7437336f112dbb3d/edge.wim
+110M Apr 11  2023 projects/music/gut/unknown.mp4
+107M Nov 15  2022 Windows/Installer/10486a6.msi
+104M Jan 16 11:52 Windows/Installer/1df5d0.msi
+101M Oct 31  2021 Program Files/qBittorrent/qbittorrent.pdb
+101M Feb  2  2022 Program Files/LLVM/lib/site-packages/lldb/_lldb.pyd
+101M Feb  2  2022 Program Files/LLVM/bin/liblldb.dll
+101M Apr 11  2023 projects/music/gut/todo/AnnHereThere.mp4
+100M Apr  9  2022 Program Files/MongoDB/Server/5.0/data/journal/WiredTigerLog.0000000040
+100M Apr  5  2022 Program Files/MongoDB/Server/5.0/data/journal/WiredTigerPreplog.0000000002
+100M Apr  5  2022 Program Files/MongoDB/Server/5.0/data/journal/WiredTigerPreplog.0000000001

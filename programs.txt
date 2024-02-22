@@ -1,0 +1,58 @@
+2.2G	LLVM
+1.2G	Google
+780M	BraveSoftware
+626M	LibreOffice
+482M	MongoDB
+459M	WSL
+429M	Krita (x64)
+306M	dotnet
+302M	MuseScore 4
+302M	MuseScore 3
+269M	Git
+243M	PowerShell
+238M	Microsoft OneDrive
+209M	Mozilla Firefox
+183M	Qalculate
+147M	PowerToys
+132M	qBittorrent
+127M	cygwin64
+119M	Docker
+110M	SI
+92M	Audacity
+84M	nodejs
+77M	Windows Defender Advanced Threat Protection
+59M	IrfanView
+47M	Common Files
+45M	Intel
+44M	DB Browser for SQLite
+34M	Reference Assemblies
+26M	DellTPad
+25M	Realtek
+16M	Ditto
+14M	Windows Defender
+11M	AutoHotkey
+6.7M	RUXIM
+6.0M	Windows NT
+5.9M	Windows Photo Viewer
+5.2M	7-Zip
+4.5M	Windows Media Player
+3.1M	Everything
+2.8M	WindowsPowerShell
+1.9M	Microsoft Update Health Tools
+1.9M	Internet Explorer
+1.7M	STMicroelectronics
+668K	DIFX
+632K	Windows Mail
+529K	MySQL
+112K	Windows Security
+76K	Microsoft
+48K	Windows Portable Devices
+48K	Windows Multimedia Platform
+36K	MSBuild
+0	iTop Screen Recorder
+0	desktop.ini
+0	WindowsApps
+0	Windows Sidebar
+0	Uninstall Information
+0	PackageManagement
+0	ModifiableWindowsApps

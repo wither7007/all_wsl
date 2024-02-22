@@ -1,7 +1,4 @@
-document.querySelector('input#programSearch').style="border-top: 100px solid black"
-
-
-
+document.querySelector('body').style="border-top: 100px solid black"
 
  replace word discussion
 https://askubuntu.com/questions/20414/find-and-replace-text-within-a-file-using-commands

@@ -1,4 +1,191 @@
 
+myh=myh.filter(a=>a.tagName!='SCRIPT').filter(c=>c.tagName!='STYLE')
+myh=myh.filter(a=>a.tagName!='SCRIPT')
+myh.filter(a=>a.tagName!='SCRIPT')
+myh.filter(a=>a.tagName=='SCRIPT').forEach(b=>console.log(b))
+myh.filter(a=>a.tagName=='SCRIPT').forEach(b=>b.remove())
+myh.filter(a=>a.tagName=='SCRIPT')
+myh[1].tagname
+myh[1]
+mhy[1]
+myh
+    myh.filter(a=>a.tagname==="SCRIPT")
+    myh.filter(a=>a.tagname=="SCRIPT")
+    myh.filter(a=>a.tagname="SCRIPT")
+myh.map(a=>a.tagName)
+const style = document.createElement('style');style.innerHTML = /* css */ `  body {    background-color: red !important;  }`;document.body.prepend(style)
+b.style.backgroundColor
+b=document.querySelector('body')
+const style = document.createElement('style');style.innerHTML = /* css */ `  background {    background-color: red !important;  }`;document.body.prepend(style)
+b.addEventListener('click', ()=>uc(strH.join('\')))
+b.addEventListener('click', uc(strH.join('\')))
+strH
+b.click()
+b.innerHTML
+d
+uc
+sth
+myword
+newf
+    (function () {        'use strict';        window.newf = () => {            alert('nnnn')        }        window.uc = async (content) => {            console.log(content);            // await navigator.clipboard.writeText(document.querySelector('html').outerHTML);            await navigator.clipboard.writeText(content)            console.log('Copied links!');        }    })()
+b
+showAlert
+window.showAlert = () => {    alert("sat night");}
+// ==UserScript==// @name        example.js// @namespace   http://hayageek.com// @include     *// @version     2.1// ==/UserScript==alert('hhhh')(function () {    'use strict';    window.newf = () => {        alert('nnnn')    }    window.uc = async (content) => {        console.log(content);        // await navigator.clipboard.writeText(document.querySelector('html').outerHTML);        await navigator.clipboard.writeText(content)        console.log('Copied links!');    }})()window.myword = ' evening'window.showAlert = () => {    alert("sat night");}strH = []myh = [...document.querySelectorAll('head>*')]myh.forEach(x => strH.push(x.outerHTML))let headCopy = () => {    uc(strH.join('\'))}b = document.createElement('button')b.innerHTML = 'now sat'b.style.cssText = "z-index: 3;position: fixed; top: 0; left: 0; width: 300px; border: 3px solid #73AD21; color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.prepend(b)strH = []myh = [...document.querySelectorAll('head>*')]myh.forEach(x => strH.push(x.outerHTML))function not() { alert('not') }b.addEventListener('click', uc(strH.join('\')))
+window.myword = ' evening'
+document.querySelectorAll('head>script').forEach(a=>a.remove())
+document.querySelector('head>style').remove()
+document.querySelectorAll('head>style')
+qs('head>style')
+strH.join('\')
+    window.uc = async (content) => {        console.log(content);        // await navigator.clipboard.writeText(document.querySelector('html').outerHTML);        await navigator.clipboard.writeText(content)        console.log('Copied links!');    }
+newf()
+newf(0
+console.log('not')
+not()
+fillArray=[...Array(10).keys()]
+for(var b in window) {   if(window.hasOwnProperty(b)) console.log(b); }
+copy($0.href)
+$0.href
+copy($0.outerHTML)
+console.log($0.href)
+getEventListeners(h)
+h.addEventListener('click', function(){alert('html dblClick')})
+h
+h.addEventListener('dblClick', function(){alert('html dblClick')})
+h.removeEventListener('click')
+h=document.querySelector('html')
+getEventListeners(document.querySelector('html'))
+document.querySelector('html')
+h.addEventListener('click',()=>uc('fruits'))
+h.addEventListener('click',uc('fruits'))
+h.addEventListener('click',uc('nuts'))
+h=qs('html')
+h=qa('html')
+uc('asfsdfsdfas')
+window.uc= async (content)=> {    console.log(content);    // await navigator.clipboard.writeText(document.querySelector('html').outerHTML);    await navigator.clipboard.writeText(content)    console.log('Copied links!');}
+so
+ss
+pp
+pp()
+ss()
+qs
+myH
+qa
+window.myword = 'monday night'window.showAlert = () => {    alert("monday night");}b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "z-index: 3;position: fixed; top: 0; left: 0; width: 300px; border: 3px solid #73AD21; color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.prepend(b)b.addEventListener('click', showAlert)
+window.myword = 'monday night'window.showAlert = () => {    alert("monday night");}b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "z-index: 1;position: fixed; top: 0; left: 0; width: 300px; border: 3px solid #73AD21; color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.prepend(b)b.addEventListener('click', showAlert)
+window.myword = 'monday night'window.showAlert = () => {    alert("monday night");}b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "position: fixed; top: 0; left: 0; width: 300px; border: 3px solid #73AD21; color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.prepend(b)b.addEventListener('click', showAlert)
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title><meta name="description" content="Brief description"><link rel="icon" type="image/x-icon" href="/icons8-home.svg"><link rel="stylesheet" href="style.css"><script defer="" src="script.js"></script>
+b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "position: fixed; top: 0; left: 0; width: 300px; border: 3px solid #73AD21; color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.prepend(b)b.addEventListener('click', showAlert)
+window.myword = 'monday night'window.showAlert = () => {    alert("monday night");}b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "position: sticky; top: 0; z-index: 100; color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.prepend(b)b.addEventListener('click', showAlert)
+window.showAlert = () => {    alert("monday night");}b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.append(b)b.addEventListener('click', showAlert)document.body.appendChild(b);
+b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.append(b)b.addEventListener('click', showAlert)document.body.appendChild(b);
+document.body.prepend(b)
+b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "color: blue; font-size: 3rem; padding: 10px;text-align: center";document.body.append(b)
+b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "color: blue; font-size: 8rem; text-align: center";document.body.append(b)
+b = document.createElement('button')b.innerHTML = 'myButton'bu.style.cssText = "color: blue; font-size: 8rem; text-align: center";document.body.append(b)
+bu.style.cssText = "color: blue; font-size: 8rem; text-align: center";
+bu.style.cssText = "border: dashed #0f0 2px;"
+bu.style.cssText = "border: dashed #0f0 2px;")
+bu.cssText = "color: blue; font-size: 8rem; text-align: center";
+bu=document.querySelector('button')
+b.cssText = "color: blue; font-size: 8rem; text-align: center";
+b.cssText = "color: blue; font-size: 2rem; text-align: center";
+b.style.fontSize='3rem'
+b.cssText
+document.body.append(b)
+document('body').append(b)
+b.style
+b=document.createElement('button')b.innerHTML='myButton'b.cssText = "color: blue; font-size: 2rem; text-align: center";
+b.style.fontSize='2rem'
+b.style.fontSize=2rem
+b.style.fontSize:2rem
+b=document.createElement('button')b.innerHTML='myButton'b.cssText = "color: blue; font-size: 2em; text-align: center";document.body.append(b)
+var input = document.createElement("input");window.showAlert = () => {    alert("more World");}window.myword = 'wooordjj'input.type = "button";input.value = "GreaseMonkey Button";input.addEventListener('click', showAlert)document.body.appendChild(input);
+birthMonths[1]
+birthMonths
+input
+Hcopy
+obj2.sayHello()
+name='jjjj'
+const obj2 = {  name: 'Jane',  sayHello: () => {    console.log(`Hello, ${this.name}!`);  }};
+bo.addEventListener('click',()=>{console.log(this)})
+bo=document.querySelector('body')
+ht
+this
+divide(2,0)
+divide(2,3)
+const divide = (a, b) => {  if (b === 0) {    throw new Error("Cannot divide by zero");  }    return a / b;};
+let pp = () => {    console.log('pp')}
+async function uc(content) {    console.log(content);    // await navigator.clipboard.writeText(document.querySelector('html').outerHTML);    await navigator.clipboard.writeText(content)    console.log('Copied links!');}
+uc('xxx')
+uc('noth')
+let pp=()=>{console.log('pp')}
+headCopy
+async function uc(content) {    console.log(content);    // await navigator.clipboard.writeText(document.querySelector('html').outerHTML);    await navigator.clipboard.writeText(content)    console.log('Copied links!');}strH = []myh = [...document.querySelectorAll('head>*')]myh.forEach(x => strH.push(x.outerHTML))let headCopy = () => {    uc(strH.join('\'))}
+mycopy
+strH = []myh = [...document.querySelectorAll('head>*')]myh.forEach(x => strH.push(x.outerHTML))
+myh.join('\')
+h.addEventListener('click',function(){uc('my new')})
+h.addEventListener('click',function(){uc('my new'))
+h.addEventListener('click',function name(params) {    console.log('html')})
+h.addEventListener('click',function name(params) {    console.log('html')}
+b.addEventListener("click", function (e) {  console.log(this.className); // logs the className of my_element  console.log(e.currentTarget === this); // logs `true`});
+b.addEventListener('click',uc('xyz'))
+b.addEventListener('click',uc('xyz')
+b.addEventListener('click',uc)
+b=qs('body')
+qs('body')
+uc('my new stuff')
+location.href
+uc('nothin')
+uc(strH.join('\'))
+uc('asflskfj')
+uc('blblalsldkfj')
+console.log(strH)
+myh.forEach(x=>strH.push(x.outerHTML))
+myh.forEach
+strH=[]myh=document.querySelectorAll('head>*')myh.foreach(x=>strH.push(x.outerHTML))
+qa('head>*')
+qs('head')
+qs('head>*')
+qs('head'.*)
+qs('head'>*)
+mycopy('working friday')
+document.body.style.zoom=.75;function seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 4000);    });}(async () => {    schedule = document.querySelector('#l_Df-9-1');    await seconds()    schedule.click()    await seconds()    what = document.querySelector('#caption2_Dd-a-2')    what.click()    await seconds()    which = document.querySelector('#caption2_Dg-c-4')    which.click()    await seconds()    Mnumber = document.querySelector('#Dk-e')    Mnumber.value = 'Q747-127-227-818'})()
+copy($0.src)
+$0.src
+s
+document.body.style.zoom=.75;
+//mylocation = 'https://onlineservices.dps.mn.gov/EServices/_/#0';//https://onlineservices.dps.mn.gov/EServices/_/#0//document.body.style.zoom=.5;function seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 4000);    });}(async () => {    schedule = document.querySelector('#l_Df-9-1');    await seconds()    schedule.click()    await seconds()    what = document.querySelector('#caption2_Dd-a-2')    what.click()    await seconds()    which = document.querySelector('#caption2_Dg-c-4')    which.click()    await seconds()    Mnumber = document.querySelector('#Dk-e')    Mnumber.value = 'Q747-127-227-818'})()
+document.body.style.zoom=.5;
+document.body.style.zoom=.5;this.blur();
+document.body.style.zoom=2.0;this.blur();
+setZoom();window.addEventListener('resize', setZoom);
+function setZoom() {  if (window.matchMedia('(min-width: 780px) and (max-width: 1280px)').matches) {    document.body.style.zoom = "70%";  } else {    document.body.style.zoom = "100%";  }}
+screen.availHeight
+quarter()
+quarter
+function quarter() {  window.resizeTo(window.screen.availWidth / 2, window.screen.availHeight / 2);}
+//mylocation = 'https://onlineservices.dps.mn.gov/EServices/_/#0';//https://onlineservices.dps.mn.gov/EServices/_/#0function seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 4000);    });}(async () => {    schedule = document.querySelector('#l_Df-9-1');    await seconds()    schedule.click()    await seconds()    what = document.querySelector('#caption2_Dd-a-2')    what.click()    await seconds()    which = document.querySelector('#caption2_Dg-c-4')    which.click()    await seconds()    Mnumber = document.querySelector('#Dk-e')    Mnumber.value = 'Q747-127-227-818'})()
+function seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 4000);    });}(async () => {    schedule = document.querySelector('#l_Df-9-1');    await seconds()    schedule.click()    await seconds()    what = document.querySelector('#caption2_Dd-a-2')    what.click()    await seconds()    which = document.querySelector('#caption2_Dg-c-4')    which.click()    await seconds()    Mnumber = document.querySelector('#Dk-e')    Mnumber.value = 'Q747-127-227-818'})()
+document.querySelector('style')
+qs('style')
+fda()
+let poem = 'eliot'url = 'https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/$poem\\?alt\\=json\\&key\\=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs'
+poem
+Mnumber.value = 'Q747-127-227-818'
+Mnumber = document.querySelector('#Dk-e')
+function seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 4000);    });}(async () => {    schedule = document.querySelector('#l_Df-9-1');    await seconds()    schedule.click()    await seconds()    what = document.querySelector('#caption2_Dd-a-2')    what.click()    await seconds()    which = document.querySelector('#caption2_Dg-c-4')    which.click()})()
+function seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 2000);    });}(async () => {    schedule = document.querySelector('#l_Df-9-1');    await seconds()    schedule.click()    await seconds()    what = document.querySelector('#caption2_Dd-a-2')    what.click()    await seconds()    which = document.querySelector('#caption2_Dg-c-4')    which.click()})()
+xx
+seconds
+(async () => {    await seconds()    console.log('async')})()
+function seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 2000);    });}(async () => {    await seconds()    await console.log('async')})()
+(async () => {    await resolveAfter2Seconds()    await console.log('async')})()
+function resolveAfter2Seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 2000);    });}
+schedule = document.querySelector('#l_Df-9-1');schedule.click()DriverServices = await document.querySelector('#caption2_Dd-a-2')DriverServices.click()SkillRetest = document.querySelector('#caption2_Dg-c-4')SecondTime.click()classD = document.querySelector('#caption2_Dg-c-4')classD.click()
+which = document.querySelector('#caption2_Dg-c-4')which.click()
 myhead.forEach(a=>console.log(a.outerHTML.slice(0,90)))
 myhead.forEach(a=>console.log(a.innerHTML.slice(0,90)))
 myhead.forEach(a=>console.log(a))
@@ -22,9 +209,6 @@ document.querySelectorAll('head>*')
 function t25() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 5000);    });}function setKeywordText(text, qse) {    var el = document.querySelector(qse);    el.value = text;    var evt = document.createEvent("Events");    evt.initEvent("change", true, true);    el.dispatchEvent(evt);}async function cl() {    r = await t25();    schedule = await document.querySelector('#l_Df-9-1');    r = await t25();    console.log(schedule)    r = await t25();    schedule.click()    r = await t25();    DriverServices = await document.querySelector('#caption2_Dd-a-2')    DriverServices.click()    r = await t25();    SkillRetest = document.querySelector('#caption2_Dg-c-4')    SkillRetest.click()    r = await t25();    Mnumber = document.querySelector('#Dk-e')    dId = 'Q747-127-227-818'    Mnumber.value = 'Q747-127-227-818'    dob = document.querySelector('#Dk-h')    myDob = '26-Oct-1964'    dob.value = '26-Oct-1964'}cl()
 function t25() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 5000);    });}function setKeywordText(text, qse) {    var el = document.querySelector(qse);    el.value = text;    var evt = document.createEvent("Events");    evt.initEvent("change", true, true);    el.dispatchEvent(evt);}async function cl() {    r = await t25();    schedule = await document.querySelector('#l_Df-9-1');    r = await t25();    console.log(schedule)    r = await t25();    schedule.click()    r = await t25();    DriverServices = await document.querySelector('#caption2_Dd-a-2')    DriverServices.click()    r = await t25();    SkillRetest = document.querySelector('#caption2_Dg-c-4')    SkillRetest.click()    r = await t25();    Mnumber = document.querySelector('#Dk-e')    dId = 'Q747-127-227-818'    Mnumber.value = 'Q747-127-227-818'    dob = document.querySelector('#Dk-h')    myDob = '26-Oct-1964'    dob.value = '26-Oct-1964'}cl()setKeywordText(dId, '#Dk-e')setKeywordText(myDob, '#Dk-h')
 copy(document.querySelector('html').outerHTML)
-document.querySelector('html')
-qa
-location.href
 copy(dId)
 setKeywordText(dId,'#Dk-e')setKeywordText(myDob,'#Dk-h')
 setKeywordText(dId,'#Dk-e')setKeywordText(myDob,'#Dk-e')
@@ -90,8 +274,6 @@ qa('img').forEach(a=>i.push(a.src))
 i=[]
 qa('img')[1]
 qa('img').forEach(a=>i.push(i.src))
-copy($0.src)
-$0.src
 qa('.audio')[1].href
 qa('.audio')[1].innerHTML
 qa('.audio')[1]
@@ -103,7 +285,6 @@ qa('.audio').length
 [...qa('.audio')].forEach(a=>log(a.id))
 qa('.audio').forEach(a=>log(a.id))
 qa('.audio')
-$0.href
 $0.outerHTML
 copy(qs('html'))
 copy(i.join('\')
@@ -122,12 +303,9 @@ heads.forEach(x=>console.log(`${x.tagName}`))
 heads.forEach(x=>console.log(x.tagName))
 heads=[...document.querySelectorAll('head>*')]
 heads=document.querySelectorAll('head>*')
-qa('head>*')
-qs('head>*')
 qs('head'>*')
 copy(location.href)
 mydata
-poem
 gtext
 copy(gtext)
 poem.click()
@@ -138,7 +316,6 @@ home
 home.addEventListener('click',myf)
 myf()
 myf
-h
 h.addEventListener('click', ()=>console.log('home'))
 h=qs('#home')
 qs('#home').click()
@@ -211,14 +388,12 @@ qa('head>*').forEach(a=>log(a.textContent))
 qa('head')
 qa('head>*').forEach(a=>log(a))
 qs('head.*')
-qs('head')
 qa('head>.*')
 qa('head.*')
 copy(qa('img').filter(a=>a.src.includes('gif')).map(a=>a.src).join('\'))
 qa('img').filter(a=>a.src.includes('gif')).map(a=>a.src)
 qa('img').filter(a=>a.src.includes('gif'))
 $)
-copy($0.href)
 c[1]
 c.forEach(a=>addEventListener('click', xx, true))
 c.forEach(a=>addEventListener('click', l, false))
@@ -302,7 +477,6 @@ sword('Taking the first spot')
 console.log('whahoo')
 log('who')
 af
-qs
 [...qs('head>*')]
 af(qs('head>*'))
 he=af(qs('head>*'))
@@ -510,7 +684,6 @@ b.forEach(xx=>log('jim'))
 b.forEach(xx=>log('jim')
 b.forEach(xx=>log('jim'.charCoodeAt(0)))
 b.forEach(xx=>log('jim'.charCoodeAt(0))
-b
 'jim'[0]
 b.forEach(xx=>log(xx[0].charCoodeAt(0))
 b.forEach(xx=>log(xx[0].charCoodeAt(0)))
@@ -770,7 +943,6 @@ af(st.rules)
 af(st.rules)[1]
 attrs
 b=a
-b=qs('body')
 button
 byClass
 c=''
@@ -821,7 +993,6 @@ copy(st)
 cp(ss.join('\'))
 css
 css=''
-d
 d.innerHTM
 d.innerHTM='xxx'
 d.innerHTML
@@ -1372,13 +1543,11 @@ qs('section').style.justifyContent='space-between'
 qs('span.comments-show')
 qs('span.comments-show').click()
 qs('strong')
-qs('style')
 qs('style').textContent
 qs('table').querySelectorAll('a').forEach(a=>log(a.children))
 qs('top')
 re.exec(someString)
 result
-s
 s.filter(g=>!g.match(/\\d+/))
 s.filter(g=>!g[0].match(/\\d+/))
 s.filter(g=>!g[0].match(/\\d+/)).forEach(a=>log(a))
@@ -1438,7 +1607,6 @@ sc[1]
 someString
 someString = "An example comment: /* example */";
 someString.replace(/\\/\\*[\\s\\S]*?\\*\\/|(?<=[^:])\\/\\/.*|^\\/\\/.*/g,'');
-ss
 ss.map(a=>a.replace(/\\s{2,}/,'\'))
 ss.map(a=>a.replace(/\\s{2,}/g,'\'))
 ss.split(/\\s+/g)
@@ -1607,7 +1775,6 @@ window.location.href
 window.location.href='non'
 window.sword = (x) => {    window.elements = [...document.querySelectorAll('*:not(head, body, html,meta)')]    var expression = `${x}`;    var re = new RegExp(expression, 'gi');    console.log(re)    let word = window.elements.filter(aa => aa.textContent.match(re))    return word}
 x=2
-xx
 xx()
 xx(2)
 xx(22)

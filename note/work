@@ -11,15 +11,6 @@ The words which open up whole new worlds of abstract understanding and are actua
 Finally, the words which open up whole new worlds of abstract understanding and are barely ever used in German. Example One: der Treppenwitz (literally: the staircase joke), meaning: The witty comeback you concocted too late. Example Two: das Backpfeifengesicht (literally: the slap face), meaning: A face you’d like to slap.
 const object = { a: 1, b: 2, c: 3 };
 
-for (property in ob ) {
-  console.log(`${property}: ${ob[property]}`);
-}
-Object.keys( window );
-
-const el = document.createElement('h1');
-const words = "Hello, World!"
-const text = document.createTextNode(words);
-el.appendChild(text);
 Friedrich Schleiermacher (1768-1834), David Friedrich Strauss (1808-74), and Ludwig Feuerbach (1804-72)
 document.body.appendChild(el);
 NAV net asset value
@@ -34,12 +25,6 @@ Moderato – at a moderate speed (108–120 bpm)
 Allegro – fast, quick, and bright (120–156 bpm) (molto allegro is slightly faster than allegro, but always in its range; 124-156 bpm)
 Presto – very, very fast (168–200 bpm)
 
-let add_element = () => {
-    const template = document.createElement('div');
-    template.innerHTML = "Content inside DIV";
-    
-    document.body.appendChild(template);
-}
 
 
 Tell all the truth but tell it slant —
@@ -61,86 +46,9 @@ Definition of chancre
 : a primary sore or ulcer at the site of entry of a pathogen (as in tularemia)
 especially : the initial lesion of syphilis
 
-youtube
-dev ed
 ania kubow
 udemy
 ArjanCodes
-If you haven't heard about Piped before, in simple terms, it is an alternative frontend that is designed to be efficient by design, where you can watch YouTube without making any connections to Google's servers and have subscriptions without a google account.
-
-After 8 months of development, I am finally excited to share the project at its current state!
-
-The reason why this project was created was to create a truly unique alternative to Invidious, with performance and stability as the primary goal.
-
-For those of you who want to try out Piped, you may do so at https://piped.kavin.rocks/
-
-If you would like to contribute with code, you may do so at https://github.com/TeamPiped/Piped
-
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-  
-  /* CSS */
-  
-}
-
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
-  /* CSS */
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-  /* CSS */
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  /* CSS */
-  
-}
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-  
-  /* CSS */
-  
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 980px) {
-  
-  /* CSS */
-  
-}
 
 https://www.youtube.com/watch?v=8X4u9sca3Io
 git --version
