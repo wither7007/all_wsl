@@ -1,0 +1,39 @@
+30G	you
+30G	Users
+15G	Windows
+9.1G	Program Files
+4.7G	Program Files (x86)
+2.9G	ProgramData
+1.9G	projects
+514M	temp
+473M	music
+452M	twit
+421M	mmp
+209M	$Recycle.Bin
+87M	tools
+76M	all
+70M	mscore
+44M	mygits
+9.9M	data
+8.4M	junk
+7.3M	docs
+6.6M	ptest
+2.2M	jamessteffes.github.io
+408K	bootmgr
+377K	projectBack
+140K	$Windows.~WS
+84K	autoload
+40K	pback
+20K	$WINDOWS.~BT
+16K	img
+8.0K	tmp
+8.0K	DumpStack.log
+4.0K	Recovery
+0	css
+0	bootTel.dat
+0	System Volume Information
+0	PerfLogs
+0	ESD
+0	Documents and Settings
+0	BOOTNXT
+0	$WinREAgent

@@ -1,4 +1,207 @@
 
+Object.entries(list).sort(a,b)=>a[1]-b[1])
+Object.entries(list).forEach(a=>log(a))
+Object.entries(list)
+Object.keys(list).sort()
+Object.values(list).sort()
+arr
+function sortObj(obj) {  return Object.values(obj).sort().reduce(function (result, key) {    result[key] = obj[key];    return result;  }, {});}let list = {  "name": "Ann",  "age": 75};let arr = sortObj(list);
+Object.values(list)
+Object.keys(list)
+sortObj(ff)
+ff
+function sortObj(obj) {  return Object.keys(obj).sort().reduce(function (result, key) {    result[key] = obj[key];    return result;  }, {});}let list = {  "name": "Ann",  "age": 75};let arr = sortObj(list);console.log(arr);
+gg.forEach(a=>log(a))
+gg.forEach(a=>log(a[1]))
+gg
+gg.sort()
+gg.forEach(a=>log(a[1]))
+gg.forEach(a=>log(a))
+gg
+gg=Object.entries(ff)
+Object.entries(ff)
+ff=frequencies(all)
+all=[...document.querySelectorAll('*')].map(a=>a.tagName)
+frequencies
+range(0, 40, 1);
+range(0, 4, 1);
+range(0,10)
+const range = (start, stop, step) =>  Array.from({ length: (stop - start) / step + 1 }, (_, i) => start + i * step);
+af('jim')
+JSON.stringify(ff,null,2)
+JSON.stringify(ff)
+ff
+ff=frequencies(all)
+all=[...document.querySelectorAll('*')].map(a=>a.tagName)
+ff=frequencies(all)
+frequencies
+all=[...document.querySelectorAll('*')].map(a=>a.tagName)
+l
+for (a=0;a<10;a++){l.push(x())}
+l=[]
+[x(),x()]
+x()
+x
+x=()=>Math.ceil(Math.random()*100)
+x=Math.ceil(Math.random()*100)
+x=Math.ceil(Math.random()*100))
+x=Math.random()
+function quickSort(arr) {  // Base case: If the array has one or no elements, it is already sorted.  if (arr.length <= 1) return arr;  // Choosing the first element in the array as the pivot.  const pivot = arr[0];  // Creating two empty arrays to store elements less than (left) and greater than (right) the pivot.  const left = [];  const right = [];  // Looping through the array, starting from the second element because the first is the pivot.  for (let i = 1; i < arr.length; i++) {    // If the current element is smaller than the pivot, push it to the 'left' array.    if (arr[i] < pivot) left.push(arr[i]);    // If the current element is greater than or equal to the pivot, push it to the 'right' array.    else right.push(arr[i]);  }  // Concatenate the result of recursively sorting the 'left' array, the pivot, and then the 'right' array.  // Spread syntax '...' is used to concatenate arrays.  return [...quickSort(left), pivot, ...quickSort(right)];}
+ff
+sortedMap
+const sortedMap = new Map();sortedKeys.forEach(key => {  sortedMap.set(key, obj[key]);});
+sortedKeys
+const obj = {  "kiwi": 2,  "banana": 3,  "apple": 1};const sortedKeys = Object.keys(obj).sort((a, b) => obj[a] - obj[b]);
+sortedKeys
+const obj = {  "banana": "yellow",  "apple": "red",  "cherry": "dark red"};const sortedKeys = Object.keys(obj).sort();
+Object.keys(ff)
+ff
+ff.sort()
+ff
+all = [...document.querySelectorAll('*')].map(a => a.tagName)const frequencies = arr =>  arr.reduce((a, v) => {    a[v] = (a[v] ?? 0) + 1;    return a;  }, {});ff = frequencies(all)
+gg===undefined
+gg
+displayName = lastName ?? nickname;
+lastName
+firstName
+const firstName = null;const lastName = undefined;const suffix = "Junior"const nickname = "SuperCoder";// If firstName is null or undefined, use the value of nicknamelet displayName = firstName ?? nickname;console.log(displayName);  // Output: SuperCoder
+result = yourVariable ?? 'defaultValue';
+a=b??2
+a=b||2
+b=null
+a
+a=b||2
+b=1
+a
+a=b||2
+b=0
+b
+let a=xx??3
+let a=xx||3
+a
+let a=2||3
+all
+all=[...document.querySelectorAll('*')].map(a=>a.tagName)
+Object.keys(window)
+document.querySelector('body').style="border-top: 100px solid black"
+getEventListeners(d)
+getEventListeners(b)
+d.replaceWith(d.cloneNode(true));
+d
+document.querySelector('body').addEventListener('click',()=>alert('body'))
+d=document.querySelector('body')
+ff['HTML'][1]
+ff
+for (key in ff) {console.log(ff[key])}
+for (key in ff) {console.log(key)}
+Object.keys(ff).length
+ff.A
+ff.a
+ff
+items[1].value
+items = [  { name: "Edward", value: 21 },  { name: "Sharpe", value: 37 },  { name: "And", value: 45 },  { name: "The", value: -12 },  { name: "Magnetic", value: 13 },  { name: "Zeros", value: 37 },];// sort by valueitems.sort((a, b) => a.value - b.value);
+Object.values(ff)
+ff.sort()
+ff[1]
+ff
+for (a of Object.entries(ff)){console.log(a)}
+ff
+for (a of ff){console.log(a)}
+Object.entries(ff)
+Object.keys(ff).sort()
+Object.keys(ff)
+all = [...document.querySelectorAll('*')].map(a => a.tagName)const frequencies = arr =>    arr.reduce((a, v) => {        a[v] = (a[v] ?? 0) + 1;        return a;    }, {});ff = frequencies(all)
+jim
+jim['pp']=(jim['xx']??0)
+jim
+jim['n']=22
+jim={}
+jim
+jim['ss']=1
+jim['pp']=(jim['xx']??0)
+jim
+jim['pp']=(jim['xx']??0)
+jim
+jim=(jim['xx']??0)
+jim={}
+jim=(jim['xx']??0)
+jim=(xx??0)
+frequencies(all)
+const frequencies = arr =>  arr.reduce((a, v) => {    a[v] = (a[v] ?? 0) + 1;    return a;  }, {});
+all
+item
+item['jim']=item['jim']+1
+item['jim']
+item
+(for a in item); log(a)
+for a in item; log(a)
+{a for a in item}
+item['jim']=1
+item={}
+item['jim']=1
+all = [...document.querySelectorAll('*')].map(a => a.tagName)all.reduce((item, all) => {    if (item in all) {        all[item] = 1    } else { all[item] = 1 }    return all}, [])
+all=[...document.querySelectorAll('*')].map(a=>a.tagName)
+all=document.querySelectorAll('*').map(a=>a.tagName)
+d.addEventListener('click',(e)=>alert(e))
+d.addEventListener('click',()=>alert('hover'))
+d.addEventListener('hover',()=>alert('hover'))
+d.innerHTML
+document.body.prepend(d)
+document.body.preppend(d)
+document.body.append(d)
+d.innerHTML=thumbnailVideo
+d=document.createElement('div')
+    const thumbnailVideo = `    <button title="Image video" class="botones_div" type="button" id="imagen">    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-photo-down" width="24"      height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"      stroke-linecap="round" stroke-linejoin="round">      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>      <path d="M15 8h.01"></path>      <path d="M12.5 21h-6.5a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v6.5"></path>      <path d="M3 16l5 -5c.928 -.893 2.072 -.893 3 0l4 4"></path>      <path d="M14 14l1 -1c.653 -.629 1.413 -.815 2.13 -.559"></path>      <path d="M19 16v6"></path>      <path d="M22 19l-3 3l-3 -3"></path>    </svg>  </button>    `;
+p.innerHTML=mydata.join('<br>')
+mydata.join('\')
+p.innerHTML=mydata.join('\\br')
+p.textContent=mydata.join('\\br')
+p.textContent=mydata
+p=qs('.poem')
+qa
+p.innerHTML
+p=qa('.poem')
+p=qa('poem')
+mydata
+qa
+qs
+qs('.highlight')
+cls
+c
+qs
+c
+Hcopy()
+document.querySelectorAll('script').forEach(x=>x.remove())
+Hcopy()
+Hcopy
+ss
+qa('script')
+qa('script').forEach(a=>a.remove())
+qa
+strH
+h
+pp()
+pp
+qs
+(function() {    "use strict"    console.log('fun')    x=2.71828    console.log(x)    delete x}())
+(function() {    "use strict"    console.log('fun')    x=2.71828    console.log(x)}())
+(function() {    "use strict"    console.log('fun')    x=2.71828}())
+(function() {    console.log('fun')}())
+"use strict";x = 3.14;   
+const style = document.createElement('style');style.innerHTML = /* css */ `  body {    background-color: #c2c2c2 !important;  }`;document.body.prepend(style)
+document.querySelectorAll('*').forEach(x=>x.remove())
+document.querySelectorAll('h1').forEach(x=>x.remove())
+document.querySelectorAll('p').forEach(x=>x.remove())
+document.querySelectorAll('script').forEach(x=>x.remove())
+document.querySelectorAll('style').forEach(x=>x.remove())
+document.querySelector('style').remove()
+document.querySelector('style')
+myscripts[1].innerHTML
+myscripts[1].src
+myscripts[1].textContent
+myscripts[1]
+copy(myscripts.join('\'))
+myscripts
 myh=myh.filter(a=>a.tagName!='SCRIPT').filter(c=>c.tagName!='STYLE')
 myh=myh.filter(a=>a.tagName!='SCRIPT')
 myh.filter(a=>a.tagName!='SCRIPT')
@@ -96,206 +299,3 @@ uc('asfsdfsdfas')
 window.uc= async (content)=> {    console.log(content);    // await navigator.clipboard.writeText(document.querySelector('html').outerHTML);    await navigator.clipboard.writeText(content)    console.log('Copied links!');}
 so
 ss
-pp
-pp()
-so
-ss()
-qs
-pp
-uc
-myh
-myH
-uc
-strH
-qs
-qa
-
-qa
-window.myword = 'monday night'window.showAlert = () => {    alert("monday night");}b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "z-index: 3;position: fixed; top: 0; left: 0; width: 300px; border: 3px solid #73AD21; color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.prepend(b)b.addEventListener('click', showAlert)
-window.myword = 'monday night'window.showAlert = () => {    alert("monday night");}b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "z-index: 1;position: fixed; top: 0; left: 0; width: 300px; border: 3px solid #73AD21; color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.prepend(b)b.addEventListener('click', showAlert)
-window.myword = 'monday night'window.showAlert = () => {    alert("monday night");}b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "position: fixed; top: 0; left: 0; width: 300px; border: 3px solid #73AD21; color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.prepend(b)b.addEventListener('click', showAlert)
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title><meta name="description" content="Brief description"><link rel="icon" type="image/x-icon" href="/icons8-home.svg"><link rel="stylesheet" href="style.css"><script defer="" src="script.js"></script>
-b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "position: fixed; top: 0; left: 0; width: 300px; border: 3px solid #73AD21; color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.prepend(b)b.addEventListener('click', showAlert)
-window.myword = 'monday night'window.showAlert = () => {    alert("monday night");}b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "position: sticky; top: 0; z-index: 100; color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.prepend(b)b.addEventListener('click', showAlert)
-window.showAlert = () => {    alert("monday night");}b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.append(b)b.addEventListener('click', showAlert)document.body.appendChild(b);
-b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.append(b)b.addEventListener('click', showAlert)document.body.appendChild(b);
-document.body.prepend(b)
-b
-b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "color: blue; font-size: 3rem; padding: 10px;text-align: center";document.body.append(b)
-b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "color: blue; font-size: 8rem; text-align: center";document.body.append(b)
-b = document.createElement('button')b.innerHTML = 'myButton'bu.style.cssText = "color: blue; font-size: 8rem; text-align: center";document.body.append(b)
-bu.style.cssText = "color: blue; font-size: 8rem; text-align: center";
-bu.style.cssText = "border: dashed #0f0 2px;"
-bu.style.cssText = "border: dashed #0f0 2px;")
-bu.cssText = "color: blue; font-size: 8rem; text-align: center";
-bu=document.querySelector('button')
-b.cssText = "color: blue; font-size: 8rem; text-align: center";
-b
-b.cssText = "color: blue; font-size: 2rem; text-align: center";
-b.style.fontSize='3rem'
-b
-b.cssText
-document.body.append(b)
-document('body').append(b)
-b.style
-b
-b=document.createElement('button')b.innerHTML='myButton'b.cssText = "color: blue; font-size: 2rem; text-align: center";
-b.style.fontSize='2rem'
-b.style.fontSize=2rem
-b.style.fontSize:2rem
-b.style
-b
-b=document.createElement('button')b.innerHTML='myButton'b.cssText = "color: blue; font-size: 2em; text-align: center";document.body.append(b)
-showAlert
-var input = document.createElement("input");window.showAlert = () => {    alert("more World");}window.myword = 'wooordjj'input.type = "button";input.value = "GreaseMonkey Button";input.addEventListener('click', showAlert)document.body.appendChild(input);
-myword
-birthMonths[1]
-birthMonths
-myword
-pp
-myword
-showAlert
-myword
-input
-strH
-pp
-Hcopy
-uc
-pp
-obj2.sayHello()
-name='jjjj'
-obj2.sayHello()
-const obj2 = {  name: 'Jane',  sayHello: () => {    console.log(`Hello, ${this.name}!`);  }};
-bo.addEventListener('click',()=>{console.log(this)})
-bo=document.querySelector('body')
-ht
-bo.addEventListener('click',()=>{console.log(this)})
-bo=document.querySelector('body')
-ht
-this
-divide(2,0)
-divide(2,3)
-const divide = (a, b) => {  if (b === 0) {    throw new Error("Cannot divide by zero");  }    return a / b;};
-pp
-let pp = () => {    console.log('pp')}
-pp
-async function uc(content) {    console.log(content);    // await navigator.clipboard.writeText(document.querySelector('html').outerHTML);    await navigator.clipboard.writeText(content)    console.log('Copied links!');}
-uc
-uc('xxx')
-async function uc(content) {    console.log(content);    // await navigator.clipboard.writeText(document.querySelector('html').outerHTML);    await navigator.clipboard.writeText(content)    console.log('Copied links!');}
-uc('noth')
-uc
-pp()
-pp
-let pp=()=>{console.log('pp')}
-myh
-strH
-uc
-pp
-let pp=()=>{console.log('pp')}
-headCopy
-strH
-uc
-async function uc(content) {    console.log(content);    // await navigator.clipboard.writeText(document.querySelector('html').outerHTML);    await navigator.clipboard.writeText(content)    console.log('Copied links!');}strH = []myh = [...document.querySelectorAll('head>*')]myh.forEach(x => strH.push(x.outerHTML))let headCopy = () => {    uc(strH.join('\'))}
-uc
-strH
-headCopy
-uc
-strH
-mycopy
-myh
-strH
-strH = []myh = [...document.querySelectorAll('head>*')]myh.forEach(x => strH.push(x.outerHTML))
-myh
-myh.join('\')
-myh
-h.addEventListener('click',function(){uc('my new')})
-h.addEventListener('click',function(){uc('my new'))
-h=qs('html')
-uc
-h.addEventListener('click',function name(params) {    console.log('html')})
-h.addEventListener('click',function name(params) {    console.log('html')}
-h
-h=qs('html')
-b
-b.addEventListener("click", function (e) {  console.log(this.className); // logs the className of my_element  console.log(e.currentTarget === this); // logs `true`});
-uc
-b.addEventListener('click',uc('xyz'))
-b.addEventListener('click',uc('xyz')
-uc
-b.addEventListener('click',uc)
-b=qs('body')
-qs('body')
-uc
-uc('my new stuff')
-uc
-myh
-location.href
-uc('nothin')
-uc(strH.join('\'))
-strH.join('\')
-strH
-uc('asflskfj')
-uc
-
-uc
-uc('blblalsldkfj')
-strH
-console.log(strH)
-strH
-myh.forEach(x=>strH.push(x.outerHTML))
-myh.forEach
-myh
-strH=[]myh=document.querySelectorAll('head>*')myh.foreach(x=>strH.push(x.outerHTML))
-qa('head>*')
-qs('head')
-qs('head>*')
-qs('head'.*)
-qs('head>*')
-qs('head'>*)
-qs('head'.*)
-mycopy('working friday')
-mycopy
-qa
-document.body.style.zoom=.75;function seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 4000);    });}(async () => {    schedule = document.querySelector('#l_Df-9-1');    await seconds()    schedule.click()    await seconds()    what = document.querySelector('#caption2_Dd-a-2')    what.click()    await seconds()    which = document.querySelector('#caption2_Dg-c-4')    which.click()    await seconds()    Mnumber = document.querySelector('#Dk-e')    Mnumber.value = 'Q747-127-227-818'})()
-copy($0.src)
-qa
-$0.src
-$0.href
-qa
-document.querySelector('html')
-s
-document.body.style.zoom=.75;function seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 4000);    });}(async () => {    schedule = document.querySelector('#l_Df-9-1');    await seconds()    schedule.click()    await seconds()    what = document.querySelector('#caption2_Dd-a-2')    what.click()    await seconds()    which = document.querySelector('#caption2_Dg-c-4')    which.click()    await seconds()    Mnumber = document.querySelector('#Dk-e')    Mnumber.value = 'Q747-127-227-818'})()
-document.body.style.zoom=.75;
-//mylocation = 'https://onlineservices.dps.mn.gov/EServices/_/#0';//https://onlineservices.dps.mn.gov/EServices/_/#0//document.body.style.zoom=.5;function seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 4000);    });}(async () => {    schedule = document.querySelector('#l_Df-9-1');    await seconds()    schedule.click()    await seconds()    what = document.querySelector('#caption2_Dd-a-2')    what.click()    await seconds()    which = document.querySelector('#caption2_Dg-c-4')    which.click()    await seconds()    Mnumber = document.querySelector('#Dk-e')    Mnumber.value = 'Q747-127-227-818'})()
-document.body.style.zoom=.5;
-document.body.style.zoom=.5;this.blur();
-document.body.style.zoom=2.0;this.blur();
-setZoom();window.addEventListener('resize', setZoom);
-function setZoom() {  if (window.matchMedia('(min-width: 780px) and (max-width: 1280px)').matches) {    document.body.style.zoom = "70%";  } else {    document.body.style.zoom = "100%";  }}
-screen.availHeight
-quarter()
-quarter
-function quarter() {  window.resizeTo(window.screen.availWidth / 2, window.screen.availHeight / 2);}
-//mylocation = 'https://onlineservices.dps.mn.gov/EServices/_/#0';//https://onlineservices.dps.mn.gov/EServices/_/#0function seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 4000);    });}(async () => {    schedule = document.querySelector('#l_Df-9-1');    await seconds()    schedule.click()    await seconds()    what = document.querySelector('#caption2_Dd-a-2')    what.click()    await seconds()    which = document.querySelector('#caption2_Dg-c-4')    which.click()    await seconds()    Mnumber = document.querySelector('#Dk-e')    Mnumber.value = 'Q747-127-227-818'})()
-function seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 4000);    });}(async () => {    schedule = document.querySelector('#l_Df-9-1');    await seconds()    schedule.click()    await seconds()    what = document.querySelector('#caption2_Dd-a-2')    what.click()    await seconds()    which = document.querySelector('#caption2_Dg-c-4')    which.click()    await seconds()    Mnumber = document.querySelector('#Dk-e')    Mnumber.value = 'Q747-127-227-818'})()
-document.querySelector('style')
-qs('style')
-fda()
-let poem = 'eliot'url = 'https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/$poem\\?alt\\=json\\&key\\=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs'
-poem
-fda()
-function seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 4000);    });}(async () => {    schedule = document.querySelector('#l_Df-9-1');    await seconds()    schedule.click()    await seconds()    what = document.querySelector('#caption2_Dd-a-2')    what.click()    await seconds()    which = document.querySelector('#caption2_Dg-c-4')    which.click()    await seconds()    Mnumber = document.querySelector('#Dk-e')    Mnumber.value = 'Q747-127-227-818'})()
-Mnumber.value = 'Q747-127-227-818'
-Mnumber = document.querySelector('#Dk-e')
-function seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 4000);    });}(async () => {    schedule = document.querySelector('#l_Df-9-1');    await seconds()    schedule.click()    await seconds()    what = document.querySelector('#caption2_Dd-a-2')    what.click()    await seconds()    which = document.querySelector('#caption2_Dg-c-4')    which.click()})()
-function seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 2000);    });}(async () => {    schedule = document.querySelector('#l_Df-9-1');    await seconds()    schedule.click()    await seconds()    what = document.querySelector('#caption2_Dd-a-2')    what.click()    await seconds()    which = document.querySelector('#caption2_Dg-c-4')    which.click()})()
-function seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 2000);    });}(async () => {    schedule = document.querySelector('#l_Df-9-1');    await seconds()    schedule.click()    await seconds()    what = document.querySelector('#caption2_Dd-a-2')    what.click()    await seconds()    which = document.querySelector('#caption2_Dg-c-4')    which.click()})()
-xx
-seconds
-(async () => {    await seconds()    console.log('async')})()
-function seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 2000);    });}(async () => {    await seconds()    await console.log('async')})()
-(async () => {    await resolveAfter2Seconds()    await console.log('async')})()
-function resolveAfter2Seconds() {    return new Promise((resolve) => {        setTimeout(() => {            resolve('resolved');        }, 2000);    });}
-schedule = document.querySelector('#l_Df-9-1');schedule.click()DriverServices = await document.querySelector('#caption2_Dd-a-2')DriverServices.click()SkillRetest = document.querySelector('#caption2_Dg-c-4')SecondTime.click()classD = document.querySelector('#caption2_Dg-c-4')classD.click()
-which = document.querySelector('#caption2_Dg-c-4')which.click()
