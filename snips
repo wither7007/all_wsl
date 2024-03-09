@@ -1,301 +1,301 @@
 
-Object.entries(list).sort(a,b)=>a[1]-b[1])
-Object.entries(list).forEach(a=>log(a))
-Object.entries(list)
-Object.keys(list).sort()
-Object.values(list).sort()
-arr
-function sortObj(obj) {  return Object.values(obj).sort().reduce(function (result, key) {    result[key] = obj[key];    return result;  }, {});}let list = {  "name": "Ann",  "age": 75};let arr = sortObj(list);
-Object.values(list)
-Object.keys(list)
-sortObj(ff)
-ff
-function sortObj(obj) {  return Object.keys(obj).sort().reduce(function (result, key) {    result[key] = obj[key];    return result;  }, {});}let list = {  "name": "Ann",  "age": 75};let arr = sortObj(list);console.log(arr);
-gg.forEach(a=>log(a))
-gg.forEach(a=>log(a[1]))
-gg
-gg.sort()
-gg.forEach(a=>log(a[1]))
-gg.forEach(a=>log(a))
-gg
-gg=Object.entries(ff)
-Object.entries(ff)
-ff=frequencies(all)
-all=[...document.querySelectorAll('*')].map(a=>a.tagName)
-frequencies
-range(0, 40, 1);
-range(0, 4, 1);
-range(0,10)
-const range = (start, stop, step) =>  Array.from({ length: (stop - start) / step + 1 }, (_, i) => start + i * step);
-af('jim')
-JSON.stringify(ff,null,2)
-JSON.stringify(ff)
-ff
-ff=frequencies(all)
-all=[...document.querySelectorAll('*')].map(a=>a.tagName)
-ff=frequencies(all)
-frequencies
-all=[...document.querySelectorAll('*')].map(a=>a.tagName)
-l
-for (a=0;a<10;a++){l.push(x())}
-l=[]
-[x(),x()]
-x()
-x
-x=()=>Math.ceil(Math.random()*100)
-x=Math.ceil(Math.random()*100)
-x=Math.ceil(Math.random()*100))
-x=Math.random()
-function quickSort(arr) {  // Base case: If the array has one or no elements, it is already sorted.  if (arr.length <= 1) return arr;  // Choosing the first element in the array as the pivot.  const pivot = arr[0];  // Creating two empty arrays to store elements less than (left) and greater than (right) the pivot.  const left = [];  const right = [];  // Looping through the array, starting from the second element because the first is the pivot.  for (let i = 1; i < arr.length; i++) {    // If the current element is smaller than the pivot, push it to the 'left' array.    if (arr[i] < pivot) left.push(arr[i]);    // If the current element is greater than or equal to the pivot, push it to the 'right' array.    else right.push(arr[i]);  }  // Concatenate the result of recursively sorting the 'left' array, the pivot, and then the 'right' array.  // Spread syntax '...' is used to concatenate arrays.  return [...quickSort(left), pivot, ...quickSort(right)];}
-ff
-sortedMap
-const sortedMap = new Map();sortedKeys.forEach(key => {  sortedMap.set(key, obj[key]);});
-sortedKeys
-const obj = {  "kiwi": 2,  "banana": 3,  "apple": 1};const sortedKeys = Object.keys(obj).sort((a, b) => obj[a] - obj[b]);
-sortedKeys
-const obj = {  "banana": "yellow",  "apple": "red",  "cherry": "dark red"};const sortedKeys = Object.keys(obj).sort();
-Object.keys(ff)
-ff
-ff.sort()
-ff
-all = [...document.querySelectorAll('*')].map(a => a.tagName)const frequencies = arr =>  arr.reduce((a, v) => {    a[v] = (a[v] ?? 0) + 1;    return a;  }, {});ff = frequencies(all)
-gg===undefined
-gg
-displayName = lastName ?? nickname;
-lastName
-firstName
-const firstName = null;const lastName = undefined;const suffix = "Junior"const nickname = "SuperCoder";// If firstName is null or undefined, use the value of nicknamelet displayName = firstName ?? nickname;console.log(displayName);  // Output: SuperCoder
-result = yourVariable ?? 'defaultValue';
-a=b??2
-a=b||2
-b=null
-a
-a=b||2
-b=1
-a
-a=b||2
-b=0
-b
-let a=xx??3
-let a=xx||3
-a
-let a=2||3
-all
-all=[...document.querySelectorAll('*')].map(a=>a.tagName)
-Object.keys(window)
-document.querySelector('body').style="border-top: 100px solid black"
-getEventListeners(d)
-getEventListeners(b)
-d.replaceWith(d.cloneNode(true));
-d
-document.querySelector('body').addEventListener('click',()=>alert('body'))
-d=document.querySelector('body')
-ff['HTML'][1]
-ff
-for (key in ff) {console.log(ff[key])}
-for (key in ff) {console.log(key)}
-Object.keys(ff).length
-ff.A
-ff.a
-ff
-items[1].value
-items = [  { name: "Edward", value: 21 },  { name: "Sharpe", value: 37 },  { name: "And", value: 45 },  { name: "The", value: -12 },  { name: "Magnetic", value: 13 },  { name: "Zeros", value: 37 },];// sort by valueitems.sort((a, b) => a.value - b.value);
-Object.values(ff)
-ff.sort()
-ff[1]
-ff
-for (a of Object.entries(ff)){console.log(a)}
-ff
-for (a of ff){console.log(a)}
-Object.entries(ff)
-Object.keys(ff).sort()
-Object.keys(ff)
-all = [...document.querySelectorAll('*')].map(a => a.tagName)const frequencies = arr =>    arr.reduce((a, v) => {        a[v] = (a[v] ?? 0) + 1;        return a;    }, {});ff = frequencies(all)
-jim
-jim['pp']=(jim['xx']??0)
-jim
-jim['n']=22
-jim={}
-jim
-jim['ss']=1
-jim['pp']=(jim['xx']??0)
-jim
-jim['pp']=(jim['xx']??0)
-jim
-jim=(jim['xx']??0)
-jim={}
-jim=(jim['xx']??0)
-jim=(xx??0)
-frequencies(all)
-const frequencies = arr =>  arr.reduce((a, v) => {    a[v] = (a[v] ?? 0) + 1;    return a;  }, {});
-all
-item
-item['jim']=item['jim']+1
-item['jim']
-item
-(for a in item); log(a)
-for a in item; log(a)
-{a for a in item}
-item['jim']=1
-item={}
-item['jim']=1
-all = [...document.querySelectorAll('*')].map(a => a.tagName)all.reduce((item, all) => {    if (item in all) {        all[item] = 1    } else { all[item] = 1 }    return all}, [])
-all=[...document.querySelectorAll('*')].map(a=>a.tagName)
-all=document.querySelectorAll('*').map(a=>a.tagName)
-d.addEventListener('click',(e)=>alert(e))
-d.addEventListener('click',()=>alert('hover'))
-d.addEventListener('hover',()=>alert('hover'))
-d.innerHTML
-document.body.prepend(d)
-document.body.preppend(d)
-document.body.append(d)
-d.innerHTML=thumbnailVideo
-d=document.createElement('div')
-    const thumbnailVideo = `    <button title="Image video" class="botones_div" type="button" id="imagen">    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-photo-down" width="24"      height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"      stroke-linecap="round" stroke-linejoin="round">      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>      <path d="M15 8h.01"></path>      <path d="M12.5 21h-6.5a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v6.5"></path>      <path d="M3 16l5 -5c.928 -.893 2.072 -.893 3 0l4 4"></path>      <path d="M14 14l1 -1c.653 -.629 1.413 -.815 2.13 -.559"></path>      <path d="M19 16v6"></path>      <path d="M22 19l-3 3l-3 -3"></path>    </svg>  </button>    `;
-p.innerHTML=mydata.join('<br>')
-mydata.join('\')
-p.innerHTML=mydata.join('\\br')
-p.textContent=mydata.join('\\br')
-p.textContent=mydata
-p=qs('.poem')
-qa
-p.innerHTML
-p=qa('.poem')
-p=qa('poem')
-mydata
-qa
-qs
-qs('.highlight')
-cls
-c
-qs
-c
-Hcopy()
-document.querySelectorAll('script').forEach(x=>x.remove())
-Hcopy()
-Hcopy
-ss
+new Set([...document.querySelectorAll('*')].map(a=>a.tagName)).sort().forEach(a=>log(a))
+new Set([...document.querySelectorAll('*')].map(a=>a.tagName)).sort.forEach(a=>log(a))
+new Set([...document.querySelectorAll('*')].map(a=>a.tagName)).forEach(a=>log(a))
+new Set([...document.querySelectorAll('*')].map(a=>a.tagName))
+[...document.querySelectorAll('*')].map(a=>a.tagName)
+[...document.querySelectorAll('[class]')].map(a=>a.className)
+document.querySelectorAll('[class]').map(a=>a.className)
+document.querySelectorAll('[class]')
+wtext
+gfetch(h)
+h=`${location.href}\\script.js`
+h
+h=`{$location.href}\\script.js`
+copy(`curl ${location.href}`)
+location.href
+qa('script').forEach(a=>log(a))
 qa('script')
-qa('script').forEach(a=>a.remove())
-qa
-strH
-h
-pp()
-pp
+qa('script').forEach(a=>log(a))
+log
 qs
-(function() {    "use strict"    console.log('fun')    x=2.71828    console.log(x)    delete x}())
-(function() {    "use strict"    console.log('fun')    x=2.71828    console.log(x)}())
-(function() {    "use strict"    console.log('fun')    x=2.71828}())
-(function() {    console.log('fun')}())
-"use strict";x = 3.14;   
-const style = document.createElement('style');style.innerHTML = /* css */ `  body {    background-color: #c2c2c2 !important;  }`;document.body.prepend(style)
-document.querySelectorAll('*').forEach(x=>x.remove())
-document.querySelectorAll('h1').forEach(x=>x.remove())
-document.querySelectorAll('p').forEach(x=>x.remove())
-document.querySelectorAll('script').forEach(x=>x.remove())
-document.querySelectorAll('style').forEach(x=>x.remove())
-document.querySelector('style').remove()
-document.querySelector('style')
-myscripts[1].innerHTML
-myscripts[1].src
-myscripts[1].textContent
-myscripts[1]
-copy(myscripts.join('\'))
-myscripts
-myh=myh.filter(a=>a.tagName!='SCRIPT').filter(c=>c.tagName!='STYLE')
-myh=myh.filter(a=>a.tagName!='SCRIPT')
-myh.filter(a=>a.tagName!='SCRIPT')
-myh.filter(a=>a.tagName=='SCRIPT').forEach(b=>console.log(b))
-myh.filter(a=>a.tagName=='SCRIPT').forEach(b=>b.remove())
-myh.filter(a=>a.tagName=='SCRIPT')
-myh[1].tagname
-myh[1]
-mhy[1]
-myh
-    myh.filter(a=>a.tagname==="SCRIPT")
-    myh.filter(a=>a.tagname=="SCRIPT")
-    myh.filter(a=>a.tagname="SCRIPT")
-myh.map(a=>a.tagName)
-myh
-const style = document.createElement('style');style.innerHTML = /* css */ `  body {    background-color: red !important;  }`;document.body.prepend(style)
-b.style.backgroundColor
-b=document.querySelector('body')
-const style = document.createElement('style');style.innerHTML = /* css */ `  body {    background-color: red !important;  }`;document.body.prepend(style)
-const style = document.createElement('style');style.innerHTML = /* css */ `  background {    background-color: red !important;  }`;document.body.prepend(style)
-b.addEventListener('click', ()=>uc(strH.join('\')))
-b.addEventListener('click', uc(strH.join('\')))
-strH
-b.addEventListener('click', uc(strH.join('\')))
-b.click()
-b.innerHTML
-d
-uc
-myh
-sth
-myword
-uc
-newf
-
-newf
-    (function () {        'use strict';        window.newf = () => {            alert('nnnn')        }        window.uc = async (content) => {            console.log(content);            // await navigator.clipboard.writeText(document.querySelector('html').outerHTML);            await navigator.clipboard.writeText(content)            console.log('Copied links!');        }    })()
-b
-showAlert
-window.showAlert = () => {    alert("sat night");}
-uc
-myh
-// ==UserScript==// @name        example.js// @namespace   http://hayageek.com// @include     *// @version     2.1// ==/UserScript==alert('hhhh')(function () {    'use strict';    window.newf = () => {        alert('nnnn')    }    window.uc = async (content) => {        console.log(content);        // await navigator.clipboard.writeText(document.querySelector('html').outerHTML);        await navigator.clipboard.writeText(content)        console.log('Copied links!');    }})()window.myword = ' evening'window.showAlert = () => {    alert("sat night");}strH = []myh = [...document.querySelectorAll('head>*')]myh.forEach(x => strH.push(x.outerHTML))let headCopy = () => {    uc(strH.join('\'))}b = document.createElement('button')b.innerHTML = 'now sat'b.style.cssText = "z-index: 3;position: fixed; top: 0; left: 0; width: 300px; border: 3px solid #73AD21; color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.prepend(b)strH = []myh = [...document.querySelectorAll('head>*')]myh.forEach(x => strH.push(x.outerHTML))function not() { alert('not') }b.addEventListener('click', uc(strH.join('\')))
-myword
-window.myword = ' evening'
-document.querySelectorAll('head>script').forEach(a=>a.remove())
-document.querySelector('head>style').remove()
-document.querySelectorAll('head>style')
-qs('head>style')
-strH.join('\')
-strH
-    window.uc = async (content) => {        console.log(content);        // await navigator.clipboard.writeText(document.querySelector('html').outerHTML);        await navigator.clipboard.writeText(content)        console.log('Copied links!');    }
-myh
-strH
-newf()
-newf(0
-newf
-console.log('not')
-not()
-strH
-myword
-myh
-myword
-fillArray=[...Array(10).keys()]
-for(var b in window) {   if(window.hasOwnProperty(b)) console.log(b); }
+qa('script').forEach(a.log(a))
+qa('script')
+ec = document.querySelectorAll('[class]')
+document.querySelectorAll('*').querySelector('*')
+document.querySelectorAll('*')
+function listCSSClasses () {  let classes = new Set()  let elementsWithClasses = document.querySelectorAll('[class]')  for (let element of elementsWithClasses) {    for (let className of element.classList) {      classes.add(className)    }  }  return [...classes].sort()}console.log(  'The page has the following classes:\  .' +  listCSSClasses().join('\  .'))
+new Set(af(ec).map(a=>a.className))
+af(ec).map(a=>a.className)
+ec.map(a=>a.className)
+ec.forEach(a=>log(a.className))
+ec.forEach(a=>log(a.class))
+ec[1].classList
+ec = document.querySelectorAll('[class]')
+elementsWithClasses = document.querySelectorAll('[class]')
+hr()
+window.hr=()=>{    document.querySelector('head').remove()}
+qs
+qa
+copy(hout)
+myHt()
+myHt(0
+qs('head').remove()
+copy(hout)
+myHt()
+qs('head').remove()
+copy(hout)
+hout
+myHt()
+myHt = () => { window.hout=document.querySelector('html').outerHTML }
+g
+myHt()
+myHt = () => { window.hout=document.querySelector('html').outerHTML }
+g=myHt()
+g=myHT()
+copy(myHt)
+myHt = () => { return document.querySelector('html').outerHTML }
+copy(qs('html').outerHTML)
+copy(qs('html').outerHTML
+qs('head').remove()
+[...h.children].forEach(a=>log(a))
+h.children
+h=qs('head')
+qa('head')
+copy(qs('head>*'))
+copy(qa('head>*'))
+qa('head>*')
+qa('head')
+document.querySelector('head').remove()
+qs('head')
+copy(qs('html').outerHTML)
+qs('head').remove()
+qs('head').remove
+copy(qs('head').querySelector('style').outerHTML)
+qs('head').querySelector('style').outerHTML
+qs('head').querySelector('style')
+document.styleSheets[1]
+document.styleSheets.[1]
+document.styleSheets.length
+document.styleSheets
+qs('head').remove()
+document.styleSheets
+q.style.cssText=myStyles
+const myStyles = `    display: block;    width: 80%;    background-color: red;    border: 2px;    font-size: 5em;    color: white;    margin: 20px;    padding-left: 10px;    padding-bottom: 10px;    border: 2px solid black;`;
+q.style.backgroundColor='#ccc'
+q.style.backgroundColor='#fff'
+q.style.backgroundColor='red'
+q.style.backgroundColor='f00'
+q.style
+q=qs('html')
+qa('style')
+qa('.card-section').forEach(a=>log(a.textContent))
+qa('.card-section').forEach(a=>log(a))
+qa('.card-section')
+copy(qs('html').outerHTML)
+qs('nav')
+qa('nav').forEach(a=>a.remove())
+qs('nav')
+qa('nav').forEach(a=>a.replaceChildren())
+qa('nav')
+qs('nav')
+qs('nav').replaceChildren()
+qa('nav')
+qs('nav')
+qs('head').remove()
+copy(qs('html').outerHTML)
+qs('html').outerHTML
+qs('head').remove()
+qs('head')
+qa('style')
+qs('style').innerHTML=`body {margin:25px;color:red;}div.polaroid {  width: 80%;  background-color: black;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  margin-bottom: 25px;}div.container {  text-align: center;  padding: 10px 20px;}`
+qs('style').innerHTML=`body {margin:25px;}div.polaroid {  width: 80%;  background-color: black;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  margin-bottom: 25px;}div.container {  text-align: center;  padding: 10px 20px;}`
+qs('style').innerHTML='body {margin:25px;}div.polaroid {  width: 80%;  background-color: black;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  margin-bottom: 25px;}div.container {  text-align: center;  padding: 10px 20px;}'
+copy(qs('style').innerHTML)
+qs('style').innerHTML
+qs('style')
 copy($0.href)
-$0.href
-copy($0.outerHTML)
-copy($0.href)
-console.log($0.href)
-$0.href
-copy($0.href)
-getEventListeners(h)
-h.addEventListener('click', function(){alert('html dblClick')})
-getEventListeners(h)
-h
-h.addEventListener('dblClick', function(){alert('html dblClick')})
-h
-h.removeEventListener('click')
-h=document.querySelector('html')
-getEventListeners(document.querySelector('html'))
-document.querySelector('html')
-h
-strH
-h.addEventListener('click',()=>uc('fruits'))
-uc
-h.addEventListener('click',uc('fruits'))
-h.addEventListener('click',uc('nuts'))
-h
-h=qs('html')
-h
-h.addEventListener('click',uc('nuts'))
-h=qa('html')
-uc
-uc('asfsdfsdfas')
-window.uc= async (content)=> {    console.log(content);    // await navigator.clipboard.writeText(document.querySelector('html').outerHTML);    await navigator.clipboard.writeText(content)    console.log('Copied links!');}
-so
-ss
+qa('.expanded')
+qa('.button')
+$0.className
+copy(mm)
+mm
+qa('a').forEach(a=>mm.push(a.outerHTML))
+mm=[]
+qa('a').forEach(a=>log(a.outerHTML))
+qa('a').forEach(a=>log(a.innerHTML))
+copy(mm)
+qa('a').forEach(a=>mm.push(a.innerHTML))
+mm=[]
+copy(mm)
+qa('a').forEach(a=>mm.push(a))
+mm=[]
+qa('a').forEach(a=>log(a))
+qa('a').forEach(a=>log(a.textContent))
+qa('a').forEach(a=>log(a))
+qa('a')
+[...qa('*')][1]
+[...qa('*')]
+[...qs('*')]
+qs('html').outerHTML
+qa('head').forEach(a=>a.remove())
+qa('script').forEach(a=>a.remove())
+qa('img').forEach(a=>a.remove())
+log(qa('style')[0].textContent)
+qa('style')[0].textContent
+qa('style')[0].outerHTML
+qa('style')[0]
+qa('style')
+qs('head')
+qs(head).children
+qa('head')
+elements = [ ...document.querySelectorAll("*:not(script, svg, meta, link,html,div)") ];
+elements = [ ...document.querySelectorAll("*:not(script, svg, meta, link,html)") ];
+elements = [ ...document.querySelectorAll("*:not(script, svg, meta, link)") ];
+elements = [ ...document.querySelectorAll("*:not(script, svg, meta)") ];
+elements = [ ...document.querySelectorAll("*:not(script, svg)") ];
+elements = [ ...document.querySelectorAll("*:not(script)") ];
+window.elements = [  ...document.querySelectorAll("*:not(svg)"),];
+window.elements = [  ...document.querySelectorAll("*:not(script)"),];
+qa('*').filter(a=>a.tagName==='SCRIPT')
+qa('*').filter(a=>a.tagName.toLowerCase==='script')
+qa('*').map(a=>a.tagName)
+qa('*').filter(a=>a.tagName==='script')
+qa('*').filter(a=>a.tagName=='script')
+qa('*').filter(a=>a.tagName='script')
+qa('script').forEach(a=>log(a))
+qa('script')
+Object.values(box.attributes).forEach(a=>log(a))
+Object.values(box.attributes)
+box=qs('.box')
+qs('bod'y).outerHTML
+refs
+refs = [  ...document.querySelectorAll(`[data-name*="funnel-chart-percent"]`),];
+qs('.center').children
+qs('.box').children
+qs('.box')
+myt
+all.forEach(a=>console.log(a))
+all
+all.forEach(a=>console.log(a))
+Array.isArray(all)
+all
+myt[5]
+all = [...document.querySelectorAll("*:not(head, style, noscript, script, meta,html, svg)")]
+all.map(a=>x)
+all=document.querySelectorAll("*:not(head, style, noscript, script, meta,html, svg)")
+myt
+mt
+document.querySelectorAll("*:not(head, style, noscript, script, meta,html, svg)")
+document.write(`<!DOCTYPE html><html><head></head><body>  <input type="text" id="textInput" placeholder="Press Enter...">  <script>    const textInput = document.getElementById('textInput');    textInput.addEventListener('keydown', (event) => {      if (event.key === 'Enter') {        console.log('Enter key pressed!');        // Perform desired actions here      }    });  </script></body></html>`)
+document.write('jjj')
+document.write(jjj)
+jjj
+jjj=`<!DOCTYPE html><html><head></head><body>  <input type="text" id="textInput" placeholder="Press Enter...">  <script>    const textInput = document.getElementById('textInput');    textInput.addEventListener('keydown', (event) => {      if (event.key === 'Enter') {        console.log('Enter key pressed!');        // Perform desired actions here      }    });  </script></body></html>`
+jjj=`<!DOCTYPE html><html><head></head><body>  <input type="text" id="textInput" placeholder="Press Enter...">  <script>    const textInput = document.getElementById('textInput');    textInput.addEventListener('keydown', (event) => {      if (event.key === 'Enter') {        console.log('Enter key pressed!');        // Perform desired actions here      }    });  </script></body></html>```
+jjj=22
+jjj
+jj='''<!DOCTYPE html><html><head></head><body>  <input type="text" id="textInput" placeholder="Press Enter...">  <script>    const textInput = document.getElementById('textInput');    textInput.addEventListener('keydown', (event) => {      if (event.key === 'Enter') {        console.log('Enter key pressed!');        // Perform desired actions here      }    });  </script></body></html>'''
+document.write('<!DOCTYPE html><html><head></head><body>  <input type="text" id="textInput" placeholder="Press Enter...">  <script>    const textInput = document.getElementById('textInput');    textInput.addEventListener('keydown', (event) => {      if (event.key === 'Enter') {        console.log('Enter key pressed!');        // Perform desired actions here      }    });  </script></body></html>')
+new Set([...document.querySelectorAll("*:not(style, noscript, script, meta,html, svg)")].map(a=>a.tagName))
+[...document.querySelectorAll("*:not(style, noscript, script, meta,html, svg)")].map(a=>a.tagName)
+copy(myt)
+myt=''document.querySelectorAll("*:not(head, style, noscript, script, meta,html, svg)").forEach(a=>myt+=(a.outerHTML))
+[...document.querySelectorAll("*:not(style, noscript, script, meta,html, svg)")].map(a=>a.tagName)
+qs('head').remove()
+[...document.querySelectorAll("*:not(style, noscript, script, meta,html, svg)")].map(a=>a.tagName)
+document.querySelectorAll("*:not(style, noscript, script, meta,html, svg)").map(a=>a.tagName)
+copy(myt)
+myt=''document.querySelectorAll("*:not(style, noscript, script, meta,html, svg)").forEach(a=>myt+=(a.outerHTML))
+af(ff).map(a=>a.tagName)
+ff
+ff.map(a=>a)
+ff=document.querySelectorAll("*:not(style, script, meta,html, svg)")
+myt=''document.querySelectorAll("*:not(style, script, meta,html, svg)").forEach(a=>myt+=(a.outerHTML))
+qa('script')
+qa
+copy(myt)
+myt=''document.querySelectorAll("*:not(style, script, meta,html, svg)").forEach(a=>myt+=(a.outerHTML))
+copy(myt)
+log(myt)
+myt
+myt=''document.querySelectorAll("*:not(style, script, meta,html)").forEach(a=>myt+=(a.outerHTML))
+log(myt)
+myt
+myt=[]document.querySelectorAll("*:not(style, script, meta,html)").forEach(a=>myt.push(a.outerHTML))
+myt
+myt=[]document.querySelectorAll("*:not(style, script, meta,html)").forEach(a=>myHt.push(a.outerHTML))
+myHt
+mHt
+copy(myHt.split('\'))
+copy(myHt)
+myHt
+myHT
+myHt=[]document.querySelectorAll("*:not(style, script, meta,html)").forEach(a=>myHt.push(a.outerHTML))
+copy(document.querySelectorAll("*:not(style, script, meta,html)").forEach(a=>log(a.outerHTML)))
+document.querySelectorAll("*:not(style, script, meta,html)").forEach(a=>log(a.outerHTML))
+document.querySelectorAll("*:not(style, script, meta,html)")
+window.elements = [  ...document.querySelectorAll("*:not(style, script, meta,html)"),];
+window.elements = [  ...document.querySelectorAll("*:not(style, script, meta)"),];
+window.elements = [  ...document.querySelectorAll("*:not(style, script)"),];
+window.elements = [  ...document.querySelectorAll("*:not(style)"),];
+qs
+wtext
+gfetch('https://raw.githubusercontent.com/wither7007/htmlTemplate/main/html/global.js')
+let gfetch = async (yyy) => {  let response = await fetch(yyy)  window.wtext = await response.text()  console.log(wtext)}
+var a = 458; // First numbervar b = 458;  // Second number var gcd; // Variable to store the Greatest Common Divisor (GCD)// Iterative loop to find GCD using Euclidean algorithmwhile (a != b) {    // If 'a' is greater than 'b', subtract 'b' from 'a'    if (a > b) {        a = a - b;    } else {        // If 'b' is greater than 'a', subtract 'a' from 'b'        b = b - a;    }}// The GCD is stored in 'a'gcd = a;// Output the calculated GCDconsole.log(gcd); 
+var a = 448; // First numbervar b = 458;  // Second number var gcd; // Variable to store the Greatest Common Divisor (GCD)// Iterative loop to find GCD using Euclidean algorithmwhile (a != b) {    // If 'a' is greater than 'b', subtract 'b' from 'a'    if (a > b) {        a = a - b;    } else {        // If 'b' is greater than 'a', subtract 'a' from 'b'        b = b - a;    }}// The GCD is stored in 'a'gcd = a;// Output the calculated GCDconsole.log(gcd); 
+var a = 2154; // First numbervar b = 458;  // Second number var gcd; // Variable to store the Greatest Common Divisor (GCD)// Iterative loop to find GCD using Euclidean algorithmwhile (a != b) {    // If 'a' is greater than 'b', subtract 'b' from 'a'    if (a > b) {        a = a - b;    } else {        // If 'b' is greater than 'a', subtract 'a' from 'b'        b = b - a;    }}// The GCD is stored in 'a'gcd = a;// Output the calculated GCDconsole.log(gcd); 
+        a = a - b;
+2%7
+2%6
+var x, y, chr;// Outer loop for rowsfor (x = 1; x <= 6; x++) {    // Inner loop for characters in each row    for (y = 1; y < x; y++) {        // Accumulate asterisks in the 'chr' variable        chr = chr + ("*");    }    // Print the accumulated characters for the current row    console.log(chr);    // Reset 'chr' for the next row    chr = '';} 
+for (t=0;t<26;t++) {chr = chr +('*')}
+chr=''
+for (t=0;t<26;t++) {chr = chr +('*')}
+var chr
+for (t=0;t<26;t++) {chr = chr +('*')}
+let chr
+for (t=0;t<26;t++) {chr = chr +('*')}
+let chr
+for (t=0;t<26;t++) {chr = chr +('*')}
+chr
+for (t=0;t<6;t++) {chr = chr +('*')}
+chr
+for (t=0;t<6;t++) {chr = chr +('*')}
+chr=chr+('*')
+chr
+var x, y, chr;// Outer loop for rowsfor (x = 1; x <= 6; x++) {    // Inner loop for characters in each row    for (y = 1; y < x; y++) {        // Accumulate asterisks in the 'chr' variable        chr = chr + ("*");    }    // Print the accumulated characters for the current row    console.log(chr);    // Reset 'chr' for the next row    chr = '';} 
+chr
+chr = chr + ("*");
+var chr
+ccc
+ccc=ccc+'*'
+ccc
+ccc+='*'
+let ccc
+ccc+='*'
+for (m=1;m<5;m++){console.log(m)}
+a
+for (a=1;a<5;a++) {chr+='*'}
+for (a=1;a<5;) {chr=+'*'}
+for (i = 0; i < 3; i++)    for (x = 0; x < i; i++) { console.log(i) }
+for (i=0;i<3;i++){console.log(i)}
+large(20,3)
+large(2,3)
+function large(x,y){    if (x>y) {        return x    }    else {        return y    }}
+v
+p
+v=p??'non'
+p===null
+p==null
+let p
+''==null
+''===null
+s=obj.income||2
+s
+s=obj.income??2
+obj.income
+let obj={    name: "Rachel",    age: 17}
+typeof sam==='undefined'
+sam=2
