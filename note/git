@@ -1,8 +1,11 @@
+fdm | xargs stat -c '%a'
+https://www.baeldung.com/linux/ssh-key-permissions
 git checkout -b old-state 0d1d7fc32
 
 # This will destroy any local modifications.
 # Don't do it if you have uncommitted work you want to keep.
 git reset --hard 0d1d7fc32
+
 
 # Alternatively, if there's work to keep:
 git stash
@@ -13,6 +16,16 @@ git stash pop
 # changed since the commit you reset to.
 git checkout -b old-state 83b7d945ed8
 
+
+git config --global user.name jamessteffes
+git config --global user.email jimsteffes2253@gmail.com
+
+curl -s https://api.github.com/repos/go-gitea/gitea/releases/latest \
+    | jq -r '.assets[]
+             | .browser_download_url
+             | select(endswith("linux-amd64"))'
+
+https://github.com/noahgorstein/jqp
 
 
 

@@ -1,0 +1,13 @@
+
+pick 7bf7595 clean before git
+pick d810e21 clean before git
+pick a9a8089 clean before git
+edit 61e4be0 trash gh/hosts.yml
+edit 0cec2f6 trash gh/hosts.yml
+pick 7c59c59 fixing push
+
+pick
+
+~ [main] % git rebase -i 7bf7595f7bf0~1
+Stopped at 31be6b1...  gh/hosts.yml
+You can amend the commit now, with

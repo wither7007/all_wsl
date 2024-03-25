@@ -1,4 +1,247 @@
 
+removeL(b)
+b=qs('button')
+removeL(b)
+qs('button').addEventListener('click',()=>log('newc'))
+qs('button')
+b
+b.addEventListener('click',()=>log('click'))
+removeL(b)
+tar(b)
+b
+removeL=(tar)=>{tar.replaceWith(tar.cloneNode(true));}
+b.addEventListener('click',()=>log('click'))
+document.body.prepend(b)
+b.textContent='copy'
+b=document.createElement('button')
+qs('button')
+b
+b.addEventListener("click", () => log('kkk'));
+b.addEventListener("click", () => log('kkk');
+b
+b.addEventListener("click", () => writeClipboardText("peek"));
+b.replaceWith(b.cloneNode(true));
+b.addEventListener("click", () => writeClipboardText("pee"));
+b.addEventListener("click", () => writeClipboardText("poop"));
+b.addEventListener("dblclick", () => writeClipboardText("new"));
+b.addEventListener("click", () => writeClipboardText("<empty clipboard>"));
+b
+button
+async function writeClipboardText(text) {  try {    await navigator.clipboard.writeText(text);  } catch (error) {    console.error(error.message);  }}
+b
+b.textContent='button'
+document.body.prepend(b)
+b=document.createElement('button')
+writeClipboardText('hello')
+async function writeClipboardText(text) {  try {    await navigator.clipboard.writeText(text);  } catch (error) {    console.error(error.message);  }}
+qa('img').forEach(a=>log(a))
+qa('img')
+copy($0.href)
+$0.href
+$0
+document.querySelector('div').style="width: 20px; height: 20px; color: red;"
+document.querySelector('body').style="div { width: 20px; height: 20px; color: red; }"
+document.querySelector('body').style=div { width: 20px; height: 20px; color: red; }
+document.querySelector('body').style="div { width: 20px; height: 20px; }"
+qa('div')
+qa('img')
+document.querySelector('body').style="DIV { width: 20px; height: 20px; }"
+document.querySelector('body').style="img { width: 20px; height: 20px; }"
+document.querySelector('body').style="border-top: 100px solid black; border-bottom: 200px solid pink;"
+document.querySelector('body').style="border-top: 100px solid black"
+document.querySelector('body').style="border-top: 400px solid black"
+document.querySelector('body').style="border-top: 100px solid black"
+metaTags
+const metaTags = document.getElementsByTagName('meta');
+document.body.querySelectorAll('*')
+document.body
+af(document.head.children).forEach(a=>log(a))
+document.head.children
+hrm()
+injectCSS(c)
+c=`body {\tfont-family: verdana, arial, sans-serif ;\tfont-size: 18px ;}`
+window.injectCSS = css => {    let el = document.createElement('style');    el.type = 'text/css';    el.innerText = css;    document.head.appendChild(el);    return el;};
+copy(yy)
+yy=ax.split(' ').sort()
+window.CanadianProvinces
+ax.split(' ').sort()
+ax.split(' ')
+ax.sort()
+ax
+for (a in window) {ax+=(`${a} `)}
+ax=''
+for (a in window) {log(a)}
+window.location.url
+window.location.reload()
+hrm()
+const injectCSS = css => {    let el = document.createElement('style');    el.type = 'text/css';    el.innerText = css;    document.head.appendChild(el);    return el;};injectCSS('body { background-color: #fff }');injectCSS('img { width: 20px; height: 20px; }')
+injectCSS('img { width: 20px; height: 20px; }')
+const injectCSS = css => {    let el = document.createElement('style');    el.type = 'text/css';    el.innerText = css;    document.head.appendChild(el);    return el;};injectCSS('body { background-color: #fff }');
+copy(hout)
+myht()
+help()
+const injectCSS = css => {  let el = document.createElement('style');  el.type = 'text/css';  el.innerText = css;  document.head.appendChild(el);  return el;};injectCSS('body { background-color: #fff }');injectCSS('img { width: 20px; height: 20px; }')
+hrm()
+help
+qa
+injectCSS('body { background-color: #fff }');
+const injectCSS = css => {  let el = document.createElement('style');  el.type = 'text/css';  el.innerText = css;  document.head.appendChild(el);  return el;};injectCSS('body { background-color: #000 }');injectCSS('img { width: 20px; height: 20px; }')
+const injectCSS = css => {  let el = document.createElement('style');  el.type = 'text/css';  el.innerText = css;  document.head.appendChild(el);  return el;};injectCSS('body { background-color: #000 }');
+mycon=`body {    background-color: #f00;}`
+    var style = document.createElement("style");    style.type = "text/css";
+document.querySelectorAll('link[rel="stylesheet"]')[1].remove()
+document.querySelectorAll('link[rel="stylesheet"]')[1]
+document.querySelectorAll('link[ref="stylesheet"]');
+document.querySelectorAll('link[ref="stylesheet"]')
+document.querySelectorAll('link[rel="stylesheet"]');
+document.querySelectorAll('link[ref="stylesheet"]');
+boxes
+const boxes = document.querySelectorAll('link[ref="style"]');
+qs('[ref]')
+qs('body').style.cssText='img: width:2px'
+qa('style')
+document.head.querySelectorAll('link')
+document.head.querySelectorAll('style')
+copy(hout)
+myht()
+document.body.remove()
+copy(hout)
+myht()
+help()
+hrm()
+document.styleSheets[0].parent
+document.styleSheets[0].parentStyleSheet
+document.styleSheets[0]
+document.styleSheets
+o[0]
+o[1]
+o.sort()
+o[1]
+o
+o.forEach(a=>log(a))
+o=Object.entries(fr)
+o=Object.entries(fr).join('\')
+copy(Object.entries(fr).join('\'))
+copy(Object.entries(fr))
+Object.entries(fr)[1]
+Object.entries(fr)
+fr
+fr=frequencies(all)
+new=frequencies(all)
+all
+frequencies(all)
+all=af(document.querySelectorAll('*')).map(a=>a.tagName)
+af(document.querySelectorAll('*')).map(a=>a.tagName)
+document.querySelectorAll('*').map(a=>a.tagName)
+document.body.querySelectorAll('script')
+document.head.querySelectorAll('script')
+document.head.querySelector('script')
+document.head.children
+document.head
+document.styleSheets
+hrm
+hrm()
+help()
+qa
+help()
+copy(style)
+af(document.styleSheets).forEach(a=>style+=(a.href)+'\')
+style=''
+af(document.styleSheets).forEach(a=>style+=(a.href)+'\')
+style
+af(document.styleSheets).forEach(a=>style+=(a.href))
+style=''
+af(document.styleSheets).forEach(a=>log(a.href))
+af(document.styleSheets)
+document.styleSheets[2]
+document.styleSheets
+copy(qs('head').outerHTML)
+hrm()
+help()
+let help = () => {    console.log('hrm-remove head\myht-copy html to hout')}
+help()
+let help = () => {    console.log('hrm-remove head\ myht-copy html to hout')}
+help()
+let help = () => {    console.log('hrm-remove head, myht-copy html to hout')}
+copy($0.href)
+[...document.styleSheets]
+qs('head').remove()
+qs('head').remove
+[...document.styleSheets]
+document.styleSheets[0].removeRule()
+document.styleSheets[0].removeRule
+[...document.styleSheets]
+removeStylesheet()
+\t\tfunction removeStylesheet() {\t\t\tdocument.head.querySelector( "style" )\t\t\t\t?.remove()\t\t\t;\t\t}
+[...document.styleSheets]
+[...document.styleSheets].forEach(a=>a.remove)
+[...document.styleSheets][1].remove()
+[...document.styleSheets][1].remove
+[...document.styleSheets]
+[...document.styleSheets].forEach(a=>a.remove)
+[...document.styleSheets].forEach(a=>a.remove))
+qs('style').remove()
+qs('style').outerHTML
+qa('style')
+copy(ss[0].href)
+ss[0].href
+ss[0]
+ss[0].cssRules
+ss[0]
+ss.forEach(a=>log(a.href))
+ss[1].href
+ss[1].cssRules
+ss[1]
+ss=[...document.styleSheets]
+copy($0.style.backgroundImage)
+$0.style.backgroundImage.url
+$0.style.backgroundImage
+$0.style
+$0.style.background-image
+$0.style
+$0.removeAttribute('class');
+document.styleSheets.length
+document.styleSheets
+$0.classList.remove('banner-content');
+$0.classList.remove('banner-heading');
+$0.classList
+$0.classLis
+$0.classList.remove('banner-heading');
+$0.classList.removeClass('banner-heading');
+$0
+$0.classList.removeClass('banner-heading')
+$0.classList
+$0.className
+$0.cssText
+$0.style
+const myStyles = `    display: block;    width: 20px;    height: 20px;    background-color: red;    border: 2px;    font-size: 5em;    color: white;    margin: 20px;    padding-left: 10px;    padding-bottom: 10px;    border: 2px solid black;`;[...document.querySelectorAll('img')].forEach(a=>a.style.cssText=myStyles)
+[...document.querySelectorAll('img')].forEach(a=>a.style.width='50px')
+new Set([...qs('body').querySelectorAll('*')].map(a=>a.tagName))
+[...qs('body').querySelectorAll('*')].map(a=>a.tagName)
+qs('body').querySelectorAll('*').map(a=>a.tagName)
+qs('body').querySelectorAll('*')
+qs('body').style
+document.styles
+document.querySelector('svg')
+document.querySelector('*').querySelectorAll('script').forEach(a=>log(a))
+document.querySelector('*').querySelectorAll('script')
+document.querySelector('*').querySelector('script')
+document.querySelector('*').querySelector('*')
+document.querySelectorAll('*').querySelector('*')
+qa('script')
+document.querySelectorAll('*').querySelector('meta')
+a
+a.querySelector('link')
+a=qa('*')
+    copy(document.querySelector('head').outerHTML)
+    copy(document.query('head').outerHTML)
+copy(hout)
+myht()
+hrm()
+hrm
+hout
+myht()
+hout
 new Set([...document.querySelectorAll('*')].map(a=>a.tagName)).sort().forEach(a=>log(a))
 new Set([...document.querySelectorAll('*')].map(a=>a.tagName)).sort.forEach(a=>log(a))
 new Set([...document.querySelectorAll('*')].map(a=>a.tagName)).forEach(a=>log(a))
@@ -56,246 +299,3 @@ g=myHT()
 copy(myHt)
 myHt = () => { return document.querySelector('html').outerHTML }
 copy(qs('html').outerHTML)
-copy(qs('html').outerHTML
-qs('head').remove()
-[...h.children].forEach(a=>log(a))
-h.children
-h=qs('head')
-qa('head')
-copy(qs('head>*'))
-copy(qa('head>*'))
-qa('head>*')
-qa('head')
-document.querySelector('head').remove()
-qs('head')
-copy(qs('html').outerHTML)
-qs('head').remove()
-qs('head').remove
-copy(qs('head').querySelector('style').outerHTML)
-qs('head').querySelector('style').outerHTML
-qs('head').querySelector('style')
-document.styleSheets[1]
-document.styleSheets.[1]
-document.styleSheets.length
-document.styleSheets
-qs('head').remove()
-document.styleSheets
-q.style.cssText=myStyles
-const myStyles = `    display: block;    width: 80%;    background-color: red;    border: 2px;    font-size: 5em;    color: white;    margin: 20px;    padding-left: 10px;    padding-bottom: 10px;    border: 2px solid black;`;
-q.style.backgroundColor='#ccc'
-q.style.backgroundColor='#fff'
-q.style.backgroundColor='red'
-q.style.backgroundColor='f00'
-q.style
-q=qs('html')
-qa('style')
-qa('.card-section').forEach(a=>log(a.textContent))
-qa('.card-section').forEach(a=>log(a))
-qa('.card-section')
-copy(qs('html').outerHTML)
-qs('nav')
-qa('nav').forEach(a=>a.remove())
-qs('nav')
-qa('nav').forEach(a=>a.replaceChildren())
-qa('nav')
-qs('nav')
-qs('nav').replaceChildren()
-qa('nav')
-qs('nav')
-qs('head').remove()
-copy(qs('html').outerHTML)
-qs('html').outerHTML
-qs('head').remove()
-qs('head')
-qa('style')
-qs('style').innerHTML=`body {margin:25px;color:red;}div.polaroid {  width: 80%;  background-color: black;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  margin-bottom: 25px;}div.container {  text-align: center;  padding: 10px 20px;}`
-qs('style').innerHTML=`body {margin:25px;}div.polaroid {  width: 80%;  background-color: black;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  margin-bottom: 25px;}div.container {  text-align: center;  padding: 10px 20px;}`
-qs('style').innerHTML='body {margin:25px;}div.polaroid {  width: 80%;  background-color: black;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  margin-bottom: 25px;}div.container {  text-align: center;  padding: 10px 20px;}'
-copy(qs('style').innerHTML)
-qs('style').innerHTML
-qs('style')
-copy($0.href)
-qa('.expanded')
-qa('.button')
-$0.className
-copy(mm)
-mm
-qa('a').forEach(a=>mm.push(a.outerHTML))
-mm=[]
-qa('a').forEach(a=>log(a.outerHTML))
-qa('a').forEach(a=>log(a.innerHTML))
-copy(mm)
-qa('a').forEach(a=>mm.push(a.innerHTML))
-mm=[]
-copy(mm)
-qa('a').forEach(a=>mm.push(a))
-mm=[]
-qa('a').forEach(a=>log(a))
-qa('a').forEach(a=>log(a.textContent))
-qa('a').forEach(a=>log(a))
-qa('a')
-[...qa('*')][1]
-[...qa('*')]
-[...qs('*')]
-qs('html').outerHTML
-qa('head').forEach(a=>a.remove())
-qa('script').forEach(a=>a.remove())
-qa('img').forEach(a=>a.remove())
-log(qa('style')[0].textContent)
-qa('style')[0].textContent
-qa('style')[0].outerHTML
-qa('style')[0]
-qa('style')
-qs('head')
-qs(head).children
-qa('head')
-elements = [ ...document.querySelectorAll("*:not(script, svg, meta, link,html,div)") ];
-elements = [ ...document.querySelectorAll("*:not(script, svg, meta, link,html)") ];
-elements = [ ...document.querySelectorAll("*:not(script, svg, meta, link)") ];
-elements = [ ...document.querySelectorAll("*:not(script, svg, meta)") ];
-elements = [ ...document.querySelectorAll("*:not(script, svg)") ];
-elements = [ ...document.querySelectorAll("*:not(script)") ];
-window.elements = [  ...document.querySelectorAll("*:not(svg)"),];
-window.elements = [  ...document.querySelectorAll("*:not(script)"),];
-qa('*').filter(a=>a.tagName==='SCRIPT')
-qa('*').filter(a=>a.tagName.toLowerCase==='script')
-qa('*').map(a=>a.tagName)
-qa('*').filter(a=>a.tagName==='script')
-qa('*').filter(a=>a.tagName=='script')
-qa('*').filter(a=>a.tagName='script')
-qa('script').forEach(a=>log(a))
-qa('script')
-Object.values(box.attributes).forEach(a=>log(a))
-Object.values(box.attributes)
-box=qs('.box')
-qs('bod'y).outerHTML
-refs
-refs = [  ...document.querySelectorAll(`[data-name*="funnel-chart-percent"]`),];
-qs('.center').children
-qs('.box').children
-qs('.box')
-myt
-all.forEach(a=>console.log(a))
-all
-all.forEach(a=>console.log(a))
-Array.isArray(all)
-all
-myt[5]
-all = [...document.querySelectorAll("*:not(head, style, noscript, script, meta,html, svg)")]
-all.map(a=>x)
-all=document.querySelectorAll("*:not(head, style, noscript, script, meta,html, svg)")
-myt
-mt
-document.querySelectorAll("*:not(head, style, noscript, script, meta,html, svg)")
-document.write(`<!DOCTYPE html><html><head></head><body>  <input type="text" id="textInput" placeholder="Press Enter...">  <script>    const textInput = document.getElementById('textInput');    textInput.addEventListener('keydown', (event) => {      if (event.key === 'Enter') {        console.log('Enter key pressed!');        // Perform desired actions here      }    });  </script></body></html>`)
-document.write('jjj')
-document.write(jjj)
-jjj
-jjj=`<!DOCTYPE html><html><head></head><body>  <input type="text" id="textInput" placeholder="Press Enter...">  <script>    const textInput = document.getElementById('textInput');    textInput.addEventListener('keydown', (event) => {      if (event.key === 'Enter') {        console.log('Enter key pressed!');        // Perform desired actions here      }    });  </script></body></html>`
-jjj=`<!DOCTYPE html><html><head></head><body>  <input type="text" id="textInput" placeholder="Press Enter...">  <script>    const textInput = document.getElementById('textInput');    textInput.addEventListener('keydown', (event) => {      if (event.key === 'Enter') {        console.log('Enter key pressed!');        // Perform desired actions here      }    });  </script></body></html>```
-jjj=22
-jjj
-jj='''<!DOCTYPE html><html><head></head><body>  <input type="text" id="textInput" placeholder="Press Enter...">  <script>    const textInput = document.getElementById('textInput');    textInput.addEventListener('keydown', (event) => {      if (event.key === 'Enter') {        console.log('Enter key pressed!');        // Perform desired actions here      }    });  </script></body></html>'''
-document.write('<!DOCTYPE html><html><head></head><body>  <input type="text" id="textInput" placeholder="Press Enter...">  <script>    const textInput = document.getElementById('textInput');    textInput.addEventListener('keydown', (event) => {      if (event.key === 'Enter') {        console.log('Enter key pressed!');        // Perform desired actions here      }    });  </script></body></html>')
-new Set([...document.querySelectorAll("*:not(style, noscript, script, meta,html, svg)")].map(a=>a.tagName))
-[...document.querySelectorAll("*:not(style, noscript, script, meta,html, svg)")].map(a=>a.tagName)
-copy(myt)
-myt=''document.querySelectorAll("*:not(head, style, noscript, script, meta,html, svg)").forEach(a=>myt+=(a.outerHTML))
-[...document.querySelectorAll("*:not(style, noscript, script, meta,html, svg)")].map(a=>a.tagName)
-qs('head').remove()
-[...document.querySelectorAll("*:not(style, noscript, script, meta,html, svg)")].map(a=>a.tagName)
-document.querySelectorAll("*:not(style, noscript, script, meta,html, svg)").map(a=>a.tagName)
-copy(myt)
-myt=''document.querySelectorAll("*:not(style, noscript, script, meta,html, svg)").forEach(a=>myt+=(a.outerHTML))
-af(ff).map(a=>a.tagName)
-ff
-ff.map(a=>a)
-ff=document.querySelectorAll("*:not(style, script, meta,html, svg)")
-myt=''document.querySelectorAll("*:not(style, script, meta,html, svg)").forEach(a=>myt+=(a.outerHTML))
-qa('script')
-qa
-copy(myt)
-myt=''document.querySelectorAll("*:not(style, script, meta,html, svg)").forEach(a=>myt+=(a.outerHTML))
-copy(myt)
-log(myt)
-myt
-myt=''document.querySelectorAll("*:not(style, script, meta,html)").forEach(a=>myt+=(a.outerHTML))
-log(myt)
-myt
-myt=[]document.querySelectorAll("*:not(style, script, meta,html)").forEach(a=>myt.push(a.outerHTML))
-myt
-myt=[]document.querySelectorAll("*:not(style, script, meta,html)").forEach(a=>myHt.push(a.outerHTML))
-myHt
-mHt
-copy(myHt.split('\'))
-copy(myHt)
-myHt
-myHT
-myHt=[]document.querySelectorAll("*:not(style, script, meta,html)").forEach(a=>myHt.push(a.outerHTML))
-copy(document.querySelectorAll("*:not(style, script, meta,html)").forEach(a=>log(a.outerHTML)))
-document.querySelectorAll("*:not(style, script, meta,html)").forEach(a=>log(a.outerHTML))
-document.querySelectorAll("*:not(style, script, meta,html)")
-window.elements = [  ...document.querySelectorAll("*:not(style, script, meta,html)"),];
-window.elements = [  ...document.querySelectorAll("*:not(style, script, meta)"),];
-window.elements = [  ...document.querySelectorAll("*:not(style, script)"),];
-window.elements = [  ...document.querySelectorAll("*:not(style)"),];
-qs
-wtext
-gfetch('https://raw.githubusercontent.com/wither7007/htmlTemplate/main/html/global.js')
-let gfetch = async (yyy) => {  let response = await fetch(yyy)  window.wtext = await response.text()  console.log(wtext)}
-var a = 458; // First numbervar b = 458;  // Second number var gcd; // Variable to store the Greatest Common Divisor (GCD)// Iterative loop to find GCD using Euclidean algorithmwhile (a != b) {    // If 'a' is greater than 'b', subtract 'b' from 'a'    if (a > b) {        a = a - b;    } else {        // If 'b' is greater than 'a', subtract 'a' from 'b'        b = b - a;    }}// The GCD is stored in 'a'gcd = a;// Output the calculated GCDconsole.log(gcd); 
-var a = 448; // First numbervar b = 458;  // Second number var gcd; // Variable to store the Greatest Common Divisor (GCD)// Iterative loop to find GCD using Euclidean algorithmwhile (a != b) {    // If 'a' is greater than 'b', subtract 'b' from 'a'    if (a > b) {        a = a - b;    } else {        // If 'b' is greater than 'a', subtract 'a' from 'b'        b = b - a;    }}// The GCD is stored in 'a'gcd = a;// Output the calculated GCDconsole.log(gcd); 
-var a = 2154; // First numbervar b = 458;  // Second number var gcd; // Variable to store the Greatest Common Divisor (GCD)// Iterative loop to find GCD using Euclidean algorithmwhile (a != b) {    // If 'a' is greater than 'b', subtract 'b' from 'a'    if (a > b) {        a = a - b;    } else {        // If 'b' is greater than 'a', subtract 'a' from 'b'        b = b - a;    }}// The GCD is stored in 'a'gcd = a;// Output the calculated GCDconsole.log(gcd); 
-        a = a - b;
-2%7
-2%6
-var x, y, chr;// Outer loop for rowsfor (x = 1; x <= 6; x++) {    // Inner loop for characters in each row    for (y = 1; y < x; y++) {        // Accumulate asterisks in the 'chr' variable        chr = chr + ("*");    }    // Print the accumulated characters for the current row    console.log(chr);    // Reset 'chr' for the next row    chr = '';} 
-for (t=0;t<26;t++) {chr = chr +('*')}
-chr=''
-for (t=0;t<26;t++) {chr = chr +('*')}
-var chr
-for (t=0;t<26;t++) {chr = chr +('*')}
-let chr
-for (t=0;t<26;t++) {chr = chr +('*')}
-let chr
-for (t=0;t<26;t++) {chr = chr +('*')}
-chr
-for (t=0;t<6;t++) {chr = chr +('*')}
-chr
-for (t=0;t<6;t++) {chr = chr +('*')}
-chr=chr+('*')
-chr
-var x, y, chr;// Outer loop for rowsfor (x = 1; x <= 6; x++) {    // Inner loop for characters in each row    for (y = 1; y < x; y++) {        // Accumulate asterisks in the 'chr' variable        chr = chr + ("*");    }    // Print the accumulated characters for the current row    console.log(chr);    // Reset 'chr' for the next row    chr = '';} 
-chr
-chr = chr + ("*");
-var chr
-ccc
-ccc=ccc+'*'
-ccc
-ccc+='*'
-let ccc
-ccc+='*'
-for (m=1;m<5;m++){console.log(m)}
-a
-for (a=1;a<5;a++) {chr+='*'}
-for (a=1;a<5;) {chr=+'*'}
-for (i = 0; i < 3; i++)    for (x = 0; x < i; i++) { console.log(i) }
-for (i=0;i<3;i++){console.log(i)}
-large(20,3)
-large(2,3)
-function large(x,y){    if (x>y) {        return x    }    else {        return y    }}
-v
-p
-v=p??'non'
-p===null
-p==null
-let p
-''==null
-''===null
-s=obj.income||2
-s
-s=obj.income??2
-obj.income
-let obj={    name: "Rachel",    age: 17}
-typeof sam==='undefined'
-sam=2

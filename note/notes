@@ -1,6 +1,33 @@
-dhh
-nystrom 3-6 
+office at 1-844-697-8766 if you have questions or concerns about your upcoming video conference appointment.
+
+Your video visit appointment with your provider, Caitlyn Juntunen, is scheduled for:
+Wednesday, Mar 27, 9:30 AM, CDT 2024 
+check e-mail
 dhh worker
+
+Mental Health Clinic
+2215 E. Lake St, Suite 500
+2215 E. Lake Streeet
+Suite 500
+MINNEAPOLIS MN 55407
+‪612-596-9438‬
+Monday 3-25 2:10
+
+chloe
+612-704-2897
+
+NorthPoint Main Campus
+Ides of march
+Monday April 8
+11:10
+800 West Broadway Minneapolis, MN 55411
+Minneapolis, MN 55411
+Hennepin Health cab 04745519
+
+nystrom
+651 529 8671
+march 27th 9:30
+Thu Mar 14 14:49:15 CDT 2024
 
 Andrea J Steele
 Department: Mental Health Clinic
@@ -11,35 +38,59 @@ Arrival time:  9:40 AM CDT
 Suite 500
 Minneapolis Mn 55407
 
-NorthPoint Main Campus
-Ides of march
-800 West Broadway Minneapolis, MN 55411
-Minneapolis, MN 55411
-Hennepin Health cab 04745519
+Chloe ID
+Bob 
 
-Farooqua B Jafri
-Office Visit with Farooqua B Jafri
-Monday March 25, 2024
-Arrive by 2:10 PM CDT
-2215 East Lake Street
-Suite 500
-Minneapolis Mn 55407
-‪612-596-9438‬
+John Hillock
+612-299-2033 push 1
 
 
 nystrom 651 529 8671
 Robert wednesday march 6th 8:00 am
 
+work
+
+https://blog.gitguardian.com/8-easy-steps-to-set-up-multiple-git-accounts/
+The bassist is John Clayton!
+const boxes = document.querySelectorAll('div[class*="box"]');
+const elements1 = document.querySelectorAll(
+  'input[type="text"]',
+);
+const elements = Array.from(document.getElementsByTagName('input'));
+console.log(elements); // 👉️ [input#first_name, input#age]
+
+of gets rid of index
+for (const element of elements) {
+  console.log(element);
+}
 dmv 
 Q747-127-227-818
 10/26/1964
 
 Tim Berners-Lee
+Derek Antony Parfit transporter
+
+Philosophiæ Naturalis Principia Mathematica 
+ first published on 5 July 1687
 
 https://alvarotrigo.com/blog/change-css-javascript/
 
 kurzgetsagt
 https://www.youtube.com/watch?v=isdLel273rQ
+
+git indepth
+https://www.youtube.com/watch?v=aolI_Rz0ZqY&t=539s
+
+https://github.com/wither7007/htmlTemplate/blob/main/html/script.js
+https://raw.githubusercontent.com/wither7007/htmlTemplate/main/html/script.js
+
+gh repo create .
+gh repo create 
+gh repo view
+gh repo view | nvim -
+gh repo view --web  #view github
+gh auth login
+gh repo create
 
 gpt indepth
 https://www.youtube.com/watch?v=kCc8FmEb1nY
@@ -80,13 +131,10 @@ Fax: 612-329-4500
 2215 East Lake Street
 Minneapolis, MN 55407
 612-596-9438.
-Monday, Thursday, Friday: 8 a.m. to 5 p.m.
-Tuesday: 9:30 a.m. to 5 p.m.
-Wednesday: 8 a.m. to 6 p.m.
+
 Hennepin Health cab 04745519
 612 596 1036
 punch for ride 1131
-Hennepin Health cab 04745519
 
 1313 Penn Avenue North
 Minneapolis, MN 55411/22 2:00
@@ -204,8 +252,11 @@ javascript remove comments regex
 
 bubble sort, quick sort, heap sort, or mergesort algorithms
 
-curl https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/data\?alt\=json\&key\=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs | nvim -
 
+document.addEventListener('DOMContentLoaded', function () {
+console.log('load');
+    });
+});
 #npx prettier --write one.js
 https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
 https://stackoverflow.com/questions/14975737/regular-expression-to-remove-comment
@@ -248,6 +299,8 @@ Array.from(document.querySelectorAll("*")).forEach(element => {
         console.log(element, events)
     }
 })
+const boxes = document.querySelectorAll('div[class*="box"]');
+document.querySelectorAll('link[rel="stylesheet"]');
 function css(e) {
   // Defining all our CSS styles
   const myStyles = `
@@ -585,7 +638,6 @@ find . -iregex '.*\.\(jpg\|gif\|png\|jpeg\)$'
 (\n find /mnt/c/you/ -regex '.*\.\(mp4\|mp3\)' > /mnt/c/temp/m.txt 2>yy & \n )
 standard error https://www.cyberciti.biz/faq/how-to-redirect-standard-error-in-bash/
 redirect bash man
-man vim | col -b > textfile.txt
 https://stackoverflow.com/questions/617182/how-can-i-suppress-all-output-from-a-command-using-bash
 https://www.tutorialspoint.com/redirect-output-of-process-to-a-file-and-streams
 https://stackoverflow.com/questions/56336084/move-files-that-no-not-contain-specific-string
@@ -600,6 +652,12 @@ https://www.youtube.com/watch?v=o06MyVhYte4
 img='https://unsplash.it/1920/1080/?random'
 imgdata=requests.get(img).content
 open('1.jpg','wb').write(imgdata)
+
+linux to windows
+def ltow(ff):
+  #linux to windows
+  return ff.replace('/mnt/c/','c:\\').replace('/','\\')
+  
 
 request list of files
 def last(x):
@@ -619,8 +677,8 @@ data=open('har.json', 'r', encoding='utf-8').read().strip().split('\n')
 data=open('curl.html','w', encoding='utf-8').write(page)
 open('xx', 'w', encoding='utf-8').write(pp)
 open('xx', 'w').writelines(str(ll[c]))
-open('xx', 'w', encoding='utf-8').write("\n".join(data))
-myfile=[line.strip() for line in open("bsp2.py")]
+open('xx', 'w', encoding='utf-8').write("\n".join(xx))
+myfile=[line.strip() for line in open("new")]
 f'{2**32:_}'
 #!/usr/bin/env python
   
@@ -761,21 +819,20 @@ def ct(x):
     rt=time.strftime("%m/%d/%Y, %H:%M:%S", time.localtime(nt))
     return rt
 
-truck-stop rest room
-2nd base is anal
-japanese sex robot
-
-find .  -maxdepth 2 -type f -exec file {} + | grep SQLite
 
 drum machine
 https://news.ycombinator.com/item?id=34795155
 
-h p grice
-logic in conversation
-h l a hart
-the concept of law
 peter Singer
 famine affluence and morality
+
+linux mv directory
+https://unix.stackexchange.com/questions/50487/how-to-move-all-files-and-folders-via-mv-command
+find ./ -maxdepth 1 -mindepth 1 -exec mv -t /mnt/c/projects/gfetch  {} +
+
+git file permsions
+stat -c '%a' id_ed25519
+
 linux rename
 https://linuxhandbook.com/github-download-files/
 You can bypass aliases by the following methods:
@@ -859,8 +916,13 @@ while read -r file ; do
     rm -r "$file"
 done < "$TO_BE_DEL"
 
+curl https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/data\?alt\=json\&key\=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs | nvim -
+
 !! https://linuxhandbook.com/tar-exclude-files/
+
+man vim | col -b > textfile.txt
 !! fdm -tf | xargs tail -n +1 | nvim - #cat all files
+!!comment.vim gcc
 vim hex
 :%!xxd
 :%!xxd -r
@@ -872,6 +934,8 @@ nvim --clean
 vim to json :%!jq .
 :%!python -m json.tool
 vim longlines
+:%!fmt --width=75
+
 fdd -ehead  -x rct | nvim - #export target='star'
 :%!fmt --width=75 --split-only
 fmt --width=75 --split-only auto | rg 'target'
@@ -1629,7 +1693,8 @@ That is not only not right; it is not even wrong
 godaddy
 Customer Number: 462674342
 Current PIN
-2609Jim Steffes
+2609
+Jim Steffes
 jimsteffes@outlook.com
 320-775-7191
 3409 E. Medicine Lake Plymouth MN 55441-2307
@@ -1732,7 +1797,7 @@ q=p.map(a=>a.replaceAll(/\\n?/g,''))
 copy(q)
 
 Control + Shift + T to bring back the most recently closed tab.
-fecth decode execute
+fetch decode execute
 
 cd /mnt/c/Users/jayst/AppData/Local/Google/Chrome/User Data/Default
 

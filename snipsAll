@@ -1,4 +1,190 @@
 
+removeL(b)
+b=qs('button')
+qs('button').addEventListener('click',()=>log('newc'))
+qs('button')
+b
+b.addEventListener('click',()=>log('click'))
+tar(b)
+removeL=(tar)=>{tar.replaceWith(tar.cloneNode(true));}
+document.body.prepend(b)
+b.textContent='copy'
+b=document.createElement('button')
+b.addEventListener("click", () => log('kkk'));
+b.addEventListener("click", () => log('kkk');
+b.addEventListener("click", () => writeClipboardText("peek"));
+b.replaceWith(b.cloneNode(true));
+b.addEventListener("click", () => writeClipboardText("pee"));
+b.addEventListener("click", () => writeClipboardText("poop"));
+b.addEventListener("dblclick", () => writeClipboardText("new"));
+b.addEventListener("click", () => writeClipboardText("<empty clipboard>"));
+button
+async function writeClipboardText(text) {  try {    await navigator.clipboard.writeText(text);  } catch (error) {    console.error(error.message);  }}
+b.textContent='button'
+writeClipboardText('hello')
+qa('img').forEach(a=>log(a))
+qa('img')
+copy($0.href)
+$0.href
+$0
+document.querySelector('div').style="width: 20px; height: 20px; color: red;"
+document.querySelector('body').style="div { width: 20px; height: 20px; color: red; }"
+document.querySelector('body').style=div { width: 20px; height: 20px; color: red; }
+document.querySelector('body').style="div { width: 20px; height: 20px; }"
+qa('div')
+document.querySelector('body').style="DIV { width: 20px; height: 20px; }"
+document.querySelector('body').style="img { width: 20px; height: 20px; }"
+document.querySelector('body').style="border-top: 100px solid black; border-bottom: 200px solid pink;"
+document.querySelector('body').style="border-top: 100px solid black"
+document.querySelector('body').style="border-top: 400px solid black"
+metaTags
+const metaTags = document.getElementsByTagName('meta');
+document.body.querySelectorAll('*')
+document.body
+af(document.head.children).forEach(a=>log(a))
+document.head.children
+hrm()
+injectCSS(c)
+c=`body {\tfont-family: verdana, arial, sans-serif ;\tfont-size: 18px ;}`
+window.injectCSS = css => {    let el = document.createElement('style');    el.type = 'text/css';    el.innerText = css;    document.head.appendChild(el);    return el;};
+copy(yy)
+yy=ax.split(' ').sort()
+window.CanadianProvinces
+ax.split(' ').sort()
+ax.split(' ')
+ax.sort()
+ax
+for (a in window) {ax+=(`${a} `)}
+ax=''
+for (a in window) {log(a)}
+window.location.url
+window.location.reload()
+const injectCSS = css => {    let el = document.createElement('style');    el.type = 'text/css';    el.innerText = css;    document.head.appendChild(el);    return el;};injectCSS('body { background-color: #fff }');injectCSS('img { width: 20px; height: 20px; }')
+injectCSS('img { width: 20px; height: 20px; }')
+const injectCSS = css => {    let el = document.createElement('style');    el.type = 'text/css';    el.innerText = css;    document.head.appendChild(el);    return el;};injectCSS('body { background-color: #fff }');
+copy(hout)
+myht()
+help()
+const injectCSS = css => {  let el = document.createElement('style');  el.type = 'text/css';  el.innerText = css;  document.head.appendChild(el);  return el;};injectCSS('body { background-color: #fff }');injectCSS('img { width: 20px; height: 20px; }')
+help
+qa
+injectCSS('body { background-color: #fff }');
+const injectCSS = css => {  let el = document.createElement('style');  el.type = 'text/css';  el.innerText = css;  document.head.appendChild(el);  return el;};injectCSS('body { background-color: #000 }');injectCSS('img { width: 20px; height: 20px; }')
+const injectCSS = css => {  let el = document.createElement('style');  el.type = 'text/css';  el.innerText = css;  document.head.appendChild(el);  return el;};injectCSS('body { background-color: #000 }');
+mycon=`body {    background-color: #f00;}`
+    var style = document.createElement("style");    style.type = "text/css";
+document.querySelectorAll('link[rel="stylesheet"]')[1].remove()
+document.querySelectorAll('link[rel="stylesheet"]')[1]
+document.querySelectorAll('link[ref="stylesheet"]');
+document.querySelectorAll('link[ref="stylesheet"]')
+document.querySelectorAll('link[rel="stylesheet"]');
+boxes
+const boxes = document.querySelectorAll('link[ref="style"]');
+qs('[ref]')
+qs('body').style.cssText='img: width:2px'
+qa('style')
+document.head.querySelectorAll('link')
+document.head.querySelectorAll('style')
+document.body.remove()
+document.styleSheets[0].parent
+document.styleSheets[0].parentStyleSheet
+document.styleSheets[0]
+document.styleSheets
+o[0]
+o[1]
+o.sort()
+o
+o.forEach(a=>log(a))
+o=Object.entries(fr)
+o=Object.entries(fr).join('\')
+copy(Object.entries(fr).join('\'))
+copy(Object.entries(fr))
+Object.entries(fr)[1]
+Object.entries(fr)
+fr
+fr=frequencies(all)
+new=frequencies(all)
+all
+frequencies(all)
+all=af(document.querySelectorAll('*')).map(a=>a.tagName)
+af(document.querySelectorAll('*')).map(a=>a.tagName)
+document.querySelectorAll('*').map(a=>a.tagName)
+document.body.querySelectorAll('script')
+document.head.querySelectorAll('script')
+document.head.querySelector('script')
+document.head
+hrm
+copy(style)
+af(document.styleSheets).forEach(a=>style+=(a.href)+'\')
+style=''
+style
+af(document.styleSheets).forEach(a=>style+=(a.href))
+af(document.styleSheets).forEach(a=>log(a.href))
+af(document.styleSheets)
+document.styleSheets[2]
+copy(qs('head').outerHTML)
+let help = () => {    console.log('hrm-remove head\myht-copy html to hout')}
+let help = () => {    console.log('hrm-remove head\ myht-copy html to hout')}
+let help = () => {    console.log('hrm-remove head, myht-copy html to hout')}
+[...document.styleSheets]
+qs('head').remove()
+qs('head').remove
+document.styleSheets[0].removeRule()
+document.styleSheets[0].removeRule
+removeStylesheet()
+\t\tfunction removeStylesheet() {\t\t\tdocument.head.querySelector( "style" )\t\t\t\t?.remove()\t\t\t;\t\t}
+[...document.styleSheets].forEach(a=>a.remove)
+[...document.styleSheets][1].remove()
+[...document.styleSheets][1].remove
+[...document.styleSheets].forEach(a=>a.remove))
+qs('style').remove()
+qs('style').outerHTML
+copy(ss[0].href)
+ss[0].href
+ss[0]
+ss[0].cssRules
+ss.forEach(a=>log(a.href))
+ss[1].href
+ss[1].cssRules
+ss[1]
+ss=[...document.styleSheets]
+copy($0.style.backgroundImage)
+$0.style.backgroundImage.url
+$0.style.backgroundImage
+$0.style
+$0.style.background-image
+$0.removeAttribute('class');
+document.styleSheets.length
+$0.classList.remove('banner-content');
+$0.classList.remove('banner-heading');
+$0.classList
+$0.classLis
+$0.classList.removeClass('banner-heading');
+$0.classList.removeClass('banner-heading')
+$0.className
+$0.cssText
+const myStyles = `    display: block;    width: 20px;    height: 20px;    background-color: red;    border: 2px;    font-size: 5em;    color: white;    margin: 20px;    padding-left: 10px;    padding-bottom: 10px;    border: 2px solid black;`;[...document.querySelectorAll('img')].forEach(a=>a.style.cssText=myStyles)
+[...document.querySelectorAll('img')].forEach(a=>a.style.width='50px')
+new Set([...qs('body').querySelectorAll('*')].map(a=>a.tagName))
+[...qs('body').querySelectorAll('*')].map(a=>a.tagName)
+qs('body').querySelectorAll('*').map(a=>a.tagName)
+qs('body').querySelectorAll('*')
+qs('body').style
+document.styles
+document.querySelector('svg')
+document.querySelector('*').querySelectorAll('script').forEach(a=>log(a))
+document.querySelector('*').querySelectorAll('script')
+document.querySelector('*').querySelector('script')
+document.querySelector('*').querySelector('*')
+document.querySelectorAll('*').querySelector('*')
+qa('script')
+document.querySelectorAll('*').querySelector('meta')
+a
+a.querySelector('link')
+a=qa('*')
+    copy(document.querySelector('head').outerHTML)
+    copy(document.query('head').outerHTML)
+hout
 new Set([...document.querySelectorAll('*')].map(a=>a.tagName)).sort().forEach(a=>log(a))
 new Set([...document.querySelectorAll('*')].map(a=>a.tagName)).sort.forEach(a=>log(a))
 new Set([...document.querySelectorAll('*')].map(a=>a.tagName)).forEach(a=>log(a))
@@ -15,12 +201,10 @@ h=`{$location.href}\\script.js`
 copy(`curl ${location.href}`)
 location.href
 qa('script').forEach(a=>log(a))
-qa('script')
 log
 qs
 qa('script').forEach(a.log(a))
 ec = document.querySelectorAll('[class]')
-document.querySelectorAll('*').querySelector('*')
 document.querySelectorAll('*')
 function listCSSClasses () {  let classes = new Set()  let elementsWithClasses = document.querySelectorAll('[class]')  for (let element of elementsWithClasses) {    for (let className of element.classList) {      classes.add(className)    }  }  return [...classes].sort()}console.log(  'The page has the following classes:\  .' +  listCSSClasses().join('\  .'))
 new Set(af(ec).map(a=>a.className))
@@ -32,12 +216,8 @@ ec[1].classList
 elementsWithClasses = document.querySelectorAll('[class]')
 hr()
 window.hr=()=>{    document.querySelector('head').remove()}
-qa
-copy(hout)
 myHt()
 myHt(0
-qs('head').remove()
-hout
 myHt = () => { window.hout=document.querySelector('html').outerHTML }
 g
 g=myHt()
@@ -55,14 +235,11 @@ copy(qa('head>*'))
 qa('head>*')
 document.querySelector('head').remove()
 qs('head')
-qs('head').remove
 copy(qs('head').querySelector('style').outerHTML)
 qs('head').querySelector('style').outerHTML
 qs('head').querySelector('style')
 document.styleSheets[1]
 document.styleSheets.[1]
-document.styleSheets.length
-document.styleSheets
 q.style.cssText=myStyles
 const myStyles = `    display: block;    width: 80%;    background-color: red;    border: 2px;    font-size: 5em;    color: white;    margin: 20px;    padding-left: 10px;    padding-bottom: 10px;    border: 2px solid black;`;
 q.style.backgroundColor='#ccc'
@@ -71,7 +248,6 @@ q.style.backgroundColor='red'
 q.style.backgroundColor='f00'
 q.style
 q=qs('html')
-qa('style')
 qa('.card-section').forEach(a=>log(a.textContent))
 qa('.card-section').forEach(a=>log(a))
 qa('.card-section')
@@ -87,10 +263,8 @@ qs('style').innerHTML='body {margin:25px;}div.polaroid {  width: 80%;  backgroun
 copy(qs('style').innerHTML)
 qs('style').innerHTML
 qs('style')
-copy($0.href)
 qa('.expanded')
 qa('.button')
-$0.className
 copy(mm)
 mm
 qa('a').forEach(a=>mm.push(a.outerHTML))
@@ -138,7 +312,6 @@ qs('.box').children
 qs('.box')
 myt
 all.forEach(a=>console.log(a))
-all
 Array.isArray(all)
 myt[5]
 all = [...document.querySelectorAll("*:not(head, style, noscript, script, meta,html, svg)")]
@@ -204,7 +377,6 @@ ccc=ccc+'*'
 ccc+='*'
 let ccc
 for (m=1;m<5;m++){console.log(m)}
-a
 for (a=1;a<5;a++) {chr+='*'}
 for (a=1;a<5;) {chr=+'*'}
 for (i = 0; i < 3; i++)    for (x = 0; x < i; i++) { console.log(i) }
@@ -284,12 +456,10 @@ a=b||2
 b=null
 b=1
 b=0
-b
 let a=xx??3
 let a=xx||3
 let a=2||3
 Object.keys(window)
-document.querySelector('body').style="border-top: 100px solid black"
 getEventListeners(d)
 getEventListeners(b)
 d.replaceWith(d.cloneNode(true));
@@ -317,7 +487,6 @@ jim={}
 jim['ss']=1
 jim=(jim['xx']??0)
 jim=(xx??0)
-frequencies(all)
 const frequencies = arr =>  arr.reduce((a, v) => {    a[v] = (a[v] ?? 0) + 1;    return a;  }, {});
 item
 item['jim']=item['jim']+1
@@ -420,7 +589,6 @@ console.log('not')
 not()
 fillArray=[...Array(10).keys()]
 for(var b in window) {   if(window.hasOwnProperty(b)) console.log(b); }
-$0.href
 copy($0.outerHTML)
 console.log($0.href)
 getEventListeners(h)
@@ -448,7 +616,6 @@ b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "p
 window.myword = 'monday night'window.showAlert = () => {    alert("monday night");}b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "position: sticky; top: 0; z-index: 100; color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.prepend(b)b.addEventListener('click', showAlert)
 window.showAlert = () => {    alert("monday night");}b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.append(b)b.addEventListener('click', showAlert)document.body.appendChild(b);
 b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "color: blue; background-color: #f8f9fa;font-size: 1rem; padding: 10px;text-align: center";document.body.append(b)b.addEventListener('click', showAlert)document.body.appendChild(b);
-document.body.prepend(b)
 b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "color: blue; font-size: 3rem; padding: 10px;text-align: center";document.body.append(b)
 b = document.createElement('button')b.innerHTML = 'myButton'b.style.cssText = "color: blue; font-size: 8rem; text-align: center";document.body.append(b)
 b = document.createElement('button')b.innerHTML = 'myButton'bu.style.cssText = "color: blue; font-size: 8rem; text-align: center";document.body.append(b)
@@ -557,7 +724,6 @@ myhead.forEach(a=>console.log(a.splice(0,60))
 myhead=[...document.querySelectorAll('head>*')]
 myhead
 $0.innerHTML
-$0
 copy($0.textContent)
 $0.textContent
 $0.children[0].textContent
@@ -627,7 +793,6 @@ af(qa('img'))
 qa('img').forEach(a=>log(a.id))
 qa('img')[1].src
 qa('img').forEach(a=>log(a.src))
-qa('img')
 copy(i.join('\'))
 i
 I
@@ -767,8 +932,6 @@ splitIntoChunk(mydata,14)
 splitIntoChunk(mydata,4)
 function splitIntoChunk(arr, chunk) {    while(arr.length > 0) {        let tempArray;        tempArray = arr.splice(0, chunk);        console.log(tempArray);    }}const array = [1, 2, 3, 4, 5, 6, 7, 8];const chunk = 2;
 console.log('it works')
-af(document.styleSheets)
-document.styleSheets[0]
 myRules
 let myRules = document.styleSheets[0].cssRules;
 document.styleSheets[0].cssRules
@@ -1120,7 +1283,6 @@ $0.children[1].outerHTML
 $0.children[3]
 $0.children[4]
 $0.children[4].te
-$0.classList
 $0.id
 $0.innerHTML=$0.innerHTML.replaceAll('\','<br>')
 $0.nextElementSibling.nextElementSibling
@@ -1142,7 +1304,6 @@ $0.parentElement.parentElement.parentElement.parentElement.parentElement.parentE
 $0.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.children
 $0.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.tagName
 $0.parentElement.style.cssText="color: blue; font-size: 2em; text-align: center;border: solid #f00 13px;";
-$0.style
 $0.style.background='#400'
 $0.style.background='#440'
 $0.style.background='#b2b2b2'
@@ -1238,7 +1399,6 @@ add({1:c})
 add({a,c})
 add({a:myscript})
 af(document.styleSheets).forEach(a=>log(a))
-af(document.styleSheets).forEach(a=>log(a.href))
 af(document.styleSheets)[0]
 af(document.styleSheets)[0].rules
 af(document.styleSheets)[0].rules[0]
@@ -1290,7 +1450,6 @@ af(st.rules)
 af(st.rules)[1]
 attrs
 b=a
-button
 byClass
 c=''
 c=''\\
@@ -1797,7 +1956,6 @@ qs('body').style.backgroundColor
 qs('body').style.backgroundColor=#fff;
 qs('body').style.backgroundColor='#0ff'
 qs('body').style.backgroundColor='#fff'
-qs('button')
 qs('button').style.display
 qs('center').querySelectorAll('a')
 qs('center').querySelectorAll('a')[0]
@@ -1952,7 +2110,6 @@ ss.split(/\\s+/g).sort().filter(g=>g.length>1)
 ss.split(/\\s+/g).sort().filter(g=>g.length>1).map(m=>`<div> ${m} </div>`).join("")
 ss=[]
 ss=[]for ( a in it) {ss.push([a, it[a]])}
-ss[1]
 st
 st.rules
 st.rules[0]
