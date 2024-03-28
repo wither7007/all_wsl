@@ -1,4 +1,3 @@
-# Aliases
 #alias c="cd /mnt/c"
 alias als=' v ~/.bash_aliases'
 alias hstash='curl https://gist.githubusercontent.com/Preethi-Dev/fa8ae46a75761356dc1fa711376c8345/raw/a2dfe8bac54f92925092a75aee4692ac82212747/git__stash__commands.md | v -'
@@ -70,7 +69,7 @@ alias mc='cd /mnt/c'
 alias md='mkdir'
 alias me='curl ifconfig.me && printf "\n"' 
 alias mem='ps aux --sort -rss | vim -'
-alias mnt="mount | awk -F' ' '{ printf \"%s\t%s\n\",\$1,\$3; }' | column -t | egrep ^/dev/ | sort"
+#alias mnt="mount | awk -F' ' '{ printf \"%s\t%s\n\",\$1,\$3; }' | column -t | egrep ^/dev/ | sort"
 alias mp='cd /mnt/c/projects'
 alias mps='cd /mnt/c/projects'
 alias nb='node --inspect-brk'
