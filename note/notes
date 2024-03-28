@@ -1,7 +1,13 @@
+Solfège is a form of solmization, though the two terms are sometimes used interchangeably.
+https://www.thegeekstuff.com/2009/07/linux-ls-command-examples/
+
 office at 1-844-697-8766 if you have questions or concerns about your upcoming video conference appointment.
 
+nystrom 651 529 8671
 Your video visit appointment with your provider, Caitlyn Juntunen, is scheduled for:
 Wednesday, Mar 27, 9:30 AM, CDT 2024 
+4/11 8:30
+
 check e-mail
 dhh worker
 
@@ -12,6 +18,9 @@ Suite 500
 MINNEAPOLIS MN 55407
 ‪612-596-9438‬
 Monday 3-25 2:10
+enrollment
+612 596 1300
+1:00 
 
 chloe
 612-704-2897
@@ -34,6 +43,8 @@ Department: Mental Health Clinic
 Provider: Andrea J Steele, LICSW
 Date: 3/29/2024
 Arrival time:  9:40 AM CDT
+9:00 
+Air port 888-8888
 2215 East Lake Street
 Suite 500
 Minneapolis Mn 55407
@@ -45,9 +56,10 @@ John Hillock
 612-299-2033 push 1
 
 
-nystrom 651 529 8671
-Robert wednesday march 6th 8:00 am
 
+You have Microsoft Outlook Version 1.2024.319.300 (Production).
+
+Client Version is 20240315003.14 .
 work
 
 https://blog.gitguardian.com/8-easy-steps-to-set-up-multiple-git-accounts/
@@ -659,6 +671,10 @@ def ltow(ff):
   return ff.replace('/mnt/c/','c:\\').replace('/','\\')
   
 
+wget -r -p -U Mozilla https://www.thegeekstuff.com
+wget -r -p -U Mozilla --wait=10 --limit-rate=35K https://www.thegeekstuff.com
+top five largest
+find . -type f -exec ls -s {} \; | sort -n -r | head -5
 request list of files
 def last(x):
     return x.split('/')[-1]
