@@ -1,4 +1,34 @@
 
+nolok 2 hours ago | root | parent | next [¿]
+
+Each their own, that's mine. Note that this is not a tech user or developper list, but the list of what I install on any new windows pc, including those at work etc ...
+7zip (open any archive)
+
+VLC (open any audio/video file)
+
+IrfanView (+ the "all plugins" installer on the same page, open any picture file)
+
+SumatraPDF (read PDFs)
+
+Libreoffice (to open any office files)
+
+NAPS2 (easy scan, and split/merge/... PDFs)
+
+Ditto (give your clipboard a memory)
+
+Everything (an instant file search that works)
+
+TeraCopy (replace windows copy with queue, queues, add files to the queue instead of starting a second parallel copy, pause that works, ...)
+
+Powertoys (so many to list ... mass rename file easily, screen ruler, text extractor ...)
+
+If it's appropriate : Qbittorent (clean torrent client)
+
+Nvidia graphic card ? NVCleaninstall, so you can install just the clean driver you need
+
+Windows 10 or 11 ? O&O Shut Up (to disable all the telemetry and onedrive in one click, there are plenty alternatives but I sort of like this one)
+
+Windows 11 ? ExplorerPatcher to remove suggestions in the start menu and the new and terrible castrated contextual menu
 windows symbolic
 https://winaero.com/create-symbolic-link-windows-10-powershell/
 New-Item -ItemType SymbolicLink -Path C:\projects\download_twit.py -target C:\twit\download_twit.py
