@@ -3,6 +3,8 @@ https://www.baeldung.com/linux/ssh-key-permissions
 git checkout -b old-state 0d1d7fc32
 
 curl -s https://api.github.com/repos/wither7007/all_wsl | jq '.size' | numfmt --to=iec --from-unit=1024
+!!repos by stars
+curl https://api.github.com/search/repositories\?q\=language:python\&sort\=stars\&order\=desc\&per_page\=3 | nvim -
 
 https://www.baeldung.com/ops/git-clone-remote-branches
 # This will destroy any local modifications.
