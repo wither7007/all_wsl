@@ -1,71 +1,46 @@
-mnsure.org
-breva health
-1855 566 7873
-jimsteff007
-615Dks@476
-913900
-Emt
-612 596 1900
-Proof of medical 
-Erin 596 1900
+Office Visit with Farooqua B Jafri
 
+NorthPoint Main Campus
+800 West Broadway Minneapolis, MN 55411
+Tues June 4th 1:20
 
-hcmc
-eligibility 612 543-6677
-1 2 
+thunder client
+http://[::1]:3000
+curl -X GET "https://httpbin.org/get" -H "accept: application/json"
 
-!!new case number 15618255
+James Steffes
+4440 SNELLING AVE APT 122
+MINNEAPOLIS, MN 55406-3947
 
-case # 2127935
+psych 
+612-873-6963
+cub pharmacy
+612-886-3393
 
-dial 612 596-1300
+Andrea J Steele
+Department: Mental Health Clinic
+Friday May 24 7:40
+2215 East Lake Street
+Minneapolis Mn 55407
+general sadiq Thurs May 30 12:40
 
-case # 15618255
-
-kill -9  assistance
-612 543 6677
-
-office at 1-844-697-8766 if you have questions or concerns about your upcoming video conference appointment.
-
-nystrom 651 529 8671
-Your video visit appointment with your provider, Caitlyn Juntunen, is scheduled for:
-thursday 4/11 8:30
+Farooqua B Jafri
+July 8 8:40
 
 Mental Health Clinic
 2215 E. Lake St, Suite 500
 MINNEAPOLIS MN 55407
 612-596-9438
-Mobile carriers like T-Mobile, AT&T and Verizon 
-enrollment
-612 596 1300
-1:00 
 
 chloe
 612-704-2897
 
-NorthPoint Main Campus
-Monday April 8
-11:10
-800 West Broadway Minneapolis, MN 55411
-Minneapolis, MN 55411
-
-
 Hennepin Health cab 04745519
 612 596 1036
 punch for ride 1131
+719 marquette Metro
 
-nystrom
-651 529 8671
-
-Andrea J Steele
-Department: Mental Health Clinic
-Provider: Andrea J Steele, LICSW
-2215 East Lake Street
-Suite 500
-Minneapolis Mn 55407
-
-John Hillock
-612-299-2033 push 1
+hotspot Alcatel model MW43TM pass: mfir679f password: 4utD7bGR !!important 615dks@476
 
 tiny desk
 caroline polachek
@@ -172,6 +147,10 @@ join or die
 strum https://youtu.be/L-IPl4xu4cs?t=305
 4:57 5:02
 jazz swing, blues, improv
+
+https://youtu.be/pJ6c6P4yfxg?list=PLvhmyab-EZt28gKvC4lFxPVZVl7H0o1CE&t=481
+country strum
+
 Members of the peerage carry the titles of duke, marquess, earl, viscount or baron.
  Emmet Cohen
 <div style="text-align:center">
@@ -269,7 +248,6 @@ javascript remove comments regex
 
 bubble sort, quick sort, heap sort, or mergesort algorithms
 
-
 document.addEventListener('DOMContentLoaded', function () {
 console.log('load');
     });
@@ -290,6 +268,7 @@ javascript: function addcss(css) {
     addcss("img{filter: invert(1) hue-rotate(180deg)}"); 
     addcss("video{filter: invert(1) hue-rotate(180deg)}");
 
+curl 'https://cdn.jsdelivr.net/gh/wither7007/htmlTemplate@main/blue.css'
 qs('body').style = "font-family: Arial, Helvetica, sans-serif; font-size: 18px; background-color:#f00"
 https://stackoverflow.com/questions/3959211/what-is-the-fastest-factorial-function-in-javascript
 factorial = n => n <= 1 ? 1 : factorial(n - 1) * n
@@ -387,6 +366,7 @@ Ah! vous dirai-je, maman
 
 node inspect
 https://www.youtube.com/watch?v=FMsNsSHhRC8
+node --inspect-brk simp.js #https://www.builder.io/blog/debug-nodejs !!!
 
 “Nayler’s masterful debut combines fascinating science and well-wrought characters to deliver a deep dive into the nature of intelligent life . . . As entertaining as it is intellectually rigorous, this taut exploration of human―and inhuman―consciousness is a knockout.”
 ―Publishers Weekly, starred review
@@ -466,6 +446,7 @@ https://stackoverflow.com/questions/8296710/how-to-ignore-xargs-commands-if-stdi
 https://stackoverflow.com/questions/72253410/how-to-properly-use-xargs-with-cp
 fd -d 1 -ejs | xargs cp -t ../viol
 
+cat /mnt/c/all/bigC | grep '^-' | sort -k 5 -h | tac| nvim -
 fdm -tf -d 1 | xargs rg -l -i 'qqq' | xargs -r  ls -lhrt
 find working
 fdm -epy -tf --changed-within=2days | xargs rg -l -i post |  xargs ls -lh {} | awk '{ print $9 ": " $6 $7 " - " $8 }'
@@ -826,7 +807,6 @@ def ct(x):
     rt=time.strftime("%m/%d/%Y, %H:%M:%S", time.localtime(nt))
     return rt
 
-
 drum machine
 https://news.ycombinator.com/item?id=34795155
 
@@ -937,7 +917,8 @@ done < "$TO_BE_DEL"
 curl https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/data\?alt\=json\&key\=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs | nvim -
 
 !! https://linuxhandbook.com/tar-exclude-files/
-
+^M
+https://vimdoc.sourceforge.net/htmldoc/digraph.html#digraph-table
 man vim | col -b > textfile.txt
 !! fdm -tf | xargs tail -n +1 | nvim - #cat all files
 !!comment.vim gcc
@@ -987,10 +968,12 @@ vim replace backslash
 vim init 
 :echo $MYVIMRC
 
-vim error in json
+blank lines
 :set filetype=javascriptvim blank (two ways)
 :g/^\s*$/d
 :v/\S/d
+:g/^\n\n/d is the cleanest way to do this no doubt.
+
 rg '^$' #find blankshttps://github.com/folke/flash.nvim
 
 find . -type f -name "*.mp3" -exec cp {} ../evans \;
@@ -2109,7 +2092,10 @@ let space = (n) => {
     return o
 }
 killall -u steff007
+There’s simply no polite way to tell people they’ve dedicated their lives to an illusion
 "Love is grand. Divorce is 100 grand!" - Anon
 Getting divorced sucks…. Being divorced is amazing.
  akrasia
 https://www.theguardian.com/wellness/2024/mar/21/why-we-do-things-bad-for-us-impulse-habits-akrasia
+Abraham fake Lincoln's quote "Give me six hours to chop down a tree and I will spend the first four sharpening the axe."
+The enlightened despotism of Emperor Joseph II of the Holy Roman Empire is summarized as, "Everything for the people, nothing by the people".[4]
