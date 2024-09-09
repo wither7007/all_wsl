@@ -1,9 +1,49 @@
+streets!
+jessie
+funiture?
+
+Dr. Lala
+tues 9/24 3:20
+
+qualrics survey
 bill_withers707@outlook.com
+jonray007@yahoo.com
 https://account.activebuilding.com/authorize
 615Dks@476
+xcel
+800 895 4999
+51 001 4908 797 3
 
 Office Visit with Farooqua B Jafri
 
+NPI: 1770280976		
+Marcus M
+Housing Coordinator
+	612-437-4150    651-478-6661
+	info@roadwaymn.org    roadwaymn.org
+	5775 Wayzata Blvd #700
+St Louis Park MN 55416
+Department: HCMC East Lake CL
+Provider: Kelsey M Noah, APRN, CNP
+Date: 6/24/2024
+ 
+Office Visit
+Jul
+8
+Mon
+Arrive by 8:40 AM CDT
+Mental Health Clinic
+2215 E. Lake St, Suite 500
+With Farooqua B Jafri
+Office Visit
+Jul
+8
+Mon
+Arrive by 10:40 AM CDT
+Mental Health Clinic
+2215 E. Lake St, Suite 500
+With Andrea J Steele
+Arrival time:  1:40 PM CDT
 NorthPoint Main Campus
 800 West Broadway Minneapolis, MN 55411
 Tues June 4th 1:20
@@ -16,6 +56,8 @@ James Steffes
 4440 SNELLING AVE APT 122
 MINNEAPOLIS, MN 55406-3947
 
+mon june 24th
+1:40 KELSEY 
 psych 
 612-873-6963
 cub pharmacy
@@ -96,6 +138,7 @@ https://www.youtube.com/watch?v=aolI_Rz0ZqY&t=539s
 https://github.com/wither7007/htmlTemplate/blob/main/html/script.js
 https://raw.githubusercontent.com/wither7007/htmlTemplate/main/html/script.js
 
+:edit $MYVIMRC
 gh repo create .
 gh repo create 
 gh repo view
@@ -443,13 +486,14 @@ async function fetchDataFromApi() {
     .then(json => console.log(json.joke))
 }
 
+fdm -tf -0 | xargs -0 -n 1 rg -l outlook
+https://unix.stackexchange.com/questions/100968/weird-no-such-file-error-with-xargs-and-file
 fd | xargs -p -I {} touch {}
 fd | xargs -t -I {} echo {}
 xargs fixed
 https://stackoverflow.com/questions/8296710/how-to-ignore-xargs-commands-if-stdin-input-is-empty
 https://stackoverflow.com/questions/72253410/how-to-properly-use-xargs-with-cp
 fd -d 1 -ejs | xargs cp -t ../viol
-
 cat /mnt/c/all/bigC | grep '^-' | sort -k 5 -h | tac| nvim -
 fdm -tf -d 1 | xargs rg -l -i 'qqq' | xargs -r  ls -lhrt
 find working
@@ -834,7 +878,8 @@ done
 
 git file permsions
 stat -c '%a' id_ed25519
-
+move up directory
+cp -vaR bypass-paywalls-chrome/. .
 linux rename
 https://linuxhandbook.com/github-download-files/
 You can bypass aliases by the following methods:

@@ -1,12 +1,13 @@
 -rwxrwxrwx 1 steff007 steff007 56M Dec  6  2021 mmp/slowgood.mp4
 -rwxrwxrwx 1 steff007 steff007 85M Aug  6  2023 temp/beat.tar
+-rwxrwxrwx 1 steff007 steff007 75M Jun  7 14:54 twit/linux6-6.mp3
 -rwxrwxrwx 1 steff007 steff007 92M May 13 13:30 twit/twil5-13.mp3
--rwxrwxrwx 1 steff007 steff007 77M May 14 15:52 twit/twit5-14.mp3
 -rwxrwxrwx 1 steff007 steff007 134M May 13 13:28 twit/twit5-13.mp3
--rwxrwxrwx 1 steff007 steff007 124M May 23 19:24 twit/twit5-19.mp3
+-rwxrwxrwx 1 steff007 steff007 123M May 31 06:45 twit/twig0770.mp3
+-rwxrwxrwx 1 steff007 steff007 77M May 14 15:52 twit/twit5-14.mp3
 -rwxrwxrwx 1 steff007 steff007 144M May 29 09:27 twit/twit5-26.mp3
--rwxrwxrwx 1 steff007 steff007 148M May  8 15:53 $Recycle.Bin/S-1-5-21-1789718789-3512832362-3967727927-1003/$RBY6D9Z.mp3
--rwxrwxrwx 1 steff007 steff007 144M May  8 15:52 $Recycle.Bin/S-1-5-21-1789718789-3512832362-3967727927-1003/$R36KFS1.mp3
+-rwxrwxrwx 1 steff007 steff007 124M May 23 19:24 twit/twit5-19.mp3
+-rwxrwxrwx 1 steff007 steff007 121M Jun  7 14:53 twit/twit6-5.mp3
 -rwxrwxrwx 1 steff007 steff007 72M Mar 25 01:16 all/bin/single-file.exe
 -rwxrwxrwx 1 steff007 steff007 79M Nov 17  2021 mmp/autumn/AutumnPretty.mp4
 -rwxrwxrwx 1 steff007 steff007 61M Dec  5  2021 mmp/x/Yesterday.mp4
@@ -17,12 +18,12 @@
 -rwxrwxrwx 1 steff007 steff007 40M Nov 14  2023 projects/Camera/PXL_20231115_002145947.mp4
 -r-xr-xr-x 1 steff007 steff007 31M Dec  7  2019 Windows/Containers/WindowsDefenderApplicationGuard.wim
 -r-xr-xr-x 2 steff007 steff007 36M Dec  7  2019 Windows/Fonts/mingliub.ttc
--r-xr-xr-x 1 steff007 steff007 45M Jan 12  2022 Windows/Installer/114d36e.msi
 -r-xr-xr-x 1 steff007 steff007 107M Nov 15  2022 Windows/Installer/10486a6.msi
+-r-xr-xr-x 1 steff007 steff007 45M Jan 12  2022 Windows/Installer/114d36e.msi
 -r-xr-xr-x 1 steff007 steff007 96M Jul 28  2021 Windows/Installer/15c4ebf.msi
--r-xr-xr-x 1 steff007 steff007 324M Sep 29  2021 Windows/Installer/1c57546.msi
--r-xr-xr-x 1 steff007 steff007 104M Jan 16 11:52 Windows/Installer/1df5d0.msi
 -r-xr-xr-x 1 steff007 steff007 128M Mar 13 15:18 Windows/Installer/1a7120.msi
+-r-xr-xr-x 1 steff007 steff007 104M Jan 16 11:52 Windows/Installer/1df5d0.msi
+-r-xr-xr-x 1 steff007 steff007 324M Sep 29  2021 Windows/Installer/1c57546.msi
 -r-xr-xr-x 1 steff007 steff007 95M Aug 20  2021 Windows/Installer/2c4a4ab.msi
 -r-xr-xr-x 1 steff007 steff007 99M Dec 23  2022 Windows/Installer/f769ee.msi
 -r-xr-xr-x 1 steff007 steff007 52M Jul 20  2021 Windows/Panther/setupact.log
@@ -31,190 +32,70 @@
 -r-xr-xr-x 1 steff007 steff007 34M Dec 20  2018 Windows/SysWOW64/igd11dxva32.dll
 -r-xr-xr-x 1 steff007 steff007 38M Dec 20  2018 Windows/SysWOW64/igdumdim32.dll
 -r-xr-xr-x 1 steff007 steff007 188M May 14 23:23 Windows/System32/MRT.exe
--r-xr-xr-x 2 steff007 steff007 30M Dec  7  2019 Windows/SysWOW64/OneDriveSetup.exe
 -r-xr-xr-x 1 steff007 steff007 69M May 27  2015 Windows/System32/RCoRes64.dat
+-r-xr-xr-x 2 steff007 steff007 30M Dec  7  2019 Windows/SysWOW64/OneDriveSetup.exe
 -r-xr-xr-x 2 steff007 steff007 31M Nov 14  2023 Windows/SysWOW64/WindowsCodecsRaw.dll
 -r-xr-xr-x 2 steff007 steff007 32M Nov 14  2023 Windows/System32/WindowsCodecsRaw.dll
--rwxrwxrwx 1 steff007 steff007 52M Apr  3 04:37 you/chant/chant.mp3
--rwxrwxrwx 1 steff007 steff007 51M Jun  4  2022 you/chamorra/Andrea_Motis_Joan_Chamorro_Grup_teatro_Coliseum_Barcelona_2011_.mp3
--rwxrwxrwx 1 steff007 steff007 32M Feb 21  2021 you/chamorra/Concert_Solidari_pro_Ventijol._Joan_Chamorro_A._Armengou_C._Motis_i_._Bastida_amb_Andrea_Motis..mp3
--rwxrwxrwx 1 steff007 steff007 30M Feb 11  2023 you/chopin/Chopin_Piano_Concerto_No._1_Martha_Argerich_Sinfonia_Varsovia_Orchestra_Jacek_Kaspszyk.mp3
--rwxrwxrwx 1 steff007 steff007 75M Apr 21 02:26 you/class/20works.mp3
--rwxrwxrwx 1 steff007 steff007 32M Aug 14  2023 you/class/5th.mp3
--rwxrwxrwx 1 steff007 steff007 33M Jul 25  2023 you/class/BeethoveenEmporor.mp3
--rwxrwxrwx 1 steff007 steff007 41M Feb 16 10:11 you/class/Beethoven3rdSymphony.mp3
--rwxrwxrwx 1 steff007 steff007 71M Mar 16  2020 you/class/Beethoven_9_Chicago_Symphony_Orchestra_Riccardo_Muti.mp3
--rwxrwxrwx 1 steff007 steff007 40M Jun  7  2023 you/class/BeethovenViolin.mp3
--rwxrwxrwx 1 steff007 steff007 179M Feb 11 15:01 you/class/cMix.mp3
--rwxrwxrwx 1 steff007 steff007 33M Apr 25 01:18 you/class/DvorakSlavonic46.mp3
--rwxrwxrwx 1 steff007 steff007 43M Feb 19  2019 you/class/Erik_SATIE_Gymnopedies_1_2_3_60_min_.mp3
--rwxrwxrwx 1 steff007 steff007 32M Oct 28  2018 you/class/Ludwig_van_Beethoven_String_Quartet_No._12_Op._127.mp3
--rwxrwxrwx 1 steff007 steff007 35M Apr  6  2022 you/class/Ludwig_van_Beethoven_String_Quartet_No._15_Op._132.mp3
--rwxrwxrwx 1 steff007 steff007 34M Sep 23  2015 you/class/Ludwig_van_Beethoven_String_Quartet_No._13_Op._130.mp3
--rwxrwxrwx 1 steff007 steff007 33M Dec 17  2018 you/class/Ludwig_van_Beethoven_String_Quartet_No._14_Op._131.mp3
--rwxrwxrwx 1 steff007 steff007 76M Jun 16  2023 you/class/MahlerR.mp3
--rwxrwxrwx 1 steff007 steff007 29M Jun 10  2023 you/class/MendelMidsummer.mp3
--rwxrwxrwx 1 steff007 steff007 133M Feb 11 13:00 you/class/oYo_Yo_Ma_Bach_Six_Cello_Suites_BBC_Proms_2015.mp3
--rwxrwxrwx 1 steff007 steff007 50M Dec 14 01:02 you/class/SchubertQuintetCmaj.mp3
--rwxrwxrwx 1 steff007 steff007 31M Oct  1  2023 you/class/SchubertSontat21.mp3
--rwxrwxrwx 1 steff007 steff007 131M Jun 17  2023 you/class/StMatthew.mp3
--rwxrwxrwx 1 steff007 steff007 30M Sep 19  2018 you/class/Stravinsky_The_Rite_of_Spring_London_Symphony_Orchestra_Sir_Simon_Rattle.mp3
--rwxrwxrwx 1 steff007 steff007 41M Feb 14 13:00 you/classic/Beethoven3rdSymphony.mp3
--rwxrwxrwx 1 steff007 steff007 36M Feb 10 19:19 you/classic/The_Best_Beautiful_Relaxing_Piano_Music.mp3
--rwxrwxrwx 1 steff007 steff007 57M Oct 26  2018 you/classYou/Arturo_Benedetti_Michelangeli_plays_Chopin.mp3
--rwxrwxrwx 1 steff007 steff007 52M Sep 27  2017 you/classYou/Frederic_Chopin_Nocturnes_selection_.mp3
--rwxrwxrwx 1 steff007 steff007 78M Oct 24  2018 you/classYou/Relaxation_Piano_Music_I_Chopin_Schubert_Handel_Brahms_Others.mp3
--rwxrwxrwx 1 steff007 steff007 37M Oct 29  2018 you/English/3_The_Battle_for_the_Language_of_the_Bible_BBC_Documentary.mp3
--rwxrwxrwx 1 steff007 steff007 36M Oct  2  2018 you/English/1_Birth_of_a_Language_BBC_Documentary.mp3
--rwxrwxrwx 1 steff007 steff007 33M Oct 28  2018 you/English/2_English_Goes_Underground_BBC_Documentary.mp3
--rwxrwxrwx 1 steff007 steff007 38M Jan  8  2019 you/English/4_This_Earth_This_Realm_This_England_BBC_Documentary.mp3
--rwxrwxrwx 1 steff007 steff007 32M Nov 11  2018 you/English/6_Speaking_Proper_BBC_Documentary.mp3
--rwxrwxrwx 1 steff007 steff007 34M Nov  6  2018 you/English/7_The_Language_of_Empire_BBC_Documentary.mp3
--rwxrwxrwx 1 steff007 steff007 32M Oct 22  2018 you/English/5_English_in_America_BBC_Documentary.mp3
--rwxrwxrwx 1 steff007 steff007 34M Dec 12  2017 you/English/8_Many_Tongues_Called_English_BBC_Documentary.mp3
--rwxrwxrwx 1 steff007 steff007 56M Jan 31  2023 you/glass/klavierstucke.mp3
--rwxrwxrwx 1 steff007 steff007 32M Jan  7 11:15 you/intime/GhenisBarb.mp3
--rwxrwxrwx 1 steff007 steff007 58M Nov  1  2020 you/mixFolks/Bright_Eyes_Austin_City_Limits_Full_Show_10_10_2004.mp3
--rwxrwxrwx 1 steff007 steff007 80M Jun 22  2023 you/new/operArias.mp3
--rwxrwxrwx 1 steff007 steff007 36M Dec 21  2021 you/pianoC/The_Best_Beautiful_Relaxing_Piano_Music.mp3
--rwxrwxrwx 1 steff007 steff007 43M Mar 26  2022 you/newOrleans/A_Celebration_Of_New_Orleans_Blues_With_Hugh_Laurie.mp3
--rwxrwxrwx 1 steff007 steff007 56M Mar 21  2023 you/sidran/OnTheLive.mp3
--rwxrwxrwx 1 steff007 steff007 53M May 26  2023 you/spoken/ARoomOfOnesOwn.mp3
--rwxrwxrwx 1 steff007 steff007 56M May 26  2023 you/spoken/Mercantilism.mp3
--rwxrwxrwx 1 steff007 steff007 48M May 26  2023 you/spoken/TheRamayana.mp3
--rwxrwxrwx 1 steff007 steff007 35M Apr 20  2020 you/shoenberg/Arnold Schoenberg - Pelleas und Melisande, Op. 5.mp3
--rwxrwxrwx 1 steff007 steff007 29M Dec  2  2015 you/shoenberg/Arnold Schoenberg - String Quartet No. 4.mp3
--rwxrwxrwx 1 steff007 steff007 35M Nov  7  2018 you/shoenberg/Arnold Schoenberg - Wind Quintet, Op. 26.mp3
--rwxrwxrwx 1 steff007 steff007 40M Dec  2  2015 you/shoenberg/Arnold_Sch_nberg_String_Quartet_No._1_in_D_minor_Op._7.mp3
--rwxrwxrwx 1 steff007 steff007 30M Nov 22  2020 you/shoenberg/Arnold_Sch_nberg_Violin_Concerto_op._36_1934_36_Zeitlin_.mp3
--rwxrwxrwx 1 steff007 steff007 35M Oct 28  2018 you/shoenberg/Beethoven_Sonata_No.5_in_C_Minor_Op.10_No.1_Jumppanen_Jando_Korstick_.mp3
--rwxrwxrwx 1 steff007 steff007 34M Jul  5  2021 you/shoenberg/Brahms_Piano_Quintet_in_F_minor_Lugansky_._Repin_._Boriso_Glebsky_._Girdchuk_._Ferr_ndez.mp3
--rwxrwxrwx 1 steff007 steff007 34M Jan 18  2022 you/shoenberg/Dvo_k_Piano_Quintet_in_A_Major_Op._81_Menahem_Pressler_Quatuor_Eb_ne_.mp3
--rwxrwxrwx 1 steff007 steff007 30M Nov  3  2020 you/shoenberg/Ives_Piano_Sonata_No.2_Concord_Mass._1840_60_.mp3
--rwxrwxrwx 1 steff007 steff007 32M Oct 25  2018 you/shoenberg/Igor_Stravinsky_The_Rite_of_Spring_1913_.mp3
--rwxrwxrwx 1 steff007 steff007 33M Oct 30  2018 you/shoenberg/John_Cage_Music_of_Changes_1951_.mp3
+-r-xr-xr-x 1 steff007 steff007 116M Nov 13  2023 Program Files (x86)/Foxit Software/Foxit PDF Reader/FoxitPDFReader.exe
 -r-xr-xr-x 1 steff007 steff007 47M Aug 13  2022 Program Files/Docker/cli-plugins/docker-buildx.exe
 -r-xr-xr-x 1 steff007 steff007 78M Sep  9  2021 Program Files/LibreOffice/program/mergedlo.dll
 -r-xr-xr-x 1 steff007 steff007 99M Feb  2  2022 Program Files/LLVM/bin/clang++.exe
 -r-xr-xr-x 1 steff007 steff007 99M Feb  2  2022 Program Files/LLVM/bin/clang-cl.exe
 -r-xr-xr-x 1 steff007 steff007 84M Feb  2  2022 Program Files/LLVM/bin/clang-check.exe
 -r-xr-xr-x 1 steff007 steff007 99M Feb  2  2022 Program Files/LLVM/bin/clang-cpp.exe
--r-xr-xr-x 1 steff007 steff007 61M Feb  2  2022 Program Files/LLVM/bin/clang-repl.exe
--r-xr-xr-x 1 steff007 steff007 92M Feb  2  2022 Program Files/LLVM/bin/clang-scan-deps.exe
--r-xr-xr-x 1 steff007 steff007 99M Feb  2  2022 Program Files/LLVM/bin/clang.exe
 -r-xr-xr-x 1 steff007 steff007 51M Feb  2  2022 Program Files/LLVM/bin/clang-tidy.exe
+-r-xr-xr-x 1 steff007 steff007 92M Feb  2  2022 Program Files/LLVM/bin/clang-scan-deps.exe
+-r-xr-xr-x 1 steff007 steff007 61M Feb  2  2022 Program Files/LLVM/bin/clang-repl.exe
 -r-xr-xr-x 1 steff007 steff007 33M Feb  2  2022 Program Files/LLVM/bin/clangd.exe
+-r-xr-xr-x 1 steff007 steff007 99M Feb  2  2022 Program Files/LLVM/bin/clang.exe
 -r-xr-xr-x 1 steff007 steff007 71M Feb  2  2022 Program Files/LLVM/bin/ld.lld.exe
 -r-xr-xr-x 1 steff007 steff007 71M Feb  2  2022 Program Files/LLVM/bin/ld64.lld.exe
 -r-xr-xr-x 1 steff007 steff007 71M Feb  2  2022 Program Files/LLVM/bin/ld64.lld.darwinold.exe
--r-xr-xr-x 1 steff007 steff007 80M Feb  2  2022 Program Files/LLVM/bin/libclang.dll
 -r-xr-xr-x 1 steff007 steff007 71M Feb  2  2022 Program Files/LLVM/bin/ld64.lld.darwinnew.exe
 -r-xr-xr-x 1 steff007 steff007 101M Feb  2  2022 Program Files/LLVM/bin/liblldb.dll
--r-xr-xr-x 1 steff007 steff007 71M Feb  2  2022 Program Files/LLVM/bin/lld.exe
--r-xr-xr-x 1 steff007 steff007 41M Feb  2  2022 Program Files/LLVM/bin/lldb-instr.exe
 -r-xr-xr-x 1 steff007 steff007 71M Feb  2  2022 Program Files/LLVM/bin/lld-link.exe
+-r-xr-xr-x 1 steff007 steff007 80M Feb  2  2022 Program Files/LLVM/bin/libclang.dll
+-r-xr-xr-x 1 steff007 steff007 71M Feb  2  2022 Program Files/LLVM/bin/lld.exe
 -r-xr-xr-x 1 steff007 steff007 69M Feb  2  2022 Program Files/LLVM/bin/LLVM-C.dll
+-r-xr-xr-x 1 steff007 steff007 41M Feb  2  2022 Program Files/LLVM/bin/lldb-instr.exe
 -r-xr-xr-x 1 steff007 steff007 68M Feb  2  2022 Program Files/LLVM/bin/LTO.dll
 -r-xr-xr-x 1 steff007 steff007 71M Feb  2  2022 Program Files/LLVM/bin/wasm-ld.exe
--r-xr-xr-x 1 steff007 steff007 65M May 24 15:57 Program Files/Microsoft OneDrive/24.091.0505.0003/OneDriveSetup.exe
+-r-xr-xr-x 1 steff007 steff007 67M Jun  7 18:37 Program Files/Microsoft OneDrive/24.101.0519.0010/OneDriveSetup.exe
 -r-xr-xr-x 1 steff007 steff007 34M Feb  8  2021 Program Files/MuseScore 3/bin/MuseScore3.exe
 -r-xr-xr-x 1 steff007 steff007 65M Dec  8  2019 Program Files/MuseScore 3/bin/Qt5WebEngineCore.dll
 -r-xr-xr-x 1 steff007 steff007 39M Feb  8  2021 Program Files/MuseScore 3/sound/MuseScore_General.sf3
 -r-xr-xr-x 1 steff007 steff007 75M Dec 18 11:43 Program Files/MuseScore 4/bin/MuseScore4.exe
 -r-xr-xr-x 1 steff007 steff007 49M Dec 13  2022 Program Files/MuseScore 4/sound/MS Basic.sf3
--r-xr-xr-x 1 steff007 steff007 116M Nov 13  2023 Program Files (x86)/Foxit Software/Foxit PDF Reader/FoxitPDFReader.exe
 -r-xr-xr-x 1 steff007 steff007 52M Jan 12  2022 ProgramData/Package Cache/08EF2F6CFDB33946061884B1CE13FA867EFBD576/windowsdesktop-runtime-3.1.22-win-x64.exe
 -r-xr-xr-x 1 steff007 steff007 45M Jan 12  2022 ProgramData/Package Cache/{1EEAC01B-68E4-41E8-AE8C-33A2D149637C}v0.53.3/PowerToysSetup-0.53.3-x64.msi
 -rwxrwxrwx 1 steff007 steff007 43M Apr 11  2023 projects/music/gut/downIntheValley.mp4
--rwxrwxrwx 1 steff007 steff007 43M Apr 11  2023 projects/music/gut/newMan.mp4
 -rwxrwxrwx 1 steff007 steff007 46M Feb  1 21:49 projects/music/gut/knocking.mp4
 -rwxrwxrwx 1 steff007 steff007 51M Apr 11  2023 projects/music/gut/RedRiver.mp4
+-rwxrwxrwx 1 steff007 steff007 43M Apr 11  2023 projects/music/gut/newMan.mp4
 -rwxrwxrwx 1 steff007 steff007 67M Apr 11  2023 projects/music/gut/strum.mp4
 -rwxrwxrwx 1 steff007 steff007 113M Apr 11  2023 projects/music/gut/strum2.mp4
 -rwxrwxrwx 1 steff007 steff007 66M Apr 11  2023 projects/music/gut/sunshine.mp4
 -rwxrwxrwx 1 steff007 steff007 110M Apr 11  2023 projects/music/gut/unknown.mp4
 -rwxrwxrwx 1 steff007 steff007 29M May  1  2023 projects/music/worker/canon3.mp4
 -rwxrwxrwx 1 steff007 steff007 43M May  1  2023 projects/music/worker/newMan.mp4
--rwxrwxrwx 1 steff007 steff007 148M May  8 15:49 Users/jayst/Downloads/R1_twit0978.mp3
+-rwxrwxrwx 1 steff007 steff007 364M Jun  6 15:58 Users/jayst/Downloads/clonezilla-live-3.1.2-22-i686.iso
+-rwxrwxrwx 1 steff007 steff007 411M Jun  6 20:30 Users/jayst/Downloads/clonezilla-live-3.1.2-22-amd64.zip
+-rwxrwxrwx 1 steff007 steff007 422M Jun  6 20:50 Users/jayst/Downloads/clonezilla-live-3.1.2-22-amd64.iso
+-rwxrwxrwx 1 steff007 steff007 406M Jun  6 15:21 Users/jayst/Downloads/clonezilla-live-3.1.2-9-amd64.zip
 -r-xr-xr-x 2 steff007 steff007 37M May 15 19:39 Windows/Containers/serviced/WindowsDefenderApplicationGuard.wim
 -r-xr-xr-x 1 steff007 steff007 71M May 16 19:44 Windows/servicing/Sessions/Sessions.xml
 -r-xr-xr-x 1 steff007 steff007 71M May 16 19:44 Windows/servicing/Sessions/Sessions.back.xml
--r-xr-xr-x 1 steff007 steff007 43M May 31 02:05 Windows/SoftwareDistribution/DataStore/DataStore.edb
--rwxrwxrwx 1 steff007 steff007 304M May  9 04:11 you/spoken/books/TheTrial.mp3
--rwxrwxrwx 1 steff007 steff007 34M Feb 16 00:00 you/spoken/intime/BeethovenRev.mp3
--rwxrwxrwx 1 steff007 steff007 46M Dec 29 06:17 you/spoken/intime/AlbertEinstein.mp3
--rwxrwxrwx 1 steff007 steff007 42M Nov  8  2023 you/spoken/durant/SamandDoug.mp3
--rwxrwxrwx 1 steff007 steff007 53M Jan 23 23:02 you/spoken/intime/cKarlBarth.mp3
--rwxrwxrwx 1 steff007 steff007 30M Mar 17 03:33 you/spoken/intime/Camusbrief.mp3
--rwxrwxrwx 1 steff007 steff007 51M Jan 23 23:02 you/spoken/intime/cTiberius.mp3
--rwxrwxrwx 1 steff007 steff007 53M Jan 23 23:02 you/spoken/intime/cVincentVanGogh.mp3
--rwxrwxrwx 1 steff007 steff007 56M Dec 29 06:16 you/spoken/intime/EdgarAllanPoe.mp3
--rwxrwxrwx 1 steff007 steff007 30M Jan 30 02:30 you/spoken/intime/DennetSapolskyfree.mp3
--rwxrwxrwx 1 steff007 steff007 29M Feb 16 00:02 you/spoken/intime/ErhmanWhoChose.mp3
--rwxrwxrwx 1 steff007 steff007 46M Jan 26 02:52 you/spoken/intime/EssPostModern.mp3
--rwxrwxrwx 1 steff007 steff007 39M Feb 10 01:02 you/spoken/intime/Ev3000.mp3
--rwxrwxrwx 1 steff007 steff007 36M Feb 28 00:06 you/spoken/intime/eve300000.mp3
--rwxrwxrwx 1 steff007 steff007 50M Feb  9 00:10 you/spoken/intime/HimmlerDeath.mp3
--rwxrwxrwx 1 steff007 steff007 53M Jan 23 22:36 you/spoken/intime/iotLeisure.mp3
--rwxrwxrwx 1 steff007 steff007 39M Feb 10 01:03 you/spoken/intime/EveRandom.mp3
--rwxrwxrwx 1 steff007 steff007 52M Jan 22 23:35 you/spoken/intime/Montaigne.mp3
--rwxrwxrwx 1 steff007 steff007 80M Feb  9 01:09 you/spoken/intime/MetaMorphis.mp3
--rwxrwxrwx 1 steff007 steff007 75M Mar 17 03:48 you/spoken/intime/NietMeaningofLife.mp3
--rwxrwxrwx 1 steff007 steff007 47M Jan 23 22:50 you/spoken/intime/IliadCut.mp3
--rwxrwxrwx 1 steff007 steff007 52M Dec 19 04:42 you/spoken/intime/newStalin.mp3
--rwxrwxrwx 1 steff007 steff007 33M Feb  9 00:27 you/spoken/intime/orl2.mp3
--rwxrwxrwx 1 steff007 steff007 45M Feb  9 00:27 you/spoken/intime/orl.mp3
--rwxrwxrwx 1 steff007 steff007 61M Feb 12 20:22 you/spoken/intime/Shakespeare.mp3
--rwxrwxrwx 1 steff007 steff007 67M Dec 24 01:43 you/spoken/intime/spinoza.mp3
--rwxrwxrwx 1 steff007 steff007 43M Feb  8 23:37 you/spoken/intime/WWIover.mp3
--rwxrwxrwx 1 steff007 steff007 41M Aug 15  2022 you/spoken/lastww2/The_Assassination_of_Reinhard_Heydrich_Last_Secrets_Of_The_3rd_Reich_War_Stories.mp3
--rwxrwxrwx 1 steff007 steff007 42M Jan 29 20:13 you/spoken/music/BasicPentatonic.mp4
--rwxrwxrwx 1 steff007 steff007 31M Sep 11  2022 you/spoken/lastww2/The_Mysterious_Life_of_Hitler_s_Right_Hand_Man_Last_Secrets_Of_The_3rd_Reich_War_Stories.mp3
--rwxrwxrwx 1 steff007 steff007 113M Jan 23 00:24 you/spoken/music/BluesA.mp4
--rwxrwxrwx 1 steff007 steff007 89M Feb 27 02:21 you/spoken/musc/CoolStrum.mp4
--rwxrwxrwx 1 steff007 steff007 59M Jan 11 11:52 you/spoken/music/cJamOPTrans.mp4
--rwxrwxrwx 1 steff007 steff007 51M Apr 12 00:27 you/spoken/music/goodAM.mp4
--rwxrwxrwx 1 steff007 steff007 101M Mar 25 01:44 you/spoken/music/GoodCampfire.mp4
--rwxrwxrwx 1 steff007 steff007 55M Feb  1 00:53 you/spoken/music/GoodMoreStrum.mp4
--rwxrwxrwx 1 steff007 steff007 120M Apr  6 03:49 you/spoken/music/goodOpenEm.mp4
--rwxrwxrwx 1 steff007 steff007 94M Feb 22 02:12 you/spoken/music/GoodStrumNew.mp4
--rwxrwxrwx 1 steff007 steff007 288M Apr 16 03:00 you/spoken/music/GoodTravFoley.mp4
--rwxrwxrwx 1 steff007 steff007 155M Feb 26 02:13 you/spoken/music/GuitarBackGround.mp4
--rwxrwxrwx 1 steff007 steff007 89M Jan 16 17:57 you/spoken/music/HeyJudeStrum.mp4
--rwxrwxrwx 1 steff007 steff007 46M Jan 21 02:37 you/spoken/music/GuitarNorth.mp4
--rwxrwxrwx 1 steff007 steff007 73M Mar 25 01:45 you/spoken/music/Penta.mp4
--rwxrwxrwx 1 steff007 steff007 78M Mar 25 01:43 you/spoken/music/MoreGoodCamp.mp4
--rwxrwxrwx 1 steff007 steff007 30M Jan 16 17:46 you/spoken/music/StrumLetbe.mp4
--rwxrwxrwx 1 steff007 steff007 61M Jan  9 11:40 you/spoken/music/StrumMute.mp4
--rwxrwxrwx 1 steff007 steff007 40M Jan 21 02:41 you/spoken/music/TomorrowLongTime.mp4
--rwxrwxrwx 1 steff007 steff007 84M Nov 27  2023 you/spoken/webdev/GoogleTag.mp4
--rwxrwxrwx 1 steff007 steff007 91M Mar 25 03:00 you/spoken/music/twinkle.mp4
--rwxrwxrwx 1 steff007 steff007 238M Dec 15 22:09 you/spoken/webdev/GoodPuppet.mp4
--rwxrwxrwx 1 steff007 steff007 98M Mar 11 00:15 you/spoken/webdev/GitIndepth.mp4
--rwxrwxrwx 1 steff007 steff007 42M Apr 14 02:15 you/spoken/webdev/NodeVscode.mp4
--rwxrwxrwx 1 steff007 steff007 49M Apr 17 02:40 you/spoken/webdev/moreReduce.mp4
--rwxrwxrwx 1 steff007 steff007 84M Feb 27 02:36 you/spoken/webdev/TravHtmx.mp4
--rwxrwxrwx 1 steff007 steff007 70M Dec 10 01:21 you/spoken/webdev/TravFlex.mp4
--rwxrwxrwx 1 steff007 steff007 46M Oct 19  2023 you/spoken/ww2/Everyone_Forgot_That_The_Russians_Joined_Us._The_Diary_Of_A_Deluded_Fanatic..webm.part
--rwxrwxrwx 1 steff007 steff007 40M Jul 31  2023 you/spoken/ww2/Crack..._One_Shot_Is_All_It_Takes....mp3
--rwxrwxrwx 1 steff007 steff007 74M Apr 10 00:10 you/spoken/webdev/wdsExpress.mp4
--rwxrwxrwx 1 steff007 steff007 40M Oct 19  2023 you/spoken/ww2/OneShot.mp3
--rwxrwxrwx 1 steff007 steff007 45M Nov  6  2023 you/spoken/ww2/Panzer.mp3
--rwxrwxrwx 1 steff007 steff007 47M Oct 19  2023 you/spoken/ww2/Our_Generation_Will_Restore_Germanys_Place_As_The_Rightful_King_Of_Europe.webm.part
--rwxrwxrwx 1 steff007 steff007 34M Oct 19  2023 you/spoken/ww2/StraightMoscow.mp3
--rwxrwxrwx 1 steff007 steff007 33M Sep  1  2023 you/spoken/ww2/The_Mad_Ramblings_Of_A_Psychopathic_German_Bicycle_Soldier.mp3
--rwxrwxrwx 1 steff007 steff007 43M Jul 31  2023 you/spoken/ww2/The_Battle_Of_Kiev_Was_Our_Greatest_Victory_The_Reality_Was_Total_Chaos.webm
--rwxrwxrwx 1 steff007 steff007 41M Oct  9  2023 you/spoken/ww2/The_Sickening_Account_Of_A_Nazi_Zealot.mp3
--r-xr-xr-x 1 steff007 steff007 94M Feb  3  2021 Windows/WinSxS/amd64_microsoft-windows-e..-firsttimeinstaller_31bf3856ad364e35_10.0.19041.681_none_31051459c61ca882/MicrosoftEdgeStandaloneInstaller.exe
+-r-xr-xr-x 1 steff007 steff007 43M Jun 11 11:15 Windows/SoftwareDistribution/DataStore/DataStore.edb
 -r-xr-xr-x 2 steff007 steff007 37M May 15 19:39 Windows/WinSxS/amd64_microsoft-windows-dynamic-image_31bf3856ad364e35_10.0.19041.4412_none_b4ec6e9eea9a0ee0/WindowsDefenderApplicationGuard.wim
+-r-xr-xr-x 1 steff007 steff007 94M Feb  3  2021 Windows/WinSxS/amd64_microsoft-windows-e..-firsttimeinstaller_31bf3856ad364e35_10.0.19041.681_none_31051459c61ca882/MicrosoftEdgeStandaloneInstaller.exe
 -r-xr-xr-x 1 steff007 steff007 110M Oct  5  2021 Windows/WinSxS/amd64_microsoft-windows-edgechromium_31bf3856ad364e35_10.0.19041.3636_none_7437336f112dbb3d/Edge.wim
 -r-xr-xr-x 2 steff007 steff007 36M Dec  7  2019 Windows/WinSxS/amd64_microsoft-windows-font-truetype-mingliub_31bf3856ad364e35_10.0.19041.1_none_7f12b521d792a46d/mingliub.ttc
 -r-xr-xr-x 2 steff007 steff007 32M Nov 14  2023 Windows/WinSxS/amd64_microsoft-windows-windowscodecraw_31bf3856ad364e35_10.0.19041.3636_none_098d08746d10f821/WindowsCodecsRaw.dll
 -r-xr-xr-x 2 steff007 steff007 30M Dec  7  2019 Windows/WinSxS/wow64_microsoft-windows-onedrive-setup_31bf3856ad364e35_10.0.19041.1_none_e585f901f9ce93e6/OneDriveSetup.exe
 -r-xr-xr-x 2 steff007 steff007 31M Nov 14  2023 Windows/WinSxS/wow64_microsoft-windows-windowscodecraw_31bf3856ad364e35_10.0.19041.3636_none_13e1b2c6a171ba1c/WindowsCodecsRaw.dll
--r-xr-xr-x 1 steff007 steff007 202M May 20 09:53 Program Files/Google/Drive File Stream/91.0.2.0/libcef.dll
--r-xr-xr-x 1 steff007 steff007 59M May 20 09:53 Program Files/Google/Drive File Stream/91.0.2.0/GoogleDriveFS.exe
--r-xr-xr-x 3 steff007 steff007 258M May 24 12:50 Program Files (x86)/Microsoft/EdgeCore/125.0.2535.67/msedge.dll
+-r-xr-xr-x 3 steff007 steff007 258M Jun  6 01:52 Program Files (x86)/Microsoft/EdgeCore/125.0.2535.92/msedge.dll
+-r-xr-xr-x 1 steff007 steff007 59M Jun  6 10:00 Program Files/Google/Drive File Stream/92.0.0.0/GoogleDriveFS.exe
+-r-xr-xr-x 1 steff007 steff007 202M Jun  6 10:00 Program Files/Google/Drive File Stream/92.0.0.0/libcef.dll
 -r-xr-xr-x 1 steff007 steff007 94M Mar  5  2022 ProgramData/chocolatey/lib/git.install/git.install.nupkg
 -r-xr-xr-x 1 steff007 steff007 48M Sep 22  2023 ProgramData/chocolatey/lib/python311/python311.nupkg
 -r-xr-xr-x 1 steff007 steff007 92M May  4  2022 ProgramData/IObit/IObit Uninstaller/Downloader/isrSetup.exe.exe
@@ -228,146 +109,107 @@
 -rwxrwxrwx 1 steff007 steff007 91M Feb 28 23:29 projects/music/gut/songs/twinkle.mp4
 -rwxrwxrwx 1 steff007 steff007 43M Jan 13 21:45 projects/music/gut/todo/FingerPatterns.mp4
 -rwxrwxrwx 1 steff007 steff007 59M Apr 11  2023 projects/music/gut/todo/GoodGuitar.mp4
--rwxrwxrwx 1 steff007 steff007 45M Apr 11  2023 projects/music/gut/todo/norwegian.mp4
 -rwxrwxrwx 1 steff007 steff007 129M Apr 11  2023 projects/music/gut/todo/GutTheory.mp4
 -rwxrwxrwx 1 steff007 steff007 126M Apr 11  2023 projects/music/gut/todo/YesterG.mp4
+-rwxrwxrwx 1 steff007 steff007 45M Apr 11  2023 projects/music/gut/todo/norwegian.mp4
 -r-xr-xr-x 1 steff007 steff007 49M May 18 19:41 Windows/System32/catroot2/{F750E6C3-38EE-11D1-85E5-00C04FC295EE}/catdb
 -r-xr-xr-x 1 steff007 steff007 68M Apr 13  2021 Windows/System32/lxss/tools/kernel
 -r-xr-xr-x 1 steff007 steff007 30M Jul 24  2021 Windows/System32/wbem/Repository.old/Corrupted.rec
----------- 1 steff007 steff007 33M May 30 15:36 Windows/System32/winevt/Logs/Microsoft-Windows-Ntfs%4Operational.evtx
+---------- 1 steff007 steff007 33M Jun 10 15:50 Windows/System32/winevt/Logs/Microsoft-Windows-Ntfs%4Operational.evtx
 ls: Windows/System32/winevt/Logs/Microsoft-Windows-Ntfs%4Operational.evtx: Permission denied
----------- 1 steff007 steff007 33M May 31 01:30 Windows/System32/winevt/Logs/Microsoft-Windows-Storage-Storport%4Operational.evtx
+---------- 1 steff007 steff007 33M Jun 11 11:30 Windows/System32/winevt/Logs/Microsoft-Windows-Storage-Storport%4Operational.evtx
 ls: Windows/System32/winevt/Logs/Microsoft-Windows-Storage-Storport%4Operational.evtx: Permission denied
--rwxrwxrwx 1 steff007 steff007 54M Jan 23 22:32 you/spoken/intime/cuts/KarlBarth.mp3
--rwxrwxrwx 1 steff007 steff007 37M Nov 15  2018 you/spoken/intime/td/Durant_shakes.mp3
--rwxrwxrwx 1 steff007 steff007 54M Jan 23 22:32 you/spoken/intime/cuts/VincentVanGogh.mp3
--rwxrwxrwx 1 steff007 steff007 52M Jan 23 22:32 you/spoken/intime/cuts/Tiberius.mp3
--rwxrwxrwx 1 steff007 steff007 68M Nov 17  2023 you/spoken/intime/td/DurHerbertSpencer.mp3
--rwxrwxrwx 1 steff007 steff007 81M Nov  1  2023 you/spoken/intime/td/GermanPers.mp3
--rwxrwxrwx 1 steff007 steff007 141M Oct 14  2023 you/spoken/intime/td/EnglishCivil.mp3
--rwxrwxrwx 1 steff007 steff007 78M Oct 31  2023 you/spoken/intime/td/gilded.mp3
--rwxrwxrwx 1 steff007 steff007 143M Aug 31  2023 you/spoken/intime/td/goethe.mp3
--rwxrwxrwx 1 steff007 steff007 125M Oct 14  2023 you/spoken/intime/td/goodH.mp3
--rwxrwxrwx 1 steff007 steff007 48M Oct 25  2023 you/spoken/intime/td/HomoErectus.mp3
--rwxrwxrwx 1 steff007 steff007 35M Jun 23  2023 you/spoken/intime/td/illusionism_final.mp3
--rwxrwxrwx 1 steff007 steff007 47M Feb 26  2023 you/spoken/intime/td/Muhammad_and_The_Qur_an.mp3
--rwxrwxrwx 1 steff007 steff007 48M Oct 25  2023 you/spoken/intime/td/oHomoErectus.mp3
--rwxrwxrwx 1 steff007 steff007 50M Aug 26  2023 you/spoken/intime/td/IOTcnut.mp3
--rwxrwxrwx 1 steff007 steff007 63M Nov 17  2023 you/spoken/intime/td/oInOurTime-20230928-TheEconomicConsequencesOfThePeace.mp3
--rwxrwxrwx 1 steff007 steff007 49M Oct 25  2023 you/spoken/intime/td/oCharisma.mp3
--rwxrwxrwx 1 steff007 steff007 47M Nov 17  2023 you/spoken/intime/td/oInOurTime-20231005-Plankton.mp3
--rwxrwxrwx 1 steff007 steff007 49M Nov 17  2023 you/spoken/intime/td/oInOurTime-20231012-TheFederalistPapers.mp3
--rwxrwxrwx 1 steff007 steff007 49M Nov 17  2023 you/spoken/intime/td/oInOurTime-20231019-JulianOfNorwich.mp3
--rwxrwxrwx 1 steff007 steff007 48M Oct 25  2023 you/spoken/intime/td/oPaulErdos.mp3
--rwxrwxrwx 1 steff007 steff007 49M Oct 25  2023 you/spoken/intime/td/oTheHittites.mp3
--rwxrwxrwx 1 steff007 steff007 48M Oct 25  2023 you/spoken/intime/td/oSolonTheLawgiver.mp3
--rwxrwxrwx 1 steff007 steff007 49M Oct 25  2023 you/spoken/intime/td/oTheMayFourthMovement.mp3
--rwxrwxrwx 1 steff007 steff007 48M Oct 25  2023 you/spoken/intime/td/outputfile.mp3
--rwxrwxrwx 1 steff007 steff007 30M Sep  5  2023 you/spoken/intime/td/Regligion.mp3
--rwxrwxrwx 1 steff007 steff007 51M Oct 25  2023 you/spoken/intime/td/oTheNibelungenlied.mp3
--rwxrwxrwx 1 steff007 steff007 46M Oct 25  2023 you/spoken/intime/td/oTheSeventhSeal.mp3
--rwxrwxrwx 1 steff007 steff007 42M Nov  8  2023 you/spoken/intime/td/SamandDoug.mp3
--rwxrwxrwx 1 steff007 steff007 31M Nov 17  2023 you/spoken/intime/td/SamWorldOrder.mp3
--rwxrwxrwx 1 steff007 steff007 49M Oct 14  2023 you/spoken/intime/td/Sapolsky.mp3
--rwxrwxrwx 1 steff007 steff007 43M Feb 27  2023 you/spoken/intime/td/Suleiman_the_Magnificent.mp3
--rwxrwxrwx 1 steff007 steff007 45M Feb 26  2023 you/spoken/intime/td/Schopenhauer.mp3
--rwxrwxrwx 1 steff007 steff007 34M Oct 29  2023 you/spoken/intime/td/StraightMoscow.mp3
--rwxrwxrwx 1 steff007 steff007 48M Oct 25  2023 you/spoken/intime/td/TheKnightsTemplar.mp3
--rwxrwxrwx 1 steff007 steff007 40M Feb 27  2023 you/spoken/intime/td/The_Making_of_the_Constitution.mp3
--rwxrwxrwx 1 steff007 steff007 33M Oct 29  2023 you/spoken/intime/td/The_Mad_Ramblings_Of_A_Psychopathic_German_Bicycle_Soldier.mp3
--rwxrwxrwx 1 steff007 steff007 52M Oct 25  2023 you/spoken/intime/td/TheIrishRebellionOf1798.mp3
--rwxrwxrwx 1 steff007 steff007 54M Feb 27  2023 you/spoken/intime/td/The_Universe_in_90_minutes_Time_free_will_God_more_Sean_Carroll.mp3
--rwxrwxrwx 1 steff007 steff007 67M Nov  2  2016 you/spoken/intime/td/The_View_from_the_End_of_the_World_Sam_Harris.mp3
--rwxrwxrwx 1 steff007 steff007 69M Feb 26  2023 you/spoken/intime/td/The_Philosophy_of_Schopenhauer.mp3
--rwxrwxrwx 1 steff007 steff007 173M Oct 31  2023 you/spoken/intime/td/ww2Collapse.mp3
--rwxrwxrwx 1 steff007 steff007 59M Feb 27  2023 you/spoken/intime/td/Why_was_Alexander_the_Great_so_successful_with_Adrian_Goldsworthy_.mp3
--rwxrwxrwx 1 steff007 steff007 49M Jan 21  2018 you/spoken/intime/td/Will_Durant_The_Seven_Years_War_1756_1763_.mp3
--rwxrwxrwx 1 steff007 steff007 51M Dec  1 03:55 you/spoken/intime/wd/AristotlesNicomacheanEthics.mp3
--rwxrwxrwx 1 steff007 steff007 88M Nov 11  2023 you/spoken/intime/wd/Irish.mp3
--rwxrwxrwx 1 steff007 steff007 43M Nov 30 23:14 you/spoken/intime/wd/qandAHitchens.mp3
--rwxrwxrwx 1 steff007 steff007 34M Nov 30 23:21 you/spoken/intime/wd/bbcJesusBuddah.mp3
--r-xr-xr-x 1 steff007 steff007 37M May  8 19:13 Windows/WinSxS/amd64_microsoft-windows-dynamic-image_31bf3856ad364e35_10.0.19041.4412_none_b4ec6e9eea9a0ee0/n/WindowsDefenderApplicationGuard.wim
 -r-xr-xr-x 1 steff007 steff007 87M Nov 20  2020 Windows/WinSxS/amd64_microsoft-windows-e..-firsttimeinstaller_31bf3856ad364e35_10.0.19041.681_none_31051459c61ca882/n/MicrosoftEdgeStandaloneInstaller.exe
--r-xr-xr-x 1 steff007 steff007 237M May 24 04:09 Program Files/BraveSoftware/Brave-Browser/Application/125.1.66.115/chrome.dll
--r-xr-xr-x 1 steff007 steff007 219M May 22 22:08 Program Files/Google/Chrome/Application/125.0.6422.113/chrome.dll
--r-xr-xr-x 1 steff007 steff007 219M May 22 17:29 Program Files/Google/Chrome/Application/125.0.6422.114/chrome.dll
--r-xr-xr-x 1 steff007 steff007 101M Feb  2  2022 Program Files/LLVM/lib/site-packages/lldb/_lldb.pyd
--r-xr-xr-x 3 steff007 steff007 258M May 24 12:50 Program Files (x86)/Microsoft/Edge/Application/125.0.2535.67/msedge.dll
--r-xr-xr-x 3 steff007 steff007 258M May 24 12:50 Program Files (x86)/Microsoft/EdgeWebView/Application/125.0.2535.67/msedge.dll
+-r-xr-xr-x 1 steff007 steff007 37M May  8 19:13 Windows/WinSxS/amd64_microsoft-windows-dynamic-image_31bf3856ad364e35_10.0.19041.4412_none_b4ec6e9eea9a0ee0/n/WindowsDefenderApplicationGuard.wim
 -rwxrwxrwx 1 steff007 steff007 61M Dec  2  2021 Program Files (x86)/Metadata++/Cache/sav/Vid/02_56_12-12-4-2021-3-02-17 PM.mp3
--rwxrwxrwx 1 steff007 steff007 31M Nov 17  2021 Program Files (x86)/Metadata++/Cache/sav/Vid/17_08_11-12-4-2021-3-02-21 PM.mp3
+-rwxrwxrwx 1 steff007 steff007 75M Nov 15  2021 Program Files (x86)/Metadata++/Cache/sav/Vid/15_30_11-12-4-2021-3-02-20 PM.mp3
+-rwxrwxrwx 1 steff007 steff007 69M Dec  3  2021 Program Files (x86)/Metadata++/Cache/sav/Vid/03_27_12-12-4-2021-3-02-18 PM.mp3
 -rwxrwxrwx 1 steff007 steff007 38M Dec  2  2021 Program Files (x86)/Metadata++/Cache/sav/Vid/02_26_12-12-4-2021-3-02-16 PM.mp3
 -rwxrwxrwx 1 steff007 steff007 38M Nov 18  2021 Program Files (x86)/Metadata++/Cache/sav/Vid/17_19_11-12-4-2021-3-02-22 PM.mp3
--rwxrwxrwx 1 steff007 steff007 69M Dec  3  2021 Program Files (x86)/Metadata++/Cache/sav/Vid/03_27_12-12-4-2021-3-02-18 PM.mp3
--rwxrwxrwx 1 steff007 steff007 75M Nov 15  2021 Program Files (x86)/Metadata++/Cache/sav/Vid/15_30_11-12-4-2021-3-02-20 PM.mp3
+-rwxrwxrwx 1 steff007 steff007 31M Nov 17  2021 Program Files (x86)/Metadata++/Cache/sav/Vid/17_08_11-12-4-2021-3-02-21 PM.mp3
+-r-xr-xr-x 3 steff007 steff007 258M Jun  6 01:52 Program Files (x86)/Microsoft/Edge/Application/125.0.2535.92/msedge.dll
+-r-xr-xr-x 3 steff007 steff007 258M Jun  6 01:52 Program Files (x86)/Microsoft/EdgeWebView/Application/125.0.2535.92/msedge.dll
+-r-xr-xr-x 1 steff007 steff007 237M May 30 22:49 Program Files/BraveSoftware/Brave-Browser/Application/125.1.66.118/chrome.dll
+-r-xr-xr-x 1 steff007 steff007 219M May 29 17:05 Program Files/Google/Chrome/Application/125.0.6422.142/chrome.dll
+-r-xr-xr-x 1 steff007 steff007 101M Feb  2  2022 Program Files/LLVM/lib/site-packages/lldb/_lldb.pyd
 -r-xr-xr-x 1 steff007 steff007 44M Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.CodeAnalysis.VisualStudio.Setup,version=3.11.0.2140306/payload.vsix
--r-xr-xr-x 1 steff007 steff007 64M Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VC.14.29.16.11.CRT.x86.Desktop.base,version=14.29.30136/payload.vsix
 -r-xr-xr-x 1 steff007 steff007 42M Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VC.14.29.16.11.CRT.x64.Desktop.base,version=14.29.30136/payload.vsix
 -r-xr-xr-x 1 steff007 steff007 54M Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VC.14.29.16.11.CRT.x64.OneCore.Desktop.base,version=14.29.30136/payload.vsix
+-r-xr-xr-x 1 steff007 steff007 64M Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VC.14.29.16.11.CRT.x86.Desktop.base,version=14.29.30136/payload.vsix
 -r-xr-xr-x 1 steff007 steff007 49M Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VC.14.29.16.11.CRT.x86.OneCore.Desktop.base,version=14.29.30136/payload.vsix
 -r-xr-xr-x 1 steff007 steff007 96M Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualCpp.CRT.Redist.X64,version=14.29.30135/payload.vsix
 -r-xr-xr-x 1 steff007 steff007 52M Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualCpp.CRT.Redist.X86,version=14.29.30135/payload.vsix
 -r-xr-xr-x 1 steff007 steff007 49M Aug  8  2021 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualCpp.CRT.x64.OneCore.Desktop,version=14.16.27023/payload.vsix
 -r-xr-xr-x 1 steff007 steff007 76M Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualStudio.TeamExplorer,version=16.11.31729.1/payload.vsix
 -r-xr-xr-x 1 steff007 steff007 33M Mar 10  2022 ProgramData/Microsoft/VisualStudio/Packages/Microsoft.VisualStudio.VC.Llvm.Base,version=16.11.31503.43/payload.vsix
--r-xr-xr-x 2 steff007 steff007 83M May  6 23:55 ProgramData/Microsoft/Windows Defender/Definition Updates/Backup/mpasbase.vdm
--r-xr-xr-x 2 steff007 steff007 83M May  6 23:55 ProgramData/Microsoft/Windows Defender/Definition Updates/Backup/mpasbase.lkg
--r-xr-xr-x 2 steff007 steff007 45M May  6 23:56 ProgramData/Microsoft/Windows Defender/Definition Updates/Backup/mpavbase.lkg
--r-xr-xr-x 2 steff007 steff007 45M May  6 23:56 ProgramData/Microsoft/Windows Defender/Definition Updates/Backup/mpavbase.vdm
--r-xr-xr-x 1 steff007 steff007 47M May 30 15:31 ProgramData/Microsoft/Windows Defender/Definition Updates/{EB6FA42C-51FC-47A1-B92F-812B87825ED0}/mpavbase.vdm
--r-xr-xr-x 1 steff007 steff007 83M May 30 15:31 ProgramData/Microsoft/Windows Defender/Definition Updates/{EB6FA42C-51FC-47A1-B92F-812B87825ED0}/mpasbase.vdm
+-r-xr-xr-x 1 steff007 steff007 83M May  6 23:55 ProgramData/Microsoft/Windows Defender/Definition Updates/Backup/mpasbase.lkg
+-r-xr-xr-x 2 steff007 steff007 83M May 30 15:31 ProgramData/Microsoft/Windows Defender/Definition Updates/Backup/mpasbase.vdm
+-r-xr-xr-x 1 steff007 steff007 45M May  6 23:56 ProgramData/Microsoft/Windows Defender/Definition Updates/Backup/mpavbase.lkg
+-r-xr-xr-x 2 steff007 steff007 47M May 30 15:31 ProgramData/Microsoft/Windows Defender/Definition Updates/Backup/mpavbase.vdm
+-r-xr-xr-x 2 steff007 steff007 83M May 30 15:31 ProgramData/Microsoft/Windows Defender/Definition Updates/{52A55376-B37E-4F25-B132-91E63299AE9A}/mpasbase.vdm
+-r-xr-xr-x 2 steff007 steff007 47M May 30 15:31 ProgramData/Microsoft/Windows Defender/Definition Updates/{52A55376-B37E-4F25-B132-91E63299AE9A}/mpavbase.vdm
 -r-xr-xr-x 1 steff007 steff007 38M Jan 29  2023 ProgramData/MuseHub/Downloads/Installers/44630e72-48b6-478f-a160-fc5483d95b36/Muse Hub.exe
 -r-xr-xr-x 1 steff007 steff007 99M Dec 23  2022 ProgramData/MuseHub/Downloads/Installers/4f58d054-46bd-4951-978f-8ce311a5f08f/MuseScore-4.0.0.223472200-x86_64.msi
 -rwxrwxrwx 1 steff007 steff007 38M Feb 14 12:27 Users/jayst/AppData/Local/Everything/Everything.db
--rwxrwxrwx 1 steff007 steff007 158M May 31 02:11 Users/jayst/AppData/Roaming/Ditto/Ditto.db
+-rwxrwxrwx 1 steff007 steff007 194M Jun 11 11:33 Users/jayst/AppData/Roaming/Ditto/Ditto.db
 -rwxrwxrwx 1 steff007 steff007 40M Jun  7  2023 Users/jayst/AppData/Roaming/krita/resourcecache.sqlite
--r-xr-xr-x 1 steff007 steff007 46M May 16 13:18 Windows/assembly/NativeImages_v4.0.30319_32/Microsoft.C1d3c2215#/4509998b56513fcbb52e7f37b830ed23/Microsoft.CodeAnalysis.CSharp.ni.dll
--r-xr-xr-x 1 steff007 steff007 44M May 16 13:34 Windows/assembly/NativeImages_v4.0.30319_32/Microsoft.Cbf18da00#/26fe5ae5dd29c15bcde04cf256b8a7d9/Microsoft.CodeAnalysis.ni.dll
--r-xr-xr-x 1 steff007 steff007 32M May 16 13:36 Windows/assembly/NativeImages_v4.0.30319_32/Microsoft.Cf3d5ce20#/0ecd963abcfe9f6465a92d3ad026cb4f/Microsoft.CodeAnalysis.VisualBasic.ni.dll
+-rwxrwxrwx 1 steff007 steff007 357M Jun  6 20:31 Users/jayst/Downloads/clonezilla-live-3.1.2-22-amd64/live/filesystem.squashfs
+-rwxrwxrwx 1 steff007 steff007 38M Jun  6 20:31 Users/jayst/Downloads/clonezilla-live-3.1.2-22-amd64/live/initrd.img
+-rwxrwxrwx 1 steff007 steff007 352M Jun  6 15:34 Users/jayst/Downloads/clonezilla-live-3.1.2-9-amd64/live/filesystem.squashfs
+-rwxrwxrwx 1 steff007 steff007 37M Jun  6 15:33 Users/jayst/Downloads/clonezilla-live-3.1.2-9-amd64/live/initrd.img
 -r-xr-xr-x 1 steff007 steff007 58M May 16 03:16 Windows/assembly/NativeImages_v4.0.30319_64/Microsoft.C1d3c2215#/dabf80baffc16728969f128125afe5dd/Microsoft.CodeAnalysis.CSharp.ni.dll
 -r-xr-xr-x 1 steff007 steff007 55M May 16 11:30 Windows/assembly/NativeImages_v4.0.30319_64/Microsoft.Cbf18da00#/a0be9e3b1c2a4eebb051dcfc77bd00c4/Microsoft.CodeAnalysis.ni.dll
 -r-xr-xr-x 1 steff007 steff007 40M May 16 11:32 Windows/assembly/NativeImages_v4.0.30319_64/Microsoft.Cf3d5ce20#/1b3988b97003693a0f311b66eee86192/Microsoft.CodeAnalysis.VisualBasic.ni.dll
+-r-xr-xr-x 1 steff007 steff007 46M May 16 13:18 Windows/assembly/NativeImages_v4.0.30319_32/Microsoft.C1d3c2215#/4509998b56513fcbb52e7f37b830ed23/Microsoft.CodeAnalysis.CSharp.ni.dll
+-r-xr-xr-x 1 steff007 steff007 44M May 16 13:34 Windows/assembly/NativeImages_v4.0.30319_32/Microsoft.Cbf18da00#/26fe5ae5dd29c15bcde04cf256b8a7d9/Microsoft.CodeAnalysis.ni.dll
+-r-xr-xr-x 1 steff007 steff007 32M May 16 13:36 Windows/assembly/NativeImages_v4.0.30319_32/Microsoft.Cf3d5ce20#/0ecd963abcfe9f6465a92d3ad026cb4f/Microsoft.CodeAnalysis.VisualBasic.ni.dll
 -r-xr-xr-x 1 steff007 steff007 35M May 17 03:22 Windows/assembly/NativeImages_v4.0.30319_64/System.Manaa57fc8cc#/d7c44cac86eb32467f847ca506483629/System.Management.Automation.ni.dll
 -r-xr-xr-x 1 steff007 steff007 110M May  8 14:48 Windows/servicing/LCU/Package_for_RollupFix~31bf3856ad364e35~amd64~~19041.4412.1.15/amd64_microsoft-windows-edgechromium_31bf3856ad364e35_10.0.19041.3636_none_7437336f112dbb3d/edge.wim
 -r-xr-xr-x 1 steff007 steff007 69M May 27  2015 Windows/System32/DriverStore/FileRepository/hdxadcma.inf_amd64_5a19ab44fee80f8d/RCoRes64.dat
--r-xr-xr-x 1 steff007 steff007 34M Dec 20  2018 Windows/System32/DriverStore/FileRepository/ki130515.inf_amd64_746fe1ef6b8eefc1/igd11dxva32.dll
 -r-xr-xr-x 1 steff007 steff007 32M Dec 20  2018 Windows/System32/DriverStore/FileRepository/ki130515.inf_amd64_746fe1ef6b8eefc1/igd11dxva64.dll
--r-xr-xr-x 1 steff007 steff007 39M Dec 20  2018 Windows/System32/DriverStore/FileRepository/ki130515.inf_amd64_746fe1ef6b8eefc1/igdumdim64.dll
+-r-xr-xr-x 1 steff007 steff007 34M Dec 20  2018 Windows/System32/DriverStore/FileRepository/ki130515.inf_amd64_746fe1ef6b8eefc1/igd11dxva32.dll
 -r-xr-xr-x 1 steff007 steff007 38M Dec 20  2018 Windows/System32/DriverStore/FileRepository/ki130515.inf_amd64_746fe1ef6b8eefc1/igdumdim32.dll
+-r-xr-xr-x 1 steff007 steff007 39M Dec 20  2018 Windows/System32/DriverStore/FileRepository/ki130515.inf_amd64_746fe1ef6b8eefc1/igdumdim64.dll
 -r-xr-xr-x 1 steff007 steff007 48M Nov 22  2017 Windows/System32/DriverStore/FileRepository/netwbw02.inf_amd64_8167dd723c98f377/WiFi.msi
--r-xr-xr-x 1 steff007 steff007 388M May 24 10:56 Program Files/BraveSoftware/Brave-Browser/Application/125.1.66.115/Installer/chrome.7z
--r-xr-xr-x 1 steff007 steff007 351M May 30 20:00 Program Files/Google/Chrome/Application/125.0.6422.114/Installer/chrome.7z
+-r-xr-xr-x 1 steff007 steff007 388M May 31 11:31 Program Files/BraveSoftware/Brave-Browser/Application/125.1.66.118/Installer/chrome.7z
+-r-xr-xr-x 1 steff007 steff007 351M Jun  4 16:59 Program Files/Google/Chrome/Application/125.0.6422.142/Installer/chrome.7z
+-r-xr-xr-x 1 steff007 steff007 100M Apr  5  2022 Program Files/MongoDB/Server/5.0/data/journal/WiredTigerPreplog.0000000001
 -r-xr-xr-x 1 steff007 steff007 100M Apr  5  2022 Program Files/MongoDB/Server/5.0/data/journal/WiredTigerPreplog.0000000002
 -r-xr-xr-x 1 steff007 steff007 100M Apr  9  2022 Program Files/MongoDB/Server/5.0/data/journal/WiredTigerLog.0000000040
--r-xr-xr-x 1 steff007 steff007 100M Apr  5  2022 Program Files/MongoDB/Server/5.0/data/journal/WiredTigerPreplog.0000000001
--r-xr-xr-x 1 steff007 steff007 43M May 26 14:41 Program Files (x86)/Microsoft/EdgeUpdate/Download/{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}/125.0.2535.67/MicrosoftEdge_X64_125.0.2535.67_124.0.2478.97.exe
 -rwxrwxrwx 1 steff007 steff007 48M Sep 22  2023 Users/jayst/AppData/Local/NuGet/Cache/python311.3.11.5.nupkg
 -rwxrwxrwx 1 steff007 steff007 161M May  7 05:49 Users/jayst/AppData/Local/Programs/Microsoft VS Code/Code.exe
 -rwxrwxrwx 1 steff007 steff007 161M May 14 22:47 Users/jayst/AppData/Local/Programs/Microsoft VS Code/is-59HFR.tmp
--rwxrwxrwx 1 steff007 steff007 103M May 26 06:58 Users/jayst/AppData/Local/Programs/Microsoft VS Code/unins000.dat
--rwxrwxrwx 1 steff007 steff007 36M May 25 22:26 Users/jayst/AppData/Local/Temp/90908171-3A5B-4C2B-8D07-16A7FD294FD5/swap.vhdx
--rwxrwxrwx 1 steff007 steff007 36M May 30 18:28 Users/jayst/AppData/Local/Temp/A882D5C1-C6A0-48ED-8324-4830CB84D993/swap.vhdx
--rwxrwxrwx 1 steff007 steff007 95M May 26 06:15 Users/jayst/AppData/Local/Temp/vscode-stable-user-x64/CodeSetup-stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685.exe
+-rwxrwxrwx 1 steff007 steff007 104M Jun 10 21:58 Users/jayst/AppData/Local/Programs/Microsoft VS Code/unins000.dat
+-rwxrwxrwx 1 steff007 steff007 36M Jun  6 08:02 Users/jayst/AppData/Local/Temp/21F084AE-4F2B-43CB-92DA-0C1CCE04FEAA/swap.vhdx
+-rwxrwxrwx 1 steff007 steff007 36M Jun  2 20:14 Users/jayst/AppData/Local/Temp/431CE656-A135-4F9E-9BB3-E14471F1A990/swap.vhdx
+-rwxrwxrwx 1 steff007 steff007 36M Jun 10 15:50 Users/jayst/AppData/Local/Temp/67CCB3C4-65F1-4BE0-9B07-E3191C96B84E/swap.vhdx
+-rwxrwxrwx 1 steff007 steff007 36M Jun  6 21:45 Users/jayst/AppData/Local/Temp/5F7F4001-0F70-48A3-8BF5-D09AD28FAA6C/swap.vhdx
+-rwxrwxrwx 1 steff007 steff007 36M Jun  6 14:10 Users/jayst/AppData/Local/Temp/D4AF99ED-3FD3-420E-B602-4637EF52E7A8/swap.vhdx
+-rwxrwxrwx 1 steff007 steff007 96M Jun  9 05:05 Users/jayst/AppData/Local/Temp/vscode-stable-user-x64/CodeSetup-stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573.exe
 -rwxrwxrwx 1 steff007 steff007 55M Jun 23  2022 Users/jayst/AppData/Roaming/Foxit Software/Promotion/Setup.exe
 -rwxrwxrwx 1 steff007 steff007 38M Mar 27 09:32 Users/jayst/AppData/Roaming/Zoom/ZoomDownload/Zoom.msi
 -r-xr-xr-x 1 steff007 steff007 68M Sep 24  2023 $Recycle.Bin/S-1-5-21-1789718789-3512832362-3967727927-1003/$RYPN0N6/Lib/site-packages/playwright/driver/node.exe
 -r-xr-xr-x 1 steff007 steff007 65M Mar 10  2022 Program Files (x86)/Microsoft Visual Studio/2019/buildtools/Common7/Tools/devinit/devinit.exe
+-r-xr-xr-x 1 steff007 steff007 73M Apr  9  2021 ProgramData/chocolatey/lib/ffmpeg/tools/ffmpeg/bin/ffmpeg.exe
 -r-xr-xr-x 1 steff007 steff007 73M Apr  9  2021 ProgramData/chocolatey/lib/ffmpeg/tools/ffmpeg/bin/ffplay.exe
 -r-xr-xr-x 1 steff007 steff007 73M Apr  9  2021 ProgramData/chocolatey/lib/ffmpeg/tools/ffmpeg/bin/ffprobe.exe
--r-xr-xr-x 1 steff007 steff007 73M Apr  9  2021 ProgramData/chocolatey/lib/ffmpeg/tools/ffmpeg/bin/ffmpeg.exe
 -r-xr-xr-x 1 steff007 steff007 47M Jan 31  1980 ProgramData/chocolatey/lib/kotlinc/tools/kotlinc/lib/kotlin-compiler.jar
 -rwxrwxrwx 1 steff007 steff007 215M Sep 30  2023 Users/jayst/.cache/puppeteer/chrome/win64-117.0.5938.92/chrome-win64/chrome.dll
--rwxrwxrwx 1 steff007 steff007 67M May 31 02:18 Users/jayst/AppData/Local/Microsoft/Windows/WebCache/WebCacheV01.dat
--rwxrwxrwx 1 steff007 steff007 20G May 31 02:20 Users/jayst/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/ext4.vhdx
+-rwxrwxrwx 1 steff007 steff007 233M Jun  9 09:56 Users/jayst/AppData/Local/Microsoft/Olk/logs/olk_20240608_051749464.log
+-rwxrwxrwx 1 steff007 steff007 67M Jun 11 10:34 Users/jayst/AppData/Local/Microsoft/Windows/WebCache/WebCacheV01.dat
+-rwxrwxrwx 1 steff007 steff007 20G Jun 11 12:07 Users/jayst/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/ext4.vhdx
+-rwxrwxrwx 1 steff007 steff007 160M Jun  4 20:09 Users/jayst/AppData/Local/Programs/Microsoft VS Code/_/Code.exe
 -r--r--r-- 1 steff007 steff007 43M Nov  4  2021 Users/jayst/AppData/LocalLow/Oracle/Java/jre1.8.0_311/jre1.8.0_311patch.msi
 -r-xr-xr-x 1 steff007 steff007 43M Mar 10  2022 Program Files (x86)/Microsoft Visual Studio/2019/buildtools/VC/Tools/Llvm/bin/clang-tidy.exe
 -rwxrwxrwx 1 steff007 steff007 61M Jan  9 11:33 Users/jayst/AppData/Local/Google/Chrome/User Data/component_crx_cache/oegebmmcimckjhkhbggblnkjloogjdfg_1.7f5e073ae4f12d0bd8f5d00d02164bafdd5055d5d934850b6bcb3a02409a8a85
+-rwxrwxrwx 1 steff007 steff007 261M Jun 11 11:57 Users/jayst/AppData/Local/Microsoft/Windows/FileHistory/Configuration/Catalog1.edb
+-rwxrwxrwx 1 steff007 steff007 261M Jun 11 11:57 Users/jayst/AppData/Local/Microsoft/Windows/FileHistory/Configuration/Catalog2.edb
 -rwxrwxrwx 1 steff007 steff007 187M May 31  2023 Users/jayst/AppData/Local/Programs/pgAdmin 4/v7/runtime/nw.dll
 -r-xr-xr-x 1 steff007 steff007 47M Mar 10  2022 Program Files (x86)/Microsoft Visual Studio/2019/buildtools/VC/Tools/Llvm/x64/bin/clang-tidy.exe
 -rwxrwxrwx 1 steff007 steff007 97M May 30 18:49 Users/jayst/AppData/Roaming/Foxit Software/Continuous/Addon/Foxit PDF Reader/Install/Reader_Pacth_2024.2.2.fzip
 -rwxrwxrwx 1 steff007 steff007 34M Sep 27  2021 Users/jayst/AppData/Roaming/Google/AndroidStudio2020.3/plugins/Kotlin/lib/kotlin-plugin.jar
--rwxrwxrwx 1 steff007 steff007 37M May 31 02:21 Users/jayst/AppData/Local/Google/Chrome/User Data/Default/Cache/Cache_Data/data_3
--rwxrwxrwx 1 steff007 steff007 57M May 31 01:12 Users/jayst/AppData/Local/Microsoft/Olk/EBWebView/Default/Cache/Cache_Data/data_3
+-rwxrwxrwx 1 steff007 steff007 105M Jun 11 12:13 Users/jayst/AppData/Local/Google/Chrome/User Data/Default/Cache/Cache_Data/data_3
+-rwxrwxrwx 1 steff007 steff007 41M Jun 11 11:25 Users/jayst/AppData/Local/Microsoft/Olk/EBWebView/Default/Cache/Cache_Data/data_3
 -rwxrwxrwx 1 steff007 steff007 70M Apr 18  2023 Users/jayst/AppData/Local/Programs/Python/Python310/Lib/site-packages/cv2/cv2.pyd
 -rwxrwxrwx 1 steff007 steff007 34M Mar 26  2023 Users/jayst/AppData/Local/Programs/Python/Python310/Lib/site-packages/scipy.libs/libopenblas-802f9ed1179cb9c9b03d67ff79f48187.dll
 -rwxrwxrwx 1 steff007 steff007 48M Sep 27  2021 Users/jayst/AppData/Roaming/Google/AndroidStudio2020.3/plugins/Kotlin/kotlinc/lib/kotlin-compiler.jar
