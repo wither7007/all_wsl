@@ -44,7 +44,7 @@ Arrival time:  1:40 PM CDT
 NorthPoint Main Campus
 800 West Broadway Minneapolis, MN 55411
 Tues June 4th 1:20
-
+gpg --decrypt pass.gpg | nvim -
 thunder client
 http://[::1]:3000
 curl -X GET "https://httpbin.org/get" -H "accept: application/json"
