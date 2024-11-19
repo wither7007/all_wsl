@@ -2,7 +2,6 @@
 : 1727163337:0;echo 'fffff'
 : 1727163482:0;v history
 : 1727163511:0;fdi -'his'
-: 1727163533:0;mc
 : 1727163540:0;fdi 'his'
 : 1727163561:0;v .zhistory
 : 1727163753:0;cat history
@@ -20,14 +19,9 @@
 : 1727164247:0;ls -lhrt '*fd*' 
 : 1727164261:0;ls -lhrt .fdignore
 : 1727168209:0;sar
-: 1727217736:0;df
 : 1727217877:0;The enlightened despotism of Emperor Joseph II of the Holy Roman Empire is summarized as, "Everything for the people, nothing by the people".[4]
-: 1727217971:0;sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'
 : 1727217989:0;type -f pwd
-: 1727218005:0;/home/steff007
-: 1727218463:0;echo  "C:\Users\San.Tan\My Folder\project1" | sed -e 's/C:\\/mnt\/c\//;s/\\/\//g'
 : 1727218514:0;echo "/mnt/c" | sed -e 's/c:'
-: 1727218549:0;echo "/mnt/c" | sed -e 's/c:\\'
 : 1727218946:0;echo "a" | sed 's/s/x'
 : 1727219048:0;echo  "version: '2.1.0-beta.12'," | sed -En "s/version: '(.*)',/\1/p"
 : 1727219076:0;echo "a" | sed -En 's/s/x'
@@ -111,7 +105,6 @@ done
 : 1727722688:0;gpg â€ƒ³version
 : 1727722963:0;cat pass
 : 1727722992:0;md /mnt/c/temp
-: 1727722996:0;mv pass /mnt/c/temp
 : 1727723429:0;gfiles
 : 1727723507:0;git branch -M main
 : 1727723743:0;gignore
@@ -129,9 +122,7 @@ git push -u origin main\
 : 1727724683:0;git push -u origin main
 : 1727737885:0;nvm --version
 : 1727737978:0;node --version
-: 1727738138:0;uname -a
 : 1727738198:0;java
-: 1727738201:0;javac
 : 1727898591:0;git clone git@github.com:wither7007/responsive-nav-flexbox.git
 : 1727898742:0;win
 : 1727898794:0;wpwd
@@ -145,7 +136,6 @@ git push -u origin main\
 : 1727904976:0;curl http://localhost:3000/
 : 1727904996:0;curl http://localhost:3000/styles.css | nvim -
 : 1727906284:0;v styles.css
-: 1727906507:0;cd responsive-nav-flexbox
 : 1727910834:0;rg font
 : 1727910841:0;rg font | nvim -
 : 1727911080:0;rg import 
@@ -160,33 +150,23 @@ git push -u origin main\
 : 1727912294:0;pretty index.html.1
 : 1727912306:0;v pindex.html.1
 : 1727912770:0;mkcd center
-: 1727912772:0;qht
-: 1727912974:0;ps
 : 1727912978:0;ps -a
-: 1727913408:0;wget https://www.networkworld.com/wp-content/themes/nww-b2b-child-theme/src/static/img/favicon.ico
 : 1727913483:0;nill
 : 1727913565:0;cp favicon.ico favicon.svg
 : 1727913634:0;fd fav
 : 1727913744:0;/favicon.svg
 : 1727913761:0;cat favicon.svg
-: 1727913980:0;pc
 : 1727914014:0;mv accessibility-svgrepo-com.svg /mnt/c/projects/junk/center/favicon.svg
 : 1727914017:0;b
-: 1727914029:0;cd -
 : 1727914229:0;rg import | nvim -
 : 1727914241:0;v style.css
 : 1727915185:0;curl 10.255.255.254:53
-: 1727915212:0;myip
-: 1727915219:0;ip
 : 1727915245:0;hostname
-: 1727915249:0;hostname -i
-: 1727915277:0;ifconfig
 : 1727916468:0;kill   5629
 : 1727916472:0;ps | nvim -
 : 1727916494:0;htop
 : 1727916535:0;ps | rg node
 : 1727916548:0;ps -a | rg node
-: 1727916666:0;nmcli -p device show
 : 1727917241:0;d 1
 : 1727917733:0;git ls-files
 : 1727917775:0;gitfiles(){\
@@ -196,15 +176,11 @@ git ls-files\
 : 1727917787:0;gitfiles| nvim -
 : 1727917834:0;git commit 'what'
 : 1727917856:0;git add . -am
-: 1727917888:0;c
-: 1727917952:0;fday
-: 1727917985:0;v .gitignore
 : 1727918338:0;find . -type f \( -iname ".*" ! -iname ".htaccess" \)
 : 1727918366:0;find . -type f \( -iname ".*" ! -iname "./vite*" \)
 : 1727918443:0;find . -type f \( -iname ".*" ! -iname "./vite*" \) | rg -v vite
 : 1727918488:0;find . -type f \( -iname ".*" ! -iname "./vite*" \) | rg -v "vite|server"
 : 1727918777:0;rec 1
-: 1727918790:0;type -f fdi
 : 1727918888:0;unalias fdi
 : 1727918916:0;fdi(){\
 fd  -H -I\
@@ -219,40 +195,31 @@ fd  -H -I\
 }\
 
 : 1727920100:0;v .zshrc
-: 1727973604:0;down
 : 1728077077:0;day
 : 1728077105:0;recv
 : 1728077127:0;fd --changed-within=2days
-: 1728077175:0;fdi --changed-within=4days
 : 1728077243:0;unalias fd
 : 1728077247:0;fd(){\
 /usr/bin/fdfind\
 }\
 
-: 1728077281:0;fd --changed-within=4days
 : 1728077337:0;type -f fd| nvim -
 : 1728077375:0;fd --changed-within=1days | xargs ls -lhrt
 : 1728077599:0;fd --help
 : 1728077716:0;fdf
 : 1728077740:0;type -f fdh
 : 1728077753:0;unalias fdh
-: 1728077759:0;source functions.sh
 : 1728077791:0;/usr/bin/fdfind --help
 : 1728077831:0;fdh(){\
 /usr/bin/fdfind --help\
 }\
 
 : 1728077838:0;fdh | nvim -
-: 1728077882:0;fdh(){\
-/usr/bin/fdfind --help | nvim \
-}\
-
 : 1728077933:0;fd                 --changed-within 2weeks
 : 1728077940:0;fd                 --changed-within 1days
 : 1728077961:0;fd                 --changed-within 1days | xargs ls -lhrt
 : 1728078082:0;fd -tf --changed-within=1weeks
 : 1728078273:0;/usr/bin/fdfind
-: 1728078850:0;v alias
 : 1728079188:0;fd -tf --changed-within=4weeks
 : 1728079204:0;fd -tf --changed-within=1weeks | xargs ls -lhrt
 : 1728079272:0;/usr/bin/fdfind --changed-within=1days
@@ -268,16 +235,12 @@ fd  -H -I\
 : 1728079533:0;cp fdfind fd
 : 1728079551:0;sudo cp fdfind fd
 : 1728079569:0;type -f fd
-: 1728079583:0;qqq
 : 1728079596:0;fd --changed-within=1weeks
-: 1728079664:0;rm x
 : 1728079682:0;fd -ego
-: 1728079688:0;fdh
 : 1728079716:0;fd -h | nvim -
 : 1728079814:0;fd -h
 : 1728080120:0;fd -ego | xargs rm
 : 1728080175:0;start .
-: 1728080180:0;wind
 : 1728080224:0;ls hwat
 : 1728080228:0;ls hwats
 : 1728080240:0;cd hwat
@@ -287,41 +250,25 @@ fd  -H -I\
 : 1728080320:0;rm one.html
 : 1728080392:0;git add . -am "first"
 : 1728080451:0;git add 
-: 1728080454:0;git add .
-: 1728080463:0;git commit -m 'what'
 : 1728080495:0;fd -tf -d 1
-: 1728080502:0;fd -tf -d 1 | xargs rm
 : 1728080575:0;fd |wc
 : 1728080593:0;cd script
-: 1728080611:0;git remote -v
-: 1728080620:0;git push
 : 1728080646:0;gdif
 : 1728080680:0;git config pull.ff only
 : 1728080700:0;git pull
-: 1728080706:0;gst
 : 1728080713:0;git fetch
-: 1728080718:0;gdiff
 : 1728080724:0;git diff
-: 1728080734:0;glog
 : 1728080779:0;git config | nvim -
 : 1728080791:0;git config | less
 : 1728080813:0;git config
-: 1728080816:0;cd
 : 1728080822:0;fd i 'con'
 : 1728080833:0;fd 'con'
-: 1728080837:0;fdi
 : 1728080853:0;fdi 'con'
-: 1728080860:0;ls -a
 : 1728080883:0;v .gitconfig
-: 1728081110:0;fd -ehtml
-: 1728082544:0;v pass.gpg
 : 1728083029:0;cd mnt
 : 1728083040:0;cd /mnt
-: 1728083055:0;cd c
-: 1728083059:0;cd Users
 : 1728083083:0;fd remote
 : 1728083857:0;ca pass.gpg
-: 1728083862:0;cat pass.gpg
 : 1728083980:0;ssh-agent
 : 1728084016:0;ssh-add tcJump(3409\
 
@@ -334,30 +281,20 @@ fd  -H -I\
 \
 tcJump(3409
 : 1728084450:0;pgp --list-keys
-: 1728084462:0;gpg --list-keys
-: 1728084523:0;gpg pass.gpg
 : 1728084665:0;echo This is an encryption test > file1.txt
 : 1728084678:0;gpg -c file1.txt
 : 1728085034:0;ls -l $(which gpg gpg2 gpg1)
-: 1728085052:0;gpg --version
 : 1728085167:0;gpg --fingerprint
 : 1728085632:0;gpg -c file1.txt.gpg
-: 1728085655:0;all
-: 1728085657:0;cd note
 : 1728085675:0;gpg pass.gpg tcJump(3409
 : 1728085679:0;gpg pass.gpg 
-: 1728085707:0;gpg --decrypt pass.gpg | nvim -
 : 1728085741:0;ps 0a
 : 1728085746:0;ps a 
 : 1728085758:0;kill 2992
-: 1728085843:0;gpg-agent
-: 1728085847:0;gpg --decrypt pass.gpg
 : 1728086219:0;gpg --export-secret-keys
 : 1728086242:0;gpg
-: 1728089846:0;whoami
 : 1728093254:0;df 
 : 1728093259:0;man df
-: 1728093283:0;df -h
 : 1728094354:0;fd gri
 : 1728094358:0;cd grid
 : 1728094479:0;v hwat
@@ -366,35 +303,21 @@ tcJump(3409
 : 1728094516:0;rm -rf -d hwa
 : 1728094530:0;rm -rfd hwat
 : 1728094595:0;fday 1
-: 1728213558:0;vinit
-: 1728213712:0;fd
-: 1728213729:0;fd --changed-within=1days
 : 1728213747:0;cd fb
-: 1728213758:0;lf
-: 1728214357:0;cd ..
 : 1728214374:0;dser
 : 1728214656:0;wget https://www.redditstatic.com/shreddit/assets/favicon/128x128.png
 : 1728214699:0;type -f dserve
 : 1728214703:0;type -f dserv
-: 1728214708:0;dserv
-: 1728214800:0;fg
-: 1728214859:0;npx live-server&
 : 1728214915:0;knode
 : 1728214992:0;cd junk/responsive-nav-flexbox
 : 1728215044:0;nkill
-: 1728215050:0;btop
-: 1728215413:0;psa
-: 1728215417:0;listen
 : 1728215429:0;npx live-server
-: 1728215456:0;v index.html
 : 1728217700:0;wget https://en.wikipedia.org/wiki/Tonga
 : 1728217720:0;v Tonga
-: 1728217743:0;his
 : 1728217780:0;npx jsbeutify
 : 1728217803:0;npx jsbeutify Tonga
 : 1728217824:0;v  /home/steff007/.npm/_logs/2024-10-06T12_29_40_738Z-debug-0.log
 : 1728282152:0;CD junk
-: 1728282157:0;cd junk
 : 1728282161:0;mkcd pres
 : 1728282402:0;v pres
 : 1728282450:0;cat pres | tr a xxx
@@ -434,7 +357,6 @@ tcJump(3409
 : 1728285345:0;pwd | sed 's.mnt://.\\.g'
 : 1728285418:0;echo "C:\Windows\Folder\File.txt" | sed -e 's/\\/\//g'
 : 1728285452:0;echo "C:\Windows\Folder\File.txt" | sed -e 's.\\/.//g'
-: 1728286115:0;	net user
 : 1728286117:0;n
 : 1728286326:0;perl -lne '/^--ERROR---.*Name="(.*?)" Age="(.*?)"/ && print "$1 $2"' file
 : 1728286387:0;perl -p -e 's/a/xxxxxxxxx/g' a
@@ -469,9 +391,7 @@ tcJump(3409
 : 1728288020:0;printf "%s\n"  'c:\foo' | sed 's.\\.x.g'
 : 1728288045:0;printf "%s\n"  'c:\foo' | sed 's.\\./.g'
 : 1728288069:0;printf "%s\n"  $(pwd) | sed 's.\\./.g'
-: 1728288077:0;pwd
 : 1728288098:0;printf "%s\n"  $(pwd) | sed 's.\/.\.g'
-: 1728288111:0;printf "%s\n"  $(pwd) | sed 's.\/.\\.g'
 : 1728289080:0;echo "My favorite programming editor is Emacs. Another editor I like is Vim." | sed -e s/editor/tool/g\
 My favorite programming tool is Emacs. Another tool I like is Vim.  
 : 1728289306:0;echo "foo" | sed -e 's/foo/bar/' -e 's/bar/foo/'echo "foo" | sed -e 's/foo/bar/' -e 's/bar/foo/'
@@ -480,7 +400,6 @@ My favorite programming tool is Emacs. Another tool I like is Vim.
 : 1728289594:0;awk '$0 ~ /a/ {print $0}' a
 : 1728289744:0;awk '/a' a
 : 1728289754:0;awk '/a/' a
-: 1728289809:0;v
 : 1728289826:0;awk '{sub(/a/, "foobar")} 1' a
 : 1728289919:0;awk '$2 == "a"'
 : 1728289959:0;v a
@@ -495,66 +414,48 @@ My favorite programming tool is Emacs. Another tool I like is Vim.
 : 1728290163:0;ls | awk '{print $1}'
 : 1728290171:0;ls | awk '{print $2}'
 : 1728290178:0;ls | awk '{print $0}'
-: 1728290182:0;ls
 : 1728290206:0;lt | awk '{print $0}'
 : 1728290213:0;lt | awk '{print $3}'
 : 1728290228:0;lt | awk '{print $4}'
 : 1728290234:0;lt | awk '{print $5}'
-: 1728290242:0;lt
 : 1728290320:0;lt |awk 'NF--'
 : 1728290391:0;seq 1 30 | awk 'ORS=NR%5?FS:RS'
 : 1728295672:0;arr=($(cat))\
 echo ${arr[3]}
-: 1728295696:0;seq 2 20
-: 1728296034:0;mps
 : 1728296049:0;git clone git@github.com:Thomas-George-T/HackerRank-The-Linux-Shell-Challenges-Solutions.git
 : 1728296076:0;cd Arrays\ in\ Bash
 : 1728296087:0;v Concatenate\ an\ array\ with\ itself.sh
-: 1728296100:0;gb
 : 1728296109:0;git branch
-: 1728296126:0;duh
 : 1728296131:0;cd Grep\ Sed\ Awk
 : 1728296158:0;cat ''\''Awk'\'' - 1.sh
 : 1728296207:0;v ''\''Grep'\'' #2.sh\
 q\
 qq
-: 1728296218:0;fd | nvim -
 : 1728296227:0;v ./'Awk' - 3.sh
 : 1728296311:0;mv ''\''Sed'\'' command #1.sh 1
 : 1728296314:0;ren
 : 1728296735:0;sudo apt-get install rename
-: 1728296763:0;rename
-: 1728296783:0;rename --version
 : 1728296803:0;rename \'Awk\'\ -\ 1.sh x
 : 1728296812:0;space
 : 1728296974:0;cd HackerRank-The-Linux-Shell-Challenges-Solutions
 : 1728296985:0;fd hacker
-: 1728297003:0;t x
 : 1728297008:0;rename x y
 : 1728297019:0;t xx
 : 1728297022:0;name xx y
 : 1728297029:0;rename xx y
 : 1728297454:0;autoload zmv
-: 1728297465:0;d
 : 1728297468:0;1
-: 1728297478:0;..
-: 1728297485:0;cd gits
-: 1728297486:0;ld
 : 1728297500:0;mv HackerRank-The-Linux-Shell-Challenges-Solutions chall
 : 1728297507:0;cd chall
 : 1728297513:0;cd Challenges
-: 1728297521:0;tree
 : 1728297542:0;cd Bash
 : 1728297566:0;mv A A\ Personalized\ Echo.sh echo.sh
 : 1728297590:0;mv "A Personalized Echo.sh" echo1
 : 1728297595:0;v echo1
-: 1728297697:0;	which rename
 : 1728297731:0;rename 'Arithmetic Operations.sh' aro
 : 1728297747:0;aplit
 : 1728297749:0;aptlist
 : 1728297939:0;v ren
-: 1728298008:0;notes
-: 1728298013:0;note
 : 1728298093:0;./ren
 : 1728298123:0;./ren Compute\ the\ average.sh avh.sh
 : 1728298147:0;.ren 'Compute the average.sh' svg.sh
@@ -566,84 +467,37 @@ qq
 : 1728298320:0;rename "Looping and Skipping.sh" "loop.sh"
 : 1728298426:0;zmv
 : 1728298439:0;zmv 'Let'\''s Echo.sh' x
-: 1728298444:0;v x
-: 1728298450:0;h
-: 1728298457:0;func
-: 1728298475:0;hst
-: 1728298486:0;l
-: 1728298487:0;exit
-: 1728298490:0;d
 : 1728298492:0;hst
-: 1728298502:0;func
 : 1728298516:0;nit
-: 1728298520:0;hit
 : 1728298527:0;hit 22
-: 1728298589:0;func
 : 1728298606:0;hit() {\
   history | tail -n 20\
 }\
 
 : 1728298608:0;hit
-: 1728299007:0;note
-: 1728299079:0;l
 : 1728299082:0;fd "[^a-zA-Z0-9]" -exec rename "s/[^a-zA-Z0-9]/_/g" #!good replace garbage names
-: 1728299096:0;rename
-: 1728299110:0;h
 : 1728299117:0;fd "[^a-zA-Z0-9]"
-: 1728299135:0;which rename
-: 1728299146:0;rename --version
 : 1728299160:0;ren --version
-: 1728299173:0;h
-: 1728299207:0;l
 : 1728299267:0;cat 'Functions and Fractals - Recursive Trees - Bash!.sh'
 : 1728299305:0;rename 'Functions and Fractals - Recursive Trees - Bash!.sh' 'fractals'
-: 1728299368:0;which rename
 : 1728299379:0;which rename | xargs rm
 : 1728299388:0;which rename | xargs sudo rm
 : 1728299398:0;which rename
-: 1728299455:0;qqq
-: 1728299473:0;rename --version
-: 1728299526:0;prename
-: 1728299532:0;l
 : 1728299533:0;d
-: 1728299543:0;ls
-: 1728299545:0;l
-: 1728299551:0;qqq
 : 1728299575:0;echo $prompt
-: 1728299582:0;gst
 : 1728299630:0;prename
-: 1728299637:0;prename --version
-: 1728299646:0;mps
-: 1728299648:0;cd gits
 : 1728299659:0;echo $prompt | nvim -
-: 1728304624:0;..
-: 1728304628:0;cd gits
-: 1728304632:0;mps
-: 1728304636:0;l
-: 1728304641:0;cd junk
 : 1728304647:0;npm -i crypto
-: 1728304731:0;node
-: 1728381083:0;notes
-: 1728381084:0;note
-: 1728381098:0;his
-: 1728386226:0;l
 : 1728386231:0;for f in *\ *; /
 : 1728386246:0;for f in *\ *; \\
 echo $f 
 : 1728386279:0;for f in *\ *; \\
 echo $f; 
-: 1728386300:0;l
 : 1728386307:0;for f in *\ *; do mv "$f" "${f// /_}"; done
-: 1728386314:0;l
 : 1728386448:0;for f in *\
 : 1728386451:0;h
 : 1728386471:0;for f in  *; \\necho $f; done
 : 1728386484:0;for f in  *; echo $f; done
-: 1728386492:0;h
-: 1728386671:0;find . -type f -print0 | while IFS= read -r -d $'\0' file;\
-  do echo "$file" ;\
-done
-: 1728386676:0;h
 : 1728386692:0;find . -type f -print0 | while IFS= read -r -d $'\0' file;\
   do echo "$file" ;\
 done
@@ -653,71 +507,36 @@ echo 'jim'
 echo 'jim'\
 \
 done
-: 1728386758:0;h
 : 1728386863:0;seq 2 20
 : 1728386908:0;touch bspl{0001..0003}.c
-: 1728386910:0;l
 : 1728386920:0;touch bspl{0001..0003}.txt
-: 1728386921:0;l
 : 1728386941:0;for f in *.txt; do echo ${f}; done;
-: 1728387300:0;h
-: 1728388824:0;rename --version
-: 1728388830:0;qqq
 : 1728388837:0;rename --version
-: 1728388844:0;h
 : 1728388848:0;prename --version
-: 1728538679:0;v s.js
-: 1728538739:0;l
 : 1728538747:0;n s.js
-: 1728538751:0;no s.js
-: 1728538849:0;v s.js
-: 1728538980:0;vinit
 : 1728541558:0;perl
 : 1728541594:0;v x.pl
-: 1728541633:0;l
 : 1728541636:0;perl x.pl
-: 1728541753:0;v y.pl
-: 1728541765:0;l
 : 1728541779:0;perl. y.pl
 : 1728541789:0;perl y.pl
-: 1728541953:0;l
 : 1728541955:0;v y.pl
 : 1728542004:0;perl y.pl | less
-: 1728542951:0;l
-: 1728542958:0;mps
-: 1728542962:0;cd junk
-: 1728542967:0;v s.js
-: 1728542994:0;l
-: 1728543003:0;v s.js
 : 1728543018:0;npm -i express
 : 1728543041:0;npm install -y
 : 1728543061:0;npm init -y
-: 1728543066:0;h
 : 1728543082:0;npm install express
 : 1728543093:0;npm -l
-: 1728543100:0;npm ls
-: 1728543107:0;l
 : 1728543110:0;no s.js
 : 1728543148:0;v s.js
 : 1728543559:0;man rename
-: 1728543661:0;l
-: 1728543671:0;rename 's/\.bak$//' *.bak
 : 1728543788:0;rename 's/c/d/ *.c
-: 1728543807:0;rename 's/c/d//' *.c
-: 1728543826:0;rename 's/\.bak$//' *.bak
-: 1728543832:0;h
 : 1728543847:0;rename 's/c/d//' *.c
-: 1728543853:0;h
-: 1728543866:0;wi rename
 : 1728543870:0;rename
 : 1728543878:0;wi rename
-: 1728543884:0;h
 : 1728543889:0;rename 's/\.bak$//' *.bak
 : 1728543938:0;rename 's/\.bak$//' *.*
 : 1728543959:0;printenv
 : 1728543988:0;printenv | nvim -
-: 1728544362:0;h
-: 1728544389:0;listen
 : 1728544835:0;e /
 : 1728544839:0;e //
 : 1728544857:0;e // | sed 's./.x/'
@@ -727,14 +546,10 @@ done
 : 1728544911:0;e // | sed 's.//.x.g'
 : 1728544923:0;e // | sed 's.//.\.g'
 : 1728544929:0;e // | sed 's.//.\\.g'
-: 1728544940:0;pwd
 : 1728544959:0;pwd | sed 's.//.\\.g'
 : 1728545441:0;pwd | sed 's.//..g'
 : 1728545462:0;pwd | sed 's.///..g'
 : 1728545472:0;pwd | sed 's./..g'
-: 1728545483:0;pwd | sed 's./.\.g'
-: 1728545488:0;pwd | sed 's./.\\.g'
-: 1728545502:0;pwd | sed 's./.x.g'
 : 1728545519:0;pwd | sed 's./.\\\.g'
 : 1728545529:0;pwd | sed 's././\.g'
 : 1728545535:0;pwd | sed 's./.\.g'
@@ -744,8 +559,6 @@ done
 : 1728546075:0;pwd | sed 's.\.//.g'
 : 1728546087:0;pwd | sed 's./\.//.g'
 : 1728546097:0;pwd | sed 's./\.x.g'
-: 1728546106:0;pwd | sed 's.\.x.g'
-: 1728546114:0;pwd | sed 's.\\.x.g'
 : 1728546139:0;pwd | sed 's.\.x.g'
 : 1728546151:0;pwd | sed 's.\\\.x.g'
 : 1728546158:0;pwd | sed 's.\\.x.g'
@@ -754,389 +567,800 @@ done
 : 1728546192:0;pwd | sed 's.\/. x/ .g'
 : 1728546206:0;pwd | sed 's.\/./ .g'
 : 1728546214:0;pwd | sed 's.\/./.g'
-: 1728546231:0;pwd | sed 's.\/mnt./.g'
 : 1728546248:0;pwd | sed 's.\/\/mnt./.g'
 : 1728546497:0;pwd | sed 's.\/mnt./.g'
 : 1728547078:0;v psed
 : 1728547124:0;pwd | sed 's/\\/mnt\\/c/c:\\/gm;t'
 : 1728547137:0;pwd | sed 's/\\/mnt\\/c/c:\\/gm'
 : 1728547155:0;sed -E 's/\\/mnt\\/c/c:\\/gm;t' <<< "/mnt/c"
-: 1728547213:0;pwd | sed 's.\/mnt\/c..g'
 : 1728547227:0;pwd | sed 's.\/mnt\/c.c.g'
-: 1728547233:0;pwd | sed 's.\/mnt\/c.c:.g'
-: 1728547245:0;his
-: 1728547250:0;note
-: 1728547287:0;func
 : 1728547347:0;wind(){\
   #convert bash path to windows\
 pwd | sed 's.\/mnt\/c.c:.g' |clip\
 }\
 
-: 1728547349:0;wind
-: 1728547352:0;func
 : 1728547376:0;wind(){\
   #convert bash path to windows\
 pwd | sed 's.\/mnt\/c.c:.g' |clip.exe\
 }\
 
-: 1728547377:0;wind
-: 1728547446:0;func
-: 1728547464:0;pwd | sed 's.\/mnt\/c.c:.g'
-: 1728547473:0;all
 : 1728547477:0;pwd | sed 's.\/mnt\/c.c:.g'
 : 1728547562:0;pwd | sed 's.\/mnt\/c..g'
 : 1728547587:0;pwd | sed 's.\/mnt\/\/c..g'
 : 1728548156:0;echo '\/mnt\/c'
 : 1728548247:0;echo '\/mnt\/c' | l
-: 1728548251:0;mps
-: 1728548253:0;l
-: 1728548258:0;cd junk
-: 1728548268:0;v a.pl
-: 1728548320:0;vinit
-: 1728548389:0;v a.pl
-: 1728548430:0;l
 : 1728548433:0;perl a.pl
 : 1728548442:0;v a.pl
 : 1728548675:0;echo  "C:\Users\San.Tan\My Folder\project1" | sed -e 's/C:\\/mnt\/c\//;s/\\/\//g'
 : 1728548883:0;awk -F'\' -v OFS='/' '$1=/^c:/?"/opt":$1' <<<'c:\IBM\WebSphere'
-: 1728551301:0;l
 : 1728551307:0;v r.js
-: 1728551324:0;vinit
-: 1728657684:0;all
-: 1728657699:0;cd note
-: 1728657701:0;h
 : 1728657728:0;gpg --decrypt pass.gpg | nvim -
-: 1728657749:0;gpg --decrypt pass.gpg
 : 1728657981:0;he
-: 1728657983:0;h
 : 1728657991:0;gpg --decrypt pass.gpg
 : 1728658002:0;gpg pass.gpg
 : 1728658086:0;gpg-agent
 : 1728658209:0;gpg --decrypt --pinentry-mode=loopback
 : 1728658224:0;gpg --decrypt --pinentry-mode=loopback pass.gpg
 : 1728658248:0;gpg --version
-: 1728658258:0;gpg --list-keys
-: 1728658534:0;l
-: 1728658549:0;v pass.gpg
 : 1728658558:0;cat pass.gpg
 : 1728658719:0;gpg --output destination --decrypt pass.gpg
-: 1728659496:0;l
 : 1728659510:0;mv pass  /mnt/c/temp
-: 1728659512:0;l
 : 1728659522:0;c jokw
 : 1728659530:0;v joke
-: 1728659571:0;l
-: 1728665913:0;note
-: 1728826500:0;l
-: 1728826501:0;h
 : 1728826519:0;gpg --list-keys
-: 1728827450:0;mps
-: 1728827455:0;cd junk
-: 1728827456:0;l
 : 1728827462:0;fday 5
 : 1728827467:0;fday 99
 : 1728827515:0;find . -mtime -5 -ls | awk '{ print  $11 }'
 : 1728827523:0;find . -mtime -2 -ls | awk '{ print  $11 }'
 : 1728827531:0;find . -mtime -3 -ls | awk '{ print  $11 }'
-: 1728827534:0;l
 : 1728827567:0;fd --changed-within=1days
 : 1728827573:0;fd --changed-within=41days
 : 1728827588:0;fd --changed-within=4days
-: 1729091634:0;sudo service ssh start
-: 1729091645:0;psa
-: 1729091695:0;curl ifconfig.me
-: 1729091708:0;h
-: 1729091714:0;func
 : 1729091734:0;myip(){\
 curl ifconfig.me\
 }\
 
-: 1729091738:0;myip
 : 1729091745:0;myip| nvim -
 : 1729091757:0;ping 172.58.12.239
 : 1729091794:0;curl checkip.dyndns.org
-: 1729091809:0;h
 : 1729091818:0;ssh 172.58.12.239
-: 1729091848:0;ifconfig
-: 1729091882:0;ping 172.22.111.101
-: 1729091887:0;h
-: 1729091892:0;ssh 172.22.111.101
-: 1729091938:0;qqq
 : 1729107105:0;time ipython3 -c 'pass'
-: 1729447299:0;mps
 : 1729447312:0;recents
 : 1729447707:0;type -f recents
-: 1729447725:0;fd
-: 1729447728:0;fdi
-: 1729447751:0;ld
 : 1729447763:0;ls btop
 : 1729447780:0;cd jun
-: 1729447783:0;cd junk
-: 1729447785:0;l
 : 1729447799:0;cd responsive-nav-flexbox
-: 1729447800:0;l
-: 1729447806:0;dserv
-: 1729447816:0;v index.html
-: 1729447823:0;func
-: 1729447843:0;h
-: 1729718185:0;ssh 172.22.111.101
-: 1729718197:0;ls
-: 1729718205:0;pwd
 : 1729718209:0;whoaim
 : 1729718216:0;whloami
-: 1729718220:0;h
-: 1729718277:0;C:\Users\jimst\Downloads\R1_twit1002.mp3
-: 1729718280:0;h
 : 1729718302:0;C:\Users\jimst\Downloads\R1_twit1002.mp3
 : 1729718306:0;exi
-: 1729718308:0;qqq
-: 1729724996:0;msinfo
-: 1729725353:0;ssh 192.168.0.109
 : 1729725405:0;sudo service ssh start
-: 1729725431:0;h
-: 1729725436:0;ssh 192.168.0.109
-: 1729725449:0;ipconfig
 : 1729725458:0;net
 : 1729725530:0;hostname -i
 : 1729725611:0;nmcli -p device show
-: 1729725620:0;func
-: 1729725635:0;myip
-: 1729725648:0;myip | clip.exe
-: 1729725651:0;h
 : 1729725672:0;ssh 172.56.12.76
 : 1729725686:0;nslookupssh 172.56.12.76
 : 1729725694:0;nslookups 172.56.12.76
 : 1729725701:0;nslookup 172.56.12.76
-: 1729725717:0;myip
 : 1729725849:0;netsh interface ipv4 show neighbors
-: 1729725880:0;ip
 : 1729725895:0;ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
 : 1729725916:0;ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}' | nvim -
-: 1729725925:0;ping 172.22.111.101
-: 1729725947:0;nslookup  172.22.111.101
 : 1729725971:0;nslookup ibm.com
 : 1729726042:0;wsl hostname -I
-: 1729726068:0;hostname -I
 : 1729726093:0;nslookup ) âƒ¼ƒ· hostname -I\
 1
-: 1729726105:0;nslookup 172.22.111.101
 : 1729726129:0;man nslookup
-: 1729726142:0;h
 : 1729726150:0;ssh 172.22.111.101
-: 1729726160:0;qqq
-: 1729726180:0;h
 : 1729726189:0;hostname -I
 : 1729726194:0;hostname -I | clip
 : 1729726198:0;hostname -I | clip.exe
-: 1729726317:0;his
 : 1729726332:0;msinfo
 : 1729726595:0;ping 172.56.12.121
-: 1729726919:0;h
-: 1729726932:0;myip
-: 1729727595:0;all
-: 1729727597:0;gst
-: 1729727638:0;cd
-: 1729727640:0;gst
-: 1729727659:0;gst | nvim -
 : 1729727684:0;git remove 	.gnupg/.#lk0x000055695861a950.steff007.3466\
 git remove 	.gnupg/.#lk0x000055ab6b707950.steff007.2416\
 
-: 1729727689:0;h
 : 1729727705:0;gst | nvim -
 : 1729727714:0;gir rm 	.gnupg/.#lk0x000055e050d9d950.steff007.3399
-: 1729727718:0;h
 : 1729727725:0;git rm \t.gnupg/.#lk0x000055e050d9d950.steff007.3399
-: 1729727736:0;h
 : 1729727752:0;gir rm "t.gnupg/.#lk0x000055e050d9d950.steff007.3399"
-: 1729727760:0;h
 : 1729727774:0;git rm "t.gnupg/.#lk0x000055e050d9d950.steff007.3399"
-: 1729727914:0;gst
-: 1729727932:0;v .gitignore
-: 1729727973:0;gst
 : 1729728002:0;rm a s.js x.pl y.pl
-: 1729728005:0;gst
 : 1729728009:0;v .gitignore
-: 1729728023:0;fg
-: 1729728040:0;gst
-: 1729728061:0;git commit -m 'what'
 : 1729728076:0;git add . && git commit 'x'
 : 1729728088:0;git add . && git commit -m 'x'
-: 1729728100:0;gst
-: 1729728107:0;git push
-: 1729728111:0;gst
-: 1729728170:0;duh
 : 1729728184:0;gts
-: 1729728196:0;lts
 : 1729728203:0;v h.tar
-: 1729728213:0;df -h
-: 1729728246:0;note
-: 1729728254:0;df
-: 1729728259:0;duh
-: 1729728262:0;cd
 : 1729728323:0;df
-: 1729728344:0;cd scripts
-: 1729728346:0;duh
-: 1729728353:0;l
-: 1729728356:0;lts
-: 1729730370:0;all
 : 1729730383:0;cd note
 : 1729730385:0;v pass.gpg
 : 1729730392:0;cd \temp
-: 1729730395:0;mc
-: 1729730397:0;cd temp
-: 1729730398:0;l
-: 1729730402:0;v pass
-: 1729875735:0;l
-: 1729875743:0;mkcd g
-: 1729875748:0;qht
-: 1729875755:0;ps
-: 1729875757:0;pc
 : 1729875763:0;cd /mnt/c/temp/g
 : 1729875769:0;dserv
-: 1729875773:0;dserve
-: 1729875777:0;h
 : 1729875811:0;npx live-server&
-: 1729875850:0;h
 : 1729875887:0;wget https://www.networkworld.com/wp-content/themes/nww-b2b-child-theme/src/static/img/favicon.ico
-: 1729875889:0;l
-: 1729876011:0;v index.html
-: 1729876031:0;h
-: 1729876079:0;l
-: 1729876085:0;v index.html
-: 1729876137:0;wind
-: 1729876168:0;func
 : 1729876217:0;lintow
-: 1729876242:0;pc
-: 1729876350:0;pwd
-: 1729877349:0;func
-: 1729877390:0;fday
-: 1729877395:0;cd
-: 1729877396:0;fday
-: 1729877417:0;t none
-: 1729877419:0;fday
-: 1729877425:0;rm none
-: 1729877430:0;mps
-: 1729877431:0;fday
-: 1729877453:0;fday 10
 : 1729877465:0;t none
 : 1729877466:0;fday 10
 : 1729877479:0;rm none
-: 1729877481:0;duh
 : 1729877627:0;wslpath -w /mnt/c/Users
-: 1729877635:0;wslpath -w $(pwd)
-: 1729877644:0;l
 : 1729877647:0;cd gits
-: 1729877655:0;wslpath -w $(pwd)
-: 1729877669:0;h
-: 1729877675:0;func
 : 1729877730:0;wpath(){\
 \
 wslpath -w $(pwd) \
 wslpath -w $(pwd) | clip.exe\
 }\
 
-: 1729877733:0;wpath
 : 1729877745:0;C:\projects\gits
-: 1729877752:0;wpath
-: 1729877911:0;fun
-: 1729877919:0;func
-: 1729877927:0;qimg
-: 1729877936:0;l
 : 1729877955:0;type -f qimg
-: 1729878020:0;l
 : 1729878036:0;cd 50
-: 1729878039:0;l
-: 1729878043:0;wpath
-: 1729878046:0;l
-: 1729878051:0;fday
 : 1729878228:0;cd background-slider
 : 1729878230:0;qimg
-: 1729878239:0;l
 : 1729878293:0;v index.html
-: 1729878352:0;fd -ejpg
-: 1729878357:0;cd
-: 1729878360:0;fd -ejpg
 : 1729878370:0;fdi -ejpg
 : 1729878404:0;fd -ets
-: 1729878407:0;fd
-: 1729878415:0;fd -epy
 : 1729878446:0;fd -esh
 : 1729878451:0;fd -ejpg
-: 1729878459:0;fd -epy
-: 1729878479:0;v scripts/winf.py
-: 1729878494:0;winf
-: 1729878516:0;v scripts/winf.py
-: 1729878539:0;winf
-: 1729878543:0;v scripts/winf.py
-: 1729878554:0;winf
-: 1729878559:0;type -f winf
 : 1729878566:0;v scripts/winf.py
-: 1729878661:0;winf
-: 1729878665:0;type -f winf
 : 1729878671:0;cd 
 : 1729878673:0;cd scripts
-: 1729878674:0;l
 : 1729878685:0;cat winf
 : 1729878689:0;rm winf
-: 1729878706:0;winf.py
-: 1729878710:0;l
-: 1729878728:0;winf
-: 1729878732:0;winf.py
 : 1729878770:0;cl
-: 1729878773:0;c
 : 1729878779:0;winf.py
-: 1729878790:0;wpath
-: 1729878804:0;all
-: 1729878806:0;wpath
-: 1729878842:0;func
 : 1729878854:0;wget http://127.0.0.1:5500/background-slider/
 : 1729878879:0;curl http://127.0.0.1:5500/background-slider/
 : 1729878885:0;listen
-: 1729879247:0;cd
-: 1729879258:0;v non.html
-: 1729879266:0;l
 : 1729879272:0;v non.html
-: 1729879280:0;l
-: 1729879289:0;func
 : 1729879301:0;pretty non.html
-: 1729879308:0;l
 : 1729879311:0;v pnon.html
-: 1729886498:0;h
-: 1729886514:0;docker
 : 1729886648:0;	net user
 : 1729886651:0;docker
 : 1729886666:0;docker pull mysql:latest
-: 1729886870:0;docker images
 : 1729886901:0;$ docker run --name test-mysql -e MYSQL_ROOT_PASSWORD=strong_password -d mysql
 : 1729886916:0;docker run --name test-mysql -e MYSQL_ROOT_PASSWORD=strong_password -d mysql
-: 1729886931:0;docker ps
 : 1729887011:0;docker exec -it test-mysql bash
 : 1729887137:0;docker pull busybox
-: 1729887158:0;h
-: 1729887210:0;docker images
-: 1729887213:0;docker run --name my_busybox busybox
-: 1729887237:0;docker ps
 : 1729887257:0;docker exec -it my_busybox sh
-: 1729887274:0;docker run --name my_busybox busybox
-: 1729887677:0;docker ps
 : 1729887691:0;docker kill $(docker ps -q)
-: 1729887696:0;docker run --name my_busybox busybox
-: 1729887704:0;docker ps
-: 1729887710:0;qqq
-: 1729887717:0;docker ps
 : 1729887719:0;docker run --name my_busybox busybox
 : 1729887783:0;docker run --name my_busybox busybox| nvim -
 : 1729887790:0;docker ps
 : 1729891884:0;docker images
 : 1729891928:0;docker rm -vf $(docker ps -aq)
-: 1729891933:0;h
 : 1729891941:0;docker ps -aq
-: 1729892956:0;pass
 : 1729892962:0;mc
-: 1729892967:0;cd temp
-: 1729892969:0;l
 : 1729892972:0;pass
 : 1729892978:0;v pass
 : 1729986665:0;all
-: 1729986666:0;gst
-: 1729986691:0;git add . && git commit -m 'x' && git push
+: 1729986773:0;ls Tonga
+: 1729986792:0;cat Tonga
+: 1729988154:0;lf --version
+: 1729989579:0;wget https://old.reddit.com/r/popular/
+: 1729989637:0;hs
+: 1729989732:0;npm install js-beautify@next
+: 1729989745:0;npx jsbeutify index.html
+: 1729989773:0;npm ls
+: 1729989789:0;npx js-beautify index.html
+: 1729989804:0;npx js-beautify index.html > x
+: 1729989893:0;curl //www.redditstatic.com/reddit.sniFDqeRvIc.css
+: 1729989906:0;curl www.redditstatic.com/reddit.sniFDqeRvIc.css
+: 1729989912:0;curl www.redditstatic.com/reddit.sniFDqeRvIc.css | nvim -
+: 1729989929:0;curl www.redditstatic.com/reddit.sniFDqeRvIc.css > x.css
+: 1729989939:0;npx js-beautify x.css
+: 1729989944:0;npx js-beautify x.css | nvim -
+: 1730498507:0;mckd men
+: 1730498511:0;mkcd men
+: 1730498554:0;type -f winf
+: 1730499815:0;winf
+: 1730499984:0;type -f wind
+: 1730513176:0;user
+: 1730514096:0;cd ~
+: 1730514154:0;$(whoami)
+: 1730514168:0;use=$(whoami)
+: 1730514192:0;cd /mnt/c/Users/$use
+: 1730514203:0;cd /mnt/u
+: 1730514280:0;alias winh="cd /mnt/c/Users/jimst"
+: 1730514283:0;winh
+: 1730522085:0;cd .local
+: 1730522130:0;fdi lib
+: 1730522136:0;tree
+: 1730522142:0;tree | nvim -
+: 1730522181:0;fdi | wc
+: 1730522191:0;cd share
+: 1730522206:0;f
+: 1730522208:0;lf
+: 1730524458:0;wget https://bringmethenews.com/minnesota-news/hennepin-county-employees-rally-for-higher-wages-call-current-offer-insulting
+: 1730524485:0;curl https://bringmethenews.com/minnesota-news/hennepin-county-employees-rally-for-higher-wages-call-current-offer-insulting
+: 1730524538:0;curl https://bringmethenews.com/minnesota-news/hennepin-county-employees-rally-for-higher-wages-call-current-offer-insulting > x
+: 1730524613:0;v b
+: 1730524725:0;npx js-beautify 
+: 1730526304:0;wget 'https://en.wikipedia.org/wiki/Diverticulitis'
+: 1730526325:0;fun
+: 1730526338:0;pretty Diverticulitis
+: 1730526343:0;v Diverticulitis
+: 1730528237:0;wi go
+: 1730528243:0;v g
+: 1730529059:0;v main.go
+: 1730529543:0;rm y
+: 1730529556:0;v p
+: 1730529811:0;chmod +x x.sh
+: 1730529813:0;./x.sh
+: 1730529822:0;v s.sh
+: 1730529827:0;v x.sh
+: 1730529860:0;echo "I'm in $(pwd)"
+: 1730529923:0;for i in {5..50..5}; do\
+    echo "Welcome $i"\
+done
+: 1730529939:0;sh i
+: 1730529965:0;v i
+: 1730529977:0;mv i xx
+: 1730529980:0;sh xx
+: 1730529987:0;bash xx
+: 1730530001:0;type -f sh
+: 1730530021:0;man sh
+: 1730532294:0;npx deprank .
+: 1730533634:0;notes
+: 1730828771:0;cd junk
+: 1730828778:0;wget 'https://news.ycombinator.com/'
+: 1730828790:0;v index.html.2
+: 1730828866:0;npx js-beautify index.html.2
+: 1731017580:0;fd -tf -d 1 | xargs rm
+: 1731018948:0;node
+: 1731022330:0;cat /etc/
+: 1731022340:0;uname
+: 1731022356:0;javac
+: 1731025236:0;mkcd go
+: 1731025331:0;cd .. && go mod init
+: 1731025354:0;go mod init 
+: 1731025373:0;go mod init
+: 1731025384:0;go mod init list.go
+: 1731025399:0;go.mod
+: 1731025404:0;v go.mod
+: 1731025411:0;go build
+: 1731025587:0;ls /tmp
+: 1731025637:0;go run list.go
+: 1731025706:0;godoc fmt Println
+: 1731025793:0;rm go.mod
+: 1731025796:0;go mod init example.com/greetings
+: 1731044974:0;cd go
+: 1731044979:0;v list.go
+: 1731045688:0;v.go
+: 1731045693:0;v d.go
+: 1731045870:0;for filename in .; do\
+echo $filename\
+done
+: 1731045913:0;for filename in *; do\
+echo $filename\
+done
+: 1731045984:0;string ='k'
+: 1731045998:0;$string ='k'
+: 1731046004:0;a=1
+: 1731046046:0;$stri ='k'
+: 1731046057:0;$stri ="k"
+: 1731046090:0;name="k"
+: 1731046096:0;stri ="k"
+: 1731046101:0;striz ="k"
+: 1731046156:0;h 3
+: 1731046166:0;striz ="kaa"
+: 1731046251:0;s ="kaa"h
+: 1731046262:0;s ="kaa"
+: 1731046276:0;name="John"
+: 1731046282:0;names="John"
+: 1731046288:0;n="John"
+: 1731046294:0;sn="John"
+: 1731046299:0;s="John"
+: 1731046308:0;stri="John"
+: 1731047851:0;echo {A,B}.js
+: 1731047873:0;touch {A,B}.js
+: 1731047891:0;t {1..5}
+: 1731047926:0;name=joe\
+pointer=name\
+echo ${
+: 1731048001:0;v file.txt
+: 1731048013:0;while read -r line; do\
+  echo "$line"\
+done <file.txt
+: 1731116144:0;fd al
+: 1731116148:0;cat alias
+: 1731116738:0;v ~/.config/nvim/init.vim
+: 1731116840:0;cp ~/.config/nvim/init.vim /mnt/c
+: 1731116857:0;cd /mnt/
+: 1731116859:0;cd c
+: 1731116861:0;t z
+: 1731117027:0;cd Users
+: 1731117084:0;sudo t x
+: 1731117097:0;sudo touch x
+: 1731117166:0;ls -l
+: 1731117198:0;cd -
+: 1731117381:0;chmod ugo+rwx /mnt/c
+: 1731117394:0;sudo chmod ugo+rwx /mnt/c
+: 1731117915:0;chmod ug+rwx example.txt
+: 1731117929:0;chmod ug+rwx temp
+: 1731117957:0;chmod ug+rwx .
+: 1731118032:0;ls -
+: 1731118058:0;cp ~/.config/nvim/init.vim .
+: 1731118624:0;sudo apt-get install exa
+: 1731129055:0;curl ifconfig.me/ip
+: 1731129125:0;ipconfg
+: 1731129169:0;ifconfig -a
+: 1731129241:0;ping 172.22.111.101
+: 1731129248:0;nslookup 172.22.111.101
+: 1731129372:0;ifconfig eth0
+: 1731129406:0;ip addr show
+: 1731129426:0;curl ifconfig.me
+: 1731129435:0;trcrt
+: 1731129439:0;trcrout
+: 1731285059:0;ping -c 4 howtogeek.com
+: 1731285107:0;ping -c 4 ms.com
+: 1731285153:0;ping ibm.com
+: 1731285158:0;ping a.com
+: 1731285191:0;traceroute howtogeek.com
+: 1731285231:0;ip address
+: 1731285264:0;ip route
+: 1731285314:0;netstat
+: 1731285320:0;netstat | less
+: 1731285383:0;ss
+: 1731285417:0;dig ms.com
+: 1731285443:0;dig ibm.com
+: 1731285468:0;host
+: 1731285491:0;whois ms.con
+: 1731381461:0;winp
+: 1731381551:0;cd j
+: 1731381556:0;mkcd g
+: 1731381575:0;wpath
+: 1731381607:0;wpath | cl
+: 1731383243:0;qht
+: 1731390239:0;autoload -Uz vcs_info\
+precmd() { vcs_info }
+: 1731390261:0;zstyle ':vcs_info:git:*' formats 'on branch %b'
+: 1731390278:0;setopt PROMPT_SUBST\
+PROMPT='%n in ${PWD/#$HOME/~} ${vcs_info_msg_0_} > '
+: 1731390312:0;cd g
+: 1731390313:0;setopt PROMPT_SUBST\nPROMPT='%n in ${PWD/#$HOME/~} ${vcs_info_msg_0_} > '\
+zstyle ':vcs_info:git:*' formats 'on branch %b'\
+autoload -Uz vcs_info\nprecmd() { vcs_info }\
+
+: 1731390337:0;ssh
+: 1731393406:0;qqqq
+: 1731393434:0;mkcd twt
+: 1731393453:0;wget 'https://twit.tv/shows/this-week-in-tech/episodes/1005\?autostart\=false'
+: 1731393470:0;curl https://twit.tv/shows/this-week-in-tech/episodes/1005\?autostart\=false
+: 1731393482:0;curl https://twit.tv/shows/this-week-in-tech/episodes/1005\?autostart\=false | nvim -
+: 1731393525:0;curl https://twit.tv/shows/this-week-in-tech/episodes/1005\?autostart\=false >
+: 1731393529:0;curl https://twit.tv/shows/this-week-in-tech/episodes/1005\?autostart\=false > x
+: 1731393543:0;npx js-beautify x
+: 1731393556:0;npx js-beautify x > xp
+: 1731393564:0;cat xp
+: 1731394063:0;curl https://twit.tv/shows/this-week-in-tech/episodes/1005
+: 1731394069:0;curl https://twit.tv/shows/this-week-in-tech/episodes/1005 | nvim -
+: 1731394169:0;wget 'https://pdst.fm/e/pscrb.fm/rss/p/cdn.twit.tv/libsyn/twit_1005/b26992aa-b1b1-4f90-a2b7-efc6a7d4b42a/R1_twit1005.mp3'
+: 1731394445:0;exif R1_twit1005.mp3
+: 1731394451:0;ex R1_twit1005.mp3
+: 1731394493:0;wslpath -w $(pwd) | clip.exe
+: 1731447817:0;yt
+: 1731447820:0;ye
+: 1731447855:0;yv
+: 1731564445:0;git commit -m 'what'
+: 1731564455:0;git push
+: 1731564537:0;git remote -v
+: 1731564549:0;gb
+: 1731565409:0;fday
+: 1731565476:0;fd fd
+: 1731565522:0;f2
+: 1731565536:0;v x
+: 1731565539:0;v xp
+: 1731565574:0;ls g
+: 1731565580:0;rm -rf g
+: 1731569961:0;type -f func
+: 1731570729:0;sudo apt-get install openssh-server
+: 1731570815:0;sudo systemctl enable ssh
+: 1731570838:0;sudo systemctl start ssh
+: 1731570841:0;mem
+: 1731570848:0;btop
+: 1731570853:0;ps
+: 1731570871:0;ipconfig
+: 1731570883:0;myip
+: 1731571168:0;ping 172.56.12.170
+: 1731571188:0;ping ms.com
+: 1731571328:0;ping 192.168.0.109
+: 1731571381:0;sudo systemctl start ssh\
+sudo systemctl enable ssh\
+
+: 1731571387:0;ssh 192.168.0.109
+: 1731571425:0;ssh steff007@192.168.0.109
+: 1731571849:0;sudo systemctl status ssh
+: 1731571864:0;who
+: 1731571941:0;v new.sh
+: 1731573437:0;ssh steff007@172.22.111.101
+: 1731574220:0;ifconfig
+: 1731574244:0;ping 172.22.111.111
+: 1731574263:0;myip | clip.exe
+: 1731574284:0;ip
+: 1731661243:0;v gp.txt
+: 1731662135:0;awk '!a[$0]++' h
+: 1731662142:0;awk '!a[$0]++' h | wc
+: 1731662148:0;cat h | wc
+: 1731662160:0;awk '!a[$0]++' h | v
+: 1731662220:0;du -s * | sort -n | awk '{print int($1 / 1024)"M\t"$2}'
+: 1731668782:0;printf "%s\n"
+: 1731668795:0;printf "%s\n"  $(pwd) | sed 's.\/.\\.g'
+: 1731668849:0;printf "%s\n"  $(pwd) | sed 's.\/.\\.g' | sed 's.mnt..g
+: 1731668856:0;printf "%s\n"  $(pwd) | sed 's.\/.\\.g' | sed 's.mnt..g'
+: 1731669004:0;echo "//s3.amazonaws.com/umdheader.umd.edu/app/js/main.min.js" | sed 's#^//##'
+: 1731669044:0;echo "//s3.amazonaws.com/umdheader.umd.edu/app/js/main.min.js" | sed 's#^..##'
+: 1731669077:0;echo "x//s3.amazonaws.com/umdheader.umd.edu/app/js/main.min.js" | sed 's#^..##'
+: 1731737572:0;cd $(wslpath 'c:\users')
+: 1731737726:0;#awk '!a[$0]++' ~/.sqlite_history > testfile.tmp && mv testfile.tmp ~/.sqlite_history #awk unique
+: 1731737757:0;awk '!a[$0]++' ConsoleHost_history.txt > cunq
+: 1731737766:0;v cunq
+: 1731737947:0;v hist.bak
+: 1731737968:0;:g/^/m0
+: 1731738905:0;echo "/home/user" | sed 's#/#\\#g
+: 1731738916:0;echo "/home/user" | sed 's#/#\\#g"
+: 1731738920:0;echo "/home/user" | sed 's#/#\\#g'
+: 1731739070:0;read -r path;
+: 1731739085:0;path=$(/usr/bin/wslpath -a "$path")
+: 1731739092:0;echo $path
+: 1731739460:0;wslpath
+: 1731739465:0;wslpath -u
+: 1731739500:0;wslpath -w $(pwd)
+: 1731739688:0;cd $(wslpath 'C:\Users\jimst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine')
+: 1731739755:0;unq cunq
+: 1731739775:0;dif ConsoleHost_history.txt cunq
+: 1731739782:0;diff ConsoleHost_history.txt cunq
+: 1731739838:0;unq ConsoleHost_history.txt
+: 1731740322:0;nvim --startuptime startup.log -c exit && less startup.log
+: 1731740448:0;nvim --startuptime startup.log -c exit
+: 1731740453:0;v startup.log
+: 1731740589:0;echo "echo getpid()" | nvim -e - -V1
+: 1731740673:0;v --clean
+: 1731752299:0;funcc
+: 1731752343:0;rec 2
+: 1731752357:0;t non.html
+: 1731752360:0;rec 3
+: 1731752370:0;type -f rec
+: 1731752415:0;fdi --changed-within=4days
+: 1731752459:0;frec 2
+: 1731752475:0;type -f fdm
+: 1731752616:0;wind
+: 1731753370:0;git add .
+: 1731753384:0;git commit -m 'vinit'
+: 1731753392:0;gdiff
+: 1731753455:0;rec 32
+: 1731753654:0;v 
+: 1731753747:0;recf() {\
+  fdi --changed-within="$1"hours --ignore-file ~/.fdignore -x ls -lhr | cut -d' ' -f5-13\
+}\
+
+: 1731753806:0;fd
+: 1731753832:0;v .fdignore
+: 1731753841:0;recf 8
+: 1731753949:0;recf 8 | head
+: 1731753989:0;fdi --ignore-file ~/.fdignore
+: 1731753997:0;fd --ignore-file ~/.fdignore
+: 1731754053:0;v funcCut
+: 1731754113:0;recf() {\
+  fd -H -I --changed-within="$1"hours --ignore-file ~/.fdignore -x ls -lhr | cut -d' ' -f5-13\
+}\
+
+: 1731754150:0;type -f recf
+: 1731754172:0;recf 2
+: 1731754204:0;recf 1
+: 1731754211:0;recf 48
+: 1731754218:0;recf 348
+: 1731754289:0;recf 348 | nvim -
+: 1731754305:0;fd node_modules
+: 1731754313:0;fdi fd node_modules
+: 1731754324:0;fdi node_modules
+: 1731754368:0;fdm(){\
+  fd -H -I --ignore-file ~/.fdignore\
+}\
+
+: 1731754370:0;fdm
+: 1731754377:0;fdm | nvim -
+: 1731754398:0;fdm 'b'
+: 1731754409:0;fdm 'x'
+: 1731754423:0;fd -h -i 'svg'
+: 1731754434:0;fd -H -I 'svg'
+: 1731754492:0;fdi 'x'
+: 1731758473:0;lua
+: 1731758823:0;gcm p3
+: 1731758829:0;type -f p3
+: 1731758863:0;chmod ug+rwx l.py
+: 1731758898:0;i3
+: 1731758977:0;p3 l.py
+: 1731759141:0;v l.py
+: 1731759150:0;./l.py
+: 1731759715:0;Get-ChildItem -Path Env:
+: 1731760974:0;cd mnt/c/temp
+: 1731761013:0;cd /mnt/c
+: 1731761151:0;cd down
+: 1731761154:0;cd Downloads
+: 1731761179:0;v list
+: 1731761216:0;mv InOurTime-20240704-Bacteriophages.mp3 /mnt/c/temp\
+mv InOurTime-20240919-BenjaminDisraeli.mp3 /mnt/c/temp\
+mv InOurTime-20240926-Wormholes.mp3 /mnt/c/temp\
+mv InOurTime-20241003-TheHaymarketAffair.mp3 /mnt/c/temp\
+mv InOurTime-20241010-RobertGraves.mp3 /mnt/c/temp\
+mv InOurTime-20241017-HayeksTheRoadToSerfdom.mp3 /mnt/c/temp\
+
+: 1731761233:0;cd \mnt\c
+: 1731761240:0;cd \mnt
+: 1731761257:0;cd /mnt/c/temp
+: 1731761275:0;md listen
+: 1731761293:0;vlc .
+: 1731840120:0;find . -name '*.py' -type f -print0
+: 1731840167:0;find . -name '*.py' -type f -print0 | strings | grep -i "$1"
+: 1731840210:0;find . -name '*.py' -type f -print0 | sed 's/\x0/\n/g' | grep -i "$1"
+: 1731840228:0;fd -epy
+: 1731840247:0;find .
+: 1731840268:0;git add . && git commit -m 'x' && git push
+: 1731840334:0;gst | rg '/'
+: 1731840394:0;find . -name '*.py' -type f  | sed 's/\x0/\n/g' | grep -i "$1"
+: 1731840421:0;fdi -epy
+: 1731840429:0;h3
+: 1731840499:0;fd -emp3
+: 1731840512:0;fd -emp3 | nvim -
+: 1731840531:0;cp ./gits/50/sound-board/sounds/applause.mp3 $home
+: 1731840544:0;e $home
+: 1731840553:0;cp ./gits/50/sound-board/sounds/applause.mp3 $HOME
+: 1731840790:0;$path = "c:\folder"# Path to folder\
+$files = Get-ChildItem -Path $path -Recurse 
+: 1731842975:0;du -df
+: 1731842986:0;du -h
+: 1731843004:0;rm android-studio-2024.1.2.12-windows.exe
+: 1731843011:0;du
+: 1731843027:0;fd 'pow'
+: 1731843032:0;fd 'pow' -x rm
+: 1731843034:0;lt
+: 1731847889:0;Get-Content file.txt | Sort-Object
+: 1731847899:0;gc w
+: 1731848252:0;uptime
+: 1731848318:0;size
+: 1731848350:0;fdi --size +30m
+: 1731848380:0;fdi --size +30m -x ls
+: 1731848388:0;fdi --size +30m -x ls -lhrt
+: 1731848408:0;fdi --size +30m |
+: 1731848478:0;fdi --size +30m | xargs ls -lhrt
+: 1731848496:0;fdi --size +130m 
+: 1731848506:0;fd --size +130m 
+: 1731848619:0;unset fdi
+: 1731848623:0;type -f fdi
+: 1731848635:0;fdi
+: 1731848641:0;fd --size +30m 
+: 1731848647:0;fdi --size +30m 
+: 1731853894:0;als
+: 1731853900:0;v alias
+: 1731853905:0;nvim alias
+: 1731854003:0;lsize
+: 1731854544:0;git add . && git commit -m 'vim play' && git push
+: 1731854629:0;v .bashrc
+: 1731854846:0;vv
+: 1731855605:0;v .
+: 1731855861:0;sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'\
+
+: 1731856003:0;cd .config
+: 1731856007:0;cd nvim
+: 1731856017:0;md autoload
+: 1731856020:0;cd autoload
+: 1731856025:0;wget 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+: 1731856134:0;curl -fLo ~/.vim/autoload/plug.vim --create-dirs \\
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+: 1731856195:0;v ~/.config/nvim/autoload
+: 1731856222:0;cd ~/.config/nvim/autoload
+: 1731856230:0;pwd
+: 1731856238:0;v plug.vim
+: 1731856357:0;ls | nvim -
+: 1731856445:0;v
+: 1731857226:0;note
+: 1731857310:0;cd /mnt/c/Users/jayst/AppData/Local/Google/Chrome/User Data/Default
+: 1731857319:0;cd 'cd /mnt/c/Users/jayst/AppData/Local/Google/Chrome/User Data/Default'
+: 1731857327:0;cd 'cd /mnt/c/Users/jayst/AppData/Local/Google/Chrome/'
+: 1731857340:0;cd 'cd /mnt/c/Users/jayst/AppData/Local'
+: 1731857410:0;df -h
+: 1731857459:0;cd /usr/lib/wsl/drivers
+: 1731857471:0;fdc
+: 1731857483:0;l | nvim -
+: 1731857506:0;duh | nvim -
+: 1731857561:0;lts
+: 1731857567:0;duh
+: 1731857579:0;find . | wc
+: 1731860172:0;down
+: 1731860202:0;md c:\t2
+: 1731860235:0;md /mnt/c/t2
+: 1731860250:0;fd "inou" -emp3
+: 1731860328:0;fd "inou" -emp3 | xargs mv /mnt/c/t2
+: 1731860387:0;fd "inou" -emp3 | xargs mv -t /mnt/c/t2
+: 1731860471:0;fd "inou" -emp3 -print0 | xargs -r0 mv -t /mnt/c/t2
+: 1731860552:0;ls *.mp3
+: 1731860572:0;cd /mnt/c/t2
+: 1731860612:0;fd > t.m3u
+: 1731860632:0;rm t.m3u
+: 1731860638:0;fd | nvim -
+: 1731860676:0;fd -m3u
+: 1731860685:0;..
+: 1731860772:0;myc() {\
+  cd /mnt/c\
+}\
+
+: 1731860777:0;fd -em3u
+: 1731860848:0;cd temp
+: 1731860854:0;v two.m3u
+: 1731860865:0;v a.m3u
+: 1731860880:0;vlc a.m3u
+: 1731863461:0;LC_ALL=C sed -e 's/[^a-zA-Z0-9,._+@%/-]/\\&/g; 1{$s/^$/""/}; 1!s/^/"/; $!s/$/"/'.
+: 1731863468:0;LC_ALL=C sed -e 's/[^a-zA-Z0-9,._+@%/-]/\\&/g; 1{$s/^$/""/}; 1!s/^/"/; $!s/$/"/'
+: 1731863561:0;psa
+: 1731863594:0;kill 6249
+: 1731863605:0;for i in {0..127}; do\
+    printf -v var %02X $i\
+    printf -v var %b \\x$var\
+    sign=E\
+    printf -v res %q "$var"\
+    [[ $var == "$res" ]] && sign=-\
+    printf '%02X %s %-*s %-*s\n' $i $sign $(( 31 < i && i < 96 ? 2 : 8\
+        )) "${res}" $(( 31 < i && i < 96 ? 3 : 8)) "${var@Q}"\
+done |\
+    pr -w100 --sep-string='' -t4 |\
+    sed 's/\o11\+/\o11/g'
+: 1731863662:0;e $0
+: 1731863677:0;type -f bash
+: 1731863685:0;/usr/bin/bash
+: 1731863796:0;v func
+: 1731864005:0;so functions.sh
+: 1731864010:0;source functions.sh
+: 1731864105:0;sudo apt install shellcheck
+: 1731864175:0;functions.sh
+: 1731864188:0;qqq
+: 1731864254:0;bash
+: 1731864307:0;fg
+: 1731864339:0;fdh(){\
+  /usr/bin/fdfind --help | nvim \
+}\
+
+: 1731864341:0;fdh
+: 1731864361:0;myc() {\
+  cd /mnt/c\
+}\
+mpath(){\
+wslpath -w $(pwd) | clip.exe\
+}\
+myip(){\
+curl ifconfig.me\
+}\
+fdh(){\
+  /usr/bin/fdfind --help | nvim \
+}\
+fdm(){\
+  fd -H -I --ignore-file ~/.fdignore\
+}\
+wind(){\
+  #convert bash path to windows\
+pwd | sed 's.\/mnt\/c.c:.g' |clip.exe\
+}\
+
+: 1731864374:0;shellcheck functions.sh
+: 1731864983:0;type -f gitr.py
+: 1731865156:0;vinit
+: 1731865200:0;shellcheck functions.sh | nvim -
+: 1731865495:0;v functions.sh
+: 1731865573:0;c
+: 1731865602:0;git add . && git commit -m 'fix functions' && git push
+: 1731870658:0;mps
+: 1731870686:0;git add . && git commit -m 'fix functions'
+: 1731870695:0;reflog
+: 1731870710:0;git reflog | nvim -
+: 1731870721:0;gst
+: 1731870734:0;h
+: 1731870750:0;git reflog
+: 1731870759:0;glog
+: 1731927759:0;uname -a
+: 1731927797:0;uname -r
+: 1731927821:0;cat /etc/os-release
+: 1731936326:0;cd $HOME
+: 1731936341:0;cd /mnt/c/Users
+: 1731936342:0;ld
+: 1731936351:0;cd jimst
+: 1731936356:0;fd -ehtml
+: 1731936380:0;fd index.html
+: 1731936391:0;cd WebstormProjects
+: 1731936399:0;dserve
+: 1731936461:0;p3 -m http.server
+: 1731936813:0;u
+: 1731936878:0;sudo rm -rf untitled
+: 1731936980:0;chmod ug+rwx untitled
+: 1731936983:0;rm -rf untitled
+: 1731937081:0;cd untitled
+: 1731937084:0;ls
+: 1731937087:0;ls -a
+: 1731937090:0;rm *
+: 1731937096:0;cd ..
+: 1731937103:0;rm -rfv untitled
+: 1731937172:0;whoami
+: 1731937177:0;t x
+: 1731937180:0;rm x
+: 1731937290:0;sudo rm -r
+: 1731937297:0;sudo rm -r untitled
+: 1731937302:0;su
+: 1731937496:0;ls -ld
+: 1731937508:0;ls -ld untitled
+: 1731938165:0;e
+: 1731938171:0;e \
+: 1731938178:0;echo \
+: 1731938188:0;echo "\"
+: 1731938198:0;echo "/"
+: 1731938219:0;echo "\^"
+: 1731938233:0;echo "\\"
+: 1731938257:0;echo "\\" | sed 's.\\.z'
+: 1731938273:0;echo "\\" | sed 's.\\.'
+: 1731938280:0;his
+: 1731938305:0;sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'
+: 1731938326:0;echo "/mnt/c" | sed -e 's/c:\\'
+: 1731938354:0;echo "x" | sed 's.x.y'
+: 1731938362:0;echo "x" | sed 's.x.y.'
+: 1731938709:0;wsl wslpath -u
+: 1731938810:0;sed
+: 1731938812:0;echo "c:/Project/test" \\
+| sed -E 's/^(\w+)+/\L\1/g' \\
+| sed -e 's/\\/\//g' \\
+| sed -e 's/://g' \\
+| sed -e '/^\//!s/^/\//g'
+: 1731938830:0;pc
+: 1731938832:0;/home/steff007
+: 1731939654:0;'word'.Replace('word','@#$+')
+: 1731939808:0;cd
+: 1731939813:0;mnt
+: 1731939819:0;func
+: 1731939825:0;myc
+: 1731939828:0;l
+: 1731939831:0;fd U
+: 1731939837:0;fdd u
+: 1731939857:0;cd mnt/c/Users/jimst
+: 1731939868:0;cd /mnt/c/Users/jimst
+: 1731950087:0;exit
+: 1731950091:0;qqq
+: 1731958787:0;my
+: 1731958789:0;myc
+: 1731958794:0;cd Users
+: 1731958795:0;l
+: 1731958798:0;cd jimst
+: 1731958799:0;l
+: 1731958802:0;cd WebstormProjects
+: 1731958803:0;l
+: 1731958805:0;t xx
+: 1731958806:0;l
+: 1731958808:0;rm xx
+: 1731958817:0;rm -rf untitled
+: 1731958819:0;l
+: 1731958830:0;npm
+: 1731958864:0;npm create vite@latest
+: 1731959063:0;cd vite-project
+: 1731959070:0;npm install
+: 1731959167:0;l
+: 1731959173:0;npm run dev
+: 1731959804:0;h
+: 1731959815:0;his
+: 1731959819:0;npm run dev
+: 1731963162:0;vinit
+: 1731968217:0;down
+: 1731968218:0;l
+: 1731999915:0;fd 'inour' | nvim -
+: 1731999938:0;cd temp
+: 1731999940:0;l
+: 1731999950:0;cd \t2
+: 1731999954:0;myc
+: 1731999958:0;l
+: 1731999967:0;ld -td d1
+: 1731999972:0;his
+: 1731999988:0;fd -td -d1
+: 1732000003:0;cd t2
+: 1732000005:0;l
+: 1732000008:0;v a.m3u
+: 1732000085:0;l
+: 1732000090:0;vlc b.m3u
+: 1732000101:0;p
+: 1732000107:0;func
+: 1732005173:0;all
+: 1732005174:0;gst
+: 1732005194:0;git add . && git commit -m 'sync'

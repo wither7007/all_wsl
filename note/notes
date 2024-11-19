@@ -1,3 +1,6 @@
+jonathan Haidt
+cd $(wslpath 'c:\users')
+cd $(wslpath 'C:\Users\jimst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine')
 convert bash path to windows
 pwd | sed 's.\/mnt\/c.c:.g'
 https://www.youtube.com/watch?v=Ht62CQnT1PQ&t=42s
@@ -54,6 +57,11 @@ curl -X GET "https://httpbin.org/get" -H "accept: application/json"
 James Steffes
 4440 SNELLING AVE APT 122
 MINNEAPOLIS, MN 55406-3947
+
+
+HIAWATHA SCHOOL PARK RECREATION CENTER
+4305 42ND ST E
+MINNEAPOLIS, MN 55406
 
 mon june 24th
 1:40 KELSEY 
@@ -145,13 +153,17 @@ gh repo view | nvim -
 gh repo view --web  #view github
 gh auth login
 gh repo create
+restore to last commit
+git reset HEAD --hard
+This will delete any new files that were added since the last commit:
+git clean -fd
 
 gpt indepth
 https://www.youtube.com/watch?v=kCc8FmEb1nY
 Here are the default locations for the "Bookmarks" file:
 Windows:
 cd C:\Users\jayst\AppData\Local\Google\Chrome\User Data\Default\Bookmarks
-/mnt/c/Users/jayst/AppData/Local/Google/Chrome/User Data/Default 
+cd /mnt/c/Users/jayst/AppData/Local/Google/Chrome/User Data/Default 
 
 https://mastodon.social/home
 
@@ -1460,7 +1472,7 @@ quote each line
 %s/\(^.*$\)/"\1"/g
 awsk () {
 #https://stackoverflow.com/questions/8019617/how-to-write-finding-output-to-same-file-using-awk-command
-awk '!a[$0]++' ~/.sqlite_history > testfile.tmp && mv testfile.tmp ~/.sqlite_history
+awk '!a[$0]++' ~/.sqlite_history > testfile.tmp && mv testfile.tmp ~/.sqlite_history #awk unique
 nvim ~/.sqlite_history
 }
 vim You got into insert mode inside Ex mode with :i, so you need to leave it with a line containing only a period:
@@ -1917,7 +1929,17 @@ function convertToBinary(x) {
 keybindings.json
 posh git
 bash profile vs rc
+
 powershell
+$Function:Pause
+dir env:
+gci env: | nvim -
+$env:path
+$env:path = "$env:path;C:\Program Files\Java\jdk-17.0.2\bin"
+$env:path = "$env:path;c:\bin"
+echo $profile
+
+
 import-module /mnt/c/Users/jayst/OneDrive/Documents/WindowsPowerShell/Modules/posh-git/1.0.0/posh-git.psd1Ctrl+o is used to issue normal commands without leaving INSERT mode,
 80 the repetition,
 i to insert,

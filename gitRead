@@ -1,0 +1,437 @@
+
+
+archive.today
+webpage capture
+Saved from	
+https://blog.stackademic.com/20-git-command-line-tricks-every-developer-should-know-bf817e83d6b9
+history←priornext→
+6 Nov 2024 09:44:52 UTC
+Redirected from	
+https://medium.com/stackademic/20-git-command-line-tricks-every-developer-should-know-bf817e83d6b9
+no other snapshots from this url
+All snapshots	from host blog.stackademic.com
+from host medium.com
+WebpageScreenshot
+sharedownload .zipreport bug or abuseBuy me a coffee
+Search
+Write
+Sign up
+Sign in
+
+
+
+Member-only story
+20 Git Command-Line Tricks Every Developer Should Know
+Git Smarter, Code Faster
+Crafting-Code
+Stackademic
+Crafting-Code
+·
+Follow
+Published in
+Stackademic
+·
+8 min read
+·
+Oct 9, 2024
+1.3K
+
+18
+
+
+20 Git Command-Line Tricks Every Developer Should Know
+Image Source
+Most developers use Git daily, many only scratch the surface of what it can really do. Sure, we all know how to push, pull, and commit, but what about those tricks that make you say, “Wait, I can do that with Git?”
+Learning a few git command-line tricks can be a game-changer, making you more efficient, productive, and confident with version control.
+So, let’s dive into 20 Git command-line tricks that every developer should have in their toolkit.
+1. Interactive Add
+This command allows you to stage parts of a file instead of the entire file. This is super helpful when you only want to commit certain changes in a file while leaving the rest for later.
+How to use it:
+git add -p
+Why it’s cool:
+You get more granular control over what gets committed, which is great for making small, focused commits.
+Pro tip:
+Use this when you’re working on multiple features in one file but want to commit them separately!
+2. Undo the Last Commit
+Made a mistake in your last commit? No problem. This command undoes your last commit but keeps the changes in your working directory, so you can easily fix the issue.
+How to use it:
+git reset --soft HEAD~1
+Why it’s cool:
+It’s like having a time machine for your commits — no need to lose your hard work, just fix and recommit.
+Pro tip:
+Use --soft if you want to keep the changes; use --hard if you want to undo everything, including your local changes.
+3. Check Your Branch’s Upstream Status
+This command fetches all updates from the remote and prunes (deletes) references to branches that have been deleted from the remote.
+How to use it:
+git fetch --all --prune
+Why it’s cool:
+It keeps your local environment clean and up-to-date, without having to manually delete old branches.
+Pro tip:
+Run this periodically to avoid clutter in your branch list, especially when working in large teams.
+150+ FREE Resources Every Developer Needs to Know
+25 Microservices Questions You’ll Definitely Be Asked in Interviews
+4. Quick Commit Fix
+Forgot to add a file or made a typo in your commit message? git commit --amend lets you update the last commit without creating a new one.
+How to use it:
+git commit --amend
+Why it’s cool:
+You can fix mistakes instantly without cluttering your commit history.
+Pro tip:
+This is great for squashing small mistakes without polluting your Git log with unnecessary commits.
+5. Stash Your Work
+Got to switch branches but don’t want to lose your current changes? Stashing lets you save your work without committing it, allowing you to return to it later.
+How to use it:
+git stash
+Why it’s cool:
+It’s like hitting the “pause” button on your work, without cluttering your commit history.
+Pro tip:
+Use git stash save "description" to add a description so you can quickly identify your stashes later.
+6. Pop Your Stash
+When you’re ready to get back to your stashed work, you can “pop” it back into your working directory.
+How to use it:
+git stash pop
+Why it’s cool:
+It restores your changes and removes them from the stash, keeping everything clean and organized.
+Pro tip:
+Use git stash apply if you want to apply the stash without removing it.
+7 Skills That Will Make You the Most In-Demand Developer
+7. Cherry-Picking Commits
+Need a specific commit from another branch? Cherry-picking lets you apply it to your current branch without merging the entire branch.
+How to use it:
+git cherry-pick <commit-hash>
+Why it’s cool:
+It gives you the flexibility to bring in individual features or fixes without merging all the other changes from the source branch.
+Pro tip:
+This is especially useful when you need to backport bug fixes or small features.
+8. Clean Up Local Branches
+Once you’re done with a feature, don’t let old branches linger. Clean them up with this simple command.
+How to use it:
+git branch -d <branch-name>
+Why it’s cool:
+Keeping your local branches clean helps you focus on what matters without the clutter.
+Pro tip:
+Use git branch -D <branch-name> if you need to force-delete a branch that hasn’t been merged yet.
+9. View File History
+Track the evolution of a specific file with git log -- <file>. This shows you all the commits that affected that file.
+How to use it:
+git log -- <file>
+Why it’s cool:
+This is useful for understanding why certain changes were made over time, especially in collaborative projects.
+Pro tip:
+Add --stat to see more detailed information about changes.
+The 7 Most Powerful JavaScript Tricks You’re Not Using
+10. Blame a Line of Code
+Want to know who wrote a specific line of code? git blame gives you a line-by-line history of who changed what in a file.
+How to use it:
+git blame <filename>
+Why it’s cool:
+It’s an easy way to track down who made a change and when, especially when debugging issues.
+Pro tip:
+Combine this with git log -- <file> to get a more detailed history of changes.
+11. Find the Source of a Bug
+This powerful tool performs a binary search through your commit history to find the commit that introduced a bug.
+How to use it:
+git bisect start
+git bisect bad
+git bisect good <older-commit-hash>
+Why it’s cool:
+It’s like Git’s detective mode — perfect for identifying where a bug was introduced without manually checking each commit.
+Pro tip:
+Use it in complex projects where you can’t easily pinpoint when things broke.
+12. Abort a Merge
+If you’ve started a merge and things aren’t going as planned, this command will abort the merge and return you to your previous state.
+How to use it:
+git merge --abort
+Why it’s cool:
+It’s a quick exit from a tricky situation, allowing you to start over fresh.
+Pro tip:
+Always make sure your working directory is clean before attempting a merge.
+13. Search Commit Messages
+Looking for a specific commit message? Use git log --grep to search through commit messages.
+How to use it:
+git log --grep="search term"
+Why it’s cool:
+You can find commits faster when you remember keywords from the commit message but not the exact commit hash.
+Pro tip:
+Combine this with git log --author to find commits by specific developers.
+10 Productivity Hacks for Developers That Actually Work
+14. Tagging a Commit
+Tags are useful for marking specific points in your Git history, such as releases.
+How to use it:
+git tag -a v1.0 -m "Version 1.0 release"
+Why it’s cool:
+It helps in marking important milestones, making it easy to jump back to a particular version later.
+Pro tip:
+Use lightweight tags (git tag <tagname>) when you don’t need additional metadata.
+15. Hard Reset to Clean the Workspace
+Need to get rid of untracked files and directories quickly? This command wipes them out, leaving only files under version control.
+How to use it:
+git clean -fd
+Why it’s cool:
+It clears out unwanted clutter, keeping your workspace organized.
+Pro tip:
+Use with caution — make sure you won’t need those untracked files later!
+16. View All Git Operations
+If you’ve ever messed up your Git history, git reflog is your safety net. It shows a log of all operations on your repository, allowing you to recover lost changes.
+How to use it:
+git reflog
+Why it’s cool:
+It’s a history of your Git history, giving you a way to find lost commits and operations.
+Pro tip:
+Use this when you think all hope is lost after a bad reset or rebase!
+17. Squash Commits
+Want to clean up your commit history before pushing? Squashing commits lets you combine several into one for a neater history.
+How to use it:
+git rebase -i HEAD~<number-of-commits>
+Why it’s cool:
+Squashing makes your commit history look polished and professional, especially when you’re sharing with a team.
+Pro tip:
+This is ideal for combining multiple small fixes into one clear commit before pushing.
+18. Revert a Commit
+Need to undo a specific commit without affecting your entire history? git revert creates a new commit that undoes the changes from the specified commit.
+How to use it:
+git revert <commit-hash>
+Why it’s cool:
+Unlike reset, this doesn’t rewrite history—it just reverses the effects of a commit, making it perfect for undoing mistakes in a clean way.
+19. See a Graph of Your Branches
+This command gives you a visual overview of your branch history, making it easier to see merges, branches, and commits.
+How to use it:
+git log --graph --oneline --all
+Why it’s cool:
+It’s an at-a-glance view of your project’s structure, especially helpful for understanding complex branch setups.
+20. Auto-Completion
+Don’t waste time typing out long commands. Enable Git auto-completion to finish commands with a simple TAB.
+How to use it: Just hit TAB after starting to type a Git command.
+Why it’s cool:
+Auto-completion speeds up your workflow and helps prevent typos.
+Pro tip:
+Make sure you have Git auto-completion set up in your terminal for a serious productivity boost!
+These tricks aren’t just “cool” — they’re essential tools for staying efficient and organized in any development environment. Whether you’re a solo coder or working in a team, knowing these tricks can drastically improve your productivity and make you look like a Git wizard to your peers.
+Happy coding !!
+Please Visit my Profile:
+Crafting-Code - Medium
+Read writing from Crafting-Code on Medium. Elevate your skills with every read. Every day, Crafting-Code and thousands…
+medium.com
+Comparison between ‘Feature Branch’ and ‘Git Flow’
+Version control is a fundamental part of modern software development, and Git has emerged as the de facto standard for…
+medium.com
+The 7 Most Powerful JavaScript Tricks You’re Not Using
+JavaScript is everywhere — powering everything from websites to mobile apps. Yet, no matter how much you think you…
+javascript.plainenglish.io
+How Mastering Async JavaScript Can Make You a Better Developer Fast
+Mastering Async Programming in JavaScript
+javascript.plainenglish.io
+7 Skills That Will Make You the Most In-Demand Developer in 2024
+Skills That Matter
+blog.stackademic.com
+10 Productivity Hacks for Developers That Actually Work
+Code Smarter, Not Harder
+medium.com
+10 JavaScript Interview Questions Most Developers Fail to Answer
+And How to Get Them Right
+blog.stackademic.com
+Is Coding Still Worth Learning in 2024?
+The Truth About AI and the Future of Software Engineering Jobs
+blog.stackademic.com
+How to Become Top 1% Programmer: Strategies, Insights and Mindset Shifts
+Simple steps to rise above the rest in the programming world
+blog.stackademic.com
+💰 Please donate to toshiah213@gmail.com and be the hero who ensures our mission thrives. 🌟 Together, let’s rewrite the story of possibility and create a legacy of impact. 💪✨
+Also Feel free to reach out to me at toshiah213@gmail.com if you’re interested in collaborating, sponsoring, or discussing business opportunities. I’m always open to exciting ventures and partnerships. Looking forward to hearing from you!
+Stackademic 🎓
+Thank you for reading until the end. Before you go:
+Please consider clapping and following the writer! 👏
+Follow us X | LinkedIn | YouTube | Discord
+Visit our other platforms: In Plain English | CoFeed | Differ
+More content at Stackademic.com
+Github
+Github Actions
+Developer Tools
+Software Development
+Programming
+1.3K
+
+18
+
+Crafting-Code
+Stackademic
+Written by Crafting-Code
+1.1K Followers
+·
+Writer for 
+Stackademic
+Elevate your skills with every read.
+Follow
+
+
+More from Crafting-Code and Stackademic
+7 Skills That Will Make You the Most In-Demand Developer
+Crafting-Code
+Crafting-Code
+in
+Stackademic
+7 Skills That Will Make You the Most In-Demand Developer in 2024
+Skills That Matter
+
+Oct 15
+394
+7
+Python is No More The King of Data Science
+Abdur Rahman
+Abdur Rahman
+in
+Stackademic
+Python is No More The King of Data Science
+5 Reasons Why Python is Losing Its Crown
+
+Oct 23
+2.8K
+19
+20 Python Scripts To Automate Your Daily Tasks
+Abdur Rahman
+Abdur Rahman
+in
+Stackademic
+20 Python Scripts To Automate Your Daily Tasks
+A must-have collection for every developer
+
+Oct 7
+1.7K
+15
+25 Microservices Questions You’ll Definitely Be Asked in Interviews
+Crafting-Code
+Crafting-Code
+in
+Stackademic
+25 Microservices Questions You’ll Definitely Be Asked in Interviews
+Key Questions, Expert Answers
+
+Oct 28
+7
+See all from Crafting-Code
+See all from Stackademic
+Recommended from Medium
+7 Productivity Hacks I Stole From a Principal Software Engineer
+Nidhi Jain 👩‍💻
+Nidhi Jain 👩‍💻
+in
+Code Like A Girl
+7 Productivity Hacks I Stole From a Principal Software Engineer
+Golden tips and tricks that can make you unstoppable
+
+Oct 15
+3.8K
+71
+20 Python Scripts To Automate Your Daily Tasks
+Abdur Rahman
+Abdur Rahman
+in
+Stackademic
+20 Python Scripts To Automate Your Daily Tasks
+A must-have collection for every developer
+
+Oct 7
+1.7K
+15
+Lists
+
+
+
+General Coding Knowledge
+20 stories
+·
+1700 saves
+
+
+
+Coding & Development
+11 stories
+·
+887 saves
+
+
+Stories to Help You Grow as a Software Developer
+19 stories
+·
+1458 saves
+
+
+
+Leadership
+61 stories
+·
+478 saves
+Docker pros are shrinking images by 99%: The hidden techniques you can’t afford to miss
+Dipanshu ‎
+Dipanshu ‎
+in
+AWS in Plain English
+Docker pros are shrinking images by 99%: The hidden techniques you can’t afford to miss
+Unlock the secrets to lightning-fast deployments and slashed costs — before your competitors do
+
+Sep 18
+2.9K
+12
+How I Am Using a Lifetime 100% Free Server
+Harendra
+Harendra
+How I Am Using a Lifetime 100% Free Server
+Get a server with 24 GB RAM + 4 CPU + 200 GB Storage + Always Free
+
+Oct 26
+1.94K
+24
+Reasons behind the recent changes in JetBrains products licensing model
+Saeed Zarinfam
+Saeed Zarinfam
+in
+ITNEXT
+Reasons behind the recent changes in JetBrains products licensing model
+VS Code is getting popular and powerful, and Fleet is getting late!
+
+Oct 28
+552
+12
+The Dangerous Linux Commands You Should Never Run in Production (Seriously, Don’t Do It)
+Karthick Dkk
+Karthick Dkk
+in
+devsecops-community
+The Dangerous Linux Commands You Should Never Run in Production (Seriously, Don’t Do It)
+Hey there! If you’re managing Linux systems in production, you know things can go from “Everything is awesome!” to “Why is everything on…
+
+Oct 10
+1K
+23
+See more recommendations
+Help
+Status
+About
+Careers
+Press
+Blog
+Privacy
+Terms
+Text to speech
+Teams
+0%
+ 
+10%
+ 
+20%
+ 
+30%
+ 
+40%
+ 
+50%
+ 
+60%
+ 
+70%
+ 
+80%
+ 
+90%
+ 
+100%

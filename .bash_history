@@ -561,3 +561,10 @@ cha 360
 cd all_wsl/
 gst
 u
+qqq
+1
+222
+lw
+ls
+pwd
+exit
