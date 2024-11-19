@@ -1,6 +1,6 @@
 
 #SingleInstance Force
-!a::run, C:\tools\neovim\Neovim\bin\nvim.exe -c "cd c:\all"      ; Correct
+!a::run, C:\tools\neovim\nvim-win64\bin\nvim.exe -c "cd c:\all"      ; Correct
 !t::run, C:\Users\jayst\AppData\Local\Microsoft\WindowsApps\wt.exe
 !p::runwait, PowerShell.exe -ExecutionPolicy Bypass -Command c:\all\ps\mus.ps1
 
@@ -8,9 +8,9 @@
 
 !v:: send,  | nvim -
 
-!d::run, C:\tools\neovim\Neovim\bin\nvim.exe "c:\all\note\notes"
+!d::run, C:\tools\neovim\nvim-win64\bin\nvim.exe "c:\all\note\notes"
 
-!c::run,  C:\tools\neovim\Neovim\bin\nvim.exe -p c:\all\note\notes c:\all\note\power c:\all\note\work c:\all\note\python c:\all\note\other
+!c::run,  C:\tools\neovim\nvim-win64\bin\nvim.exe -p c:\all\note\notes c:\all\note\power c:\all\note\work c:\all\note\python c:\all\note\other
 
 !q:: Send !{f4}
 return

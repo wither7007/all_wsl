@@ -1,4 +1,6 @@
-
+convert bash path to windows
+pwd | sed 's.\/mnt\/c.c:.g'
+https://www.youtube.com/watch?v=Ht62CQnT1PQ&t=42s
 Dr. Lala
 tues 9/24 3:20
 
@@ -44,7 +46,7 @@ Arrival time:  1:40 PM CDT
 NorthPoint Main Campus
 800 West Broadway Minneapolis, MN 55411
 Tues June 4th 1:20
-
+gpg --decrypt pass.gpg | nvim -
 thunder client
 http://[::1]:3000
 curl -X GET "https://httpbin.org/get" -H "accept: application/json"
@@ -2145,3 +2147,4 @@ Getting divorced sucks…. Being divorced is amazing.
 https://www.theguardian.com/wellness/2024/mar/21/why-we-do-things-bad-for-us-impulse-habits-akrasia
 Abraham fake Lincoln's quote "Give me six hours to chop down a tree and I will spend the first four sharpening the axe."
 The enlightened despotism of Emperor Joseph II of the Holy Roman Empire is summarized as, "Everything for the people, nothing by the people".[4]
+ "Where Id was [Wo es war]," Freud said famously, "there ego shall be [soll ich werden]" (S.E., 22:80).
