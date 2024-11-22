@@ -1,4 +1,3 @@
-: 1727163311:0;v myhistory
 : 1727163337:0;echo 'fffff'
 : 1727163482:0;v history
 : 1727163511:0;fdi -'his'
@@ -140,7 +139,6 @@ git push -u origin main\
 : 1727910841:0;rg font | nvim -
 : 1727911080:0;rg import 
 : 1727911096:0;rfh
-: 1727911098:0;rgh
 : 1727911144:0;rg "import\s"
 : 1727911156:0;rg "import/s"
 : 1727911161:0;rg import
@@ -206,7 +204,6 @@ fd  -H -I\
 : 1728077337:0;type -f fd| nvim -
 : 1728077375:0;fd --changed-within=1days | xargs ls -lhrt
 : 1728077599:0;fd --help
-: 1728077716:0;fdf
 : 1728077740:0;type -f fdh
 : 1728077753:0;unalias fdh
 : 1728077791:0;/usr/bin/fdfind --help
@@ -252,7 +249,6 @@ fd  -H -I\
 : 1728080451:0;git add 
 : 1728080495:0;fd -tf -d 1
 : 1728080575:0;fd |wc
-: 1728080593:0;cd script
 : 1728080646:0;gdif
 : 1728080680:0;git config pull.ff only
 : 1728080724:0;git diff
@@ -302,7 +298,6 @@ tcJump(3409
 : 1728094530:0;rm -rfd hwat
 : 1728094595:0;fday 1
 : 1728213747:0;cd fb
-: 1728214374:0;dser
 : 1728214656:0;wget https://www.redditstatic.com/shreddit/assets/favicon/128x128.png
 : 1728214699:0;type -f dserve
 : 1728214703:0;type -f dserv
@@ -451,7 +446,6 @@ qq
 : 1728297595:0;v echo1
 : 1728297731:0;rename 'Arithmetic Operations.sh' aro
 : 1728297747:0;aplit
-: 1728297749:0;aptlist
 : 1728297939:0;v ren
 : 1728298093:0;./ren
 : 1728298123:0;./ren Compute\ the\ average.sh avh.sh
@@ -480,7 +474,6 @@ qq
 : 1728299379:0;which rename | xargs rm
 : 1728299388:0;which rename | xargs sudo rm
 : 1728299398:0;which rename
-: 1728299533:0;d
 : 1728299575:0;echo $prompt
 : 1728299630:0;prename
 : 1728299659:0;echo $prompt | nvim -
@@ -532,8 +525,6 @@ done
 : 1728543878:0;wi rename
 : 1728543889:0;rename 's/\.bak$//' *.bak
 : 1728543938:0;rename 's/\.bak$//' *.*
-: 1728543959:0;printenv
-: 1728543988:0;printenv | nvim -
 : 1728544835:0;e /
 : 1728544839:0;e //
 : 1728544857:0;e // | sed 's./.x/'
@@ -651,7 +642,6 @@ curl ifconfig.me\
 : 1729726189:0;hostname -I
 : 1729726194:0;hostname -I | clip
 : 1729726198:0;hostname -I | clip.exe
-: 1729726332:0;msinfo
 : 1729726595:0;ping 172.56.12.121
 : 1729727684:0;git remove 	.gnupg/.#lk0x000055695861a950.steff007.3466\
 git remove 	.gnupg/.#lk0x000055ab6b707950.steff007.2416\
@@ -662,11 +652,9 @@ git remove 	.gnupg/.#lk0x000055ab6b707950.steff007.2416\
 : 1729727752:0;gir rm "t.gnupg/.#lk0x000055e050d9d950.steff007.3399"
 : 1729727774:0;git rm "t.gnupg/.#lk0x000055e050d9d950.steff007.3399"
 : 1729728002:0;rm a s.js x.pl y.pl
-: 1729728009:0;v .gitignore
 : 1729728076:0;git add . && git commit 'x'
 : 1729728088:0;git add . && git commit -m 'x'
 : 1729728184:0;gts
-: 1729728203:0;v h.tar
 : 1729728323:0;df
 : 1729730383:0;cd note
 : 1729730385:0;v pass.gpg
@@ -692,14 +680,12 @@ wslpath -w $(pwd) | clip.exe\
 : 1729878036:0;cd 50
 : 1729878228:0;cd background-slider
 : 1729878230:0;qimg
-: 1729878293:0;v index.html
 : 1729878370:0;fdi -ejpg
 : 1729878404:0;fd -ets
 : 1729878446:0;fd -esh
 : 1729878451:0;fd -ejpg
 : 1729878566:0;v scripts/winf.py
 : 1729878671:0;cd 
-: 1729878673:0;cd scripts
 : 1729878685:0;cat winf
 : 1729878689:0;rm winf
 : 1729878770:0;cl
@@ -725,7 +711,6 @@ wslpath -w $(pwd) | clip.exe\
 : 1729891884:0;docker images
 : 1729891928:0;docker rm -vf $(docker ps -aq)
 : 1729891941:0;docker ps -aq
-: 1729892962:0;mc
 : 1729892972:0;pass
 : 1729892978:0;v pass
 : 1729986773:0;ls Tonga
@@ -759,12 +744,9 @@ wslpath -w $(pwd) | clip.exe\
 : 1730514283:0;winh
 : 1730522085:0;cd .local
 : 1730522130:0;fdi lib
-: 1730522136:0;tree
-: 1730522142:0;tree | nvim -
 : 1730522181:0;fdi | wc
 : 1730522191:0;cd share
 : 1730522206:0;f
-: 1730522208:0;lf
 : 1730524458:0;wget https://bringmethenews.com/minnesota-news/hennepin-county-employees-rally-for-higher-wages-call-current-offer-insulting
 : 1730524485:0;curl https://bringmethenews.com/minnesota-news/hennepin-county-employees-rally-for-higher-wages-call-current-offer-insulting
 : 1730524538:0;curl https://bringmethenews.com/minnesota-news/hennepin-county-employees-rally-for-higher-wages-call-current-offer-insulting > x
@@ -936,7 +918,6 @@ autoload -Uz vcs_info\nprecmd() { vcs_info }\
 : 1731447820:0;ye
 : 1731447855:0;yv
 : 1731564445:0;git commit -m 'what'
-: 1731564455:0;git push
 : 1731564549:0;gb
 : 1731565409:0;fday
 : 1731565476:0;fd fd
@@ -964,12 +945,10 @@ sudo systemctl enable ssh\
 : 1731571425:0;ssh steff007@192.168.0.109
 : 1731571849:0;sudo systemctl status ssh
 : 1731571864:0;who
-: 1731571941:0;v new.sh
 : 1731573437:0;ssh steff007@172.22.111.101
 : 1731574220:0;ifconfig
 : 1731574244:0;ping 172.22.111.111
 : 1731574263:0;myip | clip.exe
-: 1731574284:0;ip
 : 1731661243:0;v gp.txt
 : 1731662135:0;awk '!a[$0]++' h
 : 1731662142:0;awk '!a[$0]++' h | wc
@@ -994,7 +973,6 @@ sudo systemctl enable ssh\
 : 1731738920:0;echo "/home/user" | sed 's#/#\\#g'
 : 1731739070:0;read -r path;
 : 1731739085:0;path=$(/usr/bin/wslpath -a "$path")
-: 1731739092:0;echo $path
 : 1731739460:0;wslpath
 : 1731739465:0;wslpath -u
 : 1731739500:0;wslpath -w $(pwd)
@@ -1060,7 +1038,6 @@ sudo systemctl enable ssh\
 : 1731758823:0;gcm p3
 : 1731758829:0;type -f p3
 : 1731758863:0;chmod ug+rwx l.py
-: 1731758898:0;i3
 : 1731758977:0;p3 l.py
 : 1731759141:0;v l.py
 : 1731759150:0;./l.py
@@ -1085,14 +1062,12 @@ mv InOurTime-20241017-HayeksTheRoadToSerfdom.mp3 /mnt/c/temp\
 : 1731840120:0;find . -name '*.py' -type f -print0
 : 1731840167:0;find . -name '*.py' -type f -print0 | strings | grep -i "$1"
 : 1731840210:0;find . -name '*.py' -type f -print0 | sed 's/\x0/\n/g' | grep -i "$1"
-: 1731840228:0;fd -epy
 : 1731840247:0;find .
 : 1731840268:0;git add . && git commit -m 'x' && git push
 : 1731840334:0;gst | rg '/'
 : 1731840394:0;find . -name '*.py' -type f  | sed 's/\x0/\n/g' | grep -i "$1"
 : 1731840421:0;fdi -epy
 : 1731840429:0;h3
-: 1731840499:0;fd -emp3
 : 1731840512:0;fd -emp3 | nvim -
 : 1731840531:0;cp ./gits/50/sound-board/sounds/applause.mp3 $home
 : 1731840544:0;e $home
@@ -1123,7 +1098,6 @@ $files = Get-ChildItem -Path $path -Recurse
 : 1731848641:0;fd --size +30m 
 : 1731848647:0;fdi --size +30m 
 : 1731853894:0;als
-: 1731853900:0;v alias
 : 1731853905:0;nvim alias
 : 1731854003:0;lsize
 : 1731854544:0;git add . && git commit -m 'vim play' && git push
@@ -1133,7 +1107,6 @@ $files = Get-ChildItem -Path $path -Recurse
 : 1731855861:0;sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'\
 
-: 1731856003:0;cd .config
 : 1731856007:0;cd nvim
 : 1731856017:0;md autoload
 : 1731856020:0;cd autoload
@@ -1142,7 +1115,6 @@ $files = Get-ChildItem -Path $path -Recurse
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 : 1731856195:0;v ~/.config/nvim/autoload
 : 1731856222:0;cd ~/.config/nvim/autoload
-: 1731856230:0;pwd
 : 1731856238:0;v plug.vim
 : 1731856357:0;ls | nvim -
 : 1731856445:0;v
@@ -1156,8 +1128,6 @@ $files = Get-ChildItem -Path $path -Recurse
 : 1731857471:0;fdc
 : 1731857483:0;l | nvim -
 : 1731857506:0;duh | nvim -
-: 1731857561:0;lts
-: 1731857567:0;duh
 : 1731857579:0;find . | wc
 : 1731860202:0;md c:\t2
 : 1731860235:0;md /mnt/c/t2
@@ -1180,7 +1150,6 @@ $files = Get-ChildItem -Path $path -Recurse
 : 1731860880:0;vlc a.m3u
 : 1731863461:0;LC_ALL=C sed -e 's/[^a-zA-Z0-9,._+@%/-]/\\&/g; 1{$s/^$/""/}; 1!s/^/"/; $!s/$/"/'.
 : 1731863468:0;LC_ALL=C sed -e 's/[^a-zA-Z0-9,._+@%/-]/\\&/g; 1{$s/^$/""/}; 1!s/^/"/; $!s/$/"/'
-: 1731863561:0;psa
 : 1731863594:0;kill 6249
 : 1731863605:0;for i in {0..127}; do\
     printf -v var %02X $i\
@@ -1202,7 +1171,6 @@ done |\
 : 1731864105:0;sudo apt install shellcheck
 : 1731864175:0;functions.sh
 : 1731864254:0;bash
-: 1731864307:0;fg
 : 1731864339:0;fdh(){\
   /usr/bin/fdfind --help | nvim \
 }\
@@ -1231,37 +1199,26 @@ pwd | sed 's.\/mnt\/c.c:.g' |clip.exe\
 : 1731864374:0;shellcheck functions.sh
 : 1731864983:0;type -f gitr.py
 : 1731865200:0;shellcheck functions.sh | nvim -
-: 1731865495:0;v functions.sh
-: 1731865573:0;c
 : 1731865602:0;git add . && git commit -m 'fix functions' && git push
-: 1731870658:0;mps
 : 1731870686:0;git add . && git commit -m 'fix functions'
 : 1731870695:0;reflog
 : 1731870710:0;git reflog | nvim -
 : 1731870750:0;git reflog
-: 1731870759:0;glog
 : 1731927759:0;uname -a
 : 1731927797:0;uname -r
 : 1731927821:0;cat /etc/os-release
 : 1731936326:0;cd $HOME
 : 1731936341:0;cd /mnt/c/Users
-: 1731936342:0;ld
 : 1731936356:0;fd -ehtml
 : 1731936380:0;fd index.html
 : 1731936399:0;dserve
 : 1731936461:0;p3 -m http.server
-: 1731936813:0;u
 : 1731936878:0;sudo rm -rf untitled
 : 1731936980:0;chmod ug+rwx untitled
 : 1731937081:0;cd untitled
-: 1731937084:0;ls
-: 1731937087:0;ls -a
 : 1731937090:0;rm *
 : 1731937096:0;cd ..
 : 1731937103:0;rm -rfv untitled
-: 1731937172:0;whoami
-: 1731937177:0;t x
-: 1731937180:0;rm x
 : 1731937290:0;sudo rm -r
 : 1731937297:0;sudo rm -r untitled
 : 1731937302:0;su
@@ -1287,16 +1244,13 @@ pwd | sed 's.\/mnt\/c.c:.g' |clip.exe\
 | sed -e 's/\\/\//g' \\
 | sed -e 's/://g' \\
 | sed -e '/^\//!s/^/\//g'
-: 1731938830:0;pc
 : 1731938832:0;/home/steff007
 : 1731939654:0;'word'.Replace('word','@#$+')
-: 1731939808:0;cd
 : 1731939813:0;mnt
 : 1731939831:0;fd U
 : 1731939837:0;fdd u
 : 1731939857:0;cd mnt/c/Users/jimst
 : 1731939868:0;cd /mnt/c/Users/jimst
-: 1731950091:0;qqq
 : 1731958787:0;my
 : 1731958794:0;cd Users
 : 1731958798:0;cd jimst
@@ -1308,84 +1262,494 @@ pwd | sed 's.\/mnt\/c.c:.g' |clip.exe\
 : 1731958864:0;npm create vite@latest
 : 1731959063:0;cd vite-project
 : 1731959070:0;npm install
-: 1731959804:0;h
 : 1731959819:0;npm run dev
 : 1731963162:0;vinit
 : 1731968217:0;down
 : 1731999915:0;fd 'inour' | nvim -
-: 1731999938:0;cd temp
 : 1731999950:0;cd \t2
 : 1731999954:0;myc
 : 1731999967:0;ld -td d1
-: 1731999972:0;his
 : 1731999988:0;fd -td -d1
 : 1732000003:0;cd t2
 : 1732000008:0;v a.m3u
 : 1732000090:0;vlc b.m3u
 : 1732000101:0;p
-: 1732000107:0;func
-: 1732005173:0;all
 : 1732005194:0;git add . && git commit -m 'sync'
-: 1732265240:0;gst
-: 1732265247:0;git pull
 : 1732265334:0;git remote -v
 : 1732265354:0;git fetch
 : 1732265359:0;gdiff
-: 1732265487:0;git merge
-: 1732265542:0;..
 : 1732265551:0;mkcd all_fix
 : 1732265557:0;git clone git@github.com:wither7007/all_wsl.git
 : 1732265578:0;cd all_wsl
-: 1732265583:0;l
 : 1732265588:0;fd lfrc
-: 1732265618:0;cd ~/.config/lfrc
-: 1732265629:0;exit
 : 1732265635:0;cd ~/.config/lfrc
-: 1732265638:0;l
 : 1732265654:0;cd .config
-: 1732265656:0;l
 : 1732265661:0;cd lf
-: 1732265663:0;l
 : 1732265677:0;mv lfrc lfrc 2
 : 1732265681:0;mv lfrc lfrc.2
-: 1732265683:0;d
-: 1732265699:0;pwd
-: 1732265710:0;l
-: 1732265711:0;pc
 : 1732265723:0;cp lfrc /home/steff007/.config/lf
-: 1732265725:0;lf
-: 1732265732:0;l
 : 1732265736:0;t x
-: 1732265740:0;rm x
-: 1732265741:0;gst
-: 1732265774:0;t .aaaa
-: 1732265777:0;lf
-: 1732265787:0;l
-: 1732265798:0;ls -a
 : 1732265809:0;t .aaaa
-: 1732265812:0;ls -a
-: 1732265815:0;lf
-: 1732265836:0;ls -a
 : 1732265843:0;t .aaaa .aa
-: 1732265844:0;lf
-: 1732265857:0;l
 : 1732265893:0;al
-: 1732265895:0;all
-: 1732265898:0;gst
 : 1732265908:0;git stash pop
-: 1732265913:0;gst
 : 1732265929:0;v myhistory
 : 1732265955:0;rm lhrc
-: 1732265966:0;lf
-: 1732265978:0;gst
 : 1732265984:0;git merge
-: 1732265993:0;gst
 : 1732266000:0;git pull
-: 1732266006:0;gst
 : 1732266010:0;rm x
 : 1732266013:0;v ssh
 : 1732266020:0;rm ssh
-: 1732266025:0;l
 : 1732266028:0;v consolehis
-: 1732266037:0;func
 : 1732266059:0;gita lfrc
+: 1732266071:0;git push
+: 1732266161:0;v .bashrc
+: 1732266292:0;msinfo
+: 1732266673:0;lfc
+: 1732266702:0;fdf
+: 1732266722:0;fd -econfig
+: 1732266728:0;fd -econf
+: 1732266733:0;v wsl.conf
+: 1732266776:0;v Pystart
+: 1732266790:0;v env
+: 1732266851:0;cd /mnt/c/projects/p3/modules
+: 1732267350:0;pip install pyperclip
+: 1732267941:0;whoami
+: 1732268634:0;fd -emp3
+: 1732268672:0;#fd -emp3 -x mv {} /mnt/c/inour
+: 1732268684:0;fd -emp3 -x mv {} /mnt/c/inour
+: 1732269450:0;mkcd python
+: 1732269456:0;all
+: 1732269459:0;cd move
+: 1732269468:0;cp * /mnt/c/projects/python
+: 1732269470:0;d
+: 1732269476:0;2
+: 1732270616:0;cd .ipython
+: 1732270626:0;cd profile_default
+: 1732270684:0;sudo apt update
+: 1732270706:0;v new.sh
+: 1732270714:0;v ~/new.sh
+: 1732270742:0;sudo apt install sqlite3
+: 1732270757:0;sqlite3
+: 1732270790:0;sqlite3 history.sqlite
+: 1732271108:0;ld
+: 1732271115:0;y:
+: 1732271124:0;rsync
+: 1732271222:0;u
+: 1732271248:0;rsync -av projects /mnt/c/temp
+: 1732271904:0;fd temp
+: 1732271933:0;ls temp
+: 1732272004:0;trans node_modules
+: 1732272009:0;trash node_modules
+: 1732272023:0;rm -rf vite-project
+: 1732272035:0;ls twt
+: 1732272040:0;cd twt
+: 1732272064:0;rm -rf twt
+: 1732272078:0;rm -rf react
+: 1732272149:0;b sql_hist
+: 1732272156:0;v sql_hist
+: 1732272246:0;glog
+: 1732272257:0;cd sq
+: 1732272334:0;cd gserv
+: 1732272349:0;v index.html
+: 1732272368:0;v script.js
+: 1732272411:0;trash gserv
+: 1732272424:0;cd wpdock
+: 1732272432:0;v wp.tar
+: 1732272452:0;trash wp.tar
+: 1732272493:0;trash fb g
+: 1732272503:0;v .gitignore
+: 1732272533:0;git add . && git commit -m 'clean'
+: 1732272931:0;cd scripts
+: 1732272940:0;fd '^i'
+: 1732272949:0;v ipy
+: 1732272994:0;v ipysql.py
+: 1732273036:0;chmod ug+rwx *
+: 1732273081:0;mv scripts script
+: 1732273496:0;..
+: 1732273539:0;cd .git
+: 1732273658:0;git maintenance run --auto
+: 1732273675:0;nvim -u none
+: 1732273822:0;sudo snap install bfg-repo-cleaner
+: 1732273886:0;bfg --strip-blobs-bigger-than 50M
+: 1732273894:0;bfg
+: 1732273900:0;man bfg
+: 1732273909:0;his
+: 1732273925:0;bgf
+: 1732273979:0;aptlist
+: 1732273986:0;func
+: 1732273998:0;ainstalled
+: 1732274060:0;gst
+: 1732274064:0;lts
+: 1732274117:0;cd one
+: 1732274135:0;lf
+: 1732274228:0;v path
+: 1732274236:0;cat path
+: 1732274244:0;rm path
+: 1732274254:0;fd path
+: 1732274257:0;fdi path
+: 1732274279:0;echo $path
+: 1732274291:0;rg 'tools'
+: 1732274383:0;v h.tar
+: 1732274404:0;mv h.tar /mnt/c/temp
+: 1732274431:0;duh
+: 1732274464:0;rg 'path'
+: 1732274471:0;rgh
+: 1732274501:0;rg -l 'path'
+: 1732274536:0;v alis
+: 1732274541:0;v alias
+: 1732274678:0;cd script
+: 1732274679:0;pwd
+: 1732274689:0;pc
+: 1732274690:0;fg
+: 1732274749:0;ls script
+: 1732274755:0;dser
+: 1732274794:0;read -p "Enter fullname: " fullname
+: 1732274802:0;read "Enter fullname: " fullname
+: 1732274868:0;read name
+: 1732274881:0;v .bashrc 
+: 1732274992:0;sudo grep -r "/home/user/dir" /etc
+: 1732275022:0;sudo grep -r "PATH=" /
+: 1732275075:0;rg path
+: 1732275090:0;c
+: 1732275093:0;rg -l path
+: 1732275104:0;tree
+: 1732275109:0;tree | nvim -
+: 1732275182:0;apt-get install silversearcher-ag
+: 1732275199:0;sudo apt-get install silversearcher-ag
+: 1732275205:0;ag
+: 1732275242:0;cd /etc
+: 1732275244:0;ag -s '/home/user/dir' | egrep '^\d+' | cut -d ':' -f 1 | uniq
+: 1732275269:0;sudo ag -s '/home/user/dir' | egrep '^\d+' | cut -d ':' -f 1 | uniq
+: 1732275362:0;psa
+: 1732275367:0;ls -a
+: 1732275795:0;export PATH=$PATH:/home/steff007/script
+: 1732275800:0;printf '%s\n' $PATH
+: 1732275815:0;ip
+: 1732275950:0;cd /tmp
+: 1732275960:0;fd -epy
+: 1732276074:0;printenv
+: 1732276113:0;mv Pystart pystart.py
+: 1732276685:0;mc
+: 1732276687:0;cd temp
+: 1732276694:0;v pp
+: 1732276703:0;cd
+: 1732276749:0;ipy
+: 1732276848:0;mps
+: 1732276851:0;cd python
+: 1732276862:0;fd -a pys
+: 1732276867:0;fd -a pys | clip
+: 1732276872:0;fd -a pys | clip.exe
+: 1732276962:0;alias i3='ipython /mnt/c/projects/python/pystart.py'
+: 1732277028:0;ls
+: 1732277041:0;i3
+: 1732279584:0;l
+: 1732279595:0;ll
+: 1732279636:0;la
+: 1732279666:0;shellcheck .bashrc
+: 1732279679:0;shellcheck .bashrc| nvim -
+: 1732279704:0;v .zshrc 
+: 1732279782:0;rg -l impirt
+: 1732279787:0;rg -l import
+: 1732279812:0;v functions.sh
+: 1732279831:0;v .bashrc .zshrc
+: 1732279876:0;mv .bashrc .bashrc.1
+: 1732279892:0;printenv | nvim -
+: 1732279897:0;h
+: 1732279929:0;mv .zshrc .zshrc
+: 1732279935:0;mv .zshrc .zshrc.1
+: 1732279994:0;source alias
+: 1732280017:0;source .zshrc.1
+: 1732280129:0;wsl
+: 1732280134:0;qqq
+: 1732280348:0;fd z
+: 1732280368:0;source functions.sh 
+: 1732280389:0;v .vimrc
+: 1732280417:0;rg
+: 1732280427:0;ls -a | rg 'z'
+: 1732280442:0;source zshrc
+: 1732280502:0;exit
+: 1732280527:0;v .zshrc 
+: 1732280557:0;v /mnt/c/projects/python/pystart.py
+: 1732280572:0;his
+: 1732280575:0;h
+: 1732280613:0;v diag
+: 1732280685:0;l
+: 1732280688:0;v diag
+: 1732280704:0;v .zshrc 
+: 1732280717:0;qqq
+: 1732280735:0;rg pystart
+: 1732280791:0;alias i3='ipython -i /mnt/c/projects/python/pystart.py'
+: 1732280793:0;i3
+: 1732280828:0;v diag
+: 1732280837:0;v .bashrc .zshrc
+: 1732280865:0;qqq
+: 1732280871:0;gst
+: 1732280885:0;func
+: 1732280893:0;gita
+: 1732280923:0;gst
+: 1732280932:0;ld
+: 1732280942:0;ll
+: 1732280973:0;la
+: 1732280991:0;gst
+: 1732280996:0;git add .
+: 1732281066:0;git config core.eol lf
+: 1732281070:0;git add .
+: 1732281086:0;la
+: 1732281101:0;v .gitignore
+: 1732281126:0;fdi -a cargo
+: 1732281133:0;fdi -d1 -a cargo
+: 1732281158:0;v .gitignore
+: 1732281172:0;git add .
+: 1732281227:0;cd .ipython/profile_default/startup
+: 1732281243:0;cd .ipython
+: 1732281246:0;cd
+: 1732281250:0;h
+: 1732281254:0;cd .ipython/profile_default/startup
+: 1732281256:0;l
+: 1732281261:0;la
+: 1732281266:0;tf la
+: 1732281272:0;fdi
+: 1732281305:0;v vim 00-commands.py
+: 1732281338:0;l
+: 1732281343:0;pc
+: 1732281345:0;fg
+: 1732281368:0;l
+: 1732281378:0;v nvim
+: 1732281392:0;mv nvim 00-commands.py
+: 1732281400:0;qqq
+: 1732281406:0;i3
+: 1732281724:0;mps
+: 1732281726:0;h
+: 1732281751:0;mps
+: 1732281753:0;cd python
+: 1732281755:0;l
+: 1732281766:0;mv * .ipython/profile_default/startup
+: 1732281790:0;d
+: 1732281797:0;h
+: 1732281810:0;cd .ipython/profile_default/startup
+: 1732281812:0;pc
+: 1732281823:0;mv * /home/steff007/.ipython/profile_default/startup
+: 1732281825:0;l
+: 1732281830:0;func
+: 1732281852:0;ipython
+: 1732281879:0;func
+: 1732281926:0;pwd
+: 1732281928:0;pc
+: 1732281930:0;fg
+: 1732281944:0;unalias i3
+: 1732281946:0;i3(){\
+  cd /mnt/c/projects/python \
+  ipython \
+}\
+
+: 1732281947:0;i3
+: 1732281974:0;l
+: 1732281976:0;la
+: 1732281991:0;fg
+: 1732282078:0;i3
+: 1732282126:0;printenv | nvim -
+: 1732282133:0;ipy
+: 1732282314:0;yv
+: 1732282326:0;tf yv
+: 1732282337:0;tf yv | nvim -
+: 1732282345:0;v /home/steff007/script/yv
+: 1732282448:0;yv
+: 1732282770:0;yt-dlp
+: 1732282776:0;yt-dlp  --list-formats
+: 1732282795:0;yt-dlp --help
+: 1732282799:0;yt-dlp --help | nvim -
+: 1732282826:0;his
+: 1732282829:0;h
+: 1732282872:0;yt-dlp --help | nvim -
+: 1732282886:0;yt-dlp -U
+: 1732282958:0;printenv | nvim -
+: 1732282989:0;tf nvim
+: 1732283006:0;v .zshrc 
+: 1732283093:0;sudo update-alternatives --config editor
+: 1732283108:0;fg
+: 1732283135:0;qqq
+: 1732283144:0;printenv | nvim -
+: 1732283150:0;i3
+: 1732285850:0;vinit
+: 1732285868:0;v
+: 1732285892:0;v a.html
+: 1732285899:0;vinit
+: 1732285909:0;v a.html
+: 1732289445:0;mps
+: 1732289451:0;cd chromeHistory
+: 1732289451:0;l
+: 1732289454:0;v commands
+: 1732289482:0;v twit
+: 1732289500:0;his
+: 1732289501:0;h
+: 1732289539:0;l
+: 1732289543:0;npx jsbeutify twit
+: 1732289558:0;func
+: 1732289573:0;pretty twit
+: 1732289577:0;l
+: 1732289580:0;v ptwit
+: 1732289741:0;mc
+: 1732289744:0;cd twit
+: 1732289745:0;l
+: 1732289750:0;wget 'https://radiopublic.com/this-week-in-google-mp3-0G2pv6'
+: 1732289880:0;wget 'https://pdst.fm/e/pscrb.fm/rss/p/cdn.twit.tv/libsyn/twig_795/5b6c1516-7338-4acd-91f1-08131542eeec/R1_twig0795.mp3'
+: 1732290028:0;v commands
+: 1732290042:0;h
+: 1732290048:0;fg
+: 1732290070:0;l
+: 1732290093:0;exif R1_twit1005.mp3
+: 1732291608:0;v commands
+: 1732291841:0;l
+: 1732291848:0;mps
+: 1732291849:0;l
+: 1732291851:0;duh
+: 1732291855:0;f2
+: 1732291946:0;f2 | awk '{print $5}'
+: 1732291952:0;f2 | awk '{print $6}'
+: 1732291957:0;f2
+: 1732291967:0;f2 | awk '{print $6}' | head
+: 1732291987:0;f2 | awk '{print $9}' | head
+: 1732292012:0;f2 | awk '{print $9}' 
+: 1732292026:0;f2 | awk '{print $9}' > f
+: 1732292028:0;v f
+: 1732292057:0;f2 | awk '{print $9}' | sort
+: 1732292088:0;h
+: 1732292098:0;https://twit.tv/shows/this-week-in-google
+: 1732292101:0;h
+: 1732292106:0;f2 | awk '{print $9}' | sort
+: 1732292122:0;ls n2
+: 1732292128:0;cat n2
+: 1732292143:0;l
+: 1732292147:0;lf
+: 1732292196:0;l
+: 1732292205:0;rm docs
+: 1732292208:0;lf
+: 1732292243:0;cd one
+: 1732292243:0;l
+: 1732292249:0;lf
+: 1732292331:0;gh statu
+: 1732292334:0;gh status
+: 1732292345:0;gh
+: 1732292394:0;gh auth login
+: 1732292605:0;gh --version
+: 1732292625:0;gh auth login
+: 1732292819:0;curl https://api.github.com/users/wither7007
+: 1732292826:0;curl https://api.github.com/users/wither7007 | nvim -
+: 1732292873:0;curl "https://api.github.com/users/wither7007/repos",
+: 1732292877:0;curl "https://api.github.com/users/wither7007/repos"
+: 1732292882:0;curl "https://api.github.com/users/wither7007/repos" | nvim -
+: 1732292980:0;h
+: 1732293022:0;curl "https://api.github.com/users/wither7007/repos" | nvim -
+: 1732293036:0;fg
+: 1732293053:0;curl "https://api.github.com/users/wither7007/repos" | jq -r "full_name"
+: 1732293081:0;sudo apt-get install jq
+: 1732293096:0;v ~/new.sh
+: 1732293108:0;h
+: 1732293115:0;curl "https://api.github.com/users/wither7007/repos" | jq -r "full_name"
+: 1732293131:0;curl "https://api.github.com/users/wither7007/repos" | jq -r ".full_name"
+: 1732293160:0;curl -s 'https://api.github.com/repos/tmux-plugins/tpm' | jq -r '.description'
+: 1732293191:0;curl "https://api.github.com/users/wither7007/repos" | jq -r '.full_name'
+: 1732293206:0;curl -s 'https://api.github.com/repos/tmux-plugins/tpm' | nvim -
+: 1732293229:0;curl "https://api.github.com/users/wither7007/repos"
+: 1732293234:0;curl "https://api.github.com/users/wither7007/repos" | nvim -
+: 1732293679:0;gh repo list SAP-samples --limit 10 --public
+: 1732293709:0;gh repo list --json
+: 1732293742:0;gh repo list SAP-samples --limit 10 --public \\
+  --json name \\
+  --jq .[].name
+: 1732293775:0;gh repo list SAP-samples --limit 10 --public  --json name  --jq .[].name
+: 1732293865:0;..
+: 1732293869:0;mkcd gh
+: 1732293872:0;gh repo list SAP-samples --limit 10 --public  --json name  --jq .[].name
+: 1732293884:0;wget 'https://gist.githubusercontent.com/CesarCapillas/457f6b7cba9bfa65e36421d4f3e738de/raw/db9fedcc38ce2be1c7f85b95b52e96b536aca9c9/Alfresco%2520REST%2520API%2520jq%2520examples'
+: 1732293887:0;l
+: 1732293903:0;cd script
+: 1732293909:0;v yv
+: 1732293948:0;fd spac
+: 1732293951:0;v space
+: 1732293965:0;fg
+: 1732293969:0;v space
+: 1732293996:0;l
+: 1732294014:14;v
+: 1732294033:0;rename "s/[^a-zA-Z0-9\.]/_/g" *
+: 1732294034:0;l
+: 1732294056:0;v space
+: 1732294092:0;note
+: 1732294176:0;mc
+: 1732294178:0;cd you
+: 1732294178:0;l
+: 1732294186:0;rename "s/_+/_/g"')
+: 1732294190:0;rename "s/_+/_/g"
+: 1732294218:0;rename "s/_+/_/g" *
+: 1732294220:0;l
+: 1732294270:0;lf
+: 1732294294:0;type -f yv
+: 1732294305:0;cd
+: 1732294308:0;cd script
+: 1732294310:0;v yv
+: 1732294754:0;h
+: 1732294777:0;cd
+: 1732294782:0;l
+: 1732294790:0;v diag
+: 1732294804:0;v -O .bashrc .zshrc
+: 1732294878:0;d
+: 1732294882:0;mps
+: 1732294885:0;cd gh
+: 1732294886:0;l
+: 1732294899:0;h
+: 1732294995:0;cat ~/.bash_history
+: 1732295002:0;cd
+: 1732295008:0;fdi 'his'
+: 1732295020:0;fdi -d1 'his'
+: 1732295034:0;v hist
+: 1732295048:0;mv hist histz
+: 1732295051:0;v hist
+: 1732295061:0;v histz
+: 1732295065:0;lf
+: 1732295202:0;qqq
+: 1732295220:0;echo $HISTSIZE; echo $HISTFILESIZE
+: 1732295235:0;v .zshrc
+: 1732295245:0;export HISTSIZE=-1; export HISTFILESIZE=-1
+: 1732295256:0;h
+: 1732295287:0;qqq
+: 1732295330:0;h
+: 1732295338:0;h
+: 1732295346:0;gst
+: 1732295361:0;gst | nvim -
+: 1732295390:0;v .gitignore
+: 1732295416:0;gst
+: 1732295428:0;h
+: 1732295450:0;fdi -d1 'his'
+: 1732295464:0;cat .zhistory
+: 1732295477:0;gst
+: 1732295488:0;gst | nvim -
+: 1732295504:0;v .gitignore
+: 1732295546:0;gst
+: 1732295555:0;gst | nvim -
+: 1732295583:0;v .gitignore
+: 1732295658:0;git rm -rf --cached .
+: 1732295661:0;gst
+: 1732295673:0;gst | nvim -
+: 1732295697:0;gita
+: 1732295714:0;gst
+: 1732295727:0;git commit -m 'major'
+: 1732295730:0;gst
+: 1732295739:0;glog
+: 1732295743:0;h
+: 1732295747:0;mps
+: 1732295748:0;l
+: 1732295775:0;gst
+: 1732295810:0;git add .
+: 1732295824:0;git commit -m 'fup'
+: 1732295826:0;gst
+: 1732295845:0;glog
+: 1732295858:0;v ~/.bashrc
+: 1732295897:0;v ~/.zshrc
+: 1732295940:0;cd all
+: 1732295943:0;all
+: 1732295945:0;l
+: 1732295948:0;v myhistory
+: 1732295964:0;gst
+: 1732295977:0;tf gita
+: 1732295990:0;gita 'mess'

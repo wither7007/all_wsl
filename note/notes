@@ -3,6 +3,9 @@ cd $(wslpath 'c:\users')
 cd $(wslpath 'C:\Users\jimst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine')
 convert bash path to windows
 pwd | sed 's.\/mnt\/c.c:.g'
+
+rename "s/[^a-zA-Z0-9\.]/_/g"')
+rename "s/_+/_/g"')
 https://www.youtube.com/watch?v=Ht62CQnT1PQ&t=42s
 Dr. Lala
 tues 9/24 3:20
