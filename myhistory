@@ -255,8 +255,6 @@ fd  -H -I\
 : 1728080593:0;cd script
 : 1728080646:0;gdif
 : 1728080680:0;git config pull.ff only
-: 1728080700:0;git pull
-: 1728080713:0;git fetch
 : 1728080724:0;git diff
 : 1728080779:0;git config | nvim -
 : 1728080791:0;git config | less
@@ -440,7 +438,6 @@ qq
 : 1728296974:0;cd HackerRank-The-Linux-Shell-Challenges-Solutions
 : 1728296985:0;fd hacker
 : 1728297008:0;rename x y
-: 1728297019:0;t xx
 : 1728297022:0;name xx y
 : 1728297029:0;rename xx y
 : 1728297454:0;autoload zmv
@@ -731,7 +728,6 @@ wslpath -w $(pwd) | clip.exe\
 : 1729892962:0;mc
 : 1729892972:0;pass
 : 1729892978:0;v pass
-: 1729986665:0;all
 : 1729986773:0;ls Tonga
 : 1729986792:0;cat Tonga
 : 1729988154:0;lf --version
@@ -867,7 +863,6 @@ done <file.txt
 : 1731116857:0;cd /mnt/
 : 1731116859:0;cd c
 : 1731116861:0;t z
-: 1731117027:0;cd Users
 : 1731117084:0;sudo t x
 : 1731117097:0;sudo touch x
 : 1731117166:0;ls -l
@@ -942,7 +937,6 @@ autoload -Uz vcs_info\nprecmd() { vcs_info }\
 : 1731447855:0;yv
 : 1731564445:0;git commit -m 'what'
 : 1731564455:0;git push
-: 1731564537:0;git remote -v
 : 1731564549:0;gb
 : 1731565409:0;fday
 : 1731565476:0;fd fd
@@ -1025,7 +1019,6 @@ sudo systemctl enable ssh\
 : 1731752616:0;wind
 : 1731753370:0;git add .
 : 1731753384:0;git commit -m 'vinit'
-: 1731753392:0;gdiff
 : 1731753455:0;rec 32
 : 1731753654:0;v 
 : 1731753747:0;recf() {\
@@ -1166,7 +1159,6 @@ $files = Get-ChildItem -Path $path -Recurse
 : 1731857561:0;lts
 : 1731857567:0;duh
 : 1731857579:0;find . | wc
-: 1731860172:0;down
 : 1731860202:0;md c:\t2
 : 1731860235:0;md /mnt/c/t2
 : 1731860250:0;fd "inou" -emp3
@@ -1179,15 +1171,12 @@ $files = Get-ChildItem -Path $path -Recurse
 : 1731860632:0;rm t.m3u
 : 1731860638:0;fd | nvim -
 : 1731860676:0;fd -m3u
-: 1731860685:0;..
 : 1731860772:0;myc() {\
   cd /mnt/c\
 }\
 
 : 1731860777:0;fd -em3u
-: 1731860848:0;cd temp
 : 1731860854:0;v two.m3u
-: 1731860865:0;v a.m3u
 : 1731860880:0;vlc a.m3u
 : 1731863461:0;LC_ALL=C sed -e 's/[^a-zA-Z0-9,._+@%/-]/\\&/g; 1{$s/^$/""/}; 1!s/^/"/; $!s/$/"/'.
 : 1731863468:0;LC_ALL=C sed -e 's/[^a-zA-Z0-9,._+@%/-]/\\&/g; 1{$s/^$/""/}; 1!s/^/"/; $!s/$/"/'
@@ -1212,7 +1201,6 @@ done |\
 : 1731864010:0;source functions.sh
 : 1731864105:0;sudo apt install shellcheck
 : 1731864175:0;functions.sh
-: 1731864188:0;qqq
 : 1731864254:0;bash
 : 1731864307:0;fg
 : 1731864339:0;fdh(){\
@@ -1242,7 +1230,6 @@ pwd | sed 's.\/mnt\/c.c:.g' |clip.exe\
 
 : 1731864374:0;shellcheck functions.sh
 : 1731864983:0;type -f gitr.py
-: 1731865156:0;vinit
 : 1731865200:0;shellcheck functions.sh | nvim -
 : 1731865495:0;v functions.sh
 : 1731865573:0;c
@@ -1251,8 +1238,6 @@ pwd | sed 's.\/mnt\/c.c:.g' |clip.exe\
 : 1731870686:0;git add . && git commit -m 'fix functions'
 : 1731870695:0;reflog
 : 1731870710:0;git reflog | nvim -
-: 1731870721:0;gst
-: 1731870734:0;h
 : 1731870750:0;git reflog
 : 1731870759:0;glog
 : 1731927759:0;uname -a
@@ -1261,16 +1246,13 @@ pwd | sed 's.\/mnt\/c.c:.g' |clip.exe\
 : 1731936326:0;cd $HOME
 : 1731936341:0;cd /mnt/c/Users
 : 1731936342:0;ld
-: 1731936351:0;cd jimst
 : 1731936356:0;fd -ehtml
 : 1731936380:0;fd index.html
-: 1731936391:0;cd WebstormProjects
 : 1731936399:0;dserve
 : 1731936461:0;p3 -m http.server
 : 1731936813:0;u
 : 1731936878:0;sudo rm -rf untitled
 : 1731936980:0;chmod ug+rwx untitled
-: 1731936983:0;rm -rf untitled
 : 1731937081:0;cd untitled
 : 1731937084:0;ls
 : 1731937087:0;ls -a
@@ -1294,7 +1276,6 @@ pwd | sed 's.\/mnt\/c.c:.g' |clip.exe\
 : 1731938233:0;echo "\\"
 : 1731938257:0;echo "\\" | sed 's.\\.z'
 : 1731938273:0;echo "\\" | sed 's.\\.'
-: 1731938280:0;his
 : 1731938305:0;sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'
 : 1731938326:0;echo "/mnt/c" | sed -e 's/c:\\'
 : 1731938354:0;echo "x" | sed 's.x.y'
@@ -1311,56 +1292,100 @@ pwd | sed 's.\/mnt\/c.c:.g' |clip.exe\
 : 1731939654:0;'word'.Replace('word','@#$+')
 : 1731939808:0;cd
 : 1731939813:0;mnt
-: 1731939819:0;func
-: 1731939825:0;myc
-: 1731939828:0;l
 : 1731939831:0;fd U
 : 1731939837:0;fdd u
 : 1731939857:0;cd mnt/c/Users/jimst
 : 1731939868:0;cd /mnt/c/Users/jimst
-: 1731950087:0;exit
 : 1731950091:0;qqq
 : 1731958787:0;my
-: 1731958789:0;myc
 : 1731958794:0;cd Users
-: 1731958795:0;l
 : 1731958798:0;cd jimst
-: 1731958799:0;l
 : 1731958802:0;cd WebstormProjects
-: 1731958803:0;l
 : 1731958805:0;t xx
-: 1731958806:0;l
 : 1731958808:0;rm xx
 : 1731958817:0;rm -rf untitled
-: 1731958819:0;l
 : 1731958830:0;npm
 : 1731958864:0;npm create vite@latest
 : 1731959063:0;cd vite-project
 : 1731959070:0;npm install
-: 1731959167:0;l
-: 1731959173:0;npm run dev
 : 1731959804:0;h
-: 1731959815:0;his
 : 1731959819:0;npm run dev
 : 1731963162:0;vinit
 : 1731968217:0;down
-: 1731968218:0;l
 : 1731999915:0;fd 'inour' | nvim -
 : 1731999938:0;cd temp
-: 1731999940:0;l
 : 1731999950:0;cd \t2
 : 1731999954:0;myc
-: 1731999958:0;l
 : 1731999967:0;ld -td d1
 : 1731999972:0;his
 : 1731999988:0;fd -td -d1
 : 1732000003:0;cd t2
-: 1732000005:0;l
 : 1732000008:0;v a.m3u
-: 1732000085:0;l
 : 1732000090:0;vlc b.m3u
 : 1732000101:0;p
 : 1732000107:0;func
 : 1732005173:0;all
-: 1732005174:0;gst
 : 1732005194:0;git add . && git commit -m 'sync'
+: 1732265240:0;gst
+: 1732265247:0;git pull
+: 1732265334:0;git remote -v
+: 1732265354:0;git fetch
+: 1732265359:0;gdiff
+: 1732265487:0;git merge
+: 1732265542:0;..
+: 1732265551:0;mkcd all_fix
+: 1732265557:0;git clone git@github.com:wither7007/all_wsl.git
+: 1732265578:0;cd all_wsl
+: 1732265583:0;l
+: 1732265588:0;fd lfrc
+: 1732265618:0;cd ~/.config/lfrc
+: 1732265629:0;exit
+: 1732265635:0;cd ~/.config/lfrc
+: 1732265638:0;l
+: 1732265654:0;cd .config
+: 1732265656:0;l
+: 1732265661:0;cd lf
+: 1732265663:0;l
+: 1732265677:0;mv lfrc lfrc 2
+: 1732265681:0;mv lfrc lfrc.2
+: 1732265683:0;d
+: 1732265699:0;pwd
+: 1732265710:0;l
+: 1732265711:0;pc
+: 1732265723:0;cp lfrc /home/steff007/.config/lf
+: 1732265725:0;lf
+: 1732265732:0;l
+: 1732265736:0;t x
+: 1732265740:0;rm x
+: 1732265741:0;gst
+: 1732265774:0;t .aaaa
+: 1732265777:0;lf
+: 1732265787:0;l
+: 1732265798:0;ls -a
+: 1732265809:0;t .aaaa
+: 1732265812:0;ls -a
+: 1732265815:0;lf
+: 1732265836:0;ls -a
+: 1732265843:0;t .aaaa .aa
+: 1732265844:0;lf
+: 1732265857:0;l
+: 1732265893:0;al
+: 1732265895:0;all
+: 1732265898:0;gst
+: 1732265908:0;git stash pop
+: 1732265913:0;gst
+: 1732265929:0;v myhistory
+: 1732265955:0;rm lhrc
+: 1732265966:0;lf
+: 1732265978:0;gst
+: 1732265984:0;git merge
+: 1732265993:0;gst
+: 1732266000:0;git pull
+: 1732266006:0;gst
+: 1732266010:0;rm x
+: 1732266013:0;v ssh
+: 1732266020:0;rm ssh
+: 1732266025:0;l
+: 1732266028:0;v consolehis
+: 1732266037:0;func
+: 1732266059:0;gita lfrc
