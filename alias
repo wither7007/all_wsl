@@ -181,3 +181,4 @@ alias '....'='cd ../../..'
 alias '.....'='cd ../../../..'
 alias 'rename'='/usr/bin/prename.pl'
 alias 'lfi'='v ~/.config/lf/lfrc'
+alias v="/opt/nvim-linux-x86_64/bin/nvim"
